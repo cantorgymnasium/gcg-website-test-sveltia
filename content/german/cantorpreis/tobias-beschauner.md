@@ -1,16 +1,16 @@
 ---
-title: "Frau Schapitz"
+title: "Tobias Beschauner"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.png"
 # meta description
-description : ""
+description : "Biochemie-Studium Heidelberg"
 # teacher portrait
-image: "images/teachers/cschapitz.png"
+image: "images/cantorpreis/tobias-beschauner-2019.jpg"
 # course
-course: "Fremdsprachen"
+year: "2019"
 # biography
-bio: "Frau Schapitz ist eine Lehrerin für die Fremdsprachen Englisch und Französisch und die stellvertretende Schulleiterin an unserer Schule."
+bio: ""
 # interest
 interest: ["Englisch","Französisch"]
 # contact info
@@ -23,12 +23,6 @@ contact:
 # clubs ?
 clubs: false
 # type
-type: "teacher"
+type: "cantorpreis"
 forestry_link: ""
 ---
-
-### Claudia Schapitz
-
-Selbstbeschreibung
-
-## Kontakt
