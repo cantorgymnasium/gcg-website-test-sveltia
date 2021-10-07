@@ -24,6 +24,6 @@ jobs:
           # The repo to push the built site to
           repo: eesev9ie/eesev9ie.github.io
           # The version of hugo to use
-          hugoVersion: 0.69.0
+          hugoVersion: 0.88.1
           # Arguments to pass to Hugo
           args: # optional, default is --gc --minify --cleanDestinationDir

@@ -203,7 +203,7 @@ URL = "forms"
 [params]
 logo = "media/logo.png"
 # Meta data
-author = "Denys Konovalov|CantorTechnik AG|LXDB Team"
+author = "Denys Konovalov | CantorTechnik AG | LXDB Team"
 # contact info
 address = "Georg-Cantor-Gymnasium, Torstraße 13, 06110 Halle(Saale)"
 route_link = "https://maps.openrouteservice.org/directions?n1=51.473292&n2=11.965606&n3=18&a=null,null,51.473292,11.965606&b=0&c=0&k1=de&k2=km"
@@ -258,7 +258,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 Georg-Cantor-Gymnasium Halle"
+copyright = "Copyright &copy; 2021 Georg-Cantor-Gymnasium Halle"
 
 impressumURL = "impressum"
 
@@ -270,7 +270,7 @@ contentDir = "content/german"
 weight = 2
 home = "Startseite"
 # copyright
-copyright = "Copyright &copy; 2020 Georg-Cantor-Gymnasium Halle(Saale)"
+copyright = "Copyright &copy; 2021 Georg-Cantor-Gymnasium Halle(Saale)"
 
 impressumURL = "impressum"
 impressumminURL = "impressum-min"
