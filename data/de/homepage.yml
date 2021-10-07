@@ -135,8 +135,7 @@ about:
   button:
     enable : true
     label : "Digitale Führung durch das Schulhaus"
-    link : "vr"
-
+    link : "https://cantorgymnasium.de/virtuell"
 
 ############################# Course ################################
 ganztagsangebote:
