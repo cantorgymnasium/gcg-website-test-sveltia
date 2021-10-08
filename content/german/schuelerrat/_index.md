@@ -17,11 +17,14 @@ Wir sind für alle Beschwerden und Vorhaben unserer Schüler zuständig, tragen 
 
 ## Ansprechpartner
 
-### Lena Kauer
+### Hagen Häußler
 Schülersprecherin (Klasse 11)
 
-### Hagen Häußler
-Schülersprecher (Klasse 10)
+### Elias Peschek
+Schülersprecher (Klasse 9)
+
+### Denys Konovalov
+Schülerbeirat
 
 ## Kontaktmöglichkeiten
 
