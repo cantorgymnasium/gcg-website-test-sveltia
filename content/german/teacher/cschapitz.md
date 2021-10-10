@@ -8,7 +8,7 @@ description : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
 # teacher portrait
 image: "media/teachers/cschapitz.png"
 # course
-courses: ["Fremdsprachen"]
+courses: 
 # biography
 bio: "Frau Schapitz ist eine Lehrerin für die Fremdsprachen Englisch und Französisch und die stellvertretende Schulleiterin an unserer Schule."
 # interest
