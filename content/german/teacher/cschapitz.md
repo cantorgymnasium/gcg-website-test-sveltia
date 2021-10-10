@@ -12,7 +12,7 @@ courses: ["Fremdsprachen"]
 # biography
 bio: "Frau Schapitz ist eine Lehrerin für die Fremdsprachen Englisch und Französisch und die stellvertretende Schulleiterin an unserer Schule."
 # interest
-interest: ["Englisch","Französisch"]
+interest:
 # contact info
 contact:
   # contact item loop
