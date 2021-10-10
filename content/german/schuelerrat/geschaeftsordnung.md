@@ -1,11 +1,9 @@
 ---
-title: "Geschäftsordnung"
+title: Geschäftsordnung
 draft: false
-# page title background image
-bg_image: "media/backgrounds/page-title.png"
-type: "pages"
+bg_image: media/backgrounds/page-title.png
+type: pages
 ---
-
 ## 1. Namensgebung
 
 Der Schülerrat des Georg-Cantor-Gymnasiums gibt sich als Interessenvertretung der Schüler der Schule den Namen „Schülerrat des Georg-Cantor-Gymnasiums“ mit der offiziellen Abkürzung SR-GCG.
@@ -25,23 +23,26 @@ Alle Einladungen und Informationen sind rechtzeitig durch den Beauftragten weite
 Der Schülerrat des Georg-Cantor-Gymnasiums untergliedert sich in vier ständige Organe:
 
 {{% content %}}
-- Vorstand
-- Vollversammlung
-- Delegation zum Stadtschülerrat
-- Beirat des Schülerrates
-{{% /content %}}
+
+* Vorstand
+* Vollversammlung
+* Delegation zum Stadtschülerrat
+* Beirat des Schülerrates
+  {{% /content %}}
 
 Des Weiteren können nach Bedarf Ausschüsse als weitere, nicht ständige Organe einberufen werden.
 
 ## 5. Vorstand
+
 Der Vorstand ist das zweithöchste beschlussfassende Organ des Schülerrates des Georg-Cantor-Gymnasiums.
 Der Vorstand besteht aus:
 
 {{% content %}}
-- einem Vorsitzenden, welcher den Titel Schülersprecher tragen darf. Der Schülersprecher übernimmt insbesondere die Aufgaben- und Informationsverteilung an andere Vorstandsmitglieder
-- einem/ zwei stellvertretenden Vorsitzenden
-- weiteren nach Bedarf einberufenen Vorstandsmitgliedern (Beisitzer)
-{{% /content %}}
+
+* einem Vorsitzenden, welcher den Titel Schülersprecher tragen darf. Der Schülersprecher übernimmt insbesondere die Aufgaben- und Informationsverteilung an andere Vorstandsmitglieder
+* einem/ zwei stellvertretenden Vorsitzenden
+* weiteren nach Bedarf einberufenen Vorstandsmitgliedern (Beisitzer)
+  {{% /content %}}
 
 Die Wahl des Vorstandes erfolgt aus den Reihen des Schülerrates des Georg-Cantor-Gymnasiums und auf Wunsch als geheime Wahl.
 
@@ -63,7 +64,7 @@ Die Vertretung verhinderter Mitglieder des Schülerrates des Georg-Cantor-Gymnas
 
 Die Vollversammlung ist bei Anwesenheit von zwei Dritteln der Mitglieder beschlussfähig.
 
-### 6. [A] Vertreter in der Gesamtkonferenz
+### 6. \[A] Vertreter in der Gesamtkonferenz
 
 (1) Der Schülerrat wählt aus der gesamten Schülerschaft genauso so viele Vertreter in die Gesamtkonferenz, wie von der Schulleitung vorgegeben und mindestens halb so viele Stellvertreter.
 
@@ -110,7 +111,7 @@ Ausschüsse sind bei einer Anwesenheit von zwei Dritteln der stimmberechtigten M
 
 Die Beschlussfähigkeit wird in den jeweiligen Absätzen zu den Organen der Satzung des Schülerrates des Georg-Cantor-Gymnasiums festgelegt.
 
-### 10. [A] Abstimmungen
+### 10. \[A] Abstimmungen
 
 Abstimmungen gelten mit einfacher Mehrheit als angenommen. Die Stimmabgabe erfolgt durch einfaches Handaufheben.
 
@@ -122,5 +123,4 @@ Falls andere Abstimmungsmöglichkeiten vorgeschlagen werden, welche den demokrat
 
 Personen- und Funktionsbezeichnungen in dieser Satzung gelten jeweils in weiblicher und männlicher Form.
 
-
->Letzte Änderung: 14.06.2017
+Letzte Änderung: 14.06.2017
