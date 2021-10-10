@@ -239,14 +239,12 @@ collections:
       - label: "Fachbereiche"
         name: "courses"
         widget: "list"
-        fields:
-          - {label: "Fachbereich", name: "course", widget: "string"}
+        field: {label: "Fachbereich", name: "course", widget: "string"}
       - {label: "Beschreibung", name: "bio", widget: "text"}
       - label: "Fächer/Arbeitsgemeinschaften"
         name: "interest"
         widget: "list"
-        fields:
-          - {label: "Fach/AG", name: "interest", widget: "string"}
+        field: {label: "Fach/AG", name: "interest", widget: "string"}
       - label: "Kontaktdaten"
         label_singular: " "
         name: "contact"

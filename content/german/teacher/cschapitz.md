@@ -4,8 +4,8 @@ bg_image: media/backgrounds/page-title.png
 bio: Frau Schapitz ist eine Lehrerin für die Fremdsprachen Englisch und
   Französisch und die stellvertretende Schulleiterin an unserer Schule.
 interest:
-  - interest: Englisch
-  - interest: Französisch
+  - Englisch
+  - Französisch
 contact:
   - name: schapitz@cantor-gymnasium.de
     icon: ti-email
@@ -16,7 +16,7 @@ description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
   nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
 image: media/teachers/cschapitz.png
 courses:
-  - course: Fremdsprachen
+  - Fremdsprachen
 clubs: false
 type: teacher
 ---
