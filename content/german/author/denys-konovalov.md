@@ -11,6 +11,9 @@ social:
   - icon: ti-github
     link: https://github.com/lxdb
     title: GitHub
+  - title: E-Mail
+    icon: ti-email
+    link: mailto:denys.konovalov@pm.me
 ---
 Ich bin ein Schüler der 8. Klasse am Georg-Cantor-Gymnasium in Halle(Saale).
 
