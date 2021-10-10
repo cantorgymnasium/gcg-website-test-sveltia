@@ -1,35 +1,36 @@
 ---
-title: "Impressum"
+title: Impressum
 draft: false
-# page title background image
-bg_image: "media/backgrounds/page-title.png"
-type: "pages"
-layout: "single.html"
+bg_image: media/backgrounds/page-title.png
+type: pages
+layout: single.html
 ---
-
 ### Georg-Cantor-Gymnasium Halle (Saale)
 
 #### Schulleiter:
+
 Herr OStD Dr. Gorsler
 
-
 #### stellv. Schulleiterin:
-Frau Schapitz
+
+Frau StD Schapitz
 
 #### Sekretariat:
+
 Frau Reinhardt
 
 #### Adresse:
+
 Georg-Cantor-Gymnasium
 
 Torstraße 13
 
 06110 Halle (Saale)
 
-
 ### Webmaster:
-[Bernd Bader](/de/teacher/yves-bauer)
 
+[Denys Konovalov](/de/author/denys-konovalov/)
 
 ### E-Mail:
-[bader@cantor-gymnasium.de](mailto:bader@cantor-gymnasium.de)
+
+[admin@cantorgymnasium.de](mailto:admin@cantorgymnasium.de)
