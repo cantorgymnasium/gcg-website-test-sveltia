@@ -18,7 +18,7 @@ Wir sind für alle Beschwerden und Vorhaben unserer Schüler zuständig, tragen 
 ## Ansprechpartner
 
 ### Hagen Häußler
-Schülersprecherin (Klasse 11)
+Schülersprecher (Klasse 11)
 
 ### Elias Peschek
 Schülersprecher (Klasse 9)

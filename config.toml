@@ -234,15 +234,20 @@ title = "YouTube"
 icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
 link = "https://www.youtube.com/channel/UCHafBDI5qfK03RiIEyki9VA"
 
-# [[params.social]]
-# title = "twitter"
-# icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-# link = "#"
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com"
 
-# [[params.social]]
-# title = "instagram"
-# icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-# link = "#"
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+link = "https://instagram.com/cantor.news"
+
+[[params.social]]
+title = "Facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://facebook.com/srgcghalle"
 
 [[params.social]]
 title = "github"

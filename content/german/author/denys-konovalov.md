@@ -5,9 +5,11 @@ description: ""
 email: denys.konovalov@pm.me
 image: media/people/dkonovalov.png
 social:
-  - icon: ti-twitter-alt
+  - title: Twitter
+    icon: ti-twitter-alt
     link: https://twitter.com/denyskon
-  - icon: ti-github
+  - title: GitHub  
+    icon: ti-github
     link: https://github.com/lxdb
 ---
 Ich bin ein Schüler der 8. Klasse am Georg-Cantor-Gymnasium in Halle(Saale).

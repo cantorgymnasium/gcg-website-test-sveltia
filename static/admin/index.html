@@ -3,13 +3,100 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GCG WebAdmin</title>
+  <title>GCG Website: Netlify CMS</title>
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1a1a37">
+  <meta name="msapplication-TileColor" content="#1a1a37">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#1a1a37">
+
+
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script src="https://sharadcodes.github.io/hugo-shortcodes-netlify-cms/dist/hugo_shortcodes_netlify_cms.js"></script>
   <script>
+CMS.registerEditorComponent({
+  // Internal id of the component
+  id: "collapsible-note",
+  // Visible label
+  label: "Zugeklappter Abschnitt",
+  collapsed: true,
+  // Fields the user need to fill out when adding an instance of the component
+  fields: [
+    {
+      name: 'summary',
+      label: 'Titel',
+      widget: 'string'
+    },
+    {
+      name: 'details',
+      label: 'Inhalt',
+      widget: 'markdown'
+    }
+  ],
+  // Regex pattern used to search for instances of this block in the markdown document.
+  // Patterns are run in a multline environment (against the entire markdown document),
+  // and so generally should make use of the multiline flag (`m`). If you need to capture
+  // newlines in your capturing groups, you can either use something like
+  // `([\S\s]*)`, or you can additionally enable the "dot all" flag (`s`),
+  // which will cause `(.*)` to match newlines as well.
+  //
+  // Additionally, it's recommended that you use non-greedy capturing groups (e.g.
+  // `(.*?)` vs `(.*)`), especially if matching against newline characters.
+  pattern: /^{{% open-element title=\"(.*?)\" %}}$\s*?(.*?)\n^{{% \/open-element %}}$/ms,
+  // Given a RegExp Match object
+  // (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match#return_value),
+  // return an object with one property for each field defined in `fields`.
+  //
+  // This is used to populate the custom widget in the markdown editor in the CMS.
+  fromBlock: function(match) {
+    return {
+      summary: match[1],
+      details: match[2]
+    };
+  },
+  // Given an object with one property for each field defined in `fields`,
+  // return the string you wish to be inserted into your markdown.
+  //
+  // This is used to serialize the data from the custom widget to the
+  // markdown document
+  toBlock: function(data) {
+    return `
+{{% open-element title="${data.summary}" %}}
+
+${data.details}
+
+{{% /open-element %}}
+`;
+  },
+  // Preview output for this component. Can either be a string or a React component
+  // (component gives better render performance)
+  toPreview: function(data) {
+    return `
+    <div class="container">
+      <div class="card border-primary rounded-0 hover-shadow mb-5">
+        <div class="card-body">
+          <details>
+          <summary>${data.summary}</summary>
+          <div class="content"><p class="content">
+          ${data.details}
+          </p></div>
+          </details>
+        </div>
+      </div>
+    </div>
+`;
+  }
+});
+</script>
+  <!-- <script>
   CMS.registerPreviewStyle("https://eesev9ie.github.io/style.css");
   CMS.registerEditorComponent({
     id: "gallery",
@@ -33,6 +120,95 @@
         return `{{< gallery dir="${obj.dir}" />}}`;
     },
 });
+</script> -->
+<script>
+CMS.registerEditorComponent({
+    id: "gallery-dir",
+    label: "Gallerie",
+    fields: [{
+        name: "dir",
+        label: "Ordner",
+        widget: "string"
+    }],
+    pattern: /{{< gallery dir=\"(.*?)\" \/>}}/,
+    fromBlock: function(match) {
+        return {
+            dir: match[1],
+        };
+    },
+    toBlock: function(obj) {
+        return `{{< gallery dir=\"${obj.dir}\" \/>}}`;
+    },
+    toPreview: function(obj) {
+        return `{{< gallery dir=\"${obj.dir}\" \/>}}`;
+    },
+});
+</script>
+<script>
+CMS.registerEditorComponent({
+    id: "gallery-script",
+    label: "Gallerie-Skript (Immer am Anfang hinzufügen)",
+    fields: [],
+    collapsed:true,
+    pattern: /{{< load-photoswipe >}}/,
+    fromBlock: function(match) {
+        return {
+        };
+    },
+    toBlock: function(obj) {
+        return `{{< load-photoswipe >}}`;
+    },
+    toPreview: function(obj) {
+        return ``;
+    },
+});
+</script>
+<script>
+CMS.registerPreviewStyle("https://eesev9ie.github.io/plugins/bootstrap/bootstrap.min.css");
+CMS.registerPreviewStyle("https://eesev9ie.github.io/plugins/slick/slick.css");
+CMS.registerPreviewStyle("https://eesev9ie.github.io/plugins/animate/animate.css");
+CMS.registerPreviewStyle("https://eesev9ie.github.io/plugins/venobox/venobox.css");
+CMS.registerPreviewStyle("https://eesev9ie.github.io/plugins/themify-icons/themify-icons.css");
+CMS.registerPreviewStyle("https://code.cdn.mozilla.net/fonts/fira.css");
+CMS.registerPreviewStyle("https://eesev9ie.github.io/scss/style.css");
+</script>
+<script>
+var PostPreview = createClass({
+  render: function() {
+    var entry = this.props.entry;
+    var image = entry.getIn(['data', 'image']);
+    var bg = this.props.getAsset(image);
+    const divStyle = {
+      backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
+    };
+    return h('div', {},
+              h('section', {"className": "page-title-section overlay", "style": divStyle},
+                h('div', {"className": "container"},
+                  h('div', {"className": "col-md-8"},
+                    h('ul', {"className": "list-inline custom-breadcrumb"},
+                      h('li', {"className": "list-inline-item h1"},
+                        h('a', {"className": "text-primary font-secondary", href: ""}, "Schulchronik")),
+                      h('li', {"className": "list-inline-item ha"},
+                        h("i", {"className": "ti-angle-right text-white"})),
+                      h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title']))
+                    )
+                  )
+                )
+              ),
+              h('section', {"className": "section-sm"},
+                h('div', {"className": "container"},
+                  h('div', {"className": "row"},
+                    h('div', {"className": "col-12 mb-4"}, this.props.widgetFor('body'))
+                  )
+                )
+              )
+            );
+  }
+});
+
+CMS.registerPreviewTemplate("schulchronik", PostPreview);
 </script>
 </body>
 </html>
+
+<!-- src: bg.toString()}),-->
