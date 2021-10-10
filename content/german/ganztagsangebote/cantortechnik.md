@@ -1,33 +1,23 @@
 ---
-title: "CantorTechnik"
+title: CantorTechnik
 date: 2019-07-06T15:27:17+06:00
 draft: false
-# page title background image
-bg_image: "media/backgrounds/page-title.png"
-# meta description
-description : "desc"
-# course thumbnail
-image: "media/ganztagsangebote/cantortechnik.png"
-# category
-categories_ag: ["Digitalität und Technik"]
-# teacher
-teacher: "Yves Bauer"
-# duration
-weekly: "Donnerstag, 6.- 7. Stunde"
-# weekly
-duration: "2 Stunden"
-# course fee
-class: "alle Klassenstufen"
-# apply url
-apply_url : "https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828"
-# type
-type: "ganztagsangebote"
+bg_image: media/backgrounds/page-title.png
+description: desc
+image: media/ganztagsangebote/cantortechnik.png
+categories_ag:
+  - Digitalität und Technik
+teacher: Yves Bauer
+weekly: "Freitag, 7.-8. Stunde "
+duration: 2 Stunden
+class: alle Klassenstufen
+root: "207"
+apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
+type: ganztagsangebote
 ---
-
-
 ### Über die AG
 
-CantorTechnik ist eine Arbeitsgemeinschaft für in Technik interessierte Schüler am GCG.
+CantorTechnik ist eine Arbeitsgemeinschaft für in Technik interessierte Schüler*innen am GCG.
 
 Unsere AG ist in Themenbereiche aufgeteilt, die getrennt von einander arbeiten und sich auf verschiedene Themen konzentrieren.
 
@@ -53,7 +43,6 @@ In CantorMedia werden aufnahmen von unseren AG-Projekten, Programmiervideos, Tut
 * CantorRepair - Reparatur von alten Schulcomputern, Installation und Konfiguration von Linux und anderes ...
 * CantorMedia - Erstellung von Programmiervideos, Tutorials zu Technik und anderen Medieninhalten, Verwaltung des [YouTube Kanals CantorTechnik](https://www.youtube.com/channel/UCFCJdxg2D9RXH0qjZ8MMw1g)
 
-
 ### Themen
 
 * Erlernen der Grundlagen der Programmierung
@@ -61,7 +50,6 @@ In CantorMedia werden aufnahmen von unseren AG-Projekten, Programmiervideos, Tut
 * Reparatur von Computern
 * Arbeit mit Elektronik
 * Grundlagen der Linux-Konsole
-
 
 ### Teilnahme an der AG
 
