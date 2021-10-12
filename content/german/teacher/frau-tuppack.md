@@ -1,28 +1,23 @@
 ---
-title: "Frau Anett Tuppack"
 draft: false
-# page title background image
-bg_image: "media/backgrounds/page-title.png"
-# meta description
-description : ""
-# teacher portrait
-image: "media/teachers/tuppack.jpg"
-# course
-courses: ["Mathematik/Physik/Informatik/Astronomie"]
-# biography
-bio: "Mannschaftswettbewerb Mathematik Klasse 9, Junior-Ingenieur-Akademie, Schulpartnerschaft mit dem Deutschen Nationalitätengymnasium Budapest"
-# interest
-interest: ["Informatik", "Physik", "Mathematik"]
-# contact info
+bg_image: media/backgrounds/page-title.png
+bio: Mannschaftswettbewerb Mathematik Klasse 9, Junior-Ingenieur-Akademie,
+  Schulpartnerschaft mit dem Deutschen Nationalitätengymnasium Budapest
+interest:
+  - Informatik
+  - Physik
+  - Mathematik
 contact:
-  # contact item loop
-  - name : "mehl.tuppack@yahoo.de"
-    icon : "ti-email" # icon pack : https://themify.me/themify-icons
-    link : "mailto:mehl.tuppack@yahoo.de"
-
-# clubs ?
-clubs: false
-# type
-type: "teacher"
+  - name: mehl.tuppack@yahoo.de
+    icon: ti-email
+    link: mailto:mehl.tuppack@yahoo.de
 forestry_link: ""
+title: Frau A. Tuppack
+description: ""
+image: media/teachers/tuppack.jpg
+courses:
+  - Mathematik/Physik/Informatik/Astronomie
+clubs: false
+type: teacher
 ---
+hiihhoh
