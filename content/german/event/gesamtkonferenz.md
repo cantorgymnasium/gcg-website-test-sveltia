@@ -1,6 +1,6 @@
 ---
 title: Gesamtkonferenz
-publishDate: 2021-10-14T19:02:40.981Z
+publishDate: 2021-10-14T19:08:34.377Z
 date: 2021-11-10T23:00:59.756Z
 draft: false
 bg_image: /media/backgrounds/page-title.png
