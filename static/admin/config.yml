@@ -289,8 +289,8 @@ collections:
     public_folder: '/media/events'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "publishDate", widget: "datetime"}
-      - {label: "Datum", name: "date", widget: "datetime"}
+      - {label: "Veröffentlichungsdatum", name: "publishDate", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
+      - {label: "Termindatum", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
@@ -310,7 +310,7 @@ collections:
     public_folder: '/media/forms'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime"}
+      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
@@ -365,7 +365,7 @@ collections:
     public_folder: '/media/ganztagsangebote'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime"}
+      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
@@ -396,7 +396,7 @@ collections:
     public_folder: '/media/notice'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime"}
+      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
