@@ -1,6 +1,6 @@
 ---
 title: Frau A. Möller
-draft: false
+draft: true
 bg_image: /media/backgrounds/page-title.png
 image: /media/teachers/image.png
 courses:
