@@ -11,7 +11,7 @@ contact:
     icon: ti-email
     link: mailto:schapitz@cantor-gymnasium.de
 forestry_link: ""
-title: Frau Schapitz
+title: Frau C. Schapitz
 description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
   nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
 image: media/teachers/cschapitz.png
