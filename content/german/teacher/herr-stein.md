@@ -13,7 +13,7 @@ contact:
     icon: ti-email
     link: mailto:tonystein28@gmail.com
 forestry_link: ""
-title: Herr Stein
+title: Herr T. Stein
 description: ""
 image: media/teachers/stein.jpg
 courses:
