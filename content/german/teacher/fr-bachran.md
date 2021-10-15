@@ -1,28 +1,21 @@
 ---
-title: "Frau Bachran"
 draft: false
-# page title background image
-bg_image: "media/backgrounds/page-title.png"
-# meta description
-description : ""
-# teacher portrait
-image: "media/teachers/image.png"
-# course
-courses: ["Mathematik/Physik/Informatik/Astronomie"]
-# biography
-bio: "Fachbereichsleiter, Ansprechpartner Mathematikolympiade, IJSO, IPhO"
-# interest
-interest: ["Physik","Mathematik"]
-# contact info
+bg_image: media/backgrounds/page-title.png
+bio: Fachbereichsleiter, Ansprechpartner Mathematikolympiade, IJSO, IPhO
+interest:
+  - Physik
+  - Mathematik
 contact:
-  # contact item loop
-  - name : "bachran@cantor-gymnasium.de"
-    icon : "ti-email" # icon pack : https://themify.me/themify-icons
-    link : "mailto:bachran@cantor-gymnasium.de"
-
-# clubs ?
-clubs: false
-# type
-type: "teacher"
+  - name: bachran@cantor-gymnasium.de
+    icon: ti-email
+    link: mailto:bachran@cantor-gymnasium.de
 forestry_link: ""
+title: Frau A. Bachran
+description: ""
+image: media/teachers/image.png
+courses:
+  - Mathematik/Physik/Informatik/Astronomie
+clubs: false
+type: teacher
 ---
+Das hier ist Frau Bachran. Ach was. Hehe. Wer das liest ist doof.
