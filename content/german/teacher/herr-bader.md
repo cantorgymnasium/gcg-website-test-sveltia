@@ -1,28 +1,22 @@
 ---
-title: "Herr Bader"
 draft: false
-# page title background image
-bg_image: "media/backgrounds/page-title.png"
-# meta description
-description : ""
-# teacher portrait
-image: "media/teachers/bader.jpg"
-# course
-courses: ["Mathematik/Physik/Informatik/Astronomie"]
-# biography
-bio: "Webmaster"
-# interest
-interest: ["Informatik","Mathematik", "Moderne Medienwelten"]
-# contact info
+bg_image: media/backgrounds/page-title.png
+bio: Webmaster
+interest:
+  - Informatik
+  - Mathematik
+  - Moderne Medienwelten
 contact:
-  # contact item loop
-  - name : "bader@cantor-gymnasium.de"
-    icon : "ti-email" # icon pack : https://themify.me/themify-icons
-    link : "mailto:bader@cantor-gymnasium.de"
-
-# clubs ?
-clubs: false
-# type
-type: "teacher"
+  - name: bader@cantor-gymnasium.de
+    icon: ti-email
+    link: mailto:bader@cantor-gymnasium.de
 forestry_link: ""
+title: Herr B. Bader
+description: ""
+image: media/teachers/bader.jpg
+courses:
+  - Mathematik/Physik/Informatik/Astronomie
+clubs: false
+type: teacher
 ---
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
