@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 bg_image: media/backgrounds/page-title.png
 bio: Schulfachlicher Koordinator, Stunden- und Vertretungsplanung,
   Verantwortlicher für die Landesphysikolympiade
