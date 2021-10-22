@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 bg_image: media/backgrounds/page-title.png
 bio: Ansprechpartner Schulpartnerschaft mit dem Deutschen
   Nationalitätengymnasium Budapest, Junior-Ingenieur-Akademie, 3D-Druck und
