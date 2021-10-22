@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 bg_image: media/backgrounds/page-title.png
 bio: Mannschaftswettbewerb Mathematik Klasse 9, Junior-Ingenieur-Akademie,
   Schulpartnerschaft mit dem Deutschen Nationalitätengymnasium Budapest
