@@ -1,28 +1,19 @@
 ---
-title: "Herr Dr. Krause"
-draft: false
-# page title background image
-bg_image: "media/backgrounds/page-title.png"
-# meta description
-description : ""
-# teacher portrait
-image: "media/teachers/image.png"
-# course
-courses: ["Mathematik/Physik/Informatik/Astronomie"]
-# biography
-bio: "Begabtenförderung (Aufnahmetest)"
-# interest
+draft: true
+bg_image: media/backgrounds/page-title.png
+bio: Begabtenförderung (Aufnahmetest)
 interest: []
-# contact info
 contact:
-  # contact item loop
-  - name : "krause@cantor-gymnasium.de"
-    icon : "ti-email" # icon pack : https://themify.me/themify-icons
-    link : "mailto:krause@cantor-gymnasium.de"
-
-# clubs ?
-clubs: false
-# type
-type: "teacher"
+  - name: krause@cantor-gymnasium.de
+    icon: ti-email
+    link: mailto:krause@cantor-gymnasium.de
 forestry_link: ""
+title: Herr Dr. Krause
+description: ""
+image: media/teachers/image.png
+courses:
+  - Mathematik/Physik/Informatik/Astronomie
+clubs: false
+type: teacher
 ---
+sxrdgvhjnk
