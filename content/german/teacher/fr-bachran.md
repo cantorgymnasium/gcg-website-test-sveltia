@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 bg_image: media/backgrounds/page-title.png
 bio: Fachbereichsleiter, Ansprechpartner Mathematikolympiade, IJSO, IPhO
 interest:
