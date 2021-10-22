@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 bg_image: media/backgrounds/page-title.png
 bio: Oberstufenkoordinator, Netzwerkadministrator, Organisation der Einführungs-
   und Qualifikationsphase
