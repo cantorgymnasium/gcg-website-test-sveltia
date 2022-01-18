@@ -93,7 +93,7 @@ slider:
 ############################# success #############################
 success_banner:
   enable : true
-  image : "media/success/success_banner.png"
+  image : "media/success/success_banner.webp"
   feature_item:
     # feature item loop
     - name : "Mathematikolympiade"
@@ -157,7 +157,7 @@ cta:
 ######################## Success story #############################
 success_story:
   enable : true
-  bg_image : "media/backgrounds/success-story.jpg"
+  bg_image : "media/backgrounds/success-story.webp"
   title : "Über die Schule"
   content : "Das Georg-Cantor-Gymnasium wurde im Jahre 1988 als eine mathematisch-naturwissenschaftliche Schule gegründet. Über die vielen Jahre kamen viele Veränderungen auf die Schule zu. Nach der Verleihung des Namen ''Georg-Cantor'', umformung zu einem Gymnasium, dem Umzug in ein neues Gebäude u.v.m ist die Schule heute ein erfolgreiches, modernes und produktives Gymnasium mit mathematisch-naturwissenschaftlichem Schwerpunkt, und dem Gütesiegel begabungsfördernde Schule vom Landesinstitut für Schulqualität und Lehrbildung."
   # video link
