@@ -1,7 +1,7 @@
 ---
 title: "Über die Schule"
 draft: false
-# page title background image
+
 bg_image: "media/backgrounds/page-title.png"
 # about image
 image: "media/schule.png"

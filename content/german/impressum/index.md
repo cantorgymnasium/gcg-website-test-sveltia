@@ -29,7 +29,7 @@ Torstraße 13
 
 ### Webmaster:
 
-[Denys Konovalov](/de/author/denys-konovalov/)
+[Denys Konovalov](/author/denys-konovalov/)
 
 ### E-Mail:
 

@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+<section class="section" id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="btn-group portfolio-filter btn-group-toggle justify-content-center d-flex flex-wrap"
+					data-toggle="buttons">
+					<label class="btn btn-primary-outline active">
+						<input type="radio" name="shuffle-filter" value="all" checked="checked" />{{ i18n "all"}}
+					</label>
+					{{ $categories := slice }}
+					{{ range .Data.Pages }}
+					{{ range .Params.Categories_ag }}
+					{{ $categories = $categories | append . }}
+					{{ end }}
+					{{ end }}
+					{{ range ( $categories | uniq ) }}
+					<label class="btn btn-primary-outline">
+						<input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . }}
+					</label>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+
+    <br>
+
+		<div class="row shuffle-wrapper justify-content-center">
+			{{"<!-- portfolio item -->" | safeHTML}}
+			{{ range .Data.Pages }}
+			<div class="col-lg-4 shuffle-item"
+				data-groups="[{{range $index, $element:= .Params.Categories_ag }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+				{{ .Render "ganztagsangebote" }}
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+
+{{ end }}

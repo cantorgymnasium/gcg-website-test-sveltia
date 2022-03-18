@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<!-- teacher details -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 mb-5">
+        <img class="img-fluid w-100" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+      </div>
+      <div class="col-md-6 mb-5">
+        <h3>{{ .Params.Name }}</h3>
+        <h6 class="text-color">{{ .Title }}</h6>
+        <p class="mb-5">{{ .Params.Bio | markdownify }}</p>
+        <div class="row">
+        </div>
+      </div>
+      <div class="col-12 content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /teacher details -->
+
+{{ end }}

@@ -2,7 +2,7 @@
 title: "Mathematik(Klasse 6)"
 
 draft: false
-# page title background image
+
 bg_image: "media/bild_titelbild.jpg"
 # meta description
 description : "Förderung für in Mathematik begabte Schüler."

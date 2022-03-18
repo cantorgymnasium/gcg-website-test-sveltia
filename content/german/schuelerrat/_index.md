@@ -1,7 +1,7 @@
 ---
 title: "Schülerrat"
 draft: false
-# page title background image
+
 bg_image: "media/backgrounds/page-title.png"
 type: "pages"
 description: "Herzlich willkommen auf der Seite des Schülerrates vom Georg-Cantor-Gymnasium. Hier finden Sie alle wichtigen Informationen zu unserer Arbeit als Schülervertretung."
@@ -32,4 +32,4 @@ Wir haben für alle Schülerinnen und Schüler ein offenes Ohr und sind jederzei
 
 Außerdem sind wir per <a href="mailto:schuelerrat@cantor-gymnasium.de"><i class="ti-email"></i>Mail</a> und auf <a href="https://www.facebook.com/srgcghalle/"><i class="ti-facebook"></i>Facebook</a> erreichbar.
 
-{{< card link="/de/schuelerrat/geschaeftsordnung" title="Geschäftsordnung" >}}
+{{< card link="/schuelerrat/geschaeftsordnung" title="Geschäftsordnung" >}}

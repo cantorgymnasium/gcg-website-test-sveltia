@@ -1,7 +1,7 @@
 ---
 title: "Die Arbeit des Alumninetzwerkes"
 draft: false
-# page title background image
+
 bg_image: "media/backgrounds/page-title.png"
 type: "pages-nocontent"
 ---
@@ -32,6 +32,6 @@ Bei wir handelt es sich momentan hauptsächlich um:
 
 ---
 
-{{< card link="/de/cantorfora" title="Cantorfora" >}}
+{{< card link="/cantorfora" title="Cantorfora" >}}
 
 ---

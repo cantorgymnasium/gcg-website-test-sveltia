@@ -1,7 +1,7 @@
 ---
 title: "Wir über uns"
 draft: false
-# page title background image
+
 bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
 type: "pages"

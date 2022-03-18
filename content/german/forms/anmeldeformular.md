@@ -2,7 +2,7 @@
 title: "Aufnahmeantrag"
 date: 2020-07-12T15:27:17+06:00
 draft: false
-# page title background image
+
 bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : ""

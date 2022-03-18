@@ -14,7 +14,7 @@ sehr geehrte Eltern,
 
 wir hoffen, dass sich in den Sommerferien alle gut erholt haben und sich nun auf das neue Schuljahr freuen. Mit dessen Beginn wird der Regelbetrieb wiederaufgenommen. Wir sind intensiv bestrebt, eine gewisse Normalität herzustellen und langfristig aufrecht zu erhalten. Daher gilt es unbedingt gewisse Rahmenbedingungen zu schaffen.
 
-* Vom Land ist wieder die Abgabe eines [Gesundheits-Formulars](/de/forms/gesundheitsbogen) vorgeschrieben. Dieses muss am Donnerstag ausgefüllt und unterschrieben vorgelegt werden. Alle notwendigen Informationen finden sich im [Rahmenplan für die Hygienemaßnahmen](/de/forms/rahmenplan-hygiene).
+* Vom Land ist wieder die Abgabe eines [Gesundheits-Formulars](/forms/gesundheitsbogen) vorgeschrieben. Dieses muss am Donnerstag ausgefüllt und unterschrieben vorgelegt werden. Alle notwendigen Informationen finden sich im [Rahmenplan für die Hygienemaßnahmen](/forms/rahmenplan-hygiene).
 * Im gesamten Schulgelände gilt Maskenpflicht.
 * Im Schulhaus bewegen wir uns grundsätzlich auf der rechten Seite der Flure und Treppen, gehen hintereinander und tragen eine Maske.
 
@@ -24,7 +24,7 @@ Unser erster Schultag gestaltet sich wie folgt:
 
 |Uhrzeit|Klasse||
 |-|-|-|
-|07:30 – 09:00 Uhr|6. - 10. Klasse|Klassenleiterstunden und Ausgabe der Leihexemplare| 
+|07:30 – 09:00 Uhr|6. - 10. Klasse|Klassenleiterstunden und Ausgabe der Leihexemplare|
 |08:00 Uhr|5. Klasse|Begrüßung auf dem Hof anschließend „Einschulung“ durch den SL in der Aula, danach Klassenleiterstunden und Ausgabe der Leihexemplare|
 |09:00 Uhr|11. Klasse|Einweisung in der Aula durch Herrn Dr. Koch, ab 3. Stunde Belehrung durch die Tutoren bzw. Unterricht ab 4.Std.|
 |09:45 Uhr|12. Klasse|Einweisung in der Aula durch Herrn Dr. Koch, ab 4. Stunde Belehrung durch die Tutoren bzw. Unterricht ab 5.Std.|

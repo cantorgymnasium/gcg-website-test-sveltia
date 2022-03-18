@@ -57,7 +57,7 @@ collections:
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "contact-index"
         label: "Kontakt"
-        file: "content/german/contact/_index.md"
+        file: "content/german/kontakt/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}

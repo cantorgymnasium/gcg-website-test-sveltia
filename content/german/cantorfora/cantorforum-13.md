@@ -2,7 +2,7 @@
 title: "13. Cantorforum"
 tenrange: "1"
 draft: false
-# page title background image
+
 bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
 image: "media/cantorfora/cantorforum_e13.png"

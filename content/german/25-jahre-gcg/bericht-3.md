@@ -1,7 +1,7 @@
 ---
 title: "25 jähriges Bericht Paula Hähndel"
 draft: false
-# page title background image
+
 bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
 image: "media/image.png"

@@ -3,122 +3,95 @@ slider:
   enable : true
   bg_image : "media/banner/banner.webp"
   slider_item:
-    # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
       content : "Mathematisch-naturwissenschaftliche Spezialschule"
       animation_in : "left"
       animation_out : "right"
-      # available animation : left, right, up, down
       button:
         enable : false
         label : ""
         link : ""
-
-    # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
-      content : "Schule mit dem Gütesiegel ''Begabungsfördernde Schule''"
+      content : "Schule mit dem Gütesiegel \"Begabungsfördernde Schule\""
       animation_in : "right"
       animation_out : "down"
-      # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
-        link : ""
-
-    # slider item loop
+        link : "https://lisa.sachsen-anhalt.de/unterricht/projekte-und-paedagogische-entwicklungsvorhaben/begabungsfoerderung/netzwerk-begabungsfoerdernde-schulen-in-sachsen-anhalt/"
     - title : "Das Georg-Cantor-Gymnasium"
       content : "Primegymnasium der Martin-Luther-Universität Halle-Wittenberg"
       animation_in : "up"
       animation_out : "left"
-      # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
         link : "frühstudium"
-
-    # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
       content : "Kooperationsschule der Hochschule Merseburg und der Hochschule Anhalt"
       animation_in : "left"
       animation_out : "right"
-      # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
         link : ""
-
-    # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
       content : "Kooperationsschule der Dow Olefinverbund GmbH"
       animation_in : "right"
       animation_out : "down"
-      # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
         link : ""
-
-    # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
       content : "Mitglied im Netzwerk MINT-EC"
       animation_in : "up"
       animation_out : "left"
-      # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
         link : "https://mint-ec.de"
-
     - title : "Das Georg-Cantor-Gymnasium"
       content : "Projektschule LemaS"
       animation_in : "left"
       animation_out : "right"
-      # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
         link : "https://www.leistung-macht-schule.de/"
-
-    # slider item loop
     - title : "Das Georg-Cantor-Gymnasium"
       content : "KMK ''Jugend forscht''-Schule 2018"
       animation_in : "right"
       animation_out : "down"
-      # available animation : left, right, up, down
       button:
         enable : true
         label : "Mehr erfahren"
         link : "https://www.kmk.org/aktuelles/artikelansicht/georg-cantor-gymnasium-halle-saale-ist-die-jugend-forscht-schule-2018.html"
 
-############################# success #############################
 success_banner:
   enable : true
   image : "media/success/success_banner.webp"
   feature_item:
-    # feature item loop
     - name : "Mathematikolympiade"
       img: true
       icon : "/media/success/mo.png" # icon pack : https://themify.me/themify-icons
-      content : "In der Landesmathematikolympiade 2020 wurden:  \n * **3 von 9 ersten Preisen**  \n * **6 von 21 zweiten Preisen**  \n * **13 von 30 dritten Preisen**  \n * **11 von 39 Anerkennungspreisen**  \n  \nan Schüler unerer Schule verliehen."
-
-    # feature item loop
+      content : "In der Landesmathematikolympiade 2022 wurden:  \n * **2 von 8 ersten Preisen**  \n * **5 von 13 zweiten Preisen**  \n * **9 von 19 dritten Preisen**  \n * **6 von 28 Anerkennungspreisen**  \n  \nan Schüler unerer Schule verliehen."
     - name : "Physikolympiade"
       img: true
       icon : "/media/success/po.png" # icon pack : https://themify.me/themify-icons
-      content : "In der Landesphysikolympiade 2020 wurden:  \n * **3 von 5 ersten Preisen**  \n * **2 von 8 zweiten Preisen**  \n * **4 von 13 dritten Preisen**  \n * **1 von 18 Anerkennungspreisen**  \n \nan Schüler unserer Schule verliehen."
-
-    # feature item loop
+      content : "In der Landesphysikolympiade 2022 wurden:  \n * **2 von 5 ersten Preisen**  \n * **3 von 8 zweiten Preisen**  \n * **1 von 11 dritten Preisen**  \n * **1 von 15 Anerkennungspreisen**  \n \nan Schüler unserer Schule verliehen."
     - name : "Chemieolympiade"
       img: true
       icon : "/media/success/cds.png" # icon pack : https://themify.me/themify-icons
-      content : "Ein Schüler unserer Schule vertritt als einer von 4. Schülern der Nationalmannschaft Deutschland in der Internationalen Chemieolympiade 2020."
-
-    # feature item loop
+      content : "Ein Schüler unserer Schule bekam die Bronzemedaille in der Internationalen Chemieolympiade 2020 verliehen. Ein weiterer Schüler unserer Schule wurde für die Nationalmannschaft für die IChO 2021 ausgewählt."
+    - name : "Chemie - die stimmt!"
+      img: true
+      icon : "/media/success/cds.png" # icon pack : https://themify.me/themify-icons
+      content : "Ein Schüler unserer Schule bekam in der Endrunde von \"Chemie - die stimmt!\" 2021 den ersten Platz in drei Kategorien."
     - name : "Und viel mehr ..."
       icon : "ti-medall" # icon pack : https://themify.me/themify-icons
       content : "Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete, Spezialistenlager und begabtenfördernde Ganztagsangebote."
 
-############################## about ##################################
 about:
   enable : true
   title : "Website im Aufbau"
@@ -127,7 +100,7 @@ about:
   * Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n
   * Der Quellcode der Website ist [hier](https://github.com/eesev9ie/gcg-website) abrufbar.  \n
   * Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten.\n
-  * Weitere Informationen gibt es im [passenden Blogbeitrag](/de/blog/new-site/)
+  * Weitere Informationen gibt es im [passenden Blogbeitrag](/blog/new-site/)
 
   ## Tag der offenen Tür
 
@@ -137,13 +110,10 @@ about:
     label : "Digitale Führung durch das Schulhaus"
     link : "https://cantorgymnasium.de/virtuell"
 
-############################# Course ################################
 ganztagsangebote:
   enable : true
   title : "Unsere Ganztagsangebote"
-  # course item comes from "content/**/course" folder.
 
-########################## Call to action ############################
 cta:
   enable : true
   title : "Dann geht es hier direkt zur Anmeldung!"
@@ -153,47 +123,27 @@ cta:
     label : "Anmeldeantrag stellen"
     link : "anmeldung"
 
-
-######################## Success story #############################
-success_story:
+info:
   enable : true
   bg_image : "media/backgrounds/success-story.webp"
   title : "Über die Schule"
   content : "Das Georg-Cantor-Gymnasium wurde im Jahre 1988 als eine mathematisch-naturwissenschaftliche Schule gegründet. Über die vielen Jahre kamen viele Veränderungen auf die Schule zu. Nach der Verleihung des Namen ''Georg-Cantor'', umformung zu einem Gymnasium, dem Umzug in ein neues Gebäude u.v.m ist die Schule heute ein erfolgreiches, modernes und produktives Gymnasium mit mathematisch-naturwissenschaftlichem Schwerpunkt, und dem Gütesiegel begabungsfördernde Schule vom Landesinstitut für Schulqualität und Lehrbildung."
-  # video link
   video_link : "https://www.youtube.com/watch?v=v2ovvOmv-xw"
 
-
-############################# event ################################
-event:
+termine:
   enable : true
   title : "Die nächsten Termine"
-  # event item comes from "content/**/event" folder.
 
-
-########################### funfacts ############################
-funfacts:
+zahlen:
   enable : true
-  funfact_item:
-    # funfact item loop
+  zahl_element:
     - name : "Schüler"
       count : "575"
-
-    # funfact item loop
     - name : "Lehrer"
       count : "45"
-
-    # funfact item loop
     - name : "Neue Schüler  \nwerden jedes Jahr aufgenommen"
       count : "72"
 
-
-# funfact is for about page
-
-
-
-############################# blog ################################
 blog:
   enable : true
   title : "Aktuelle Beiträge"
-  # blog item comes from "content/**/blog" folder.

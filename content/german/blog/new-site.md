@@ -18,7 +18,7 @@ type: post
 
 ## Neuanfang
 
-Seit Anfang Juli arbeite [ich](/de/author/denys-konovalov) an einer neuen Website für das Georg-Cantor-Gymnasium in Halle und stelle ihnen damit die erste Vorversion vor.
+Seit Anfang Juli arbeite [ich](/author/denys-konovalov) an einer neuen Website für das Georg-Cantor-Gymnasium in Halle und stelle ihnen damit die erste Vorversion vor.
 
 Es fehlen noch viele Inhalte und Abschnitte weswegen diese Vorversion dazu da ist, um den Grundaufbau der Website zu verstehen und eine grobe Vorstellung über die Zukunft der Schulwebsite zu bilden.
 
@@ -41,7 +41,4 @@ Wer selbst an der Website mitentwickeln möchte, braucht als Erstes einen [GitHu
 * Der Quellcode der Website wird [hier](https://github.com/eesev9ie/gcg-website/) auf GitHub gespeichert
 * Die Website wird mit Hilfe von [GitHub Pages](https://github.io) aus [diesem Repository](https://github.com/eesev9ie/eesev9ie.github.io) gehostet
 
-## Kontakt
-
-Wenn Sie Fragen oder Vorschläge zur Entwicklung der Website haben, können Sie das [Kontaktformular](https://web.lxdb.de/de/#contact) auf meiner Website nutzen.
 {{% /content %}}

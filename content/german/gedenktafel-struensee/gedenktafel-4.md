@@ -1,7 +1,7 @@
 ---
 title: "Rede zur feierlichen Enthüllung der neuen Gedenktafel für J.F. Struensee"
 draft: false
-# page title background image
+
 bg_image: "media/backgrounds/page-title.png"
 # course thumbnail
 image: "media/image.png"

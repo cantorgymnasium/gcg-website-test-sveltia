@@ -1,7 +1,7 @@
 ---
 title: "Über Georg Cantor"
 draft: false
-# page title background image
+
 bg_image: "media/backgrounds/page-title.png"
 ---
 

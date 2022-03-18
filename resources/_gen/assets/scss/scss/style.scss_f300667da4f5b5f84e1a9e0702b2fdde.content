@@ -25,8 +25,8 @@ p, .paragraph {
 
 h1, h2, h3, h4, h5, h6 {
   color: #1e1e4b;
-  font-family: "Fira Sans Heavy";
-  font-weight: 700;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
   line-height: 1.2; }
 
 h1, .h1 {
@@ -114,7 +114,7 @@ h6, .h6 {
     background: #ffab08;
     color: #ffbc3b; }
 
-.btn-primary.active:not(:disabled):not(.disabled),
+.btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
@@ -282,7 +282,7 @@ a h4:hover {
   color: #1e1e4b !important; }
 
 .font-secondary {
-  font-family: "Fira Sans Heavy"; }
+  font-family: "Fira Sans", sans-serif; }
 
 .mb-10 {
   margin-bottom: 10px !important; }
@@ -743,7 +743,7 @@ link:focus,
 .card-date {
   position: absolute;
   background: #ffbc3b;
-  font-family: "Fira Sans Heavy";
+  font-family: "Fira Sans", sans-serif;
   text-align: center;
   padding: 10px;
   color: #fff;

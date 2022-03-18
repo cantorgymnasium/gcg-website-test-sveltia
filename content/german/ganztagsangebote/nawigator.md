@@ -2,7 +2,7 @@
 title: "Nawigator"
 
 draft: false
-# page title background image
+
 bg_image: "media/bild_titelbild.jpg"
 # meta description
 description : "Begabtenförderung in Biologie, Chemie und Physik"

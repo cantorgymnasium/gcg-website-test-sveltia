@@ -1,7 +1,7 @@
 ---
 title: "Lehrerkollegium der Spezialschule Georg Cantor Gymnasium"
 draft: false
-# page title background image
+
 bg_image: "media/backgrounds/page-title.png"
 type: "pages"
 layout: "single.html"
