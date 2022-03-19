@@ -3,6 +3,8 @@ title: "Über Georg Cantor"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
+type: "pages-nocontent"
+template: "single.html"
 ---
 
 ![Cantor Kopf](/media/about/cantor-kopf.png)

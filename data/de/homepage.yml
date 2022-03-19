@@ -95,7 +95,6 @@ success_banner:
 about:
   enable : true
   title : "Website im Aufbau"
-  # image : "media/about/about-us.jpg"
   content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale). \n
   * Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n
   * Der Quellcode der Website ist [hier](https://github.com/eesev9ie/gcg-website) abrufbar.  \n

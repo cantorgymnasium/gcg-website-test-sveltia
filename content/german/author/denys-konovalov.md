@@ -5,12 +5,6 @@ description: ""
 email: denys.konovalov@pm.me
 image: media/people/dkonovalov.png
 social:
-  - title: Twitter
-    icon: ti-twitter-alt
-    link: https://twitter.com/denyskon
-  - icon: ti-github
-    link: https://github.com/lxdb
-    title: GitHub
   - title: E-Mail
     icon: ti-email
     link: mailto:denys.konovalov@pm.me

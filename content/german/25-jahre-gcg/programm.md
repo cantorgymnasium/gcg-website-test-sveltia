@@ -9,11 +9,11 @@ type: "pages"
 layout: "single.html"
 ---
 
-Georg-Cantor-Gymnasium Halle (Saale)
+> Georg-Cantor-Gymnasium Halle (Saale)
 
-Programm zur Festveranstaltung „25 Jahre GCG“
+## Programm zur Festveranstaltung „25 Jahre GCG“
 
-Freitag, 27.09.2013, 14:00 Uhr
+> Freitag, 27.09.2013, 14:00 Uhr
 
 - Have a nice day  
   Text und Musik: Lorenz Maierhofer
@@ -47,4 +47,4 @@ Freitag, 27.09.2013, 14:00 Uhr
   Musik und Text: Schuster, J., Martin, M.  
   Arrangement für Flöte: Uwe Bye
 
-Mitwirkende: Chor und Solisten des GCG unter Leitung von Margrit Bethin und Margit Büttner
+*Mitwirkende: Chor und Solisten des GCG unter Leitung von Margrit Bethin und Margit Büttner*

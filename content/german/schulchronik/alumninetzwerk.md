@@ -4,6 +4,7 @@ draft: false
 
 bg_image: "media/backgrounds/page-title.png"
 type: "pages-nocontent"
+template: "single.html"
 ---
 
 ## Was wollen wir damit erreichen ?
