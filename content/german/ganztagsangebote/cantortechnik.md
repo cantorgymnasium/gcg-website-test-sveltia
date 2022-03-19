@@ -3,14 +3,14 @@ title: CantorTechnik
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: media/backgrounds/page-title.png
-description: desc
+description: ""
 image: media/ganztagsangebote/cantortechnik.webp
 categories_ag:
   - Digitalität und Technik
 weekly: "Freitag, 7.-8. Stunde "
 duration: 2 Stunden
 class: alle Klassenstufen
-root: "207"
+room: "207"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
 ---

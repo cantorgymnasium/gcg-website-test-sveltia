@@ -5,7 +5,7 @@ draft: false
 
 bg_image: "media/backgrounds/page-title.png"
 # meta description
-description : "desc"
+description : ""
 # course thumbnail
 image: "media/ganztagsangebote/blender.webp"
 # taxonomy
