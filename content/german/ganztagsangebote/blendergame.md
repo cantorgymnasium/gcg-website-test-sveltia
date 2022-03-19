@@ -27,13 +27,13 @@ type: "ganztagsangebote"
 
 Das freie 3D OpenSource-Programm "Blender" hat eine eigene kostenlose Spiele-Engine mit deren Hilfe 3D Computerspiele entwickelt werden können.
 
-In der AG wirst du dein eigenes 3D-Computerspiel entwickeln, bzw. mit anderen Schüler(inne)n gemeinsam euer eigenes Spiel gestalten und programmieren.
+In der AG wirst du dein eigenes 3D-Computerspiel entwickeln, bzw. mit anderen Schüler*innen gemeinsam euer eigenes Spiel gestalten und programmieren.
 
 Dabei erlernst du Grundlagen von 3D-Modelierung und 3D-Design und lernst mit einem 3D-Designprogramm umzugehen.
 
 Des weiteren werden müssen logische Zusammenhänge von Figuren erstellt und programmiert werden.
 
-Dabei kommt die Programmiersprache Python zum Einsatz, deren Grundladen auch erlernt werden müüssen.
+Dabei kommt die Programmiersprache Python zum Einsatz, deren Grundladen auch erlernt werden müssen.
 
 ### Themen
 
@@ -50,7 +50,7 @@ Dabei kommt die Programmiersprache Python zum Einsatz, deren Grundladen auch erl
 
 * Erlernen vom Umgang mit 3D-Design
 * Entwicklung eigener Computerspiele
-* Planung von Charaktern, Ladschaften und Spielideen
+* Planung von Charaktern, Landschaften und Spielideen
 * **Endziel: Entwicklung eines fertigen, funktionsfähigen, durchgeplanten und spielbaren Computerspiels**
 
 

@@ -32,7 +32,7 @@ Doch um dies alles zu machen brauchen wir Computer. Da wir aber nicht an einen C
 
 Um anderen einen Einblick in unser AG-Leben zu verschaffen, haben wir die letzte Themengruppe erstellt - CantorMedia.
 
-In CantorMedia werden aufnahmen von unseren AG-Projekten, Programmiervideos, Tutorials und andere digitalen Medien produziert.
+In CantorMedia werden Aufnahmen von unseren AG-Projekten, Programmiervideos, Tutorials und andere digitalen Medien produziert.
 
 ### Bereiche der AG
 
@@ -54,4 +54,4 @@ In CantorMedia werden aufnahmen von unseren AG-Projekten, Programmiervideos, Tut
 
 Wir treffen uns jeden Donnerstag von 13.30 bis ca. 15.30 Uhr im Raum 405.
 
-An der Arbeitsgemeinschaft kann jeder unabhängig von Vorkentinissen in Programmierung teilnehmen.
+An der Arbeitsgemeinschaft kann jeder unabhängig von Vorkenntinissen in Programmierung teilnehmen.

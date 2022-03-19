@@ -50,10 +50,10 @@
   translation: Andere Arbeitsgemeinschaften
 
 - id: duration
-  translation: Datum
+  translation: Dauer
 
 - id: weekly
-  translation: Dauer
+  translation: Zeit
 
 - id: class
   translation: Klasse(n)
