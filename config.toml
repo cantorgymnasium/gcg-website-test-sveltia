@@ -177,7 +177,7 @@ URL = "termine"
 
 [[menu.footer]]
 name = "Anmeldung"
-URL = "anmledung"
+URL = "anmeldung"
 
 [[menu.footer]]
 name = "Formulare und Vorlagen"
