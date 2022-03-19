@@ -7,7 +7,7 @@ bg_image: "media/backgrounds/page-title.png"
 # meta description
 description : "desc"
 # course thumbnail
-image: "media/ganztagsangebote/blender.png"
+image: "media/ganztagsangebote/blender.webp"
 # taxonomy
 categories_ag: ["Digitalität und Technik"]
 # duration

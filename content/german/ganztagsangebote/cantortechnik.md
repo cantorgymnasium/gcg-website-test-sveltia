@@ -4,7 +4,7 @@ date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: media/backgrounds/page-title.png
 description: desc
-image: media/ganztagsangebote/cantortechnik.png
+image: media/ganztagsangebote/cantortechnik.webp
 categories_ag:
   - Digitalität und Technik
 weekly: "Freitag, 7.-8. Stunde "

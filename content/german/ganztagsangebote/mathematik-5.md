@@ -7,7 +7,7 @@ bg_image: "media/bild_titelbild.jpg"
 # meta description
 description : "Förderung für in Mathematik begabte Schüler."
 # course thumbnail
-image: "media/ganztagsangebote/mathematik.jpg"
+image: "media/ganztagsangebote/mathematik.webp"
 # taxonomy
 categories_ag: ["Mathematik", "Naturwissenschaften"]
 # duration
