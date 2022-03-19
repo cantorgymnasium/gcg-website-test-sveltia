@@ -1,11 +1,8 @@
 {{ define "main" }}
 
-<!-- teachers -->
 <section class="section">
   <div class="container">
-    <!-- teacher list -->
     <div class="row">
-      <!-- teacher -->
       {{ range .Data.Pages }}
       <div class="col-lg-4 col-sm-6">
         {{ .Render "abiturienten" }}
@@ -14,6 +11,5 @@
     </div>
   </div>
 </section>
-<!-- /teachers -->
 
 {{ end }}

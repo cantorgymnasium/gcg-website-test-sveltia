@@ -74,28 +74,28 @@ success_banner:
   feature_item:
     - name : "Mathematikolympiade"
       img: true
-      icon : "/media/success/mo.png" # icon pack : https://themify.me/themify-icons
+      icon : "/media/success/mo.png"
       content : "In der Landesmathematikolympiade 2022 wurden:  \n * **2 von 8 ersten Preisen**  \n * **5 von 13 zweiten Preisen**  \n * **9 von 19 dritten Preisen**  \n * **6 von 28 Anerkennungspreisen**  \n  \nan Schüler unerer Schule verliehen."
     - name : "Physikolympiade"
       img: true
-      icon : "/media/success/po.png" # icon pack : https://themify.me/themify-icons
+      icon : "/media/success/po.png"
       content : "In der Landesphysikolympiade 2022 wurden:  \n * **2 von 5 ersten Preisen**  \n * **3 von 8 zweiten Preisen**  \n * **1 von 11 dritten Preisen**  \n * **1 von 15 Anerkennungspreisen**  \n \nan Schüler unserer Schule verliehen."
     - name : "Chemieolympiade"
       img: true
-      icon : "/media/success/cds.png" # icon pack : https://themify.me/themify-icons
+      icon : "/media/icho.png"
       content : "Ein Schüler unserer Schule bekam die Bronzemedaille in der Internationalen Chemieolympiade 2020 verliehen. Ein weiterer Schüler unserer Schule wurde für die Nationalmannschaft für die IChO 2021 ausgewählt."
     - name : "Chemie - die stimmt!"
       img: true
-      icon : "/media/success/cds.png" # icon pack : https://themify.me/themify-icons
+      icon : "/media/success/cds.png"
       content : "Ein Schüler unserer Schule bekam in der Endrunde von \"Chemie - die stimmt!\" 2021 den ersten Platz in drei Kategorien."
     - name : "Und viel mehr ..."
-      icon : "ti-medall" # icon pack : https://themify.me/themify-icons
+      icon : "ti-medall"
       content : "Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete, Spezialistenlager und begabtenfördernde Ganztagsangebote."
 
 about:
   enable : true
   title : "Website im Aufbau"
-  image : "media/about/about-us.jpg"
+  # image : "media/about/about-us.jpg"
   content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale). \n
   * Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n
   * Der Quellcode der Website ist [hier](https://github.com/eesev9ie/gcg-website) abrufbar.  \n
@@ -132,7 +132,7 @@ info:
 
 termine:
   enable : true
-  title : "Die nächsten Termine"
+  title : "Diesjährige Termine"
 
 zahlen:
   enable : true

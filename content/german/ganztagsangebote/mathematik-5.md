@@ -10,8 +10,6 @@ description : "Förderung für in Mathematik begabte Schüler."
 image: "media/ganztagsangebote/mathematik.jpg"
 # taxonomy
 categories_ag: ["Mathematik", "Naturwissenschaften"]
-# teacher
-teacher: "Herr Dr. Müller"
 # duration
 weekly: "Donnerstag, 7. - 8. Stunde"
 # weekly

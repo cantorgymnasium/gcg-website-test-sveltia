@@ -166,18 +166,29 @@
           <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.termine.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
+            <a href="{{`termine` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
           </div>
         </div>
       </div>
     </div>
     <div class="row justify-content-center">
       <!-- event -->
-      {{ range first 3 (where .Site.RegularPages "Type" "event")}}
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        {{ .Render "event" }}
-      </div>
+      {{ with .Site.GetPage "/termine/_index.md" }}
+
+      {{ range first 3 .Params.events }}
+      <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+        <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">{{ time.Format "2" .date}}</span> {{ time.Format "Jan, 2006" .date}}</div>
+        <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+          <p href="{{ .Permalink }}" class="h4 mb-3 d-block">{{ .title }}</p>
+          <p class="mb-0">{{ .summary | truncate 100 }}</p>
+        </div>
+        <div class="d-md-table-cell text-right pr-0 pr-md-4"><p><i class="ti-location-pin text-primary mr-2"></i>{{ .location | markdownify }}</p></div>
+
+      </li>
       {{ end }}
+
+      {{ end }}
+
     </div>
     <!-- mobile see all button -->
     <div class="row">

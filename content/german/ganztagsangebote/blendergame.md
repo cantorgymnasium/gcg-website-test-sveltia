@@ -10,8 +10,6 @@ description : "desc"
 image: "media/ganztagsangebote/blender.png"
 # taxonomy
 categories_ag: ["Digitalität und Technik"]
-# teacher
-teacher: "Yves Bauer"
 # duration
 weekly: "Montag, 6.- 7. Stunde"
 # weekly

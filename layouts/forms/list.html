@@ -4,11 +4,13 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      {{ range .Data.Pages}}
-      <!-- forms item -->
-      <div class="col-lg-4 col-sm-6 mb-4">
-        {{ .Render "forms" }}</div>
-      {{ end }}
+      <div class="col-12">
+        <ul class="list-unstyled">
+          {{ range .Data.Pages }}
+          {{ .Render "forms" }}
+          {{ end }}
+        </ul>
+      </div>
     </div>
   </div>
 </section>

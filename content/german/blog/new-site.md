@@ -12,7 +12,7 @@ tags:
   - Internet
   - Schulwebsite
   - CantorTechnik
-type: post
+type: "post"
 ---
 {{% content %}}
 

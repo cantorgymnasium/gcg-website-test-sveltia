@@ -66,12 +66,22 @@ collections:
           - {label: "Text", name: "body", widget: "markdown"}
       - name: "event-index"
         label: "Termine"
-        file: "content/german/event/_index.md"
+        file: "content/german/termine/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - label: Termine
+            label_singular: " "
+            name: "events"
+            widget: "list"
+            fields:
+              - {label: "Titel", name: "title", widget: "string", required: true}
+              - {label: "Datum", name: "date", widget: "datetime",  required: true, date_format: "DD.MM.YYYY", time_format: "HH:mm"}
+              - {label: "Beschreibung", name: "summary", widget: "string", required: false}
+            required: false
+
       - name: "forms-index"
         label: "Formulare und Vorlagen"
         file: "content/german/forms/_index.md"
@@ -98,22 +108,6 @@ collections:
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
           - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
           - {label: "Text", name: "body", widget: "markdown"}
-      - name: "notice-index"
-        label: "Hinweise"
-        file: "content/german/notice/_index.md"
-        fields:
-          - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
-          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - name: "teacher-index"
-        label: "Lehrer*innen und AG-Leiter*innen"
-        file: "content/german/teacher/_index.md"
-        fields:
-          - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
-          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "wettbewerbe-index"
         label: "Wettbewerbe"
         file: "content/german/wettbewerbe/_index.md"
@@ -220,84 +214,6 @@ collections:
         field: {label: "Tag", name: "tag", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Text", name: "body", widget: "markdown"}
-  - name: "teacher-de"
-    label: "Lehrer*innen und AG-Leiter*innen"
-    folder: "content/german/teacher"
-    filter: {field: "type", value: "teacher"}
-    create: true
-    slug: "{{slug}}"
-    editor:
-      preview: false
-    media_folder: '/static/media/teachers'
-    public_folder: '/media/teachers'
-    fields:
-      - {label: "Name", name: "title", widget: "string"}
-      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
-      - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/teachers/image.png", required: false}
-      - label: "Fachbereiche"
-        name: "courses"
-        widget: "list"
-        field: {label: "Fachbereich", name: "course", widget: "string"}
-      - {label: "Beschreibung", name: "bio", widget: "text"}
-      - label: "Fächer/Arbeitsgemeinschaften"
-        name: "interest"
-        widget: "list"
-        field: {label: "Fach/AG", name: "interest", widget: "string"}
-      - label: "Kontaktdaten"
-        label_singular: " "
-        name: "contact"
-        widget: "list"
-        fields:
-          - {label: "Anzeigetitel", name: "name", widget: "string", required: false}
-          - label: "Symbol"
-            name: "icon"
-            widget: "select"
-            options:
-              - { label: "Flickr", value: "ti-flickr" }
-              - { label: "Tumblr", value: "ti-tumblr" }
-              - { label: "YouTube", value: "ti-youtube" }
-              - { label: "Twitter", value: "ti-twitter-alt" }
-              - { label: "Pinterest", value: "ti-pinterest" }
-              - { label: "GitHub", value: "ti-github" }
-              - { label: "StackOverflow", value: "ti-stack-overflow" }
-              - { label: "Vimeo", value: "ti-vimeo" }
-              - { label: "Instagram", value: "ti-instagram" }
-              - { label: "Facebook", value: "ti-facebook" }
-              - { label: "SoundCloud", value: "ti-soundcloud" }
-              - { label: "Reddit", value: "ti-reddit" }
-              - { label: "Skype", value: "ti-skype" }
-              - { label: "LinkedIn", value: "ti-linkedin" }
-              - { label: "E-Mail", value: "ti-email" }
-              - { label: "Sonstige", value: "ti-sharethis" }
-          - {label: "Link", name: "link", widget: "string"}
-        required: false
-      - {label: "AG-Leiter", name: "clubs", widget: "boolean", default: false, required: false}
-      - {label: "Type", name: "type", widget: "hidden", default: "teacher"}
-      - {label: "Formspree-Kontaktformular", name: "formspree_link", widget: "string", hint: "[Nur für AG-Leiter]Für ein Kontaktformular kann man sich auf der Website https://formspree.io registrieren und ein Formular erstellen.", required: false}
-      - {label: "Text", name: "body", widget: "markdown"}
-  - name: "events-de"
-    label: "Termine"
-    folder: "content/german/event"
-    filter: {field: "type", value: "event"}
-    create: true
-    slug: "{{slug}}"
-    editor:
-      preview: false
-    media_folder: '/static/media/events'
-    public_folder: '/media/events'
-    fields:
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "publishDate", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
-      - {label: "Termindatum", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
-      - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
-      - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
-      - {label: "Ort", name: "location", widget: "string", default: "Georg-Cantor-Gymnasium, Halle(Saale)"}
-      - {label: "Type", name: "type", widget: "hidden", default: "event"}
-      - {label: "Text", name: "body", widget: "markdown"}
   - name: "forms-de"
     label: "Formulare und Vorlagen"
     folder: "content/german/forms"
@@ -371,36 +287,12 @@ collections:
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Themenbereiche", name: "categories_ag", widget: "string"}
-      - label: "Leiter"
-        name: "teacher"
-        widget: "relation"
-        collection: "teacher-de"
-        search_fields: ["title"]
-        value_field: "title"
-        display_fields: ["title"]
       - {label: "Dauer", name: "weekly", widget: "string"}
       - {label: "Tag/Stunden", name: "duration", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Raum", name: "root", widget: "string"}
       - {label: "Anmeldelink", name: "apply_url", widget: "hidden", default: "https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828"}
       - {label: "Type", name: "type", widget: "hidden", default: "ganztagsangebote"}
-      - {label: "Text", name: "body", widget: "markdown"}
-  - name: "notice-de"
-    label: "Hinweise"
-    folder: "content/german/notice"
-    filter: {field: "type", value: "notice"}
-    create: true
-    editor:
-      preview: false
-    media_folder: '/static/media/notice'
-    public_folder: '/media/notice'
-    fields:
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
-      - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
-      - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Type", name: "type", widget: "hidden", default: "notice"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "wettbewerbe-de"
     label: "Wettbewerbe"

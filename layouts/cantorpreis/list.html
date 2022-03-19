@@ -1,19 +1,15 @@
 {{ define "main" }}
 
-<!-- teachers -->
 <section class="section">
   <div class="container">
-    <!-- teacher list -->
     <div class="row">
-      <!-- teacher -->
       {{ range .Data.Pages }}
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-3 col-sm-4 col-6">
         {{ .Render "cantorpreis" }}
       </div>
       {{ end }}
     </div>
   </div>
 </section>
-<!-- /teachers -->
 
 {{ end }}

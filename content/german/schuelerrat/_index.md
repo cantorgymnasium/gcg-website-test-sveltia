@@ -17,14 +17,17 @@ Wir sind für alle Beschwerden und Vorhaben unserer Schüler zuständig, tragen 
 
 ## Ansprechpartner
 
-### Hagen Häußler
-Schülersprecher (Klasse 11)
+{{% content %}}
 
-### Elias Peschek
-Schülersprecher (Klasse 9)
+### Schülerrat
 
-### Denys Konovalov
-Schülerbeirat
+- **Hagen Häußler**  (Klasse 11) und **Elias Peschek** (Klasse 9): Schülersprecher
+
+### Schülerbeirat
+
+- **Denys Konovalov** (Klasse 8) und **Lilli Berthold** (Klasse 8): Beiratsvorstand
+
+{{% /content %}}
 
 ## Kontaktmöglichkeiten
 

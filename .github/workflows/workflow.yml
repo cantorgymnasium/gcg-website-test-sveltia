@@ -6,24 +6,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
         with:
           submodules: true
-      - name: Hugo to GH Pages
+      - name: Hugo to GitHub Pages
         uses: chabad360/hugo-gh-pages@master
         with:
-          # A Github Personal Access Token with Repo permissions
           githubToken: ${{ secrets.TOKEN }}
-          # The custom domain name for your GH Pages Site
-          cname: # optional
-          # The branch to push the built site to
+          cname:
           branch: master
-          # The repo to push the built site to
           repo: eesev9ie/eesev9ie.github.io
-          # The version of hugo to use
-          hugoVersion: 0.92.0
-          # Arguments to pass to Hugo
+          hugoVersion: 0.95.0
           args: --gc --minify --cleanDestinationDir

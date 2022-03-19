@@ -7,7 +7,6 @@ description: desc
 image: media/ganztagsangebote/cantortechnik.png
 categories_ag:
   - Digitalität und Technik
-teacher: Yves Bauer
 weekly: "Freitag, 7.-8. Stunde "
 duration: 2 Stunden
 class: alle Klassenstufen

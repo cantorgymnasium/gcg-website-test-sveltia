@@ -58,9 +58,6 @@
 - id: class
   translation: Klasse(n)
 
-- id: teacher
-  translation: Leiter
-
 - id: room
   translation: Raum
 
@@ -94,9 +91,6 @@
 - id: clubs_footer
   translation: Ganztagsangebote
 
-- id: new_notice
-  translation: Wichtige Informationen
-
 - id: call
   translation: Telefon
 
@@ -108,9 +102,6 @@
 
 - id: interest
   translation: Fächer
-
-- id: our_teachers
-  translation: Unsere Lehrer
 
 - id: datenschutzerklärung
   translation: Datenschutzerklärung

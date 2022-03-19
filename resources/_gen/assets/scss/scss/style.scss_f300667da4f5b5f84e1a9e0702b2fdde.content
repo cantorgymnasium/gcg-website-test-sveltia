@@ -445,7 +445,7 @@ textarea.form-control {
   padding: 10px 20px;
   background: #f8f9fe; }
 
-.teacher-thumb-sm {
+.person-thumb-sm {
   height: 85px;
   width: 85px;
   object-fit: cover; }
@@ -754,13 +754,6 @@ link:focus,
     font-size: 40px; }
 
 /* /events */
-/* teacher */
-.teacher-info {
-  width: 70%;
-  bottom: 0;
-  right: 0; }
-
-/* /teacher */
 /* footer */
 .input-wrapper {
   position: relative; }
