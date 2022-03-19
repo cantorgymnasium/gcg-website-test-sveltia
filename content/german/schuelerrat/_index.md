@@ -9,7 +9,7 @@ description: "Herzlich willkommen auf der Seite des Schülerrates vom Georg-Cant
 
 ## Wer sind wir ?
 
-Der Schülerrat des Georg-Cantor-Gymnasiums besteht aus allen Klassensprechern und allen anderen engagierten Schülern unserer Schule. Bei uns darf jeder mitwirken!
+Der Schülerrat des Georg-Cantor-Gymnasiums besteht aus allen Klassensprechern und dem Schülersprecher.
 
 ## Welche Aufgaben haben wir ?
 
