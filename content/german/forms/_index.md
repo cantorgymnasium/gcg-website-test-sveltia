@@ -1,8 +1,6 @@
 ---
-title: "Formulare"
+title: Formulare
 draft: false
-
-bg_image: "media/backgrounds/page-title.png"
-# meta description
-description : "Hier finden Sie schulische Unterlagen und Anmeldeformulare als PDF zum Download."
+bg_image: media/backgrounds/page-title.png
+description: Hier finden Sie schulische Unterlagen und Formulare als PDF zum Download.
 ---
