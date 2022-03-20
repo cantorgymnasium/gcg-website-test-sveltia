@@ -197,6 +197,7 @@ top_header = true
 [params.preloader]
 enable = true
 preloader = "media/logo.png"
+loader = "media/load.svg"
 
 ############################# social site ########################
 [[params.social]]
