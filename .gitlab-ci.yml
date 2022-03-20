@@ -15,7 +15,7 @@ deploy_website:
   - git clone --depth=1 --single-branch --branch main "https://x-access-token:$TOKEN@gitlab.cantorgymnasium.de/cantortechnik/website-build.git" /tmp/gh-pages
   - rm -rf /tmp/gh-pages/*
   - export OLD_PATH=$PWD
-  - cp public/* /tmp/gh-pages
+  - cp -r public/* /tmp/gh-pages
   - cd /tmp/gh-pages
   - git add .
   - git commit -m "$CI_COMMIT_MESSAGE"
