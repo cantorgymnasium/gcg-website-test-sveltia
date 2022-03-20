@@ -1,17 +1,17 @@
 ---
-title: "Schülerrat"
+title: Schülerrat
 draft: false
-
-bg_image: "media/backgrounds/page-title.png"
-type: "pages"
-description: "Herzlich willkommen auf der Seite des Schülerrates vom Georg-Cantor-Gymnasium. Hier finden Sie alle wichtigen Informationen zu unserer Arbeit als Schülervertretung."
+bg_image: media/backgrounds/page-title.png
+type: pages
+description: Herzlich willkommen auf der Seite des Schülerrates vom
+  Georg-Cantor-Gymnasium. Hier finden Sie alle wichtigen Informationen zu
+  unserer Arbeit als Schülervertretung.
 ---
-
-## Wer sind wir ?
+## Wer sind wir?
 
 Der Schülerrat des Georg-Cantor-Gymnasiums besteht aus allen Klassensprechern und dem Schülersprecher.
 
-## Welche Aufgaben haben wir ?
+## Welche Aufgaben haben wir?
 
 Wir sind für alle Beschwerden und Vorhaben unserer Schüler zuständig, tragen diese weiter und unterstützen sie. Zudem führen wir Projekte an der Schule durch und entwickeln unseren Schulalltag weiter.
 
@@ -21,11 +21,11 @@ Wir sind für alle Beschwerden und Vorhaben unserer Schüler zuständig, tragen 
 
 ### Schülerrat
 
-- **Hagen Häußler**  (Klasse 11) und **Elias Peschek** (Klasse 9): Schülersprecher
+* **Hagen Häußler**  (Klasse 11) und **Elias Peschek** (Klasse 9): Schülersprecher
 
 ### Schülerbeirat
 
-- **Denys Konovalov** (Klasse 8) und **Lilli Berthold** (Klasse 8): Beiratsvorstand
+* **Denys Konovalov** (Klasse 8) und **Lilli Berthold** (Klasse 8): Beiratsvorstand
 
 {{% /content %}}
 
