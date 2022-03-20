@@ -1,10 +1,19 @@
+# backend:
+#   name: github
+#   repo: eesev9ie/gcg-website
+#   branch: master
+#   site_domain: eesev9ie.netlify.app
+
 backend:
-  name: github
-  repo: eesev9ie/gcg-website
+  name: gitlab
+  repo: cantortechnik/gcg-website
   branch: master
-  site_domain: eesev9ie.netlify.app
-
-
+  auth_type: pkce
+  app_id: f9d3e269912cc9560d183167726afc7ccb517862904d0a6c0b10105719964bab
+  api_root: https://gitlab.cantorgymnasium.de/api/v4
+  base_url: https://gitlab.cantorgymnasium.de
+  auth_endpoint: oauth/authorize
+  ##base_url: http://localhost:8000
 
 media_folder: "static/media"
 public_folder: "/media"
@@ -13,12 +22,13 @@ display_url: https://eesev9ie.github.io
 logo_url: /media/logo_y.svg
 locale: "de"
 publish_mode: editorial_workflow
+show_preview_links: false
 
 collections:
   - name: "pages-de"
     label: "Statische Seiten"
     editor:
-      preview: false
+      preview: true
     files:
       - name: "blog-index"
         label: "Blog"
@@ -79,6 +89,7 @@ collections:
             fields:
               - {label: "Titel", name: "title", widget: "string", required: true}
               - {label: "Datum", name: "date", widget: "datetime",  required: true, date_format: "DD.MM.YYYY", time_format: "HH:mm"}
+              - {label: "Ort", name: "location", widget: "string", required: true}
               - {label: "Beschreibung", name: "summary", widget: "string", required: false}
             required: false
 
@@ -136,6 +147,7 @@ collections:
           - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "author-de" # Used in routes, e.g., /admin/collections/blog
     label: "Autor*innen" # Used in the UI
+    label_singular: "Autor*in"
     folder: "content/german/author" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -179,7 +191,8 @@ collections:
         required: false
       - {label: "Beschreibung", name: "body", widget: "markdown"}
   - name: "blog-de"
-    label: "Blogbeitrag"
+    label: "Blogbeiträge"
+    label_singular: "Blogbeitrag"
     folder: "content/german/blog"
     filter: {field: "type", value: "post"}
     create: true
@@ -216,6 +229,8 @@ collections:
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "forms-de"
     label: "Formulare und Vorlagen"
+    label_singular: "Formular"
+    description: "Hier sind Formulare, Vorlagen und andere Dokumente zu hinterlegen."
     folder: "content/german/forms"
     filter: {field: "type", value: "forms"}
     create: true
@@ -235,6 +250,7 @@ collections:
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "anmeldung-de"
     label: "Anmeldung"
+    label_singular: "Anmeldeinformation"
     folder: "content/german/anmeldung"
     filter: {field: "type", value: "anmeldung"}
     create: true
@@ -246,7 +262,7 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "anmeldung"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "cantorpreis-de"
-    label: "Cantor-Preisträger"
+    label: "Cantor-Preisträger*in"
     folder: "content/german/cantorpreis"
     filter: {field: "type", value: "cantorpreis"}
     create: true
@@ -272,6 +288,7 @@ collections:
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "ganztagsangebote-de"
     label: "Ganztagsangebote"
+    label_singular: "Ganztagsangebot"
     folder: "content/german/ganztagsangebote"
     filter: {field: "type", value: "ganztagsangebote"}
     create: true
@@ -296,6 +313,7 @@ collections:
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "wettbewerbe-de"
     label: "Wettbewerbe"
+    label_singular: "Wettbewerb"
     folder: "content/german/wettbewerbe"
     filter: {field: "type", value: "wettbewerbe"}
     create: true
@@ -316,6 +334,7 @@ collections:
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "schulchronik"
     label: "Schulchronik"
+    label_singular: "Chronikjahr"
     folder: "content/german/schulchronik"
     filter: {field: "type", value: "schulchronik"}
     create: true
@@ -332,6 +351,7 @@ collections:
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "abiturienten"
     label: "Abiturienten"
+    label_singular: "Abiturjahrgang"
     folder: "content/german/abiturienten"
     filter: {field: "type", value: "abiturienten"}
     create: true

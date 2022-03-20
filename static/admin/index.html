@@ -23,12 +23,9 @@
   <script src="https://sharadcodes.github.io/hugo-shortcodes-netlify-cms/dist/hugo_shortcodes_netlify_cms.js"></script>
   <script>
 CMS.registerEditorComponent({
-  // Internal id of the component
   id: "collapsible-note",
-  // Visible label
   label: "Zugeklappter Abschnitt",
   collapsed: true,
-  // Fields the user need to fill out when adding an instance of the component
   fields: [
     {
       name: 'summary',
@@ -41,15 +38,7 @@ CMS.registerEditorComponent({
       widget: 'markdown'
     }
   ],
-  // Regex pattern used to search for instances of this block in the markdown document.
-  // Patterns are run in a multline environment (against the entire markdown document),
-  // and so generally should make use of the multiline flag (`m`). If you need to capture
-  // newlines in your capturing groups, you can either use something like
-  // `([\S\s]*)`, or you can additionally enable the "dot all" flag (`s`),
-  // which will cause `(.*)` to match newlines as well.
-  //
-  // Additionally, it's recommended that you use non-greedy capturing groups (e.g.
-  // `(.*?)` vs `(.*)`), especially if matching against newline characters.
+
   pattern: /^{{% open-element title=\"(.*?)\" %}}$\s*?(.*?)\n^{{% \/open-element %}}$/ms,
   // Given a RegExp Match object
   // (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match#return_value),
@@ -207,6 +196,70 @@ var PostPreview = createClass({
 });
 
 CMS.registerPreviewTemplate("schulchronik", PostPreview);
+</script>
+<script>
+var EventPreview = createClass({
+  render: function() {
+    var entry = this.props.entry;
+    var image = entry.getIn(['data', 'image']);
+    var bg = this.props.getAsset(image);
+    const divStyle = {
+      backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
+    };
+    return h('div', {},
+              h('section', {"className": "page-title-section overlay", "style": divStyle},
+                h('div', {"className": "row"},
+                  h('div', {"className": "container"},
+                    h('div', {"className": "col-md-8"},
+                      h('ul', {"className": "list-inline custom-breadcrumb"},
+                        h('li', {"className": "list-inline-item h1"},
+                          h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
+                        ),
+                        h('li', {"className": "list-inline-item ha"},
+                          h("i", {"className": "ti-angle-right text-white"})
+                        ),
+                        h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title'])
+                        )
+                      ),
+                      h('p', {"className": "text-lighten"}, entry.getIn(['data', 'description']))
+                    )
+                  )
+                )
+              ),
+              h('section', {"className": "section"},
+                h('div', {"className": "container"},
+                  h('div', {"className": "row"},
+                    h('div', {"className": "col-12 "},
+                      h('ul', {"className": "list-unstyled"},
+                        this.props.widgetsFor('events').map(function(event, index) {
+                          return h('li', {"className": "d-md-table mb-4 w-100 border-bottom hover-shadow"},
+                            h('div', {"className": "d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"},
+                                h('span', {"className": "h2 d-block"}, new Intl.DateTimeFormat('de-De', { day: 'numeric'}).format(event.getIn(['data', 'date']))),
+                                new Intl.DateTimeFormat('de-De', { month: 'short', year: 'numeric' }).format(event.getIn(['data', 'date']))
+                            ),
+                            h('div', {"className": "d-md-table-cell px-4 vertical-alighn-middle mb-4 mb-md-0"},
+                              h('p', {"className": "h4 mb-3 d-block"}, event.getIn(['data', 'title'])),
+                              h('p', {"className": "mb-0"}, event.getIn(['data', 'summary']))
+                            ),
+                            h('div', {"className": "d-md-table-cell text-right pr-0 pr-md-4"},
+                              h('p', {},
+                                h('i', {"className": "ti-location-pin text-primary mr-2"}),
+                                event.getIn(['data', 'location'])
+                              )
+                            )
+                          );
+                        })
+                      )
+                    )
+                  )
+                )
+              )
+            );
+  }
+});
+
+CMS.registerPreviewTemplate("event-index", EventPreview);
+
 </script>
 </body>
 </html>
