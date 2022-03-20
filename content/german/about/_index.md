@@ -1,18 +1,15 @@
 ---
-title: "Über die Schule"
+title: Über die Schule
 draft: false
-
-bg_image: "media/backgrounds/page-title.png"
-# about image
-image: "media/schule.png"
-# meta description
-description : "Das Georg-Cantor-Gymnasium - ein mathematisch-naturwissenschaftlich-technisches Gymnasium in Halle (Saale)"
+bg_image: media/backgrounds/page-title.png
+image: media/schule.png
+description: Das Georg-Cantor-Gymnasium - ein
+  mathematisch-naturwissenschaftlich-technisches Gymnasium in Halle (Saale)
 ---
-
 ## Die Geschichte der Schule
 
 Im Jahr 1986 gab es in der damaligen DDR bereits einige Spezialschulen mathematisch–naturwissenschaftlich–technischer Richtung.
-Der Bezirk Halle verfügte noch nicht über eine solche Einrichtung, doch der Industriebezirk Halle mit seinen Standorten Leuna und Buna verlangte zunehmend nach hochqualifizierten und leistungsbereiten jungen Menschen. So fasste der damalige Rat des Bezirkes Halle im Herbst 1986 den Beschluss, in Halle–Neustadt eine Spezialschule für leistungsbereite, lernmotivierte Schüler mit Interesse an mathematisch–naturwissenschaftlich–technischen Problemen  zu gründen.
+Der Bezirk Halle verfügte noch nicht über eine solche Einrichtung, doch der Industriebezirk Halle mit seinen Standorten Leuna und Buna verlangte zunehmend nach hoch qualifizierten und leistungsbereiten jungen Menschen. So fasste der damalige Rat des Bezirkes Halle im Herbst 1986 den Beschluss, in Halle–Neustadt eine Spezialschule für leistungsbereite, lernmotivierte Schüler mit Interesse an mathematisch–naturwissenschaftlich–technischen Problemen  zu gründen.
 Ab September 1988 sollten Schüler ab der Klasse 9 an dieser Schule lernen und bis zur Hochschulreife geführt werden. Es blieb ein Jahr Zeit, die bereits bestehende 28. POS „Ernst Hausmann“ in eine Spezialschule zu verwandeln, die den Anforderungen gerecht wurde.
 Nach der Übernahme der rekonstruierten ehemaligen Kindereinrichtung „Mischka der Bär“ begann ein Jahr später der Internatsbetrieb.
 
