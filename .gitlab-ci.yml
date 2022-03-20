@@ -5,12 +5,23 @@ variables:
 
 
 
-pages:
+deploy_website:
   before_script:
-  - apk add --update --no-cache openssh sshpass
+  - apk add --update --no-cache git curl
+  - git config --global user.name "Denys Konovalov"
+  - git config --global user.email "denys.konovalov@protonmail.com"
   script:
-  - hugo
-  - sshpass -p $scp_password scp -oStrictHostKeyChecking=no -r public $scp_path
+  - hugo --gc --minify --cleanDestinationDir
+  - git clone --depth=1 --single-branch --branch "${INPUT_BRANCH}" "https://x-access-token:$TOKEN@gitlab.cantorgymnasium.de/cantortechnik/website-build.git" /tmp/gh-pages
+  - rm -rf /tmp/gh-pages/*
+  - export OLD_PATH=$PWD
+  - cp public/* /tmp/gh-pages
+  - cd /tmp/gh-pages
+  - git add .
+  - git commit -m "$CI_COMMIT_MESSAGE"
+  - git push -u origin main --force
+  - cd $OLD_PATH
+  - curl $host_url
   artifacts:
     paths:
     - public
