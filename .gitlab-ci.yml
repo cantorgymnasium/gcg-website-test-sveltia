@@ -7,9 +7,10 @@ variables:
 
 pages:
   before_script:
-  - apk add --update --no-cache openssh
+  - apk add --update --no-cache openssh sshpass
   script:
   - hugo
+  - sshpass -p "$scp_password" scp public $scp_path
   artifacts:
     paths:
     - public
