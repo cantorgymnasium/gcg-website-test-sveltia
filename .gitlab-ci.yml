@@ -3,7 +3,11 @@ image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
+
+
 pages:
+  before_script:
+  - apk add --update --no-cache openssh
   script:
   - hugo
   artifacts:
