@@ -1,9 +1,3 @@
-# backend:
-#   name: github
-#   repo: eesev9ie/gcg-website
-#   branch: master
-#   site_domain: eesev9ie.netlify.app
-
 backend:
   name: gitlab
   repo: cantortechnik/gcg-website
@@ -13,12 +7,11 @@ backend:
   api_root: https://gitlab.cantorgymnasium.de/api/v4
   base_url: https://gitlab.cantorgymnasium.de
   auth_endpoint: oauth/authorize
-  ##base_url: http://localhost:8000
 
 media_folder: "static/media"
 public_folder: "/media"
-site_url: https://eesev9ie.github.io
-display_url: https://eesev9ie.github.io
+site_url: https://neu.cantorgymnasium.de
+display_url: https://neu.cantorgymnasium.de
 logo_url: /media/logo_y.svg
 locale: "de"
 publish_mode: editorial_workflow

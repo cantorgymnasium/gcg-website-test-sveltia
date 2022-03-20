@@ -30,15 +30,15 @@ Der Inhalt der Website wird mithilfe von [Markdown](https://de.wikipedia.org/wik
 
 Für eine einfache Möglichkeit der Content-Verwaltung ist in die Website ein Content-Management-System(CMS) auf der Basis von [Netlify CMS](https://netlifycms.org) integriert.
 
-Der Zugriff auf das CMS ist für jeden freigegeben, der Mitglied von <https://github.com/eesev9ie> ist.
+Der Zugriff auf das CMS ist für jeden freigegeben, der das Repository auf GitLab bearbeiten kann.
 
 ## Entwicklung
 
-Wer selbst an der Website mitentwickeln möchte, braucht als Erstes einen [GitHub](https://github.com) Account. Dann kann man sich [bei mir melden](mailto:service@lxdb.de) um dann ggf. Zugriff auf die Bearbeitung der Website oder eine Anleitung für die externe Bearbeitung zu bekommen.
+Wer selbst an der Website mitentwickeln möchte, braucht als Erstes einen [GitLab](https://gitlab.cantorgymnasium.de) Account. Dann kann man sich [bei mir melden](mailto:service@lxdb.de) um dann ggf. Zugriff auf die Bearbeitung der Website oder eine Anleitung für die externe Bearbeitung zu bekommen.
 
 ## Quellen
 
-* Der Quellcode der Website wird [hier](https://github.com/eesev9ie/gcg-website/) auf GitHub gespeichert
-* Die Website wird mit Hilfe von [GitHub Pages](https://github.io) aus [diesem Repository](https://github.com/eesev9ie/eesev9ie.github.io) gehostet
+* Der Quellcode der Website wird [hier](https://gitlab.cantorgymnasium.de/cantortechnik/gcg-website/) auf GitHub gespeichert
+* Die Website wird aus [diesem Repository](https://gitlab.cantorgymnasium.de/cantortechnik/website-build/) gehostet
 
 {{% /content %}}
