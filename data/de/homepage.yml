@@ -2,67 +2,56 @@
 slider:
   enable : true
   bg_image : "media/banner/banner.webp"
+  title: "Das Georg-Cantor-Gymnasium"
   slider_item:
-    - title : "Das Georg-Cantor-Gymnasium"
-      content : "Mathematisch-naturwissenschaftliche Spezialschule"
+    - content : "Mathematisch-naturwissenschaftliche Spezialschule"
       animation_in : "left"
       animation_out : "right"
       button:
         enable : false
-        label : ""
-        link : ""
-    - title : "Das Georg-Cantor-Gymnasium"
-      content : "Schule mit dem Gütesiegel \"Begabungsfördernde Schule\""
-      animation_in : "right"
-      animation_out : "down"
-      button:
-        enable : true
-        label : "Mehr erfahren"
-        link : "https://lisa.sachsen-anhalt.de/unterricht/projekte-und-paedagogische-entwicklungsvorhaben/begabungsfoerderung/netzwerk-begabungsfoerdernde-schulen-in-sachsen-anhalt/"
-    - title : "Das Georg-Cantor-Gymnasium"
-      content : "Primegymnasium der Martin-Luther-Universität Halle-Wittenberg"
-      animation_in : "up"
-      animation_out : "left"
-      button:
-        enable : true
-        label : "Mehr erfahren"
-        link : "frühstudium"
-    - title : "Das Georg-Cantor-Gymnasium"
-      content : "Kooperationsschule der Hochschule Merseburg und der Hochschule Anhalt"
+    - content : "Schule mit dem Gütesiegel \"Begabungsfördernde Schule\""
       animation_in : "left"
       animation_out : "right"
       button:
         enable : true
         label : "Mehr erfahren"
-        link : ""
-    - title : "Das Georg-Cantor-Gymnasium"
-      content : "Kooperationsschule der Dow Olefinverbund GmbH"
-      animation_in : "right"
-      animation_out : "down"
+        link : "https://lisa.sachsen-anhalt.de/unterricht/projekte-und-paedagogische-entwicklungsvorhaben/begabungsfoerderung/netzwerk-begabungsfoerdernde-schulen-in-sachsen-anhalt/"
+    - content : "Primegymnasium der Martin-Luther-Universität Halle-Wittenberg"
+      animation_in : "left"
+      animation_out : "right"
       button:
         enable : true
         label : "Mehr erfahren"
-        link : ""
-    - title : "Das Georg-Cantor-Gymnasium"
-      content : "Mitglied im Netzwerk MINT-EC"
-      animation_in : "up"
-      animation_out : "left"
+        link : "https://www.marketing.uni-halle.de/schulbuero/prime-gymnasien/"
+    - content : "Kooperationsschule der Hochschule Merseburg und der Hochschule Anhalt"
+      animation_in : "left"
+      animation_out : "right"
+      button:
+        enable : true
+        label : "Mehr erfahren"
+        link : "https://www.hs-anhalt.de/nc/studieren/orientierung/schulcampus/schulkooperationen.html"
+    - content : "Kooperationsschule der Dow Olefinverbund GmbH"
+      animation_in : "left"
+      animation_out : "right"
+      button:
+        enable : false
+    - content : "Mitglied im Netzwerk MINT-EC"
+      animation_in : "left"
+      animation_out : "right"
       button:
         enable : true
         label : "Mehr erfahren"
         link : "https://mint-ec.de"
-    - title : "Das Georg-Cantor-Gymnasium"
-      content : "Projektschule LemaS"
+    - content : "Projektschule LemaS"
       animation_in : "left"
       animation_out : "right"
       button:
         enable : true
         label : "Mehr erfahren"
         link : "https://www.leistung-macht-schule.de/"
-    - title : "Das Georg-Cantor-Gymnasium"
-      content : "KMK ''Jugend forscht''-Schule 2018"
-      animation_in : "right"
-      animation_out : "down"
+    - content : "KMK \"Jugend forscht\"-Schule 2018"
+      animation_in : "left"
+      animation_out : "right"
       button:
         enable : true
         label : "Mehr erfahren"
@@ -97,7 +86,7 @@ about:
   title : "Website im Aufbau"
   content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale). \n
   * Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n
-  * Der Quellcode der Website ist [hier](https://github.com/eesev9ie/gcg-website) abrufbar.  \n
+  * Der Quellcode der Website ist [hier](https://gitlab.cantorgymnasium.de/cantortechnik/gcg-website) abrufbar.  \n
   * Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten.\n
   * Weitere Informationen gibt es im [passenden Blogbeitrag](/blog/new-site/)
 
@@ -126,7 +115,7 @@ info:
   enable : true
   bg_image : "media/backgrounds/success-story.webp"
   title : "Über die Schule"
-  content : "Das Georg-Cantor-Gymnasium wurde im Jahre 1988 als eine mathematisch-naturwissenschaftliche Schule gegründet. Über die vielen Jahre kamen viele Veränderungen auf die Schule zu. Nach der Verleihung des Namen ''Georg-Cantor'', umformung zu einem Gymnasium, dem Umzug in ein neues Gebäude u.v.m ist die Schule heute ein erfolgreiches, modernes und produktives Gymnasium mit mathematisch-naturwissenschaftlichem Schwerpunkt, und dem Gütesiegel begabungsfördernde Schule vom Landesinstitut für Schulqualität und Lehrbildung."
+  content : "Das Georg-Cantor-Gymnasium wurde im Jahre 1988 als eine mathematisch-naturwissenschaftliche Schule gegründet. Über die vielen Jahre kamen viele Veränderungen auf die Schule zu. Nach der Verleihung des Namen \"Georg-Cantor\", umformung zu einem Gymnasium, dem Umzug in ein neues Gebäude u. v. m. ist die Schule heute ein erfolgreiches, modernes und produktives Gymnasium mit mathematisch-naturwissenschaftlichem Schwerpunkt und dem Gütesiegel \"Begabungsfördernde Schule\" vom Landesinstitut für Schulqualität und Lehrerbildung."
   video_link : "https://www.youtube.com/watch?v=v2ovvOmv-xw"
 
 termine:
