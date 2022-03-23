@@ -7,6 +7,8 @@ backend:
   api_root: https://gitlab.cantorgymnasium.de/api/v4
   base_url: https://gitlab.cantorgymnasium.de
   auth_endpoint: oauth/authorize
+  use_graphql: true
+  graphql_api_root: https://gitlab.cantorgymnasium.de/api/graphql
 
 publish_mode: editorial_workflow
 media_folder: "static/media"
@@ -19,6 +21,122 @@ locale: "de"
 show_preview_links: false
 
 collections:
+  - name: "config"
+    label: "Konfiguration"
+    description: "Hier können die Basiseinstellungen der Website geändert werden."
+    editor:
+      preview: false
+    media_folder: "static/media"
+    public_folder: "media"
+    files:
+      - name: "hugo-config"
+        label: "Website-Konfiguration"
+        file: "config.toml"
+        fields:
+          - {label: "Website-URL", name: "baseURL", widget: "string"}
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Elemente je Seite", name: "paginate", widget: "number", value_type: "int"}
+          - {label: "Lände von Zusammenfassungen", name: "summaryLength", widget: "number", value_type: "int"}
+          - {label: "Standardsprache in Unterordner", name: "defaultContentLanguageInSubdir", widget: "boolean"}
+          - {label: "Standardsprache", name: "defaultContentLanguage", widget: "string"}
+          - {label: "Emoji", name: "enableEmoji", widget: "boolean"}
+          - {label: "robots.txt", name: "enableRobotsTxt", widget: "boolean"}
+          - {label: "Zeitzone", name: "timeZone", widget: "string"}
+          - label: "Markdown-Enstellungen"
+            name: "markup"
+            widget: "object"
+            collapsed: true
+            summary: '{{fields.defaultMarkdownHandler}}'
+            fields:
+              - {label: "standardmäßiger Markdown-Handler", name: "defaultMarkdownHandler", widget: "select", options: ["blackfriday", "goldmark"]}
+              - label: "Goldmark-Einstellungen"
+                name: "goldmark"
+                widget: "object"
+                fields:
+                  - label: "Renderer-Einstellungen"
+                    name: "renderer"
+                    widget: "object"
+                    fields: [{label: "Unsicheren Inhalt erlauben", name: "unsafe", widget: "boolean"}]
+          - label: "Einstellungen"
+            name: "params"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Plugins"
+                name: "plugins"
+                widget: "object"
+                fields:
+                  - label: "CSS"
+                    name: "css"
+                    widget: "list"
+                    fields:
+                      - {label: "Link", name: "link", widget: "string"}
+                  - label: "JavaScript"
+                    name: "js"
+                    widget: "list"
+                    fields:
+                      - {label: "Link", name: "link", widget: "string"}
+              - {label: "Logo", name: "logo", widget: "image"}
+              - {label: "Autor", name: "author", widget: "string"}
+              - {label: "Adresse", name: "address", widget: "string"}
+              - {label: "Route (Link)", name: "route_link", widget: "string"}
+              - {label: "Telefonnummer", name: "mobile", widget: "string"}
+              - {label: "E-Mail-Adresse", name: "email", widget: "string"}
+              - {label: "Kontakt-Titelleiste", name: "top_header", widget: "boolean"}
+              - label: "Ladeanimation"
+                name: "preloader"
+                widget: "object"
+                fields:
+                  - {label: "Aktivieren", name: "enable", widget: "boolean"}
+                  - {label: "Logo", name: "preloader", widget: "image"}
+                  - {label: "Ladeanimation", name: "loader", widget: "image"}
+              - label: "Soz. Netzwerke"
+                name: "social"
+                widget: "list"
+                fields:
+                  - {label: "Bezeichnung", name: "title", widget: "string"}
+                  - {label: "Symbol", name: "icon", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string", hint: "Liste unter https://themify.me/themify-icons"}
+          - label: "Menü"
+            name: "menu"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Hauptmenü"
+                name: "main"
+                widget: "list"
+                fields:
+                  - {label: "Titel", name: "name", widget: "string"}
+                  - {label: "Position", name: "weight", widget: "number"}
+                  - {label: "Untermenüs", name: "hasChildren", widget: "boolean"}
+                  - {label: "Link", name: "URL", widget: "string"}
+                  - {label: "Untermenü von", name: "parent", widget: "relation", collection: "config", file: "hugo-config", search_fields: ['menu.main.*.name'], display_fields: ['menu.main.*.name'], value_field: "menu.main.*.name"}
+              - label: "unteres Menü"
+                name: "footer"
+                widget: "list"
+                fields:
+                  - {label: "Titel", name: "name", widget: "string"}
+                  - {label: "Link", name: "URL", widget: "string"}
+          - label: "Sprachen"
+            name: "Languages"
+            widget: "object"
+            collapsed: true
+            fields:
+              - label: "Deutsch"
+                name: "de"
+                widget: "object"
+                fields:
+                  - {label: "Abkürzung", name: "languageName", widget: "string"}
+                  - {label: "Sprachcode", name: "languageCode", widget: "string"}
+                  - {label: "Inhalt-Ordner", name: "contentDir", widget: "string"}
+                  - {label: "Position", name: "weight", widget: "number"}
+                  - {label: "Startseitenbezeichnung", name: "home", widget: "string"}
+                  - {label: "Copyright-Hinweis", name: "copyright", widget: "string"}
+                  - {label: "Impressum-Link", name: "impressumURL", widget: "string"}
+
+
+
+
   - name: "pages-de"
     label: "Statische Seiten"
     editor:
@@ -256,7 +374,8 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "anmeldung"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "cantorpreis-de"
-    label: "Cantor-Preisträger*in"
+    label: "Cantor-Preisträger*innen"
+    label_singular: "Cantor-Preisträger*in"
     folder: "content/german/cantorpreis"
     filter: {field: "type", value: "cantorpreis"}
     create: true
