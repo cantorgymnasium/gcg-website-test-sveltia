@@ -1,6 +1,5 @@
 slider:
   enable: true
-
   bg_image: "media/home/banner.webp"
   title: "Das Georg-Cantor-Gymnasium"
   slider_item:
