@@ -1,60 +1,60 @@
 slider:
-  enable : true
-  bg_image : "media/banner/banner.webp"
+  enable: true
+  bg_image: "media/banner/banner.webp"
   title: "Das Georg-Cantor-Gymnasium"
   slider_item:
-    - content : "Mathematisch-naturwissenschaftliche Spezialschule"
-      animation_in : "left"
-      animation_out : "right"
+    - content: "Mathematisch-naturwissenschaftliche Spezialschule"
+      animation_in: "left"
+      animation_out: "right"
       button:
-        enable : false
-    - content : "Schule mit dem Gütesiegel \"Begabungsfördernde Schule\""
-      animation_in : "left"
-      animation_out : "right"
+        enable: false
+    - content: "Schule mit dem Gütesiegel \"Begabungsfördernde Schule\""
+      animation_in: "left"
+      animation_out: "right"
       button:
-        enable : true
-        label : "Mehr erfahren"
-        link : "https://lisa.sachsen-anhalt.de/unterricht/projekte-und-paedagogische-entwicklungsvorhaben/begabungsfoerderung/netzwerk-begabungsfoerdernde-schulen-in-sachsen-anhalt/"
-    - content : "Primegymnasium der Martin-Luther-Universität Halle-Wittenberg"
-      animation_in : "left"
-      animation_out : "right"
+        enable: true
+        label: "Mehr erfahren"
+        link: "https://lisa.sachsen-anhalt.de/unterricht/projekte-und-paedagogische-entwicklungsvorhaben/begabungsfoerderung/netzwerk-begabungsfoerdernde-schulen-in-sachsen-anhalt/"
+    - content: "Primegymnasium der Martin-Luther-Universität Halle-Wittenberg"
+      animation_in: "left"
+      animation_out: "right"
       button:
-        enable : true
-        label : "Mehr erfahren"
-        link : "https://www.marketing.uni-halle.de/schulbuero/prime-gymnasien/"
-    - content : "Kooperationsschule der Hochschule Merseburg und der Hochschule Anhalt"
-      animation_in : "left"
-      animation_out : "right"
+        enable: true
+        label: "Mehr erfahren"
+        link: "https://www.marketing.uni-halle.de/schulbuero/prime-gymnasien/"
+    - content: "Kooperationsschule der Hochschule Merseburg und der Hochschule Anhalt"
+      animation_in: "left"
+      animation_out: "right"
       button:
-        enable : true
-        label : "Mehr erfahren"
-        link : "https://www.hs-anhalt.de/nc/studieren/orientierung/schulcampus/schulkooperationen.html"
-    - content : "Kooperationsschule der Dow Olefinverbund GmbH"
-      animation_in : "left"
-      animation_out : "right"
+        enable: true
+        label: "Mehr erfahren"
+        link: "https://www.hs-anhalt.de/nc/studieren/orientierung/schulcampus/schulkooperationen.html"
+    - content: "Kooperationsschule der Dow Olefinverbund GmbH"
+      animation_in: "left"
+      animation_out: "right"
       button:
-        enable : false
-    - content : "Mitglied im Netzwerk MINT-EC"
-      animation_in : "left"
-      animation_out : "right"
+        enable: false
+    - content: "Mitglied im Netzwerk MINT-EC"
+      animation_in: "left"
+      animation_out: "right"
       button:
-        enable : true
-        label : "Mehr erfahren"
-        link : "https://mint-ec.de"
-    - content : "Projektschule LemaS"
-      animation_in : "left"
-      animation_out : "right"
+        enable: true
+        label: "Mehr erfahren"
+        link: "https://mint-ec.de"
+    - content: "Projektschule LemaS"
+      animation_in: "left"
+      animation_out: "right"
       button:
-        enable : true
-        label : "Mehr erfahren"
-        link : "https://www.leistung-macht-schule.de/"
-    - content : "KMK \"Jugend forscht\"-Schule 2018"
-      animation_in : "left"
-      animation_out : "right"
+        enable: true
+        label: "Mehr erfahren"
+        link: "https://www.leistung-macht-schule.de/"
+    - content: "KMK \"Jugend forscht\"-Schule 2018"
+      animation_in: "left"
+      animation_out: "right"
       button:
-        enable : true
-        label : "Mehr erfahren"
-        link : "https://www.kmk.org/aktuelles/artikelansicht/georg-cantor-gymnasium-halle-saale-ist-die-jugend-forscht-schule-2018.html"
+        enable: true
+        label: "Mehr erfahren"
+        link: "https://www.kmk.org/aktuelles/artikelansicht/georg-cantor-gymnasium-halle-saale-ist-die-jugend-forscht-schule-2018.html"
 
 success_banner:
   enable : true
