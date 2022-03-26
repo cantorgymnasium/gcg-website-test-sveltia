@@ -1,136 +1,165 @@
 slider:
   enable: true
-  bg_image: "media/home/banner.webp"
-  title: "Das Georg-Cantor-Gymnasium"
+  bg_image: media/home/banner.webp
+  title: Das Georg-Cantor-Gymnasium
   slider_item:
-    - content: "Mathematisch-naturwissenschaftliche Spezialschule"
-      animation_in: "left"
-      animation_out: "right"
+    - content: Mathematisch-naturwissenschaftliche Spezialschule
+      animation_in: left
+      animation_out: right
       button:
         enable: false
-    - content: "Schule mit dem Gütesiegel \"Begabungsfördernde Schule\""
-      animation_in: "left"
-      animation_out: "right"
+        label: ""
+        link: ""
+    - content: Schule mit dem Gütesiegel \"Begabungsfördernde Schule\"
+      animation_in: left
+      animation_out: right
       button:
         enable: true
-        label: "Mehr erfahren"
-        link: "https://lisa.sachsen-anhalt.de/unterricht/projekte-und-paedagogische-entwicklungsvorhaben/begabungsfoerderung/netzwerk-begabungsfoerdernde-schulen-in-sachsen-anhalt/"
-    - content: "Primegymnasium der Martin-Luther-Universität Halle-Wittenberg"
-      animation_in: "left"
-      animation_out: "right"
+        link: https://lisa.sachsen-anhalt.de/unterricht/projekte-und-paedagogische-entwicklungsvorhaben/begabungsfoerderung/netzwerk-begabungsfoerdernde-schulen-in-sachsen-anhalt/
+        label: Mehr erfahren
+    - content: Primegymnasium der Martin-Luther-Universität Halle-Wittenberg
+      animation_in: left
+      animation_out: right
       button:
         enable: true
-        label: "Mehr erfahren"
-        link: "https://www.marketing.uni-halle.de/schulbuero/prime-gymnasien/"
-    - content: "Kooperationsschule der Hochschule Merseburg und der Hochschule Anhalt"
-      animation_in: "left"
-      animation_out: "right"
+        link: https://www.marketing.uni-halle.de/schulbuero/prime-gymnasien/
+        label: Mehr erfahren
+    - content: Kooperationsschule der Hochschule Merseburg und der Hochschule Anhalt
+      animation_in: left
+      animation_out: right
       button:
+        link: https://www.hs-anhalt.de/nc/studieren/orientierung/schulcampus/schulkooperationen.html
+        label: Mehr erfahren
         enable: true
-        label: "Mehr erfahren"
-        link: "https://www.hs-anhalt.de/nc/studieren/orientierung/schulcampus/schulkooperationen.html"
-    - content: "Kooperationsschule der Dow Olefinverbund GmbH"
-      animation_in: "left"
-      animation_out: "right"
+    - content: Kooperationsschule der Dow Olefinverbund GmbH
+      animation_in: left
+      animation_out: right
       button:
         enable: false
-    - content: "Mitglied im Netzwerk MINT-EC"
-      animation_in: "left"
-      animation_out: "right"
+        label: ""
+        link: ""
+    - content: Mitglied im Netzwerk MINT-EC
+      animation_in: left
+      animation_out: right
       button:
         enable: true
-        label: "Mehr erfahren"
-        link: "https://mint-ec.de"
-    - content: "Projektschule LemaS"
-      animation_in: "left"
-      animation_out: "right"
+        label: Mehr erfahren
+        link: https://mint-ec.de
+    - content: Projektschule LemaS
+      animation_in: left
+      animation_out: right
       button:
         enable: true
-        label: "Mehr erfahren"
-        link: "https://www.leistung-macht-schule.de/"
-    - content: "KMK \"Jugend forscht\"-Schule 2018"
-      animation_in: "left"
-      animation_out: "right"
+        link: https://www.leistung-macht-schule.de/
+        label: Mehr erfahren
+    - content: KMK \"Jugend forscht\"-Schule 2018
+      animation_in: left
+      animation_out: right
       button:
         enable: true
-        label: "Mehr erfahren"
-        link: "https://www.kmk.org/aktuelles/artikelansicht/georg-cantor-gymnasium-halle-saale-ist-die-jugend-forscht-schule-2018.html"
-
+        link: https://www.kmk.org/aktuelles/artikelansicht/georg-cantor-gymnasium-halle-saale-ist-die-jugend-forscht-schule-2018.html
+        label: Mehr erfahren
 success_banner:
-  enable : true
-  image : "media/home/success_banner.webp"
+  enable: true
+  image: media/home/success_banner.webp
   feature_item:
-    - name : "Mathematikolympiade"
+    - name: Mathematikolympiade
+      content: "In der Landesmathematikolympiade 2022 wurden:  \\n * **2 von 8 ersten
+        Preisen**  \\n*  **5 von 13 zweiten Preisen**  \\n * **9 von 19 dritten
+        Preisen**  \\n*  **6 von 28 Anerkennungspreisen**  \\n  \\nan Schüler
+        unserer Schule verliehen."
       img: true
-      image : "/media/home/mo.png"
-      content : "In der Landesmathematikolympiade 2022 wurden:  \n * **2 von 8 ersten Preisen**  \n * **5 von 13 zweiten Preisen**  \n * **9 von 19 dritten Preisen**  \n * **6 von 28 Anerkennungspreisen**  \n  \nan Schüler unerer Schule verliehen."
-    - name : "Physikolympiade"
+      image: media/home/mo.png
+      icon: ""
+    - name: Physikolympiade
       img: true
-      image : "/media/home/po.png"
-      content : "In der Landesphysikolympiade 2022 wurden:  \n * **2 von 5 ersten Preisen**  \n * **3 von 8 zweiten Preisen**  \n * **1 von 11 dritten Preisen**  \n * **1 von 15 Anerkennungspreisen**  \n \nan Schüler unserer Schule verliehen."
-    - name : "Chemieolympiade"
+      image: media/home/po.png
+      content: "In der Landesphysikolympiade 2022 wurden:  \\n * **2 von 5 ersten
+        Preisen**  \\n*  **3 von 8 zweiten Preisen**  \\n * **1 von 11 dritten
+        Preisen**  \\n*  **1 von 15 Anerkennungspreisen**  \\n \\nan Schüler
+        unserer Schule verliehen."
+      icon: ""
+    - name: Chemieolympiade
       img: true
-      image : "/media/home/icho.png"
-      content : "Ein Schüler unserer Schule bekam die Bronzemedaille in der Internationalen Chemieolympiade 2020 verliehen. Ein weiterer Schüler unserer Schule wurde für die Nationalmannschaft für die IChO 2021 ausgewählt."
-    - name : "Chemie - die stimmt!"
+      image: media/home/icho.png
+      content: Ein Schüler unserer Schule bekam die Bronzemedaille in der
+        Internationalen Chemieolympiade 2020 verliehen. Ein weiterer Schüler
+        unserer Schule wurde für die Nationalmannschaft für die IChO 2021
+        ausgewählt.
+      icon: ""
+    - content: Ein Schüler unserer Schule bekam in der Endrunde von "Chemie - die
+        stimmt!" 2021 den ersten Platz in drei Kategorien.
+      name: Chemie - die stimmt!
       img: true
-      image : "/media/home/cds.png"
-      content : "Ein Schüler unserer Schule bekam in der Endrunde von \"Chemie - die stimmt!\" 2021 den ersten Platz in drei Kategorien."
-    - name : "Und viel mehr ..."
-      icon : "ti-medall"
-      content : "Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete, Spezialistenlager und begabtenfördernde Ganztagsangebote."
-
+      image: media/home/cds.png
+      icon: ""
+    - name: Und viel mehr ...
+      icon: ti-medal
+      content: Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
+        vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
+        Spezialistenlager und begabtenfördernde Ganztagsangebote.
+      img: false
+      image: ""
 about:
-  enable : true
-  title : "Website im Aufbau"
-  content : "* Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle(Saale). \n
-  * Da die Wesite noch im Aufbau ist fehlen noch viele Inhalte und mehrere Bereiche.  \n
-  * Der Quellcode der Website ist [hier](https://gitlab.cantorgymnasium.de/cantortechnik/gcg-website) abrufbar.  \n
-  * Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten.\n
-  * Weitere Informationen gibt es im [passenden Blogbeitrag](/blog/new-site/)
+  enable: true
+  title: Website im Aufbau
+  content: >-
+    * Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in
+    Halle(Saale). \n
 
-  ## Tag der offenen Tür
+    * Da die Website noch im Aufbau ist, fehlen noch viele Inhalte und mehrere Bereiche.  \n
 
-  Da in diesem Schuljahr kein gewöhnlicher Tag der offenen Tür stattfinden kann, bieten wir hiermit eine digitale Führung durch das Schulhaus an."
+    * Der Quellcode der Website ist [hier](https://gitlab.cantorgymnasium.de/cantortechnik/gcg-website) abrufbar.  \n
+
+    * Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten.\n
+
+    * Weitere Informationen gibt es im [passenden Blogbeitrag](/blog/new-site/)
+
+
+    ## Tag der offenen Tür
+
+
+    Da in diesem Schuljahr kein gewöhnlicher Tag der offenen Tür stattfinden kann, bieten wir hiermit eine digitale Führung durch das Schulhaus an.
   button:
-    enable : true
-    label : "Digitale Führung durch das Schulhaus"
-    link : "https://cantorgymnasium.de/virtuell"
-
+    enable: true
+    label: Digitale Führung durch das Schulhaus
+    link: https://cantorgymnasium.de/virtuell
 ganztagsangebote:
-  enable : true
-  title : "Unsere Ganztagsangebote"
-
+  enable: true
+  title: Unsere Ganztagsangebote
 cta:
-  enable : true
-  subtitle : "Dann geht es hier direkt zur Anmeldung!"
-  title : "Interessiert ?"
+  enable: true
+  title: Interessiert ?
+  subtitle: Dann geht es hier direkt zur Anmeldung!
   button:
-    enable : true
-    label : "Anmeldeantrag stellen"
-    link : "anmeldung"
-
+    enable: true
+    label: Anmeldeantrag stellen
+    link: anmeldung
 info:
-  enable : true
-  bg_image : "media/home/success-story.webp"
-  title : "Über die Schule"
-  content : "Das Georg-Cantor-Gymnasium wurde im Jahre 1988 als eine mathematisch-naturwissenschaftliche Schule gegründet. Über die vielen Jahre kamen viele Veränderungen auf die Schule zu. Nach der Verleihung des Namen \"Georg-Cantor\", umformung zu einem Gymnasium, dem Umzug in ein neues Gebäude u. v. m. ist die Schule heute ein erfolgreiches, modernes und produktives Gymnasium mit mathematisch-naturwissenschaftlichem Schwerpunkt und dem Gütesiegel \"Begabungsfördernde Schule\" vom Landesinstitut für Schulqualität und Lehrerbildung."
-  video_link : "https://www.youtube.com/watch?v=v2ovvOmv-xw"
-
+  enable: true
+  bg_image: media/home/success-story.webp
+  title: Über die Schule
+  content: Das Georg-Cantor-Gymnasium wurde im Jahre 1988 als eine
+    mathematisch-naturwissenschaftliche Schule gegründet. Über die vielen Jahre
+    kamen viele Veränderungen auf die Schule zu. Nach der Verleihung des Namen
+    \"Georg-Cantor\", Umformung zu einem Gymnasium, dem Umzug in ein neues
+    Gebäude u. v. m. ist die Schule heute ein erfolgreiches, modernes und
+    produktives Gymnasium mit mathematisch-naturwissenschaftlichem Schwerpunkt
+    und dem Gütesiegel \"Begabungsfördernde Schule\" vom Landesinstitut für
+    Schulqualität und Lehrerbildung.
+  video_link: https://www.youtube.com/watch?v=v2ovvOmv-xw
 termine:
-  enable : true
-  title : "Diesjährige Termine"
-
+  enable: true
+  title: Diesjährige Termine
 zahlen:
-  enable : true
+  enable: true
   zahl_element:
-    - name : "Schüler"
-      count : "575"
-    - name : "Lehrer"
-      count : "45"
-    - name : "Neue Schüler  \nwerden jedes Jahr aufgenommen"
-      count : "72"
-
+    - name: Schüler
+      count: 575
+    - name: Lehrer
+      count: 45
+    - name: Neue Schüler  \nwerden jedes Jahr aufgenommen
+      count: 72
 blog:
-  enable : true
-  title : "Aktuelle Beiträge"
+  enable: true
+  title: Aktuelle Beiträge
