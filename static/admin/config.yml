@@ -29,6 +29,39 @@ collections:
     media_folder: "static/media"
     public_folder: "media"
     files:
+      - name: "homepage-config"
+        label: "Startseitenkonfiguration"
+        file: "data/de/homepage.yml"
+        fields:
+          - label: "Slider"
+            name: "slider"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean"}
+              - {label: "Hintergrundbild", name: "bg_image", widget: "image"}
+              - {label: "Titel", name: "title", widget: "string"}
+              - label: "Elemente"
+                name: "slider_item"
+                widget: "list"
+                fields:
+                  - {label: "Inhalt", name: "content", widget: "string"}
+                  - label: "Einblendeanimation"
+                    name: "animation_in"
+                    widget: "select"
+                    options: ["left", "right", "up", "down"]
+                  - label: "Ausblendeanimation"
+                    name: "animation_out"
+                    widget: "select"
+                    options: ["left", "right", "up", "down"]
+                  - label: "Button"
+                    name: "button"
+                    widget: "object"
+                    fields:
+                      - {label: "Aktivieren", name: "enable", widget: "boolean"}
+                      - {label: "Bezeichnung", name: "label", widget: "string"}
+                      - {label: "Link", name: "link", widget: "string"}
+
+
       - name: "hugo-config"
         label: "Website-Konfiguration"
         file: "config.toml"
