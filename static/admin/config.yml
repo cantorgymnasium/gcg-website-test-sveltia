@@ -142,7 +142,7 @@ collections:
             name: "blog"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "booleang"}
+              - {label: "Aktivieren", name: "enable", widget: "boolean"}
               - {label: "Titel", name: "title", widget: "string"}
       - name: "hugo-config"
         label: "Website-Konfiguration"
