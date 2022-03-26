@@ -8,8 +8,8 @@ slider:
       animation_out: right
       button:
         enable: false
-        label: hgj
-        link: ghj
+        label: ""
+        link: ""
     - content: Schule mit dem Gütesiegel \"Begabungsfördernde Schule\"
       animation_in: left
       animation_out: right
@@ -36,8 +36,8 @@ slider:
       animation_out: right
       button:
         enable: false
-        label: ertzu
-        link: dfghjk
+        label: ""
+        link: ""
     - content: Mitglied im Netzwerk MINT-EC
       animation_in: left
       animation_out: right
@@ -70,7 +70,7 @@ success_banner:
         unserer Schule verliehen."
       img: true
       image: media/home/mo.png
-      icon: vbhjk
+      icon: ""
     - name: Physikolympiade
       img: true
       image: media/home/po.png
@@ -78,7 +78,7 @@ success_banner:
         Preisen**  \\n*  **3 von 8 zweiten Preisen**  \\n * **1 von 11 dritten
         Preisen**  \\n*  **1 von 15 Anerkennungspreisen**  \\n \\nan Schüler
         unserer Schule verliehen."
-      icon: vbnm,
+      icon: ""
     - name: Chemieolympiade
       img: true
       image: media/home/icho.png
@@ -86,20 +86,20 @@ success_banner:
         Internationalen Chemieolympiade 2020 verliehen. Ein weiterer Schüler
         unserer Schule wurde für die Nationalmannschaft für die IChO 2021
         ausgewählt.
-      icon: vbnm
+      icon: ""
     - content: Ein Schüler unserer Schule bekam in der Endrunde von "Chemie - die
         stimmt!" 2021 den ersten Platz in drei Kategorien.
       name: Chemie - die stimmt!
       img: true
       image: media/home/cds.png
-      icon: vbnm
+      icon: ""
     - name: Und viel mehr ...
-      icon: ti-medall
+      icon: ti-medal
       content: Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
         vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
         Spezialistenlager und begabtenfördernde Ganztagsangebote.
-      img: true
-      image: media/home/po.png
+      img: false
+      image: ""
 about:
   enable: true
   title: Website im Aufbau
