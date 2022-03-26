@@ -142,8 +142,8 @@ collections:
             name: "blog"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "string"}
-              - {label: "Titel", name: "title", widget: "string"}  
+              - {label: "Aktivieren", name: "enable", widget: "booleang"}
+              - {label: "Titel", name: "title", widget: "string"}
       - name: "hugo-config"
         label: "Website-Konfiguration"
         file: "config.toml"
