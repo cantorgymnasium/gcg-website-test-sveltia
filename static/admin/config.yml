@@ -32,7 +32,7 @@ collections:
       - name: "homepage-config"
         label: "Startseitenkonfiguration"
         file: "data/de/homepage.yml"
-        media_folder: "static/media/home"
+        media_folder: "/static/media/home"
         public_folder: "media/home"
         format: yml
         fields:
@@ -68,8 +68,82 @@ collections:
             widget: "object"
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean"}
-
-
+              - {label: "Bild", name: "image", widget: "string"}
+              - label: "Elemente"
+                name: "feature_item"
+                widget: "list"
+                fields:
+                  - {label: "Bezeichnung", name: "name", widget: "string"}
+                  - {label: "Bild verwenden", name: "img", widget: "boolean"}
+                  - {label: "Symbol", name: "icon", widget: "string"}
+                  - {label: "Bild", name: "image", widget: "image"}
+                  - {label: "Inhalt", name: "content", widget: "markdown"}
+          - label: "\"Über\"-Seite"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean"}
+              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Inhalt", name: "content", widget: "markdown"}
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - {label: "Aktivieren", name: "enable", widget: "boolean"}
+                  - {label: "Bezeichnung", name: "label", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string"}
+          - label: "Ganztagsangebote"
+            name: "ganztagsangebote"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean"}
+              - {label: "Titel", name: "title", widget: "string"}
+          - label: "Aktionsbutton"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean"}
+              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Untertitel", name: "subtitle", widget: "string"}
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - {label: "Aktivieren", name: "enable", widget: "boolean"}
+                  - {label: "Bezeichnung", name: "label", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string"}
+          - label: "Informationen"
+            name: "info"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean"}
+              - {label: "Hintergrundbild", name: "bg_image", widget: "image"}
+              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Inhalt", name: "content", widget: "text"}
+              - {label: "Video-Link", name: "video_link", widget: "string"}
+          - label: "Termine"
+            name: "termine"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean"}
+              - {label: "Titel", name: "title", widget: "string"}
+          - label: "Zahlen"
+            name: "zahlen"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean"}
+              - label: "Elemente"
+                name: "zahl_element"
+                widget: "list"
+                fields:
+                  - {label: "Bezeichnung", name: "name", widget: "string"}
+                  - {label: "Zahl", name: "count", widget: "number"}
+          - label: "Blog"
+            name: "blog"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "string"}
+              - {label: "Titel", name: "title", widget: "string"}  
       - name: "hugo-config"
         label: "Website-Konfiguration"
         file: "config.toml"

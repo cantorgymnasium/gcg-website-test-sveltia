@@ -72,7 +72,7 @@
           {{ range .feature_item }}
           <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-sm-left">
             {{ if .img }}
-              <img src="{{ .icon }}" class="mb-xl-4 mb-lg-3 mb-4 feature-icon"></img>
+              <img src="{{ .image }}" class="mb-xl-4 mb-lg-3 mb-4 feature-icon"></img>
             {{ else }}
               <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
             {{ end }}
@@ -134,8 +134,8 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h2>
-        <h5 class="section-title text-white">{{ .title | markdownify }}</h5>
+        <h2 class="text-white font-secondary mb-0">{{ .title | markdownify }}</h2>
+        <h5 class="section-title text-white">{{ .subtitle | markdownify }}</h5>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | absLangURL }}" class="btn btn-secondary text-uppercase">{{ .label }}</a>
