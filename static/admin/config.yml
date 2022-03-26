@@ -47,37 +47,40 @@ collections:
                 name: "slider_item"
                 widget: "list"
                 fields:
-                  - {label: "Inhalt", name: "content", widget: "string"}
+                  - {label: "Inhalt", name: "content", widget: "string", required: false}
                   - label: "Einblendeanimation"
                     name: "animation_in"
                     widget: "select"
                     options: ["left", "right", "up", "down"]
+                    required: false
                   - label: "Ausblendeanimation"
                     name: "animation_out"
                     widget: "select"
                     options: ["left", "right", "up", "down"]
+                    required: false
                   - label: "Button"
                     name: "button"
                     widget: "object"
+                    required: false
                     fields:
-                      - {label: "Aktivieren", name: "enable", widget: "boolean"}
-                      - {label: "Bezeichnung", name: "label", widget: "string"}
-                      - {label: "Link", name: "link", widget: "string"}
+                      - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+                      - {label: "Bezeichnung", name: "label", widget: "string", required: false}
+                      - {label: "Link", name: "link", widget: "string", required: false}
           - label: "Erfolge"
             name: "success_banner"
             widget: "object"
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean"}
-              - {label: "Bild", name: "image", widget: "string"}
+              - {label: "Bild", name: "image", widget: "image"}
               - label: "Elemente"
                 name: "feature_item"
                 widget: "list"
                 fields:
-                  - {label: "Bezeichnung", name: "name", widget: "string"}
-                  - {label: "Bild verwenden", name: "img", widget: "boolean"}
-                  - {label: "Symbol", name: "icon", widget: "string"}
-                  - {label: "Bild", name: "image", widget: "image"}
-                  - {label: "Inhalt", name: "content", widget: "markdown"}
+                  - {label: "Bezeichnung", name: "name", widget: "string", required: false}
+                  - {label: "Bild verwenden", name: "img", widget: "boolean", required: false}
+                  - {label: "Symbol", name: "icon", widget: "string", required: false}
+                  - {label: "Bild", name: "image", widget: "image", required: false}
+                  - {label: "Inhalt", name: "content", widget: "markdown", required: false}
           - label: "\"Über\"-Seite"
             name: "about"
             widget: "object"
