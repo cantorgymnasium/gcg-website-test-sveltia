@@ -32,6 +32,9 @@ collections:
       - name: "homepage-config"
         label: "Startseitenkonfiguration"
         file: "data/de/homepage.yml"
+        media_folder: "static/media/home"
+        public_folder: "media/home"
+        format: yml
         fields:
           - label: "Slider"
             name: "slider"
@@ -60,6 +63,11 @@ collections:
                       - {label: "Aktivieren", name: "enable", widget: "boolean"}
                       - {label: "Bezeichnung", name: "label", widget: "string"}
                       - {label: "Link", name: "link", widget: "string"}
+          - label: "Erfolge"
+            name: "success_banner"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean"}
 
 
       - name: "hugo-config"
