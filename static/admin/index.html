@@ -38,22 +38,12 @@ CMS.registerEditorComponent({
   ],
 
   pattern: /^{{% open-element title=\"(.*?)\" %}}$\s*?(.*?)\n^{{% \/open-element %}}$/ms,
-  // Given a RegExp Match object
-  // (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match#return_value),
-  // return an object with one property for each field defined in `fields`.
-  //
-  // This is used to populate the custom widget in the markdown editor in the CMS.
   fromBlock: function(match) {
     return {
       summary: match[1],
       details: match[2]
     };
   },
-  // Given an object with one property for each field defined in `fields`,
-  // return the string you wish to be inserted into your markdown.
-  //
-  // This is used to serialize the data from the custom widget to the
-  // markdown document
   toBlock: function(data) {
     return `
 {{% open-element title="${data.summary}" %}}
@@ -63,8 +53,6 @@ ${data.details}
 {{% /open-element %}}
 `;
   },
-  // Preview output for this component. Can either be a string or a React component
-  // (component gives better render performance)
   toPreview: function(data) {
     return `
     <div class="container">
@@ -81,6 +69,87 @@ ${data.details}
     </div>
 `;
   }
+});
+</script>
+<script>
+CMS.registerEditorComponent({
+id: "content",
+label: "\"content\"-Tag",
+collapsed: false,
+fields: [
+  {
+    name: 'details',
+    label: 'Inhalt',
+    widget: 'markdown'
+  }
+],
+
+pattern: /^{{% content %}}$\s*?(.*?)\n^{{% \/content %}}$/ms,
+fromBlock: function(match) {
+  return {
+    details: match[1]
+  };
+},
+toBlock: function(data) {
+  return `
+{{% content %}}
+
+${data.details}
+
+{{% /content %}}
+`;
+},
+toPreview: function(data) {
+  return `
+  <div class="content">
+    ${data.details}
+  </div>
+`;
+}
+});
+</script>
+<script>
+CMS.registerEditorComponent({
+id: "card",
+label: "Link-Karte",
+collapsed: false,
+fields: [
+  {
+    name: 'link',
+    label: 'Link',
+    widget: 'string'
+  },
+  {
+    name: 'title',
+    label: 'Bezeichnung',
+    widget: 'string'
+  }
+],
+
+pattern: /^{{< card link=\"(.*?)\" title=\"(.*?)\" >}}/,
+fromBlock: function(match) {
+  return {
+    link: match[1],
+    title: match[2]
+  };
+},
+toBlock: function(data) {
+  return `
+{{< card link="${data.link}" title="${data.title}" >}}
+`;
+},
+toPreview: function(data) {
+  return `
+  <div class="container">
+    <div class="card border-primary rounded-0 hover-shadow mb-5">
+      <div class="card-body">
+        <h4 class="card-title"><a href='${data.link}'>${data.title}</a></h4>
+        <a href='${data.link}' class="btn btn-primary btn-sm">Mehr anzeigen</a>
+      </div>
+    </div>
+  </div>
+`;
+}
 });
 </script>
   <!-- <script>
@@ -194,6 +263,49 @@ var PostPreview = createClass({
 });
 
 CMS.registerPreviewTemplate("schulchronik", PostPreview);
+CMS.registerPreviewTemplate("schuelerrat-index", PostPreview);
+
+</script>
+<script>
+var PostPreviewContent = createClass({
+  render: function() {
+    var entry = this.props.entry;
+    var image = entry.getIn(['data', 'image']);
+    var bg = this.props.getAsset(image);
+    const divStyle = {
+      backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
+    };
+    return h('div', {},
+              h('section', {"className": "page-title-section overlay", "style": divStyle},
+                h('div', {"className": "container"},
+                  h('div', {"className": "col-md-8"},
+                    h('ul', {"className": "list-inline custom-breadcrumb"},
+                      h('li', {"className": "list-inline-item h1"},
+                        h('a', {"className": "text-primary font-secondary", href: ""}, "Schulchronik")),
+                      h('li', {"className": "list-inline-item ha"},
+                        h("i", {"className": "ti-angle-right text-white"})),
+                      h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title']))
+                    )
+                  )
+                )
+              ),
+              h('section', {"className": "section-sm"},
+                h('div', {"className": "container"},
+                  h('div', {"className": "row"},
+                    h('div', {"className": "col-12 mb-4"},
+                      h('div', {"className": "content"}, this.props.widgetFor('body'))
+                    )
+                  )
+                )
+              )
+            );
+  }
+});
+
+CMS.registerPreviewTemplate("anmeldung-index", PostPreviewContent);
+CMS.registerPreviewTemplate("impressum", PostPreviewContent);
+CMS.registerPreviewTemplate("schuelerrat-geschaeftsordnung", PostPreviewContent);
+
 </script>
 <script>
 var EventPreview = createClass({
@@ -257,6 +369,92 @@ var EventPreview = createClass({
 });
 
 CMS.registerPreviewTemplate("event-index", EventPreview);
+
+</script>
+<script>
+var PagePreview = createClass({
+  render: function() {
+    var entry = this.props.entry;
+    var image = entry.getIn(['data', 'image']);
+    var bg = this.props.getAsset(image);
+    const divStyle = {
+      backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
+    };
+    return h('div', {},
+              h('section', {"className": "page-title-section overlay", "style": divStyle},
+                h('div', {"className": "row"},
+                  h('div', {"className": "container"},
+                    h('div', {"className": "col-md-8"},
+                      h('ul', {"className": "list-inline custom-breadcrumb"},
+                        h('li', {"className": "list-inline-item h1"},
+                          h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
+                        ),
+                        h('li', {"className": "list-inline-item ha"},
+                          h("i", {"className": "ti-angle-right text-white"})
+                        ),
+                        h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title'])
+                        )
+                      ),
+                      h('p', {"className": "text-lighten"}, entry.getIn(['data', 'description']))
+                    )
+                  )
+                )
+              )
+            );
+  }
+});
+
+CMS.registerPreviewTemplate("blog-index", PagePreview);
+CMS.registerPreviewTemplate("cantorpreis-index", PagePreview);
+CMS.registerPreviewTemplate("contact-index", PagePreview);
+CMS.registerPreviewTemplate("forms-index", PagePreview);
+CMS.registerPreviewTemplate("ganztagsangebote-index", PagePreview);
+CMS.registerPreviewTemplate("wettbewerbe-index", PagePreview);
+
+</script>
+<script>
+var PagePreviewImage = createClass({
+  render: function() {
+    var entry = this.props.entry;
+    var image = entry.getIn(['data', 'image']);
+    var bg = this.props.getAsset(image);
+    const divStyle = {
+      backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
+    };
+    return h('div', {},
+              h('section', {"className": "page-title-section overlay", "style": divStyle},
+                h('div', {"className": "row"},
+                  h('div', {"className": "container"},
+                    h('div', {"className": "col-md-8"},
+                      h('ul', {"className": "list-inline custom-breadcrumb"},
+                        h('li', {"className": "list-inline-item h1"},
+                          h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
+                        ),
+                        h('li', {"className": "list-inline-item ha"},
+                          h("i", {"className": "ti-angle-right text-white"})
+                        ),
+                        h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title'])
+                        )
+                      ),
+                      h('p', {"className": "text-lighten"}, entry.getIn(['data', 'description']))
+                    )
+                  )
+                )
+              ),
+              h('section', {"className": "section-sm"},
+                h('div', {"className": "container"},
+                  h('div', {"className": "row"},
+                    h('div', {"className": "col-12 mb-4"},
+                    h('img', {"className": "img-fluid w-100 mb-4", src: bg.toString(), alt: "about image"}),
+                    this.props.widgetFor('body'))
+                  )
+                )
+              )
+            );
+  }
+});
+
+CMS.registerPreviewTemplate("about-index", PagePreviewImage);
 
 </script>
 </body>
