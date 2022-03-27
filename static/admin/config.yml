@@ -551,7 +551,7 @@ collections:
     editor:
       preview: false
     media_folder: '/static/media/contests'
-    public_folder: '/media/people/contests'
+    public_folder: '/media/contests'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
