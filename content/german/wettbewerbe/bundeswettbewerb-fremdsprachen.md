@@ -1,6 +1,6 @@
 ---
 title: Bundeswettbewerb Fremdsprachen
-draft: "false"
+draft: false
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/bwfs.png
 category: Fremdsprachen
