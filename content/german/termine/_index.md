@@ -16,4 +16,16 @@ events:
   - date: 2022-04-10T22:00:12.347Z
     location: Nicht in der Schule
     title: "Beginn Osterferien "
+  - date: 2022-04-15T22:00:23.716Z
+    title: Ende Osterferien
+    location: "Nicht in der Schule "
+  - date: 2022-04-21T22:00:39.233Z
+    title: "Letzter Reglunterrichtstag für den Abiturjahrgang "
+    location: "Georg-Cantor-Gymnasium Halle (Saale) "
+  - date: 2022-04-24T22:00:13.777Z
+    title: Beginn Abiturprüfungen
+    location: "Georg-Cantor-Gymnasium Halle (Saale) "
+  - date: 2022-04-27T22:00:11.853Z
+    title: Girl's Day - Mädchen-Zukunftstag / Boy's Day - Jungen-Zukunftstag
+    location: "wählbarer Betrieb/Georg-Cantor-Gymnasium Halle (Saale) "
 ---
