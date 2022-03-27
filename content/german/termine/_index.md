@@ -13,4 +13,7 @@ events:
     location: Georg-Cantor-Gymnasium, Halle (Saale)
     summary: Der Känguru-Wettbewerb ist der weltweit größte Mathematik-Wettbewerb
       für Schüler der 5. bis 10. Klasse
+  - date: 2022-04-10T22:00:12.347Z
+    location: Nicht in der Schule
+    title: "Beginn Osterferien "
 ---
