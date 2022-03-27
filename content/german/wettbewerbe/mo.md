@@ -2,7 +2,7 @@
 title: Mathematik-Olympiade
 draft: false
 bg_image: media/bild_titelbild.jpg
-description: Metabeschreibung
+description: ""
 image: media/contests/mo.png
 category: Mathematik
 class: 5 - 12 Klasse
