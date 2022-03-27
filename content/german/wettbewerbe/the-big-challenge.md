@@ -2,7 +2,7 @@
 title: The Big Challenge
 draft: false
 bg_image: /media/backgrounds/page-title.png
-image: /media/people/contests/big-challenge.jpg
+image: /media/contests/big-challenge.jpg
 category: Fremdsprachen
 class: 5-9
 web_url: https://www.thebigchallenge.com/de/
