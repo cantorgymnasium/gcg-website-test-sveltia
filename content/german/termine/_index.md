@@ -23,9 +23,12 @@ events:
     title: "Letzter Reglunterrichtstag für den Abiturjahrgang "
     location: "Georg-Cantor-Gymnasium Halle (Saale) "
   - date: 2022-04-24T22:00:13.777Z
-    title: Beginn Abiturprüfungen
+    title: Beginn Schriftliche Abiturprüfungen
     location: "Georg-Cantor-Gymnasium Halle (Saale) "
   - date: 2022-04-27T22:00:11.853Z
     title: Girl's Day - Mädchen-Zukunftstag / Boy's Day - Jungen-Zukunftstag
     location: "wählbarer Betrieb/Georg-Cantor-Gymnasium Halle (Saale) "
+  - date: 2022-05-05T22:00:19.057Z
+    title: Ende Schriftliche Abiturprüfungen
+    location: "Georg-Cantor-Gymnasium Halle (Saale) "
 ---
