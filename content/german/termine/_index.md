@@ -28,7 +28,7 @@ events:
   - date: 2022-04-27T22:01:11.853Z
     title: Girl's Day - Mädchen-Zukunftstag / Boy's Day - Jungen-Zukunftstag
     location: "wählbarer Betrieb/Georg-Cantor-Gymnasium Halle (Saale) "
-  - date: 2022-05-05T22:01:19.057Z
+  - date: 2022-05-06T06:01:19.057Z
     title: Ende Schriftliche Abiturprüfungen
     location: "Georg-Cantor-Gymnasium Halle (Saale) "
   - date: 2022-05-22T22:01:33.335Z
