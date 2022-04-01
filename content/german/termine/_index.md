@@ -61,4 +61,16 @@ events:
   - date: 2022-06-19T22:00:41.226Z
     title: "Beginn der mündlichen Abiturprüfungen "
     location: "Georg-Cantor-Gymnasium Halle (Saale) "
+  - date: 2022-07-01T13:00:02.282Z
+    title: "Ausgabe der Reifezeugnisse "
+    location: "Konzerthalle Ulrichskirche "
+  - date: 2022-07-13T12:40:16.285Z
+    title: "Ausgabe der Zeugnisse zum Schuljahresende "
+    location: Georg-Cantor-Gymnasium Halle (Saale)
+  - date: 2022-07-13T22:00:15.831Z
+    title: "Beginn Sommerferien "
+    location: "Nicht in der Schule "
+  - date: 2022-08-23T22:00:02.823Z
+    title: "Ende Sommerferien "
+    location: "Nicht in der Schule "
 ---
