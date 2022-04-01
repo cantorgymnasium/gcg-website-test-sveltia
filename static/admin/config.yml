@@ -534,7 +534,9 @@ collections:
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
-      - {label: "Themenbereiche", name: "categories_ag", widget: "string"}
+      - label: "Themenbereiche"
+        name: "categories_ag"
+        widget: "list"
       - {label: "Dauer", name: "weekly", widget: "string"}
       - {label: "Tag/Stunden", name: "duration", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
