@@ -4,8 +4,7 @@ date: 2022-04-01T12:18:58.805Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/image.png
-categories_ag:
-  - Gesellschaft
+categories_ag: '[ "Gesellschaft" ]'
 weekly: Mo, 15:15 Uhr / Di, 14:15 Uhr / Fr, 13:30 Uhr
 duration: variable
 class: "alle Klassenstufen "
