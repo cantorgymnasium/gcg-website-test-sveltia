@@ -70,7 +70,7 @@ events:
   - date: 2022-07-13T22:00:15.831Z
     title: "Beginn Sommerferien "
     location: "Nicht in der Schule "
-  - date: 2022-08-23T22:00:02.823Z
+  - date: 2022-08-23T22:01:02.823Z
     title: "Ende Sommerferien "
     location: "Nicht in der Schule "
 ---
