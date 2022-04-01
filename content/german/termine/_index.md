@@ -25,7 +25,7 @@ events:
   - date: 2022-04-24T22:00:13.777Z
     title: Beginn Schriftliche Abiturprüfungen
     location: "Georg-Cantor-Gymnasium Halle (Saale) "
-  - date: 2022-04-27T22:00:11.853Z
+  - date: 2022-04-26T22:00:11.853Z
     title: Girl's Day - Mädchen-Zukunftstag / Boy's Day - Jungen-Zukunftstag
     location: "wählbarer Betrieb/Georg-Cantor-Gymnasium Halle (Saale) "
   - date: 2022-05-05T22:00:19.057Z
