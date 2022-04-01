@@ -16,7 +16,7 @@ events:
   - date: 2022-04-10T22:01:12.347Z
     location: Nicht in der Schule
     title: "Beginn Osterferien "
-  - date: 2022-04-15T22:01:23.716Z
+  - date: 2022-04-15T23:01:23.716Z
     title: Ende Osterferien
     location: "Nicht in der Schule "
   - date: 2022-04-21T22:01:39.233Z
