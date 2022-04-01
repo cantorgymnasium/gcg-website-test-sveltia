@@ -4,7 +4,7 @@ date: 2022-04-01T12:46:01.555Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/image.png
-categories_ag: List ["Gesellschaft"]
+categories_ag: ["Gesellschaft"]
 weekly: nicht klar
 duration: nicht klar
 class: 6-8
