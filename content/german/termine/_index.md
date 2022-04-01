@@ -46,4 +46,19 @@ events:
   - date: 2022-06-09T22:00:57.167Z
     title: "Ende Nachprüfungen im schriftlichen Abitur "
     location: "Georg-Cantor-Gymnasium Halle (Saale) "
+  - date: 2022-06-01T22:00:58.344Z
+    title: Zentrale Klassenarbeit Deutsch im Schuljahrgang 6
+    location: Georg-Cantor-Gymnasium Halle (Saale)
+  - date: 2022-06-07T22:00:41.541Z
+    title: Zentrale Klassenarbeit Mathematik im Schuljahrgang 6
+    location: Georg-Cantor-Gymnasium Halle (Saale)
+  - date: 2022-06-12T22:00:13.853Z
+    title: "Beginn Klassenfahrtswoche "
+    location: "Ziel der Klassenfahrt "
+  - date: 2022-07-16T22:00:06.344Z
+    title: "Ende Klassenfahrtswoche "
+    location: "Ziel der Klassenfahrt "
+  - date: 2022-06-19T22:00:41.226Z
+    title: "Beginn der mündlichen Abiturprüfungen "
+    location: "Georg-Cantor-Gymnasium Halle (Saale) "
 ---
