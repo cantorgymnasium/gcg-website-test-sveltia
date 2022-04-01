@@ -31,4 +31,46 @@ events:
   - date: 2022-05-05T22:00:19.057Z
     title: Ende Schriftliche Abiturprüfungen
     location: "Georg-Cantor-Gymnasium Halle (Saale) "
+  - date: 2022-05-22T22:00:33.335Z
+    title: Beginn Pfingstferien
+    location: Nicht in der Schule
+  - date: 2022-05-27T22:00:49.486Z
+    title: Ende Pfingstferien
+    location: "Nicht in Schule "
+  - date: 2022-05-29T22:00:10.281Z
+    location: Georg-Cantor-Gymnasium Halle (Saale)
+    title: "Beginn Nachprüfungen im schriftlichen Abitur "
+  - date: 2022-05-30T22:00:56.043Z
+    title: "Zentrale Klassenarbeit Englisch im Schuljahrgang 6 "
+    location: "Georg-Cantor-Gymnasium Halle (Saale) "
+  - date: 2022-06-09T22:00:57.167Z
+    title: "Ende Nachprüfungen im schriftlichen Abitur "
+    location: "Georg-Cantor-Gymnasium Halle (Saale) "
+  - date: 2022-06-01T22:00:58.344Z
+    title: Zentrale Klassenarbeit Deutsch im Schuljahrgang 6
+    location: Georg-Cantor-Gymnasium Halle (Saale)
+  - date: 2022-06-07T22:00:41.541Z
+    title: Zentrale Klassenarbeit Mathematik im Schuljahrgang 6
+    location: Georg-Cantor-Gymnasium Halle (Saale)
+  - date: 2022-06-12T22:00:13.853Z
+    title: "Beginn Klassenfahrtswoche "
+    location: "Ziel der Klassenfahrt "
+  - date: 2022-07-16T22:00:06.344Z
+    title: "Ende Klassenfahrtswoche "
+    location: "Ziel der Klassenfahrt "
+  - date: 2022-06-19T22:00:41.226Z
+    title: "Beginn der mündlichen Abiturprüfungen "
+    location: "Georg-Cantor-Gymnasium Halle (Saale) "
+  - date: 2022-07-01T13:00:02.282Z
+    title: "Ausgabe der Reifezeugnisse "
+    location: "Konzerthalle Ulrichskirche "
+  - date: 2022-07-13T12:40:16.285Z
+    title: "Ausgabe der Zeugnisse zum Schuljahresende "
+    location: Georg-Cantor-Gymnasium Halle (Saale)
+  - date: 2022-07-13T22:00:15.831Z
+    title: "Beginn Sommerferien "
+    location: "Nicht in der Schule "
+  - date: 2022-08-23T22:00:02.823Z
+    title: "Ende Sommerferien "
+    location: "Nicht in der Schule "
 ---
