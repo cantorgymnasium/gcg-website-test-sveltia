@@ -4,21 +4,6 @@ draft: false
 bg_image: media/backgrounds/page-title.png
 description: Hier sind alle Termine für das laufende bzw. nächste Schuljahr aufgelistet.
 events:
-  - title: Gesamtkonferenz
-    date: 2021-11-09T23:01:59.756Z
-    location: Georg-Cantor-Gymnasium, Halle(Saale)
-    summary: Die Gesamtkonferenz ist das höchste beschlussfassende Gremium der Schule.
-  - date: 2022-03-16T23:01:26.430Z
-    title: Känguru-Wettbewerb
-    location: Georg-Cantor-Gymnasium, Halle (Saale)
-    summary: Der Känguru-Wettbewerb ist der weltweit größte Mathematik-Wettbewerb
-      für Schüler der 5. bis 10. Klasse
-  - date: 2022-04-10T22:01:12.347Z
-    location: Nicht in der Schule
-    title: "Beginn Osterferien "
-  - date: 2022-04-15T23:01:23.716Z
-    title: Ende Osterferien
-    location: "Nicht in der Schule "
   - date: 2022-04-21T22:01:39.233Z
     title: "Letzter Reglunterrichtstag für den Abiturjahrgang "
     location: "Georg-Cantor-Gymnasium Halle (Saale) "
