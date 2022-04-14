@@ -1,10 +1,13 @@
+# You can override the included template(s) by including variable overrides
+# SAST customization: https://docs.gitlab.com/ee/user/application_security/sast/#customizing-the-sast-settings
+# Secret Detection customization: https://docs.gitlab.com/ee/user/application_security/secret_detection/#customizing-settings
+# Dependency Scanning customization: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#customizing-the-dependency-scanning-settings
+# Container Scanning customization: https://docs.gitlab.com/ee/user/application_security/container_scanning/#customizing-the-container-scanning-settings
+# Note that environment variables can be set in several places
+# See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
 image: registry.gitlab.com/pages/hugo/hugo_extended:latest
-
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-
-
-
 deploy_website:
   before_script:
   - apk add --update --no-cache git curl
@@ -12,7 +15,8 @@ deploy_website:
   - git config --global user.email "denys.konovalov@protonmail.com"
   script:
   - hugo --gc --minify --cleanDestinationDir
-  - git clone --depth=1 --single-branch --branch main "https://x-access-token:$TOKEN@gitlab.cantorgymnasium.de/cantortechnik/website-build.git" /tmp/gh-pages
+  - git clone --depth=1 --single-branch --branch main "https://x-access-token:$TOKEN@gitlab.cantorgymnasium.de/cantortechnik/website-build.git"
+    /tmp/gh-pages
   - rm -rf /tmp/gh-pages/*
   - export OLD_PATH=$PWD
   - cp -r public/* /tmp/gh-pages
@@ -27,4 +31,23 @@ deploy_website:
     paths:
     - public
   rules:
-  - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  - if: "$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH"
+stages:
+- build
+- test
+- deploy
+- review
+- dast
+- staging
+- canary
+- production
+- incremental rollout 10%
+- incremental rollout 25%
+- incremental rollout 50%
+- incremental rollout 100%
+- performance
+- cleanup
+sast:
+  stage: test
+include:
+- template: Auto-DevOps.gitlab-ci.yml
