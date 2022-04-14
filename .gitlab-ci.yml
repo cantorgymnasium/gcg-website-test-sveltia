@@ -20,7 +20,6 @@ deploy_website:
   - cd $OLD_PATH
   - curl $host_url
   artifacts:
-    expire_in: 5d
     paths:
     - public
   rules:
