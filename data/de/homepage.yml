@@ -64,20 +64,38 @@ success_banner:
   image: media/home/success_banner.webp
   feature_item:
     - name: Mathematikolympiade
-      content: "In der Landesmathematikolympiade 2022 wurden:  \\n * **2 von 8 ersten
-        Preisen**  \\n*  **5 von 13 zweiten Preisen**  \\n * **9 von 19 dritten
-        Preisen**  \\n*  **6 von 28 Anerkennungspreisen**  \\n  \\nan Schüler
-        unserer Schule verliehen."
+      content: >-
+        In der Landesrunde der Mathematikolympiade 2022 wurden:
+
+        * **2 von 8 ersten Preisen**
+
+        * **5 von 13 zweiten Preisen**
+
+        * **9 von 19 dritten Preisen**
+
+        * **6 von 28 Anerkennungspreisen**
+
+
+        an Schüler unserer Schule verliehen.
       img: true
       image: media/home/mo.png
       icon: ""
     - name: Physikolympiade
       img: true
       image: media/home/po.png
-      content: "In der Landesphysikolympiade 2022 wurden:  \\n * **2 von 5 ersten
-        Preisen**  \\n*  **3 von 8 zweiten Preisen**  \\n * **1 von 11 dritten
-        Preisen**  \\n*  **1 von 15 Anerkennungspreisen**  \\n \\nan Schüler
-        unserer Schule verliehen."
+      content: >-
+        In der Landesphysikolympiade 2022 wurden:
+
+        * **2 von 5 ersten Preisen**
+
+        * **3 von 8 zweiten Preisen**
+
+        * **1 von 11 dritten Preisen**
+
+        * **1 von 15 Anerkennungspreisen**
+
+
+        an Schüler unserer Schule verliehen."
       icon: ""
     - name: Chemieolympiade
       img: true
@@ -105,13 +123,13 @@ about:
   title: Website im Aufbau
   content: >-
     * Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in
-    Halle(Saale). \n
+    Halle(Saale).
 
-    * Da die Website noch im Aufbau ist, fehlen noch viele Inhalte und mehrere Bereiche.  \n
+    * Da die Website noch im Aufbau ist, fehlen noch viele Inhalte und mehrere Bereiche.
 
-    * Der Quellcode der Website ist [hier](https://gitlab.cantorgymnasium.de/cantortechnik/gcg-website) abrufbar.  \n
+    * Der Quellcode der Website ist [hier](https://gitlab.cantorgymnasium.de/cantortechnik/gcg-website) abrufbar.
 
-    * Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten.\n
+    * Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten.
 
     * Weitere Informationen gibt es im [passenden Blogbeitrag](/blog/new-site/)
 

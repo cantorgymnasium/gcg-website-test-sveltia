@@ -142,7 +142,7 @@ hasChildren = true
   [[menu.main]]
   parent = "Für Schüler und Eltern"
   name = "Förderverein"
-  URL = "https://www.cantor-foerderverein.de"
+  URL = "foerderverein"
   weight = 2
 
   [[menu.main]]
