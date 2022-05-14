@@ -59,6 +59,13 @@ slider:
         enable: true
         link: https://www.kmk.org/aktuelles/artikelansicht/georg-cantor-gymnasium-halle-saale-ist-die-jugend-forscht-schule-2018.html
         label: Mehr erfahren
+    - content: "Mitglied im Netzwerk \"Schule ohne Rassismus - Schule mit Courage\""
+      animation_in: left
+      animation_out: right
+      button:
+        enable: true
+        link: https://www.schule-ohne-rassismus.org/
+        label: Mehr erfahren
 success_banner:
   enable: true
   image: media/home/success_banner.webp
