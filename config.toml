@@ -105,6 +105,12 @@ hasChildren = true
   URL = "jia"
   weight = 8
 
+  [[menu.main]]
+  parent = "Schule"
+  name = "Schulbibliothek"
+  URL = "bibo"
+  weight = 9
+
 [[menu.main]]
 weight = 2
 name = "Digitale Angebote"
