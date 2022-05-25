@@ -1,7 +1,13 @@
 image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-deploy_website:
+test:
+  script:
+    - hugo
+  except:
+    variables:
+      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+pages:
   before_script:
   - apk add --update --no-cache git curl
   - git config --global user.name "Denys Konovalov"
@@ -22,5 +28,6 @@ deploy_website:
   artifacts:
     paths:
     - public
-  rules:
-  - if: "$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH"
+  only:
+    variables:
+      - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

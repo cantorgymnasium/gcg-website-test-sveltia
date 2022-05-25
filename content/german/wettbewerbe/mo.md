@@ -11,13 +11,11 @@ type: wettbewerbe
 ---
 ### Über die Olympiade
 
-Die Mathematik-Olympiade ist ein jährlich bundesweit angebotener Wettbewerb, an dem über 200.000 Schülerinnen und Schüler teilnehmen. Sie hat eine bis in das Schuljahr 1961/62 zurückreichende Tradition.
+Die Mathematik-Olympiade für die Klassenstufen 5 – 12 ist ein bundesweiter Wettbewerb, welcher nach bundesweit einheitlichen Aufgaben durchgeführt wird.
 
-Die Mathematik-Olympiade bietet allen interessierten Schülerinnen und Schülern die Möglichkeit, ihre besondere Leistungsfähigkeit auf mathematischem Gebiet unter Beweis zu stellen. Die Teilnahme am Wettbewerb regt häufig zu einer weit über den Unterricht hinausreichenden Beschäftigung mit der Mathematik an.
+Die Mathematik-Olympiade geht über mehrere Runden (Hausaufgaben-, Schul-, Landes-, Bundesrunde), wobei die Schwierigkeit von Runde zu Runde steigt  - sie endet mit der Bundesrunde als Höhepunkt für die besten Mathecracks ab Klasse 8. Für die Klassen 5 bis 7 endet der Wettbewerb mit der Landesrunde und einer großen Preisverleihung.
 
-Besonders bei älteren Klassen besteht das Interesse dagegen mehr darin, eigene mathematische Fähigkeiten an der Bearbeitung anspruchsvoller Aufgaben zu erproben, zu festigen und weiterzuentwickeln.
-
-Am Georg-Cantor-Gymnasium stehen für die Teilnehmer der Mathematik-Olympiade zusätzliche Förderungsangebote zur Verfügung.
+Weitere Informationen unter:            https://mo.elemente.org/
 
 ### Spezialistenlager
 
@@ -26,7 +24,7 @@ In der Jugendherberge Frauenstein werden die zukünftigen Teilnehmer der von den
 
 Das Programm beinhaltet auch Wandertage und andere Vergnügungsmöglichkeiten.
 
-Die Schüler bearbeiten sowohl alte Mathematikolympiaden-Aufgaben, als auch unbekannte Stoffgebiete, die erst in den späteren Jahrgängen ein Thema sein werden.
+Die Schüler bearbeiten sowohl alte Mathematik-Olympiaden-Aufgaben, als auch unbekannte Stoffgebiete, die erst in den späteren Jahrgängen ein Thema sein werden.
 
 ### Erfolge
 
