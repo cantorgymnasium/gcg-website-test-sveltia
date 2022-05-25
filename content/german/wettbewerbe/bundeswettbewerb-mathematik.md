@@ -9,4 +9,3 @@ web_url: https://www.mathe-wettbewerbe.de/mathematik-olympiade/
 type: wettbewerbe
 ---
 Der Bundeswettbewerb besteht aus zwei Hausaufgabenrunden und einem mathematischen Fachgespräch in der abschließenden dritten Runde.
-Weitere Informationen unter:	https://www.mathe-wettbewerbe.de/mathematik-olympiade/
