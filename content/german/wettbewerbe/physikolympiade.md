@@ -2,7 +2,7 @@
 title: "Physikolympiade "
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/contests/IPhO.png
+image: /media/contests/PhO.png
 category: "Physik "
 class: 8-10
 web_url: https://pho.elemente.org/
