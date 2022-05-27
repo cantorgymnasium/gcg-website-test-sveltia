@@ -1,6 +1,6 @@
 backend:
   name: gitlab
-  repo: cantortechnik/gcg-website
+  repo: gcg/gcg.pages.cantorgymnasium.de
   branch: master
   auth_type: pkce
   app_id: f9d3e269912cc9560d183167726afc7ccb517862904d0a6c0b10105719964bab
