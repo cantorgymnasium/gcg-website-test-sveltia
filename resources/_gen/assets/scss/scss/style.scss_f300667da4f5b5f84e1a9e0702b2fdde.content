@@ -339,7 +339,7 @@ a h4:hover {
   padding-left: 25px; }
   .custom-breadcrumb li.nasted::before {
     position: absolute;
-    font-family: "themify";
+    font-family: "FontAwesome";
     content: "\e649";
     font-size: 20px;
     top: 50%;
@@ -410,8 +410,8 @@ textarea.form-control {
     list-style-type: none; }
     .content ul li::before {
       position: absolute;
-      content: "\e65d";
-      font-family: "themify";
+      content: "\f138";
+      font-family: "FontAwesome";
       font-size: 14px;
       left: 0;
       top: 1px;

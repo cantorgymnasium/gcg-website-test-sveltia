@@ -224,7 +224,7 @@ CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/plugins/bootstrap/boots
 CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/plugins/slick/slick.css");
 CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/plugins/animate/animate.css");
 CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/plugins/venobox/venobox.css");
-CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/plugins/themify-icons/themify-icons.css");
+CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/plugins/fontawesome/css/all.css");
 CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/plugins/fira/fira.css");
 CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/scss/style.css");
 </script>
@@ -245,7 +245,7 @@ var PostPreview = createClass({
                       h('li', {"className": "list-inline-item h1"},
                         h('a', {"className": "text-primary font-secondary", href: ""}, "Schulchronik")),
                       h('li', {"className": "list-inline-item ha"},
-                        h("i", {"className": "ti-angle-right text-white"})),
+                        h("i", {"className": "fa-solid fa-angle-right text-white"})),
                       h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title']))
                     )
                   )
@@ -283,7 +283,7 @@ var PostPreviewContent = createClass({
                       h('li', {"className": "list-inline-item h1"},
                         h('a', {"className": "text-primary font-secondary", href: ""}, "Schulchronik")),
                       h('li', {"className": "list-inline-item ha"},
-                        h("i", {"className": "ti-angle-right text-white"})),
+                        h("i", {"className": "fa-solid fa-angle-right text-white"})),
                       h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title']))
                     )
                   )
@@ -326,7 +326,7 @@ var EventPreview = createClass({
                           h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
                         ),
                         h('li', {"className": "list-inline-item ha"},
-                          h("i", {"className": "ti-angle-right text-white"})
+                          h("i", {"className": "fa-solid fa-angle-right text-white"})
                         ),
                         h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title'])
                         )
@@ -353,7 +353,7 @@ var EventPreview = createClass({
                             ),
                             h('div', {"className": "d-md-table-cell text-right pr-0 pr-md-4"},
                               h('p', {},
-                                h('i', {"className": "ti-location-pin text-primary mr-2"}),
+                                h('i', {"className": "fa-solid fa-location-dot text-primary mr-2"}),
                                 event.getIn(['data', 'location'])
                               )
                             )
@@ -390,7 +390,7 @@ var PagePreview = createClass({
                           h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
                         ),
                         h('li', {"className": "list-inline-item ha"},
-                          h("i", {"className": "ti-angle-right text-white"})
+                          h("i", {"className": "fa-solid fa-angle-right text-white"})
                         ),
                         h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title'])
                         )
@@ -431,7 +431,7 @@ var PagePreviewImage = createClass({
                           h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
                         ),
                         h('li', {"className": "list-inline-item ha"},
-                          h("i", {"className": "ti-angle-right text-white"})
+                          h("i", {"className": "fa-solid fa-angle-right text-white"})
                         ),
                         h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title'])
                         )

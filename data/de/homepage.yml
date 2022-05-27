@@ -119,7 +119,7 @@ success_banner:
       image: media/home/cds.png
       icon: ""
     - name: Und viel mehr ...
-      icon: ti-medal
+      icon: fa-solid fa-medal
       content: Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
         vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
         Spezialistenlager und begabtenfördernde Ganztagsangebote.

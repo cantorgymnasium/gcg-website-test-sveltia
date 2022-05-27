@@ -214,7 +214,7 @@ collections:
                 fields:
                   - {label: "Bezeichnung", name: "title", widget: "string"}
                   - {label: "Symbol", name: "icon", widget: "string"}
-                  - {label: "Link", name: "link", widget: "string", hint: "Liste unter https://themify.me/themify-icons"}
+                  - {label: "Link", name: "link", widget: "string", hint: "Liste unter https://fontawesome.com/search"}
           - label: "Menü"
             name: "menu"
             widget: "object"
@@ -401,22 +401,16 @@ collections:
             name: "icon"
             widget: "select"
             options:
-              - { label: "Flickr", value: "ti-flickr" }
-              - { label: "Tumblr", value: "ti-tumblr" }
-              - { label: "YouTube", value: "ti-youtube" }
-              - { label: "Twitter", value: "ti-twitter-alt" }
-              - { label: "Pinterest", value: "ti-pinterest" }
-              - { label: "GitHub", value: "ti-github" }
-              - { label: "StackOverflow", value: "ti-stack-overflow" }
-              - { label: "Vimeo", value: "ti-vimeo" }
-              - { label: "Instagram", value: "ti-instagram" }
-              - { label: "Facebook", value: "ti-facebook" }
-              - { label: "SoundCloud", value: "ti-soundcloud" }
-              - { label: "Reddit", value: "ti-reddit" }
-              - { label: "Skype", value: "ti-skype" }
-              - { label: "LinkedIn", value: "ti-linkedin" }
-              - { label: "E-Mail", value: "ti-email" }
-              - { label: "Sonstige", value: "ti-sharethis" }
+              - { label: "YouTube", value: "fa-brands fa-youtube" }
+              - { label: "Twitter", value: "fa-brands fs-twitter" }
+              - { label: "Pinterest", value: "fa-brands fa-pinterest" }
+              - { label: "GitHub", value: "fa-brands fa-github" }
+              - { label: "GitLab", value: "fa-brands fa-gitlab" }
+              - { label: "Vimeo", value: "fa-brands fa-vimeo" }
+              - { label: "Instagram", value: "fa-brands fa-instagram" }
+              - { label: "Facebook", value: "fa-brands fa-facebook" }
+              - { label: "E-Mail", value: "fa-solid fa-at" }
+              - { label: "Sonstige", value: "fa-solid fa-share-nodes" }
           - {label: "Link", name: "link", widget: "string"}
         required: false
       - {label: "Beschreibung", name: "body", widget: "markdown"}
@@ -513,7 +507,7 @@ collections:
         widget: "list"
         fields:
           - {label: "Name/Adresse/Telefonnummer", name: "name", widget: "string"}
-          - {label: "Symbol", name: "icon", widget: "string", hint: "Symbolname von https://themify.me/themify-icons"}
+          - {label: "Symbol", name: "icon", widget: "string", hint: "Symbolname von https://fontawesome.com/search"}
           - {label: "Link", name: "link", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}
       - {label: "Text", name: "body", widget: "markdown"}

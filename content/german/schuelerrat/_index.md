@@ -75,7 +75,7 @@ Angebot wählen können.
 
 Wir haben für alle Schülerinnen und Schüler ein offenes Ohr und sind jederzeit ansprechbar.
 
-Außerdem sind wir per <a href="mailto:schuelerrat@cantor-gymnasium.de"><i class="ti-email"></i>Mail</a> erreichbar.
+Außerdem sind wir per <a href="mailto:schuelerrat@cantor-gymnasium.de"><i class="fa-solid fa-at"></i>Mail</a> erreichbar.
 
 ## Öffentlichkeitsarbeit
 

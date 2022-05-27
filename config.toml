@@ -30,7 +30,7 @@ link = "plugins/animate/animate.css"
 [[params.plugins.css]]
 link = "plugins/venobox/venobox.css"
 [[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
+link = "plugins/fontawesome/css/all.css"
 [[params.plugins.css]]
 link = "plugins/fira/fira.css"
 
@@ -208,28 +208,28 @@ loader = "media/load.svg"
 ############################# social site ########################
 [[params.social]]
 title = "YouTube"
-icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+icon = "fa-brands fa-youtube"
 link = "https://www.youtube.com/channel/UCHafBDI5qfK03RiIEyki9VA"
 
 [[params.social]]
 title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+icon = "fa-brands fa-twitter"
 link = "https://twitter.com/cantor_news"
 
 [[params.social]]
 title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+icon = "fa-brands fa-instagram"
 link = "https://instagram.com/cantor.news"
 
 [[params.social]]
 title = "Facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+icon = "fa-brands fa-facebook"
 link = "https://facebook.com/gcg.cantor.news"
 
 [[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/eesev9ie"
+title = "GitLab"
+icon = "fa-brands fa-gitlab"
+link = "https://gitlab.cantorgymnasium.de/gcg/"
 
 ################################### German language #####################################
 [Languages.de]
