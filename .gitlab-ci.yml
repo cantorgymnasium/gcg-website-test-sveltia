@@ -8,23 +8,8 @@ test:
     variables:
       - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 pages:
-  before_script:
-  - apk add --update --no-cache git curl
-  - git config --global user.name "Denys Konovalov"
-  - git config --global user.email "denys.konovalov@protonmail.com"
   script:
   - hugo --gc --minify --cleanDestinationDir
-  - git clone --depth=1 --single-branch --branch main "https://x-access-token:$TOKEN@gitlab.cantorgymnasium.de/cantortechnik/website-build.git"
-    /tmp/gh-pages
-  - rm -rf /tmp/gh-pages/*
-  - export OLD_PATH=$PWD
-  - cp -r public/* /tmp/gh-pages
-  - cd /tmp/gh-pages
-  - git add .
-  - git commit -m "$CI_COMMIT_MESSAGE"
-  - git push -u origin main --force
-  - cd $OLD_PATH
-  - curl $host_url
   artifacts:
     paths:
     - public
