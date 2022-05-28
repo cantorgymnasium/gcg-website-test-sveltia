@@ -36,7 +36,7 @@ events:
     location: Georg-Cantor-Gymnasium Halle (Saale)
   - date: 2022-06-10T22:01:57.167Z
     title: "Ende Nachprüfungen im schriftlichen Abitur "
-    location: "Georg-Cantor-Gymnasium Halle (Saale) "
+    location: Georg-Cantor-Gymnasium
   - date: 2022-06-13T22:01:13.853Z
     title: "Beginn Klassenfahrtswoche "
     location: "Ziel der Klassenfahrt "
