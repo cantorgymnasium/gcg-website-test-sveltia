@@ -6,13 +6,17 @@
       <div class="col-12">
         <ul class="list-unstyled">
           {{ range .Params.events }}
-          <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
-            <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">{{ time.Format "2" .date}}</span> {{ time.Format "Jan, 2006" .date}}</div>
-            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
-              <p href="{{ .Permalink }}" class="h4 mb-3 d-block">{{ .title }}</p>
-              <p class="mb-0">{{ .summary | truncate 100 }}</p>
+          <li class="mb-4 w-100 border-bottom hover-shadow">
+            <div class="row">
+              <div class="col-md-2 text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">{{ time.Format "2" .date}}</span> {{ time.Format "Jan 2006" .date}}</div>
+              <div class="col-md-10 d-md-table">
+                <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+                  <p href="{{ .Permalink }}" class="h4 mb-3 d-block">{{ .title }}</p>
+                  <p class="mb-0">{{ .summary | truncate 100 }}</p>
+                </div>
+                <div class="d-md-table-cell vertical-align-middle text-right pr-0 pr-md-4"><p><i class="fa-solid fa-location-dot text-primary mr-2"></i>{{ .location | markdownify }}</p></div>
+              </div>
             </div>
-            <div class="d-md-table-cell text-right pr-0 pr-md-4"><p><i class="fa-solid fa-location-dot text-primary mr-2"></i>{{ .location | markdownify }}</p></div>
           </li>
           {{ end }}
         </ul>
