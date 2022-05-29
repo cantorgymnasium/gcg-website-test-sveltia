@@ -180,11 +180,13 @@ zahlen:
   enable: true
   zahl_element:
     - name: Schüler
-      count: 575
+      count: 542
     - name: Lehrer
-      count: 45
-    - name: Neue Schüler  \nwerden jedes Jahr aufgenommen
+      count: 56
+    - name: Neue Schüler jährlich
       count: 72
+    - name: Pädagogische Mitarbeiter
+      count: 2
 blog:
   enable: true
   title: Aktuelle Beiträge
