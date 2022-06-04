@@ -17,7 +17,7 @@ Frau StD Schapitz
 
 #### Sekretariat:
 
-Frau Reinhardt
+Frau Kretschmar
 
 #### Adresse:
 
