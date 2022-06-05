@@ -37,7 +37,7 @@ CMS.registerEditorComponent({
     }
   ],
 
-  pattern: /^{{% open-element title=\"(.*?)\" %}}$\s*?(.*?)\n^{{% \/open-element %}}$/ms,
+  pattern: /^{{% collapsible  title=\"(.*?)\" %}}$\s*?(.*?)\n^{{% \/collapsible %}}$/ms,
   fromBlock: function(match) {
     return {
       summary: match[1],
@@ -46,23 +46,21 @@ CMS.registerEditorComponent({
   },
   toBlock: function(data) {
     return `
-{{% open-element title="${data.summary}" %}}
+{{% collapsible  title="${data.summary}" %}}
 
 ${data.details}
 
-{{% /open-element %}}
+{{% /collapsible %}}
 `;
   },
   toPreview: function(data) {
     return `
-    <div class="container">
+    <div class="container mb-0">
       <div class="card border-primary rounded-0 hover-shadow mb-5">
-        <div class="card-body">
-          <details>
-          <summary>${data.summary}</summary>
-          <div class="content"><p class="content">
-          ${data.details}
-          </p></div>
+        <div class="card-body mb-0">
+          <details class="mb-0">
+          <summary class="mb-0">${data.summary}</summary>
+          <div class="content"><p class="content">${data.details}</p></div>
           </details>
         </div>
       </div>
@@ -140,14 +138,15 @@ toBlock: function(data) {
 },
 toPreview: function(data) {
   return `
-  <div class="container">
+  <div class="container mb-0">
     <div class="card border-primary rounded-0 hover-shadow mb-5">
-      <div class="card-body">
-        <h4 class="card-title"><a href='${data.link}'>${data.title}</a></h4>
-        <a href='${data.link}' class="btn btn-primary btn-sm">Mehr anzeigen</a>
+      <div class="card-body mb-0">
+        <h4 class="card-title"><a class="text-decoration-none" href='${data.link}'>${data.title}</a></h4>
+        <a href='${data.link}' class="mb-0 btn btn-primary btn-sm text-decoration-none">{{ i18n "show_more"}}</a>
       </div>
     </div>
   </div>
+
 `;
 }
 });

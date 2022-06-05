@@ -3,16 +3,12 @@
 <!-- content -->
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
         {{ .Content }}
-      </div>
-    </div>
   </div>
   <div class="container">
-    <div class="row filtr-container">
+    <div class="row">
       {{ range (where .Data.Pages "Params.type" "schulchronik") }}
-      <div class="col-lg-4 col-sm-6 mb-5">
+      <div class="col-lg-4 col-sm-6 mb-3">
         {{ .Render "schulchronik" }}
       </div>
       {{ end }}

@@ -3,7 +3,7 @@ title: "Über das GCG"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-type: "pages-nocontent"
+type: "pages"
 layout: "single.html"
 ---
 
@@ -13,13 +13,13 @@ Da bereits auf der Schulwebsite inhaltlich über das Georg-Cantor-Gymnasium beri
 Seit der Gründung der Spezialschule mit inhaltlichem Schwerpunkt in den Bereichen Mathematik und Naturwissenschaften hat sich das Aufnahmeverfahren für Schüler verändert. Dieser Werdegang ist im folgenden dargestellt.
 
 
-{{% open-element title="Der Weg zum GCG" %}}
+{{% collapsible  title="Der Weg zum GCG" %}}
 
 ![Erkennungsurkunde](/media/schulchronik/1990/wegbild.png)
 
 {{< youtube IoinnnyrG0M >}}
 
-{{% /open-element %}}
+{{% /collapsible %}}
 
 
 Da das alte Gebäude in der Muldestraße 3 aufgrund der jahrelangen Nutzung langsam verfiel, wurde ein Umzug in das ehemalige Torgymnasium in Betracht gezogen. Jedoch war auch dieses kein Neubau, welcher perfekt für das GCG gewesen wäre.
@@ -27,7 +27,7 @@ Da das alte Gebäude in der Muldestraße 3 aufgrund der jahrelangen Nutzung lang
 
 Somit musste es zuerst einen langen Renovierungsprozess durchlaufen, damit es die geeignete Örtlichkeit zum Lernen und Lehren wurde.
 
-{{% open-element title="Odyssee des GCG: von der „Schimmelschule“ zum „Schmuckstück“" %}}
+{{% collapsible  title="Odyssee des GCG: von der „Schimmelschule“ zum „Schmuckstück“" %}}
 
 ## 1995
 
@@ -77,7 +77,7 @@ Abschluss der Rekonstruktion des neuen Schulstandortes mit der Fertigstellung de
 
 {{< youtube IieugRSx1oQ >}}
 
-{{% /open-element %}}
+{{% /collapsible %}}
 
 
 Danach konnte sich das Gebäude auch wirklich sehen lassen.
@@ -85,4 +85,4 @@ Danach konnte sich das Gebäude auch wirklich sehen lassen.
 
 Sogar die Sprüche, welche sich über einigen Türen im Gebäude befanden wurden restauriert.
 
-[Historische Türüberschriften im Gebäude Torstraße](/schulchronik/tuerueberschriften-torstrasse)
+{{< card title="Historische Türüberschriften im Gebäude Torstraße" link="/schulchronik/tuerueberschriften-torstrasse" >}}

@@ -14,7 +14,6 @@ tags:
   - CantorTechnik
 type: "post"
 ---
-{{% content %}}
 
 ## Neuanfang
 
@@ -40,5 +39,3 @@ Wer selbst an der Website mitentwickeln möchte, braucht als Erstes einen [GitLa
 
 * Der Quellcode der Website wird [hier](https://gitlab.cantorgymnasium.de/cantortechnik/gcg-website/) auf GitHub gespeichert
 * Die Website wird aus [diesem Repository](https://gitlab.cantorgymnasium.de/cantortechnik/website-build/) gehostet
-
-{{% /content %}}

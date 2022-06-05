@@ -24,7 +24,7 @@ aus 'David Hilbert, Über das Unendliche', Math. Ann. 95</p><br>
 
 ## Statistische Daten
 
-<div class="row mb-5">
+<div class="row">
     {{< card-small link="/abiturienten" title="Abiturienten">}}
     {{< card-small link="/statistiken/abiturdurchschnitte" title="Abiturdurchschnitte">}}
     {{< card-small link="/statistiken/schülerzahlen" title="Schülerzahlen">}}

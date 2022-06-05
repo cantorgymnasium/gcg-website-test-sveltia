@@ -26,22 +26,17 @@ wir möchten Euch die Weihnachtsbaumaktion vorstellen, für die jährlich die 10
 
 ### Klasse 10/1:
 
-{{% content %}}
 - besorgt den Baum
 - stellt ihn in terminlicher Absprache mit dem Hausmeister und der 10/2 auf
-{{% /content %}}
+
 ### Klasse 10/2:
 
-{{% content %}}
 - schmückt den Baum in Absprache mit Fr. Reinhardt (sie besitzt den Schmuck)
 - zusätzlich zu den schon vorhandenen Materialien könnt Ihr dem Baum natürlich Euren persönlichen kreativen Touch geben
-{{% /content %}}
 
 ### Klasse 10/3:
 
-{{% content %}}
 - schmückt den Baum in Absprache mit den Hausmeister (zwecks Entsorgung) am letzten Schultag nach dem Weihnachtssingen ab
-{{% /content %}}
 
 **Wichtiger Hinweis:** in den letzten Jahren haben es alle Eure Vorgänger geschafft, dass der geschmückte Baum vor dem 1. Advent uns alle erfreut
 

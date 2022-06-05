@@ -9,20 +9,20 @@ image: "media/cantorfora/cantorforum_e07.bmp"
 description: "''Einmal Sushi, bitte - Jugendbotschafter in Japan'' von Maximilian König"
 ---
 
+{{< load-photoswipe >}}
+
 Im Kimono kam er zwar nicht, aber mit einer Menge neuer Erfahrungen aus dem Land der aufgehenden Sonne. Am 10.03.2011 berichtete Maximilian König über seine Tätigkeit als Jugendbotschafter in Tokyo.
 
 Als einer von zehn Jugendlichen, wurde Maximilian König von der Robert-Bosch-Stiftung aus über 250 Bewerbern ausgewählt, um für zwei Wochen als Jugendbotschafter in Japan arbeiten zu dürfen. Zu seinen Aufgaben zählte es, die fernöstliche Kultur kennenzulernen, in die echte Botschaftsarbeit hineinzuschnuppern und danach davon zu berichten. Genau das tat er -nach fast einem Jahr Pause- im siebten Cantor-Forum.
 
 Nachdem die Jugendbotschafter in den Bus nach Tokyo gestiegen waren und kurz darauf bereits das Diesneyland Tokyo und einen “Hello Kitty”-Bus gesehen hatten, war für sie definitiv klar- sie waren in Japan. Damit leitete Maximilian König seinen Vortrag ein und stellte die Themen vor, über die er und die anderen Jugendbotschafter sich besonders informiert hatten. Diese waren:
 
-{{% content %}}
 - Tokyo als Millionenstadt
 - das Schul- und Universitätssystem von Japan
 - Schreine, Shintō und „Religion“ im Allgemeinen
 - das UNESCO- Weltkulturerbe Nikkō
 - Wirtschaft & Politik
 - Geschmischtes
-{{% /content %}}
 
 Am meisten Interessenten konnten das Schul- und Universitätssystem, Schreine und Shintō, sowie die die Tempelanlage Nikkō verzeichnen. Die anwesenden Lehrer wollten als erstes etwas über die schulische Ausbildung japanischer Jugendlicher wissen.
 

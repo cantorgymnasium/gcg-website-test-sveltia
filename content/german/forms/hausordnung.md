@@ -8,7 +8,6 @@ image: media/image.png
 type: forms
 ---
 
-{{% content %}}
 - 1\. Die Schülerinnen und Schüler verhalten sich so, dass eine andere Person durch sie weder gefährdet oder belästigt wird, noch zu Schaden kommt und sind zur Abwendung von Gefahren verpflichtet. Das Eigentum anderer wird geachtet.
 - 2\. Der Vormittagsunterricht beginnt 7:30 Uhr und endet 13:10 Uhr. Der Nachmittagsunterricht beginnt 13:40 Uhr. Das Betreten des Schulgebäudes ist ab 7:15 Uhr gestattet. Die Schule ist bis 16:30 Uhr geöffnet.
 - 3\. Schüler, die aufgrund der Benutzung öffentlicher Verkehrsmittel bereits vor 7:00 Uhr  auf dem Schulgelände ankommen, können eine Einlasskarte erhalten. Ab 6:30 Uhr besteht dann die Möglichkeit des Aufenthaltes für Schüler der Klassen 5-9 im Raum 205 (Lernwerkstatt) und für Schüler der gymnasialen Oberstufe im Schulclub (Kellergeschoss)
@@ -27,7 +26,6 @@ type: forms
 - 16\. Für Ordnung und Sauberkeit im gesamten Gebäude sind Schüler und Lehrer gemeinsam verantwortlich. Die jeweils letzte Klasse in einem Raum stellt die Stühle hoch (nach Reinigungsplan) und schließt die Fenster. Der Ordnungsdienst säubert die Tafel und die Kreideablage.
 - 17\. Auf der Spielfläche am Basketballkorb ist das Basketballspielen gestattet. Die Tischtennisplatten sind nur zum Tischtennisspiel zu nutzen. Alle anderen Ballspielarten sind auf dem Schulhof nicht erlaubt.
 
-{{% /content %}}
 
 Halle, den 06. August 2009
 

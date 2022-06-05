@@ -35,15 +35,9 @@
   				</aside>
           </div>
           <!-- blog contect -->
-          <div class="col-12 mb-5">
+          <div class="col-12 mb-5 content">
             {{ .Content }}
           </div>
-          <!-- comments -->
-          {{ if .Site.DisqusShortname }}
-          <div class="col-12">
-            {{ template "_internal/disqus.html" . }}
-          </div>
-          {{ end }}
         </div>
       </div>
       {{ partial "blog-sidebar.html" . }}

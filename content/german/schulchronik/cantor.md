@@ -3,7 +3,7 @@ title: "Über Georg Cantor"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-type: "pages-nocontent"
+type: "pages"
 template: "single.html"
 ---
 

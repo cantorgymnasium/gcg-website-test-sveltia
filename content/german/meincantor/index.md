@@ -12,8 +12,6 @@ Im Schuljahr 2021/2022 wurde in Kooperation zwischen Schülerrat, Schülerbeirat
 
 Die unter dem Namen **GCG.MeinCantor** bereitgestellte Anwendung vereint die Funktionen:
 
-{{% content %}}
-
 - Vertretungsplananzeige
 - Schülerzeitung
 - Computerverwaltung

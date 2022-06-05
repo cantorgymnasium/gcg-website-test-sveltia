@@ -59,8 +59,6 @@ Angebot wählen können.
 
 ## Ansprechpartner
 
-{{% content %}}
-
 ### Schülerrat
 
 * **Hagen Häußler**  (Klasse 11) und **Elias Peschek** (Klasse 9): Schülersprecher
@@ -68,8 +66,6 @@ Angebot wählen können.
 ### Beirat
 
 * **Denys Konovalov** (Klasse 8) und **Lilli Berthold** (Klasse 8): Beiratsvorstand
-
-{{% /content %}}
 
 ## Kontaktmöglichkeiten
 
