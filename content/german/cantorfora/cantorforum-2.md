@@ -9,4 +9,4 @@ image: "media/cantorfora/cantorforum_e02.bmp"
 description: "''Abi - und dann...?'' Teil 1 von Andreas Bader"
 ---
 
-{{< gallery dir="/media/cantorfora/cantorforum_2" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_2" />}}

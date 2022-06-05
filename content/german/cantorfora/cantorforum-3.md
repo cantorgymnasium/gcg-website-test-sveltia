@@ -22,4 +22,4 @@ Später dann lassen sich die vier Ehemaligen in Unterhaltungen verwickeln und mi
 
 Elsa Plathe, 2009
 
-{{< gallery dir="/media/cantorfora/cantorforum_3" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_3" />}}

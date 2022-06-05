@@ -200,25 +200,6 @@ CMS.registerEditorComponent({
 });
 </script>
 <script>
-CMS.registerEditorComponent({
-    id: "gallery-script",
-    label: "Gallerie-Skript (Immer am Anfang hinzufügen)",
-    fields: [],
-    collapsed:true,
-    pattern: /{{< load-photoswipe >}}/,
-    fromBlock: function(match) {
-        return {
-        };
-    },
-    toBlock: function(obj) {
-        return `{{< load-photoswipe >}}`;
-    },
-    toPreview: function(obj) {
-        return ``;
-    },
-});
-</script>
-<script>
 CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/plugins/bootstrap/bootstrap.min.css");
 CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/plugins/slick/slick.css");
 CMS.registerPreviewStyle("https://neu.cantorgymnasium.de/plugins/animate/animate.css");

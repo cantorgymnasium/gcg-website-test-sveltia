@@ -19,4 +19,4 @@ Das nächste Forum wird in der Festwoche im März stattfinden, wer eingeladen wi
 
 Thomas Tannert, 2009
 
-{{< gallery dir="/media/cantorfora/cantorforum_1" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_1" />}}

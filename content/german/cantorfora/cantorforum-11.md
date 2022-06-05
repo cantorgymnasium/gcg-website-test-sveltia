@@ -25,4 +25,4 @@ Experten sind die meisten leider immer noch nicht: Ich ging mit schlechtem Beisp
 
 Nikolas Weigt 2012
 
-{{< gallery dir="/media/cantorfora/cantorforum_11" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_11" />}}

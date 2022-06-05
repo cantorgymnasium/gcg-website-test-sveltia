@@ -23,4 +23,4 @@ So blieb uns nur noch zu sagen: „Chakka! Und vielen Dank Max.“
 
 Nikolas Weigt 2015
 
-{{< gallery dir="/media/cantorfora/cantorforum_13" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_13" />}}

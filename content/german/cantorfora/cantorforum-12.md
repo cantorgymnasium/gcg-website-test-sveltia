@@ -31,4 +31,4 @@ Doch trotz allem blieben Erinnerungen und viele Fotos von vielen Facetten Austra
 
 Nikolas Weigt 2013
 
-{{< gallery dir="/media/cantorfora/cantorforum_12" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_12" />}}

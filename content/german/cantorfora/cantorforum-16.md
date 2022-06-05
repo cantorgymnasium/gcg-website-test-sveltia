@@ -31,4 +31,4 @@ Zum Schluss soll noch gesagt sein, dass es da ein Vorurteil gibt, dass uns alle 
 
 Lavinia Burkhardt, 2016
 
-{{< gallery dir="/media/cantorfora/cantorforum_16" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_16" />}}

@@ -25,4 +25,4 @@ Zum Schluss sagen wir heute statt „Danke, Anke!“ einfach mal:
 
 Nikolas Weigt, 2012
 
-{{< gallery dir="/media/cantorfora/cantorforum_10" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_10" />}}

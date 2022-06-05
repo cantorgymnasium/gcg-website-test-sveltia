@@ -10,7 +10,7 @@ Grid Layout Styles
 .gallery {
     overflow: hidden;
     margin: 10px;
-    max-width: 1080px;
+    max-width: 768px;
 }
 .gallery .box {
     float: left;
@@ -155,4 +155,14 @@ figcaption styles
 }
 figcaption p {
     margin: auto; /* override style in theme */
+}
+
+figure img {
+    max-width: 100%;
+}
+
+figure figcaption a {
+    position: relative;
+    color: #CCC;
+    /* text-decoration: none; */
 }

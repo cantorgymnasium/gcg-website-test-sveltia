@@ -17,7 +17,7 @@ Außerdem sind wir alles Andere als langweilig. Wir finden uns immer wöchentlic
 
 {{< gallery >}}
   {{< figure src="/media/schulchronik/2012b.jpg" >}}
-{{< /gallery >}}{{< load-photoswipe >}}
+{{< /gallery >}}
 
 Schon seit vielen Jahren hatten wir uns darauf beschränkt, die analoge Chronik so gut wie möglich zu gestalten und ein System zu finden. Doch irgendwann mussten wir uns doch mal auf die eigenen Beine stellen und die Website selbst gestalten. Mit Patricks Vorlage der Internetseite machten wir uns also in der Projektwoche 2011 an die Arbeit. Diesmal nicht römisch Kochen sonder chronistisch schuften und einen Plan entwickeln, nach dem wir die Chronik-Seite zusammenbauen wollten. Vielleicht war dies die wohl kreativste Zeit des gesamten Schuljahres, in der wir neue Begriffe prägten, wie Paulas „Kreative Haufen“. Am Ende einer natürlich viel zu kurzen Woche stand dann irgendsowas, wie ein Internetauftritt-Prototyp der GCG-Chronisten. Fertig war an allen Ecken und Enden noch nichts aber wir wussten, dass wir jetzt ein Gerüst haben, auf dem wir arbeiten können. Oder von dem wir runterfallen können...
 
@@ -33,7 +33,7 @@ Der Sommer 2013 jedoch war ein Sommer des Abschiedes. Nicht nur mussten sich vie
 
 {{< gallery >}}
   {{< figure src="/media/schulchronik/2014.jpg" >}}
-{{< /gallery >}}{{< load-photoswipe >}}
+{{< /gallery >}}
 
 Das Jahr 2015 sollte als ein Jahr umwälzender Veränderungen in die Historie der GCG-Chronisten eingehen. Neue Namensgebungsdebatten wurden geführt, der Kult des Tingeltangel-Bob erstand aus einem Überraschungsei und als neuer Initiationsritus wurde der Schwur auf den Statistik-Ordner eingeführt. Ein zweites Mal musste die Super-Admin-Würde – oder Bürde? - weitergegeben werden und die Suche nach einem neuen Haupt-Autor für Chronik-Berichte begann. Die Zukunft war mit sieben Mitgliedern gesichert. Seit September 2015 verstärken die 5 neuen Jungchronisten: Lavinia Burkhardt, Anna Imming, Lennart Schimpf, Tom Steinkopf und Hannes Wisotzki unsere Chronik Ag und tauchen in die geheimnisvolle Geschichte des GCG ein.
 
@@ -41,6 +41,6 @@ Und es geht stets weiter – Sowahr uns Tingeltangel-Bob helfe!
 
 {{< gallery >}}
   {{< figure src="/media/schulchronik/2016.jpg" >}}
-{{< /gallery >}}{{< load-photoswipe >}}
+{{< /gallery >}}
 
 Nikolas Weigt 2015

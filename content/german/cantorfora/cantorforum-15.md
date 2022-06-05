@@ -25,4 +25,4 @@ Danke an Tom Gebhardt und Marcus Bauersfeld.
 
 Lavinia Burkhardt, 2015
 
-{{< gallery dir="/media/cantorfora/cantorforum_15" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_15" />}}

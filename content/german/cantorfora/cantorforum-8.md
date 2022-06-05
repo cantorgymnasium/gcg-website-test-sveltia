@@ -31,4 +31,4 @@ Danke an Andreas für dieses interessante Cantorforum.
 
 Nikolas Weigt 2011
 
-{{< gallery dir="/media/cantorfora/cantorforum_8" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_8" />}}

@@ -23,4 +23,4 @@ die – wie immer – zum Ende des Cantorforums, indem wir wieder Erstaunliches 
 
 Nikolas Weigt, 2015
 
-{{< gallery dir="/media/cantorfora/cantorforum_14" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_14" />}}

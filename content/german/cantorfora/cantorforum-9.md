@@ -28,7 +28,7 @@ Doch nachdem Stefan den Glauben an viele Weihnachtserscheinungen getrübt hat, m
 
 Nikolas Weigt, 2011
 
-{{< gallery dir="/media/cantorfora/cantorforum_9" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_9" />}}
 
 ## IX. Cantorforum – Weihnachten
 ***Stefan Schwarz***

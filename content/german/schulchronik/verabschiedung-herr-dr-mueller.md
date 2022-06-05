@@ -171,4 +171,4 @@ I Did It My Way.
 
 ## Fotos
 
-{{< gallery dir="/media/schulchronik/2014/galerie" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/schulchronik/2014/galerie" />}}

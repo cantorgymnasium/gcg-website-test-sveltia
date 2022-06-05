@@ -5,7 +5,7 @@ bg_image: media/backgrounds/page-title.png
 description:
 ---
 
-{{< load-photoswipe >}}
+
 
 Die Junior-Ingenieur-Akademie wird an unserer Schule durch die Deutsche Telekom Stiftung ermöglicht.
 Mithilfe diese Unterstützung gelang es, Schülerinnen und Schülern im Wahlpflichtbereich der gymnasialen

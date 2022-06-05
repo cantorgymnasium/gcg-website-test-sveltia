@@ -26,4 +26,4 @@ Das nächste Cantorforum findet dann im November zum Thema Wiedervereinigung sta
 
 Lucas Tittmann, 2009
 
-{{< gallery dir="/media/cantorfora/cantorforum_4" />}}{{< load-photoswipe >}}
+{{< gallery dir="/media/cantorfora/cantorforum_4" />}}
