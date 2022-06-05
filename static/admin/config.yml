@@ -375,6 +375,33 @@ collections:
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Text", name: "body", widget: "markdown", required: false}
+      - name: "bibo"
+        label: "Schulbibliothek"
+        file: "content/german/bibo/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Text", name: "body", widget: "markdown", required: false}
+      - name: "abiturienten"
+        label: "Abiturienten"
+        file: "content/german/abiturienten/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Text", name: "body", widget: "markdown", required: false}
+      - name: "cantorfora"
+        label: "Cantorfora"
+        file: "content/german/cantorfora/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "author-de" # Used in routes, e.g., /admin/collections/blog
     label: "Autor*innen" # Used in the UI
     label_singular: "Autor*in"
