@@ -357,6 +357,14 @@ collections:
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - name: "begabtenfoerderung-index"
+        label: "Begabtenförderung"
+        file: "content/german/begabtenfoerderung/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "schuelerrat-index"
         label: "Schülerrat"
         file: "content/german/schuelerrat/_index.md"
@@ -583,8 +591,29 @@ collections:
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Fach", name: "category", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
-      - {label: "Website", name: "web_url", widget: "string"}
+      - {label: "Website", name: "web_url", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "wettbewerbe"}
+      - {label: "Text", name: "body", widget: "markdown"}
+  - name: "begabtenfoerderung-de"
+    label: "Begabtenförderung"
+    label_singular: "Begabtenförderung"
+    folder: "content/german/begabtenfoerderung"
+    filter: {field: "type", value: "begabtenfoerderung"}
+    create: true
+    editor:
+      preview: false
+    media_folder: '/static/media/begabtenfoerderung'
+    public_folder: '/media/begabtenfoerderung'
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
+      - {label: "Fach", name: "category", widget: "string"}
+      - {label: "Klassenstufen", name: "class", widget: "string"}
+      - {label: "Website", name: "web_url", widget: "string", required: false}
+      - {label: "Type", name: "type", widget: "hidden", default: "begabtenfoerderung"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "schulchronik"
     label: "Schulchronik"

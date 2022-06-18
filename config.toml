@@ -111,6 +111,12 @@ hasChildren = true
   URL = "bibo"
   weight = 9
 
+  [[menu.main]]
+  parent = "Schule"
+  name = "Begabtenförderung"
+  URL = "begabtenfoerderung"
+  weight = 10
+
 [[menu.main]]
 weight = 2
 name = "Digitale Angebote"
