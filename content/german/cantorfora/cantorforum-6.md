@@ -4,7 +4,7 @@ tenrange: "0"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# course thumbnail
+
 image: "media/cantorfora/cantorforum_e06.bmp"
 description: "''Der Einfluss sozialer Netzwerke auf Stellenbesetzungsentscheidungen von Unternehmen'' von Tino Rasch"
 ---

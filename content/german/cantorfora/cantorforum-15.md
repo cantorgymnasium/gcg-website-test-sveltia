@@ -4,7 +4,7 @@ tenrange: "1"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# course thumbnail
+
 image: "media/cantorfora/cantorforum15.png"
 description: "Markus Bauersfeld und Tom Gebhardt: Abi und dann?"
 ---

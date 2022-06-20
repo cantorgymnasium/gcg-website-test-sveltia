@@ -3,7 +3,7 @@ title: "Bericht 1"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# course thumbnail
+
 image: "media/image.png"
 type: "pages"
 layout: "single.html"

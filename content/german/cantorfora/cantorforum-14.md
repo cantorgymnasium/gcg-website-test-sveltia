@@ -4,7 +4,7 @@ tenrange: "1"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# course thumbnail
+
 image: "media/cantorfora/cantorforum14.png"
 description: "Katarina Forkmann: Placebo und Nocebo, die innere Apotheke"
 ---

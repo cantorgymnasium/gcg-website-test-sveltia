@@ -3,7 +3,7 @@ title: "Rede für das Absolvententreffen zum 25 jährigen Schuljubiläum (28.09.
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# course thumbnail
+
 image: "media/image.png"
 type: "pages"
 layout: "single.html"

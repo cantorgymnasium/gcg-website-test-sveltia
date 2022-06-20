@@ -12,6 +12,7 @@ root: Aula u. 208
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
 ---
+
 Singen macht Freude.
 
 Stimm` mit ein!

@@ -112,6 +112,9 @@
 - id: related_contests
   translation: Weitere Wettbewerbe
 
+- id: related_begabtenfoerderung
+  translation: Weitere Begabtenförderungsangebote
+
 - id: social
   translation: "Soz. Netzwerke"
 

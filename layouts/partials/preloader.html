@@ -1,9 +1,7 @@
 {{ if .Site.Params.preloader.enable }}
-{{ "<!-- preloader start -->" | safeHTML }}
 <div class="preloader">
   {{ with .Site.Params.preloader.preloader }}
   <img src="{{ . | absURL }}" width="222px" alt="preloader">
   {{ end }}
 </div>
-{{ "<!-- preloader end -->" | safeHTML }}
 {{ end }}

@@ -3,10 +3,10 @@ title: Frühstudium
 draft: false
 bg_image: media/bild_titelbild.jpg
 description: ""
-image: media/begabtenfoerderung/image.png
 category: Naturwissenschaften
 class: 5 - 12 Klasse
 web_url:
+image:
 type: begabtenfoerderung
 ---
 

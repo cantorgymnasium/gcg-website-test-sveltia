@@ -4,7 +4,7 @@ tenrange: "0"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# course thumbnail
+
 image: "media/cantorfora/cantorforum_e05.bmp"
 description: "''Lohnt sich helfen – helfen lohnt sich'' von Franziska Flegel"
 ---

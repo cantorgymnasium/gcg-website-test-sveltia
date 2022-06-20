@@ -3,7 +3,7 @@ title: "Cantorfora"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# meta description
+
 ---
 
 ## Grußwort

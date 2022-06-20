@@ -4,7 +4,7 @@ tenrange: "0"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# course thumbnail
+
 image: "media/cantorfora/cantorforum_e09.bmp"
 description: "''Weihnachten – eine naturwissenschaftliche Betrachtung'' von Stefan Schwarz"
 ---

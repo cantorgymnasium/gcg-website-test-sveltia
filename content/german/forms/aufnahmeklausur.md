@@ -2,12 +2,8 @@
 title: "Aufnahmeklausuren"
 date: 2020-07-12T15:27:17+06:00
 draft: false
-
 bg_image: "media/backgrounds/page-title.png"
-# meta description
 description : ""
-# Research image
-# type
 type: "forms"
 ---
 

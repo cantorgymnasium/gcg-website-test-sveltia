@@ -3,10 +3,10 @@ title: Spezialistenlager
 draft: false
 bg_image: media/bild_titelbild.jpg
 description: ""
-image: media/contests/image.png
 category: Mathematik
 class: 5 - 12 Klasse
 web_url:
+image: 
 type: begabtenfoerderung
 ---
 

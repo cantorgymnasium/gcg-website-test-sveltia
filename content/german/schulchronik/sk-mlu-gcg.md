@@ -3,7 +3,7 @@ title: "Die Spezialklassen für Mathematik und Physik an der Martin-Luther-Unive
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# course thumbnail
+
 image: "media/image.png"
 type: "pages"
 layout: "single.html"

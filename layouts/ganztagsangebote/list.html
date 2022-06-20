@@ -27,7 +27,6 @@
     <br>
 
 		<div class="row shuffle-wrapper justify-content-center">
-			{{"<!-- portfolio item -->" | safeHTML}}
 			{{ range .Data.Pages }}
 			<div class="col-lg-4 shuffle-item"
 				data-groups="[{{range $index, $element:= .Params.Categories_ag }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">

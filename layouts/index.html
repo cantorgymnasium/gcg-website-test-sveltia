@@ -2,13 +2,11 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-<!-- hero slider -->
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
 <section class="hero-section overlay bg-cover" data-background="{{ .bg_image | absURL }}">
   <div class="container">
     <div class="hero-slider">
-      <!-- slider item -->
       {{ range .slider_item }}
       <div class="hero-slider-item">
         <div class="row">
@@ -27,9 +25,7 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /hero slider -->
 
-<!-- about us -->
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
 <section class="section">
@@ -56,17 +52,12 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /about us -->
 
-<!-- banner-feature -->
 {{ if $data.homepage.success_banner.enable }}
 {{ with $data.homepage.success_banner }}
 <section class="section bg-cover" data-background="{{ .image | absURL }}" id="success">
   <div class="container-fluid">
     <div class="row no-gutters">
-      <!--div class="col-xl-4 col-lg-5 align-self-end">
-        <img class="img-fluid w-100" style="margin-top: -20px;" src="{{ .image | absURL }}" alt="banner-feature">
-      </div-->
       <div class="col-xl-8 col-lg-7">
         <div class="row feature-blocks bg-white justify-content-between">
           {{ range .feature_item }}
@@ -89,9 +80,7 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /banner-feature -->
 
-<!-- courses -->
 {{ if $data.homepage.ganztagsangebote.enable }}
 <section class="section-sm">
   <div class="container">
@@ -106,17 +95,13 @@
         </div>
       </div>
     </div>
-    <!-- course list -->
     <div class="row justify-content-center">
-      <!-- course item -->
       {{ range first 6 (where .Site.RegularPages "Type" "ganztagsangebote")}}
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "ganztagsangebote" }}
       </div>
       {{ end }}
     </div>
-    <!-- /course list -->
-    <!-- mobile see all button -->
     <div class="row">
       <div class="col-12 text-center">
         <a href="{{ `ganztagsangebote` | relLangURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
@@ -125,9 +110,7 @@
   </div>
 </section>
 {{ end }}
-<!-- /courses -->
 
-<!-- cta -->
 {{ if $data.homepage.cta.enable }}
 {{ with $data.homepage.cta }}
 <section class="section bg-primary">
@@ -147,15 +130,11 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /cta -->
 
-<!-- info -->
 {{ if $data.homepage.info.enable }}
 {{ partial "info.html" . }}
 {{ end }}
-<!-- /info -->
 
-<!-- termine -->
 {{ if $data.homepage.termine.enable }}
 <section class="section bg-gray">
   <div class="container">
@@ -171,7 +150,6 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <!-- event -->
       {{ with .Site.GetPage "/termine/_index.md" }}
 
       {{ range first 3 .Params.events }}
@@ -192,7 +170,6 @@
       {{ end }}
 
     </div>
-    <!-- mobile see all button -->
     <div class="row">
       <div class="col-12 text-center">
         <a href="{{`termine` | relLangURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
@@ -201,9 +178,7 @@
   </div>
 </section>
 {{ end }}
-<!-- /events -->
 
-<!-- blog -->
 {{ if $data.homepage.blog.enable }}
 <section class="section">
   <div class="container">
@@ -213,7 +188,6 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <!-- blog post -->
       {{ range first 3 (where .Site.RegularPages "Type" "post")}}
       <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
         {{ .Render "post" }}
@@ -223,6 +197,5 @@
   </div>
 </section>
 {{ end }}
-<!-- /blog -->
 
 {{ end }}

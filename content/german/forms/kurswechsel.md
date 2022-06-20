@@ -4,11 +4,9 @@ date: 2020-08-11T15:27:17+06:00
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# meta description
+
 description : ""
-# Research image
 image: "media/image.png"
-# type
 type: "forms"
 ---
 

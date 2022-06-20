@@ -4,7 +4,7 @@ tenrange: "0"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# course thumbnail
+
 image: "media/cantorfora/cantorforum_e03.bmp"
 description: "''Abi - und dann...?'' Teil 2 von Johannes Herzog"
 ---

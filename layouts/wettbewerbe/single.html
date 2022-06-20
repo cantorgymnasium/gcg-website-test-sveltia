@@ -1,11 +1,9 @@
 {{ define "main" }}
 
-<!-- section -->
 <section class="section-sm">
   <div class="container">
     <div class="row">
       <div class="col-12 mb-4">
-        <!-- course thumb -->
         <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
           class="img-fluid w-100">
       </div>
@@ -13,7 +11,6 @@
     <div>
       <h2>{{ .Title }}</h2>
     </div>
-    <!-- course info -->
     <div class="row align-items-center mb-5">
       <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
         <ul class="list-inline">
@@ -31,12 +28,10 @@
       <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
         <a href="{{ .Params.Web_url | safeURL }}" class="btn btn-primary">{{ i18n "website" }}</a>
       </div>
-      <!-- border -->
       <div class="col-12 mt-4 order-4">
         <div class="border-bottom border-primary"></div>
       </div>
     </div>
-    <!-- course details -->
     <div class="row">
       <div class="col-12 mb-4 content">
         {{ .Content }}
@@ -44,9 +39,7 @@
     </div>
   </div>
 </section>
-<!-- /section -->
 
-<!-- related course -->
 <section class="section pt-0">
   <div class="container">
     <div class="row">
@@ -55,7 +48,6 @@
       </div>
     </div>
     <div class="row">
-      <!-- course item -->
       {{ $related := (where .Site.RegularPages "Type" "wettbewerbe") | intersect (where .Site.Pages ".Title" "!=" .Title) | union (.Site.RegularPages.Related . ) | shuffle | first 3}}
       {{ range first 3 $related }}
       <div class="col-lg-4 col-sm-6 mb-5">
@@ -65,6 +57,5 @@
     </div>
   </div>
 </section>
-<!-- /related course -->
 
 {{ end }}

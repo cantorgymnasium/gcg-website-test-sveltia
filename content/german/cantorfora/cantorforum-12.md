@@ -4,7 +4,7 @@ tenrange: "1"
 draft: false
 
 bg_image: "media/backgrounds/page-title.png"
-# course thumbnail
+
 image: "media/cantorfora/cantorforum_e12.png"
 description: "Leandro Gambôa: 1 Year Backpacking Australia"
 ---

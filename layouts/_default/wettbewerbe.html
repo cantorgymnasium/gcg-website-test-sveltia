@@ -4,8 +4,7 @@
     <ul class="list-inline">
       <li class="list-inline-item"><p><i class="fa-solid fa-book-bookmark"></i> {{ .Params.Category }}</p></li>
     </ul>
-    <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-    <!--p class="card-text mb-4">{{ .Summary | truncate 100 }}</p-->
+    <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 20 }}</a></h4>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm text-uppercase">{{ i18n "read_more"}}</a>
   </div>
 </div>
