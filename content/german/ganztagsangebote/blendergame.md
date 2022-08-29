@@ -10,7 +10,7 @@ categories_ag:
 weekly: Montag, 6.- 7. Stunde
 duration: 2. Stunden
 class: alle Klassenstufen
-root: "302"
+room: "302"
 apply_url: "#"
 type: ganztagsangebote
 ---

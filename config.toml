@@ -137,7 +137,7 @@ hasChildren = true
   [[menu.main]]
   parent = "Digitale Angebote"
   name = "Digitale führung durch das Schulhaus"
-  URL = "https://cantorgymnasium.de/virtuell"
+  URL = "https://vr.cantorgymnasium.de"
   weight = 3
 
 [[menu.main]]

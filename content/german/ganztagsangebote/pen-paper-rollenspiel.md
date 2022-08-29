@@ -8,7 +8,7 @@ categories_ag: [ "Gesellschaft" ]
 weekly: Mo, 15:15 Uhr / Di, 14:15 Uhr / Fr, 13:30 Uhr
 duration: variable
 class: "alle Klassenstufen "
-root: 307/102/103
+room: 307/102/103
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
 ---

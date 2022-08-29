@@ -138,7 +138,7 @@ about:
   button:
     enable: true
     label: Digitale Führung durch das Schulhaus
-    link: https://cantorgymnasium.de/virtuell
+    link: https://vr.cantorgymnasium.de
 ganztagsangebote:
   enable: true
   title: Unsere Ganztagsangebote
