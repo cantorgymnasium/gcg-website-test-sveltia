@@ -1,27 +1,19 @@
 ---
-title: "Mathematik(Klasse 6)"
-
+title: Mathematik (Klasse 6)
+date: 2022-09-11T19:41:14.006Z
 draft: false
-
-bg_image: "media/bild_titelbild.jpg"
-
-description : "Förderung für in Mathematik begabte Schüler."
-
-image: "media/ganztagsangebote/mathematik.webp"
-# taxonomy
-categories_ag: ["Mathematik", "Naturwissenschaften"]
-# duration
-weekly: "Dienstag, 7. - 8. Stunde"
-# weekly
-duration: "2. Stunden"
-# course fee
-class: "6 Klasse"
-# room
+bg_image: media/bild_titelbild.jpg
+description: Förderung für in Mathematik begabte Schüler.
+image: media/ganztagsangebote/mathematik.webp
+categories_ag:
+  - Mathematik
+  - Naturwissenschaften
+duration: 2. Stunden
+weekly: Dienstag, 7. - 8. Stunde
+class: 6 Klasse
 room: "307"
-# apply url
-apply_url : "https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828"
-# type
-type: "ganztagsangebote"
+apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
+type: ganztagsangebote
 ---
 
 
