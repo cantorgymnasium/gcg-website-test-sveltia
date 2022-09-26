@@ -61,11 +61,11 @@ Angebot wählen können.
 
 ### Schülerrat
 
-* **Hagen Häußler**  (Klasse 11) und **Elias Peschek** (Klasse 9): Schülersprecher
+* **Lilli Berthold**  (Klasse 9) und **Denys Konovalov** (Klasse 9): Schülersprecher
 
 ### Beirat
 
-* **Denys Konovalov** (Klasse 8) und **Lilli Berthold** (Klasse 8): Beiratsvorstand
+* **Clara Kobitsch-Meyer** (Klasse 11) und **Anni Aschenbach** (Klasse 11): Beiratsvorstand
 
 ## Kontaktmöglichkeiten
 
