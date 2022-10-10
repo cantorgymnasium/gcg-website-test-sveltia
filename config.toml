@@ -124,8 +124,8 @@ hasChildren = true
 
   [[menu.main]]
   parent = "Digitale Angebote"
-  name = "GCG.MeinCantor - Die Schul-App"
-  URL = "meincantor"
+  name = "Vertretungsplan"
+  URL = "https://stundenplan24.de/20072021/mobil/"
   weight = 1
 
   [[menu.main]]
