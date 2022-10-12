@@ -25,7 +25,9 @@ crossorigin=""/>
     </div>
     <div class="row">
       <div class="col-lg-7 mb-4 mb-lg-0">
-        <form action="https://cantorgymnasium.de/contact.php" method="POST">
+        <form action="https://php.cantorgymnasium.de/formtools/process.php" method="post">
+          <input type="hidden" name="form_tools_initialize_form" value="1" />
+          <input type="hidden" name="form_tools_form_id" value="2" />
           <input type="text" class="form-control mb-3" id="name" name="visitor_name" placeholder="Ihr Name">
           <input type="email" class="form-control mb-3" id="mail" name="visitor_email" placeholder="Ihre E-Mail Adresse">
           <input type="text" class="form-control mb-3" id="subject" name="email_title" placeholder="Betreff">
