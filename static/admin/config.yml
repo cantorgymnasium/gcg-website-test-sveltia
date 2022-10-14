@@ -319,7 +319,7 @@ collections:
             fields:
               - {label: "Titel", name: "title", widget: "string", required: true}
               - {label: "Datum/Startdatum", name: "date", widget: "datetime",  required: true, date_format: "DD.MM.YYYY", time_format: "HH:mm"}
-              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "DD.MM.YYYY", time_format: "HH:mm"}
+              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "DD.MM.YYYY", time_format: "HH:mm", default: ""}
               - {label: "Ort", name: "location", widget: "string", required: true}
               - {label: "Beschreibung", name: "summary", widget: "string", required: false}
             required: false
