@@ -100,4 +100,16 @@ events:
     date: 2023-01-26T14:59:49.571Z
     title: Skilager Klasse 11
     location: " "
+  - enddate: 2023-02-03T05:00:00.000Z
+    date: 2023-01-30T15:01:48.171Z
+    title: Modulkurs Chemie Klasse 11
+    location: Fachhochschule Merseburg
+  - enddate: ""
+    date: 2023-02-03T15:03:25.794Z
+    title: Ende des Schulhalbjahres; Ausgabe der Halbjahreszeugnisse
+    location: Georg-Cantor Gymnasium
+  - enddate: 2023-02-03T04:00:00.000Z
+    date: 2023-01-30T15:05:21.605Z
+    title: Schnupperstunde für die zweite Pflichtfremdsprache (6. Klassen)
+    location: Georg-Cantor Gymnasium
 ---
