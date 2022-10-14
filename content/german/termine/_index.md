@@ -132,4 +132,24 @@ events:
     date: 2023-02-27T15:13:17.282Z
     title: Kultur- und Wissenschaftstage
     location: Georg-Cantor Gymnasium
+  - enddate: 2023-03-03T05:00:00.000Z
+    date: 2023-02-27T15:16:09.304Z
+    title: Klausuren unter Abiturbedingungen der 12. Klassen
+    location: Georg-Cantor Gymnasium
+  - enddate: 2023-03-03T03:00:00.000Z
+    date: 2023-02-27T15:17:14.061Z
+    title: Modulkurse Biologie und Physik der 11. Klassen
+    location: Georg-Cantor Gymnasium
+  - enddate: ""
+    date: 2023-03-02T15:18:14.073Z
+    title: Cantorpreisverleihung
+    location: Georg-Cantor Gymnasium
+  - enddate: ""
+    date: 2023-03-09T15:18:58.298Z
+    title: Landesphysikolympiade
+    location: Magdeburg
+  - enddate: ""
+    date: 2023-03-16T15:19:40.241Z
+    title: Känguruwettbewerb
+    location: Georg-Cantor Gymnasium
 ---
