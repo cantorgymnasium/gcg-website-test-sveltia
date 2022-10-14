@@ -188,4 +188,48 @@ events:
     date: 2023-05-26T14:21:11.289Z
     title: Nachprüfung im schriftlichen Abitur
     location: Georg-Cantor Gymnasium
+  - enddate: 2023-06-09T02:00:00.000Z
+    date: 2023-06-05T15:44:26.521Z
+    title: Klassenfahrtswochen der Klassen 7 und 10
+    location: nicht in der Schule
+  - enddate: 2023-06-16T05:00:00.000Z
+    date: 2023-06-13T15:44:26.948Z
+    title: Mitteldeutsche Regionalrunde der Chemieolympiade
+    location: Fachhochschule Merseburg
+  - enddate: ""
+    date: 2023-06-14T15:44:27.451Z
+    title: Beginn der mündlichen Abiturprüfungen
+    location: Georg-Cantor Gymnasium
+  - enddate: ""
+    date: 2023-06-20T15:44:27.883Z
+    title: Versetzungskonferenzen auf Jahrgangsstufenbasis
+    location: Georg-Cantor Gymnasium
+  - enddate: 2023-06-30T03:00:00.000Z
+    date: 2023-06-27T15:44:28.388Z
+    title: Ökopraktikum der 11. Klassen
+    location: " "
+  - enddate: ""
+    date: 2023-06-29T13:00:28.876Z
+    title: Ausgabe der Reifezeugnisse
+    location: Ulrichskirche
+  - enddate: ""
+    date: 2023-06-30T15:44:29.369Z
+    title: Schulfest
+    location: Georg-Cantor Gymnasium
+  - enddate: ""
+    date: 2023-07-03T15:44:29.868Z
+    title: Exkursionstag der Klassen 5 und 6
+    location: " "
+  - enddate: ""
+    date: 2023-07-03T15:44:30.356Z
+    title: Sozialer Tag der Klassen 7-11
+    location: Georg-Cantor Gymnasium
+  - enddate: ""
+    date: 2023-07-04T15:44:30.803Z
+    title: Exkursionstag der Klassen 7-11
+    location: " "
+  - enddate: ""
+    date: 2023-07-04T15:44:31.329Z
+    title: Sozialer Tag der Klassen 5-6
+    location: Georg-Cantor Gymnasium
 ---
