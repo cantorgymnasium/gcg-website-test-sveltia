@@ -116,4 +116,20 @@ events:
     date: 2023-02-06T15:07:19.620Z
     title: Winterferien
     location: nicht in der Schule
+  - enddate: 2023-02-17T04:00:00.000Z
+    date: 2023-02-13T15:08:20.930Z
+    title: Modulkurs Chemie der 12. Klassen
+    location: Fachhochschule Merseburg
+  - enddate: 2023-03-24T06:00:00.000Z
+    date: 2023-02-20T15:09:27.919Z
+    title: verpflichtende Vergleichsarbeit Englisch des 8. Schuljahrgangs
+    location: Online
+  - enddate: 2023-02-25T05:00:00.000Z
+    date: 2023-02-24T15:11:36.168Z
+    title: Landesmathematikolympiade
+    location: Magdeburg
+  - enddate: 2023-03-03T05:00:00.000Z
+    date: 2023-02-27T15:13:17.282Z
+    title: Kultur- und Wissenschaftstage
+    location: Georg-Cantor Gymnasium
 ---
