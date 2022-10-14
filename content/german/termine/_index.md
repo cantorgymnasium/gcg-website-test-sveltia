@@ -152,4 +152,40 @@ events:
     date: 2023-03-16T15:19:40.241Z
     title: Känguruwettbewerb
     location: Georg-Cantor Gymnasium
+  - enddate: 2023-04-08T06:00:00.000Z
+    date: 2023-04-03T14:21:05.216Z
+    title: Osterferien
+    location: nicht in der Schule
+  - enddate: ""
+    date: 2023-03-22T15:21:08.979Z
+    title: Landeschemieolympiade
+    location: Schulpforta
+  - enddate: ""
+    date: 2023-04-21T14:21:09.545Z
+    title: Letzter Regelunterrichtstag für den Abiturjahrgang
+    location: Georg-Cantor Gymnasium
+  - enddate: 2023-05-08T09:00:00.000Z
+    date: 2023-04-24T14:21:09.846Z
+    title: Schriftliche Abiturprüfungen
+    location: Georg-Cantor Gymnasium
+  - enddate: ""
+    date: 2023-04-27T14:21:10.051Z
+    title: Schüler-Zukunftstag
+    location: selbst gewählter Betrieb
+  - enddate: 2023-05-18T22:00:00.000Z
+    date: 2023-05-15T14:21:10.514Z
+    title: Pfingstferien
+    location: nicht in der Schule
+  - enddate: ""
+    date: 2023-05-23T14:21:10.753Z
+    title: verpflichtende Zentrale Klassenarbeit Deutsch der 6. Klassen
+    location: Georg-Cantor Gymnasium
+  - enddate: ""
+    date: 2023-05-25T14:21:11.053Z
+    title: Zentrale Klassenarbeit Englisch der 6. Klassen
+    location: Georg-Cantor Gymnasium
+  - enddate: 2023-06-05T03:00:00.000Z
+    date: 2023-05-26T14:21:11.289Z
+    title: Nachprüfung im schriftlichen Abitur
+    location: Georg-Cantor Gymnasium
 ---
