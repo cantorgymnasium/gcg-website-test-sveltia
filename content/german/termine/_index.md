@@ -56,4 +56,16 @@ events:
     date: 2022-11-28T14:34:57.202Z
     title: Spezialistenlager Mathematik der Klassen 5-7
     location: Jugendherberge Frauenstein
+  - enddate: ""
+    date: 2022-12-02T14:48:28.054Z
+    title: Zweite Runde der Internationalen Chemieolympiade
+    location: Georg-Cantor Gymnasium
+  - enddate: ""
+    date: 2022-12-06T14:49:50.932Z
+    title: Mannschaftswettbewerb Biologie
+    location: Georg-Cantor Gymnasium
+  - enddate: 2022-12-09T09:00:00.000Z
+    date: 2022-12-07T14:50:27.863Z
+    title: Musikfahrt
+    location: Wasserburg Heldrungen
 ---
