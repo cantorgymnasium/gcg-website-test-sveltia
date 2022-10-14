@@ -68,4 +68,28 @@ events:
     date: 2022-12-07T14:50:27.863Z
     title: Musikfahrt
     location: Wasserburg Heldrungen
+  - enddate: ""
+    date: 2022-12-12T14:51:56.689Z
+    title: Wechsel des Kurshalbjahres im Abiturjahrgang
+    location: Georg-Cantor Gymnasium
+  - enddate: ""
+    date: 2022-12-12T14:52:53.245Z
+    title: Mannschaftswettbewerb Informatik
+    location: Magdeburg
+  - enddate: ""
+    date: 2022-12-16T14:53:40.973Z
+    title: Weihnachtskonzert
+    location: Ulrichskirche
+  - enddate: ""
+    date: 2022-12-20T14:54:42.180Z
+    title: Weihnachtssingen
+    location: Georg-Cantor Gymnasium
+  - enddate: 2023-01-05T06:00:00.000Z
+    date: 2022-12-21T14:55:18.525Z
+    title: Weihnachtsferien
+    location: nicht in der Schule
+  - enddate: ""
+    date: 2023-01-19T14:56:40.232Z
+    title: Halbjahreskonferenz auf Jahrgangsstufenbasis
+    location: Georg-Cantor Gymnasium
 ---
