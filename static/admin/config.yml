@@ -228,7 +228,7 @@ collections:
                   - {label: "Position", name: "weight", widget: "number"}
                   - {label: "Untermenüs", name: "hasChildren", widget: "boolean"}
                   - {label: "Link", name: "URL", widget: "string"}
-                  - {label: "Untermenü von", name: "parent", widget: "relation", collection: "config", file: "hugo-config", search_fields: ['menu.main.*.name'], display_fields: ['menu.main.*.name'], value_field: "menu.main.*.name", required: "false"}
+                  - {label: "Untermenü von", name: "parent", widget: "relation", collection: "config", file: "hugo-config", search_fields: ['menu.main.*.name'], display_fields: ['menu.main.*.name'], value_field: "menu.main.*.name", required: false}
               - label: "unteres Menü"
                 name: "footer"
                 widget: "list"
