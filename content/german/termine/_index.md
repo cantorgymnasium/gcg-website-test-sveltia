@@ -96,4 +96,8 @@ events:
     date: 2023-01-16T14:57:43.479Z
     title: Spezialistenlager Mathematik und Physik der Klassen 8 - 11
     location: Frauenstein
+  - enddate: 2023-02-03T04:00:00.000Z
+    date: 2023-01-26T14:59:49.571Z
+    title: Skilager Klasse 11
+    location: " "
 ---
