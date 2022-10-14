@@ -92,4 +92,8 @@ events:
     date: 2023-01-19T14:56:40.232Z
     title: Halbjahreskonferenz auf Jahrgangsstufenbasis
     location: Georg-Cantor Gymnasium
+  - enddate: 2023-01-20T05:00:00.000Z
+    date: 2023-01-16T14:57:43.479Z
+    title: Spezialistenlager Mathematik und Physik der Klassen 8 - 11
+    location: Frauenstein
 ---
