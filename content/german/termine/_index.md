@@ -112,4 +112,8 @@ events:
     date: 2023-01-30T15:05:21.605Z
     title: Schnupperstunde für die zweite Pflichtfremdsprache (6. Klassen)
     location: Georg-Cantor Gymnasium
+  - enddate: 2023-02-11T07:00:00.000Z
+    date: 2023-02-06T15:07:19.620Z
+    title: Winterferien
+    location: nicht in der Schule
 ---
