@@ -232,4 +232,12 @@ events:
     date: 2023-07-04T15:44:31.329Z
     title: Sozialer Tag der Klassen 5-6
     location: Georg-Cantor Gymnasium
+  - enddate: ""
+    date: 2023-07-05T15:54:47.837Z
+    title: letzter Schultag; Ausgabe der Zeugnisse zum Schuljahresende
+    location: Georg-Cantor Gymnasium
+  - enddate: 2023-08-16T04:00:00.000Z
+    date: 2023-07-06T15:54:48.476Z
+    title: Sommerferien
+    location: nicht in der Schule
 ---
