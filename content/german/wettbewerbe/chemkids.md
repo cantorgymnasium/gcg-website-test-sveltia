@@ -2,7 +2,7 @@
 title: "Chemkids "
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/contests/rundi_intro.png
+image: /media/contests/chemkids.png
 category: Chemie
 class: 4-8
 web_url: https://www.chemkids.de/
