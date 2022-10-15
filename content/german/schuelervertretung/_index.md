@@ -79,4 +79,4 @@ unserer Schule zu sehen sind. Außerdem betreiben wir einen YouTube Kanal, um di
 Schüler, Lehrer aber auch die Eltern über unsere aktuellen Projekte aufzuklären.
 
 
-{{< card link="/schuelerrat/geschaeftsordnung" title="Geschäftsordnung der Schülervertretung" >}}
+{{< card link="/schuelervertretung/geschaeftsordnung" title="Geschäftsordnung der Schülervertretung" >}}
