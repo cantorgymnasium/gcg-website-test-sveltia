@@ -3,10 +3,11 @@ title: Chor
 date: 2022-04-01T13:28:14.429Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/image.png
-categories_ag: ["Musisch-künstlerisch"]
-weekly: Mittwoch, 7. / 8. Stunde
+image: /media/ganztagsangebote/image.png
+categories_ag:
+  - Musisch-künstlerisch
 duration: 45 Minuten
+weekly: Mittwoch, 7. / 8. Stunde
 class: alle Klassenstufen
 room: Aula
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
