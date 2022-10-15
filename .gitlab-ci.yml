@@ -7,6 +7,7 @@ test:
   except:
     variables:
       - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  interruptible: true
 pages:
   script:
   - hugo --gc --minify --cleanDestinationDir
@@ -16,3 +17,4 @@ pages:
   only:
     variables:
       - $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  interruptible: true
