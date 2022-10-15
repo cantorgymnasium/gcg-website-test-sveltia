@@ -7,24 +7,23 @@ description: Herzlich willkommen auf der Seite des Schülerrates vom
   Georg-Cantor-Gymnasium. Hier finden Sie alle wichtigen Informationen zu
   unserer Arbeit als Schülervertretung.
 ---
-
 ## Wer sind wir?
 
-Der Schülerrat ist ein Gremium, dass sich aus den Klassensprechern, den Schulsprechern und den Vertretern des Beirates zusammensetzt. Die Klassensprecher werden zu Beginn jedes Schuljahres von ihren Klassen gewählt. Die Schulsprecher hingegen werden basisdemokratisch von der gesamten Schülerschaft gewählt, zurzeit begleiten dieses Amt Hagen Häußler und Elias Pescheck.
+Der Schülerrat ist ein Gremium, das sich aus den Klassensprechern, den Schulsprechern und den Vertretern des Beirates zusammensetzt. Die Klassensprecher werden zu Beginn jedes Schuljahres von ihren Klassen gewählt. Die Schulsprecher hingegen werden basisdemokratisch von der gesamten Schülerschaft gewählt, zurzeit begleiten dieses Amt Lilli Berthold und Denys Konovalov.
 Die Vertreter des Beirates werden von diesem eigenständig gewählt.
-Im Schülerrat werden Projekte umgesetzt, die den Schulalltag und damit die Schüler betreffen. Die aktuellen Projekten sind hierbei der Tag der Kulturen (TdK), da Wichteln, der Weihnachtsbasar, unsere Öffentlichkeitsarbeit und die Verschönerung unseres Schulgeländes.
+Im Schülerrat werden Projekte umgesetzt, die den Schulalltag und damit die Schüler betreffen. Die aktuellen Projekte sind hierbei der Tag der Kulturen (TdK), das Wichteln, der Weihnachtsbasar, unsere Öffentlichkeitsarbeit und die Verschönerung unseres Schulgeländes.
 
 ## Was ist der Beirat?
 
-Der Beirat ist ein Gremium, in dem jeder Schüler Mitglied werden und damit an der Gestaltung des Schulalltages mitwirken kann. Hier werden ebenfalls Projekte umgesetzt. Der Beirat kümmert sich zur Zeit um die Umgestaltung unseres Essenraumes und auch der Schulshop ist sein Aufgabengebiet.
+Der Beirat ist ein Gremium, in dem jeder Schüler Mitglied werden und damit an der Gestaltung des Schulalltages mitwirken kann. Hier werden ebenfalls Projekte umgesetzt. Der Beirat kümmert sich zurzeit um die Umgestaltung unseres Essenraumes und auch der Schulshop ist sein Aufgabengebiet.
 
 ## Projekte
 
 ### Tag der Kulturen
 
-Der Tag der Kulturen ist ein Projekttag, an welchem Schüler Vorträge halten oder Worshops leiten,
+Der Tag der Kulturen ist ein Projekttag, an welchem Schüler Vorträge halten oder Workshops leiten,
 bei denen die Schüler die Vielfalt auf der Welt und den Ländern kennenlernen können.
-Außerdem wird der Tag von einem internationalen Buffett begleitet, bei welchem
+Außerdem wird der Tag von einem internationalen Buffet begleitet, bei welchem
 jede Klasse ein Land zugeteilt, dessen Spezialitäten sie anbietet.
 
 ### Wichteln
@@ -52,20 +51,20 @@ Essensraumes eine große Rolle.
 
 ### Schulshop
 
-Der Schulshop ist ein 2018 iniziertes Projekt, bei welchem Kleidung mit dem
+Der Schulshop ist ein 2018 initiiertes Projekt, bei welchem Kleidung mit dem
 Schullogo gekauft werden kann. Hierfür stehen pro Schuljahr zwei
-Bestellzeiträume zur Verfügung, bei denen die Schüler aus einem wechelnden
+Bestellzeiträume zur Verfügung, bei denen die Schüler aus einem wechselnden
 Angebot wählen können.
 
 ## Ansprechpartner
 
 ### Schülerrat
 
-* **Lilli Berthold**  (Klasse 9) und **Denys Konovalov** (Klasse 9): Schülersprecher
+* **Lilli Berthold** und **Denys Konovalov** (Klasse 9): Schülersprecher
 
 ### Beirat
 
-* **Clara Kobitsch-Meyer** (Klasse 11) und **Anni Aschenbach** (Klasse 11): Beiratsvorstand
+* **Clara Kobitsch-Meyer** und **Anni Aschenbach** (Klasse 11): Beiratsvorstand
 
 ## Kontaktmöglichkeiten
 
@@ -79,5 +78,6 @@ Der Schülerrat unserer Schule verfügt über einen eigenen Instragram-,
 sowie einen Facebook- und Twitteraccount, auf welchen die neusten Dinge an
 unserer Schule zu sehen sind. Außerdem betreiben wir einen YouTube Kanal, um die
 Schüler, Lehrer aber auch die Eltern über unsere aktuellen Projekte aufzuklären.
+
 
 {{< card link="/schuelerrat/geschaeftsordnung" title="Geschäftsordnung" >}}
