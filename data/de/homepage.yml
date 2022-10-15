@@ -116,7 +116,7 @@ success_banner:
       img: false
       image: ""
 about:
-  enable: true
+  enable: false
   title: Website im Aufbau
   content: >-
     * Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle
