@@ -1,5 +1,5 @@
 ---
-title: Schülerrat
+title: Schülervertretung
 draft: false
 bg_image: media/backgrounds/page-title.png
 type: pages
@@ -9,9 +9,9 @@ description: Herzlich willkommen auf der Seite des Schülerrates vom
 ---
 ## Wer sind wir?
 
-Der Schülerrat ist ein Gremium, das sich aus den Klassensprechern, den Schulsprechern und den Vertretern des Beirates zusammensetzt. Die Klassensprecher werden zu Beginn jedes Schuljahres von ihren Klassen gewählt. Die Schulsprecher hingegen werden basisdemokratisch von der gesamten Schülerschaft gewählt, zurzeit begleiten dieses Amt Lilli Berthold und Denys Konovalov.
+Die Schülervertretung besteht aus dem Schülerrat, dem Beirat und dem Vorstand. Der Schülerrat ist ein Gremium, das sich aus den Klassensprechern, den Schulsprechern und den Vertretern des Beirates zusammensetzt. Die Klassensprecher werden zu Beginn jedes Schuljahres von ihren Klassen gewählt. Die Schulsprecher hingegen werden basisdemokratisch von der gesamten Schülerschaft gewählt, zurzeit begleiten dieses Amt Lilli Berthold und Denys Konovalov.
 Die Vertreter des Beirates werden von diesem eigenständig gewählt.
-Im Schülerrat werden Projekte umgesetzt, die den Schulalltag und damit die Schüler betreffen. Die aktuellen Projekte sind hierbei der Tag der Kulturen (TdK), das Wichteln, der Weihnachtsbasar, unsere Öffentlichkeitsarbeit und die Verschönerung unseres Schulgeländes.
+In der Schülervertretung werden Projekte umgesetzt, die den Schulalltag und damit die Schüler betreffen. Die aktuellen Projekte sind hierbei der Tag der Kulturen (TdK), das Wichteln, der Weihnachtsbasar, unsere Öffentlichkeitsarbeit und die Verschönerung unseres Schulgeländes.
 
 ## Was ist der Beirat?
 
@@ -42,8 +42,7 @@ kaufen. Bei dieser Aktion wird ein Teil des Erlöses an wohltätige Zwecke gespe
 
 ### Schulverschönerung
 
-Auf unserem Schulhof blühen die Blumen. Ein Grund dafür ist eine Aktion im
-Herbst 2021, bei welcher die Klassen gemeinsam die Beete bepflanzt haben, um
+Auf unserem Schulhof blühen die Blumen. Ein Grund dafür ist eine Aktion, bei welcher die Klassen gemeinsam die Beete bepflanzt haben, um
 mehr Farbe auf den Schulhof zu bringen. Außerdem planen wir auch im Inneren des
 Schulhauses weiter an einer angenehmen Lernumgebung zu arbeiten.
 Hierbei spielt besonders die Initiative des Beirates zur Umgestaltung des
@@ -80,4 +79,4 @@ unserer Schule zu sehen sind. Außerdem betreiben wir einen YouTube Kanal, um di
 Schüler, Lehrer aber auch die Eltern über unsere aktuellen Projekte aufzuklären.
 
 
-{{< card link="/schuelerrat/geschaeftsordnung" title="Geschäftsordnung" >}}
+{{< card link="/schuelerrat/geschaeftsordnung" title="Geschäftsordnung der Schülervertretung" >}}
