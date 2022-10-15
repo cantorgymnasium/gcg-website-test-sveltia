@@ -1,112 +1,85 @@
 ---
-title: Geschäftsordnung
+title: Geschäftsordnung der Schülervertretung
 draft: false
 bg_image: media/backgrounds/page-title.png
 type: pages
 ---
-## 1. Namensgebung
+#### **1. Funktion**
 
-Der Schülerrat des Georg-Cantor-Gymnasiums gibt sich als Interessenvertretung der Schüler der Schule den Namen „Schülerrat des Georg-Cantor-Gymnasiums“ mit der offiziellen Abkürzung SR-GCG.
+Die Schülervertretung ist die offizielle Interessenvertretung der Schülerinnen und Schüler des Georg-Cantor-Gymnasiums gegenüber der Schulleitung, dem Schulelternrat, dem Förderverein, sonstigen innerschulischen Institutionen, dem Stadtschülerrat Halle (Saale), sonstigen Institutionen der Bildungspolitik sowie der Öffentlichkeit nach §49 SchulG LSA.
 
-## 2. Aufgaben
+Sie gliedert sich in 3 ständige Organe:
 
-Der Schülerrat des Georg-Cantor-Gymnasiums versteht sich als Interessenvertretung aller Schüler der Schule gegenüber der Schulleitung, dem Stadtschülerrat Halle (Saale), sonstigen Institutionen der Bildungspolitik sowie der Öffentlichkeit. (§49 SchulG LSA gilt entsprechend)
-
-## 3. Öffentlichkeitsarbeit
-
-* Die Öffentlichkeitsarbeit obliegt der Verantwortung des Vorstandes. Durch einfachen Beschluss kann diese Aufgabe jedoch an einen Ausschuss bzw. einzelne Mitglieder übergeben werden.
-* Alle Einladungen und Informationen sind rechtzeitig durch den Beauftragten weiterzuleiten.
-
-## 4. Organe
-
-Der Schülerrat des Georg-Cantor-Gymnasiums untergliedert sich in vier ständige Organe:
-
+* Schülerrat
+* Beirat
 * Vorstand
-* Vollversammlung
-* Delegation zum Stadtschülerrat
-* Beirat des Schülerrates
 
-Des Weiteren können nach Bedarf Ausschüsse als weitere, nicht ständige Organe einberufen werden.
+#### **2. Schülerrat**
 
-## 5. Vorstand
+Der Schülerrat des Georg-Cantor-Gymnasiums setzt sich aus allen Klassensprechern der Klassen, sowie dem Vorstand der Schülervertretung zusammen und ist das höchste beschlussfassende Organ der Schülervertretung.
 
-* Der Vorstand ist das zweithöchste beschlussfassende Organ des Schülerrates des Georg-Cantor-Gymnasiums.
-* Der Vorstand besteht aus:
+Der Schülerrat tritt gemäß der aktuellen Schülerwahlverordnung des Landes Sachsen-Anhalt innerhalb von sechs Wochen nach dem Ende der Sommerferien zusammen.
 
-  * einem Vorsitzenden, welcher den Titel Schülersprecher tragen darf. Der Schülersprecher übernimmt insbesondere die Aufgaben- und Informationsverteilung an andere Vorstandsmitglieder
-  * einem/ zwei stellvertretenden Vorsitzenden
-  * weiteren nach Bedarf einberufenen Vorstandsmitgliedern (Beisitzer)
-* Die Wahl des Vorstandes erfolgt aus den Reihen des Schülerrates des Georg-Cantor-Gymnasiums und auf Wunsch als geheime Wahl.
-* Die Wahl erfolgt gemäß der aktuell gültigen Schülerwahlverordnung des Landes Sachsen-Anhalt. Die Wahl zur Besetzung der Posten der Beisitzer ist wie die Wahl der Schülersprecher zu behandeln. (siehe §5.3)
+Die Teilnahme an Sitzungen ist für alle Mitglieder des Schülerrats verpflichtend, Ausnahmen sind bei schulischen Terminen oder Anlässen möglich. Bei Nichtteilnahme an einer Sitzung ist der Stellvertreter zu entsenden, der für diese Sitzung die Rechte eines Schülerratsmitglieds bekommt.
 
-## 6. Vollversammlung
+Der Schülerrat ist bei Anwesenheit von zwei Dritteln der Mitglieder beschlussfähig.
 
-* Die Vollversammlung setzt sich aus allen Klassensprechern der Klassen des Georg-Cantor-Gymnasiums zusammen und ist das höchste beschlussfassende Organ des Schülerrates des Georg-Cantor-Gymnasiums.
-* Die Vollversammlung tritt gemäß der aktuellen Schülerwahlverordnung des Landes Sachsen-Anhalt spätestens nach sechs Wochen nach Beginn des Unterrichts nach den Sommerferien zusammen.
-* Die Teilnahme an Vollversammlungen ist für alle Mitglieder des Schülerrates des Georg-Cantor-Gymnasiums verpflichtend.
-* Alle Mitglieder des Schülerrates sind stimmberechtigt.
-* Die Sitzungen der Vollversammlung finden öffentlich statt.
-* Die Vertretung verhinderter Mitglieder des Schülerrates des Georg-Cantor-Gymnasiums kann durch einfache Wahl durch ein Mitglied desselben Klassenverbandes erfolgen und ist dadurch ebenfalls stimmberechtigt.
-* Die Vollversammlung ist bei Anwesenheit von zwei Dritteln der Mitglieder beschlussfähig.
+#### **3. Beirat**
 
-### 6a Vertreter in der Gesamtkonferenz
+Der Schülerbeirat des Georg-Cantor-Gymnasiums besteht aus freiwilligen Mitgliedern, unabhängig von Klassenstufe oder Mitgliedschaft in anderen Gremien. Eine Liste anwesender Mitglieder ist stets zu führen und zu aktualisieren.
 
-* Der Schülerrat wählt aus der gesamten Schülerschaft genauso so viele Vertreter in die Gesamtkonferenz, wie von der Schulleitung vorgegeben und mindestens halb so viele Stellvertreter.
-* Zwei der zu vergebenden Plätze werden automatisch an den/ die Schülersprecher*in und eine*n stellvertretende*n Vorsitzende*n vergeben. Die übrigen Plätze sind zur Wahl zur freien Verfügung und werden nach dem üblichen Wahlverfahren festgelegt.
+Der Schülerbeirat hat beratende und unterstützende Funktion und kann Beschlussvorlagen in den Schülerrat einbringen, basisdemokratische Abstimmungen einleiten und eigene Beschlüsse fassen.
 
-## 7. Delegation zum Stadtschülerrat
+Der Schülerbeirat ist bei Anwesenheit von zwei Dritteln der Mitglieder beschlussfähig.
 
-* Gewählte Mitglieder des Schülerrates des Georg-Cantor-Gymnasiums können zur Delegation zum Stadtschülerrat gewählt werden.
-* Für die Wahl zum Stadtschülerrat sind durch den Schülerrat des Georg-Cantor-Gymnasiums die Positionen des Delegierten und Ersatzdelegierten zu wählen. Die Wahl ist wie die Wahl des Vorstandes zu behandeln. (§11 SchWVO des Landes Sachsen-Anhalt)
+Der Schülerbeirat wählt aus seiner Mitte einen oder zwei Vorsitzende. Diese haben die Aufgabe, die Sitzungen des Schülerbeirats zu leiten und repräsentieren den Schülerbeirat nach außen.
 
-## 8. Beirat des Schülerrates
+Der Schülerbeirat gibt sich eine eigene Geschäftsordnung, welche Regelungen zu Themen treffen darf, die nicht in diesem Dokument festgelegt sind.
 
-* Der Beirat des Schülerrates des Georg-Cantor-Gymnasiums besteht aus freiwilligen Mitgliedern unabhängig von Klassenstufe oder Mitgliedschaft in anderen Gremien.
-* Die Teilnahme am Beirat des Schülerrates ist freiwillig.
-* Alle Mitglieder des Beirates sind stimmberechtigt.
-* Der Beirat des Schülerrates ist bei einer Anwesenheit von zwei Dritteln der Mitglieder beschlussfähig.
-* Der Beirat des Schülerrates des Georg-Cantor-Gymnasiums hat beratende Funktion und kann Beschlussvorlagen in den Schülerrat des Georg-Cantor-Gymnasiums einbringen, basisdemokratische Abstimmungen nach Artikel 10 einleiten und bei Beschlussfähigkeit eigene Beschlüsse fassen.
-* Der Beirat des Schülerrates wählt einen eigenen Vorstand. Diese Wahl ist wie die Wahl des Vorstandes des Schülerrates des Georg-Cantor-Gymnasiums Hand zu haben.
-* Die Vorstandsmitglieder des Beirates sind vollwertige Schülerratsmitglieder
+#### **4. Vorstand**
 
-### 8a Kontrolle durch den Schülerrat
+Der Vorstand der Schülervertretung ist das zweithöchste beschlussfassende Organ der Schülervertretung und hat die Aufgabe, diese nach außen zu repräsentieren.
 
-* Der Schülerrat hat ein zweiwöchiges suspensives Vetorecht gegenüber Beschlüssen des Beirats.
-* Bei Einsatz des suspensiven Vetos ist ein Beiratsausschuss einzuberufen, der innerhalb von 2 Wochen einen Kompromiss vorlegt. Den Vorsitz des Beiratsausschusses hat der Vorstand des Beirats inne.
-* Bei Nichteinigung hat der Schülerrat ein um zwei Wochen verzögertes absolutes Vetorecht gegenüber Beschlüssen des Beirats.
-* Bei Einsatz des absoluten Vetos hat der Beirat die Möglichkeit, innerhalb einer Frist von 30 Tagen mit Zweidrittelmehrheit eine basisdemokratische Abstimmung einzuleiten. Geschieht dies nicht innerhalb der genannten Frist, gilt der Beschluss als abgelehnt.
-* Der Artikel ist nicht auf Beschlüsse anzuwenden, welche der Ausarbeitung von Beschlussvorlagen oder der Sicherstellung ordnungsgemäßer Arbeit dienen.
+Der Vorstand besteht aus:
 
-## 9. Ausschüsse
+* Einem oder zwei Vorsitzenden der Schülervertretung, welche den Titel Schülersprecher tragen dürfen und von der gesamten Schülerschaft aus ihrer Mitte gewählt werden. Diese übernehmen auch den Vorsitz im Schülerrat.
+* Einem oder zwei stellvertretenden Vorsitzenden, welche auf Vorschlag der Vorsitzenden vom Vorstand gewählt werden.
+* Einem oder zwei Vorsitzenden des Schülerbeirats
 
-* Der Vorstand sowie die Vollversammlung und der Beirat sind ermächtigt, Ausschüsse einzuberufen.
-* Mitglieder der Ausschüsse sind Mitglieder des Schülerrates des Georg-Cantor-Gymnasiums und/ oder des Beirates des Schülerrates des Georg-Cantor-Gymnasiums sowie Personen, welche sich aktiv in der Schülervertretung engagieren oder fachkundiges Wissen beitragen können.
-* Ausschüsse haben ausschließlich beratende Funktion.
-* Nur Mitglieder des Schülerrates des Georg-Cantor-Gymnasiums sind in den Ausschüssen stimmberechtigt, in Ausnahmen entscheidet die Vollversammlung.
-* Ausschüsse liefern dem, den Ausschuss einberufenden, Organ regelmäßige Berichte über ihre Arbeit.
-* Ausschüsse sind bei einer Anwesenheit von zwei Dritteln der stimmberechtigten Mitglieder beschlussfähig.
+#### **5. Delegierte**
 
-## 10. Basisdemokratische Abstimmungen
+Der Schülerrat des Georg-Cantor-Gymnasiums wählt aus seiner Mitte Delegierte zu folgenden Institutionen:
 
-* Entscheidungen, welche den Alltag der Mehrheit oder einer größeren Gruppe der Schülerschaft erheblich beeinflussen, sind in einer basisdemokratischen Abstimmung zu treffen.
-* Der Schülerrat des Georg-Cantor-Gymnasiums und der Beirat sind berechtigt, bei Entscheidungen nach Punkt 1 mit einfacher Mehrheit eine basisdemokratische Abstimmung einzuleiten.
-* Sofern beschlossen, ist eine basisdemokratische Abstimmung innerhalb von 4 Schulwochen abzuhalten.
-* Für die Durchführung der Abstimmung wird ein Vorstand bestehend aus einem Abstimmungsleiter, Repräsentanten des Antragstellers sowie des einleitenden Gremiums durch Handaufheben gewählt.
-* Eine basisdemokratische Abstimmung kann per Stimmzettel oder nach Beschluss per einfacher Mehrheit digital erfolgen.
-* Bei digitaler Abstimmung obliegt die Entscheidung über den zu nutzenden Dienst dem Vorstand. Die Einhaltung der Wahlrechtsgrundsätze ist sicherzustellen.
-* Ergebnisse basisdemokratischer Abstimmungen sind von allen Gremien bedingungslos anzuerkennen.
-* Das Einleiten basisdemokratischer Abstimmungen zu Beschlüssen, welche nicht dem Punkt 1 entsprechen, ist ausgeschlossen. Ausnahmen sind mit Zweidrittelmehrheit im Schülerrat zu bekräftigen.
+* Einen Delegierten und einen Ersatzdelegierten zum Stadtschülerrat Halle (Saale)
+* Einen oder zwei Delegierte zum Förderverein des Georg-Cantor-Gymnasiums
+* Einen oder zwei Delegierte zum Schulelternrat des Georg-Cantor-Gymnasiums
 
-## 11. Beschlussfähigkeit
+Die Delegierten haben die Aufgabe, die Schülervertretung des Georg-Cantor-Gymnasiums nach außen zu repräsentieren und Zusammenarbeit zwischen den Institutionen und der Schülervertretung aufzubauen.
 
-Die Beschlussfähigkeit wird in den jeweiligen Absätzen zu den Organen der Satzung des Schülerrates des Georg-Cantor-Gymnasiums festgelegt.
+Bei sonstigen Gremien oder Institutionen entsendet der Vorstand aus seinen Reihen Vertreter.
 
-### 11a Abstimmungen
+#### **6. Wahlen der Schülervertreter**
 
-* Abstimmungen gelten mit einfacher Mehrheit als angenommen. Die Stimmabgabe erfolgt durch einfaches Handaufheben.
-* Eine Änderung der Satzung bedarf einer Mehrheit von zwei Dritteln. Die Stimmabgabe muss auf Wunsch eines einzelnen stimmberechtigten Mitgliedes geheim erfolgen.
-* Falls andere Abstimmungsmöglichkeiten vorgeschlagen werden, welche den demokratischen Grundordnungen entsprechen, so werden diese zur Abstimmung gestellt und mit einfacher Mehrheit beschlossen. Die darauf folgende Abstimmung wird dann nach dem beschlossenen Muster durchgeführt.
+Der Schülerrat wählt aus der gesamten Schülerschaft genauso viele Vertreter in die Gesamtkonferenz und die Fachkonferenzen, wie von der Schulleitung vorgegeben, und mindestens halb so viele Stellvertreter.
 
-## 12. Sprachliche Gleichstellung
+Zwei der zu vergebenden Plätze in der Gesamtkonferenz gehen automatisch an die zwei Schülersprecher oder einen Schülersprecher und einen Stellvertreter.
 
-Personen- und Funktionsbezeichnungen in dieser Satzung gelten jeweils in weiblicher und männlicher Form.
+#### **7. Basisdemokratische Abstimmungen**
+
+Alle beschlussfähigen Organe der Schülervertretung haben das Recht, mit einfacher Mehrheit basisdemokratische Abstimmungen einzuleiten.
+
+Für die Durchführung der Abstimmung wird ein Wahlvorstand aus der Mitte des durchführenden Gremiums gewählt. Dem Wahlvorstand obliegen die Entscheidungen über die Art der Abstimmung, die Fragestellung, sowie die Durchführung. Der Wahlvorstand gewährleistet die Einhaltung der Wahlrechtsgrundsätze.
+
+Der Wahlvorstand informiert die Schülervertretung spätestens eine Woche vor der Durchführung der Abstimmung über die getroffenen Beschlüssen.
+
+Ergebnisse basisdemokratischer Abstimmungen sind von allen Gremien bedingungslos anzuerkennen und gelten als direkter Ausdruck des Schülerwillens.
+
+#### **8. Wahlen und Abstimmungen**
+
+Für alle durchzuführenden Wahlen gelten die Wahlrechtsgrundsätze und die Schülerwahlverordnung des Landes Sachsen-Anhalt. Die Einhaltung dieser ist vom Vorstand zu gewährleisten.
+
+Sofern nicht anders gewünscht, sind Wahlen offen durchzuführen.
+
+Für Abstimmungen beschließt das Gremium mit einfacher Mehrheit eine Abstimmungsmöglichkeit, die den demokratischen Grundsätzen entspricht.
+
+Eine Änderung der Geschäftsordnung erfordert eine Mehrheit von zwei Dritteln im Schülerrat.
