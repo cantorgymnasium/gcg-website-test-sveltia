@@ -9,6 +9,8 @@ image: "media/cantorfora/cantorforum_e10.bmp"
 description: "''Technik und Traditon in Korea'' Paula Hähndel und Dorothee Henke"
 ---
 
+{{< load-photoswipe >}}
+
 „Annyeong-haseyo!“ sagen Paula Hähndel und Dorothee Henke zum Anfang ihrer Präsentation und verbeugen sich. Eine einfache Einleitung, doch niemand versteht sie, denn „Das ist koreanisch und heißt soviel wie ´Hallo´“, erklärt Dorothee. Über den MINT-EC kamen sie zusammen mit 5 weiteren deutschen Schülern in eine der besten Schulen Koreas.
 
 Der Schüleraustausch zwischen Schulen im MINT-EC ist natürlich stets mit vielen neuen Eindrücken und Spaß verbunden, aber Paula und Dorothee scheinen besonders viel Spaß beim Besuch der Schule und vieler Sehenswürdigkeiten gehabt zu haben. Stets sprechen sie von nur einem Korea, als wäre die unschöne Trennung der beiden Staaten wünschenswerterweise vergessen. Aber man sollte seinen Aufenthalt nicht mit solchen Dingen belasten, denn schon der Stundenplan ist ein ganz anderer als bei uns. Und während wir uns hier über ein wenig Filmmusik aus dem Nachbarraum beschweren, muss man an der Korea Science Academy Kunst und Musik unter dem Einfluss des Sportunterrichts obendrüber lernen – Swimmingpools oder gar Golfplätze auf dem Dach kennt man ja, aber eine Turnhalle im obersten der 4 Stockwerke ist dann doch etwas Neues für die 56 Zuschauer.

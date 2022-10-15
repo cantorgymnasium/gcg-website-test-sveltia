@@ -9,6 +9,8 @@ image: "media/cantorfora/cantorforum_e03.bmp"
 description: "''Abi - und dann...?'' Teil 2 von Johannes Herzog"
 ---
 
+{{< load-photoswipe >}}
+
 13.05.09, 14.30 Uhr, Raum 313: Das dritte "Cantor-Forum" findet statt.
 Die Veranstaltungsreihe hat unser Schülersprecher Thomas Tannert ins Leben gerufen - ungefähr monatlich kommen Ehemalige wieder an die Bildungsinstitution ihrer Jugend zurück, um Interessierten von ihren späteren Erfahrungen an der Universität (und darüber hinaus) zu berichten.
 Nachdem nun die ersten beiden Male eher weniger, dafür aber umso interessiertere Schüler und Lehrer die Treffen mit ihrer Anwesenheit beehrt haben, dominieren heute eindeutig die besetzten Stühle den Veranstaltungsraum: Es ist vergleichsweise berstend voll. Das liegt vermutlich an der neuen Werbestreategie, die dem hinweisenden DinA4-Blatt am Informationskasten eine engagierte

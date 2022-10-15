@@ -9,6 +9,8 @@ image: "media/cantorfora/cantorforum_e09.bmp"
 description: "''Weihnachten – eine naturwissenschaftliche Betrachtung'' von Stefan Schwarz"
 ---
 
+{{< load-photoswipe >}}
+
 Stefan Schwarz ist praktisch der Gottvater der Cantorforen. Er hat sie bisher alle organisiert und die „Alumni“, die ehemaligen Cantor-Schüler, eingeladen. Doch am Mittwoch, den 7. Dezember 2011 hält er selbst den Vortrag. Es ist sein „Abschluss-forum“, denn er zieht bald nach Portugal, um dort zu arbeiten.
 
 In beschaulicher Runde machen sich die Zuhörer über das Weihnachtsgebäck her, das eigentlich ja meist für das Ende des Cantorforums gedacht ist, aber Stefan macht da mal eine Ausnahme. Bei dem Titel „Weihnachten – eine naturwissenschaftliche Betrachtung“ denken wohl die meisten an die Zahlenspiele zum Weihnachtsmann, die veranschaulichen, dass es den runden Mann mit weißen Rauschebart nicht geben kann. Doch Stefan Schwarz geht die Sache anders an. Schon im Voraus kündigt er an, dass sein Vortrag nicht sehr viel an der biblischen Weihnachtsgeschichte lässt.
