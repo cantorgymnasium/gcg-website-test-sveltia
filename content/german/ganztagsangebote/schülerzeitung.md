@@ -3,7 +3,7 @@ title: Schülerzeitung
 date: 2022-10-15T17:01:15.900Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/image.png
+image: /media/ganztagsangebote/image.png
 categories_ag:
   - Gesellschaft
 duration: nach Vereinbarung

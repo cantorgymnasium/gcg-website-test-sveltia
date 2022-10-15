@@ -562,7 +562,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/ganztagsangebote/image.png", required: false}
       - label: "Themenbereiche"
         name: "categories_ag"
         widget: "list"

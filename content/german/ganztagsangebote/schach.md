@@ -3,7 +3,7 @@ title: Schach
 date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/image.png
+image: /media/ganztagsangebote/image.png
 categories_ag:
   - Naturwissenschaften
 duration: nach Vereinbarung
