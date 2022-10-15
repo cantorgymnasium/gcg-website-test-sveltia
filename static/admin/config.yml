@@ -365,9 +365,9 @@ collections:
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - name: "schuelerrat-index"
-        label: "Schülerrat"
-        file: "content/german/schuelerrat/_index.md"
+      - name: "schuelervertretung-index"
+        label: "Schülervertretung"
+        file: "content/german/schuelervertretung/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
@@ -375,8 +375,8 @@ collections:
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Text", name: "body", widget: "markdown", required: false}
       - name: "schuelerrat-geschaeftsordnung"
-        label: "Geschäftsordnung Schülerrat"
-        file: "content/german/schuelerrat/geschaeftsordnung.md"
+        label: "Geschäftsordnung der Schülervertretung"
+        file: "content/german/schuelervertretung/geschaeftsordnung.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
