@@ -10,7 +10,6 @@ backend:
   use_graphql: true
   graphql_api_root: https://gitlab.cantorgymnasium.de/api/graphql
 
-publish_mode: editorial_workflow
 media_folder: "static/media"
 public_folder: "/media"
 site_url: https://neu.cantorgymnasium.de
