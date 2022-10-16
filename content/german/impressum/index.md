@@ -27,7 +27,7 @@ Torstraße 13 <br>
 
 ### Webmaster:
 
-H﻿err Berger
+Herr Berger
 
 ### E-Mail:
 
