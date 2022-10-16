@@ -19,12 +19,12 @@ unsafe = true
 [params]
 mobile = "+49 345 6903156"
 author = "Georg-Cantor-Gymnasium Halle (Saale). Made with Educenter by Themefisher."
-description = "Das Georg-Cantor-Gymnasium - eine mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale)."
 logo = "media/logo.png"
 route_link = "https://maps.openrouteservice.org/directions?n1=51.473292&n2=11.965606&n3=18&a=null,null,51.473292,11.965606&b=0&c=0&k1=de&k2=km"
 address = "Georg-Cantor-Gymnasium <br> Torstraße 13 <br> 06110 Halle (Saale)"
 top_header = true
 email = "schulleitung@cantor-gymnasium.de"
+description = "Das Georg-Cantor-Gymnasium - eine mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale)."
 
 [params.plugins]
 
@@ -134,15 +134,15 @@ weight = 6
 
 [[menu.main]]
 parent = "Schule"
-name = "Schulchronik"
-URL = "schulchronik"
-weight = 7
-
-[[menu.main]]
-parent = "Schule"
 name = "Junior-Ingenieur-Akademie"
 URL = "jia"
 weight = 8
+
+[[menu.main]]
+parent = "Schule"
+name = "Schulchronik"
+URL = "schulchronik"
+weight = 7
 
 [[menu.main]]
 parent = "Schule"
@@ -200,13 +200,19 @@ weight = 2
 parent = "Für Schüler und Eltern"
 name = "Schulshop"
 URL = "https://schulkleidung.de/shop/index.php?nr=SDQUCKVD"
-weight = 4
+weight = 5
 
 [[menu.main]]
 parent = "Für Schüler und Eltern"
 name = "Schülervertretung"
 URL = "schuelervertretung"
 weight = 3
+
+[[menu.main]]
+name = "Elternvertretung"
+weight = 4
+URL = "elternvertretung"
+parent = "Für Schüler und Eltern"
 
 [[menu.main]]
 name = "Aktuelles"
