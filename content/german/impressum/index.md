@@ -27,8 +27,8 @@ Torstraße 13 <br>
 
 ### Webmaster:
 
-[Denys Konovalov](/author/denys-konovalov/)
+[Felix Jan Berger](/author/felix-berger/)
 
 ### E-Mail:
 
-[admin@cantorgymnasium.de](mailto:admin@cantorgymnasium.de)
+[admin@cantor-gymnasium.de](mailto:admin@cantor-gymnasium.de)

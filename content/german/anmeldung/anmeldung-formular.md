@@ -5,7 +5,7 @@ type: "anmeldung"
 ---
 
 Bis zum **15. Februar 2022** müssen:
- * eine [schriftliche Anmeldung](/forms/anmeldeformular/) oder eine Anmeldung über das [Online-Anmeldeformular](/anmeldung/formular)
+ * eine [schriftliche Anmeldung](/forms/anmeldeformular/) oder eine Anmeldung über das [Online-Anmeldeformular](/anmeldeformular)
  * eine Kopie des Halbjahreszeugnisses
  * die Schullaufbahnerklärung
 

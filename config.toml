@@ -18,7 +18,8 @@ unsafe = true
 
 [params]
 mobile = "+49 345 6903156"
-author = "CantorTechnik AG"
+author = "Georg-Cantor-Gymnasium Halle (Saale). Made with Educenter by Themefisher."
+description = "Das Georg-Cantor-Gymnasium - eine mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale)."
 logo = "media/logo.png"
 route_link = "https://maps.openrouteservice.org/directions?n1=51.473292&n2=11.965606&n3=18&a=null,null,51.473292,11.965606&b=0&c=0&k1=de&k2=km"
 address = "Georg-Cantor-Gymnasium <br> Torstraße 13 <br> 06110 Halle (Saale)"
@@ -82,11 +83,6 @@ link = "https://instagram.com/cantor.news"
 title = "Facebook"
 icon = "fa-brands fa-facebook"
 link = "https://facebook.com/gcg.cantor.news"
-
-[[params.social]]
-title = "GitLab"
-icon = "fa-brands fa-gitlab"
-link = "https://gitlab.cantorgymnasium.de/gcg/"
 
 [params.preloader]
 enable = true
@@ -242,5 +238,6 @@ languageCode = "de-de"
 contentDir = "content/german"
 weight = 2
 home = "Startseite"
-copyright = "Copyright &copy; 2022 Georg-Cantor-Gymnasium Halle (Saale)"
+copyright = "Copyright &copy; 2022 Georg-Cantor-Gymnasium Halle (Saale). Made with :heart: and <a href='https://gohugo.io'>Hugo</a>."
 impressumURL = "impressum"
+dseURL = "datenschutz"

@@ -2,10 +2,11 @@
 title: Schülervertretung
 draft: false
 bg_image: media/backgrounds/page-title.png
-type: pages
 description: Herzlich willkommen auf der Seite der Schülervertretung des
   Georg-Cantor-Gymnasiums. Hier finden Sie alle wichtigen Informationen zu
   unserer Arbeit.
+type: "pages"
+layout: "single.html"
 ---
 ## Wer sind wir?
 

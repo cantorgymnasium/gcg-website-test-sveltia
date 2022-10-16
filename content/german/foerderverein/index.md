@@ -3,6 +3,8 @@ title: Förderverein
 description:
 draft: false
 bg_image: media/backgrounds/page-title.png
+type: "pages"
+layout: "single.html"
 ---
 
 Der Förderverein des Georg-Cantor-Gymnasiums e.V. unterstützt die Schulleitung und die Lehrer seit nunmehr 20 Jahren in ihren Bemühungen um eine bestmögliche Ausbildung der SchülerInnen. Auch Anliegen der Schülerschaft werden gerne entgegengenommen und unterstützt. Wir wollen die SchülerInnen in ihrer Selbstentscheidung und ihre soziale Verantwortung fördern.

@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="section-title">{{ i18n "register_now" }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-7 mb-4 mb-lg-0">
+        <form action="https://php.cantorgymnasium.de/formtools/process.php" method="post" enctype="multipart/form-data">
+          <input type="hidden" name="form_tools_initialize_form" value="1" />
+          <input type="hidden" name="form_tools_form_id" value="4" />
+          <input type="text" class="form-control mb-3" id="surname" name="visitor_surname" placeholder="Name (Schüler/in)" required>
+          <input type="text" class="form-control mb-3" id="name" name="visitor_name" placeholder="Vorname" required>
+          <label for="birthday">Geburtsdatum</label>
+          <input type="date" class="form-control mb-3" id="birthday" name="visitor_birthday" min="2005-01-01" required>
+          <div class="row">
+            <input type="text" class="form-control mb-3 col-lg-8 ml-3 mr-4" id="street" name="street" placeholder="Straße" required><input type="text" class="form-control mb-3 col-lg-3" id="house" name="house" placeholder="Hausnummer" required>
+          </div>
+          <input type="text" class="form-control mb-3" id="adresszusatz" name="adresszusatz" placeholder="Adresszusatz">
+          <div class="row">
+            <input type="text" inputmode="numeric" class="form-control mb-3 col-lg-5 ml-3 mr-4" id="zipcode" name="zipcode" placeholder="PLZ" pattern="[0-9]{5}" title="Postleitzahlen bestehen aus exakt 5 Ziffern" required><input type="text" class="form-control mb-3 col-lg-6" id="city" name="city" placeholder="Stadt" required> 
+          </div>
+          <input type="text" class="form-control mb-3" id="landkreis" name="landkreis" placeholder="Landkreis">
+          <div class="row">
+            <input type="tel" class="form-control mb-3 col-lg-5 ml-3 mr-4" id="tpriv" name="tpriv" placeholder="Telefon privat"><input type="tel" class="form-control mb-3 col-lg-6" id="tdienstl" name="tdienstl" placeholder="Telefon dienstl.">
+          </div>
+          <input type="text" class="form-control mb-3" id="dpname" name="dpname" placeholder="Abweichender Elternname">
+          <input type="text" class="form-control mb-3" id="grundschule" name="grundschule" placeholder="Grundschule" required>
+          <input type="email" class="form-control mb-3" id="mail" name="visitor_email" placeholder="Ihre E-Mail Adresse" required>
+          <textarea name="visitor_message" id="message" class="form-control mb-3" placeholder="Bemerkungen"></textarea>
+          <label for="zeugnis-1">Zeugnis (Vorderseite)</label>
+          <input type="file" class="form-control mb-3" id="zeugnis-1" name="zeugnis-1" accept="image/*,.pdf">
+          <label for="zeugnis-2">Zeugnis (Rückseite)</label>
+          <input type="file" class="form-control mb-3" id="zeugnis-2" name="zeugnis-2" accept="image/*,.pdf">
+          <label for="slbe">Schullaufbahnerklärung</label>
+          <input type="file" class="form-control mb-3" id="slbe" name="slbe" accept="image/*,.pdf">
+          <input type="checkbox" id="accept" name="accept" required>
+          <label for="accept">Hiermit melden wir unser Kind verbindlich zur Aufnahmeprüfung an.</label>
+          <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
+        </form>
+      </div>
+      <div class="col-lg-5">
+        {{ .Content }}
+        <a href="mailto:{{ .Params.email }}" class="btn btn-primary">{{ .Params.email }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section pt-0 bg-gray">
+    <div class="container">
+      <div id="map">
+        <script src="/js/map.js"></script>
+      </div>
+    </div>
+</section>
+
+{{ end }}

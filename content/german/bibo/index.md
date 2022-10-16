@@ -3,6 +3,8 @@ title: Schulbibliothek
 draft: false
 bg_image: media/backgrounds/page-title.png
 description:
+type: "pages"
+layout: "single.html"
 ---
 
 Die Bibliothek unserer Schule wurde 1991 mit einem Bestand von 3570 Büchern gegründet. Hinzu
