@@ -27,7 +27,7 @@ Torstraße 13 <br>
 
 ### Webmaster:
 
-[Felix Jan Berger](/author/felix-berger/)
+H﻿err Berger
 
 ### E-Mail:
 
