@@ -5,8 +5,8 @@ bg_image: media/backgrounds/page-title.png
 description: Herzlich willkommen auf der Seite der Schülervertretung des
   Georg-Cantor-Gymnasiums. Hier finden Sie alle wichtigen Informationen zu
   unserer Arbeit.
-type: "pages"
-layout: "single.html"
+type: pages
+layout: single.html
 ---
 ## Wer sind wir?
 
@@ -76,7 +76,7 @@ Außerdem sind wir per <a href="mailto:schuelerrat@cantor-gymnasium.de"><i class
 
 Der Schülerrat unserer Schule verfügt über einen eigenen Instragram-,
 sowie einen Facebook- und Twitteraccount, auf welchen die neusten Dinge an
-unserer Schule zu sehen sind. Außerdem betreiben wir einen YouTube Kanal, um die
+unserer Schule zu sehen sind. Außerdem betreiben wir einen YouTube-Kanal, um die
 Schüler, Lehrer aber auch die Eltern über unsere aktuellen Projekte aufzuklären.
 
 
