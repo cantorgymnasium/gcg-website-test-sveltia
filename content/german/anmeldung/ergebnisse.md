@@ -1,7 +1,6 @@
 ---
-title: "Ergebnisse"
+title: Ergebnisse
 draft: false
-type: "anmeldung"
+type: anmeldung
 ---
-
-Bis zum April 2022 werden ihnen die Ergebnisse der Aufnahmeprüfung schriftlich mitgeteilt.
+Bis zum April 2023 werden ihnen die Ergebnisse der Aufnahmeprüfung schriftlich mitgeteilt.
