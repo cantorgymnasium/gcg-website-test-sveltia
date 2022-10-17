@@ -3,7 +3,7 @@ title: LEGO-Robotik
 date: 2022-10-15T16:32:26.371Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/image.png
+image: /media/ganztagsangebote/lego.jpg
 categories_ag:
   - Naturwissenschaften
   - Technik

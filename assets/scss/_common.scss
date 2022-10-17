@@ -426,3 +426,9 @@ details[open] summary {
     border-bottom: 1px solid #aaa;
     margin-bottom: .5em;
 }
+
+@media only screen and (min-width: 768px) {
+.termin-tc {
+  width: 25%;
+}
+}

@@ -5,7 +5,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/image.png
 categories_ag:
-  - Musisch-künstlerisch
+  - Musik
 duration: 45 Minuten
 weekly: Mittwoch, 7. / 8. Stunde
 class: alle Klassenstufen

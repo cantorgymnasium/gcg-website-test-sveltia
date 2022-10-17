@@ -3,12 +3,12 @@ title: Schülerzeitung
 date: 2022-10-15T17:01:15.900Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/image.png
+image: /media/ganztagsangebote/sz.jpg
 categories_ag:
   - Gesellschaft
 duration: nach Vereinbarung
 weekly: nach Vereinbarung
-class: alle
+class: alle Klassenstufen
 room: nach Vereinbarung
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote

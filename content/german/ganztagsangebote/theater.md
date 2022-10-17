@@ -1,16 +1,16 @@
 ---
-title: Schach
+title: Theater
 date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/schach.jpg
+image: /media/ganztagsangebote/theater.jpg
 categories_ag:
-  - Naturwissenschaften
-duration: nach Vereinbarung
-weekly: ab November
+  - Gesellschaft
+duration: 2. Stunden
+weekly: Dienstag/Freitag ab 7./8. Stunde
 class: alle Klassenstufen
-room: "104"
+room: Aula
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
 ---
-Analysieren, Beurteilen, kreativ Denken - Verbessere Deine Spielstärke im Schach!
+

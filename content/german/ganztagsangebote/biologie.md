@@ -4,7 +4,7 @@ date: 2022-10-15T16:18:37.563Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 description: ""
-image: /media/ganztagsangebote/image.png
+image: /media/ganztagsangebote/biologie.jpg
 categories_ag:
   - Naturwissenschaften
 duration: 1. Stunde (14-tägig)

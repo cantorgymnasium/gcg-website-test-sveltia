@@ -70,7 +70,7 @@ success_banner:
   enable: true
   image: media/home/success_banner.webp
   feature_item:
-    - name: Mathematikolympiade
+    - name: Mathematik-Olympiade
       content: |-
         In der Landesrunde der Mathematikolympiade 2022 wurden:
         * **2 von 8 ersten Preisen**

@@ -3,12 +3,12 @@ title: Pen & Paper / Würfel und Spiele Rollenspiel
 date: 2022-10-15T16:38:35.662Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/image.png
+image: /media/ganztagsangebote/pen-paper.png
 categories_ag:
   - Gesellschaft
 duration: nach Vereinbarung
 weekly: siehe Tabelle
-class: alle Klassenstufen (in Kleingruppen)
+class: alle Klassenstufen
 room: siehe Tabelle
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote

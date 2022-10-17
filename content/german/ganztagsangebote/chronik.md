@@ -4,7 +4,7 @@ date: 2022-10-15T16:47:06.973Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 description: "Zurück in die Zukunft: Unser GCG im Wandel der Zeit"
-image: /media/ganztagsangebote/image.png
+image: /media/ganztagsangebote/chronik.jpg
 categories_ag:
   - Gesellschaft
 duration: 2. Stunden
