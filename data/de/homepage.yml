@@ -117,10 +117,14 @@ success_banner:
       image: ""
 about:
   enable: true
-  title:  Herzlich willkommen auf der Homepage des Georg-Cantor-Gymnasiums!
+  title: Herzlich willkommen auf der Homepage des Georg-Cantor-Gymnasiums!
   image: media/pinguin.png
   content: >-
-    Wir sind eine Schule mit mathematisch-naturwissenschaftlich-technischem Schwerpunkt und möchten interessierte und begabte Schülerinnen und Schüler auf diesem Gebiet fördern. Das schulische Leben unseres Gymnasiums beschränkt sich aber nicht auf den MINT-Bereich. Informieren Sie sich über unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot.
+    Wir sind eine Schule mit mathematisch-naturwissenschaftlich-technischem
+    Schwerpunkt und möchten interessierte und begabte Schülerinnen und Schüler
+    auf diesem Gebiet fördern. Das schulische Leben unseres Gymnasiums
+    beschränkt sich aber nicht auf den MINT-Bereich. Informieren Sie sich über
+    unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot.
 
 
 
@@ -132,16 +136,7 @@ about:
   button:
     enable: true
     label: Digitale Führung durch das Schulhaus
-    link: https://vr.cantorgymnasium.de
-digitalpakt:
-  enable: true
-  title: DigitalPakt Schule
-  image: media/digitalpakt.png
-  content: >-
-    Für die Umsetzung des Förderprogramms DigitalPakt Schule (DigitalPakt-Richtlinie) gewährt das Land Sachsen-Anhalt für kommunale Schulen der Stadt Halle (Saale) Zuwendungen aus Bundesmitteln.
-    
-    
-    Dem Georg-Cantor-Gymnasium werden für die Umsetzung des Aufbaus oder Verbesserung der passiven und aktiven Infrastrukturkomponenten finanzielle Mittel durch die Bundesregierung zur Verfügung gestellt. Es handelt sich hierbei um eine Anteilsfinanzierung. Weitere benötigte finanzielle Mittel stellt die Stadt Halle (Saale) zur Verfügung.
+    link: https://vr.cantorgymnasium.de/tour/
 ganztagsangebote:
   enable: true
   title: Unsere Ganztagsangebote
@@ -166,6 +161,20 @@ info:
     und dem Gütesiegel \"Begabungsfördernde Schule\" vom Landesinstitut für
     Schulqualität und Lehrerbildung.
   video_link: https://www.youtube.com/watch?v=v2ovvOmv-xw
+blog:
+  enable: true
+  title: Aktuelle Beiträge
+digitalpakt:
+  enable: true
+  title: DigitalPakt Schule
+  image: media/digitalpakt.png
+  content: >-
+    Für die Umsetzung des Förderprogramms DigitalPakt Schule
+    (DigitalPakt-Richtlinie) gewährt das Land Sachsen-Anhalt für kommunale
+    Schulen der Stadt Halle (Saale) Zuwendungen aus Bundesmitteln.
+
+
+    Dem Georg-Cantor-Gymnasium werden für die Umsetzung des Aufbaus oder Verbesserung der passiven und aktiven Infrastrukturkomponenten finanzielle Mittel durch die Bundesregierung zur Verfügung gestellt. Es handelt sich hierbei um eine Anteilsfinanzierung. Weitere benötigte finanzielle Mittel stellt die Stadt Halle (Saale) zur Verfügung.
 termine:
   enable: true
   title: Diesjährige Termine
@@ -180,6 +189,3 @@ zahlen:
       count: 72
     - name: Pädagogische Mitarbeiter
       count: 2
-blog:
-  enable: true
-  title: Aktuelle Beiträge
