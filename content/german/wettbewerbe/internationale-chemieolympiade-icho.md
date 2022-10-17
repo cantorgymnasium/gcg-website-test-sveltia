@@ -4,7 +4,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/icho.png
 category: "Chemie "
-class: 9-12
+class: 9. - 12. Klasse
 web_url: https://www.scienceolympiaden.de/icho
 type: wettbewerbe
 ---

@@ -4,7 +4,7 @@ draft: false
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/dw.png
 category: Geographie
-class: 7-10
+class: 7. - 10. Klasse
 web_url: https://diercke.westermann.de/wissen
 type: wettbewerbe
 ---

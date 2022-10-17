@@ -4,7 +4,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/chds.png
 category: "Chemie "
-class: 8-10
+class: 8. - 10. Klasse
 web_url: https://www.chemie-die-stimmt.de/
 type: wettbewerbe
 ---

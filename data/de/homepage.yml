@@ -116,29 +116,32 @@ success_banner:
       img: false
       image: ""
 about:
-  enable: false
-  title: Website im Aufbau
+  enable: true
+  title:  Herzlich willkommen auf der Homepage des Georg-Cantor-Gymnasiums!
+  image: media/pinguin.png
   content: >-
-    * Hier entsteht eine neue Website für das Georg-Cantor-Gymnasium in Halle
-    (Saale).
+    Wir sind eine Schule mit mathematisch-naturwissenschaftlich-technischem Schwerpunkt und möchten interessierte und begabte Schülerinnen und Schüler auf diesem Gebiet fördern. Das schulische Leben unseres Gymnasiums beschränkt sich aber nicht auf den MINT-Bereich. Informieren Sie sich über unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot.
 
-    * Da die Website noch im Aufbau ist, fehlen noch einige Inhalte.
-
-    * Der Quellcode der Website ist [hier](https://gitlab.cantorgymnasium.de/cantortechnik/gcg-website) abrufbar.
-
-    * Dieser Bereich wird in der Zukunft einen Kurztext über die Schule enthalten.
-
-    * Weitere Informationen gibt es im [passenden Blogbeitrag](/blog/new-site/)
 
 
     ## Tag der offenen Tür
 
+    Am 19. November 2022 laden wir Sie herzlich zu unserem Tag der offenen Tür ein.
 
     Wer nicht bis zum Tag der offenen Tür warten möchte, dem bieten wir eine digitale Führung durch das Schulhaus an, um sich bereits virtuell im Schulhaus umzuschauen.
   button:
     enable: true
     label: Digitale Führung durch das Schulhaus
     link: https://vr.cantorgymnasium.de
+digitalpakt:
+  enable: true
+  title: DigitalPakt Schule
+  image: media/digitalpakt.png
+  content: >-
+    Für die Umsetzung des Förderprogramms DigitalPakt Schule (DigitalPakt-Richtlinie) gewährt das Land Sachsen-Anhalt für kommunale Schulen der Stadt Halle (Saale) Zuwendungen aus Bundesmitteln.
+    
+    
+    Dem Georg-Cantor-Gymnasium werden für die Umsetzung des Aufbaus oder Verbesserung der passiven und aktiven Infrastrukturkomponenten finanzielle Mittel durch die Bundesregierung zur Verfügung gestellt. Es handelt sich hierbei um eine Anteilsfinanzierung. Weitere benötigte finanzielle Mittel stellt die Stadt Halle (Saale) zur Verfügung.
 ganztagsangebote:
   enable: true
   title: Unsere Ganztagsangebote

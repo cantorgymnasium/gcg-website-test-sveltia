@@ -4,7 +4,7 @@ draft: false
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/big-challenge.jpg
 category: Fremdsprachen
-class: 5-9
+class: 5. - 9. Klasse
 web_url: https://www.thebigchallenge.com/de/
 type: wettbewerbe
 ---

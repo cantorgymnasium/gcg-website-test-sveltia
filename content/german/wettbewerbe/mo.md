@@ -5,7 +5,7 @@ bg_image: media/bild_titelbild.jpg
 description: ""
 image: media/contests/mo.png
 category: Mathematik
-class: 5 - 12 Klasse
+class: 5. - 12. Klasse
 web_url: https://mo.elemente.org/
 type: wettbewerbe
 ---

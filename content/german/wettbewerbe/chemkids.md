@@ -4,7 +4,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/chemkids.png
 category: Chemie
-class: 4-8
+class: 5. - 8. Klasse
 web_url: https://www.chemkids.de/
 type: wettbewerbe
 ---

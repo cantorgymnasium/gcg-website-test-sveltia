@@ -4,7 +4,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/JuFo.png
 category: MINT
-class: 5-12
+class: 5. - 12. Klasse
 web_url: https://www.jugend-forscht.de/
 type: wettbewerbe
 ---

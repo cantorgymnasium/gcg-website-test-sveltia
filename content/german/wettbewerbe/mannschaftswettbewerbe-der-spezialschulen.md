@@ -4,7 +4,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/image.png
 category: MINT
-class: 9-11
+class: 9. - 11. Klasse
 web_url: https://neu.cantorgymnasium.de/
 type: wettbewerbe
 ---
