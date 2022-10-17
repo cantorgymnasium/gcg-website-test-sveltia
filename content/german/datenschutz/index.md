@@ -6,9 +6,6 @@ type: pages
 layout: single.html
 ---
 
-Datenschutzerklärung
-====================
-
 Stand: 17. Oktober 2022
 
 Verantwortlicher
