@@ -230,7 +230,7 @@
 			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl|svg)" }}<!-- is the current file an image? -->
 			{{- if $isimg }}
 				{{- $linkURL := print "/media/logos" "/" .Name | absURL }}<!-- relative URL -->
-        <div class="col-md-2 order-1 order-md-2 mb-4">
+        <div class="col-md-2 col-6 order-1 order-md-2 mb-4">
           <img class="img-fluid w-100" src="{{ $linkURL }}" alt="about image">
         </div>
 			{{- end }}
