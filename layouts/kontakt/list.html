@@ -29,10 +29,8 @@ crossorigin=""/>
           <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
         </form>
       </div>
-      <div class="col-lg-5">
+      <div class="col-lg-5 content">
         {{ .Content }}
-        <a href="tel:{{ .Site.Params.mobile }}" class="mb-5 btn btn-primary">{{ .Site.Params.mobile }}</a>
-        <a href="mailto:{{ .Site.Params.email }}" class="btn btn-primary">{{ .Site.Params.email }}</a>
       </div>
     </div>
   </div>
