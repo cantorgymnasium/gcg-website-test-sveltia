@@ -12,8 +12,8 @@ backend:
 
 media_folder: "static/media"
 public_folder: "/media"
-site_url: https://neu.cantorgymnasium.de
-display_url: https://neu.cantorgymnasium.de
+site_url: https://cantorgymnasium.de
+display_url: https://cantorgymnasium.de
 logo_url: /media/logo_y.svg
 locale: "de"
 
