@@ -3,7 +3,7 @@ title: Keramik
 date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/image.png
+image: /media/ganztagsangebote/keramik.jpg
 categories_ag:
   - Kunst
 duration: 2. Stunden
