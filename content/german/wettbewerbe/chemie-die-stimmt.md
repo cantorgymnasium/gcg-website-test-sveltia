@@ -18,7 +18,7 @@ type: wettbewerbe
   Runde 2: Die 30 Besten jeder Jahrgangsstufe unseres Bundeslandes werden nach
    Schulpforte eingeladen → 3-stündige Klausur; Schulführung und tolle Preise als
    Belohnung für die Gewinner
-  Runde 3: Ländervergleich zwischen Sachsen, Sachsen-Anhalt und Thüringen an der
+  Runde 3: Bundesweiter Ländervergleich an der
    Hochschule Merseburg: vier spannende Tage, ausgefüllt mit Praktika,
    Exkursionen, einer Klausur und Fachvorträgen, umrahmt von Kinobesuchen,
    Bowling u.ä.
