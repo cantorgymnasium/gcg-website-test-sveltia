@@ -2,7 +2,7 @@
 title: CantorTechnik AG
 bg_image: /media/slide1.jpg
 description: ""
-email: technik@cantorgymnasium.de
+email: technik@cantor-gymnasium.de
 image: /media/people/meincantor-round.png
 social:
   - title: YouTube
@@ -13,7 +13,7 @@ social:
     link: https://gitlab.cantorgymnasium.de/cantortechnik/
   - title: E-Mail
     icon: fa-solid fa-at
-    link: mailto:denys.konovalov@pm.me
+    link: mailto:technik@cantor-gymnasium.de
 ---
 Wir sind eine AG am Georg-Cantor-Gymnasium, welche sich mit allen Themen rund um die digitale Welt am Georg-Cantor-Gymnasium beschäftigt. Des Weiteren betreiben wir die Schulwebsite des GCG.
 

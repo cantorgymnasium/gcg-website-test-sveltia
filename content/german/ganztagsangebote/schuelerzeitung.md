@@ -17,4 +17,4 @@ In dieser AG können Schüler und Schülerinnen eigene Texte verfassen und ihrem
 
 **Kontakt:**
 
-Anmeldung über [schuelerzeitung@cantor-gymnasium.de](mailto:schuelerzeitung@cantor-gymnasium.de) mit Name, Klasse und Handynummer
+Anmeldung über [schuelerzeitung<i class="fa-solid fa-at"></i>cantor-gymnasium.de](mailto:schuelerzeitung@cantor-gymnasium.de) mit Name, Klasse und Handynummer

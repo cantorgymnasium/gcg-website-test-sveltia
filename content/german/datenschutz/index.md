@@ -21,7 +21,7 @@ Schulleiter Dr. Bernd Gorsler
 
 E-Mail-Adresse:
 
-schulleitung@cantor-gymnasium.de
+schulleitung<i class="fa-solid fa-at"></i>cantor-gymnasium.de
 
 Telefon:
 

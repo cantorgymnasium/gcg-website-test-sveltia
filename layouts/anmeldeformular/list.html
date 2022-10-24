@@ -38,7 +38,7 @@
       </div>
       <div class="col-lg-5">
         {{ .Content }}
-        <a href="mailto:{{ .Params.email }}" class="btn btn-primary">{{ .Params.email }}</a>
+        <a href="mailto:{{ .Params.email }}" class="btn btn-primary">{{ .Params.email_preatty | safeHTML }}</a>
       </div>
     </div>
   </div>

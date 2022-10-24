@@ -11,4 +11,4 @@ Bis **Februar 2023** müssen:
 
 am Georg-Cantor-Gymnasium [eingereicht](/kontakt) werden.
 
-Gern können Sie uns die Unterlagen per Mail an [aufnahme@cantor-gymnasium.de](mailto:aufnahme@cantor-gymnasium.de) zusenden. Die Einladung zur Aufnahmeprüfung mit allen nötigen Informationen erhalten Sie dann ebenfalls per Mail.
+Gern können Sie uns die Unterlagen per Mail an [aufnahme<i class="fa-solid fa-at"></i>cantor-gymnasium.de](mailto:aufnahme@cantor-gymnasium.de) zusenden. Die Einladung zur Aufnahmeprüfung mit allen nötigen Informationen erhalten Sie dann ebenfalls per Mail.

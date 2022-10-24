@@ -31,4 +31,4 @@ Herr Berger
 
 ### E-Mail:
 
-[admin@cantor-gymnasium.de](mailto:admin@cantor-gymnasium.de)
+[admin<i class="fa-solid fa-at"></i>cantor-gymnasium.de](mailto:admin@cantor-gymnasium.de)
