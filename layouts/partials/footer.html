@@ -66,13 +66,6 @@
 
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
-<noscript>
-  <style>
-    .preloader {
-      opacity: 0;
-    }
-  </style>
-</noscript>
 
 {{ if ($.Scratch.Get "photoswipeloaded") }}
 <script src="/js/load-photoswipe.js"></script>
