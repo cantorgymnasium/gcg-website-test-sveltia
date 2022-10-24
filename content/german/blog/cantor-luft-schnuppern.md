@@ -9,9 +9,9 @@ author: Schulleitung
 categories:
   - Ereignisse
 tags:
-  - "#cantorluftschnuppern"
-  - "#cantorentdecken"
-  - "#tdot"
+  - "cantorluftschnuppern"
+  - "cantorentdecken"
+  - "tdot"
 type: post
 ---
 Am Sonnabend, dem **19. November 2022**, findet in der Zeit von **09:00 Uhr bis 12:00 Uhr** der Tag der offenen Tür am Georg-Cantor-Gymnasium Halle, Torstraße 13, statt.
