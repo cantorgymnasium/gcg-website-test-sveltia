@@ -9,7 +9,7 @@ author: Frau Schapitz
 categories:
   - Website
 tags:
-  - "#renewGCG"
+  - "renewGCG"
 type: post
 ---
 Liebe Besucher,
