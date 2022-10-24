@@ -180,7 +180,7 @@ weight = 2
 
 [[menu.main]]
 parent = "Digitale Angebote"
-name = "Digitale Führung durch das Schulhaus"
+name = "Virtueller Rundgang"
 URL = "https://vr.cantorgymnasium.de/tour/"
 weight = 3
 

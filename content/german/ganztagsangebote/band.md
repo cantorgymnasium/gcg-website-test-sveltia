@@ -7,7 +7,7 @@ image: /media/ganztagsangebote/band.jpg
 categories_ag:
   - Musik
 duration: flexibel
-weekly: nach Vereinbarung
+weekly: Mittwoch, 9. Stunde
 class: alle Klassenstufen
 room: 212
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

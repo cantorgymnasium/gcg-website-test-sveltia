@@ -3,11 +3,11 @@ title: Chor
 date: 2022-04-01T13:28:14.429Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/image.png
+image: /media/ganztagsangebote/chor.png
 categories_ag:
   - Musik
 duration: 45 Minuten
-weekly: Mittwoch, 7. / 8. Stunde
+weekly: Mittwoch, 8. / 9. Stunde
 class: alle Klassenstufen
 room: Aula
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
