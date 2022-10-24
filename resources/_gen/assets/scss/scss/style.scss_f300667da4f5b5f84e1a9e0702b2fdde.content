@@ -114,7 +114,7 @@ h6, .h6 {
     background: #ffab08;
     color: #ffbc3b; }
 
-.btn-primary.active:not(:disabled):not(.disabled),
+.btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
@@ -465,6 +465,10 @@ details[open] {
 details[open] summary {
   border-bottom: 1px solid #aaa;
   margin-bottom: .5em; }
+
+@media only screen and (min-width: 768px) {
+  .termin-tc {
+    width: 25%; } }
 
 .top-header {
   font-size: 12px;

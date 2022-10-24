@@ -12,7 +12,7 @@
         <div class="row">
           <div class="col-md-8">
             <h1 class="text-white">{{ $data.homepage.slider.title | markdownify }}</h1>
-            <p class="text-muted mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</p>
+            <p class="text-muted mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in="0">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
             <a href="{{ .button.link | absLangURL }}" class="btn btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
             {{ end }}
@@ -53,12 +53,29 @@
 </noscript>
 {{ end }}
 
+<section class="bg-white">
+  <div class="container">
+    <div class="row align-items-center">
+		{{- $files := readDir "/static/media/logos/start" }}
+		{{- range $files -}}
+			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl|svg)" }}<!-- is the current file an image? -->
+			{{- if $isimg }}
+				{{- $linkURL := print "/media/logos/start" "/" .Name | absURL }}<!-- relative URL -->
+        <div class="col-md-3 col-4 order-1 order-md-2 mt-4">
+          <img class="img-fluid w-100" src="{{ $linkURL }}" alt="about image">
+        </div>
+			{{- end }}
+		{{- end }}
+    </div>
+  </div>
+</section>
+
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
 <section class="section">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1">
+      <div class="col-md-9 order-2 order-md-1">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <div class="content">
           {{ .content | markdownify }}
@@ -70,7 +87,7 @@
         {{ end }}
       </div>
       {{ with .image }}
-      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+      <div class="col-md-3 order-1 order-md-2 mb-4 mb-md-0">
         <img class="img-fluid w-100" src="{{ . | absURL }}" alt="about image">
       </div>
       {{ end }}
@@ -182,7 +199,7 @@
 
       {{ range first 3 .Params.events }}
       <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
-        <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0" style="min-width: 25%;"><span class="h2 d-block">{{ time.Format "2" .date}}</span> {{ time.Format "Jan, 2006" .date}}</div>
+        <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-4 termin-tc"><span class="h2 d-block">{{ time.Format "2" .date}}</span> <span class="d-block">{{ time.Format "Jan 2006" .date}}</span> {{ with .enddate }} <br> bis {{ time.Format "2 Jan 2006" . }} {{end}}</div>
         <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0 p-2">
           <p href="{{ .Permalink }}" class="h4 mb-3 d-block">{{ .title }}</p>
           <p class="mb-0">{{ .summary | truncate 100 }}</p>
@@ -221,5 +238,49 @@
   </div>
 </section>
 {{ end }}
+
+{{ if $data.homepage.digitalpakt.enable }}
+{{ with $data.homepage.digitalpakt }}
+<section class="section bg-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-7 order-2 order-md-1">
+        <h3 class="section-title text-white font-secondary">{{ .title | markdownify }}</h2>
+        <div class="content ">
+          {{ .content | markdownify }}
+        </div>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ with .image }}
+      <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
+        <img class="img-fluid w-100" src="{{ . | absURL }}" alt="about image">
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<section class="bg-footer">
+  <div class="container">
+    <div class="row align-items-center">
+		{{- $files := readDir "/static/media/logos" }}
+		{{- range $files -}}
+			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl|svg)" }}<!-- is the current file an image? -->
+			{{- if $isimg }}
+				{{- $linkURL := print "/media/logos" "/" .Name | absURL }}<!-- relative URL -->
+        <div class="col-md-2 col-4 order-1 order-md-2 mb-4">
+          <img class="img-fluid w-100" src="{{ $linkURL }}" alt="about image">
+        </div>
+			{{- end }}
+		{{- end }}
+    </div>
+  </div>
+</section>
 
 {{ end }}

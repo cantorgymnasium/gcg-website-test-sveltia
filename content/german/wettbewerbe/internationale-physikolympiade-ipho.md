@@ -4,7 +4,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/IPhO.png
 category: Physik
-class: 10-12
+class: 10. - 12. Klasse
 web_url: https://www.scienceolympiaden.de/ipho
 type: wettbewerbe
 ---

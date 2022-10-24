@@ -7,6 +7,10 @@ bg_image: "media/backgrounds/page-title.png"
 type: "pages"
 layout: "single.html"
 ---
+
+{{< load-photoswipe >}}
+
+
 Chronisten sind immer verstaubte, alte Herren mit langen weißen Bärten, die sich noch immer auf Latein unterhalten und in dieser Sprache mit langen, weißen Federkielen eine lange Chronik im Stil des Mittelalters verfassen.
 
 Falsch! Wir sind das beste Gegenbeispiel! Wir sind eine bunte, lustige Truppe, die momentan aus 10 Leuten besteht. Gut, wir sind, von 2 Chronisten abgesehen, zwar auch Lateiner, aber mehr Parallelen gibt es nicht. Unsere Anführerin ist die glorreiche Frau Schmidt, die bereits mehrfach Odysseen unter der brennenden Sonne Italiens führte. Anfangs – Was heißt anfangs? Anno domini 2011, als diese Chronik der Chronik begonnen wurde – bestand ihr Gefolge aus Maria Tannert, Maximilian Appel, Dorothee Henke, Robin Karthäuser, Philine Krause, Tom Gebhardt, Paula Hähndel, Sophie Prokoph und Nikolas Weigt. Wir alle sind Cantorianer, womit das Klischee der alte Herren widerlegt ist. Lange weiße Bärte haben wir selbstverständlich auch nicht.
@@ -25,7 +29,9 @@ Danach arbeiteten wir mit vereinten Kräften und mit unseren drei Neuzugängen a
 
 In der Projektwoche 2012 hieß dann aber wieder: „Rangeklozt und nicht gezittert!“. Wenn´s vorher noch nicht losging, dann aber jetzt. Mit mehreren, für diese wichtige Woche dazugekommenen, Neu-Chronisten wurde richtig Gas gegeben. Bereits zuvor hatten wir Florian Hennig als Herr der Videos in unsere Reihen aufgenommen und am Ende dieser Woche konnten wir noch Lenz-Hank Weise als ein weiteres Mitglied in der Chronisten-Riege willkommen heißen. Nachdem wir ja den Plan aus dem vorigen Jahr hatten, wurden nun Jahresartikel geschrieben, verbessert, weggeschmissen und neugeschrieben. Es wurden Bilder im Schweiße des Angesichts mit dem Laptop „gegimpt“, geschnipselt, geklebt, getönt und retuschiert. Max kam als unser Internet-Gott mit aller Hilfe manchmal kaum hinterher und irgendwie verschwanden dann am Ende noch Artikel aus der Website. Die Seite wurde von Max´ Homepage auf die der Schule übertragen und am Ende warteten wir nicht mehr, wie im Jahr davor, auf den Abschluss der Formatierung des Göttlichen Sticks sondern sagten uns: „Noch nicht fertig, aber schon richtig gut“.
 
-![Chronisten](/media/schulchronik/chronistenfoto.png)
+{{< gallery >}}
+  {{< figure src="/media/schulchronik/chronistenfoto.png" >}}
+{{< /gallery >}}
 
 Der Sommer 2013 jedoch war ein Sommer des Abschiedes. Nicht nur mussten sich viele Teile der Stadt von ihrem liebgewonnenen schlammigen Saalewasser trennen, auch wir mussten einen großen Teil der Chronisten aus ihren Diensten verabschieden - Mit dem Unterschied, dass wir uns nicht gefreut haben. Max, Dorothee, Robin, Maria und Florian blieben uns nur noch für eine wertvolle Projektwoche erhalten und verließen darauf die Torstraße 13 mit ihren Abi-Zeugnissen in der Hand. Doch es gab in dieser Woche der weiteren Website-Vervollständigung und Absolvententreffen-Vorbereitung auch eine Erweiterung der Chronistentruppe. Nachdem sie erfolgreich Absolventen durch das Schulhaus geführt, Stifte verkauft und das Absolvententreffen mitgestaltet hatten, nahmen wir Janosch Hilpert, Karl Haase, Alexandra Schrader, Lennart Schilg und Robert Schumann als Nachwuchschronisten in unserem Gefolge auf. Fortan bildeten wir unsere Big New Five in all unsere Künsten des Chronistentums aus. Sei es gimpen, seien es Erfolge eintragen oder einfach nur Updates überwachen.
 

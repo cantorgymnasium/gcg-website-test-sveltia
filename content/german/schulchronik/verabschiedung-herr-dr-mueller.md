@@ -9,6 +9,9 @@ type: "pages"
 layout: "single.html"
 ---
 
+{{< load-photoswipe >}}
+
+
 ### Programm
 
 #### Festveranstaltung

@@ -10,11 +10,10 @@ backend:
   use_graphql: true
   graphql_api_root: https://gitlab.cantorgymnasium.de/api/graphql
 
-publish_mode: editorial_workflow
 media_folder: "static/media"
 public_folder: "/media"
-site_url: https://neu.cantorgymnasium.de
-display_url: https://neu.cantorgymnasium.de
+site_url: https://cantorgymnasium.de
+display_url: https://cantorgymnasium.de
 logo_url: /media/logo_y.svg
 locale: "de"
 
@@ -226,9 +225,9 @@ collections:
                 fields:
                   - {label: "Titel", name: "name", widget: "string"}
                   - {label: "Position", name: "weight", widget: "number"}
-                  - {label: "Untermenüs", name: "hasChildren", widget: "boolean"}
-                  - {label: "Link", name: "URL", widget: "string"}
-                  - {label: "Untermenü von", name: "parent", widget: "relation", collection: "config", file: "hugo-config", search_fields: ['menu.main.*.name'], display_fields: ['menu.main.*.name'], value_field: "menu.main.*.name"}
+                  - {label: "Untermenüs", name: "hasChildren", widget: "boolean", required: false}
+                  - {label: "Link", name: "URL", widget: "string", required: false}
+                  - {label: "Untermenü von", name: "parent", widget: "relation", collection: "config", file: "hugo-config", search_fields: ['menu.main.*.name'], display_fields: ['menu.main.*.name'], value_field: "menu.main.*.name", required: false}
               - label: "unteres Menü"
                 name: "footer"
                 widget: "list"
@@ -251,6 +250,7 @@ collections:
                   - {label: "Startseitenbezeichnung", name: "home", widget: "string"}
                   - {label: "Copyright-Hinweis", name: "copyright", widget: "string"}
                   - {label: "Impressum-Link", name: "impressumURL", widget: "string"}
+                  - {label: "Datenschutz-Link", name: "dseURL", widget: "string"}
 
 
 
@@ -318,11 +318,11 @@ collections:
             widget: "list"
             fields:
               - {label: "Titel", name: "title", widget: "string", required: true}
-              - {label: "Datum", name: "date", widget: "datetime",  required: true, date_format: "DD.MM.YYYY", time_format: "HH:mm"}
+              - {label: "Datum/Startdatum", name: "date", widget: "datetime",  required: true, date_format: "DD.MM.YYYY", time_format: "HH:mm"}
+              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "DD.MM.YYYY", time_format: "HH:mm", default: ""}
               - {label: "Ort", name: "location", widget: "string", required: true}
               - {label: "Beschreibung", name: "summary", widget: "string", required: false}
             required: false
-
       - name: "forms-index"
         label: "Formulare und Vorlagen"
         file: "content/german/forms/_index.md"
@@ -349,6 +349,16 @@ collections:
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
           - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
           - {label: "Text", name: "body", widget: "markdown"}
+      - name: "datenschutz"
+        label: "Datenschutz"
+        file: "content/german/datenschutz/index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Type", name: "type", widget: "hidden", default: "pages"}
+          - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
+          - {label: "Text", name: "body", widget: "markdown"}
       - name: "wettbewerbe-index"
         label: "Wettbewerbe"
         file: "content/german/wettbewerbe/_index.md"
@@ -365,32 +375,38 @@ collections:
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - name: "schuelerrat-index"
-        label: "Schülerrat"
-        file: "content/german/schuelerrat/_index.md"
+      - name: "schuelervertretung-index"
+        label: "Schülervertretung"
+        file: "content/german/schuelervertretung/index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Type", name: "type", widget: "hidden", default: "pages"}
+          - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
           - {label: "Text", name: "body", widget: "markdown", required: false}
       - name: "schuelerrat-geschaeftsordnung"
-        label: "Geschäftsordnung Schülerrat"
-        file: "content/german/schuelerrat/geschaeftsordnung.md"
+        label: "Geschäftsordnung der Schülervertretung"
+        file: "content/german/schuelervertretung/geschaeftsordnung.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Type", name: "type", widget: "hidden", default: "pages"}
+          - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
           - {label: "Text", name: "body", widget: "markdown", required: false}
       - name: "bibo"
         label: "Schulbibliothek"
-        file: "content/german/bibo/_index.md"
+        file: "content/german/bibo/index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Type", name: "type", widget: "hidden", default: "pages"}
+          - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
           - {label: "Text", name: "body", widget: "markdown", required: false}
       - name: "abiturienten"
         label: "Abiturienten"
@@ -409,6 +425,28 @@ collections:
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Text", name: "body", widget: "markdown", required: false}
+      - name: "elternvertretung-index"
+        label: "Elternvertretung"
+        file: "content/german/elternvertretung/index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Type", name: "type", widget: "hidden", default: "pages"}
+          - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
+          - {label: "Text", name: "body", widget: "markdown", required: false}
+      - name: "jia-index"
+        label: "Junior-Ingenieur-Akademie"
+        file: "content/german/schuelervertretung/index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - {label: "Type", name: "type", widget: "hidden", default: "pages"}
+          - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
           - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "author-de" # Used in routes, e.g., /admin/collections/blog
     label: "Autor*innen" # Used in the UI
@@ -562,7 +600,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/ganztagsangebote/image.png", required: false}
       - label: "Themenbereiche"
         name: "categories_ag"
         widget: "list"

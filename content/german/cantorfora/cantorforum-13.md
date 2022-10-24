@@ -9,6 +9,8 @@ image: "media/cantorfora/cantorforum_e13.png"
 description: "Maximilian Appel: Ozeanien"
 ---
 
+{{< load-photoswipe >}}
+
 Nicht allzu lang ist es her, dass Leandro Gamboa und seine Eindrücke aus einem Jahr „Work and Travel“ in Australien schilderte – nun konnten wir erneut einen Australienreisenden Alumnus zu einem Cantorforum begrüßen.
 
 10,5 Monate Ozeanien: Das ist das Abenteuer von Max Appel nach seinem Abitur 2013. Damals flog er als vom deutschen Sonnenschein leicht gebräunter Abiturient nach Down Under, aber im Mai 2014 kehrte er fast als echter Australier wieder: australisches Englisch, gut gelaunt und dunkelbraun. Heute ließ er uns an seinen Eindrücken und Erfahrungen auf seiner Reise teilhaben.

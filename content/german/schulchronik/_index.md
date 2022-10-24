@@ -26,8 +26,8 @@ aus 'David Hilbert, Über das Unendliche', Math. Ann. 95</p><br>
 
 <div class="row">
     {{< card-small link="/abiturienten" title="Abiturienten">}}
-    {{< card-small link="/statistiken/abiturdurchschnitte" title="Abiturdurchschnitte">}}
-    {{< card-small link="/statistiken/schülerzahlen" title="Schülerzahlen">}}
+    {{< card-small link="/schulchronik/abiturdurchschnitte" title="Abiturdurchschnitte">}}
+    {{< card-small link="/schulchronik/schülerzahlen" title="Schülerzahlen">}}
     {{< card-small link="/schulchronik/cantor/" title="Über Georg Cantor" >}}
     {{< card-small link="/schulchronik/ueber-das-gcg" title="Über das GCG" >}}
     {{< card-small link="/schulchronik/alumninetzwerk" title="Alumninetzwerk" >}}

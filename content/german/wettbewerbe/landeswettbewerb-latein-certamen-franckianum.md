@@ -4,7 +4,7 @@ draft: false
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/latein-wettbewerb.png
 category: Fremdsprachen
-class: 7-12
+class: 7. - 12. Klasse
 web_url: https://www.latina-halle.de/certamen-franckianum/
 type: wettbewerbe
 ---

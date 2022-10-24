@@ -4,7 +4,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/PhO.png
 category: Physik
-class: 8-10
+class: 8. - 10. Klasse
 web_url: https://pho.elemente.org/
 type: wettbewerbe
 ---

@@ -1,217 +1,69 @@
-######################## default configuration ####################
-baseURL = "https://neu.cantorgymnasium.de/"
+baseURL = "https://cantorgymnasium.de/"
 title = "Georg-Cantor-Gymnasium"
 paginate = "6"
 summaryLength = "10"
 defaultContentLanguageInSubdir = false
 defaultContentLanguage = "de"
-
 enableEmoji = true
 enableRobotsTxt = true
-
-timeZone="Europe/Berlin"
+timeZone = "Europe/Berlin"
 
 [markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+defaultMarkdownHandler = "goldmark"
 
+[markup.goldmark]
 
-############################# Plugins ##############################
+[markup.goldmark.renderer]
+unsafe = true
 
-# CSS Plugins
+[params]
+mobile = "+49 345 6903156"
+author = "Georg-Cantor-Gymnasium Halle (Saale). Made with Educenter by Themefisher."
+logo = "media/logo.png"
+route_link = "https://maps.openrouteservice.org/directions?n1=51.473292&n2=11.965606&n3=18&a=null,null,51.473292,11.965606&b=0&c=0&k1=de&k2=km"
+address = "Georg-Cantor-Gymnasium <br> Torstraße 13 <br> 06110 Halle (Saale)"
+top_header = true
+email = "schulleitung@cantor-gymnasium.de"
+description = "Das Georg-Cantor-Gymnasium - eine mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale)."
+
+[params.plugins]
+
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
+
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
+
 [[params.plugins.css]]
 link = "plugins/animate/animate.css"
+
 [[params.plugins.css]]
 link = "plugins/venobox/venobox.css"
+
 [[params.plugins.css]]
 link = "plugins/fontawesome/css/all.css"
+
 [[params.plugins.css]]
 link = "plugins/fira/fira.css"
 
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
+
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
+
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
+
 [[params.plugins.js]]
 link = "plugins/shuffle/shuffle.min.js"
+
 [[params.plugins.js]]
 link = "plugins/venobox/venobox.min.js"
+
 [[params.plugins.js]]
 link = "plugins/filterizr/jquery.filterizr.min.js"
 
-
-############################## navigation ###############################
-
-# main menu
-[[menu.main]]
-name = "Schule"
-weight = 1
-hasChildren = true
-
-  [[menu.main]]
-  parent = "Schule"
-  name = "Über die Schule"
-  URL = "about"
-  weight = 1
-
-  [[menu.main]]
-  parent = "Schule"
-  name = "Ganztagsangebote"
-  URL = "ganztagsangebote"
-  weight = 2
-
-  [[menu.main]]
-  parent = "Schule"
-  name = "Termine"
-  URL = "termine"
-  weight = 3
-
-  [[menu.main]]
-  parent = "Schule"
-  name = "Wettbewerbe"
-  URL = "wettbewerbe"
-  weight = 4
-
-  [[menu.main]]
-  parent = "Schule"
-  name = "CantorPreis"
-  URL = "cantorpreis"
-  weight = 5
-
-  [[menu.main]]
-  parent = "Schule"
-  name = "Anmeldung"
-  URL = "anmeldung"
-  weight = 6
-
-  [[menu.main]]
-  parent = "Schule"
-  name = "Schulchronik"
-  URL = "schulchronik"
-  weight = 7
-
-  [[menu.main]]
-  parent = "Schule"
-  name = "Junior-Ingenieur-Akademie"
-  URL = "jia"
-  weight = 8
-
-  [[menu.main]]
-  parent = "Schule"
-  name = "Schulbibliothek"
-  URL = "bibo"
-  weight = 9
-
-  [[menu.main]]
-  parent = "Schule"
-  name = "Begabtenförderung"
-  URL = "begabtenfoerderung"
-  weight = 10
-
-[[menu.main]]
-weight = 2
-name = "Digitale Angebote"
-hasChildren = true
-
-  [[menu.main]]
-  parent = "Digitale Angebote"
-  name = "GCG.MeinCantor - Die Schul-App"
-  URL = "meincantor"
-  weight = 1
-
-  [[menu.main]]
-  parent = "Digitale Angebote"
-  name = "Lernplattform Moodle"
-  URL = "https://moodle.bildung-lsa.de/gcg"
-  weight = 2
-
-  [[menu.main]]
-  parent = "Digitale Angebote"
-  name = "Digitale führung durch das Schulhaus"
-  URL = "https://vr.cantorgymnasium.de"
-  weight = 3
-
-[[menu.main]]
-name = "Für Schüler und Eltern"
-weight = 3
-hasChildren = true
-
-  [[menu.main]]
-  parent = "Für Schüler und Eltern"
-  name = "Formulare und Vorlagen"
-  URL = "forms"
-  weight = 1
-
-  [[menu.main]]
-  parent = "Für Schüler und Eltern"
-  name = "Förderverein"
-  URL = "foerderverein"
-  weight = 2
-
-  [[menu.main]]
-  parent = "Für Schüler und Eltern"
-  name = "Schulshop"
-  URL = "https://schulkleidung.de/shop/index.php?nr=SDQUCKVD"
-  weight = 4
-
-  [[menu.main]]
-  parent = "Für Schüler und Eltern"
-  name = "Schülerrat"
-  URL = "schuelerrat"
-  weight = 3
-
-[[menu.main]]
-name = "Aktuelles"
-URL = "blog"
-weight = 4
-
-[[menu.main]]
-name = "Kontakt"
-URL = "kontakt"
-weight = 5
-
-# footer menu
-
-[[menu.footer]]
-
-[[menu.footer]]
-name = "Termine"
-URL = "termine"
-
-[[menu.footer]]
-name = "Anmeldung"
-URL = "anmeldung"
-
-[[menu.footer]]
-name = "Formulare und Vorlagen"
-URL = "forms"
-
-
-#################### default parameters ################################
-[params]
-logo = "media/logo.png"
-author = "CantorTechnik AG"
-address = "Georg-Cantor-Gymnasium <br> Torstraße 13 <br> 06110 Halle (Saale)"
-route_link = "https://maps.openrouteservice.org/directions?n1=51.473292&n2=11.965606&n3=18&a=null,null,51.473292,11.965606&b=0&c=0&k1=de&k2=km"
-mobile = "+49 345 6903156"
-email = "schulleitung@cantor-gymnasium.de"
-top_header = true
-
-[params.preloader]
-enable = true
-preloader = "media/logo.png"
-loader = "media/load.svg"
-
-############################# social site ########################
 [[params.social]]
 title = "YouTube"
 icon = "fa-brands fa-youtube"
@@ -232,18 +84,166 @@ title = "Facebook"
 icon = "fa-brands fa-facebook"
 link = "https://facebook.com/gcg.cantor.news"
 
-[[params.social]]
-title = "GitLab"
-icon = "fa-brands fa-gitlab"
-link = "https://gitlab.cantorgymnasium.de/gcg/"
+[params.preloader]
+enable = true
+preloader = "media/logo.png"
+loader = "media/load.svg"
 
-################################### German language #####################################
+[menu]
+
+[[menu.main]]
+name = "Aktuelles"
+URL = "blog"
+weight = 1
+
+[[menu.main]]
+name = "Schule"
+weight = 2
+hasChildren = true
+
+[[menu.main]]
+parent = "Schule"
+name = "Über die Schule"
+URL = "about"
+weight = 1
+
+[[menu.main]]
+parent = "Schule"
+name = "Ganztagsangebote"
+URL = "ganztagsangebote"
+weight = 2
+
+[[menu.main]]
+parent = "Schule"
+name = "Termine"
+URL = "termine"
+weight = 3
+
+[[menu.main]]
+parent = "Schule"
+name = "Wettbewerbe"
+URL = "wettbewerbe"
+weight = 4
+
+[[menu.main]]
+parent = "Schule"
+name = "Cantorpreis"
+URL = "cantorpreis"
+weight = 5
+
+[[menu.main]]
+parent = "Schule"
+name = "Anmeldung"
+URL = "anmeldung"
+weight = 6
+
+[[menu.main]]
+parent = "Schule"
+name = "Junior-Ingenieur-Akademie"
+URL = "jia"
+weight = 8
+
+[[menu.main]]
+parent = "Schule"
+name = "Schulchronik"
+URL = "schulchronik"
+weight = 7
+
+[[menu.main]]
+parent = "Schule"
+name = "Schulbibliothek"
+URL = "bibo"
+weight = 9
+
+[[menu.main]]
+parent = "Schule"
+name = "Begabtenförderung"
+URL = "begabtenfoerderung"
+weight = 10
+
+[[menu.main]]
+weight = 3
+name = "Digitale Angebote"
+hasChildren = true
+
+[[menu.main]]
+parent = "Digitale Angebote"
+name = "Vertretungsplan"
+URL = "https://stundenplan24.de/20072021/mobil/"
+weight = 1
+
+[[menu.main]]
+parent = "Digitale Angebote"
+name = "Lernplattform Moodle"
+URL = "https://moodle.bildung-lsa.de/gcg"
+weight = 2
+
+[[menu.main]]
+parent = "Digitale Angebote"
+name = "Digitale Führung durch das Schulhaus"
+URL = "https://vr.cantorgymnasium.de/tour/"
+weight = 3
+
+[[menu.main]]
+name = "Für Schüler und Eltern"
+weight = 4
+hasChildren = true
+
+[[menu.main]]
+parent = "Für Schüler und Eltern"
+name = "Dokumente und Formulare"
+URL = "forms"
+weight = 1
+
+[[menu.main]]
+parent = "Für Schüler und Eltern"
+name = "Förderverein"
+URL = "foerderverein"
+weight = 2
+
+[[menu.main]]
+parent = "Für Schüler und Eltern"
+name = "Schulshop"
+URL = "https://schulkleidung.de/shop/index.php?nr=SDQUCKVD"
+weight = 5
+
+[[menu.main]]
+parent = "Für Schüler und Eltern"
+name = "Schülervertretung"
+URL = "schuelervertretung"
+weight = 3
+
+[[menu.main]]
+name = "Elternvertretung"
+weight = 4
+URL = "elternvertretung"
+parent = "Für Schüler und Eltern"
+
+[[menu.main]]
+name = "Kontakt"
+URL = "kontakt"
+weight = 5
+
+[[menu.footer]]
+name = "Termine"
+URL = "termine"
+
+[[menu.footer]]
+name = "Anmeldung"
+URL = "anmeldung"
+
+[[menu.footer]]
+name = "Dokumente und Formulare"
+URL = "forms"
+
+[Languages]
+
 [Languages.de]
 languageName = "De"
 languageCode = "de-de"
 contentDir = "content/german"
 weight = 2
 home = "Startseite"
-copyright = "Copyright &copy; 2022 Georg-Cantor-Gymnasium Halle (Saale)"
-
+copyright = "Copyright &copy; 2022 Georg-Cantor-Gymnasium Halle (Saale). Made with :heart: and <a href='https://gohugo.io'>Hugo</a>."
 impressumURL = "impressum"
+dseURL = "datenschutz"

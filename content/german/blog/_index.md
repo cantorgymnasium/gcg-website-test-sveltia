@@ -1,5 +1,5 @@
 ---
 title: Aktuelles
 bg_image: media/backgrounds/page-title.png
-description: Hier finden Sie die aktuellen Beiträge aus dem Schulblog.
+description: Hier finden Sie die aktuellen Informationen aus dem Schulalltag.
 ---

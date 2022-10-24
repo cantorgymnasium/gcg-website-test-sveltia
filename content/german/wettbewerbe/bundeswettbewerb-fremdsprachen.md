@@ -4,7 +4,7 @@ draft: false
 bg_image: /media/backgrounds/page-title.png
 image: /media/contests/bwfs.png
 category: Fremdsprachen
-class: 5-12
+class: 5. - 12. Klasse
 web_url: http://www.bundeswettbewerb-fremdsprachen.de/sachsen-anhalt
 type: wettbewerbe
 ---

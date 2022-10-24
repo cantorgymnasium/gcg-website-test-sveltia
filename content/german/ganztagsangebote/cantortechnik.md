@@ -4,7 +4,8 @@ date: 2022-03-20T22:57:55.974Z
 draft: false
 bg_image: media/backgrounds/page-title.png
 categories_ag:
-  - Digitalität und Technik
+  - Technik
+  - Naturwissenschaften
 weekly: "Freitag, 7.-8. Stunde "
 duration: 2 Stunden
 class: alle Klassenstufen

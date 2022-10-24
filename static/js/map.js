@@ -1,5 +1,3 @@
-
-
 var map = L.map('map', {
   scrollWheelZoom: false
 }).setView([51.473361, 11.965619], 100);
