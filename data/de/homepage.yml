@@ -73,6 +73,7 @@ success_banner:
     - name: Mathematik-Olympiade
       content: |-
         In der Landesrunde der Mathematikolympiade 2022 wurden:
+
         * **2 von 8 ersten Preisen**
         * **5 von 13 zweiten Preisen**
         * **9 von 19 dritten Preisen**
@@ -87,6 +88,7 @@ success_banner:
       image: media/home/po.png
       content: |-
         In der Landesphysikolympiade 2022 wurden:
+
         * **2 von 5 ersten Preisen**
         * **3 von 8 zweiten Preisen**
         * **1 von 11 dritten Preisen**
@@ -127,8 +129,8 @@ about:
     unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot.
 
 
-
     ## Tag der offenen Tür
+
 
     Am 19. November 2022 laden wir Sie herzlich zu unserem Tag der offenen Tür ein.
 
