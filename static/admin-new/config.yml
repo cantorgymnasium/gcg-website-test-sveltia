@@ -498,7 +498,7 @@ collections:
     public_folder: '/media/blog'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Datum", name: "date", widget: "datetime", date_format: "dd.MM.YYYY", time_format: "HH:mm"}
+      - {label: "Datum", name: "date", widget: "datetime", date_format: "dd.MM.yyyy", time_format: "HH:mm"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
