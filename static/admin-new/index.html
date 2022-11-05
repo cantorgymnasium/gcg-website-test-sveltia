@@ -21,11 +21,7 @@ CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/fira/fira.css");
 CMS.registerPreviewStyle("https://cantorgymnasium.de/scss/style.css");
 </script>
 <script>
-var PostPreview = createClass({
-  render: function() {
-    var entry = this.props.entry;
-    var image = entry.getIn(['data', 'image']);
-    var bg = this.props.getAsset(image);
+var ChronikPreview = ({widgetFor, entry }) => {
     const divStyle = {
       backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
     };
@@ -38,7 +34,7 @@ var PostPreview = createClass({
                         h('a', {"className": "text-primary font-secondary", href: ""}, "Schulchronik")),
                       h('li', {"className": "list-inline-item ha"},
                         h("i", {"className": "fa-solid fa-angle-right text-white"})),
-                      h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title']))
+                      h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.data.title)
                     )
                   )
                 )
@@ -46,16 +42,14 @@ var PostPreview = createClass({
               h('section', {"className": "section-sm"},
                 h('div', {"className": "container"},
                   h('div', {"className": "row"},
-                    h('div', {"className": "col-12 mb-4"}, this.props.widgetFor('body'))
+                    h('div', {"className": "col-12 mb-4"}, widgetFor('body'))
                   )
                 )
               )
-            );
-  }
-});
+    );
+  };
 
 CMS.registerPreviewTemplate("schulchronik", PostPreview);
-CMS.registerPreviewTemplate("schuelerrat-index", PostPreview);
 
 </script>
 <script>
