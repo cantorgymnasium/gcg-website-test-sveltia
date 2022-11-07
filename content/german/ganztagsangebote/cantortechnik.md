@@ -6,12 +6,11 @@ bg_image: media/backgrounds/page-title.png
 categories_ag:
   - Technik
   - Naturwissenschaften
-weekly: "Freitag, 7.-8. Stunde "
+weekly: "Donnerstag, 8.-9. Stunde "
 duration: 2 Stunden
 class: alle Klassenstufen
-root: "207"
 type: ganztagsangebote
-room: "207"
+room: "403"
 description: ""
 image: media/ganztagsangebote/cantortechnik.webp
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
@@ -26,23 +25,21 @@ Dies ist darauf abgezielt, dass an verschiedenen Technikthemen in einer Arbeitsg
 
 In dieser Arbeitsgemeinschaft kannst du ohne jegliche Kenntnisse in Programmierung verschiedenen Programmiersprachen erlernen, und eigene Programme entwickeln.
 
-Des Weiteren kannst du an der Themengruppe CantorArduino teilnehmen und mithilfe des Entwicklungsboards Arduino verschiedene elektronische Bauteile am Computer mit der Programmiersprache C++ ansteuern.
+Des Weiteren kannst du an der Themengruppe Arduino teilnehmen und mithilfe des Entwicklungsboards Arduino verschiedene elektronische Bauteile am Computer mit der Programmiersprache C++ ansteuern.
 
-Die Verknüpfung dieser beiden Bereiche ergibt CantorRobotik - einen Themenbereich, in dem Roboter auf Basis von Arduino und Raspberry Pi entwickelt, gebaut und programmiert werden. Diese Roboter bekommen Sensoren, Kameras und andere Datenerfassungsgeräte, wodurch diese zu Multimediarobotern werden. Die Daten werden wiederum in einem z.B. in der Programmiersprache Python geschriebenen Programm verarbeitet und gespeichert.
+Die Verknüpfung dieser beiden Bereiche ergibt Robotik - einen Themenbereich, in dem Roboter auf Basis von Arduino und Raspberry Pi entwickelt, gebaut und programmiert werden. Diese Roboter bekommen Sensoren, Kameras und andere Datenerfassungsgeräte, wodurch diese zu Multimediarobotern werden. Die Daten werden wiederum in einem z.B. in der Programmiersprache Python geschriebenen Programm verarbeitet und gespeichert.
 
-Doch um dies alles zu machen, brauchen wir Computer. Da wir aber nicht an einen Computerraum angewiesen sein wollen, benutzen wir alle Laptops, die früher in der Schule im Einsatz waren. Doch um diese Laptops richtig benutzen zu können, reparieren wir diese und installieren darauf das Betriebssystem Debian Linux. Doch um auch anderen Schülern die Möglichkeit bereitzustellen, z.B. im Unterricht oder für Arbeitsgemeinschaften diese Laptops zu verwenden, haben wir eine weitere Themengruppe gebildet - CantorRepair. In CantorRepair reparieren wir Schullaptops und installieren darauf ein neueres Betriebssystem, z.B. Debian Linux und stellen diese anderen Schülern zur Nutzung zur Verfügung. Des Weiteren beschäftigen wir uns mit der Wartung dieser Technik.
+Doch um dies alles zu machen, brauchen wir Computer. Da wir aber nicht an einen Computerraum angewiesen sein wollen, benutzen wir alle Laptops, die früher in der Schule im Einsatz waren. Doch um diese Laptops richtig benutzen zu können, reparieren wir diese und installieren darauf das Betriebssystem Debian Linux. Doch um auch anderen Schülern die Möglichkeit bereitzustellen, z.B. im Unterricht oder für Arbeitsgemeinschaften diese Laptops zu verwenden, haben wir eine weitere Themengruppe gebildet - das Repair Café. Im Repair Café reparieren wir Schullaptops und installieren darauf ein neueres Betriebssystem, z.B. Debian Linux und stellen diese anderen Schülern zur Nutzung zur Verfügung. Des Weiteren beschäftigen wir uns mit der Wartung dieser Technik.
 
 Um anderen einen Einblick in unser AG-Leben zu verschaffen, haben wir die letzte Themengruppe erstellt - CantorMedia.
 
-In CantorMedia werden Aufnahmen von unseren AG-Projekten, Programmiervideos, Tutorials und andere digitalen Medien produziert.
-
 ### Bereiche der AG
 
-* CantorArduino - Entwicklung von IoT-Geräten mit Arduino.
-* CantorProg - Programmierung von Standalone-Apps mit den Programmiersprachen Python, Java und anderen.
-* CantorRobotik - Bau von intelligenten Robotern auf Basis von Arduino und Raspberry Pi.
-* CantorRepair - Reparatur von alten Schulcomputern, Installation und Konfiguration von Linux und anderes ...
-* CantorMedia - Erstellung von Programmiervideos, Tutorials zu Technik und anderen Medieninhalten, Verwaltung des [YouTube Kanals CantorTechnik](https://www.youtube.com/channel/UCFCJdxg2D9RXH0qjZ8MMw1g)
+* Arduino - Entwicklung von IoT-Geräten mit Arduino.
+* Programmieren - Programmierung von Standalone-Apps mit den Programmiersprachen Python, Java und anderen.
+* Robotik - Bau von intelligenten Robotern auf Basis von Arduino und Raspberry Pi.
+* Repair Café - Reparatur von alten Schulcomputern, Installation und Konfiguration von Linux und anderes ...
+
 
 ### Themen
 
@@ -54,6 +51,6 @@ In CantorMedia werden Aufnahmen von unseren AG-Projekten, Programmiervideos, Tut
 
 ### Teilnahme an der AG
 
-Wir treffen uns jeden Donnerstag von 13.30 bis ca. 15.30 Uhr im Raum 405.
+Wir treffen uns jeden Donnerstag von 14.15 bis ca. 16 Uhr im Raum 403.
 
 An der Arbeitsgemeinschaft kann jeder unabhängig von Vorkenntnissen in Programmierung teilnehmen.
