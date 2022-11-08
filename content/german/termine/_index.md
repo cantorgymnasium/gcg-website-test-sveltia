@@ -5,14 +5,6 @@ bg_image: media/backgrounds/page-title.png
 description: Hier sind alle Termine für das laufende bzw. nächste Schuljahr aufgelistet.
 events:
   - enddate: ""
-    date: 2022-10-20T13:20:14.616Z
-    title: Erste Runde der Physikolympiade Klasse 7-10
-    location: Georg-Cantor Gymnasium
-  - enddate: 2022-11-03T23:00:00.000Z
-    date: 2022-10-24T13:22:08.641Z
-    title: Herbstferien
-    location: nicht in der Schule
-  - enddate: ""
     date: 2022-11-08T14:23:14.581Z
     title: Zweite Runde der Internationalen Physikolympiade
     location: Georg-Cantor Gymnasium
@@ -97,7 +89,7 @@ events:
     title: Spezialistenlager Mathematik und Physik der Klassen 8 - 11
     location: Frauenstein
   - enddate: 2023-02-03T04:00:00.000Z
-    date: 2023-01-26T14:59:49.571Z
+    date: 2023-01-27T14:59:49.571Z
     title: Skilager Klasse 11
     location: " "
   - enddate: 2023-02-03T05:00:00.000Z
