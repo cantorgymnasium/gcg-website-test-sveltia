@@ -7,6 +7,14 @@ backend:
   api_root: https://gitlab.cantorgymnasium.de/api/v4
   base_url: https://gitlab.cantorgymnasium.de
   auth_endpoint: oauth/authorize
+  commit_messages:
+    create: "{{slug}} in {{collection}} erstellt"
+    update: "{{slug}} in {{collection}} aktualisiert"
+    delete: "{{slug}} aus {{collection}} gelöscht"
+    uploadMedia: "{{path}} hochgeladen"
+    deleteMedia: "{{path}} gelöscht"
+
+local_backend: true
 
 media_folder: "static/media"
 public_folder: "/media"
@@ -316,8 +324,8 @@ collections:
             widget: "list"
             fields:
               - {label: "Titel", name: "title", widget: "string", required: true}
-              - {label: "Datum/Startdatum", name: "date", widget: "datetime",  required: true, date_format: "DD.MM.YYYY", time_format: "HH:mm"}
-              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "DD.MM.YYYY", time_format: "HH:mm", default: ""}
+              - {label: "Datum/Startdatum", name: "date", widget: "datetime",  required: true, date_format: "dd.MM.yyyy", time_format: "HH:mm"}
+              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "dd.MM.yyyy", time_format: "HH:mm", default: ""}
               - {label: "Ort", name: "location", widget: "string", required: true}
               - {label: "Beschreibung", name: "summary", widget: "string", required: false}
             required: false
@@ -447,11 +455,11 @@ collections:
           - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
           - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "author-de" # Used in routes, e.g., /admin/collections/blog
-    label: "Autor*innen" # Used in the UI
-    label_singular: "Autor*in"
+    label: "Autoren" # Used in the UI
+    label_singular: "Autoren"
     folder: "content/german/author" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., yyyy-MM-dd-title.md
     editor:
      preview: false
     media_folder: '/static/media/people'
@@ -486,7 +494,7 @@ collections:
         required: false
       - {label: "Beschreibung", name: "body", widget: "markdown"}
   - name: "blog-de"
-    label: "Blogbeiträge"
+    label: "Aktuelles"
     label_singular: "Blogbeitrag"
     folder: "content/german/blog"
     filter: {field: "type", value: "post"}
@@ -523,8 +531,8 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "forms-de"
-    label: "Formulare und Vorlagen"
-    label_singular: "Formular"
+    label: "Dokumente"
+    label_singular: "Dokument"
     description: "Hier sind Formulare, Vorlagen und andere Dokumente zu hinterlegen."
     folder: "content/german/forms"
     filter: {field: "type", value: "forms"}
@@ -536,7 +544,7 @@ collections:
     public_folder: '/media/forms'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
+      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "dd.MM.yyyy", time_format: "HH:mm"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
@@ -557,8 +565,8 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "anmeldung"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "cantorpreis-de"
-    label: "Cantor-Preisträger*innen"
-    label_singular: "Cantor-Preisträger*in"
+    label: "Cantor-Preisträger"
+    label_singular: "Cantor-Preisträger"
     folder: "content/german/cantorpreis"
     filter: {field: "type", value: "cantorpreis"}
     create: true
@@ -594,7 +602,7 @@ collections:
     public_folder: '/media/ganztagsangebote'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm"}
+      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "dd.MM.yyyy", time_format: "HH:mm"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
