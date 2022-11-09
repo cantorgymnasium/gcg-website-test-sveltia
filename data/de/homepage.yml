@@ -187,7 +187,5 @@ zahlen:
       count: 542
     - name: Lehrer
       count: 56
-    - name: Neue Schüler jährlich
-      count: 72
     - name: Pädagogische Mitarbeiter
       count: 2

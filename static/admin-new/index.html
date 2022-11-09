@@ -3,13 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cantorgymnasium.de/plugins/fontawesome/css/all.css">
     <title>Content Manager</title>
   </head>
   <body>
     <!-- Include the script that builds the page and powers Static CMS -->
-    <script src="https://cdn.jsdelivr.net/npm/@staticcms/core@next/dist/static-cms-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@staticcms/core@1.0.0-beta1/dist/static-cms-core.min.js"></script>
     <script>
       window.CMS.init();
+      CMS.registerIcon('home', ({}) => { return(h('i', {"className": "fa fa-house"})); });
+      CMS.registerIcon('settings', ({}) => { return(h('i', {"className": "fa fa-gear"})); });
+      CMS.registerIcon('user', ({}) => { return(h('i', {"className": "fa fa-user"})); });
+      CMS.registerIcon('page', ({}) => { return(h('i', {"className": "fa fa-file"})); });
+      CMS.registerIcon('document', ({}) => { return(h('i', {"className": "fa fa-file-lines"})); });
+      CMS.registerIcon('news', ({}) => { return(h('i', {"className": "fa fa-newspaper"})); });
+      CMS.registerIcon('award', ({}) => { return(h('i', {"className": "fa fa-award"})); });
+      CMS.registerIcon('group', ({}) => { return(h('i', {"className": "fa fa-people-group"})); });
+      CMS.registerIcon('trophy', ({}) => { return(h('i', {"className": "fa fa-trophy"})); });
+      CMS.registerIcon('book', ({}) => { return(h('i', {"className": "fa fa-book"})); });
+      CMS.registerIcon('timeline', ({}) => { return(h('i', {"className": "fa fa-timeline"})); });
+      CMS.registerIcon('graduation-cap', ({}) => { return(h('i', {"className": "fa fa-graduation-cap"})); });
+      CMS.registerIcon('info', ({}) => { return(h('i', {"className": "fa fa-circle-info"})); });
+      const CustomPage = () => {
+        return h('div', {}, 'I am a custom page!');
+      };
+      
+      CMS.registerAdditionalLink({
+        id: 'info',
+        title: 'Informationen',
+        data: CustomPage,
+        options: {
+          icon: 'info',
+        },
+      });
+      
+      
     </script>
     <script>
 CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/bootstrap/bootstrap.min.css");
@@ -53,11 +81,7 @@ CMS.registerPreviewTemplate("schulchronik", ChronikPreview);
 
 </script>
 <script>
-var PostPreviewContent = createClass({
-  render: function() {
-    var entry = this.props.entry;
-    var image = entry.getIn(['data', 'image']);
-    var bg = this.props.getAsset(image);
+var PostPreviewContent = ({widgetFor, entry}) => {
     const divStyle = {
       backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
     };
@@ -66,11 +90,13 @@ var PostPreviewContent = createClass({
                 h('div', {"className": "container"},
                   h('div', {"className": "col-md-8"},
                     h('ul', {"className": "list-inline custom-breadcrumb"},
-                      h('li', {"className": "list-inline-item h1"},
-                        h('a', {"className": "text-primary font-secondary", href: ""}, "Schulchronik")),
-                      h('li', {"className": "list-inline-item ha"},
+                      h('li', {"className": "list-inline-item h2"},
+                        h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")),
+                      h('li', {"className": "list-inline-item h2"},
                         h("i", {"className": "fa-solid fa-angle-right text-white"})),
-                      h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title']))
+                      h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title)
+                    ),
+                    h('p', {"className": "text-lighten"}, entry.data.description
                     )
                   )
                 )
@@ -79,26 +105,81 @@ var PostPreviewContent = createClass({
                 h('div', {"className": "container"},
                   h('div', {"className": "row"},
                     h('div', {"className": "col-12 mb-4"},
-                      h('div', {"className": "content"}, this.props.widgetFor('body'))
+                      h('div', {"className": "content"}, widgetFor('body'))
                     )
                   )
                 )
               )
             );
-  }
-});
+  };
 
-CMS.registerPreviewTemplate("anmeldung-index", PostPreviewContent);
 CMS.registerPreviewTemplate("impressum", PostPreviewContent);
+CMS.registerPreviewTemplate("datenschutz", PostPreviewContent);
 CMS.registerPreviewTemplate("schuelerrat-geschaeftsordnung", PostPreviewContent);
+CMS.registerPreviewTemplate("schuelervertretung-index", PostPreviewContent);
+CMS.registerPreviewTemplate("elternvertretung-index", PostPreviewContent);
+CMS.registerPreviewTemplate("jia-index", PostPreviewContent);
+CMS.registerPreviewTemplate("bibo", PostPreviewContent);
+CMS.registerPreviewTemplate("abiturienten", PostPreviewContent);
+CMS.registerPreviewTemplate("cantorfora", PostPreviewContent);
 
 </script>
 <script>
-var EventPreview = createClass({
-  render: function() {
-    var entry = this.props.entry;
-    var image = entry.getIn(['data', 'image']);
-    var bg = this.props.getAsset(image);
+  var AnmeldungPreviewContent = ({widgetsFor, widgetFor, entry}) => {
+    const divStyle = {
+      backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
+    };
+    return h('div', {},
+              h('section', {"className": "page-title-section overlay", "style": divStyle},
+                h('div', {"className": "container"},
+                  h('div', {"className": "col-md-8"},
+                    h('ul', {"className": "list-inline custom-breadcrumb"},
+                      h('li', {"className": "list-inline-item h2"},
+                        h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")),
+                      h('li', {"className": "list-inline-item h2"},
+                        h("i", {"className": "fa-solid fa-angle-right text-white"})),
+                      h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title)
+                    ),
+                    h('p', {"className": "text-lighten"}, entry.data.description
+                    )
+                  )
+                )
+              ),
+              h('section', {"className": "section-sm"},
+                h('div', {"className": "container"},
+                  h('div', {"className": "row mb-5"},
+                    h('div', {"className": "col-md-6 content"},
+                      widgetFor('body')
+                    )
+                  ),
+                  h('div', {"className": "row"},
+                    widgetsFor('elements').map(function(element, index) {
+                      return h('div', {"className": "col-lg-4 col-sm-6 mb-4"},
+                        h('div', {"className": "card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0"},
+                          h('div', {"className": "card-body"},
+                            h('h4', {"className": "card-title mb-3"},
+                              element.data.title
+                            ),
+                            h('div', {"className": "content"},
+                              element.widgets.content
+                            )
+                          )
+                        )
+                      );
+                    })
+                  )
+                )
+              ),
+            );
+  };
+
+
+CMS.registerPreviewTemplate("anmeldung-index", AnmeldungPreviewContent);
+
+
+</script>
+<script>
+var EventPreview = ({widgetsFor, entry}) => {
     const divStyle = {
       backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
     };
@@ -114,10 +195,10 @@ var EventPreview = createClass({
                         h('li', {"className": "list-inline-item ha"},
                           h("i", {"className": "fa-solid fa-angle-right text-white"})
                         ),
-                        h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title'])
+                        h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.data.title
                         )
                       ),
-                      h('p', {"className": "text-lighten"}, entry.getIn(['data', 'description']))
+                      h('p', {"className": "text-lighten"}, entry.data.description)
                     )
                   )
                 )
@@ -127,20 +208,21 @@ var EventPreview = createClass({
                   h('div', {"className": "row"},
                     h('div', {"className": "col-12 "},
                       h('ul', {"className": "list-unstyled"},
-                        this.props.widgetsFor('events').map(function(event, index) {
+                        widgetsFor('events').map(function(event, index) {
+                          console.log(event.data.date);
                           return h('li', {"className": "d-md-table mb-4 w-100 border-bottom hover-shadow"},
                             h('div', {"className": "d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"},
-                                h('span', {"className": "h2 d-block"}, new Intl.DateTimeFormat('de-De', { day: 'numeric'}).format(event.getIn(['data', 'date']))),
-                                new Intl.DateTimeFormat('de-De', { month: 'short', year: 'numeric' }).format(event.getIn(['data', 'date']))
+                                h('span', {"className": "h2 d-block"}, new Intl.DateTimeFormat('de-De', { day: 'numeric'}).format(new Date(event.data.date))),
+                                new Intl.DateTimeFormat('de-De', { month: 'short', year: 'numeric' }).format(new Date(event.data.date))
                             ),
                             h('div', {"className": "d-md-table-cell px-4 vertical-alighn-middle mb-4 mb-md-0"},
-                              h('p', {"className": "h4 mb-3 d-block"}, event.getIn(['data', 'title'])),
-                              h('p', {"className": "mb-0"}, event.getIn(['data', 'summary']))
+                              h('p', {"className": "h4 mb-3 d-block"}, event.data.title),
+                              h('p', {"className": "mb-0"}, event.data.summary)
                             ),
                             h('div', {"className": "d-md-table-cell text-right pr-0 pr-md-4"},
                               h('p', {},
                                 h('i', {"className": "fa-solid fa-location-dot text-primary mr-2"}),
-                                event.getIn(['data', 'location'])
+                                event.data.location
                               )
                             )
                           );
@@ -151,18 +233,13 @@ var EventPreview = createClass({
                 )
               )
             );
-  }
-});
+  };
 
 CMS.registerPreviewTemplate("event-index", EventPreview);
 
 </script>
 <script>
-var PagePreview = createClass({
-  render: function() {
-    var entry = this.props.entry;
-    var image = entry.getIn(['data', 'image']);
-    var bg = this.props.getAsset(image);
+var PagePreview = ({widgetFor, entry}) => {
     const divStyle = {
       backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
     };
@@ -172,23 +249,22 @@ var PagePreview = createClass({
                   h('div', {"className": "container"},
                     h('div', {"className": "col-md-8"},
                       h('ul', {"className": "list-inline custom-breadcrumb"},
-                        h('li', {"className": "list-inline-item h1"},
+                        h('li', {"className": "list-inline-item h2"},
                           h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
                         ),
-                        h('li', {"className": "list-inline-item ha"},
+                        h('li', {"className": "list-inline-item h2"},
                           h("i", {"className": "fa-solid fa-angle-right text-white"})
                         ),
-                        h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title'])
+                        h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title
                         )
                       ),
-                      h('p', {"className": "text-lighten"}, entry.getIn(['data', 'description']))
+                      h('p', {"className": "text-lighten"}, entry.data.description)
                     )
                   )
                 )
               )
             );
-  }
-});
+  };
 
 CMS.registerPreviewTemplate("blog-index", PagePreview);
 CMS.registerPreviewTemplate("cantorpreis-index", PagePreview);
@@ -196,14 +272,31 @@ CMS.registerPreviewTemplate("contact-index", PagePreview);
 CMS.registerPreviewTemplate("forms-index", PagePreview);
 CMS.registerPreviewTemplate("ganztagsangebote-index", PagePreview);
 CMS.registerPreviewTemplate("wettbewerbe-index", PagePreview);
+CMS.registerPreviewTemplate("begabtenfoerderung-index", PagePreview);
 
 </script>
 <script>
-var PagePreviewImage = createClass({
-  render: function() {
-    var entry = this.props.entry;
-    var image = entry.getIn(['data', 'image']);
-    var bg = this.props.getAsset(image);
+var PagePreviewImage = ({ widgetFor, getAsset, entry}) => {
+    const [imageUrl, setImageUrl] = useState('');
+    const image = useMemo(() => entry.data.image, [entry.data.image]);
+
+    useEffect(() => {
+      let alive = true;
+
+      const loadImage = async () => {
+        const imageAsset = await getAsset(image);
+        if (alive) {
+          setImageUrl(imageAsset.toString());
+        }
+      };
+
+      loadImage();
+
+      return () => {
+        alive = false;
+      };
+    }, [image]);
+
     const divStyle = {
       backgroundImage: 'url("/media/backgrounds/page-title.png"),url("/media/backgrounds/page-title.png")',
     };
@@ -213,17 +306,17 @@ var PagePreviewImage = createClass({
                   h('div', {"className": "container"},
                     h('div', {"className": "col-md-8"},
                       h('ul', {"className": "list-inline custom-breadcrumb"},
-                        h('li', {"className": "list-inline-item h1"},
+                        h('li', {"className": "list-inline-item h2"},
                           h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
                         ),
-                        h('li', {"className": "list-inline-item ha"},
+                        h('li', {"className": "list-inline-item h2"},
                           h("i", {"className": "fa-solid fa-angle-right text-white"})
                         ),
-                        h('li', {"className": "list-inline-item text-white h1 font-secondary"}, entry.getIn(['data', 'title'])
+                        h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title
                         )
                       ),
-                      h('p', {"className": "text-lighten"}, entry.getIn(['data', 'description']))
-                    )
+                      h('p', {"className": "text-lighten"}, entry.data.description
+                    ))
                   )
                 )
               ),
@@ -231,14 +324,13 @@ var PagePreviewImage = createClass({
                 h('div', {"className": "container"},
                   h('div', {"className": "row"},
                     h('div', {"className": "col-12 mb-4"},
-                    h('img', {"className": "img-fluid w-100 mb-4", src: bg.toString(), alt: "about image"}),
-                    this.props.widgetFor('body'))
+                    h('img', {"className": "img-fluid w-100 mb-4", src: imageUrl}),
+                    widgetFor('body'))
                   )
                 )
               )
             );
-  }
-});
+  };
 
 CMS.registerPreviewTemplate("about-index", PagePreviewImage);
 

@@ -2,7 +2,7 @@
 title: CantorTechnik
 date: 2022-03-20T22:57:55.974Z
 draft: false
-bg_image: media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.png
 categories_ag:
   - Technik
   - Naturwissenschaften
@@ -12,7 +12,7 @@ class: alle Klassenstufen
 type: ganztagsangebote
 room: "403"
 description: ""
-image: media/ganztagsangebote/cantortechnik.webp
+image: /media/ganztagsangebote/cantortechnik.webp
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 ---
 ### Über die AG

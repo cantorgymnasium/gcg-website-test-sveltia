@@ -27,6 +27,7 @@ show_preview_links: false
 
 collections:
   - name: "config"
+    icon: "settings"
     label: "Konfiguration"
     description: "Hier können die Basiseinstellungen der Website geändert werden."
     editor:
@@ -41,7 +42,7 @@ collections:
         public_folder: "media/home"
         format: yml
         fields:
-          - label: "Slider"
+          - label: "Karusell"
             name: "slider"
             widget: "object"
             fields:
@@ -49,6 +50,7 @@ collections:
               - {label: "Hintergrundbild", name: "bg_image", widget: "image"}
               - {label: "Titel", name: "title", widget: "string"}
               - label: "Elemente"
+                label_singular: "Element"
                 name: "slider_item"
                 widget: "list"
                 fields:
@@ -257,14 +259,12 @@ collections:
                   - {label: "Copyright-Hinweis", name: "copyright", widget: "string"}
                   - {label: "Impressum-Link", name: "impressumURL", widget: "string"}
                   - {label: "Datenschutz-Link", name: "dseURL", widget: "string"}
-
-
-
-
   - name: "pages-de"
+    icon: "page"
     label: "Statische Seiten"
     editor:
       preview: true
+      frame: false
     files:
       - name: "blog-index"
         label: "Blog"
@@ -287,12 +287,20 @@ collections:
         label: "Anmeldung"
         file: "content/german/anmeldung/_index.md"
         fields:
-          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Titel", name: "title", widget: "string", required: true}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-          - {label: "Text", name: "body", widget: "markdown"}
+          - label: "Elemente"
+            label_singular: "Element"
+            name: "elements"
+            widget: "list"
+            fields:
+              - {label: "Titel", name: "title", widget: "string", required: true}
+              - {label: "Text", name: "content", widget: "markdown", required: true}
+            required: false
+          - {label: "Text", name: "body", widget: "markdown", required: false}
       - name: "cantorpreis-index"
         label: "Cantor-Preis"
         file: "content/german/cantorpreis/_index.md"
@@ -319,18 +327,18 @@ collections:
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - label: Termine
-            label_singular: " "
+            label_singular: "Termin"
             name: "events"
             widget: "list"
             fields:
               - {label: "Titel", name: "title", widget: "string", required: true}
-              - {label: "Datum/Startdatum", name: "date", widget: "datetime",  required: true, date_format: "dd.MM.yyyy", time_format: "HH:mm"}
-              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "dd.MM.yyyy", time_format: "HH:mm", default: ""}
+              - {label: "Datum/Startdatum", name: "date", widget: "datetime",  required: true, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"}
+              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX", default: ""}
               - {label: "Ort", name: "location", widget: "string", required: true}
               - {label: "Beschreibung", name: "summary", widget: "string", required: false}
             required: false
       - name: "forms-index"
-        label: "Formulare und Vorlagen"
+        label: "Dokumente und Formulare"
         file: "content/german/forms/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
@@ -445,7 +453,7 @@ collections:
           - {label: "Text", name: "body", widget: "markdown", required: false}
       - name: "jia-index"
         label: "Junior-Ingenieur-Akademie"
-        file: "content/german/schuelervertretung/index.md"
+        file: "content/german/jia/index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
@@ -454,7 +462,8 @@ collections:
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
           - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
           - {label: "Text", name: "body", widget: "markdown", required: false}
-  - name: "author-de" # Used in routes, e.g., /admin/collections/blog
+  - name: "author-de" 
+    icon: "user"
     label: "Autoren" # Used in the UI
     label_singular: "Autoren"
     folder: "content/german/author" # The path to the folder where the documents are stored
@@ -494,6 +503,7 @@ collections:
         required: false
       - {label: "Beschreibung", name: "body", widget: "markdown"}
   - name: "blog-de"
+    icon: "news"
     label: "Aktuelles"
     label_singular: "Blogbeitrag"
     folder: "content/german/blog"
@@ -506,7 +516,7 @@ collections:
     public_folder: '/media/blog'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Datum", name: "date", widget: "datetime", date_format: "dd.MM.yyyy", time_format: "HH:mm"}
+      - {label: "Datum", name: "date", widget: "datetime", date_format: "dd/MM/yyyy", time_format: false}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
@@ -531,6 +541,7 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "forms-de"
+    icon: "document"
     label: "Dokumente"
     label_singular: "Dokument"
     description: "Hier sind Formulare, Vorlagen und andere Dokumente zu hinterlegen."
@@ -551,20 +562,8 @@ collections:
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "forms"}
       - {label: "Text", name: "body", widget: "markdown"}
-  - name: "anmeldung-de"
-    label: "Anmeldung"
-    label_singular: "Anmeldeinformation"
-    folder: "content/german/anmeldung"
-    filter: {field: "type", value: "anmeldung"}
-    create: true
-    editor:
-      preview: false
-    fields:
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Type", name: "type", widget: "hidden", default: "anmeldung"}
-      - {label: "Text", name: "body", widget: "markdown"}
   - name: "cantorpreis-de"
+    icon: "award"
     label: "Cantor-Preisträger"
     label_singular: "Cantor-Preisträger"
     folder: "content/german/cantorpreis"
@@ -591,6 +590,7 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "ganztagsangebote-de"
+    icon: "group"
     label: "Ganztagsangebote"
     label_singular: "Ganztagsangebot"
     folder: "content/german/ganztagsangebote"
@@ -618,6 +618,7 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "ganztagsangebote"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "wettbewerbe-de"
+    icon: "trophy"
     label: "Wettbewerbe"
     label_singular: "Wettbewerb"
     folder: "content/german/wettbewerbe"
@@ -639,6 +640,7 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "wettbewerbe"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "begabtenfoerderung-de"
+    icon: "book"
     label: "Begabtenförderung"
     label_singular: "Begabtenförderung"
     folder: "content/german/begabtenfoerderung"
@@ -660,6 +662,7 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "begabtenfoerderung"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "schulchronik"
+    icon: "timeline"
     label: "Schulchronik"
     label_singular: "Chronikjahr"
     folder: "content/german/schulchronik"
@@ -677,6 +680,7 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "schulchronik"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "abiturienten"
+    icon: "graduation-cap"
     label: "Abiturienten"
     label_singular: "Abiturjahrgang"
     folder: "content/german/abiturienten"

@@ -2,14 +2,14 @@
 title: Mathematik (Klasse 5)
 date: 2022-10-15T16:05:03.936Z
 draft: false
-bg_image: media/bild_titelbild.jpg
+bg_image: /media/bild_titelbild.jpg
 description: Förderung für begabte Schülerinnen und Schüler in Mathematik.
-image: media/ganztagsangebote/mathematik.webp
+image: /media/ganztagsangebote/mathematik.webp
 categories_ag:
   - Mathematik
   - Naturwissenschaften
 duration: 1. Stunde
-weekly: Montag, 7. Stunde
+weekly: Dienstag, 7. Stunde
 class: 5. Klasse
 room: "307"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

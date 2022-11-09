@@ -1,9 +1,9 @@
 ---
 title: Schülerforschungszentrum
 draft: false
-bg_image: media/bild_titelbild.jpg
+bg_image: /media/bild_titelbild.jpg
 description: ""
-image: media/begabtenfoerderung/sfz.png
+image: /media/begabtenfoerderung/sfz.png
 category: Naturwissenschaften
 class: 5 - 12 Klasse
 web_url: https://sfz-halle.de/
