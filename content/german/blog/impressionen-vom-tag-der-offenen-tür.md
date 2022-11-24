@@ -6,7 +6,8 @@ bg_image: /media/backgrounds/page-title.png
 description: ""
 image: /media/image.png
 author: Jan Felix Berger
-categories: []
+categories:
+  - Ereignisse
 tags:
   - tdot
   - cantorentdecken
