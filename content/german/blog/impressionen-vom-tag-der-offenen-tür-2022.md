@@ -5,7 +5,7 @@ draft: false
 bg_image: /media/backgrounds/page-title.png
 description: ""
 image: /media/image.png
-author: Herr Berger
+author: Denys Konovalov
 categories:
   - Ereignisse
 tags:
