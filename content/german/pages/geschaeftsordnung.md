@@ -2,7 +2,9 @@
 title: Geschäftsordnung der Schülervertretung
 draft: false
 bg_image: media/backgrounds/page-title.png
-type: pages
+type: "pages"
+layout: "single.html"
+aliases: [/schuelervertretung/geschaeftsordnung/]
 ---
 #### **1. Funktion**
 
