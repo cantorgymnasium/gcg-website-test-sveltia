@@ -26,6 +26,8 @@ top_header = true
 email = "schulleitung@cantor-gymnasium.de"
 email_preatty = "schulleitung<i class='fa-solid fa-at'></i>cantor-gymnasium.de"
 description = "Das Georg-Cantor-Gymnasium - eine mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale)."
+twitter = "cantor_news"
+images = ['media/zeichnung.jpg']
 
 [params.plugins]
 
