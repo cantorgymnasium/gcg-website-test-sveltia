@@ -6,6 +6,11 @@ bg_image: /media/backgrounds/page-title.png
 description: ""
 image: /media/image.png
 author: Frau Krug
+categories:
+  - Musik
+tags:
+  - Musikfahrt
+  - Weihnachtskonzert
 type: post
 ---
 {{< load-photoswipe >}}
