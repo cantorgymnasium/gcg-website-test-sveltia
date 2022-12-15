@@ -6,6 +6,12 @@ bg_image: /media/backgrounds/page-title.png
 description: ""
 image: /media/blog/vlw_logo_blau_rgb.jpg
 author: Herr Berger
+categories:
+  - Wettbewerbe
+tags:
+  - Vorlesewettbewerb 6
+  - Schulrunde
+  - Stimmung
 type: post
 ---
 {{< load-photoswipe >}}
