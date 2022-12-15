@@ -1,0 +1,187 @@
+baseURL: https://cantorgymnasium.de/
+title: Georg-Cantor-Gymnasium
+paginate: "6"
+summaryLength: "10"
+defaultContentLanguageInSubdir: false
+defaultContentLanguage: de
+enableEmoji: true
+enableRobotsTxt: true
+timeZone: Europe/Berlin
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  mobile: +49 345 6903156
+  author: Georg-Cantor-Gymnasium Halle (Saale). Made with Educenter by Themefisher.
+  logo: media/logo.png
+  route_link: https://maps.openrouteservice.org/directions?n1=51.473292&n2=11.965606&n3=18&a=null,null,51.473292,11.965606&b=0&c=0&k1=de&k2=km
+  address: Georg-Cantor-Gymnasium <br> Torstraße 13 <br> 06110 Halle (Saale)
+  top_header: true
+  email: schulleitung@cantor-gymnasium.de
+  email_pretty: schulleitung<i class='fa-solid fa-at'></i>cantor-gymnasium.de
+  description: Das Georg-Cantor-Gymnasium - eine
+    mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale).
+  twitter: cantor_news
+  images:
+    - media/zeichnung.jpg
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/slick/slick.css
+      - link: plugins/animate/animate.css
+      - link: plugins/venobox/venobox.css
+      - link: plugins/fontawesome/css/all.css
+      - link: plugins/fira/fira.css
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/shuffle/shuffle.min.js
+      - link: plugins/venobox/venobox.min.js
+      - link: plugins/filterizr/jquery.filterizr.min.js
+  social:
+    - title: YouTube
+      icon: fa-brands fa-youtube
+      link: https://www.youtube.com/channel/UCHafBDI5qfK03RiIEyki9VA
+    - title: twitter
+      icon: fa-brands fa-twitter
+      link: https://twitter.com/cantor_news
+    - title: instagram
+      icon: fa-brands fa-instagram
+      link: https://instagram.com/cantor.news
+    - title: Facebook
+      icon: fa-brands fa-facebook
+      link: https://facebook.com/gcg.cantor.news
+  preloader:
+    enable: true
+    preloader: media/logo.png
+    loader: media/load.svg
+menu:
+  main:
+    - name: Aktuelles
+      URL: blog
+      weight: 1
+      hasChildren: false
+    - name: Schule
+      weight: 2
+      hasChildren: true
+    - parent: Schule
+      name: Über die Schule
+      URL: about
+      weight: 1
+      hasChildren: false
+    - parent: Schule
+      name: Ganztagsangebote
+      URL: ganztagsangebote
+      weight: 2
+      hasChildren: false
+    - parent: Schule
+      name: Termine
+      URL: termine
+      weight: 3
+      hasChildren: false
+    - parent: Schule
+      name: Wettbewerbe
+      URL: wettbewerbe
+      weight: 4
+      hasChildren: false
+    - parent: Schule
+      name: Cantorpreis
+      URL: cantorpreis
+      weight: 5
+      hasChildren: false
+    - parent: Schule
+      name: Anmeldung
+      URL: anmeldung
+      weight: 6
+      hasChildren: false
+    - parent: Schule
+      name: Junior-Ingenieur-Akademie
+      URL: jia
+      weight: 8
+      hasChildren: false
+    - parent: Schule
+      name: Schulchronik
+      URL: schulchronik
+      weight: 7
+      hasChildren: false
+    - parent: Schule
+      name: Schulbibliothek
+      URL: bibo
+      weight: 9
+      hasChildren: false
+    - parent: Schule
+      name: Begabtenförderung
+      URL: begabtenfoerderung
+      weight: 10
+      hasChildren: false
+    - weight: 3
+      name: Digitale Angebote
+      hasChildren: true
+    - parent: Digitale Angebote
+      name: Vertretungsplan
+      URL: https://stundenplan24.de/20072021/mobil/
+      weight: 1
+      hasChildren: false
+    - parent: Digitale Angebote
+      name: Lernplattform Moodle
+      URL: https://moodle.bildung-lsa.de/gcg
+      weight: 2
+      hasChildren: false
+    - parent: Digitale Angebote
+      name: Virtueller Rundgang
+      URL: https://vr.cantorgymnasium.de/tour/
+      weight: 3
+      hasChildren: false
+    - name: Für Schüler und Eltern
+      weight: 4
+      hasChildren: true
+    - parent: Für Schüler und Eltern
+      name: Dokumente und Formulare
+      URL: forms
+      weight: 1
+      hasChildren: false
+    - parent: Für Schüler und Eltern
+      name: Förderverein
+      URL: foerderverein
+      weight: 2
+      hasChildren: false
+    - parent: Für Schüler und Eltern
+      name: Schulshop
+      URL: https://schulkleidung.de/shop/index.php?nr=SDQUCKVD
+      weight: 5
+      hasChildren: false
+    - parent: Für Schüler und Eltern
+      name: Schülervertretung
+      URL: schuelervertretung
+      weight: 3
+      hasChildren: false
+    - name: Elternvertretung
+      weight: 4
+      URL: elternvertretung
+      parent: Für Schüler und Eltern
+      hasChildren: false
+    - name: Kontakt
+      URL: kontakt
+      weight: 5
+      hasChildren: false
+  footer:
+    - name: Termine
+      URL: termine
+    - name: Anmeldung
+      URL: anmeldung
+    - name: Dokumente und Formulare
+      URL: forms
+Languages:
+  de:
+    languageName: De
+    languageCode: de-de
+    contentDir: content/german
+    weight: 2
+    home: Startseite
+    copyright: "Copyright &copy; 2022 Georg-Cantor-Gymnasium Halle (Saale). Made
+      with :heart: and <a href='https://gohugo.io'>Hugo</a>."
+    impressumURL: impressum
+    dseURL: datenschutz
