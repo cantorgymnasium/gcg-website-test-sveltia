@@ -20,6 +20,8 @@ type: post
 ---
 {{< load-photoswipe >}}
 
+#### W﻿eihnachtswichteln des Schülerrats
+
 A﻿uch in diesem Jahr realisierte der Schülerrat unser traditionelles Weihnachtswichteln. Mit 820 Wichtelgeschenken wurde ein neuer Rekord erreicht! Wir hoffen, dass sich alle Bewichtelten über ihre Geschenke freuen. 
 
 E﻿in großer Dank geht an den Schülerrat für die Organisation. Insbesondere an Hagen als Wichtel-Chef, aber auch an alle Plätzchenbäcker, Tütenpacker und Weihnachtswichtel beim Austeilen in den Klassen. 
@@ -29,6 +31,8 @@ E﻿in großer Dank geht an den Schülerrat für die Organisation. Insbesondere 
 
 <﻿br>
 
+### W﻿eihnachtskonzert 
+
 A﻿m 16.12.2022 konnten unsere musikalischen Talente der Schule endlich wieder beim Weihnachtskonzert unsrer Schule in der Ulrichskirche glänzen. Es herrschte wieder eine atemberaubende Atmosphäre. Es ist schön, dass diese Tradition endlich wieder stattfinden konnte. 
 
 W﻿ir bedanken uns bei allen Beteiligten!
@@ -37,6 +41,8 @@ W﻿ir bedanken uns bei allen Beteiligten!
 {{< gallery dir="media/blog/Weihnachtskonzert2022" >}}
 
 <﻿br>
+
+### W﻿eihnachtssingen und Abschied in die Ferien
 
 A﻿m letzten Schultag vor den Weihnachtsferien konnte 2022 endlich wieder unser traditionelles Weihnachtssingen nach pandemiebedingter Zwangspause endlich wieder stattfinden. Um 11 Uhr versammelten sich die Schülerinnen und Schüler, Lehrkräfte, unsere Alumni-Gäste und weitere Angestellte der Schule in der 2. Etage zum Weihnachtssingen. 
 
