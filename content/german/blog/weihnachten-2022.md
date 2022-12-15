@@ -14,6 +14,8 @@ tags:
   - Weihnachtssingen
   - Wichteln
   - Schülerrat
+  - Traditionen
+  - Weihnachten
 type: post
 ---
 {{< load-photoswipe >}}
