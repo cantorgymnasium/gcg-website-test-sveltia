@@ -290,7 +290,6 @@ collections:
           - {label: "Titel", name: "title", widget: "string", required: true}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
-          - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - label: "Elemente"
             label_singular: "Element"
@@ -527,7 +526,6 @@ collections:
         collection: "author-de"
         search_fields: ["title"]
         value_field: "title"
-        display_fields: ["title"]
       - label: "Kategorien"
         name: "categories"
         widget: "list"

@@ -2,11 +2,10 @@
 title: Junior-Ingenieur-Akademie
 draft: false
 bg_image: media/backgrounds/page-title.png
-description:
-type: "pages"
-layout: "single.html"
+description: null
+type: pages
+layout: single.html
 ---
-
 {{< load-photoswipe >}}
 
 Die Junior-Ingenieur-Akademie wird an unserer Schule durch die Deutsche Telekom Stiftung ermöglicht.

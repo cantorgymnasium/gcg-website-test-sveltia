@@ -21,8 +21,10 @@ Frau Kretschmar
 
 #### Adresse:
 
-Georg-Cantor-Gymnasium <br>
-Torstraße 13 <br>
+Georg-Cantor-Gymnasium
+
+Torstraße 13
+
 06110 Halle (Saale)
 
 ### Webmaster:
