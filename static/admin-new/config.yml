@@ -278,7 +278,7 @@ collections:
         file: "content/german/about/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
@@ -288,7 +288,7 @@ collections:
         file: "content/german/anmeldung/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string", required: true}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
@@ -306,7 +306,7 @@ collections:
         file: "content/german/cantorpreis/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "contact-index"
@@ -314,7 +314,7 @@ collections:
         file: "content/german/kontakt/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Text", name: "body", widget: "markdown"}
@@ -323,7 +323,7 @@ collections:
         file: "content/german/termine/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - label: Termine
@@ -342,7 +342,7 @@ collections:
         file: "content/german/forms/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "ganztagsangebote-index"
@@ -350,7 +350,7 @@ collections:
         file: "content/german/ganztagsangebote/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "impressum"
@@ -358,7 +358,7 @@ collections:
         file: "content/german/impressum/index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
           - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
@@ -368,7 +368,7 @@ collections:
         file: "content/german/datenschutz/index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
           - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
@@ -378,7 +378,7 @@ collections:
         file: "content/german/wettbewerbe/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "begabtenfoerderung-index"
@@ -386,7 +386,7 @@ collections:
         file: "content/german/begabtenfoerderung/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "schuelervertretung-index"
@@ -394,7 +394,7 @@ collections:
         file: "content/german/schuelervertretung/index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
@@ -405,7 +405,7 @@ collections:
         file: "content/german/schuelervertretung/geschaeftsordnung.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
@@ -416,7 +416,7 @@ collections:
         file: "content/german/bibo/index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
@@ -427,7 +427,7 @@ collections:
         file: "content/german/abiturienten/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Text", name: "body", widget: "markdown", required: false}
@@ -436,7 +436,7 @@ collections:
         file: "content/german/cantorfora/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Text", name: "body", widget: "markdown", required: false}
@@ -445,7 +445,7 @@ collections:
         file: "content/german/elternvertretung/index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
@@ -456,7 +456,7 @@ collections:
         file: "content/german/jia/index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+          - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
@@ -603,7 +603,7 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "dd.MM.yyyy", time_format: "HH:mm"}
-      - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/ganztagsangebote/image.png", required: false}
@@ -630,7 +630,7 @@ collections:
     public_folder: '/media/contests'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
@@ -652,7 +652,7 @@ collections:
     public_folder: '/media/begabtenfoerderung'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
@@ -674,7 +674,7 @@ collections:
     public_folder: '/media/schulchronik'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "schulchronik"}
@@ -692,10 +692,10 @@ collections:
     public_folder: '/media/abiturienten'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Entwurf", name: "draft", widget: "boolean", default: "false", required: false}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
-      - {label: "Mehrere Bilder", name: "few", widget: "boolean", default: "false", required: false}
+      - {label: "Mehrere Bilder", name: "few", widget: "boolean", default: false, required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "abiturienten"}
       - {label: "Text", name: "body", widget: "markdown"}
 
