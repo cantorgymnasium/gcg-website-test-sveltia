@@ -18,9 +18,9 @@ type: post
 ---
 {{< load-photoswipe >}}
 
-A﻿uch in diesem Jahr realisierte der Schülerrat unser traditionelles Weihnachtswichteln. Mit 820 Wichtelgeschenken wurde ein neuer Rekord erreicht! Wir hoffen, dass sich alle Bewichtelten über ihre Geschenke freuen. 
+A﻿uch in diesem Jahr realisierte der Schülerrat unser traditionelles Weihnachtswichteln. Mit 820 Wichtelgeschenken wurde ein neuer Rekord erreicht! Wir hoffen, dass sich alle Bewichtelten über ihre Geschenke freuen.
 
-E﻿in großer Dank geht an den Schülerrat für die Organisation. Insbesondere an Hagen als Wichtel-Chef, aber auch an alle Plätzchenbäcker, Tütenpacker und Weihnachtswichtel beim Austeilen in den Klassen. 
+E﻿in großer Dank geht an den Schülerrat für die Organisation. Insbesondere an Hagen als Wichtel-Chef, aber auch an alle Plätzchenbäcker, Tütenpacker und Weihnachtswichtel beim Austeilen in den Klassen.
 
-<br>
+
 {{< gallery dir="media/blog/Wichteln2022" >}}

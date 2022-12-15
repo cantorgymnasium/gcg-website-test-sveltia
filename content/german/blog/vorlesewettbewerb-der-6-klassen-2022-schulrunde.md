@@ -22,5 +22,8 @@ Ein Dank soll an Frau Opel-Fritzlar gerichtet werden, welche die schönen zwei S
 
 Mit leichtem Abstand konnte sich Nino aus der 6/3 durchsetzen und wird unsere Schule bei der Stadtrunde vertreten. Wir drücken die Daumen!
 
-<br>
-{{< gallery dir="media/blog/VorlesewettbewerbKl6_12_2022">}}
+
+
+{{< gallery dir="media/blog/VorlesewettbewerbKl6_12_2022" >}}
+
+
