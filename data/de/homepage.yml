@@ -1,3 +1,8 @@
+top_banner:
+  enable: false
+  text: "Jetzt neu: Die GCG-Website"
+  color: \#d30404
+  font_color: \#ffffff
 slider:
   enable: true
   bg_image: media/home/banner.webp

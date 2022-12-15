@@ -24,7 +24,7 @@ route_link = "https://maps.openrouteservice.org/directions?n1=51.473292&n2=11.96
 address = "Georg-Cantor-Gymnasium <br> Torstraße 13 <br> 06110 Halle (Saale)"
 top_header = true
 email = "schulleitung@cantor-gymnasium.de"
-email_preatty = "schulleitung<i class='fa-solid fa-at'></i>cantor-gymnasium.de"
+email_pretty = "schulleitung<i class='fa-solid fa-at'></i>cantor-gymnasium.de"
 description = "Das Georg-Cantor-Gymnasium - eine mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale)."
 twitter = "cantor_news"
 images = ['media/zeichnung.jpg']

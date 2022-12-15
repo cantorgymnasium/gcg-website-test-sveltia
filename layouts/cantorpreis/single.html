@@ -9,13 +9,16 @@
       <div class="col-md-6 mb-5">
         <h3>{{ .Params.Name }}</h3>
         <h6 class="text-color">{{ .Title }}</h6>
-        <p class="mb-5">{{ .Params.Bio | markdownify }}</p>
+        <div class="content">
+          {{ .Content | markdownify }}
+        </div>
+        </div>
         <div class="row">
         </div>
       </div>
-      <div class="col-12 content">
+      <!--div class="col-12 content">
         {{ .Content }}
-      </div>
+      </div-->
     </div>
   </div>
 </section>

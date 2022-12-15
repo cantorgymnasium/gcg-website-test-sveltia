@@ -85,4 +85,4 @@ Danach konnte sich das Gebäude auch wirklich sehen lassen.
 
 Sogar die Sprüche, welche sich über einigen Türen im Gebäude befanden wurden restauriert.
 
-{{< card title="Historische Türüberschriften im Gebäude Torstraße" link="/schulchronik/tuerueberschriften-torstrasse" >}}
+{{< card title="Historische Türüberschriften im Gebäude Torstraße" link="/schulchronik/pages/tuerueberschriften-torstrasse" >}}
