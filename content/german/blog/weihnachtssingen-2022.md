@@ -24,4 +24,4 @@ J﻿etzt wünschen wir allen erholsame Ferien, Frohe Weihnachten und einen Guten
 W﻿ir sehen uns alle im neuen Jahr hoffentlich gesund wieder. 
 
 <br>
-{{< gallery dir="media/blog/Weihnachtssngen2022" >}}
+{{< gallery dir="media/blog/Weihnachtssingen2022" >}}
