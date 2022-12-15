@@ -38,9 +38,13 @@ W﻿ir bedanken uns bei allen Beteiligten!
 
 <﻿br>
 
-A﻿m 16.12.2022 konnten unsere musikalischen Talente der Schule endlich wieder beim Weihnachtskonzert unsrer Schule in der Ulrichskirche glänzen. Es herrschte wieder eine atemberaubende Atmosphäre. Es ist schön, dass diese Tradition endlich wieder stattfinden konnte. 
+A﻿m letzten Schultag vor den Weihnachtsferien konnte 2022 endlich wieder unser traditionelles Weihnachtssingen nach pandemiebedingter Zwangspause endlich wieder stattfinden. Um 11 Uhr versammelten sich die Schülerinnen und Schüler, Lehrkräfte, unsere Alumni-Gäste und weitere Angestellte der Schule in der 2. Etage zum Weihnachtssingen. 
 
-W﻿ir bedanken uns bei allen Beteiligten!
+G﻿roßen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation. 
+
+J﻿etzt wünschen wir allen erholsame Ferien, Frohe Weihnachten und einen Guten Rutsch. 
+
+W﻿ir sehen uns alle im neuen Jahr hoffentlich gesund wieder. 
 
 <br>
-{{< gallery dir="media/blog/Weihnachtskonzert2022" >}}
+{{< gallery dir="media/blog/Weihnachtssingen2022" >}}
