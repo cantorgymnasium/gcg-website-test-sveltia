@@ -35,3 +35,10 @@ W﻿ir bedanken uns bei allen Beteiligten!
 {{< gallery dir="media/blog/Weihnachtskonzert2022" >}}
 
 <﻿br>
+
+A﻿m 16.12.2022 konnten unsere musikalischen Talente der Schule endlich wieder beim Weihnachtskonzert unsrer Schule in der Ulrichskirche glänzen. Es herrschte wieder eine atemberaubende Atmosphäre. Es ist schön, dass diese Tradition endlich wieder stattfinden konnte. 
+
+W﻿ir bedanken uns bei allen Beteiligten!
+
+<br>
+{{< gallery dir="media/blog/Weihnachtskonzert2022" >}}
