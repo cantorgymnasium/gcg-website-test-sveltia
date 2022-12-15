@@ -36,6 +36,60 @@
           icon: 'info',
         },
       }); 
+      CMS.registerShortcode('gallery', {
+        label: 'Gallery',
+        openTag: '{{< ',
+        closeTag: ' >}}',
+        separator: ' ',
+        toProps: args => {
+          if (args.length > 0) {
+            var dir = args.find(arg => arg.startsWith('dir='))?.split('=')[1].replaceAll("\"","") ?? '';
+            console.log(dir);
+            return { dir: dir };
+          }
+      
+          return { dir: '' };
+        },
+        toArgs: ({ dir }) => {
+          return [`dir=\"${dir}\"`];
+        },
+        control: ({ dir, onChange }) => {
+          return h('div', {"className": "row", "style": { border: "1px solid #ccc", borderRadius: "16px", padding: "10px" }},
+          h('b', {}, "Gallerie-Ordner: "),
+          h('input', {
+            key: 'control-input',
+            value: dir,
+            onChange: event => {
+              onChange({ dir: event.target.value });
+            },
+          }));
+        },
+        preview: ({ dir }) => {
+          return h(
+      'span',
+      {},
+      `${dir}`
+    );
+        },
+      });
+      CMS.registerShortcode('load-photoswipe', {
+        label: 'Gallerie-Servicemodul',
+        openTag: '{{< ',
+        closeTag: ' >}}',
+        separator: '',
+        toProps: args => {
+        },
+        toArgs: () => {
+        },
+        control: () => {
+          return h('div', {"className": "row", "style": { border: "1px solid #ccc", borderRadius: "16px", padding: "10px" }},
+          h('b', {}, "Gallerie-Servicemodul"));
+        },
+        preview: () => {
+          return h('div', {"className": "row", "style": { border: "1px solid #ccc", borderRadius: "16px", padding: "10px" }},
+          h('b', {}, "Gallerie-Servicemodul"));
+        },
+      });
     </script>
     <script>
 CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/bootstrap/bootstrap.min.css");
