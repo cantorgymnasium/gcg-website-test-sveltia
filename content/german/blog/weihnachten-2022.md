@@ -30,6 +30,16 @@ Ein großer Dank geht an den Schülerrat für die Organisation. Insbesondere an 
 
 <br>
 
+#### Weihnachtsbasar
+
+U﻿nter Anleitung des Schülerrats wurde wieder ein öffentlicher Weihnachtsbasar in unserer Schule organisiert. In der Aula verkauften die Klassen kleine Basteleien und Leckereien. Auch für eine musikalische Umrahmung sorgten unsere Schülerinnen und Schüler. Die Einnahmen werden an das Kinderhospiz Halle gespendet. Unsere 10., 11. und 12. Klassen sorgten für das leibliche Wohl mit Buffetverkauf und Grillen auf dem Hof.
+
+Ein großer Dank geht an den Schülerrat für die Organisation. Aber auch alle Bastler, Bäcker und Musiker sollen hervorgehoben werden. 
+
+{{< gallery dir="media/blog/Weihnachtsbasar2022" >}}
+
+<br>
+
 ### Weihnachtskonzert
 
 Am 16.12.2022 konnten unsere musikalischen Talente der Schule endlich wieder beim Weihnachtskonzert unsrer Schule in der Ulrichskirche glänzen. Es herrschte wieder eine atemberaubende Atmosphäre. Es ist schön, dass diese Tradition endlich wieder stattfinden konnte.
@@ -46,16 +56,8 @@ Am letzten Schultag vor den Weihnachtsferien konnte 2022 endlich wieder unser tr
 
 Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 
-
-
 {{< gallery dir="media/blog/Weihnachtssingen2022" >}}
-
-
 
 #### J﻿etzt wünschen wir allen erholsame Ferien , Frohe Weihnachten und einen Guten Rutsch.
 
 #### W﻿ir sehen uns alle im neuen Jahr hoffentlich gesund wieder.
-
-
-
-
