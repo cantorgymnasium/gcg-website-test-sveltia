@@ -42,7 +42,7 @@ Ein großer Dank geht an den Schülerrat für die Organisation. Aber auch alle B
 
 ### Weihnachtskonzert
 
-Am 16.12.2022 konnten unsere musikalischen Talente der Schule endlich wieder beim Weihnachtskonzert unsrer Schule in der Ulrichskirche glänzen. Es herrschte wieder eine atemberaubende Atmosphäre. Es ist schön, dass diese Tradition endlich wieder stattfinden konnte.
+Am 16.12.2022 konnten unsere musikalischen Talente der Schule endlich wieder beim Weihnachtskonzert unserer Schule in der Ulrichskirche glänzen. Es herrschte wieder eine atemberaubende Atmosphäre. Es ist schön, dass diese Tradition endlich wieder stattfinden konnte. Chor, Schulband und Keyborder sangen und spielten wunderbare Stücke, teils mit dem Publikum zusammen. Wie jedes Jahr wurden die Musiker der 12. Klassen verabschiedet. Sie werden eine große Lücke hinterlassen, aber hoffentlich sehen wir alle bei künftigen Weihnachtskonzerten beim gemeinsamen Singen mit den Alumnis wieder. 
 
 Wir bedanken uns bei allen Beteiligten!
 
