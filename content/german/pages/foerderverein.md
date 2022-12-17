@@ -1,10 +1,11 @@
 ---
 title: Förderverein
-description:
 draft: false
 bg_image: media/backgrounds/page-title.png
+description: null
 type: "pages"
 layout: "single.html"
+aliases: [/foerderverein/]
 ---
 
 Der Förderverein des Georg-Cantor-Gymnasiums e.V. unterstützt die Schulleitung und die Lehrer seit nunmehr 20 Jahren in ihren Bemühungen um eine bestmögliche Ausbildung der SchülerInnen. Auch Anliegen der Schülerschaft werden gerne entgegengenommen und unterstützt. Wir wollen die SchülerInnen in ihrer Selbstentscheidung und ihre soziale Verantwortung fördern.
@@ -30,4 +31,4 @@ Wenn Sie Fragen zu unserer Arbeit haben und uns unterstützen möchten, dann suc
 
 Wussten Sie schon, dass Sie mit jedem Einkauf bei Amazon 0,5 % Ihres Einkaufswertes an den Verein spenden können, ohne eine Cent mehr zu bezahlen? Nutzen Sie folgenden Link um sich bei amazon smile anzumelden!
 
-<a href="https://smile.amazon.de/ch/110-142-04263" title="zu AmazonSmile" target="_blank"><img src="/media/amazonsmilelogo.jpg" alt="AmazonSmileLogo" width="20%" align="middle"></a>
+<a href="https://smile.amazon.de/ch/110-142-04263" title="zu AmazonSmile" target="_blank"><img src="/media/foev/amazonsmilelogo.jpg" alt="AmazonSmileLogo" width="20%" align="middle"></a>

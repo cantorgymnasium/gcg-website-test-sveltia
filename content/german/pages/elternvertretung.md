@@ -5,6 +5,7 @@ bg_image: media/backgrounds/page-title.png
 description: Herzlich willkommen beim Schulelternrat des Georg-Cantor-Gymnasiums Halle
 type: pages
 layout: single.html
+aliases: [/elternvertretung/]
 ---
 Elternarbeit ist ein wichtiger Bestandteil des schulischen Lebens und bietet eine Vielzahl von Beteiligungs- und Gestaltungsmöglichkeiten. 
 
@@ -25,4 +26,4 @@ Der Schulträger und die Schulleitung unterrichten uns über alle Angelegenheite
 
 #### Kontakt
 
-* **Mail:** <a href="mailto:schulelternrat@cantor-gymnasium.de"><i class="fa-solid fa-at"></i>schulelternrat<i class="fa-solid fa-at"></i>cantor-gymnasium.de</a>
+* **Mail:** <a href="mailto:schulelternrat@cantor-gymnasium.de">schulelternrat<i class="fa-solid fa-at"></i>cantor-gymnasium.de</a>

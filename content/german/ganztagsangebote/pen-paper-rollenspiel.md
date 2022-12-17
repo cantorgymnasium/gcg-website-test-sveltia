@@ -18,7 +18,7 @@ Erfindet spannende Geschichten und erlebt selbst erdachte Rollenspiele. Eurer Fa
 ### Termine
 
 |Tag|Klassenstufe|Zeit|Raum|
-|---|------------|----|----|
+|---|---|---|---|
 |Montag|5./6. Klasse|ab 13:30 Uhr|208|
 |Dienstag|5./6. Klasse|ab 14:20 Uhr|105|
 |Dienstag|8./9. Klasse|ab 17:00 Uhr|online|

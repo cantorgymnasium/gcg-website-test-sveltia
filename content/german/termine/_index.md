@@ -5,10 +5,6 @@ bg_image: media/backgrounds/page-title.png
 description: Hier sind alle Termine für das laufende bzw. nächste Schuljahr aufgelistet.
 events:
   - enddate: ""
-    date: 2022-12-16T14:53:40.973Z
-    title: Weihnachtskonzert
-    location: Ulrichskirche
-  - enddate: ""
     date: 2022-12-20T14:54:42.180Z
     title: Weihnachtssingen
     location: Georg-Cantor Gymnasium

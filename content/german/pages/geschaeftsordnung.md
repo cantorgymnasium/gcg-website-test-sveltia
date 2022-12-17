@@ -2,6 +2,7 @@
 title: Geschäftsordnung der Schülervertretung
 draft: false
 bg_image: media/backgrounds/page-title.png
+description: null
 type: "pages"
 layout: "single.html"
 aliases: [/schuelervertretung/geschaeftsordnung/]

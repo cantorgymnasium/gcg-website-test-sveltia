@@ -2,8 +2,10 @@
 title: Datenschutz
 draft: false
 bg_image: media/backgrounds/page-title.png
+description: null
 type: pages
 layout: single.html
+aliases: [/datenschutz/]
 ---
 Stand: 17. Oktober 2022
 
@@ -29,7 +31,7 @@ Telefon:
 
 Impressum:
 
-[https://cantorgymnasium.de/impressum/](https://cantorgymnasium.de/impressum/)
+[https://cantorgymnasium.de/pages/impressum/](https://cantorgymnasium.de/pages/impressum/)
 
 ## Übersicht der Verarbeitungen
 

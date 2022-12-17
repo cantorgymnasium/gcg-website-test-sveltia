@@ -3,13 +3,12 @@ title: Frühstudium
 draft: false
 bg_image: media/bild_titelbild.jpg
 description: ""
+image: ""
 category: Naturwissenschaften
 class: 10 - 12 Klasse
-web_url:
-image:
+web_url: null
 type: begabtenfoerderung
 ---
-
 Die Martin-Luther-Universität Halle-Wittenberge bietet seit dem Wintersemester 2006/07 die Möglichkeit, besonders begabte und leistungsstarke Schülerinnen und Schüler der Stufen 11 und 12 als Frühstudierende an Vorlesungen und Übungen in bestimmten Studienfächern teilnehmen und dort die entsprechenden Leistungsnachweise erwerben zu lassen.
 
 Aus Sicht der Schule ist mit dem Frühstudium eine weitere Möglichkeit der Begabtenförderung in den Jahrgangsstufen 10, 11 und 12 gegeben. Sie kommt nur für leistungsstarke SchülerInnen in Betracht, da in der Regel Unterrichtsstunden wegfallen und selbständig nachgearbeitet werden müssen.
@@ -32,8 +31,8 @@ Die Schülerinnen und Schüler absolvieren in zwei Blockpraktika die Versuchsrei
 
 Die Schülerinnen und Schüler absolvieren ein Blockpraktikum zur Vertiefung ausgewählter Inhalte des Fachlehrplans an der Universität Halle. Ziel ist das Erlernen von vielseitigen Fähigkeiten und Fertigkeiten im Umgang mit Geräten und Methoden des Laboralltags.
 Schwerpunkte:
+
 - rekombinante Proteinexpression (Wochenexperiment)
 - Mikroskopie von Tumorzellen
 - Isolation, Amplifikation und Auftrennung der Mundschleimhautzell-DANN
 - Versuch zur Wirkungsweise von Enzymen
-

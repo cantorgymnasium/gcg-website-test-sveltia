@@ -3,17 +3,17 @@ title: CantorTechnik
 date: 2022-03-20T22:57:55.974Z
 draft: false
 bg_image: /media/backgrounds/page-title.png
+description: ""
+image: /media/ganztagsangebote/cantortechnik.webp
 categories_ag:
   - Technik
   - Naturwissenschaften
-weekly: "Donnerstag, 8.-9. Stunde "
 duration: 2 Stunden
+weekly: "Donnerstag, 8.-9. Stunde "
 class: alle Klassenstufen
-type: ganztagsangebote
 room: "403"
-description: ""
-image: /media/ganztagsangebote/cantortechnik.webp
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
+type: ganztagsangebote
 ---
 ### Über die AG
 
@@ -35,19 +35,18 @@ Um anderen einen Einblick in unser AG-Leben zu verschaffen, haben wir die letzte
 
 ### Bereiche der AG
 
-* Arduino - Entwicklung von IoT-Geräten mit Arduino.
-* Programmieren - Programmierung von Standalone-Apps mit den Programmiersprachen Python, Java und anderen.
-* Robotik - Bau von intelligenten Robotern auf Basis von Arduino und Raspberry Pi.
-* Repair Café - Reparatur von alten Schulcomputern, Installation und Konfiguration von Linux und anderes ...
-
+- Arduino - Entwicklung von IoT-Geräten mit Arduino.
+- Programmieren - Programmierung von Standalone-Apps mit den Programmiersprachen Python, Java und anderen.
+- Robotik - Bau von intelligenten Robotern auf Basis von Arduino und Raspberry Pi.
+- Repair Café - Reparatur von alten Schulcomputern, Installation und Konfiguration von Linux und anderes ...
 
 ### Themen
 
-* Erlernen der Grundlagen der Programmierung
-* Erlernen von Linux-Grundlagen
-* Reparatur von Computern
-* Arbeit mit Elektronik
-* Grundlagen der Linux-Konsole
+- Erlernen der Grundlagen der Programmierung
+- Erlernen von Linux-Grundlagen
+- Reparatur von Computern
+- Arbeit mit Elektronik
+- Grundlagen der Linux-Konsole
 
 ### Teilnahme an der AG
 

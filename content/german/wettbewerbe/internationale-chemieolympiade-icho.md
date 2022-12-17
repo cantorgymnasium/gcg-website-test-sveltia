@@ -16,6 +16,6 @@ internationalen Wettbewerb teilnehmen
 Runde 1: (Hausaufgabenrunde): theoretische Aufgaben
 Runde 2: vierstündige Klausur
 Runde 3: die 60 besten Teilnehmer → achttägiges Auswahlseminar mit Vorträgen und
- Übungen zu Fachthemen, Laborarbeit und einem tollen Rahmenprogramm.
+Übungen zu Fachthemen, Laborarbeit und einem tollen Rahmenprogramm.
 Runde 4: Die 15 Besten der dritten Runde bewerben sich in der Auswahlrunde in Kiel um
- einen Platz in der deutschen Mannschaft für den internationalen Wettstreit
+einen Platz in der deutschen Mannschaft für den internationalen Wettstreit

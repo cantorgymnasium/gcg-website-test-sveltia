@@ -5,6 +5,7 @@ bg_image: media/backgrounds/page-title.png
 description: null
 type: pages
 layout: single.html
+aliases: [/bibo/]
 ---
 Die Bibliothek unserer Schule wurde 1991 mit einem Bestand von 3570 Büchern gegründet. Hinzu kamen ca. 4500 Bände aus dem ehemaligen Torgymnasium. Nach einer Bestandsreduzierung konnten, unter Berücksichtigung von Schülerwünschen, neue Kinder- und Jugendbücher erworben werden.
 

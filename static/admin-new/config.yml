@@ -259,15 +259,15 @@ collections:
                   - {label: "Copyright-Hinweis", name: "copyright", widget: "string"}
                   - {label: "Impressum-Link", name: "impressumURL", widget: "string"}
                   - {label: "Datenschutz-Link", name: "dseURL", widget: "string"}
-  - name: "pages-de"
+  - name: "index-pages"
     icon: "page"
-    label: "Statische Seiten"
+    label: "Hauptseiten"
     editor:
       preview: true
       frame: false
     files:
       - name: "blog-index"
-        label: "Blog"
+        label: "Aktuelles"
         file: "content/german/blog/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
@@ -461,18 +461,40 @@ collections:
           - {label: "Type", name: "type", widget: "hidden", default: "pages"}
           - {label: "Type", name: "layout", widget: "hidden", default: "single.html"}
           - {label: "Text", name: "body", widget: "markdown", required: false}
-  - name: "author-de" 
+  - name: "pages"
+    icon: "page"
+    label: "Zusatzseiten"
+    label_singular: "Zusatzseite"
+    folder: "content/german/pages"
+    create: true
+    editor:
+      preview: true
+      frame: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - {label: "Type", name: "type", widget: "hidden", default: "pages"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "single.html"}
+      - label: "Aliase"
+        name: "aliases"
+        widget: "string"
+        required: false
+      - {label: "Text", name: "body", widget: "markdown", required: false}
+  - name: "author" 
     icon: "user"
-    label: "Autoren" # Used in the UI
+    label: "Autoren"
     label_singular: "Autoren"
-    folder: "content/german/author" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., yyyy-MM-dd-title.md
+    folder: "content/german/author"
+    create: true
+    slug: "{{slug}}"
     editor:
      preview: false
     media_folder: '/static/media/people'
     public_folder: '/media/people'
-    fields: # The fields for each document, usually in front matter
+    fields:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
@@ -501,7 +523,7 @@ collections:
           - {label: "Link", name: "link", widget: "string"}
         required: false
       - {label: "Beschreibung", name: "body", widget: "markdown"}
-  - name: "blog-de"
+  - name: "blog"
     icon: "news"
     label: "Aktuelles"
     label_singular: "Blogbeitrag"
@@ -510,7 +532,7 @@ collections:
     create: true
     slug: "{{slug}}"
     editor:
-     preview: false
+     preview: true
     media_folder: '/static/media/blog'
     public_folder: '/media/blog'
     fields:
@@ -523,7 +545,7 @@ collections:
       - label: "Beitragsautor"
         name: "author"
         widget: "relation"
-        collection: "author-de"
+        collection: "author"
         search_fields: ["title"]
         value_field: "title"
       - label: "Kategorien"
@@ -538,7 +560,7 @@ collections:
         field: {label: "Tag", name: "tag", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Text", name: "body", widget: "markdown"}
-  - name: "forms-de"
+  - name: "forms"
     icon: "document"
     label: "Dokumente"
     label_singular: "Dokument"
@@ -560,7 +582,7 @@ collections:
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "forms"}
       - {label: "Text", name: "body", widget: "markdown"}
-  - name: "cantorpreis-de"
+  - name: "cantorpreis"
     icon: "award"
     label: "Cantor-Preisträger"
     label_singular: "Cantor-Preisträger"
@@ -587,7 +609,7 @@ collections:
           - {label: "Link", name: "link", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}
       - {label: "Text", name: "body", widget: "markdown"}
-  - name: "ganztagsangebote-de"
+  - name: "ganztagsangebote"
     icon: "group"
     label: "Ganztagsangebote"
     label_singular: "Ganztagsangebot"
@@ -615,7 +637,7 @@ collections:
       - {label: "Anmeldelink", name: "apply_url", widget: "hidden", default: "https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828"}
       - {label: "Type", name: "type", widget: "hidden", default: "ganztagsangebote"}
       - {label: "Text", name: "body", widget: "markdown"}
-  - name: "wettbewerbe-de"
+  - name: "wettbewerbe"
     icon: "trophy"
     label: "Wettbewerbe"
     label_singular: "Wettbewerb"
@@ -637,7 +659,7 @@ collections:
       - {label: "Website", name: "web_url", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "wettbewerbe"}
       - {label: "Text", name: "body", widget: "markdown"}
-  - name: "begabtenfoerderung-de"
+  - name: "begabtenfoerderung"
     icon: "book"
     label: "Begabtenförderung"
     label_singular: "Begabtenförderung"

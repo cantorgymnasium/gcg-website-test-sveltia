@@ -2,6 +2,6 @@
 title: Frau Krug
 bg_image: /media/backgrounds/page-title.png
 description: ""
-image: /media/meincantor-round.png
+image: /media/people/cantor-round.png
 ---
  

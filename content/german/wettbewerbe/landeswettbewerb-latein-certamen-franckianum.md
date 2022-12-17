@@ -12,14 +12,14 @@ type: wettbewerbe
 
 Die Teilnahme am Landeswettbewerb Latein ist kostenlos und erfolgt getrennt nach Jahrgangsstufen.
 
-* *Certamen Puerile* (Klassenstufen 7 und 8)
+- _Certamen Puerile_ (Klassenstufen 7 und 8)
 
 In dieser Sparte beschäftigen sich die Schülerinnen und Schüler meist auf kreative Art und Weise mit (römisch-)antiken Texten und Themen.
 
-* *Certamen Iuvenile* (Klassenstufen 9 und 10)
+- _Certamen Iuvenile_ (Klassenstufen 9 und 10)
 
 In dieser Sparte erfolgt eine meist intensive inhaltliche und sprachliche Auseinandersetzung mit einem lateinischen Originaltext.
 
-* *Certamen Franckianum* (Klassenstufen 11 und 12)
+- _Certamen Franckianum_ (Klassenstufen 11 und 12)
 
 In dieser Sparte erstreckt sich die Teilnahme über 3 Runden. In der ersten Runde erfolgt eine Übersetzung aus dem Lateinischen. Die besten Teilnehmenden qualifizieren sich für die zweite Runde, in der im Rahmen einer schriftlichen Arbeit ein lateinisches Textstück interpretiert werden muss. Die 8 besten Schülerinnen und Schüler werden schließlich zur Endrunde eingeladen, in der es attraktive Preise zu gewinnen gibt, so z.B. die Aufnahme in die Studienstiftung des Deutschen Volkes sowie Reisen.

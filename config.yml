@@ -1,6 +1,6 @@
 baseURL: https://cantorgymnasium.de/
 title: Georg-Cantor-Gymnasium
-paginate: "6"
+paginate: 5
 summaryLength: "10"
 defaultContentLanguageInSubdir: false
 defaultContentLanguage: de
@@ -45,10 +45,10 @@ params:
     - title: YouTube
       icon: fa-brands fa-youtube
       link: https://www.youtube.com/channel/UCHafBDI5qfK03RiIEyki9VA
-    - title: twitter
+    - title: Twitter
       icon: fa-brands fa-twitter
       link: https://twitter.com/cantor_news
-    - title: instagram
+    - title: Instagram
       icon: fa-brands fa-instagram
       link: https://instagram.com/cantor.news
     - title: Facebook
@@ -99,7 +99,7 @@ menu:
       hasChildren: false
     - parent: Schule
       name: Junior-Ingenieur-Akademie
-      URL: jia
+      URL: pages/jia
       weight: 8
       hasChildren: false
     - parent: Schule
@@ -109,7 +109,7 @@ menu:
       hasChildren: false
     - parent: Schule
       name: Schulbibliothek
-      URL: bibo
+      URL: pages/bibo
       weight: 9
       hasChildren: false
     - parent: Schule
@@ -145,7 +145,7 @@ menu:
       hasChildren: false
     - parent: Für Schüler und Eltern
       name: Förderverein
-      URL: foerderverein
+      URL: pages/foerderverein
       weight: 2
       hasChildren: false
     - parent: Für Schüler und Eltern
@@ -155,12 +155,12 @@ menu:
       hasChildren: false
     - parent: Für Schüler und Eltern
       name: Schülervertretung
-      URL: schuelervertretung
+      URL: pages/schuelervertretung
       weight: 3
       hasChildren: false
     - name: Elternvertretung
       weight: 4
-      URL: elternvertretung
+      URL: pages/elternvertretung
       parent: Für Schüler und Eltern
       hasChildren: false
     - name: Kontakt
@@ -174,7 +174,7 @@ menu:
       URL: anmeldung
     - name: Dokumente und Formulare
       URL: forms
-Languages:
+languages:
   de:
     languageName: De
     languageCode: de-de
@@ -183,5 +183,5 @@ Languages:
     home: Startseite
     copyright: "Copyright &copy; 2022 Georg-Cantor-Gymnasium Halle (Saale). Made
       with :heart: and <a href='https://gohugo.io'>Hugo</a>."
-    impressumURL: impressum
-    dseURL: datenschutz
+    impressumURL: pages/impressum
+    dseURL: pages/datenschutz

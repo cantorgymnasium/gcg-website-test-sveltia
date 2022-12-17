@@ -2,8 +2,10 @@
 title: Impressum
 draft: false
 bg_image: media/backgrounds/page-title.png
+description: null
 type: pages
 layout: single.html
+aliases: [/impressum/]
 ---
 ### Georg-Cantor-Gymnasium Halle (Saale)
 

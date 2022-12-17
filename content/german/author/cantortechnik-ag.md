@@ -3,7 +3,7 @@ title: CantorTechnik AG
 bg_image: /media/slide1.jpg
 description: ""
 email: technik@cantor-gymnasium.de
-image: /media/people/meincantor-round.png
+image: /media/people/cantor-round.png
 social:
   - title: YouTube
     icon: fa-brands fa-youtube

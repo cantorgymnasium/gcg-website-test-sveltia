@@ -5,6 +5,7 @@ bg_image: media/backgrounds/page-title.png
 description: null
 type: pages
 layout: single.html
+aliases: [/jia/]
 ---
 {{< load-photoswipe >}}
 

@@ -65,11 +65,9 @@
           }));
         },
         preview: ({ dir }) => {
-          return h(
-      'span',
-      {},
-      `${dir}`
-    );
+          return h('div', {"className": "row", "style": { border: "1px solid #ccc", borderRadius: "16px", padding: "10px" }},
+          h('b', {}, "Gallerie-Ordner: "),
+          h('span', {}, dir));
         },
       });
       CMS.registerShortcode('load-photoswipe', {
@@ -86,8 +84,7 @@
           h('b', {}, "Gallerie-Servicemodul"));
         },
         preview: () => {
-          return h('div', {"className": "row", "style": { border: "1px solid #ccc", borderRadius: "16px", padding: "10px" }},
-          h('b', {}, "Gallerie-Servicemodul"));
+          
         },
       });
     </script>
@@ -385,6 +382,7 @@ var PagePreviewImage = ({ widgetFor, getAsset, entry}) => {
   };
 
 CMS.registerPreviewTemplate("about-index", PagePreviewImage);
+CMS.registerPreviewTemplate("blog", PagePreviewImage);
 
 </script>
 

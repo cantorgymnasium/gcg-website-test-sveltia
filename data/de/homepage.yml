@@ -76,13 +76,13 @@ success_banner:
   image: media/home/success_banner.webp
   feature_item:
     - name: Mathematik-Olympiade
-      content: |-
+      content: |
         In der Landesrunde der Mathematikolympiade 2022 wurden:
 
-        * **2 von 8 ersten Preisen**
-        * **5 von 13 zweiten Preisen**
-        * **9 von 19 dritten Preisen**
-        * **6 von 28 Anerkennungspreisen**
+        - **2 von 8 ersten Preisen**
+        - **5 von 13 zweiten Preisen**
+        - **9 von 19 dritten Preisen**
+        - **6 von 28 Anerkennungspreisen**
 
         an Schüler unserer Schule verliehen.
       img: true
@@ -91,25 +91,27 @@ success_banner:
     - name: Physikolympiade
       img: true
       image: media/home/po.png
-      content: |-
+      content: |
         In der Landesphysikolympiade 2022 wurden:
 
-        * **2 von 5 ersten Preisen**
-        * **3 von 8 zweiten Preisen**
-        * **1 von 11 dritten Preisen**
-        * **1 von 15 Anerkennungspreisen**
+        - **2 von 5 ersten Preisen**
+        - **3 von 8 zweiten Preisen**
+        - **1 von 11 dritten Preisen**
+        - **1 von 15 Anerkennungspreisen**
 
         an Schüler unserer Schule verliehen.
       icon: ""
     - name: Chemieolympiade
       img: true
       image: media/home/icho.png
-      content: Ein Schüler unserer Schule bekam die Bronzemedaille in der
+      content: >
+        Ein Schüler unserer Schule bekam die Bronzemedaille in der
         Internationalen Chemieolympiade 2020 verliehen. Ein weiterer Schüler
         unserer Schule wurde für die Nationalmannschaft für die IChO 2021
         ausgewählt.
       icon: ""
-    - content: Ein Schüler unserer Schule bekam in der Endrunde von "Chemie - die
+    - content: >
+        Ein Schüler unserer Schule bekam in der Endrunde von "Chemie - die
         stimmt!" 2021 den ersten Platz in drei Kategorien.
       name: Chemie - die stimmt!
       img: true
@@ -117,7 +119,8 @@ success_banner:
       icon: ""
     - name: Und viel mehr ...
       icon: fa-solid fa-medal
-      content: Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
+      content: >
+        Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
         vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
         Spezialistenlager und begabtenfördernde Ganztagsangebote.
       img: false
@@ -125,8 +128,8 @@ success_banner:
 about:
   enable: true
   title: Herzlich willkommen auf der Homepage des Georg-Cantor-Gymnasiums!
-  image: media/pinguin.png
-  content: >-
+  image: media/home/pinguin.png
+  content: >
     Wir sind eine Schule mit mathematisch-naturwissenschaftlich-technischem
     Schwerpunkt und möchten interessierte und begabte Schülerinnen und Schüler
     auf diesem Gebiet fördern. Das schulische Leben unseres Gymnasiums
@@ -174,7 +177,7 @@ blog:
 digitalpakt:
   enable: true
   title: DigitalPakt Schule
-  image: media/digitalpakt.png
+  image: media/home/digitalpakt.png
   content: >-
     Für die Umsetzung des Förderprogramms DigitalPakt Schule
     (DigitalPakt-Richtlinie) gewährt das Land Sachsen-Anhalt für kommunale

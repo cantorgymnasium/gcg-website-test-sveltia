@@ -7,6 +7,7 @@ description: Herzlich willkommen auf der Seite der Schülervertretung des
   unserer Arbeit.
 type: pages
 layout: single.html
+aliases: [/schuelervertretung/]
 ---
 ## Wer sind wir?
 
@@ -80,4 +81,4 @@ unserer Schule zu sehen sind. Außerdem betreiben wir einen YouTube-Kanal, um di
 Schüler, Lehrer aber auch die Eltern über unsere aktuellen Projekte aufzuklären.
 
 
-{{< card link="/schuelervertretung/geschaeftsordnung" title="Geschäftsordnung der Schülervertretung" >}}
+{{< card link="/pages/geschaeftsordnung" title="Geschäftsordnung der Schülervertretung" >}}
