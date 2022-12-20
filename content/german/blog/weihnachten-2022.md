@@ -1,7 +1,7 @@
 ---
 title: Weihnachten 2022
 date: 2022-12-20T20:40:32.790Z
-draft: false
+draft: true
 bg_image: /media/backgrounds/page-title.png
 description: ""
 image: /media/image.png
