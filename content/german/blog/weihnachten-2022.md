@@ -1,7 +1,7 @@
 ---
 title: Weihnachten 2022
 date: 2022-12-20T20:40:32.790Z
-draft: true
+draft: false
 bg_image: /media/backgrounds/page-title.png
 description: ""
 image: /media/image.png
@@ -18,6 +18,7 @@ tags:
   - Weihnachten
 type: post
 ---
+
 {{< load-photoswipe >}}
 
 #### Weihnachtswichteln des Schülerrats
@@ -26,9 +27,9 @@ Auch in diesem Jahr realisierte der Schülerrat unser traditionelles Weihnachtsw
 
 Ein großer Dank geht an den Schülerrat für die Organisation. Insbesondere an Hagen als Wichtel-Chef, aber auch an alle Plätzchenbäcker, Tütenpacker und Weihnachtswichtel beim Austeilen in den Klassen.
 
-{{< gallery dir="media/blog/Wichteln2022" >}}
 
-<br>
+{{< gallery dir="media/blog/Wichteln2022" />}}
+
 
 #### Weihnachtsbasar
 
@@ -36,28 +37,27 @@ U﻿nter Anleitung des Schülerrats wurde wieder ein öffentlicher Weihnachtsbas
 
 Ein großer Dank geht an den Schülerrat für die Organisation. Aber auch alle Bastler, Bäcker und Musiker sollen hervorgehoben werden. 
 
-{{< gallery dir="media/blog/Weihnachtsbasar2022" >}}
+{{< gallery dir="media/blog/Weihnachtsbasar2022" />}}
 
-<br>
 
-### Weihnachtskonzert
+#### Weihnachtskonzert
 
 Am 16.12.2022 konnten unsere musikalischen Talente der Schule endlich wieder beim Weihnachtskonzert unserer Schule in der Ulrichskirche glänzen. Es herrschte wieder eine atemberaubende Atmosphäre. Es ist schön, dass diese Tradition endlich wieder stattfinden konnte. Chor, Schulband und Keyborder sangen und spielten wunderbare Stücke, teils mit dem Publikum zusammen. Wie jedes Jahr wurden die Musiker der 12. Klassen verabschiedet. Sie werden eine große Lücke hinterlassen, aber hoffentlich sehen wir alle bei künftigen Weihnachtskonzerten beim gemeinsamen Singen mit den Alumnis wieder. 
 
 Wir bedanken uns bei allen Beteiligten!
 
-{{< gallery dir="media/blog/Weihnachtskonzert2022" >}}
+{{< gallery dir="media/blog/Weihnachtskonzert2022" />}}
 
 <br>
 
-### Weihnachtssingen und Abschied in die Ferien
+#### Weihnachtssingen und Abschied in die Ferien
 
 Am letzten Schultag vor den Weihnachtsferien konnte 2022 endlich wieder unser traditionelles Weihnachtssingen nach pandemiebedingter Zwangspause stattfinden. Um 11 Uhr versammelten sich die Schülerinnen und Schüler, Lehrkräfte, unsere Alumni-Gäste und weitere Angestellte der Schule in der 2. Etage zum Weihnachtssingen.
 
 Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 
-{{< gallery dir="media/blog/Weihnachtssingen2022" >}}
+{{< gallery dir="media/blog/Weihnachtssingen2022" />}}
 
-#### J﻿etzt wünschen wir allen erholsame Ferien , Frohe Weihnachten und einen Guten Rutsch.
+#### Jetzt wünschen wir allen erholsame Ferien, Frohe Weihnachten und einen Guten Rutsch.
 
-#### W﻿ir sehen uns alle im neuen Jahr hoffentlich gesund wieder.
+#### Wir sehen uns alle im neuen Jahr hoffentlich gesund wieder.
