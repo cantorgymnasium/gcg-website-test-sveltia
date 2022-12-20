@@ -1,7 +1,7 @@
 ---
 title: Weihnachten 2022
-date: 2022-12-20T11:00:32.598Z
-draft: true
+date: 2022-12-20T20:40:32.790Z
+draft: false
 bg_image: /media/backgrounds/page-title.png
 description: ""
 image: /media/image.png
@@ -32,7 +32,7 @@ Ein großer Dank geht an den Schülerrat für die Organisation. Insbesondere an 
 
 #### Weihnachtsbasar
 
-U﻿nter Anleitung des Schülerrats wurde wieder ein öffentlicher Weihnachtsbasar in unserer Schule organisiert. In der Aula verkauften die Klassen kleine Basteleien und Leckereien. Auch für eine musikalische Umrahmung sorgten unsere Schülerinnen und Schüler. Die Einnahmen werden an das Kinderhospiz Halle gespendet. Unsere 10., 11. und 12. Klassen sorgten für das leibliche Wohl mit Buffetverkauf und Grillen auf dem Hof.
+U﻿nter Anleitung des Schülerrats wurde wieder ein öffentlicher Weihnachtsbasar in unserer Schule organisiert. Am Montagabend verkauften die Klassen in der Aula kleine Basteleien und Leckereien. Auch für eine musikalische Umrahmung sorgten unsere Schülerinnen und Schüler. Die Einnahmen werden an das Kinderhospiz Halle gespendet. Unsere 10., 11. und 12. Klassen sorgten für das leibliche Wohl mit Buffetverkauf und Grillen auf dem Hof. Am letzten Schultag vor den Ferien konnten die Schülerinnen und Schüler selbst erneut über den Basar stöbern.
 
 Ein großer Dank geht an den Schülerrat für die Organisation. Aber auch alle Bastler, Bäcker und Musiker sollen hervorgehoben werden. 
 
@@ -52,7 +52,7 @@ Wir bedanken uns bei allen Beteiligten!
 
 ### Weihnachtssingen und Abschied in die Ferien
 
-Am letzten Schultag vor den Weihnachtsferien konnte 2022 endlich wieder unser traditionelles Weihnachtssingen nach pandemiebedingter Zwangspause endlich wieder stattfinden. Um 11 Uhr versammelten sich die Schülerinnen und Schüler, Lehrkräfte, unsere Alumni-Gäste und weitere Angestellte der Schule in der 2. Etage zum Weihnachtssingen.
+Am letzten Schultag vor den Weihnachtsferien konnte 2022 endlich wieder unser traditionelles Weihnachtssingen nach pandemiebedingter Zwangspause stattfinden. Um 11 Uhr versammelten sich die Schülerinnen und Schüler, Lehrkräfte, unsere Alumni-Gäste und weitere Angestellte der Schule in der 2. Etage zum Weihnachtssingen.
 
 Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 
