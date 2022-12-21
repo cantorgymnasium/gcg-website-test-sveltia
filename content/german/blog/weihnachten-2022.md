@@ -4,7 +4,7 @@ date: 2022-12-20T20:40:32.790Z
 draft: false
 bg_image: /media/backgrounds/page-title.png
 description: ""
-image: /media/image.png
+image: /media/blog/gcgweihnachten.png
 author: Herr Berger
 categories:
   - Weihnachten
