@@ -24,6 +24,6 @@ Mit leichtem Abstand konnte sich Nino aus der 6/3 durchsetzen und wird unsere Sc
 
 
 
-{{< gallery dir="media/blog/VorlesewettbewerbKl6_12_2022" >}}
+{{< gallery dir="media/blog/VorlesewettbewerbKl6_12_2022" />}}
 
 

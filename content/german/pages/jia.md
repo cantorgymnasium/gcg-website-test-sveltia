@@ -24,4 +24,4 @@ Seitdem findet immer im Mai oder Juni unser Besuch in Budapest statt und unsere 
 Seit 2021  führen wir mit einer weiteren Schule in Budapest den Austausch durch,
 weil coronabedingt der für 2021 geplante Austausch nur virtuell stattfinden konnte und somit 2022 nachgeholt wird.
 
-{{< gallery dir="/media/jia/ps" >}}
+{{< gallery dir="/media/jia/ps" />}}
