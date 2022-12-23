@@ -58,7 +58,7 @@ Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 
 <audio controls>
 
-  <source src="static/media/blog/Weihnachtssingen2022/WS22_Lied.mp3" type="audio/mpeg">
+  <source src="gcg.pages.cantorgymnasium.de/static/media/blog/Weihnachtssingen2022/WS22_Lied.mp3" type="audio/mpeg">
 
 </audio>
 
