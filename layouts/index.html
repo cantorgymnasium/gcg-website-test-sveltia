@@ -207,7 +207,7 @@
           <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.termine.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{`termine` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
+            <a href="{{`termine` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "all_events" }}</a>
           </div>
         </div>
       </div>
@@ -216,7 +216,16 @@
       
       {{ with .Site.GetPage "/termine/_index.md" }}
 
-      {{ range first 3 .Params.events }}
+      {{ $events := slice }}
+      {{ range .Params.events }}
+        {{ if or (ge (.date | time.AsTime).Unix now.Unix) (and .enddate (ge (.enddate | time.AsTime).Unix now.Unix)) }}
+          {{ $events = $events | append . }}
+        {{ end }}
+      {{ end }}
+
+
+
+      {{ range first 3 $events }}
       <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
         <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-4 termin-tc"><span class="h2 d-block">{{ time.Format "2" .date}}</span> <span class="d-block">{{ time.Format "Jan 2006" .date}}</span> {{ with .enddate }} <br> bis {{ time.Format "2 Jan 2006" . }} {{end}}</div>
         <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0 p-2">
