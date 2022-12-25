@@ -3,7 +3,7 @@ title: Keyboard
 date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/kb.jpg
+image: /media/ganztagsangebote/kb.webp
 categories_ag:
   - Musik
 duration: 1. Stunde
