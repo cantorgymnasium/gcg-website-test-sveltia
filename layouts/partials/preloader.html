@@ -1,8 +1,17 @@
 {{ if .Site.Params.preloader.enable }}
 <div class="preloader">
-  {{ with .Site.Params.preloader.preloader }}
-  <img src="{{ . | absURL }}" width="222px" alt="preloader">
-  {{ end }}
+  <div>
+    <div>
+      {{ with .Site.Params.preloader.preloader }}
+      <img src="{{ . | absURL }}" width="222px" alt="preloader">
+      {{ end }}
+    </div>
+    <div>
+      {{ with .Site.Params.preloader.loader }}
+      <img src="{{ . | absURL }}" width="222px" alt="preloader">
+      {{ end }}
+    </div> 
+  </div>
 </div>
 <noscript>
   <style>
