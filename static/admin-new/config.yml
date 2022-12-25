@@ -715,7 +715,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
-      - {label: "Mehrere Bilder", name: "few", widget: "boolean", default: false, required: false}
+      - {label: "Mehrere Bilder", name: "multiple", widget: "boolean", default: false, required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "abiturienten"}
       - {label: "Text", name: "body", widget: "markdown"}
 
