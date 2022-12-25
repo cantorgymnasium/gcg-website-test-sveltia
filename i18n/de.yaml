@@ -31,6 +31,9 @@
 - id: see_all
   translation: Alles anzeigen
 
+- id: all_events
+  translation: Alle Termine
+
 - id: join_club
   translation: Der AG beitreten
 

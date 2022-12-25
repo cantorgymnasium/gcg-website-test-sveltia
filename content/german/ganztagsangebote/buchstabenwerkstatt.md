@@ -3,7 +3,7 @@ title: Buchstabenwerkstatt
 date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/bw.jpg
+image: /media/ganztagsangebote/bw.webp
 categories_ag:
   - Gesellschaft
 duration: nach Vereinbarung

@@ -4,7 +4,7 @@ date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 description: ""
-image: /media/ganztagsangebote/theater.jpg
+image: /media/ganztagsangebote/theater.webp
 categories_ag:
   - Gesellschaft
 duration: 2. Stunden

@@ -3,7 +3,7 @@ title: Chor
 date: 2022-04-01T13:28:14.429Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/chor.png
+image: /media/ganztagsangebote/chor.webp
 categories_ag:
   - Musik
 duration: 45 Minuten

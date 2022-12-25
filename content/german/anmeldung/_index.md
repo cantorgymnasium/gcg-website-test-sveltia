@@ -5,41 +5,41 @@ bg_image: media/backgrounds/page-title.png
 description: Hier finden Sie die Informationen zur Aufnahme am Georg-Cantor-Gymnasium.
 elements:
   - title: Anmeldung
-    content: >-
+    content: >
       Bis **Februar 2023** müssen:
 
 
-      * eine [schriftliche Anmeldung](/forms/anmeldeformular/) oder eine Anmeldung über das [Online-Anmeldeformular](/anmeldeformular)
+      - eine [schriftliche Anmeldung](/forms/anmeldeformular/) oder eine Anmeldung über das [Online-Anmeldeformular](/anmeldeformular)
 
-      * eine Kopie des Halbjahreszeugnisses
+      - eine Kopie des Halbjahreszeugnisses
 
-      * die Schullaufbahnerklärung
+      - die Schullaufbahnerklärung
 
 
       am Georg-Cantor-Gymnasium [eingereicht](/kontakt) werden.
 
 
-      Gern können Sie uns die Unterlagen per Mail an [aufnahme<i class="fa-solid fa-at"></i>cantor-gymnasium.de](mailto:aufnahme@cantor-gymnasium.de) zusenden. Die Einladung zur Aufnahmeprüfung mit allen nötigen Informationen erhalten Sie dann ebenfalls per Mail.
+      Gern können Sie uns die Unterlagen per Mail an [aufnahme(at)cantor-gymnasium.de](mailto:aufnahme@cantor-gymnasium.de) zusenden. Die Einladung zur Aufnahmeprüfung mit allen nötigen Informationen erhalten Sie dann ebenfalls per Mail.
   - title: Aufnahmeprüfung
-    content: >-
+    content: >
       Zur Aufnahme am Georg-Cantor-Gymnasium muss eine Aufnahmeprüfung
       absolviert werden, die aus zwei Teilen besteht:
 
 
-      * kognitiver Fähigkeitstest (90 Minuten)
+      - kognitiver Fähigkeitstest (90 Minuten)
 
-      * Mathematikklausur (60 Minuten)
+      - Mathematikklausur (60 Minuten)
 
 
       Übungsmöglichkeiten für die Aufnahmeprüfung finden Sie [hier](/forms/aufnahmeklausur).
   - title: Ergebnisse
-    content: Bis zum April 2023 werden ihnen die Ergebnisse der Aufnahmeprüfung
-      schriftlich mitgeteilt.
+    content: >
+      Bis zum April 2023 werden ihnen die Ergebnisse der Aufnahmeprüfung schriftlich mitgeteilt.
 ---
 ## Voraussetzungen
 
 **Für die Aufnahme am Georg-Cantor-Gymnasium müssen folgende Voraussetzungen erfüllt werden:**
 
-* termingerechte Anmeldung
-* mindestens Note 2 in den Fächern des inhaltlichen Schwerpunkts
-* eine erfolgreich bestandene Aufnahmeprüfung
+- termingerechte Anmeldung
+- mindestens Note 2 in den Fächern des inhaltlichen Schwerpunkts
+- eine erfolgreich bestandene Aufnahmeprüfung

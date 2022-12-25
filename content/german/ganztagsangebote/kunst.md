@@ -3,7 +3,7 @@ title: Kunst
 date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/kunst.jpg
+image: /media/ganztagsangebote/kunst.webp
 categories_ag:
   - Kunst
 duration: nach Vereinbarung

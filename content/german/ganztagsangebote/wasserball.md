@@ -3,7 +3,7 @@ title: Wasserball
 date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
-image: /media/ganztagsangebote/wasserball.jpg
+image: /media/ganztagsangebote/wasserball.webp
 categories_ag:
   - Sport
 duration: 2. Stunden

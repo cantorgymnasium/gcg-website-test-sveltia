@@ -56,6 +56,9 @@ Am letzten Schultag vor den Weihnachtsferien konnte 2022 endlich wieder unser tr
 
 Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 
+<audio controls src="/media/blog/Weihnachtssingen2022/WS22_Lied.mp3" type="audio/mpeg">
+</audio>
+
 {{< gallery dir="media/blog/Weihnachtssingen2022" />}}
 
 #### Jetzt wünschen wir allen erholsame Ferien, Frohe Weihnachten und einen Guten Rutsch.
