@@ -460,6 +460,14 @@ collections:
      preview: true
     media_folder: '/static/media/blog'
     public_folder: '/media/blog'
+    view_groups:
+      - label: Drafts
+        field: draft
+    sortable_fields:
+      fields: ['date', 'title']
+      default:
+        field: date
+        direction: Descending
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Datum", name: "date", widget: "datetime", date_format: "dd/MM/yyyy", time_format: false}
@@ -643,4 +651,3 @@ collections:
       - {label: "Mehrere Bilder", name: "few", widget: "boolean", default: false, required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "abiturienten"}
       - {label: "Text", name: "body", widget: "markdown"}
-
