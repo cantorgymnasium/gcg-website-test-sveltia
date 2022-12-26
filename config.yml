@@ -53,7 +53,7 @@ params:
       link: https://instagram.com/cantor.news
     - title: Facebook
       icon: fa-brands fa-facebook
-      link: https://facebook.com/gcg.cantor.news
+      link: https://facebook.com/cantor.news
   preloader:
     enable: true
     preloader: media/logo.png
