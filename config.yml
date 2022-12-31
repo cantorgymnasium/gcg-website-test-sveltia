@@ -185,3 +185,17 @@ languages:
       with :heart: and <a href='https://gohugo.io'>Hugo</a>."
     impressumURL: pages/impressum
     dseURL: pages/datenschutz
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+  vimeo:
+    enableDNT: true
