@@ -159,7 +159,7 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      {{ range first 6 (where .Site.RegularPages "Type" "ganztagsangebote")}}
+      {{ range first 6 (where .Site.RegularPages "Type" "ganztagsangebote" | shuffle)}}
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "ganztagsangebote" }}
       </div>
