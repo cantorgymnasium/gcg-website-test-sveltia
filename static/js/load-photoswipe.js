@@ -35,7 +35,6 @@ $( document ).ready(function() {
 				title 	: $title,
 				msrc	: $msrc
 			};
-			console.log("Using pre-defined dimensions for " + $src);
 		// if not, set temp default size then load the image to check actual size
 		} else {
 			var item = {
@@ -45,7 +44,6 @@ $( document ).ready(function() {
 				title 	: $title,
 				msrc	: $msrc
 			};
-			console.log("Using default dimensions for " + $src);
 			// load the image to check its dimensions
 			// update the item as soon as w and h are known (check every 30ms)
 			var img = new Image(); 
@@ -57,7 +55,7 @@ $( document ).ready(function() {
 					clearInterval(wait);
 					item.w = w;
 					item.h = h;
-					console.log("Got actual dimensions for " + img.src);
+					// console.log("Got actual dimensions for " + img.src);
 				}
 			}, 30);
 	   	}
@@ -71,8 +69,9 @@ $( document ).ready(function() {
 			var $pswp = $('.pswp')[0];
 			var options = {
 				index: index, 
-				bgOpacity: 0.8,
-				showHideOpacity: true
+				bgOpacity: 0.9,
+				showHideOpacity: true,
+				loop: false,
 			}
 			new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options).init();
 		});	
