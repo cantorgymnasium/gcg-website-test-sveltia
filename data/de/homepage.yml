@@ -1,8 +1,13 @@
 top_banner:
-  enable: false
-  text: "Jetzt neu: Die GCG-Website"
-  color: \#d30404
+  enable: true
+  text: "Das GCG wünscht allen ein frohes, gesundes und friedliches Jahr 2023!"
+  color: \#4e95ff
   font_color: \#ffffff
+  icon: fas fa-tree
+  temporarily:
+    enable: true
+    start_date: 2023-01-01T00:00:01.245Z
+    end_date: 2023-01-09T00:00:01.245Z
 slider:
   enable: true
   bg_image: media/home/banner.webp
@@ -136,13 +141,9 @@ about:
     beschränkt sich aber nicht auf den MINT-Bereich. Informieren Sie sich über
     unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot.
 
+    ## Virtueller Rundgang
 
-    ## Tag der offenen Tür
-
-
-    Am 19. November 2022 laden wir Sie herzlich zu unserem Tag der offenen Tür ein.
-
-    Wer nicht bis zum Tag der offenen Tür warten möchte, dem bieten wir eine digitale Führung durch das Schulhaus an, um sich bereits virtuell im Schulhaus umzuschauen.
+    Wer nicht bis zum nächsten Tag der offenen Tür warten möchte, dem bieten wir eine digitale Führung durch das Schulhaus an, um sich bereits virtuell im Schulhaus umzuschauen.
   button:
     enable: true
     label: Digitale Führung durch das Schulhaus
