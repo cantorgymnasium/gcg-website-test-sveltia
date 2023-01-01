@@ -6,7 +6,7 @@
       <li class="list-inline-item mr-3 ml-0"><i class="fa-solid fa-user"></i> <a
         href="{{ `author` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></li>
     </ul>
-      <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+      <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 20 }}</a></h4>
     <p class="card-text">{{ .Summary | truncate 100 }}</p>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">{{ i18n "read_more" }}</a>
   </div>

@@ -61,8 +61,8 @@
 			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl|svg)" }}<!-- is the current file an image? -->
 			{{- if $isimg }}
 				{{- $linkURL := print "/media/logos/start" "/" .Name | absURL }}<!-- relative URL -->
-        <div class="col-md-3 col-4 order-1 order-md-2 mt-4">
-          <img class="img-fluid w-100" src="{{ $linkURL }}" alt="about image">
+        <div class="col-md-3 col-6 order-1 order-md-2 mt-4">
+          <img class="img-fluid w-100" src="{{ $linkURL }}">
         </div>
 			{{- end }}
 		{{- end }}
@@ -87,8 +87,8 @@
         {{ end }}
       </div>
       {{ with .image }}
-      <div class="col-md-3 order-1 order-md-2 mb-md-0">
-        <img class="img-fluid w-100" src="{{ . | absURL }}" alt="about image">
+      <div class="col-md-3 col-6 order-1 order-md-2 mb-md-0 mx-auto">
+        <img class="img-fluid w-100" src="{{ . | absURL }}">
       </div>
       {{ end }}
     </div>
@@ -212,7 +212,7 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center px-2">
       
       {{ with .Site.GetPage "/termine/_index.md" }}
 
@@ -222,8 +222,6 @@
           {{ $events = $events | append . }}
         {{ end }}
       {{ end }}
-
-
 
       {{ range first 3 $events }}
       <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
@@ -266,7 +264,7 @@
       </div>
       {{ with .image }}
       <div class="col-md-5 order-1 order-md-2 mb-4 mb-md-0">
-        <img class="img-fluid w-100" src="{{ . | absURL }}" alt="about image">
+        <img class="img-fluid w-100" src="{{ . | absURL }}">
       </div>
       {{ end }}
     </div>
@@ -284,7 +282,7 @@
 			{{- if $isimg }}
 				{{- $linkURL := print "/media/logos" "/" .Name | absURL }}<!-- relative URL -->
         <div class="col-md-2 col-4 order-1 order-md-2 mb-4">
-          <img class="img-fluid w-100" src="{{ $linkURL }}" alt="about image">
+          <img class="img-fluid w-100" src="{{ $linkURL }}">
         </div>
 			{{- end }}
 		{{- end }}
