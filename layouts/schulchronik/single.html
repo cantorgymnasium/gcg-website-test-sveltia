@@ -4,6 +4,73 @@
   <div class="container">
     <div class="row">
       <div class="col-12 mb-4">
+        {{ range .Params.topics }}
+          <div id="{{ lower .id }}" class="modal">
+            <!-- Modal content -->
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">{{ .title }}</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="content">
+                  {{ .content | markdownify }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+        {{ if .Params.pretext }}
+          <div id="pretext" class="modal">
+            <!-- Modal content -->
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">{{ .Params.title }}</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="content">
+                  {{ .Params.pretext | markdownify }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+        <div id="wc-canvas"></div>
+        {{ $topics := slice (slice .Params.Title 100 "pretext") }}
+        {{ range .Params.topics }}
+          {{ $topics  = $topics | append (slice (slice .title 40 .id)) }}
+        {{ end }}
+        {{ $topics = $topics | jsonify }}
+        <script>
+          WordCloud(
+            document.getElementById('wc-canvas'),
+            {
+              click: function (item) {
+                if (item[1] != 100 || (item[1] == 100 && item[2] == "pretext")) {
+                  $('#' + item[2]).modal('show');
+                }
+              },
+              color: function (word, weight) {
+                return (weight === 100) ? '#ffbc3b' : '#1a1a37';
+              },
+              fontFamily: 'Fira Sans, serif',
+              fontWeight: 800,
+              list: JSON.parse({{ $topics }}),
+              shrinkToFit: true,
+              gridSize: 25,
+              rotateRatio: 0,
+            } 
+          );
+        </script>
         {{ .Content }}
       </div>
       {{ if .Params.Cantorpreisträger }}
