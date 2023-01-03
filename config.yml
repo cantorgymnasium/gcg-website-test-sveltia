@@ -1,6 +1,6 @@
 baseURL: https://cantorgymnasium.de/
 title: Georg-Cantor-Gymnasium
-paginate: 5
+paginate: 6
 summaryLength: "10"
 defaultContentLanguageInSubdir: false
 defaultContentLanguage: de
@@ -30,7 +30,7 @@ params:
     css:
       - link: plugins/bootstrap/bootstrap.min.css
       - link: plugins/slick/slick.css
-      - link: plugins/animate/animate.css
+      - link: plugins/animate/animate.min.css
       - link: plugins/venobox/venobox.css
       - link: plugins/fontawesome/css/all.css
       - link: plugins/fira/fira.css
@@ -38,7 +38,6 @@ params:
       - link: plugins/jQuery/jquery.min.js
       - link: plugins/bootstrap/bootstrap.min.js
       - link: plugins/slick/slick.min.js
-      - link: plugins/shuffle/shuffle.min.js
       - link: plugins/venobox/venobox.min.js
       - link: plugins/filterizr/jquery.filterizr.min.js
   social:

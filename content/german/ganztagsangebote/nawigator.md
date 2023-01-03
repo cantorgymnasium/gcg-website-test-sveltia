@@ -5,8 +5,7 @@ draft: false
 bg_image: /media/bild_titelbild.jpg
 description: Begabtenförderung in Biologie, Chemie und Physik
 image: /media/ganztagsangebote/nawigator.webp
-categories_ag:
-  - Naturwissenschaften
+category: Naturwissenschaften
 duration: nach Vereinbarung
 weekly: ab November
 class: alle Klassenstufen

@@ -1,26 +1,19 @@
 {{ define "main" }}
 
-<section class="section" id="portfolio">
+<section class="section">
 	<div class="container">
 		<div class="row gta-cat">
 			<div class="col-lg-12">
-				<div class="btn-group portfolio-filter btn-group-toggle justify-content-center d-flex flex-wrap"
-					data-toggle="buttons">
-					<label class="btn btn-primary-outline active">
-						<input type="radio" name="shuffle-filter" value="all" checked="checked" />{{ i18n "all"}}
-					</label>
+				<ul class="list-inline text-center filter-controls mb-5">
+					<li class="list-inline-item m-3 text-uppercase active" data-filter="all">{{ i18n "all" }}</li>
 					{{ $categories := slice }}
 					{{ range .Data.Pages }}
-					{{ range .Params.Categories_ag }}
-					{{ $categories = $categories | append . }}
-					{{ end }}
+					{{ $categories = $categories | append .Params.Category }}
 					{{ end }}
 					{{ range ( $categories | uniq ) }}
-					<label class="btn btn-primary-outline">
-						<input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . }}
-					</label>
+					<li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . | humanize }}</li>
 					{{ end }}
-				</div>
+				  </ul>
 			</div>
 		</div>
 		<noscript>
@@ -30,14 +23,10 @@
 				}
 			</style>
 		</noscript>
-
-    <br>
-
-		<div class="row shuffle-wrapper justify-content-center">
+		<div class="row filtr-container">
 			{{ range .Data.Pages }}
-			<div class="col-lg-4 shuffle-item"
-				data-groups="[{{range $index, $element:= .Params.Categories_ag }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
-				{{ .Render "ganztagsangebote" }}
+			<div data-category="{{ .Params.Category | urlize }}" class="col-lg-4 col-sm-6 mb-5 filtr-item">
+			  {{ .Render "ganztagsangebote" }}
 			</div>
 			{{ end }}
 		</div>

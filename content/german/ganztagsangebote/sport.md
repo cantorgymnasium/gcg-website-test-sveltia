@@ -4,8 +4,7 @@ date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/sport.webp
-categories_ag:
-  - Sport
+category: Sport
 duration: 1. Stunde
 weekly: Freitag, 7. Stunde
 class: 5. - 6. Klasse

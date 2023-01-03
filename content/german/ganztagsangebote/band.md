@@ -4,8 +4,7 @@ date: 2022-04-01T13:28:14.429Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/band.webp
-categories_ag:
-  - Musik
+category: Musik
 duration: flexibel
 weekly: Mittwoch, 9. Stunde
 class: alle Klassenstufen

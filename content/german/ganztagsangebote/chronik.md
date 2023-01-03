@@ -5,8 +5,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 description: "Zurück in die Zukunft: Unser GCG im Wandel der Zeit"
 image: /media/ganztagsangebote/chronik.webp
-categories_ag:
-  - Gesellschaft
+category: Gesellschaft
 duration: 2. Stunden
 weekly: Donnerstag, 9. - 10. Stunde
 class: 8. - 12. Klasse

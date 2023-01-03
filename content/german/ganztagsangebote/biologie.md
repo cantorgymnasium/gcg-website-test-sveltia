@@ -5,8 +5,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 description: ""
 image: /media/ganztagsangebote/biologie.webp
-categories_ag:
-  - Naturwissenschaften
+category: Naturwissenschaften
 duration: 1. Stunde (14-tägig)
 weekly: Montag, 13:20 bis 14:50 Uhr
 class: 5. Klasse

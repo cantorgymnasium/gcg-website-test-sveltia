@@ -4,8 +4,7 @@ date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/volleyball.webp
-categories_ag:
-  - Sport
+category: Sport
 duration: 2. Stunden
 weekly: Freitag, 8. - 9. Stunde
 class: 6. - 10. Klasse

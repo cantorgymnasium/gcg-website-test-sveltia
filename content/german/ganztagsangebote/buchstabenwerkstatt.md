@@ -4,8 +4,7 @@ date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/bw.webp
-categories_ag:
-  - Gesellschaft
+category: Gesellschaft
 duration: nach Vereinbarung
 weekly: ab November
 class: alle Klassenstufen

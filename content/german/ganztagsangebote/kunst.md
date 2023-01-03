@@ -4,8 +4,7 @@ date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/kunst.webp
-categories_ag:
-  - Kunst
+category: Kunst
 duration: nach Vereinbarung
 weekly: Freitag, ab 7. Stunde
 class: 5. - 7. Klasse

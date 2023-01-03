@@ -5,9 +5,7 @@ draft: false
 bg_image: /media/backgrounds/page-title.png
 description: ""
 image: /media/ganztagsangebote/cantortechnik.webp
-categories_ag:
-  - Technik
-  - Naturwissenschaften
+category: Technik
 duration: 2 Stunden
 weekly: "Donnerstag, 8.-9. Stunde "
 class: alle Klassenstufen

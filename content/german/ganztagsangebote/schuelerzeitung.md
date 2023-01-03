@@ -4,8 +4,7 @@ date: 2022-10-15T17:01:15.900Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/sz.webp
-categories_ag:
-  - Gesellschaft
+category: Gesellschaft
 duration: nach Vereinbarung
 weekly: nach Vereinbarung
 class: alle Klassenstufen

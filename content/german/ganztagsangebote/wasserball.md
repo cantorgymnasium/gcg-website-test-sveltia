@@ -4,8 +4,7 @@ date: 2022-10-15T16:21:22.895Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/wasserball.webp
-categories_ag:
-  - Sport
+category: Sport
 duration: 2. Stunden
 weekly: Dienstag, 17.00 - 18.30 Uhr
 class: 5. - 8. Klasse

@@ -4,9 +4,7 @@ date: 2022-10-15T16:32:26.371Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/lego.webp
-categories_ag:
-  - Naturwissenschaften
-  - Technik
+category: Technik
 duration: nach Vereinbarung
 weekly: Mittwoch, 8. Stunde
 class: 6. Klasse

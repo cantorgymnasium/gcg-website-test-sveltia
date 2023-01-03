@@ -4,8 +4,7 @@ date: 2022-10-15T16:38:35.662Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 image: /media/ganztagsangebote/pen-paper.webp
-categories_ag:
-  - Gesellschaft
+category: Gesellschaft
 duration: nach Vereinbarung
 weekly: siehe Tabelle
 class: alle Klassenstufen

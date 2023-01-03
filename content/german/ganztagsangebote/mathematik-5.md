@@ -5,9 +5,7 @@ draft: false
 bg_image: /media/bild_titelbild.jpg
 description: Förderung für begabte Schülerinnen und Schüler in Mathematik.
 image: /media/ganztagsangebote/mathematik.webp
-categories_ag:
-  - Mathematik
-  - Naturwissenschaften
+category: Mathematik
 duration: 1. Stunde
 weekly: Dienstag, 7. Stunde
 class: 5. Klasse

@@ -5,8 +5,7 @@ draft: "false"
 bg_image: /media/backgrounds/page-title.png
 description: ""
 image: /media/ganztagsangebote/theater.webp
-categories_ag:
-  - Gesellschaft
+category: Gesellschaft
 duration: 2. Stunden
 weekly: Dienstag/Freitag 7./8.-9. Stunde
 class: alle Klassenstufen
