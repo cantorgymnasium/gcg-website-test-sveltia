@@ -6,7 +6,7 @@ variables:
 pages:
   script:
   - hugo --gc --minify
-  - gzip -k -9 -r public
+  - gzip -k -9 public/*
   artifacts:
     paths:
     - public
