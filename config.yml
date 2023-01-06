@@ -32,7 +32,7 @@ params:
       - link: plugins/slick/slick.css
       - link: plugins/animate/animate.min.css
       - link: plugins/venobox/venobox.css
-      - link: plugins/fontawesome/css/all.css
+      - link: plugins/fontawesome/css/all.min.css
       - link: plugins/fira/fira.css
     js:
       - link: plugins/jQuery/jquery.min.js
