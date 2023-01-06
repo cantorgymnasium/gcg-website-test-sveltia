@@ -5,8 +5,7 @@ variables:
 
 pages:
   script:
-  - hugo --gc --minify
-  - gzip -k -9 public/*
+  - hugo --gc --minify && gzip -k -9 $(find public -type f)
   artifacts:
     paths:
     - public
