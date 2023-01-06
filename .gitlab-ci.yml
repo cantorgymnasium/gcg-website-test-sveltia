@@ -6,7 +6,7 @@ variables:
 pages:
   script:
   - hugo --gc --minify
-  - gzip -k -9 $(find -printf '"%p"\n' public -type f)
+  - find public -type f -print0 | xargs -0 gzip -9 -k
   artifacts:
     paths:
     - public
