@@ -1,8 +1,8 @@
 top_banner:
   enable: true
-  text: "Das GCG wünscht allen ein frohes, gesundes und friedliches Jahr 2023!"
-  color: \#4e95ff
-  font_color: \#ffffff
+  text: Das GCG wünscht allen ein frohes, gesundes und friedliches Jahr 2023!
+  color: "#4e95ff"
+  font_color: "#ffffff"
   icon: fas fa-tree
   temporarily:
     enable: true

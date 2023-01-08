@@ -1,12 +1,8 @@
 ---
 title: "Aufnahmeantrag"
-date: 2020-07-12T15:27:17+06:00
 draft: false
-
 bg_image: "media/backgrounds/page-title.png"
-
 description : ""
-image: "media/image.png"
 type: "forms"
 ---
 

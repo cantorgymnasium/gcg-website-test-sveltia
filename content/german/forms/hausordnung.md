@@ -1,10 +1,8 @@
 ---
 title: Hausordnung
-date: 2020-08-25T21:26:00.897Z
 draft: false
 bg_image: media/backgrounds/page-title.png
 description: ""
-image: media/image.png
 type: forms
 ---
 

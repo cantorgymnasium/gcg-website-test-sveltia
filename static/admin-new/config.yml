@@ -20,7 +20,6 @@ media_folder: "static/media"
 public_folder: "/media"
 site_url: https://cantorgymnasium.de
 display_url: https://cantorgymnasium.de
-logo_url: /media/logo_y.svg
 locale: "de"
 
 show_preview_links: false
@@ -42,13 +41,29 @@ collections:
         public_folder: "media/home"
         format: yml
         fields:
+          - label: "Banner"
+            name: "top_banner"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Text", name: "text", widget: "string", required: false}
+              - {label: "Farbe", name: "color", widget: "color", required: false}
+              - {label: "Schriftfarbe", name: "font_color", widget: "color", required: false}
+              - {label: "Symbol", name: "icon", widget: "string", required: false}
+              - label: "Zeitschaltung"
+                name: temporarily
+                widget: "object"
+                fields:
+                  - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+                  - {label: "Startdatum", name: "start_date", widget: "datetime",  required: false, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"}
+                  - {label: "Enddatum", name: "end_date", widget: "datetime",  required: false, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"}
           - label: "Karusell"
             name: "slider"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean"}
-              - {label: "Hintergrundbild", name: "bg_image", widget: "image"}
-              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Hintergrundbild", name: "bg_image", widget: "image", required: false}
+              - {label: "Titel", name: "title", widget: "string", required: false}
               - label: "Elemente"
                 label_singular: "Element"
                 name: "slider_item"
@@ -77,8 +92,8 @@ collections:
             name: "success_banner"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean"}
-              - {label: "Bild", name: "image", widget: "image"}
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Bild", name: "image", widget: "image", required: false}
               - label: "Elemente"
                 name: "feature_item"
                 widget: "list"
@@ -92,68 +107,74 @@ collections:
             name: "about"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean"}
-              - {label: "Titel", name: "title", widget: "string"}
-              - {label: "Inhalt", name: "content", widget: "markdown"}
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Titel", name: "title", widget: "string", required: false}
+              - {label: "Inhalt", name: "content", widget: "markdown", required: false}
               - label: "Button"
                 name: "button"
                 widget: "object"
                 fields:
-                  - {label: "Aktivieren", name: "enable", widget: "boolean"}
-                  - {label: "Bezeichnung", name: "label", widget: "string"}
-                  - {label: "Link", name: "link", widget: "string"}
+                  - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+                  - {label: "Bezeichnung", name: "label", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
           - label: "Ganztagsangebote"
             name: "ganztagsangebote"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean"}
-              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Titel", name: "title", widget: "string", required: false}
           - label: "Aktionsbutton"
             name: "cta"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean"}
-              - {label: "Titel", name: "title", widget: "string"}
-              - {label: "Untertitel", name: "subtitle", widget: "string"}
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Titel", name: "title", widget: "string", required: false}
+              - {label: "Untertitel", name: "subtitle", widget: "string", required: false}
               - label: "Button"
                 name: "button"
                 widget: "object"
                 fields:
-                  - {label: "Aktivieren", name: "enable", widget: "boolean"}
-                  - {label: "Bezeichnung", name: "label", widget: "string"}
-                  - {label: "Link", name: "link", widget: "string"}
+                  - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+                  - {label: "Bezeichnung", name: "label", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
           - label: "Informationen"
             name: "info"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean"}
-              - {label: "Hintergrundbild", name: "bg_image", widget: "image"}
-              - {label: "Titel", name: "title", widget: "string"}
-              - {label: "Inhalt", name: "content", widget: "text"}
-              - {label: "Video-Link", name: "video_link", widget: "string"}
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Hintergrundbild", name: "bg_image", widget: "image", required: false}
+              - {label: "Titel", name: "title", widget: "string", required: false}
+              - {label: "Inhalt", name: "content", widget: "text", required: false}
+              - {label: "Video-Link", name: "video_link", widget: "string", required: false}
           - label: "Termine"
             name: "termine"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean"}
-              - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Titel", name: "title", widget: "string", required: false}
           - label: "Zahlen"
             name: "zahlen"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean"}
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - label: "Elemente"
                 name: "zahl_element"
                 widget: "list"
                 fields:
-                  - {label: "Bezeichnung", name: "name", widget: "string"}
-                  - {label: "Zahl", name: "count", widget: "number"}
+                  - {label: "Bezeichnung", name: "name", widget: "string", required: false}
+                  - {label: "Zahl", name: "count", widget: "number", required: false}
           - label: "Blog"
             name: "blog"
             widget: "object"
             fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean"}
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Titel", name: "title", widget: "string"}
+          - label: "Digitalpakt-Banner"
+            name: "digitalpakt"
+            widget: "object"
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Titel", name: "title", widget: "string", required: false}
       - name: "hugo-config"
         label: "Website-Konfiguration"
         file: "config.yml"
@@ -162,10 +183,10 @@ collections:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Elemente je Seite", name: "paginate", widget: "number", value_type: "int"}
           - {label: "Lände von Zusammenfassungen", name: "summaryLength", widget: "number", value_type: "int"}
-          - {label: "Standardsprache in Unterordner", name: "defaultContentLanguageInSubdir", widget: "boolean"}
+          - {label: "Standardsprache in Unterordner", name: "defaultContentLanguageInSubdir", widget: "boolean", required: false}
           - {label: "Standardsprache", name: "defaultContentLanguage", widget: "string"}
-          - {label: "Emoji", name: "enableEmoji", widget: "boolean"}
-          - {label: "robots.txt", name: "enableRobotsTxt", widget: "boolean"}
+          - {label: "Emoji", name: "enableEmoji", widget: "boolean", required: false}
+          - {label: "robots.txt", name: "enableRobotsTxt", widget: "boolean", required: false}
           - {label: "Zeitzone", name: "timeZone", widget: "string"}
           - label: "Markdown-Enstellungen"
             name: "markup"
@@ -181,7 +202,7 @@ collections:
                   - label: "Renderer-Einstellungen"
                     name: "renderer"
                     widget: "object"
-                    fields: [{label: "Unsicheren Inhalt erlauben", name: "unsafe", widget: "boolean"}]
+                    fields: [{label: "Unsicheren Inhalt erlauben", name: "unsafe", widget: "boolean", required: false}]
           - label: "Einstellungen"
             name: "params"
             widget: "object"
@@ -207,12 +228,16 @@ collections:
               - {label: "Route (Link)", name: "route_link", widget: "string"}
               - {label: "Telefonnummer", name: "mobile", widget: "string"}
               - {label: "E-Mail-Adresse", name: "email", widget: "string"}
+              - {label: "E-Mail-Adresse (UI-Ansicht)", name: "email_pretty", widget: "string"}
+              - {label: "Beschreibung", name: "description", widget: "string"}
               - {label: "Kontakt-Titelleiste", name: "top_header", widget: "boolean"}
+              - {label: "Vorschaubilder", name: "images", widget: "stringlist", required: false}
+              - {label: "Twitter-Konto", name: "twitter", widget: "string", required: false}
               - label: "Ladeanimation"
                 name: "preloader"
                 widget: "object"
                 fields:
-                  - {label: "Aktivieren", name: "enable", widget: "boolean"}
+                  - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
                   - {label: "Logo", name: "preloader", widget: "image"}
                   - {label: "Ladeanimation", name: "loader", widget: "image"}
               - label: "Soz. Netzwerke"
@@ -259,6 +284,34 @@ collections:
                   - {label: "Copyright-Hinweis", name: "copyright", widget: "string"}
                   - {label: "Impressum-Link", name: "impressumURL", widget: "string"}
                   - {label: "Datenschutz-Link", name: "dseURL", widget: "string"}
+          - label: "Privatsphäre"
+            name: "privacy"
+            widget: "object"
+            fields:
+              - label: "Disqus"
+                name: "disqus"
+                widget: "object"
+                fields: [{label: "Deaktivieren", name: "disable", widget: "boolean", required: false}]
+              - label: "Google Analytics"
+                name: "googleAnalytics"
+                widget: "object"
+                fields: [{label: "Deaktivieren", name: "disable", widget: "boolean", required: false}]
+              - label: "Instagram"
+                name: "instagram"
+                widget: "object"
+                fields: [{label: "Deaktivieren", name: "disable", widget: "boolean", required: false}]
+              - label: "Twitter"
+                name: "twitter"
+                widget: "object"
+                fields: [{label: "Tracking deaktivieren", name: "enableDNT", widget: "boolean", required: false}]
+              - label: "YouTube"
+                name: "youtube"
+                widget: "object"
+                fields: [{label: "Piped-Proxy", name: "privacyEnhanced", widget: "boolean", required: false}]
+              - label: "Vimeo"
+                name: "vimeo"
+                widget: "object"
+                fields: [{label: "Tracking deaktivieren", name: "enableDNT", widget: "boolean", required: false}]
   - name: "index-pages"
     icon: "page"
     label: "Hauptseiten"
@@ -508,7 +561,6 @@ collections:
     public_folder: '/media/forms'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "dd.MM.yyyy", time_format: "HH:mm"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
@@ -555,14 +607,11 @@ collections:
     public_folder: '/media/ganztagsangebote'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Veröffentlichungsdatum", name: "date", widget: "datetime", date_format: "dd.MM.yyyy", time_format: "HH:mm"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/ganztagsangebote/image.png", required: false}
-      - label: "Themenbereiche"
-        name: "categories_ag"
-        widget: "list"
+      - {label: "Themenbereich", name: "category", widget: "string", required: true}
       - {label: "Dauer", name: "duration", widget: "string"}
       - {label: "Tag/Stunden", name: "weekly", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
@@ -621,17 +670,23 @@ collections:
     folder: "content/german/schulchronik"
     filter: {field: "type", value: "schulchronik"}
     create: true
-    #editor:
-      #preview: false
     media_folder: '/static/media/schulchronik'
     public_folder: '/media/schulchronik'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "schulchronik"}
-      - {label: "Text", name: "body", widget: "markdown"}
+      - {label: "Einleitung", name: "pretext", hint: "Jahreszahltext", widget: "markdown", required: false}
+      - label: "Kreative Haufen"
+        name: "topics"
+        widget: "list"
+        fields:
+          - {label: "Titel", name: "title", widget: "string", required: true}
+          - {label: "Element-ID", hint: "Kleingeschriebene Bezeichnung ohne Leer- und Sonderzeichen, darf sich nicht innerhalb einer Seite doppeln", name: "id", widget: "string", required: true}
+          - {label: "Inhalt", name: "content", widget: "markdown", required: true}
+        required: false
+      - {label: "Text", name: "body", widget: "markdown", required: false, default: "{{< load-photoswipe >}}"}
   - name: "abiturienten"
     icon: "graduation-cap"
     label: "Abiturienten"

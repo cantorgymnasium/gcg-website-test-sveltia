@@ -1,6 +1,5 @@
 ---
 title: Nawigator
-date: 2022-10-15T16:15:19.214Z
 draft: false
 bg_image: /media/bild_titelbild.jpg
 description: Begabtenförderung in Biologie, Chemie und Physik

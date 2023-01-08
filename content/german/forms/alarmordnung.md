@@ -1,6 +1,5 @@
 ---
 title: Alarmordnung
-date: 2020-08-11T15:27:17+06:00
 draft: false
 bg_image: media/backgrounds/page-title.png
 description: ""

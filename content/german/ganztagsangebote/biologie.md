@@ -1,6 +1,5 @@
 ---
 title: Biologie
-date: 2022-10-15T16:18:37.563Z
 draft: "false"
 bg_image: /media/backgrounds/page-title.png
 description: ""

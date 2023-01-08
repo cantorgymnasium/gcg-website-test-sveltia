@@ -1,6 +1,5 @@
 ---
 title: CantorTechnik
-date: 2022-03-20T22:57:55.974Z
 draft: false
 bg_image: /media/backgrounds/page-title.png
 description: ""
