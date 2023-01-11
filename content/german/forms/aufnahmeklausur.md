@@ -4,13 +4,14 @@ draft: false
 bg_image: "media/backgrounds/page-title.png"
 description : ""
 type: "forms"
+files:
+    - title: Aufnahmeklausur
+      link: /media/forms/Aufnahmeklausur.pdf
+    - title: Kognitiver Fähigkeitstest
+      link: /media/forms/Kognitiver Fähigkeitstest.pdf
 ---
 
 Hier können die Beispielklausuren für die Aufnahmeprüfung am Georg-Cantor-Gymnasium heruntergeladen werden.
-
-{{< download link="/media/forms/Aufnahmeklausur.pdf" title="Aufnahmeklausur" >}}
-
-{{< download link="/media/forms/Kognitiver Fähigkeitstest.pdf" title="Kognitiver Fähigkeitstest" >}}
 
 Lösungen für den kognitiven Fähigkeitstest:
 

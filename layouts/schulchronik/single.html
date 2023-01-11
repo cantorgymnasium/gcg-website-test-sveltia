@@ -4,6 +4,23 @@
   <div class="container">
     <div class="row">
       <div class="col-12 mb-4">
+        {{ if .Params.Cantorpreisträger }}
+      <div class="col-12">
+        <h2 class="mb-3">{{ i18n "cantorpreisträger" }}</h2>
+        {{ range where (where .Site.RegularPages "Title" .Params.Title ) "Type" "=" "cantorpreis" }}
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          <div class="media mb-2 mb-sm-0 align-items-center">
+            <img class="mr-4 img-fluid person-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+            <div class="media-body">
+              <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Params.Name }}</a></h4>
+              {{ .Description }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        <div class="border-bottom border-primary mt-4"></div>
+      </div>
+      {{ end }}
         {{ range .Params.topics }}
           <div id="{{ lower .id }}" class="modal">
             <!-- Modal content -->
@@ -73,23 +90,6 @@
         </script>
         {{ .Content }}
       </div>
-      {{ if .Params.Cantorpreisträger }}
-      <div class="col-12">
-        <h2 class="mb-3">{{ i18n "cantorpreisträger" }}</h2>
-        {{ range where (where .Site.RegularPages "Title" .Params.Title ) "Type" "=" "cantorpreis" }}
-        <div class="d-flex justify-content-between align-items-center flex-wrap">
-          <div class="media mb-2 mb-sm-0 align-items-center">
-            <img class="mr-4 img-fluid person-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
-            <div class="media-body">
-              <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Params.Name }}</a></h4>
-              {{ .Description }}
-            </div>
-          </div>
-        </div>
-        {{ end }}
-        <div class="border-bottom border-primary mt-4"></div>
-      </div>
-      {{ end }}
     </div>
   </div>
 </section>
