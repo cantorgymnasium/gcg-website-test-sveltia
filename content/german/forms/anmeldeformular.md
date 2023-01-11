@@ -5,7 +5,7 @@ bg_image: media/backgrounds/page-title.png
 description: ""
 files:
   - title: Aufnahmeantrag
-    link: /media/forms/Aufnahmeantrag.pdf
+    link: /media/forms/aufnahmeantrag.pdf
 type: forms
 ---
 
