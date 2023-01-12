@@ -55,7 +55,7 @@ konnten wir am 15.12.2022 dem Team der Stadtmission im Steinweg übergeben.
 
 
 
-{{< gallery dir="media/blog/Weiihnachtsaktion22" />}}
+{{< gallery dir="media/blog/Weihnachtsaktion22" />}}
 
 
 
