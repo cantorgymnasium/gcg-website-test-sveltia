@@ -1,0 +1,47 @@
+kind: pipeline
+type: docker
+name: website-build
+platform:
+    os: linux
+    arch: amd64
+steps:
+    - name: build
+      image: plugins/hugo
+      settings:
+        hugo_version: 0.109.0
+        validate: false
+        extended: true
+        url: https://gcg.gitea-pages.cantorgymnasium.de
+      commands:
+        - apk add --update --no-cache tzdata brotli git
+        - /bin/drone-hugo
+        - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -print0 | xargs -0 gzip -9 -f -k
+        - git init public
+        
+    - name: git-push
+      image: appleboy/drone-git-push
+      settings:
+        branch: pages
+        remote:
+          from_secret: drone_remote
+        force: true
+        commit: true
+        path: public
+        author_name: GCG.Admin
+        author_email: admin@cantor-gymnasium.de
+
+
+    - name: send telegram notification
+      image: appleboy/drone-telegram
+      settings:
+          token:
+              from_secret: telegram_token
+          to: 
+              from_secret: telegram_room_id
+      when:
+          status:
+              - success
+              - failure
+trigger:
+    branch:
+        - master
