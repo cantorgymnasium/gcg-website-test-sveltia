@@ -1,7 +1,7 @@
 ---
 title: Chronik
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 description: "Zurück in die Zukunft: Unser GCG im Wandel der Zeit"
 image: /media/ganztagsangebote/chronik.webp
 category: Gesellschaft

@@ -2,7 +2,7 @@
 title: "Chronologie"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 type: "pages"
 layout: "single.html"
 ---

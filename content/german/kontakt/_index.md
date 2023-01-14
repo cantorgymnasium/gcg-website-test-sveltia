@@ -1,7 +1,7 @@
 ---
 title: Kontakt
 draft: false
-bg_image: media/backgrounds/page-title.png
+bg_image: media/backgrounds/page-title.webp
 description: Eine Nachricht schreiben.
 ---
 Wenn Sie noch weitere Fragen haben, können Sie hier eine Nachricht an die Schulleitung schreiben.

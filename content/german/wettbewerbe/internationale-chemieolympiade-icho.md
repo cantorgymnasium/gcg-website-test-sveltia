@@ -1,8 +1,8 @@
 ---
 title: "Internationale Chemieolympiade (IChO) "
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
-image: /media/contests/icho.png
+bg_image: /media/backgrounds/page-title.webp
+image: /media/contests/icho.webp
 category: "Chemie "
 class: 9. - 12. Klasse
 web_url: https://www.scienceolympiaden.de/icho

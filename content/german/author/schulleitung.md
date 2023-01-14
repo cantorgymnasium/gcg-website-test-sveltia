@@ -1,8 +1,8 @@
 ---
 title: Schulleitung
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/people/cantor-round.png
+image: /media/people/gcg.webp
 social:
   - icon: fa-solid fa-at
     title: Mail

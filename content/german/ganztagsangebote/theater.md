@@ -1,7 +1,7 @@
 ---
 title: Theater
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/ganztagsangebote/theater.webp
 category: Gesellschaft

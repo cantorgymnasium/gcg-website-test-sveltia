@@ -1,7 +1,7 @@
 ---
 title: Kunst
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/kunst.webp
 category: Kunst
 duration: nach Vereinbarung

@@ -1,7 +1,7 @@
 ---
 title: Volleyball
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/volleyball.webp
 category: Sport
 duration: 2. Stunden

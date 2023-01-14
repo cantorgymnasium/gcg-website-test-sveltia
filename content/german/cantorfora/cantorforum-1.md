@@ -3,7 +3,7 @@ title: "1. Cantorforum"
 tenrange: "0"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
 image: "media/cantorfora/cantorforum_e01.bmp"
 description: "''Auf den Spuren von Georg Cantor'' von Dr. Helmut Podhaisky und Dr. Alf Gerisch"

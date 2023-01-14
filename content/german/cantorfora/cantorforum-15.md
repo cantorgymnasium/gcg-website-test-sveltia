@@ -3,9 +3,9 @@ title: "15. Cantorforum"
 tenrange: "1"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
-image: "media/cantorfora/cantorforum15.png"
+image: "media/cantorfora/cantorforum15.webp"
 description: "Markus Bauersfeld und Tom Gebhardt: Abi und dann?"
 ---
 

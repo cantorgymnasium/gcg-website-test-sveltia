@@ -2,7 +2,7 @@
 title: "Schulchronik"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 ---
 
 Anno MMV - eine Schar von alten Männern mit langen weißen Bärten machte sich auf,
@@ -15,7 +15,7 @@ befallen und haben eine eigene Homepage erstellt, die als Teil der Schulhomepage
 jedem Interessierten die wechselvolle Geschichte des GCG präsentiert.
 
 ---
-![Cantor](/media/schulchronik/cantor1.jpg)
+![Cantor](/media/schulchronik/cantor1.webp)
 
 # "Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."
 aus 'David Hilbert, Über das Unendliche', Math. Ann. 95</p><br>

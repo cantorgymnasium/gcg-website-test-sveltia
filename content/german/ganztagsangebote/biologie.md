@@ -1,7 +1,7 @@
 ---
 title: Biologie
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/ganztagsangebote/biologie.webp
 category: Naturwissenschaften

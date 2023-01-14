@@ -1,7 +1,7 @@
 ---
 title: Cantorpreis-Träger
 draft: false
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 description: Seit 1995, dem Jahr des 150. Geburtstages Georg Cantors, wird
   jährlich ein herausragender Schüler bzw. eine herausragende Schülerin mit dem
   Cantor-Preis geehrt. Die Preisträger erhalten einen vom Förderverein des

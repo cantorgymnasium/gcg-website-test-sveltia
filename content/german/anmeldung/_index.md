@@ -1,7 +1,7 @@
 ---
 title: Aufnahmeverfahren
 draft: false
-bg_image: media/backgrounds/page-title.png
+bg_image: media/backgrounds/page-title.webp
 description: Hier finden Sie die Informationen zur Aufnahme am Georg-Cantor-Gymnasium.
 elements:
   - title: Anmeldung

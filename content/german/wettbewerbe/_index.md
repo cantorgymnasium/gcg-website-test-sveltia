@@ -1,7 +1,7 @@
 ---
 title: Wettbewerbe am GCG
 draft: false
-bg_image: media/backgrounds/page-title.png
+bg_image: media/backgrounds/page-title.webp
 description: Unsere Schüler*innen nehmen jedes Jahr an vielen Wettbewerben teil.
   Die meisten davon sind hier aufgelistet. Die Liste ist nach Fächern sortiert.
 ---

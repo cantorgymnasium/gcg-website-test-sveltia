@@ -1,7 +1,7 @@
 ---
 title: Schach
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/schach.webp
 category: Naturwissenschaften
 duration: nach Vereinbarung

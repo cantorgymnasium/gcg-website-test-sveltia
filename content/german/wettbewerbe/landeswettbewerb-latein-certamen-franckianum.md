@@ -1,8 +1,8 @@
 ---
 title: Landeswettbewerb Latein (Certamen Franckianum)
 draft: false
-bg_image: /media/backgrounds/page-title.png
-image: /media/contests/latein-wettbewerb.png
+bg_image: /media/backgrounds/page-title.webp
+image: /media/contests/latein-wettbewerb.webp
 category: Fremdsprachen
 class: 7. - 12. Klasse
 web_url: https://www.latina-halle.de/certamen-franckianum/

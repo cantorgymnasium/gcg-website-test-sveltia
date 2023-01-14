@@ -1,8 +1,8 @@
 ---
 title: "Biberwettbewerb "
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
-image: /media/contests/Biber.png
+bg_image: /media/backgrounds/page-title.webp
+image: /media/contests/Biber.webp
 category: Informatik
 class: 5. - 12. Klasse
 web_url: https://bwinf.de/biber/

@@ -3,9 +3,9 @@ title: "11. Cantorforum"
 tenrange: "1"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
-image: "media/cantorfora/cantorforum_e11.png"
+image: "media/cantorfora/cantorforum_e11.webp"
 description: "Susann Brosig: In 10 Schritten zum Helden"
 ---
 

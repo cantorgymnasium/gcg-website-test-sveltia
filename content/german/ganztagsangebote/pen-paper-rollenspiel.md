@@ -1,7 +1,7 @@
 ---
 title: Pen & Paper / Würfel und Spiele Rollenspiel
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/pen-paper.webp
 category: Gesellschaft
 duration: nach Vereinbarung

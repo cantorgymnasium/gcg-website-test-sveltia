@@ -1,7 +1,7 @@
 ---
 title: Wasserball
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/wasserball.webp
 category: Sport
 duration: 2. Stunden
@@ -11,4 +11,6 @@ room: Schwimmhalle Neustadt
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
 ---
+
+
 

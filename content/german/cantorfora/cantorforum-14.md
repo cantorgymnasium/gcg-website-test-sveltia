@@ -3,9 +3,9 @@ title: "14. Cantorforum"
 tenrange: "1"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
-image: "media/cantorfora/cantorforum14.png"
+image: "media/cantorfora/cantorforum14.webp"
 description: "Katarina Forkmann: Placebo und Nocebo, die innere Apotheke"
 ---
 

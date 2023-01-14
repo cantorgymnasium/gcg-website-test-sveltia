@@ -1,8 +1,8 @@
 ---
 title: Internationale Physikolympiade (IPhO)
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
-image: /media/contests/IPhO.png
+bg_image: /media/backgrounds/page-title.webp
+image: /media/contests/IPhO.webp
 category: Physik
 class: 10. - 12. Klasse
 web_url: https://www.scienceolympiaden.de/ipho

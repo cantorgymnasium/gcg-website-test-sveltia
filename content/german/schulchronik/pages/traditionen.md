@@ -2,7 +2,7 @@
 title: "Traditionen"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 type: "pages"
 layout: "single.html"
 ---
@@ -10,7 +10,7 @@ layout: "single.html"
 ## 1. Der Cantorpreis
 Seit 1995, dem Jahr des 150. Geburtstages Georg Cantors, wird jährlich ein herausragender Schüler bzw. eine herausragende Schülerin mit dem Cantorpreis geehrt. Die Preisträger erhalten einen vom Förderverein des Georg-Cantor-Gymnasiums gestifteten Zinnbecher mit Motiven der Stadt Halle und 150€ Preisgeld. Mit diesem Preis werden Schüler für besondere Leistungen und Engagement für unsere Schule ausgezeichnet. In den einzelnen Jahren unser Chronik werden die Cantorpreisträger vorgestellt
 
-![Cantorpreis](/media/about/cantorpreis.png)
+![Cantorpreis](/media/about/cantorpreis.webp)
 
 ## 2. Die Kultur- und Wissenschaftswoche
 Im März, dem Geburtsmonat Georg Cantors, findet jährlich unsere Kultur- und Wissenschaftswoche statt. Traditionelle Elemente dieser Festwoche sind die WPA-Zwischenverteidigungen, die Galerie Cantor-Art, der musikalisch-literarische Abend, der Rezitatorenwettstreit sowie Vorträge, Veranstaltungen und Diskussionsrunden unterschiedlicher Art.
@@ -49,4 +49,4 @@ Jährlich organisieren die 10. Klassen gemeinsam mit ihren Klassenlehrern das Sc
 
 In der Projektwoche 2011 setzte eine Gruppe von Cantorianern die Idee der Gestaltung eines Schulballs erstmallig um. Der erste Schulball in der Geschichte des GCG sollte im folgenden Herbst seine Premiere feiern.
 
-![Eintrittskarte](/media/about/schulball.png)
+![Eintrittskarte](/media/about/schulball.webp)

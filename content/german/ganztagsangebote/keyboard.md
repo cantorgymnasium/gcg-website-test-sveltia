@@ -1,7 +1,7 @@
 ---
 title: Keyboard
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/kb.webp
 category: Musik
 duration: 1. Stunde

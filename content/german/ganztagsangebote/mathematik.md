@@ -1,7 +1,7 @@
 ---
 title: Mathematik
 draft: false
-bg_image: /media/bild_titelbild.jpg
+bg_image: /media/backgrounds/page-title.webp
 description: Förderung für begabte Schülerinnen und Schüler in Mathematik.
 image: /media/ganztagsangebote/mathematik.webp
 category: Mathematik
@@ -20,5 +20,5 @@ Auf Empfehlung der Fachlehrer können Schülerinnen und Schüler im Rahmen diese
 
 ### Termine
 
-- 5\. Klasse: Dienstag, 7. Stunde
-- 6\. Klasse: Montag, 7. Stunde
+- **5. Klasse:** Dienstag, 7. Stunde
+- **6. Klasse:** Montag, 7. Stunde

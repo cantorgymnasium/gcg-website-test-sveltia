@@ -1,9 +1,9 @@
 ---
 title: CantorTechnik AG
-bg_image: /media/slide1.jpg
+bg_image: /media/backgrounds/page-title.webp
 description: ""
 email: technik@cantor-gymnasium.de
-image: /media/people/cantor-round.png
+image: /media/people/gcg.webp
 social:
   - title: YouTube
     icon: fa-brands fa-youtube
@@ -17,4 +17,4 @@ social:
 ---
 Wir sind eine AG am Georg-Cantor-Gymnasium, welche sich mit allen Themen rund um die digitale Welt am Georg-Cantor-Gymnasium beschäftigt. Des Weiteren betreiben wir die Schulwebsite des GCG.
 
-Mehr Infos [hier](/ganztagsangebote/cantortechnik/)
+Mehr Informationen [hier](/ganztagsangebote/cantortechnik/)

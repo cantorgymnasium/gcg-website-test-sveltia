@@ -1,11 +1,12 @@
 ---
 title: Impressum
 draft: false
-bg_image: media/backgrounds/page-title.png
+bg_image: media/backgrounds/page-title.webp
 description: null
 type: pages
 layout: single.html
-aliases: [/impressum/]
+aliases:
+  - /impressum/
 ---
 ### Georg-Cantor-Gymnasium Halle (Saale)
 
@@ -35,4 +36,4 @@ Herr Berger
 
 ### E-Mail:
 
-[admin<i class="fa-solid fa-at"></i>cantor-gymnasium.de](mailto:admin@cantor-gymnasium.de)
+[admin@cantor-gymnasium.de](mailto:admin@cantor-gymnasium.de)

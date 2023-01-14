@@ -1,11 +1,12 @@
 ---
 title: Schulbibliothek
 draft: false
-bg_image: media/backgrounds/page-title.png
+bg_image: media/backgrounds/page-title.webp
 description: null
 type: pages
 layout: single.html
-aliases: [/bibo/]
+aliases:
+  - /bibo/
 ---
 Die Bibliothek unserer Schule wurde 1991 mit einem Bestand von 3570 Büchern gegründet. Hinzu kamen ca. 4500 Bände aus dem ehemaligen Torgymnasium. Nach einer Bestandsreduzierung konnten, unter Berücksichtigung von Schülerwünschen, neue Kinder- und Jugendbücher erworben werden.
 
@@ -30,5 +31,5 @@ Darüber hinaus besteht eine Kooperation mit der Stadtbücherei Halle, um auch f
 
 Öffnungszeiten sind:
 
-* Montag - Donnerstag: 6:30 - 16:00 Uhr
-* Freitag: 6:30 - 15:00 Uhr
+- Montag - Donnerstag: 6:30 - 16:00 Uhr
+- Freitag: 6:30 - 15:00 Uhr

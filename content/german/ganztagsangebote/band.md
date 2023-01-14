@@ -1,7 +1,7 @@
 ---
 title: Band
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/band.webp
 category: Musik
 duration: flexibel

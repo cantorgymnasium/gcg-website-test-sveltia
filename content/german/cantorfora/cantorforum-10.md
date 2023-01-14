@@ -3,7 +3,7 @@ title: "10. Cantorforum"
 tenrange: "1"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
 image: "media/cantorfora/cantorforum_e10.bmp"
 description: "''Technik und Traditon in Korea'' Paula Hähndel und Dorothee Henke"

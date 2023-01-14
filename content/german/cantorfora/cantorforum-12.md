@@ -3,9 +3,9 @@ title: "12. Cantorforum"
 tenrange: "1"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
-image: "media/cantorfora/cantorforum_e12.png"
+image: "media/cantorfora/cantorforum_e12.webp"
 description: "Leandro Gambôa: 1 Year Backpacking Australia"
 ---
 

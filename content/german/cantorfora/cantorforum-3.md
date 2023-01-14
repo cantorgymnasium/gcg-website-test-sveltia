@@ -3,7 +3,7 @@ title: "3. Cantorforum"
 tenrange: "0"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
 image: "media/cantorfora/cantorforum_e03.bmp"
 description: "''Abi - und dann...?'' Teil 2 von Johannes Herzog"

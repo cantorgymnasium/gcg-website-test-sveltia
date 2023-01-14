@@ -1,8 +1,8 @@
 ---
 title: "Mannschaftswettbewerbe der Spezialschulen "
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
-image: /media/image.png
+bg_image: /media/backgrounds/page-title.webp
+image: /media/image.webp
 category: MINT
 class: 9. - 11. Klasse
 web_url: https://cantorgymnasium.de/

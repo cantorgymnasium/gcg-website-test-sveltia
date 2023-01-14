@@ -2,7 +2,7 @@
 title: "Über das GCG"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 type: "pages"
 layout: "single.html"
 ---
@@ -15,7 +15,7 @@ Seit der Gründung der Spezialschule mit inhaltlichem Schwerpunkt in den Bereich
 
 {{% collapsible  title="Der Weg zum GCG" %}}
 
-![Erkennungsurkunde](/media/schulchronik/1990/wegbild.png)
+![Erkennungsurkunde](/media/schulchronik/1990/wegbild.webp)
 
 {{< youtube IoinnnyrG0M >}}
 

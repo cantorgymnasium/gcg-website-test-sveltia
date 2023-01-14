@@ -8,7 +8,7 @@
   {{ hugo.Generator }}
 
   {{ range .Site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}">
+  <link rel="stylesheet" href="{{ . | absURL }}">
   {{ end }}
 
   {{ $styles := resources.Get "scss/style.scss" | toCSS }}

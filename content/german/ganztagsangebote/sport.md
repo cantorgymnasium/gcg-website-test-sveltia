@@ -1,7 +1,7 @@
 ---
 title: Allgemeiner Sport und kleine Spiele
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/sport.webp
 category: Sport
 duration: 1. Stunde

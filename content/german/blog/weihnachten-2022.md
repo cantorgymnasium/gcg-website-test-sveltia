@@ -2,9 +2,9 @@
 title: Weihnachten 2022
 date: 2022-12-20T20:40:32.790Z
 draft: false
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/blog/gcgweihnachten.png
+image: /media/blog/gcgweihnachten.webp
 author: Herr Berger
 categories:
   - Weihnachten
@@ -38,7 +38,7 @@ Ein großer Dank geht an den Schülerrat für die Organisation. Aber auch alle B
 
 #### Weihnachtskonzert
 
-Am 16.12.2022 konnten unsere musikalischen Talente der Schule endlich wieder beim Weihnachtskonzert unserer Schule in der Ulrichskirche glänzen. Es herrschte wieder eine atemberaubende Atmosphäre. Es ist schön, dass diese Tradition endlich wieder stattfinden konnte. Chor, Schulband und Keyborder sangen und spielten wunderbare Stücke, teils mit dem Publikum zusammen. Wie jedes Jahr wurden die Musiker der 12. Klassen verabschiedet. Sie werden eine große Lücke hinterlassen, aber hoffentlich sehen wir alle bei künftigen Weihnachtskonzerten beim gemeinsamen Singen mit den Alumnis wieder.
+Am 16.12.2022 konnten unsere musikalischen Talente der Schule endlich wieder beim Weihnachtskonzert unserer Schule in der Ulrichskirche glänzen. Es herrschte wieder eine atemberaubende Atmosphäre. Es ist schön, dass diese Tradition endlich wieder stattfinden konnte. Chor, Schulband und Keyborder sangen und spielten wunderbare Stücke, teils mit dem Publikum zusammen. Wie jedes Jahr wurden die Musiker der 12. Klassen verabschiedet. Sie werden eine große Lücke hinterlassen, aber hoffentlich sehen wir alle bei künftigen Weihnachtskonzerten beim gemeinsamen Singen mit den Alumni wieder.
 
 Wir bedanken uns bei allen Beteiligten!
 
@@ -53,11 +53,7 @@ und Schüler sowie Eltern mitgewirkt haben. 25 Geschenkbeutel, einige
 Sachspenden, eine Geldspende und viele Stifte (ein Geschenk des Schülerrats)
 konnten wir am 15.12.2022 dem Team der Stadtmission im Steinweg übergeben.
 
-
-
 {{< gallery dir="media/blog/Weihnachtsaktion22" />}}
-
-
 
 #### Weihnachtssingen und Abschied in die Ferien
 
@@ -70,7 +66,7 @@ Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 
 {{< gallery dir="media/blog/Weihnachtssingen2022" />}}
 
-#### Jetzt wünschen wir allen erholsame Ferien, Frohe Weihnachten und einen Guten Rutsch.
+#### Jetzt wünschen wir allen erholsame Ferien, frohe Weihnachten und einen guten Rutsch.
 
 #### Wir sehen uns alle im neuen Jahr hoffentlich gesund wieder.
 

@@ -3,7 +3,7 @@ title: "4. Cantorforum"
 tenrange: "0"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
 image: "media/cantorfora/cantorforum_e04.bmp"
 description: "''Bundestagswahl…mir egal!?''"

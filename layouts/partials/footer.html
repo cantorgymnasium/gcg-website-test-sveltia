@@ -49,7 +49,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-7 text-sm-left text-center">
-          <p class="mb-0">{{ .Site.Params.copyright | emojify }}</p>
+          <p class="mb-0">{{ .Site.Params.copyright | markdownify | emojify }}</p>
         </div>
         <div class="col-sm-5 text-sm-right text-center">
           <ul class="list-inline">
@@ -63,8 +63,8 @@
   </div>
 </footer>
 
-{{ range .Site.Params.plugins.js}}
-<script src="{{ .link | absURL }}"></script>
+{{ range .Site.Params.plugins.js }}
+<script src="{{ . | absURL }}"></script>
 {{ end }}
 
 {{ $script := resources.Get "js/script.js" | minify}}

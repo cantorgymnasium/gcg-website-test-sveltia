@@ -3,7 +3,7 @@ title: "8. Cantorforum"
 tenrange: "0"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
 image: "media/cantorfora/cantorforum_e08.bmp"
 description: "''Energiewende? Ja danke! Aber ohne mich!'' von Andreas Bader"

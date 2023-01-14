@@ -3,9 +3,9 @@ title: "16. Cantorforum"
 tenrange: "1"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
-image: "media/cantorfora/cantorforum16.png"
+image: "media/cantorfora/cantorforum16.webp"
 description: "Stefan Schwarz: Mysterium Stipendium"
 ---
 

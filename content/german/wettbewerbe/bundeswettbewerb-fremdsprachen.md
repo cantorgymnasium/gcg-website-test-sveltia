@@ -1,8 +1,8 @@
 ---
 title: Bundeswettbewerb Fremdsprachen
 draft: false
-bg_image: /media/backgrounds/page-title.png
-image: /media/contests/bwfs.png
+bg_image: /media/backgrounds/page-title.webp
+image: /media/contests/bwfs.webp
 category: Fremdsprachen
 class: 5. - 12. Klasse
 web_url: http://www.bundeswettbewerb-fremdsprachen.de/sachsen-anhalt

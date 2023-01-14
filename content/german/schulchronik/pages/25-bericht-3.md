@@ -1,10 +1,7 @@
 ---
 title: "25 jähriges Bericht Paula Hähndel"
 draft: false
-
-bg_image: "media/backgrounds/page-title.png"
-
-image: "media/image.png"
+bg_image: "media/backgrounds/page-title.webp"
 type: "pages"
 layout: "single.html"
 ---

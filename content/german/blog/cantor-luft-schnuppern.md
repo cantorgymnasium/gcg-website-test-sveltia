@@ -2,9 +2,9 @@
 title: Cantor-Luft schnuppern!
 date: 2022-10-24T14:40:47.927Z
 draft: false
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/image.png
+image: /media/image.webp
 author: Schulleitung
 categories:
   - Ereignisse

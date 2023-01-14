@@ -1,10 +1,7 @@
 ---
 title: "Bericht 1"
 draft: false
-
-bg_image: "media/backgrounds/page-title.png"
-
-image: "media/image.png"
+bg_image: "media/backgrounds/page-title.webp"
 type: "pages"
 layout: "single.html"
 ---

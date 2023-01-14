@@ -1,7 +1,7 @@
 ---
 title: Buchstabenwerkstatt
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/bw.webp
 category: Gesellschaft
 duration: nach Vereinbarung

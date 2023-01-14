@@ -1,13 +1,14 @@
 ---
 title: Schülervertretung
 draft: false
-bg_image: media/backgrounds/page-title.png
+bg_image: media/backgrounds/page-title.webp
 description: Herzlich willkommen auf der Seite der Schülervertretung des
   Georg-Cantor-Gymnasiums. Hier finden Sie alle wichtigen Informationen zu
   unserer Arbeit.
 type: pages
 layout: single.html
-aliases: [/schuelervertretung/]
+aliases:
+  - /schuelervertretung/
 ---
 ## Wer sind wir?
 
@@ -61,17 +62,17 @@ Angebot wählen können.
 
 ### Schülerrat
 
-* **Lilli Berthold** und **Denys Konovalov** (Klasse 9): Schülersprecher
+- **Lilli Berthold** und **Denys Konovalov** (Klasse 9): Schülersprecher
 
 ### Beirat
 
-* **Clara Kobitsch-Meyer** und **Anni Aschenbach** (Klasse 11): Beiratsvorstand
+- **Clara Kobitsch-Meyer** und **Anni Aschenbach** (Klasse 11): Beiratsvorstand
 
 ## Kontaktmöglichkeiten
 
 Wir haben für alle Schülerinnen und Schüler ein offenes Ohr und sind jederzeit ansprechbar.
 
-Außerdem sind wir per <a href="mailto:schuelerrat@cantor-gymnasium.de"><i class="fa-solid fa-at"></i>Mail</a> erreichbar.
+Zudem sind wir per [Mail](mailto:schuelerrat@cantor-gymnasium.de) erreichbar.
 
 ## Öffentlichkeitsarbeit
 
@@ -81,4 +82,7 @@ unserer Schule zu sehen sind. Außerdem betreiben wir einen YouTube-Kanal, um di
 Schüler, Lehrer aber auch die Eltern über unsere aktuellen Projekte aufzuklären.
 
 
-{{< card link="/pages/geschaeftsordnung" title="Geschäftsordnung der Schülervertretung" >}}
+
+{{< card title="Geschäftsordnung" link="/pages/geschaeftsordnung" >}}
+
+

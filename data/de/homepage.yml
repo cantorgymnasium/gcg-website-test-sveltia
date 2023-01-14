@@ -76,64 +76,12 @@ slider:
         enable: true
         link: https://www.schule-ohne-rassismus.org/
         label: Mehr erfahren
-success_banner:
+header_logos:
   enable: true
-  image: media/home/success_banner.webp
-  feature_item:
-    - name: Mathematik-Olympiade
-      content: |
-        In der Landesrunde der Mathematikolympiade 2022 wurden:
-
-        - **2 von 8 ersten Preisen**
-        - **5 von 13 zweiten Preisen**
-        - **9 von 19 dritten Preisen**
-        - **6 von 28 Anerkennungspreisen**
-
-        an Schüler unserer Schule verliehen.
-      img: true
-      image: media/home/mo.png
-      icon: ""
-    - name: Physikolympiade
-      img: true
-      image: media/home/po.png
-      content: |
-        In der Landesphysikolympiade 2022 wurden:
-
-        - **2 von 5 ersten Preisen**
-        - **3 von 8 zweiten Preisen**
-        - **1 von 11 dritten Preisen**
-        - **1 von 15 Anerkennungspreisen**
-
-        an Schüler unserer Schule verliehen.
-      icon: ""
-    - name: Chemieolympiade
-      img: true
-      image: media/home/icho.png
-      content: >
-        Ein Schüler unserer Schule bekam die Bronzemedaille in der
-        Internationalen Chemieolympiade 2020 verliehen. Ein weiterer Schüler
-        unserer Schule wurde für die Nationalmannschaft für die IChO 2021
-        ausgewählt.
-      icon: ""
-    - content: >
-        Ein Schüler unserer Schule bekam in der Endrunde von "Chemie - die
-        stimmt!" 2021 den ersten Platz in drei Kategorien.
-      name: Chemie - die stimmt!
-      img: true
-      image: media/home/cds.png
-      icon: ""
-    - name: Und viel mehr ...
-      icon: fa-solid fa-medal
-      content: >
-        Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
-        vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
-        Spezialistenlager und begabtenfördernde Ganztagsangebote.
-      img: false
-      image: ""
 about:
   enable: true
   title: Herzlich willkommen auf der Homepage des Georg-Cantor-Gymnasiums!
-  image: media/home/pinguin.png
+  image: media/home/pinguin.webp
   content: >
     Wir sind eine Schule mit mathematisch-naturwissenschaftlich-technischem
     Schwerpunkt und möchten interessierte und begabte Schülerinnen und Schüler
@@ -148,6 +96,59 @@ about:
     enable: true
     label: Digitale Führung durch das Schulhaus
     link: https://vr.cantorgymnasium.de/tour/
+blog:
+  enable: true
+  title: Aktuelle Beiträge
+success_banner:
+  enable: true
+  image: media/home/success_banner.webp
+  feature_item:
+    - name: Mathematik-Olympiade
+      content: |
+        In der Landesrunde der Mathematikolympiade 2022 wurden:
+
+        - **2 von 8 ersten Preisen**
+        - **5 von 13 zweiten Preisen**
+        - **9 von 19 dritten Preisen**
+        - **6 von 28 Anerkennungspreisen**
+
+        an Schüler unserer Schule verliehen.
+      image: media/home/mo.webp
+      icon: ""
+    - name: Physikolympiade
+      image: media/home/po.webp
+      content: |
+        In der Landesphysikolympiade 2022 wurden:
+
+        - **2 von 5 ersten Preisen**
+        - **3 von 8 zweiten Preisen**
+        - **1 von 11 dritten Preisen**
+        - **1 von 15 Anerkennungspreisen**
+
+        an Schüler unserer Schule verliehen.
+      icon: ""
+    - name: Chemieolympiade
+      image: media/home/icho.webp
+      content: >
+        Ein Schüler unserer Schule bekam die Bronzemedaille in der
+        Internationalen Chemieolympiade 2020 verliehen. Ein weiterer Schüler
+        unserer Schule wurde für die Nationalmannschaft für die IChO 2021
+        ausgewählt.
+      icon: ""
+    - content: >
+        Ein Schüler unserer Schule bekam in der Endrunde von "Chemie - die
+        stimmt!" 2021 den ersten Platz in drei Kategorien.
+      name: Chemie - die stimmt!
+      image: media/home/cds.webp
+      icon: ""
+    - name: Und viel mehr ...
+      icon: fa-solid fa-medal
+      content: >
+        Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
+        vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
+        Spezialistenlager und begabtenfördernde Ganztagsangebote.
+      img: false
+      image: ""
 ganztagsangebote:
   enable: true
   title: Unsere Ganztagsangebote
@@ -172,13 +173,13 @@ info:
     und dem Gütesiegel \"Begabungsfördernde Schule\" vom Landesinstitut für
     Schulqualität und Lehrerbildung.
   video_link: https://www.youtube.com/watch?v=v2ovvOmv-xw
-blog:
+termine:
   enable: true
-  title: Aktuelle Beiträge
+  title: Anstehende Termine
 digitalpakt:
   enable: true
   title: DigitalPakt Schule
-  image: media/home/digitalpakt.png
+  image: media/home/digitalpakt.webp
   content: >-
     Für die Umsetzung des Förderprogramms DigitalPakt Schule
     (DigitalPakt-Richtlinie) gewährt das Land Sachsen-Anhalt für kommunale
@@ -186,15 +187,5 @@ digitalpakt:
 
 
     Dem Georg-Cantor-Gymnasium werden für die Umsetzung des Aufbaus oder Verbesserung der passiven und aktiven Infrastrukturkomponenten finanzielle Mittel durch die Bundesregierung zur Verfügung gestellt. Es handelt sich hierbei um eine Anteilsfinanzierung. Weitere benötigte finanzielle Mittel stellt die Stadt Halle (Saale) zur Verfügung.
-termine:
+footer_logos:
   enable: true
-  title: Anstehende Termine
-zahlen:
-  enable: true
-  zahl_element:
-    - name: Schüler
-      count: 542
-    - name: Lehrer
-      count: 56
-    - name: Pädagogische Mitarbeiter
-      count: 2

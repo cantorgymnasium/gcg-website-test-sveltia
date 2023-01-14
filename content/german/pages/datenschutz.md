@@ -1,13 +1,14 @@
 ---
 title: Datenschutz
 draft: false
-bg_image: media/backgrounds/page-title.png
+bg_image: media/backgrounds/page-title.webp
 description: null
 type: pages
 layout: single.html
-aliases: [/datenschutz/]
+aliases:
+  - /datenschutz/
 ---
-Stand: 17. Oktober 2022
+Stand: 14. Januar 2023
 
 ## Verantwortlicher
 
@@ -190,7 +191,7 @@ Leiterstraße 9
 
 Telefon: 03 91/818 03-0
 
-E-Mail: [poststelle@lfd.sachse](mailto:poststelle@lfd.sachse)n-anhalt.de
+E-Mail: [poststelle@lfd.sachsen-anhalt.de](mailto:poststelle@lfd.sachsen-anhalt.de)
 
 ## Begriffsdefinitionen
 

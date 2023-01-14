@@ -2,9 +2,9 @@
 title: Vorlesewettbewerb der 6. Klassen 2022 - Schulrunde
 date: 2022-12-12T12:00:43.329Z
 draft: false
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/blog/vlw_logo_blau_rgb.jpg
+image: /media/blog/vlw_logo_blau_rgb.webp
 author: Herr Berger
 categories:
   - Wettbewerbe
@@ -22,8 +22,4 @@ Ein Dank soll an Frau Opel-Fritzlar gerichtet werden, welche die schönen zwei S
 
 Mit leichtem Abstand konnte sich Nino aus der 6/3 durchsetzen und wird unsere Schule bei der Stadtrunde vertreten. Wir drücken die Daumen!
 
-
-
 {{< gallery dir="media/blog/VorlesewettbewerbKl6_12_2022" />}}
-
-

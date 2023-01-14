@@ -1,8 +1,8 @@
 ---
 title: Go4Goal / TOEFL-Test
 draft: false
-bg_image: /media/backgrounds/page-title.png
-image: /media/contests/go4goal.png
+bg_image: /media/backgrounds/page-title.webp
+image: /media/contests/go4goal.webp
 category: Fremdsprachen
 class: 5. - 12. Klasse
 web_url: https://www.go4goal.eu

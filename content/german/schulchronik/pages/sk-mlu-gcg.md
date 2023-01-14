@@ -1,10 +1,7 @@
 ---
 title: "Die Spezialklassen für Mathematik und Physik an der Martin-Luther-Universität Halle-Wittenberg"
 draft: false
-
-bg_image: "media/backgrounds/page-title.png"
-
-image: "media/image.png"
+bg_image: "media/backgrounds/page-title.webp"
 type: "pages"
 layout: "single.html"
 ---
@@ -69,7 +66,7 @@ Der Leiter der Spezialklassen war dem Direktor der Sektion Mathematik unterstell
 
 Für Erweiterungskurse in Mathematik und Physik wurden Hochschullehrkräfte der betreffenden Sektionen beauftragt. So unterrichtete z. B. der spätere Rektor Prof. Dr. Dr. G. Berg die Spezialklassenschüler einiger Jahrgänge in Physik.
 
-![Bild 1](/media/schulchronik/1991/spezialklassen/1.png)
+![Bild 1](/media/schulchronik/1991/spezialklassen/1.webp)
 
 ### 5. Die Aufnahmeprüfung
 
@@ -98,7 +95,7 @@ Gegenstand unzähliger Geschichten sind die Internate der Spezialklassen. Anfän
 
 Das Zusammenleben im Internat hatte einen wesentlichen Einfluss auf das positive soziale Klima zwischen den Schülern. Gegenseitige Hilfe und gegenseitiges Anspornen bei der Bewältigung des umfangreichen Lernpensums waren selbstverständlich.
 
-![Bild 1](/media/schulchronik/1991/spezialklassen/2.png)
+![Bild 1](/media/schulchronik/1991/spezialklassen/2.webp)
 
 ### 7. Die Spezialklassen und die Volksbildung
 

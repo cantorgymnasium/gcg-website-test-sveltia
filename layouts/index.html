@@ -53,6 +53,8 @@
 </noscript>
 {{ end }}
 
+{{ if $data.header_logos.enable }}
+{{ with $data.header_logos }}
 <section class="bg-white">
   <div class="container">
     <div class="row align-items-center">
@@ -69,6 +71,8 @@
     </div>
   </div>
 </section>
+{{ end }}
+{{ end }}
 
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
@@ -125,10 +129,11 @@
         <div class="row feature-blocks bg-white justify-content-between">
           {{ range .feature_item }}
           <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-sm-left">
-            {{ if .img }}
-              <img src="{{ .image }}" class="mb-xl-4 mb-lg-3 mb-4 feature-icon"></img>
-            {{ else }}
-              <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            {{ with .image }}
+              <img src="{{ . }}" class="mb-xl-4 mb-lg-3 mb-4 feature-icon"></img>
+            {{ end }}
+            {{ with .icon }}
+              <i class="{{ . }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
             {{ end }}
             <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
             <div class="content">
@@ -273,6 +278,8 @@
 {{ end }}
 {{ end }}
 
+{{ if $data.homepage.footer_logos.enable }}
+{{ with $data.homepage.footer_logos }}
 <section class="bg-footer">
   <div class="container">
     <div class="row align-items-center">
@@ -289,5 +296,7 @@
     </div>
   </div>
 </section>
+{{ end }}
+{{ end }}
 
 {{ end }}

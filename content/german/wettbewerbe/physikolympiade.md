@@ -1,8 +1,8 @@
 ---
 title: "Physikolympiade "
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
-image: /media/contests/PhO.png
+bg_image: /media/backgrounds/page-title.webp
+image: /media/contests/PhO.webp
 category: Physik
 class: 8. - 10. Klasse
 web_url: https://pho.elemente.org/

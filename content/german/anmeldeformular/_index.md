@@ -1,7 +1,7 @@
 ---
 title: Anmeldeformular
 draft: false
-bg_image: media/backgrounds/page-title.png
+bg_image: media/backgrounds/page-title.webp
 email: aufnahme@cantor-gymnasium.de
 email_pretty: aufnahme<i class="fa-solid fa-at"></i>cantor-gymnasium.de
 description:

@@ -1,7 +1,7 @@
 ---
 title: Schülerzeitung
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/sz.webp
 category: Gesellschaft
 duration: nach Vereinbarung
@@ -15,4 +15,4 @@ In dieser AG können Schüler und Schülerinnen eigene Texte verfassen und ihrem
 
 **Kontakt:**
 
-Anmeldung über [schuelerzeitung<i class="fa-solid fa-at"></i>cantor-gymnasium.de](mailto:schuelerzeitung@cantor-gymnasium.de) mit Name, Klasse und Handynummer
+Anmeldung über [schuelerzeitung@cantor-gymnasium.de](mailto:schuelerzeitung@cantor-gymnasium.de) mit Name, Klasse und Handynummer

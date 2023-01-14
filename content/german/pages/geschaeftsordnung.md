@@ -1,11 +1,12 @@
 ---
 title: Geschäftsordnung der Schülervertretung
 draft: false
-bg_image: media/backgrounds/page-title.png
+bg_image: media/backgrounds/page-title.webp
 description: null
-type: "pages"
-layout: "single.html"
-aliases: [/schuelervertretung/geschaeftsordnung/]
+type: pages
+layout: single.html
+aliases:
+  - /schuelervertretung/geschaeftsordnung/
 ---
 #### **1. Funktion**
 
@@ -13,9 +14,9 @@ Die Schülervertretung ist die offizielle Interessenvertretung der Schülerinnen
 
 Sie gliedert sich in 3 ständige Organe:
 
-* Schülerrat
-* Beirat
-* Vorstand
+- Schülerrat
+- Beirat
+- Vorstand
 
 #### **2. Schülerrat**
 
@@ -45,17 +46,17 @@ Der Vorstand der Schülervertretung ist das zweithöchste beschlussfassende Orga
 
 Der Vorstand besteht aus:
 
-* Einem oder zwei Vorsitzenden der Schülervertretung, welche den Titel Schülersprecher tragen dürfen und von der gesamten Schülerschaft aus ihrer Mitte gewählt werden. Diese übernehmen auch den Vorsitz im Schülerrat.
-* Einem oder zwei stellvertretenden Vorsitzenden, welche auf Vorschlag der Vorsitzenden vom Vorstand gewählt werden.
-* Einem oder zwei Vorsitzenden des Schülerbeirats
+- Einem oder zwei Vorsitzenden der Schülervertretung, welche den Titel Schülersprecher tragen dürfen und von der gesamten Schülerschaft aus ihrer Mitte gewählt werden. Diese übernehmen auch den Vorsitz im Schülerrat.
+- Einem oder zwei stellvertretenden Vorsitzenden, welche auf Vorschlag der Vorsitzenden vom Vorstand gewählt werden.
+- Einem oder zwei Vorsitzenden des Schülerbeirats
 
 #### **5. Delegierte**
 
 Der Schülerrat des Georg-Cantor-Gymnasiums wählt aus seiner Mitte Delegierte zu folgenden Institutionen:
 
-* Einen Delegierten und einen Ersatzdelegierten zum Stadtschülerrat Halle (Saale)
-* Einen oder zwei Delegierte zum Förderverein des Georg-Cantor-Gymnasiums
-* Einen oder zwei Delegierte zum Schulelternrat des Georg-Cantor-Gymnasiums
+- Einen Delegierten und einen Ersatzdelegierten zum Stadtschülerrat Halle (Saale)
+- Einen oder zwei Delegierte zum Förderverein des Georg-Cantor-Gymnasiums
+- Einen oder zwei Delegierte zum Schulelternrat des Georg-Cantor-Gymnasiums
 
 Die Delegierten haben die Aufgabe, die Schülervertretung des Georg-Cantor-Gymnasiums nach außen zu repräsentieren und Zusammenarbeit zwischen den Institutionen und der Schülervertretung aufzubauen.
 

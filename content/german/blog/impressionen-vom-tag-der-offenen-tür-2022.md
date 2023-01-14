@@ -2,9 +2,9 @@
 title: Impressionen vom Tag der offenen Tür 2022
 date: 2022-11-24T09:41:02.882Z
 draft: false
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/image.png
+image: /media/image.webp
 author: Herr Berger
 categories:
   - Ereignisse
@@ -14,7 +14,7 @@ tags:
   - cantorentdecken
 type: post
 ---
-{{< load-photoswipe  >}} 
+{{< load-photoswipe >}}
 
 Am 19. November 2022 öffneten wir unsere Pforten für vielleicht zukünftige Cantorianer und ihre Eltern. Trotz erster Schneeflocken in der Nacht waren die Besucherzahlen groß. Unsere Fachbereiche präsentierten die Schule und luden mit Angeboten zum Mitmachen ein. Alle Fragen zum Alltag an unserer Schule wurden von unseren Cantorianern und den Lehrkräften beantwortet. Herr Dr. Gorsler, der Schulleiter, informierte umfangreich zum Schulprofil und Aufnahmeverfahren. Die Theater-AG präsentierte verschiedene Sketche in der Aula und unsere Oberstufen-Schüler hatten für das leibliche Wohl gesorgt. Einige Momente sind in den Impressionen unten festgehalten.
 
@@ -24,5 +24,8 @@ Vielen Dank an alle Beteiligten!
 
 Alle aktuellen Informationen zum Aufnahmeverfahren in die neuen 5. Klassen finden sie unter [Schule > Anmeldung](https://cantorgymnasium.de/anmeldung/).
 
-<br>
-{{< gallery dir="media/blog/TdoT2022" />}}
+
+
+{{< gallery dir="/media/blog/TdoT2022" />}}
+
+

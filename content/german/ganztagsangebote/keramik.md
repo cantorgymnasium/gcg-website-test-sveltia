@@ -1,7 +1,7 @@
 ---
 title: Keramik
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/keramik.webp
 category: Kunst
 duration: 2. Stunden

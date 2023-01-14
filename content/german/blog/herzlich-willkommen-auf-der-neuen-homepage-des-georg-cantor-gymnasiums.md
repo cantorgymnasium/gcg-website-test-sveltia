@@ -2,14 +2,14 @@
 title: Herzlich willkommen auf der neuen Homepage des Georg-Cantor-Gymnasiums!
 date: 2022-10-19T16:04:15.580Z
 draft: false
-bg_image: /media/backgrounds/page-title.png
+bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/image.png
+image: /media/image.webp
 author: Frau Schapitz
 categories:
   - Website
 tags:
-  - "renewGCG"
+  - renewGCG
 type: post
 ---
 Liebe Besucher,

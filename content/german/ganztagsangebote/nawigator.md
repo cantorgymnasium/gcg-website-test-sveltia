@@ -1,7 +1,7 @@
 ---
 title: Nawigator
 draft: false
-bg_image: /media/bild_titelbild.jpg
+bg_image: /media/backgrounds/page-title.webp
 description: Begabtenförderung in Biologie, Chemie und Physik
 image: /media/ganztagsangebote/nawigator.webp
 category: Naturwissenschaften

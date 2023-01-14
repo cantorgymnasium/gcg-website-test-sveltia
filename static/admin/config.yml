@@ -44,12 +44,13 @@ collections:
           - label: "Banner"
             name: "top_banner"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Text", name: "text", widget: "string", required: false}
               - {label: "Farbe", name: "color", widget: "color", required: false}
               - {label: "Schriftfarbe", name: "font_color", widget: "color", required: false}
-              - {label: "Symbol", name: "icon", widget: "string", required: false}
+              - {label: "Symbol", name: "icon", widget: "string", required: false, hint: "Liste unter https://fontawesome.com/search"}
               - label: "Zeitschaltung"
                 name: temporarily
                 widget: "object"
@@ -60,6 +61,7 @@ collections:
           - label: "Karusell"
             name: "slider"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Hintergrundbild", name: "bg_image", widget: "image", required: false}
@@ -88,24 +90,16 @@ collections:
                       - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
                       - {label: "Bezeichnung", name: "label", widget: "string", required: false}
                       - {label: "Link", name: "link", widget: "string", required: false}
-          - label: "Erfolge"
-            name: "success_banner"
+          - label: "Logo-Banner (oben)"
+            name: "header_logos"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
-              - {label: "Bild", name: "image", widget: "image", required: false}
-              - label: "Elemente"
-                name: "feature_item"
-                widget: "list"
-                fields:
-                  - {label: "Bezeichnung", name: "name", widget: "string", required: false}
-                  - {label: "Bild verwenden", name: "img", widget: "boolean", required: false}
-                  - {label: "Symbol", name: "icon", widget: "string", required: false}
-                  - {label: "Bild", name: "image", widget: "image", required: false}
-                  - {label: "Inhalt", name: "content", widget: "markdown", required: false}
           - label: "\"Über\"-Seite"
             name: "about"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Titel", name: "title", widget: "string", required: false}
@@ -117,15 +111,39 @@ collections:
                   - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
                   - {label: "Bezeichnung", name: "label", widget: "string", required: false}
                   - {label: "Link", name: "link", widget: "string", required: false}
+          - label: "Blog"
+            name: "blog"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Titel", name: "title", widget: "string"}
+          - label: "Erfolge"
+            name: "success_banner"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - {label: "Bild", name: "image", widget: "image", required: false}
+              - label: "Elemente"
+                name: "feature_item"
+                widget: "list"
+                fields:
+                  - {label: "Bezeichnung", name: "name", widget: "string", required: false}
+                  - {label: "Symbol", name: "icon", widget: "string", required: false, hint: "Liste unter https://fontawesome.com/search"}
+                  - {label: "Bild", name: "image", widget: "image", required: false}
+                  - {label: "Inhalt", name: "content", widget: "markdown", required: false}
           - label: "Ganztagsangebote"
             name: "ganztagsangebote"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Titel", name: "title", widget: "string", required: false}
           - label: "Aktionsbutton"
             name: "cta"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Titel", name: "title", widget: "string", required: false}
@@ -140,6 +158,7 @@ collections:
           - label: "Informationen"
             name: "info"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Hintergrundbild", name: "bg_image", widget: "image", required: false}
@@ -149,32 +168,25 @@ collections:
           - label: "Termine"
             name: "termine"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Titel", name: "title", widget: "string", required: false}
-          - label: "Zahlen"
-            name: "zahlen"
-            widget: "object"
-            fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
-              - label: "Elemente"
-                name: "zahl_element"
-                widget: "list"
-                fields:
-                  - {label: "Bezeichnung", name: "name", widget: "string", required: false}
-                  - {label: "Zahl", name: "count", widget: "number", required: false}
-          - label: "Blog"
-            name: "blog"
-            widget: "object"
-            fields:
-              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
-              - {label: "Titel", name: "title", widget: "string"}
-          - label: "Digitalpakt-Banner"
+          - label: "DigitalPakt-Banner"
             name: "digitalpakt"
             widget: "object"
+            collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Titel", name: "title", widget: "string", required: false}
+              - {label: "Bild", name: "image", widget: "image", required: false}
+              - {label: "Inhalt", name: "content", widget: "markdown", required: false}
+          - label: "Logo-Banner (unten)"
+            name: "footer_logos"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
       - name: "hugo-config"
         label: "Website-Konfiguration"
         file: "config.yml"
@@ -231,7 +243,14 @@ collections:
               - {label: "E-Mail-Adresse (UI-Ansicht)", name: "email_pretty", widget: "string"}
               - {label: "Beschreibung", name: "description", widget: "string"}
               - {label: "Kontakt-Titelleiste", name: "top_header", widget: "boolean"}
-              - {label: "Vorschaubilder", name: "images", widget: "stringlist", required: false}
+              - label: "Vorschaubilder"
+                name: "images"
+                widget: "list"
+                required: false
+                fields:
+                  - label: "Bild-Pfad"
+                    name: "path"
+                    widget: "string"
               - {label: "Twitter-Konto", name: "twitter", widget: "string", required: false}
               - label: "Ladeanimation"
                 name: "preloader"
@@ -245,8 +264,8 @@ collections:
                 widget: "list"
                 fields:
                   - {label: "Bezeichnung", name: "title", widget: "string"}
-                  - {label: "Symbol", name: "icon", widget: "string"}
-                  - {label: "Link", name: "link", widget: "string", hint: "Liste unter https://fontawesome.com/search"}
+                  - {label: "Symbol", name: "icon", widget: "string", hint: "Liste unter https://fontawesome.com/search"}
+                  - {label: "Link", name: "link", widget: "string"}
           - label: "Menü"
             name: "menu"
             widget: "object"
@@ -317,14 +336,14 @@ collections:
     label: "Hauptseiten"
     editor:
       preview: true
-      frame: false
+      frame: true
     files:
       - name: "blog-index"
         label: "Aktuelles"
         file: "content/german/blog/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "about-index"
         label: "Über die Schule"
@@ -332,9 +351,21 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
-          - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+          - {label: "Bild", name: "image", widget: "image", default: "/media/image.webp", required: false}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+          - label: "Statistik"
+            name: "stats"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - label: "Elemente"
+                name: "zahlen"
+                widget: "list"
+                fields:
+                  - {label: "Bezeichnung", name: "name", widget: "string", required: false}
+                  - {label: "Zahl", name: "count", widget: "number", required: false}
           - {label: "Text", name: "body", widget: "markdown"}
       - name: "anmeldung-index"
         label: "Anmeldung"
@@ -342,7 +373,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string", required: true}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - label: "Elemente"
             label_singular: "Element"
@@ -359,7 +390,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "contact-index"
         label: "Kontakt"
@@ -367,7 +398,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Text", name: "body", widget: "markdown"}
       - name: "event-index"
@@ -376,7 +407,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - label: Termine
             label_singular: "Termin"
@@ -385,7 +416,7 @@ collections:
             fields:
               - {label: "Titel", name: "title", widget: "string", required: true}
               - {label: "Datum/Startdatum", name: "date", widget: "datetime",  required: true, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"}
-              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX", default: ""}
+              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"}
               - {label: "Ort", name: "location", widget: "string", required: true}
               - {label: "Beschreibung", name: "summary", widget: "string", required: false}
             required: false
@@ -395,7 +426,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "ganztagsangebote-index"
         label: "Ganztagsangebote"
@@ -403,7 +434,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "wettbewerbe-index"
         label: "Wettbewerbe"
@@ -411,7 +442,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "begabtenfoerderung-index"
         label: "Begabtenförderung"
@@ -419,7 +450,7 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - name: "abiturienten"
         label: "Abiturienten"
@@ -427,16 +458,15 @@ collections:
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-          - {label: "Text", name: "body", widget: "markdown", required: false}
       - name: "cantorfora"
         label: "Cantorfora"
         file: "content/german/cantorfora/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "pages"
@@ -447,19 +477,22 @@ collections:
     create: true
     editor:
       preview: true
-      frame: false
+      frame: true
     slug: "{{slug}}"
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "pages"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "single.html"}
       - label: "Aliase"
         name: "aliases"
-        widget: "categories"
-        required: false
+        widget: "list"
+        fields:
+          - label: "Alias"
+            name: "alias"
+            widget: "string"
       - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "author" 
     icon: "user"
@@ -474,7 +507,7 @@ collections:
     public_folder: '/media/people'
     fields:
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
       - {label: "Gravatar-E-Mail", name: "email", widget: "string", required: false}
       - {label: "Foto", name: "image", widget: "image"}
@@ -496,7 +529,9 @@ collections:
               - { label: "Vimeo", value: "fa-brands fa-vimeo" }
               - { label: "Instagram", value: "fa-brands fa-instagram" }
               - { label: "Facebook", value: "fa-brands fa-facebook" }
+              - { label: "Linkedin", value: "fa-brands fa-linkedin" }
               - { label: "E-Mail", value: "fa-solid fa-at" }
+              - { label: "TikTok", value: "fa-brands fa-tiktok" }
               - { label: "Sonstige", value: "fa-solid fa-share-nodes" }
           - {label: "Link", name: "link", widget: "string"}
         required: false
@@ -511,6 +546,7 @@ collections:
     slug: "{{slug}}"
     editor:
      preview: true
+     frame: true
     media_folder: '/static/media/blog'
     public_folder: '/media/blog'
     view_groups:
@@ -525,9 +561,9 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Datum", name: "date", widget: "datetime", date_format: "dd/MM/yyyy", time_format: false}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
-      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/image.png"}
+      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/image.webp"}
       - label: "Beitragsautor"
         name: "author"
         widget: "relation"
@@ -538,12 +574,18 @@ collections:
         name: "categories"
         widget: "list"
         required: false
-        field: {label: "Kategorie", name: "category", widget: "array"}
+        fields:
+          - label: "Kategorie"
+            name: "category"
+            widget: "string"
       - label: "Tags"
         name: "tags"
         widget: "list"
         required: false
-        field: {label: "Tag", name: "tag", widget: "array"}
+        fields:
+          - label: "Tag"
+            name: "tag"
+            widget: "string"
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "forms"
@@ -562,7 +604,7 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - label: "Dateien"
         name: "files"
@@ -587,16 +629,16 @@ collections:
     fields:
       - {label: "Jahr", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Beschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/cantorpreis/image.webp", required: false}
       - {label: "Name", name: "name", widget: "string"}
       - label: "Kontaktdaten/Soz. Netzwerke"
         name: "contact"
         widget: "list"
         fields:
-          - {label: "Name/Adresse/Telefonnummer", name: "name", widget: "string"}
-          - {label: "Symbol", name: "icon", widget: "string", hint: "Symbolname von https://fontawesome.com/search"}
+          - {label: "Bezeichnung", name: "name", widget: "string"}
+          - {label: "Symbol", name: "icon", widget: "string", hint: "Liste unter https://fontawesome.com/search"}
           - {label: "Link", name: "link", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}
       - {label: "Text", name: "body", widget: "markdown"}
@@ -614,9 +656,9 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/ganztagsangebote/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/ganztagsangebote/image.webp", required: false}
       - {label: "Themenbereich", name: "category", widget: "string", required: true}
       - {label: "Dauer", name: "duration", widget: "string"}
       - {label: "Tag/Stunden", name: "weekly", widget: "string"}
@@ -639,9 +681,9 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/contests/image.webp", required: false}
       - {label: "Fach", name: "category", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Website", name: "web_url", widget: "string", required: false}
@@ -661,9 +703,9 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/begabtenfoerderung/image.webp", required: false}
       - {label: "Fach", name: "category", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Website", name: "web_url", widget: "string", required: false}
@@ -681,7 +723,7 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Type", name: "type", widget: "hidden", default: "schulchronik"}
       - {label: "Einleitung", name: "pretext", hint: "Jahreszahltext", widget: "markdown", required: false}
       - label: "Kreative Haufen"
@@ -707,8 +749,8 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.png"}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/image.png", required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/abiturienten/image.webp", required: false}
       - {label: "Mehrere Bilder", name: "multiple", widget: "boolean", default: false, required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "abiturienten"}
       - {label: "Text", name: "body", widget: "markdown"}

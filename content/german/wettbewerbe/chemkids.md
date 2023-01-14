@@ -1,8 +1,8 @@
 ---
 title: "Chemkids "
 draft: "false"
-bg_image: /media/backgrounds/page-title.png
-image: /media/contests/chemkids.png
+bg_image: /media/backgrounds/page-title.webp
+image: /media/contests/chemkids.webp
 category: Chemie
 class: 5. - 8. Klasse
 web_url: https://www.chemkids.de/

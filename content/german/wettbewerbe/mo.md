@@ -1,9 +1,9 @@
 ---
 title: Mathematik-Olympiade
 draft: false
-bg_image: /media/bild_titelbild.jpg
+bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/contests/mo.png
+image: /media/contests/mo.webp
 category: Mathematik
 class: 5. - 12. Klasse
 web_url: https://mo.elemente.org/

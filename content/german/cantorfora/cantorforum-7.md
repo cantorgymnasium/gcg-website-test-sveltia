@@ -3,7 +3,7 @@ title: "7. Cantorforum"
 tenrange: "0"
 draft: false
 
-bg_image: "media/backgrounds/page-title.png"
+bg_image: "media/backgrounds/page-title.webp"
 
 image: "media/cantorfora/cantorforum_e07.bmp"
 description: "''Einmal Sushi, bitte - Jugendbotschafter in Japan'' von Maximilian König"
