@@ -416,7 +416,7 @@ collections:
             fields:
               - {label: "Titel", name: "title", widget: "string", required: true}
               - {label: "Datum/Startdatum", name: "date", widget: "datetime",  required: true, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"}
-              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"}
+              - {label: "Enddatum", name: "enddate", widget: "datetime",  required: false, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX", default: ""}
               - {label: "Ort", name: "location", widget: "string", required: true}
               - {label: "Beschreibung", name: "summary", widget: "string", required: false}
             required: false
