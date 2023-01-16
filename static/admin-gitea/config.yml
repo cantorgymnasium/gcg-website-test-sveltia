@@ -2,7 +2,6 @@ backend:
   name: gitea
   repo: gcg/gcg-website
   branch: master
-  auth_type: pkce
   api_root: https://git.cantorgymnasium.de/api/v1
   base_url: https://oauth.cantorgymnasium.de
   commit_messages:
