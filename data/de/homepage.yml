@@ -158,7 +158,7 @@ cta:
   subtitle: Dann geht es hier direkt zur Anmeldung!
   button:
     enable: true
-    label: Anmeldeantrag stellen
+    label: Aufnahmeantrag stellen
     link: anmeldung
 info:
   enable: true
