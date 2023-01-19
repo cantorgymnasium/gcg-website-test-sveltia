@@ -1,7 +1,7 @@
 ---
 title: Spezialistenlager 2023
 date: 2023-01-19T19:13:48+01:00
-draft: true
+draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/image.webp
