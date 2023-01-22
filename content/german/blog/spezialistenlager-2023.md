@@ -9,6 +9,7 @@ author: Franziska Berner
 categories:
   - Traditionen
   - Wettbewerbe
+  - Mathematik
 tags:
   - spezilager
   - matheolympiade
