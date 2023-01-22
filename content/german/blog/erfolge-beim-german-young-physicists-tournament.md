@@ -4,7 +4,7 @@ date: 2023-01-22T16:14:48+01:00
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/blog/gypt.webp
+image: /media/blog/gypt.png
 author: Denys Konovalov
 categories:
   - Wettbewerbe
