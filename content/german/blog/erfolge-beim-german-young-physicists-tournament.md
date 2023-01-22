@@ -4,7 +4,7 @@ date: 2023-01-22T16:14:48+01:00
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/blog/image.webp
+image: /media/blog//gy-pt-2023.png
 author: Denys Konovalov
 categories:
   - Wettbewerbe
