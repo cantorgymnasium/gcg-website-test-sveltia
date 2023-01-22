@@ -5,20 +5,20 @@ platform:
     os: linux
     arch: amd64
 steps:
-    - name: build
+    - name: hugo build
       image: plugins/hugo
       settings:
-        hugo_version: 0.109.0
+        hugo_version: 0.110.0
         validate: false
         extended: true
-        url: https://gcg.gitea-pages.cantorgymnasium.de
+        url: https://dev.cantorgymnasium.de
       commands:
-        - apk add --update --no-cache tzdata brotli git
+        - apk add --update --no-cache tzdata git
         - /bin/drone-hugo
         - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -print0 | xargs -0 gzip -9 -f -k
         - git init public
         
-    - name: git-push
+    - name: push public
       image: appleboy/drone-git-push
       settings:
         branch: pages
@@ -26,12 +26,13 @@ steps:
           from_secret: drone_remote
         force: true
         commit: true
+        commit_message: "[ci] website update"
         path: public
         author_name: GCG.Admin
         author_email: admin@cantor-gymnasium.de
 
 
-    - name: send telegram notification
+    - name: notification
       image: appleboy/drone-telegram
       settings:
           token:
