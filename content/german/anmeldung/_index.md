@@ -6,7 +6,7 @@ description: Hier finden Sie die Informationen zur Aufnahme am Georg-Cantor-Gymn
 elements:
   - title: Anmeldung
     content: >
-      Bis **Februar 2023** müssen:
+      Bis zum **7. Februar 2023** müssen:
 
 
       - eine [schriftliche Anmeldung](/forms/anmeldeformular/) oder eine Anmeldung über das [Online-Anmeldeformular](/anmeldeformular)
