@@ -14,6 +14,8 @@ tags:
   - gypt
 type: post
 ---
+{{< load-photoswipe >}}
+
 Am Samstag, dem 21.01.2023, fand in Jena die Regionalrunde des Physikwettbewerbs ["German Young Physicists' Tournament"](https://www.gypt.org/) statt.
 
 Das Georg-Cantor-Gymnasium war dabei mit 10 Schülerinnen und Schülern aus dem WoU-Kurs Physik der Klassenstufe 10 vertreten.
