@@ -6,7 +6,7 @@ description: Hier finden Sie die Informationen zur Aufnahme am Georg-Cantor-Gymn
 elements:
   - title: Anmeldung
     content: >
-      Bis zum **7. Februar 2023** müssen:
+      Bis zum **8. Februar 2023** müssen:
 
 
       - eine [schriftliche Anmeldung](/forms/anmeldeformular/) oder eine Anmeldung über das [Online-Anmeldeformular](/anmeldeformular)
@@ -34,7 +34,8 @@ elements:
       Übungsmöglichkeiten für die Aufnahmeprüfung finden Sie [hier](/forms/aufnahmeklausur).
   - title: Ergebnisse
     content: >
-      Bis zum April 2023 werden ihnen die Ergebnisse der Aufnahmeprüfung schriftlich mitgeteilt.
+      Bis zum April 2023 werden ihnen die Ergebnisse der Aufnahmeprüfung
+      schriftlich mitgeteilt.
 ---
 ## Voraussetzungen
 
