@@ -29,6 +29,9 @@ steps:
         target: /opt/data/webdata/gcg-website/
         recursive: true
         delete: true
+      commands:
+        - which rsync
+        - /bin/rsync
 
     - name: notification
       image: appleboy/drone-telegram
