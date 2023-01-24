@@ -21,8 +21,9 @@ steps:
       image: drillster/drone-rsync
       settings:
         hosts: [ "cantorgymnasium.de" ]
-        port: 1845
-        user: root
+        port:
+          from_secret: ssh_port
+        user: web-push
         key:
           from_secret: ssh_key
         source: public/
