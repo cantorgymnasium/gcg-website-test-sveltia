@@ -1,6 +1,6 @@
 top_banner:
   enable: true
-  text: " Wir laden zum literarisch-musikalischen Abend am Mittwoch, den
+  text: " Test <br> Wir laden zum literarisch-musikalischen Abend am Mittwoch, den
     22.02.2023 ab 17 Uhr! "
   color: "#1b57b1"
   font_color: "#ffffff"
