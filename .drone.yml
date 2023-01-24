@@ -43,6 +43,21 @@ steps:
           status:
               - success
               - failure
+    
+    - name: deploy
+  image: drillster/drone-rsync
+  settings:
+    hosts: [ "cantorgymnasium.de" ]
+    port:
+      from_secret: ssh_port
+    user: web-push
+    key:
+      from_secret: ssh_key
+    source: public/
+    target: /opt/data/webdata/gcg-website/
+    recursive: true
+    delete: true
+
 trigger:
     branch:
         - master
