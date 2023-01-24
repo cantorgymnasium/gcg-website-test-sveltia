@@ -29,8 +29,6 @@ steps:
         target: /opt/data/webdata/gcg-website/
         recursive: true
         delete: true
-      commands:
-        - PATH=/usr/bin/ /usr/local/upload.sh
 
     - name: notification
       image: appleboy/drone-telegram
