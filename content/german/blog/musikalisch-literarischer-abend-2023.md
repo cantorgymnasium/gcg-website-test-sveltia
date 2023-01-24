@@ -1,6 +1,6 @@
 ---
 title: Musikalisch-literarischer Abend 2023
-date: 2023-02-22T08:14:51+01:00
+date: 2023-01-24T08:18:02+01:00
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
