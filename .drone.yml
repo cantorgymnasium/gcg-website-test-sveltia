@@ -13,36 +13,9 @@ steps:
         extended: true
         url: https://dev.cantorgymnasium.de
       commands:
-        - apk add --update --no-cache tzdata git
+        - apk add --update --no-cache tzdata
         - /bin/drone-hugo
         - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -print0 | xargs -0 gzip -9 -f -k
-        - git init public
-        
-    - name: push public
-      image: appleboy/drone-git-push
-      settings:
-        branch: pages
-        remote:
-          from_secret: drone_remote
-        force: true
-        commit: true
-        commit_message: "[ci] website update"
-        path: public
-        author_name: GCG.Admin
-        author_email: admin@cantor-gymnasium.de
-
-
-    - name: notification
-      image: appleboy/drone-telegram
-      settings:
-          token:
-              from_secret: telegram_token
-          to: 
-              from_secret: telegram_room_id
-      when:
-          status:
-              - success
-              - failure
     
     - name: deploy
       image: drillster/drone-rsync
@@ -57,6 +30,18 @@ steps:
         target: /opt/data/webdata/gcg-website/
         recursive: true
         delete: true
+
+    - name: notification
+      image: appleboy/drone-telegram
+      settings:
+          token:
+              from_secret: telegram_token
+          to: 
+              from_secret: telegram_room_id
+      when:
+          status:
+              - success
+              - failure
 
 trigger:
     branch:
