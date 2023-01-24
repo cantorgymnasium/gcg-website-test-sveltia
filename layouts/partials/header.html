@@ -100,7 +100,7 @@
   <div class="p-3 top-banner" style="background:{{ .color }}">
     <div class="container">
       <div class="no-gutters align-items-center">
-        <div style="color:{{ .font_color }}"><b><i class="{{ .icon }}"></i> {{ .text }}</b></div>
+        <div style="color:{{ .font_color }}"><b><i class="{{ .icon }}"></i> {{ .text | markdownify }}</b></div>
       </div>
     </div>
   </div>
