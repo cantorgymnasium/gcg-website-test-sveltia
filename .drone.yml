@@ -30,8 +30,7 @@ steps:
         recursive: true
         delete: true
       commands:
-        - which rsync
-        - /bin/rsync
+        - PATH=/usr/bin/ /usr/local/upload.sh
 
     - name: notification
       image: appleboy/drone-telegram
