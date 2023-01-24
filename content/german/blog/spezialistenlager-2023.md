@@ -13,6 +13,7 @@ categories:
 tags:
   - spezilager
   - matheolympiade
+  - "2023"
 type: post
 ---
 
