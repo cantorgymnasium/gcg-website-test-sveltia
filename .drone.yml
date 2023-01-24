@@ -22,7 +22,7 @@ steps:
       settings:
         hosts: [ "cantorgymnasium.de" ]
         port: 1845
-        user: web-push
+        user: root
         key:
           from_secret: ssh_key
         source: public/
