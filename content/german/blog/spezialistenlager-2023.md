@@ -4,14 +4,16 @@ date: 2023-01-19T19:13:48+01:00
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/image.webp
+image: /media/blog/SL-2023//sl-1.jpg
 author: Franziska Berner
 categories:
   - Traditionen
   - Wettbewerbe
+  - Mathematik
 tags:
   - spezilager
   - matheolympiade
+  - "2023"
 type: post
 ---
 
