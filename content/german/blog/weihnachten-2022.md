@@ -69,7 +69,3 @@ Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 #### Jetzt wünschen wir allen erholsame Ferien, frohe Weihnachten und einen guten Rutsch.
 
 #### Wir sehen uns alle im neuen Jahr hoffentlich gesund wieder.
-
-
-
-
