@@ -78,11 +78,7 @@ Zudem sind wir per [Mail](mailto:schuelerrat@cantor-gymnasium.de) erreichbar.
 
 Der Schülerrat unserer Schule verfügt über einen eigenen Instragram-,
 sowie einen Facebook- und Twitteraccount, auf welchen die neusten Dinge an
-unserer Schule zu sehen sind. Außerdem betreiben wir einen YouTube-Kanal, um die
+unserer Schule zu sehen sind. Zusätzlich betreiben wir einen YouTube-Kanal, um die
 Schüler, Lehrer aber auch die Eltern über unsere aktuellen Projekte aufzuklären.
 
-
-
 {{< card title="Geschäftsordnung" link="/pages/geschaeftsordnung" >}}
-
-

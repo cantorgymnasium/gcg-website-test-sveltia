@@ -1,5 +1,5 @@
 ---
-title: "Biberwettbewerb "
+title: Biberwettbewerb
 draft: "false"
 bg_image: /media/backgrounds/page-title.webp
 image: /media/contests/Biber.webp
