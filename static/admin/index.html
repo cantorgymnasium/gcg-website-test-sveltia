@@ -13,25 +13,32 @@
       }
     </style>
     <!-- Include the script that builds the page and powers Static CMS -->
-    <script src="https://cdn.jsdelivr.net/npm/@staticcms/app@^1.0.0/dist/static-cms-app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@staticcms/app@^1.1.3/dist/static-cms-app.js"></script>
     <script>
       CMS.init();
-      var icons = [['home', 'fa fa-house'], ['settings', 'fa fa-gear'], ['user', 'fa fa-user'], ['page', 'fa fa-file'], ['document', 'fa fa-file-lines'], ['news', 'fa fa-newspaper'], ['award', 'fa fa-award'], ['group', 'fa fa-people-group'], ['trophy', 'fa fa-trophy'], ['book', 'fa fa-book'], ['timeline', 'fa fa-timeline'], ['graduation-cap', 'fa fa-graduation-cap'], ['info', 'fa fa-circle-info']];
+      var icons = [['home', 'fa fa-house'], ['settings', 'fa fa-gear'], ['user', 'fa fa-user'], ['page', 'fa fa-file'], ['document', 'fa fa-file-lines'], ['news', 'fa fa-newspaper'], ['award', 'fa fa-award'], ['group', 'fa fa-people-group'], ['trophy', 'fa fa-trophy'], ['book', 'fa fa-book'], ['timeline', 'fa fa-timeline'], ['graduation-cap', 'fa fa-graduation-cap'], ['info', 'fa fa-circle-info'], ['desktop', 'fa-solid fa-desktop'], ['bookmark', 'fa-solid fa-bookmark']];
       icons.forEach(icon => {
         CMS.registerIcon(icon[0], ({}) => { return(h('i', {"className": icon[1]})); });
       });
-      const CustomPage = () => {
-        return h('div', {}, 'I am a custom page!');
+      const StatusPage = () => {
+        return h('a', {href: "https://drone.cantorgymnasium.de/gcg/gcg-website"}, h('img', {src: "https://drone.cantorgymnasium.de/api/badges/gcg/gcg-website/status.svg"}));
       };
-      
       CMS.registerAdditionalLink({
-        id: 'info',
-        title: 'Informationen',
-        data: CustomPage,
+        id: 'status',
+        title: 'Status',
+        data: StatusPage,
         options: {
-          icon: 'info',
+          icon: 'desktop',
         },
       }); 
+      CMS.registerAdditionalLink({
+        id: 'wiki',
+        title: 'GCG.Wiki',
+        data: 'https://wiki.cantorgymnasium.de',
+        options: {
+          icon: 'bookmark',
+        },
+      });      
       CMS.registerShortcode('gallery', {
         label: 'Gallery',
         openTag: '{{< ',
@@ -662,7 +669,7 @@
     CMS.registerPreviewTemplate("forms-index", PagePreview);
     CMS.registerPreviewTemplate("ganztagsangebote-index", PagePreview);
     CMS.registerPreviewTemplate("wettbewerbe-index", PagePreview);
-    CMS.registerPreviewTemplate("begabtenfoerderung-index", PagePreview);
+    CMS.registerPreviewTemplate("begabte-index", PagePreview);
     </script>
     <script>
     var PagePreviewImage = ({ widgetFor, getAsset, entry}) => {

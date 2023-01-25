@@ -1,12 +1,9 @@
 backend:
-  name: gitlab
-  repo: gcg/gcg.pages.cantorgymnasium.de
+  name: gitea
+  repo: gcg/gcg-website
   branch: master
-  auth_type: pkce
-  app_id: 469e4923e9b0a2d128604dfdf8e5c413665d65f730e4f563541e237210d29992
-  api_root: https://gitlab.cantorgymnasium.de/api/v4
-  base_url: https://gitlab.cantorgymnasium.de
-  auth_endpoint: oauth/authorize
+  api_root: https://git.cantorgymnasium.de/api/v1
+  base_url: https://oauth.cantorgymnasium.de
   commit_messages:
     create: "{{slug}} in {{collection}} erstellt"
     update: "{{slug}} in {{collection}} aktualisiert"
@@ -444,9 +441,9 @@ collections:
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - name: "begabtenfoerderung-index"
+      - name: "begabte-index"
         label: "Begabtenförderung"
-        file: "content/german/begabtenfoerderung/_index.md"
+        file: "content/german/begabte/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
@@ -689,27 +686,27 @@ collections:
       - {label: "Website", name: "web_url", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "wettbewerbe"}
       - {label: "Text", name: "body", widget: "markdown"}
-  - name: "begabtenfoerderung"
+  - name: "begabte"
     icon: "book"
     label: "Begabtenförderung"
     label_singular: "Begabtenförderung"
-    folder: "content/german/begabtenfoerderung"
-    filter: {field: "type", value: "begabtenfoerderung"}
+    folder: "content/german/begabte"
+    filter: {field: "type", value: "begabte"}
     create: true
     editor:
       preview: false
-    media_folder: '/static/media/begabtenfoerderung'
-    public_folder: '/media/begabtenfoerderung'
+    media_folder: '/static/media/begabte'
+    public_folder: '/media/begabte'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/begabtenfoerderung/image.webp", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/begabte/image.webp", required: false}
       - {label: "Fach", name: "category", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Website", name: "web_url", widget: "string", required: false}
-      - {label: "Type", name: "type", widget: "hidden", default: "begabtenfoerderung"}
+      - {label: "Type", name: "type", widget: "hidden", default: "begabte"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "schulchronik"
     icon: "timeline"

@@ -7,7 +7,7 @@ image: ""
 category: fächerübergreifend
 class: 5 - 12 Klasse
 web_url: null
-type: begabtenfoerderung
+type: begabte
 ---
 ### Auszug aus dem Begabtenförderungskonzept unserer Schule:
 

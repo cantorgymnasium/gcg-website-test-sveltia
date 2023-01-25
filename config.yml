@@ -113,7 +113,7 @@ menu:
       hasChildren: false
     - parent: Schule
       name: Begabtenförderung
-      URL: begabtenfoerderung
+      URL: begabte
       weight: 10
       hasChildren: false
     - weight: 3
