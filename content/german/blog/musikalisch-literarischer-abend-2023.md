@@ -17,6 +17,6 @@ type: post
 ---
 ## Ankündigung
 
-Am Mittwoch, den 22.03.2023 laden wir ab 17 Uhr zum musikalisch-literarischen Abend in die Aula.
+Am Mittwoch, den 22.02.2023 laden wir ab 17 Uhr zum musikalisch-literarischen Abend in die Aula.
 
 Freuen Sie sich auf Musik, Gesang, Tanz, Literatur und Schauspielkunst.
