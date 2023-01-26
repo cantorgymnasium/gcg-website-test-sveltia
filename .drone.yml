@@ -11,7 +11,7 @@ steps:
         hugo_version: 0.110.0
         validate: false
         extended: true
-        url: https://cantorgymnasium.de
+        url: https://cantorgymnasium.de/
       commands:
         - apk add --update --no-cache tzdata
         - /bin/drone-hugo
