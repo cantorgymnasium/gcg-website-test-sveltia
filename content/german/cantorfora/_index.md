@@ -2,9 +2,8 @@
 title: Cantorfora
 draft: false
 bg_image: media/backgrounds/page-title.webp
+gallery: false
 ---
-## Grußwort
-
 Liebe Cantorianer,
 Wir laden Euch alle ganz herzlich zum ersten Cantor-Forum ein!
 Das Cantor-Forum soll sich in Zukunft als Veranstaltung entwickeln, bei der Ihr als aktuelle Schüler des Cantors mit Ehemaligen in Austausch treten können. Regelmäßig werden dazu Gäste eingeladen, die einmal an der gleichen Stelle saßen, wie Ihr heute, zu Themen, die für Euch interessant sind.

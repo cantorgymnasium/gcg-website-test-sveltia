@@ -10,5 +10,6 @@ class: 6. Klasse
 room: DG
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
+gallery: false
 ---
 Bauen, kreativ sein und Ideen zum Leben erwecken - Jede Woche in der Lego-Robotik-AG.

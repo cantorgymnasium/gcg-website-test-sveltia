@@ -21,7 +21,7 @@ slider:
         enable: false
         label: ""
         link: ""
-    - content: Schule mit dem Gütesiegel \"Begabungsfördernde Schule\"
+    - content: Schule mit dem Gütesiegel "Begabungsfördernde Schule"
       animation_in: left
       animation_out: right
       button:
@@ -63,7 +63,7 @@ slider:
         enable: true
         link: https://www.leistung-macht-schule.de/
         label: Mehr erfahren
-    - content: KMK \"Jugend forscht\"-Schule 2018
+    - content: KMK "Jugend forscht"-Schule 2018
       animation_in: left
       animation_out: right
       button:
@@ -90,7 +90,9 @@ about:
     beschränkt sich aber nicht auf den MINT-Bereich. Informieren Sie sich über
     unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot.
 
+
     ## Virtueller Rundgang
+
 
     Wer nicht bis zum nächsten Tag der offenen Tür warten möchte, dem bieten wir eine digitale Führung durch das Schulhaus an, um sich bereits virtuell im Schulhaus umzuschauen.
   button:
@@ -181,7 +183,7 @@ digitalpakt:
   enable: true
   title: DigitalPakt Schule
   image: media/home/digitalpakt.webp
-  content: >-
+  content: >
     Für die Umsetzung des Förderprogramms DigitalPakt Schule
     (DigitalPakt-Richtlinie) gewährt das Land Sachsen-Anhalt für kommunale
     Schulen der Stadt Halle (Saale) Zuwendungen aus Bundesmitteln.

@@ -4,9 +4,9 @@ draft: false
 bg_image: "media/backgrounds/page-title.webp"
 type: "pages"
 layout: "single.html"
+gallery: true
 ---
 
-{{< load-photoswipe >}}
 
 
 ### Programm

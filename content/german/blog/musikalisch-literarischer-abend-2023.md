@@ -14,6 +14,7 @@ tags:
   - Musikalisch-literarischer Abend
   - "2023"
 type: post
+gallery: false
 ---
 ## Ankündigung
 

@@ -1,16 +1,13 @@
 ---
-title: "14. Cantorforum"
-tenrange: "1"
+title: 14. Cantorforum
+index: 14
 draft: false
-
-bg_image: "media/backgrounds/page-title.webp"
-
-image: "media/cantorfora/cantorforum14.webp"
+bg_image: media/backgrounds/page-title.webp
 description: "Katarina Forkmann: Placebo und Nocebo, die innere Apotheke"
+image: media/cantorfora/cantorforum14.webp
+type: cantorfora
+gallery: true
 ---
-
-{{< load-photoswipe >}}
-
 Manche mögen es der Macht des Herrn zuschreiben, wenn ein tiefgläubiger Mensch eine eigentlich unheilbare Krankheit besiegt – Doch es lässt sich auch eine rationale, wenn auch verblüffende Erklärung geben, die im Grunde jeder kennt: Die positive Einstellung, dass Gott diesen Menschen heilen wird, hat das Unmögliche möglich gemacht. Gemeinhin ist dieser Effekt unter dem Wort Placebo, was Latein ist und „Ich werde gefallen“ bedeutet, bekannt und Katarina ließ uns an ihren Erkenntnissen zu dieser körpereigenen Apotheke teilhaben.
 
 Nachdem sie 2003 ihr Abitur am Georg-Cantor-Gymnasium abgelegt hatte, begann Katarina in Halle Psychologie zu studieren. Von dort aus führte ihr Weg über Hamburg nach Essen, wo sie heute neurowissenschaftliche Studien in der Schmerzforschung durchführt und sich dort besonders mit dem „Placebo“ beschäftigt. Dieser schmerzlindernde Effekt wurde, wie so vieles, im Zweiten Weltkrieg entdeckt. Der britische Arzt Henry Beecher hatte hunderte Schmerzpatienten zu betreuen: Verwundete von der Front. Es kamen so viele Soldaten in die Lazarette, dass die Sanitäter bald vor dem Problem eines Engpasses bei Schmerzmitteln standen. Also startete Beecher das erste Experiment zum Placebo-Effekt: Er versprach seinen Patienten das wirksame Schmerzmittel, gab ihnen jedoch statt dessen lediglich eine an sich wirkungslose Kochsalzlösung. Das erstaunliche Ergebnis: Obwohl keine pharmakologische – also in der Substanz des Medikaments begründete – Wirkung existierte, hatten die Soldaten weniger Schmerzen.

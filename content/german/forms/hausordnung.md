@@ -4,6 +4,7 @@ draft: false
 bg_image: media/backgrounds/page-title.webp
 description: ""
 type: forms
+gallery: false
 ---
 **1.** Die Schülerinnen und Schüler verhalten sich so, dass eine andere Person durch sie weder gefährdet oder belästigt wird, noch zu Schaden kommt und sind zur Abwendung von Gefahren verpflichtet. Das Eigentum anderer wird geachtet.
 

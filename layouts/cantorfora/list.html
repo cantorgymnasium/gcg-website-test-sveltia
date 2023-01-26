@@ -12,16 +12,16 @@
   </div>
   <div class="container">
     <div class="row">
-      {{ range (where .Data.Pages "Params.tenrange"  "0") }}
+      {{ range sort .Data.Pages ".Params.index" }}
       <div class="col-lg-4 col-sm-6">
         {{ .Render "cantorfora" }}
       </div>
       {{ end }}
-      {{ range (where .Data.Pages "Params.tenrange"  "1") }}
+      {{/*  {{ range (where .Data.Pages "Params.tenrange"  "1") }}
       <div class="col-lg-4 col-sm-6">
         {{ .Render "cantorfora" }}
       </div>
-      {{ end }}
+      {{ end }}  */}}
     </div>
   </div>
 </section>

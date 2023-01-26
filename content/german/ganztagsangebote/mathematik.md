@@ -11,6 +11,7 @@ class: 5./6. Klasse
 room: "307"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
+gallery: false
 ---
 ### Über die AG
 

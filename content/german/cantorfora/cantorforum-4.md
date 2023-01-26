@@ -1,19 +1,16 @@
 ---
-title: "4. Cantorforum"
-tenrange: "0"
+title: 4. Cantorforum
+index: 4
 draft: false
-
-bg_image: "media/backgrounds/page-title.webp"
-
-image: "media/cantorfora/cantorforum_e04.bmp"
-description: "''Bundestagswahl…mir egal!?''"
+bg_image: media/backgrounds/page-title.webp
+description: '"Bundestagswahl…mir egal!?"'
+image: media/cantorfora/cantorforum_e04.bmp
+type: cantorfora
+gallery: true
 ---
-
-{{< load-photoswipe >}}
-
 Als ich auf den Schulhof haste, ein kurzer Blick zur Turmuhr: 15:00. Mist, schon wieder spät dran – und das, obwohl ich den ganzen Tag noch nichts gemacht habe. Frau Schmidt schrieb mir am Mittwoch eine E-Mail, in der sie mitteilte, dass am Montag, dem 21.09.09, ein Cantorforum stattfinden würde, sogar schon das 4. seiner Art. Es solle um Bundestagswahl gehen und Marcus Syring sollte kommen und in einer Art Podiumsdiskussion mit Publikumsbeteiligung über Politik reden, soviel wusste ich.
 
-Und nun war es Montag, und es war der 21., und ich wieder spät dran. Im Vorbeieilen grinse ich 3 Sechstklässler an – als ich noch so klein war…Aber es bleibt mir keine Zeit für Nostalgie. Drei Stufen mit einmal nehmend erklimme ich die Treppen und komme schlitternd vor dem Vertretungsplan zum Stehen. Was ist denn das da oberhalb – eine Frau? Hübsche Pose – irgendjemand hat da Geschmack, wer auch immer das aufgehängt hat. Wo war ich? Ach ja, der Vortrag, welcher Raum sollte das gleich sein? 313 steht auf einem Zettel mit dem Titel „Cantorforum IV: Bundestagswahl…mir egal!?“. Ich spurte los. Vier Treppenabsätze, dann noch der lange Flur. Als ich um die Ecke biege, sehe ich Herrn Dr. Koch an der Tür stehen, ein Lächeln im Gesicht. „Ach Hallo!“
+Und nun war es Montag, und es war der 21., und ich wieder spät dran. Im Vorbeieilen grinse ich 3 Sechstklässler an – als ich noch so klein war… Aber es bleibt mir keine Zeit für Nostalgie. Drei Stufen mit einmal nehmend erklimme ich die Treppen und komme schlitternd vor dem Vertretungsplan zum Stehen. Was ist denn das da oberhalb – eine Frau? Hübsche Pose – irgendjemand hat da Geschmack, wer auch immer das aufgehängt hat. Wo war ich? Ach ja, der Vortrag, welcher Raum sollte das gleich sein? 313 steht auf einem Zettel mit dem Titel „Cantorforum IV: Bundestagswahl…mir egal!?“. Ich spurte los. Vier Treppenabsätze, dann noch der lange Flur. Als ich um die Ecke biege, sehe ich Herrn Dr. Koch an der Tür stehen, ein Lächeln im Gesicht. „Ach Hallo!“
 
 Ha, doch noch geschafft. Schwer atmend aber glücklich betrete ich den Physikraum, welcher bis auf die letzten Plätze mit Schülern, Lehrern und Alumnis aller Alterstufen gefüllt ist.
 

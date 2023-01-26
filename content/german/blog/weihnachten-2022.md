@@ -17,9 +17,8 @@ tags:
   - Traditionen
   - Weihnachten
 type: post
+gallery: true
 ---
-{{< load-photoswipe >}}
-
 #### Weihnachtswichteln des Schülerrats
 
 Auch in diesem Jahr realisierte der Schülerrat unser traditionelles Weihnachtswichteln. Mit 820 Wichtelgeschenken wurde ein neuer Rekord erreicht! Wir hoffen, dass sich alle Bewichtelten über ihre Geschenke freuen.
@@ -69,3 +68,7 @@ Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 #### Jetzt wünschen wir allen erholsame Ferien, frohe Weihnachten und einen guten Rutsch.
 
 #### Wir sehen uns alle im neuen Jahr hoffentlich gesund wieder.
+
+
+
+

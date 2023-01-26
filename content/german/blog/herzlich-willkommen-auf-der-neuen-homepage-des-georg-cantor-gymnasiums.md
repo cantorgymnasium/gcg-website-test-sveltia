@@ -11,6 +11,7 @@ categories:
 tags:
   - renewGCG
 type: post
+gallery: false
 ---
 Liebe Besucher,
 

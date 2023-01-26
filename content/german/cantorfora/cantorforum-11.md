@@ -1,16 +1,13 @@
 ---
-title: "11. Cantorforum"
-tenrange: "1"
+title: 11. Cantorforum
+index: 11
 draft: false
-
-bg_image: "media/backgrounds/page-title.webp"
-
-image: "media/cantorfora/cantorforum_e11.webp"
+bg_image: media/backgrounds/page-title.webp
 description: "Susann Brosig: In 10 Schritten zum Helden"
+image: media/cantorfora/cantorforum_e11.webp
+type: cantorfora
+gallery: true
 ---
-
-{{< load-photoswipe >}}
-
 Unfälle sind schon etwas eigenartig. Man sieht, dass jemandem etwas passiert, ahnt, dass es wohl nicht gesund für ihn ist, aber Viele können sich nicht rühren und stehen nur daneben, als seien sie von der bizarren und geheimnisvollen Schönheit des Schreckens verzaubert. Wenn man dann wieder klar denken kann, packt das schlechte Gewissen einen, weil man einfach nicht wusste, wie man helfen soll.
 
 Susann Brosig (GCG Absolventin 2005), eine Fachfrau, wenn es um solche Angelegenheiten geht, ließ uns am 7.11.2012 ein wenig von ihrem Fachwissen als Ärztin profitieren. Den Anfang macht bei ihrem etwas anderen Erste-Hilfe-Kurs ein uraltes Gefahrenpotential, das schon vielen großen Persönlichkeiten den, teilweise freiwilligen, Tod gebracht hat: Das Gift. Oder was heißt „Das Gift“ schließlich gibt es ja unzählige verschiedene Gifte. Was also tun, wenn jemand vergiftet ist? Erbrechen ist meistens eine gute Idee, denn dann sind die Giftstoffe raus, aber davon ist bei Säuren und Basen ganz klar abzuraten, weil die ja den ganzen Weg nach draußen noch weiter Verätzungen verursachen können. Manch ältere Person würde zum Wasserglas und dem Salzstreuer greifen, doch schon offenbart sich der erste Fehler, denn Salz-wasser ist auch bei Vergiftung nicht besonders bekömmlich. Anstatt alles allein vor-zutragen, testet uns Suann in unserem Notfallwissen. Auch nicht ganz unwichtig für den nächsten Ausflug in Gebiete mit Giftschlangenpopulation: Was mache ich bei einem Schlangenbiss? Hier führt sogar die Filmindustrie in die Irre, denn im Winnetou-Style das Gift aus dem Biss saugen, sorgt gleich für die eigene Vergiftung.

@@ -10,6 +10,7 @@ class: 5. - 8. Klasse
 room: Schwimmhalle Neustadt
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
+gallery: false
 ---
 
 

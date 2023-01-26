@@ -4,6 +4,7 @@ draft: false
 bg_image: media/backgrounds/page-title.webp
 description: ""
 type: forms
+gallery: false
 ---
 - Bei Ausbruch eines Brandes oder im Katastrophenfall erfolgt eine Alarmierung durch die elektrische Alarmeinrichtung bzw. durch eine Durchsage über die Rufanlage des Gebäudes.
 - Der Alarm wird durch die elektrischen Brandmelder bzw. den Schulleiter ausgelöst. Bei Gefahr im Verzug sind alle Lehrkräfte und sonstigen Dienstkräfte der Schule zur Auslösung berechtigt und verpflichtet. Bei Schadenfeuer hat die Alarmauslösung, ohne den Erfolg eigener Löschversuche abzuwarten, unverzüglich zu erfolgen.

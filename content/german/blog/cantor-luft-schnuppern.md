@@ -13,6 +13,7 @@ tags:
   - cantorentdecken
   - tdot
 type: post
+gallery: false
 ---
 Am Sonnabend, dem **19. November 2022**, findet in der Zeit von **09:00 Uhr bis 12:00 Uhr** der Tag der offenen Tür am Georg-Cantor-Gymnasium Halle, Torstraße 13, statt.
 

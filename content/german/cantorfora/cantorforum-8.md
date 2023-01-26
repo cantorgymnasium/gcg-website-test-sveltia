@@ -1,16 +1,13 @@
 ---
-title: "8. Cantorforum"
-tenrange: "0"
+title: 8. Cantorforum
+index: 8
 draft: false
-
-bg_image: "media/backgrounds/page-title.webp"
-
-image: "media/cantorfora/cantorforum_e08.bmp"
-description: "''Energiewende? Ja danke! Aber ohne mich!'' von Andreas Bader"
+bg_image: media/backgrounds/page-title.webp
+description: '"Energiewende? Ja danke! Aber ohne mich!" von Andreas Bader'
+image: media/cantorfora/cantorforum_e08.bmp
+type: cantorfora
+gallery: true
 ---
-
-{{< load-photoswipe >}}
-
 Atomausstieg, Klimaerwärmung, Emmissionshandel, CO₂, Klimaprotokolle, ENERGIEWENDE... Von Finanzkrise, Rettungsschirm, Griechenland und Co. mal abgesehen, sind das die beherrschenden Themen unserer Zeit. „Doch wer „wendet“ eigentlich die Energie?“, fragt Andreas Bader.
 
 Nach seinem Abitur 2005 studierte er Elektrotechnik an der TU München. Nach seinem Abschluss als Diplom Ingenieur machte er bei E.ON ein „Graduate Trainee Engineering“. Dies führte ihn von Fürstenwalde über Düsseldorf bis nach Singapur und zurück nach München. Nun entlässt E.ON jedoch 15.000 Mitarbeiter und fängt dabei von unten an. Der Grund dafür ist die artistische Meisterleistung der Bundesregierung in der Atompolitik. Ab Mitte Dezember 2011 handelt Andreas Bader wieder Strom an der Düssledorfer Börse, diesmal jedoch für ein skandinavisches Unternehmen. Nun fragt er sich, was hinter der Energiewende noch steckt, außer der Atomausstieg und dem darauf folgenden Abbau des Nachwuchses bei E.ON.

@@ -7,6 +7,7 @@ category: Fremdsprachen
 class: 7. - 12. Klasse
 web_url: https://www.latina-halle.de/certamen-franckianum/
 type: wettbewerbe
+gallery: false
 ---
 **Landeswettbewerb Latein (Certamen Franckianum)**
 

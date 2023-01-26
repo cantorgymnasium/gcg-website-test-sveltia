@@ -5,6 +5,7 @@ bg_image: media/backgrounds/page-title.webp
 description: Herzlich willkommen beim Schulelternrat des Georg-Cantor-Gymnasiums Halle
 type: pages
 layout: single.html
+gallery: false
 aliases:
   - /elternvertretung/
 ---

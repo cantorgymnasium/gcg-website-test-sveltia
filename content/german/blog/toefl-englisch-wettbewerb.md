@@ -12,6 +12,7 @@ tags:
   - TOEFL
   - Englisch
 type: post
+gallery: false
 ---
 ### Große Erfolge beim TOEFL-Englisch-Wettbewerb
 

@@ -7,6 +7,7 @@ category: "Chemie "
 class: 8. - 10. Klasse
 web_url: https://www.chemie-die-stimmt.de/
 type: wettbewerbe
+gallery: false
 ---
 - Wettbewerb für Schülerinnen und Schüler der Klassenstufen 8 bis 10 aus den
 Bundesländern Berlin, Mecklenburg-Vorpommern, Sachsen, Sachsen-Anhalt,

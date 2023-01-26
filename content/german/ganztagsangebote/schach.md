@@ -10,5 +10,6 @@ class: alle Klassenstufen
 room: "104"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
+gallery: false
 ---
 Analysieren, Beurteilen, kreativ Denken - Verbessere Deine Spielstärke im Schach!

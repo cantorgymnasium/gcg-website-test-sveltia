@@ -6,9 +6,8 @@ bg_image: "media/backgrounds/page-title.webp"
 
 type: "pages"
 layout: "single.html"
+gallery: true
 ---
-
-{{< load-photoswipe >}}
 
 
 Chronisten sind immer verstaubte, alte Herren mit langen weißen Bärten, die sich noch immer auf Latein unterhalten und in dieser Sprache mit langen, weißen Federkielen eine lange Chronik im Stil des Mittelalters verfassen.
