@@ -5,9 +5,9 @@ backend:
   api_root: https://git.cantorgymnasium.de/api/v1
   base_url: https://oauth.cantorgymnasium.de
   commit_messages:
-    create: "{{slug}} in {{collection}} erstellt"
-    update: "{{slug}} in {{collection}} aktualisiert"
-    delete: "{{slug}} aus {{collection}} gelöscht"
+    create: "{{collection}} {{slug}} erstellt"
+    update: "{{collection}} {{slug}} aktualisiert"
+    delete: "{{collection}} {{slug}} gelöscht"
     uploadMedia: "{{path}} hochgeladen"
     deleteMedia: "{{path}} gelöscht"
 
@@ -18,6 +18,11 @@ public_folder: "/media"
 site_url: https://cantorgymnasium.de
 display_url: https://cantorgymnasium.de
 locale: "de"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
 
 show_preview_links: false
 

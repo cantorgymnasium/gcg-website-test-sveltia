@@ -12,7 +12,6 @@
         font-family: sans-serif;
       }
     </style>
-    <!-- Include the script that builds the page and powers Static CMS -->
     <script src="https://cdn.jsdelivr.net/npm/@staticcms/app@^1.1.3/dist/static-cms-app.js"></script>
     <script>
       CMS.init();
@@ -91,33 +90,6 @@
         toArgs: ({ src }) => {
           return [`src=\"${src}\"`];
         },
-        /*control: ({ src, onChange, controlProps: { field, collection, entry } }) => {
-          const controlID = useUUID();
-          const handleOnChange = (newSrc) => {
-            onChange(newSrc);
-          }
-          const handleOpenMediaLibrary = useMediaInsert(
-            src,
-            { field, controlID },
-            handleOnChange,
-          );
-          const assetSource = useMediaAsset(src, collection, field, entry);
-
-          return h('span', {}, [
-            h('button', {
-              key: 'control-button',
-              onClick: handleOpenMediaLibrary,
-            }, 'Click to open media library'),
-            h(
-              'img',
-              {
-                key: 'control-preview',
-                src: assetSource,
-              },
-              '',
-            ),
-          ]);
-        },*/
         control: ({ src, onChange }) => {
           return h('div', {"className": "row", "style": { border: "1px solid #868686", borderRadius: "16px", padding: "10px" }},
           h('b', {"style": {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Bild-Pfad:"),
@@ -337,60 +309,10 @@
             ),
           );
         },
-      });      
-      CMS.registerShortcode('load-photoswipe', {
-        label: 'Gallerie-Servicemodul',
-        openTag: '{{< ',
-        closeTag: ' >}}',
-        separator: '',
-        control: () => {
-          return h('div', {"style": { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
-          h('b', {"style": {fontFamily: "sans-serif", margin: "10px"}}, "Gallerie-Servicemodul"));
-        },
       });
     </script>
     <script>
-      const CategoriesControl = ({ label, value, field, onChange }) => {
-        const separator = useMemo(() => field.separator ?? ', ', [field.separator]);
-    
-        const handleChange = useCallback((e) => {
-          onChange(e.target.value.split(separator).map(e => e.trim()));
-        }, [separator, onChange]);
-    
-        return h('div', {}, 
-          h('label', { for: 'inputId' }, label),
-          h('input', {
-            id: 'inputId',
-            type: 'text',
-            value: value ? value.join(separator) : '',
-            onChange: this.handleChange,
-          })
-        );
-      };
-    
-      const CategoriesPreview = ({ value }) => {
-        return h(
-          'ul',
-          {},
-          value.map(function (val, index) {
-            return h('li', { key: index }, val);
-          }),
-        );
-      };
-    
-      const schema = {
-        properties: {
-          separator: { type: 'string' },
-        },
-      };
-    
-      CMS.registerWidget('categories', CategoriesControl, CategoriesPreview, schema);
-    </script>
-    <script>
       CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/bootstrap/bootstrap.min.css");
-      CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/slick/slick.css");
-      CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/animate/animate.min.css");
-      CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/venobox/venobox.css");
       CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/fontawesome/css/all.css");
       CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/fira/fira.css");
       CMS.registerPreviewStyle("https://cantorgymnasium.de/scss/style.css");
