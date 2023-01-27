@@ -1,9 +1,6 @@
 kind: pipeline
 type: docker
-name: website-build
-platform:
-    os: linux
-    arch: amd64
+name: prod
 steps:
     - name: hugo build
       image: plugins/hugo
@@ -46,3 +43,59 @@ steps:
 trigger:
     branch:
         - master
+    event:
+        - push
+
+---
+kind: pipeline
+type: docker
+name: test
+steps:
+    - name: test build
+      image: plugins/hugo
+      settings:
+        hugo_version: 0.110.0
+        validate: false
+        buildDrafts: true
+        buildFuture: true
+        output: test
+        extended: true
+        url: https://test.cantorgymnasium.de/
+      commands:
+        - apk add --update --no-cache tzdata
+        - /bin/drone-hugo
+
+    - name: deploy
+      image: drillster/drone-rsync
+      settings:
+        hosts: [ "cantorgymnasium.de" ]
+        port:
+          from_secret: ssh_port
+        user: web-push
+        key:
+          from_secret: ssh_key
+        source: public/
+        target: /opt/data/webdata/gcg-website-test/
+        recursive: true
+        delete: true
+
+    - name: notification
+      image: appleboy/drone-telegram
+      settings:
+          token:
+              from_secret: telegram_token
+          to: 
+              from_secret: telegram_room_id
+      when:
+          status:
+              - success
+              - failure
+
+trigger:
+    branch:
+        - master
+    event:
+        - push
+
+depends_on:
+- prod
