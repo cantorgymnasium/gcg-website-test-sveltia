@@ -58,7 +58,6 @@ steps:
         validate: false
         buildDrafts: true
         buildFuture: true
-        output: test
         extended: true
         url: https://test.cantorgymnasium.de/
       commands:
