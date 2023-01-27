@@ -59,6 +59,7 @@ steps:
         buildDrafts: true
         buildFuture: true
         extended: true
+        output: test
         url: https://test.cantorgymnasium.de/
       commands:
         - apk add --update --no-cache tzdata
@@ -73,7 +74,7 @@ steps:
         user: web-push
         key:
           from_secret: ssh_key
-        source: public/
+        source: test/
         target: /opt/data/webdata/gcg-website-test/
         recursive: true
         delete: true
