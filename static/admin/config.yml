@@ -333,6 +333,39 @@ collections:
                 name: "vimeo"
                 widget: "object"
                 fields: [{label: "Tracking deaktivieren", name: "enableDNT", widget: "boolean", required: false}]
+      - name: "categories-config"
+        label: "Kategorien"
+        file: "data/de/categories.yml"
+        format: yml
+        fields:
+          - label: "Aktuelles"
+            label_singular: "Kategorie"
+            name: "blog"
+            widget: "list"
+            required: true
+            fields:
+              - {label: "Kategorie", name: "category", widget: "string", required: true}
+          - label: "Ganztagsbereich"
+            label_singular: "Kategorie"
+            name: "ganztag"
+            widget: "list"
+            required: true
+            fields:
+              - {label: "Kategorie", name: "category", widget: "string", required: true}
+          - label: "Wettbewerbe"
+            label_singular: "Kategorie"
+            name: "contests"
+            widget: "list"
+            required: true
+            fields:
+              - {label: "Kategorie", name: "category", widget: "string", required: true}
+          - label: "Begabtenförderung"
+            label_singular: "Kategorie"
+            name: "begabte"
+            widget: "list"
+            required: true
+            fields:
+              - {label: "Kategorie", name: "category", widget: "string", required: true}
   - name: "index-pages"
     icon: "page"
     label: "Hauptseiten"
@@ -543,6 +576,7 @@ collections:
   - name: "blog"
     icon: "news"
     label: "Aktuelles"
+    description: Diese Artikel werden im Bereich "Aktuelles" auf der Schulhomepage angezeigt.
     label_singular: "Blogbeitrag"
     folder: "content/german/blog"
     filter: {field: "type", value: "post"}
@@ -554,8 +588,10 @@ collections:
     media_folder: '/static/media/blog'
     public_folder: '/media/blog'
     view_groups:
-      - label: Drafts
+      - label: Entwurf
         field: draft
+      - label: Kategorie
+        field: categories
     sortable_fields:
       fields: ['date', 'title']
       default:
@@ -567,7 +603,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
-      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/image.webp"}
+      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/blog/image.webp"}
       - label: "Beitragsautor"
         name: "author"
         widget: "relation"
@@ -576,12 +612,15 @@ collections:
         value_field: "title"
       - label: "Kategorien"
         name: "categories"
-        widget: "list"
-        required: false
-        fields:
-          - label: "Kategorie"
-            name: "category"
-            widget: "string"
+        widget: "relation"
+        required: true
+        collection: "config"
+        file: "categories-config"
+        value_field: "blog.*"
+        search_fields: ["blog.*"]
+        display_fields: ["blog.*"]
+        multiple: true
+        options_length: 50
       - label: "Tags"
         name: "tags"
         widget: "list"
@@ -627,6 +666,12 @@ collections:
     label_singular: "Cantor-Preisträger"
     folder: "content/german/cantorpreis"
     filter: {field: "type", value: "cantorpreis"}
+    sortable_fields:
+      fields: ['title', 'name']
+      default:
+        field: title
+        direction: Descending
+    summary: "{{title}} - {{name}}"
     create: true
     editor:
       preview: false
@@ -682,7 +727,16 @@ collections:
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/ganztagsangebote/image.webp", required: false}
-      - {label: "Themenbereich", name: "category", widget: "string", required: true}
+      - label: "Themenbereich"
+        name: "category"
+        widget: "relation"
+        required: true
+        collection: "config"
+        file: "categories-config"
+        value_field: "ganztag.*"
+        search_fields: ["ganztag.*"]
+        display_fields: ["ganztag.*"]
+        options_length: 50
       - {label: "Dauer", name: "duration", widget: "string"}
       - {label: "Tag/Stunden", name: "weekly", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
@@ -708,7 +762,16 @@ collections:
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/contests/image.webp", required: false}
-      - {label: "Fach", name: "category", widget: "string"}
+      - label: "Fach"
+        name: "category"
+        widget: "relation"
+        required: true
+        collection: "config"
+        file: "categories-config"
+        value_field: "contests.*"
+        search_fields: ["contests.*"]
+        display_fields: ["contests.*"]
+        options_length: 50
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Website", name: "web_url", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "wettbewerbe"}
@@ -731,7 +794,16 @@ collections:
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Bild", name: "image", widget: "image", default: "/media/begabte/image.webp", required: false}
-      - {label: "Fach", name: "category", widget: "string"}
+      - label: "Fach"
+        name: "category"
+        widget: "relation"
+        required: true
+        collection: "config"
+        file: "categories-config"
+        value_field: "begabte.*"
+        search_fields: ["begabte.*"]
+        display_fields: ["begabte.*"]
+        options_length: 50
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Website", name: "web_url", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "begabte"}

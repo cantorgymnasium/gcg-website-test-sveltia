@@ -8,7 +8,7 @@ image: /media/blog//gy-pt-2023.png
 author: Denys Konovalov
 categories:
   - Wettbewerbe
-  - Physik
+  - Naturwissenschaften
 tags:
   - physik
   - gypt

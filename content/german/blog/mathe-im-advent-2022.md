@@ -9,6 +9,7 @@ image: /media/blog/mia2.webp
 author: Denys Konovalov
 categories:
   - Wettbewerbe
+  - Mathematik
 tags:
   - Mathematik
   - Weihnachten

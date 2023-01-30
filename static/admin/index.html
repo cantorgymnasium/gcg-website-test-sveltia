@@ -725,5 +725,316 @@
       };
       CMS.registerPreviewTemplate("about-index", AboutPreview);
     </script>
+    <script>   
+      const PostPreviewCard = ({ entry, widgetFor, viewStyle }) => {
+        return h(
+          'div',
+          { style: { width: '100%', height: '100%' } },
+          viewStyle === 'grid' ? widgetFor('image') : null,
+          viewStyle === 'grid' ? 
+          h(
+            'div',
+            { style: { padding: '16px', paddingBottom: '8px', width: '100%' } },
+            h(
+              'div',
+              {
+                style: {
+                  display: 'flex',
+                  width: '100%',
+                  justifyContent: 'space-between',
+                  alignItems: 'start',
+                },
+              },
+              h(
+                'div',
+                {
+                  style: {
+                    backgroundColor: entry.data.draft === true ? 'RoyalBlue' : 'green',
+                    color: 'white',
+                    border: 'none',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    textDecoration: 'none',
+                    display: 'inline-block',
+                    cursor: 'pointer',
+                    borderRadius: '4px',
+                  },
+                },
+                entry.data.draft === true ? 'Entwurf' : 'Öffentlich',
+              ),
+              h('span', { style: { fontSize: '16px' } }, new Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'numeric', year: 'numeric'}).format(new Date(entry.data.date)))
+            ),
+          ) : null,
+          h(
+            'div',
+            { style: { padding: '16px', paddingTop: '8px', width: '100%' } },
+            h(
+              'div',
+              {
+                style: {
+                  display: 'flex',
+                  width: '100%',
+                  justifyContent: 'space-between',
+                  alignItems: 'start',
+                },
+              },
+              h(
+                'div',
+                {
+                  style: {
+                    display: 'flex',
+                    flexDirection: viewStyle === 'grid' ? 'column' : 'row',
+                    alignItems: 'baseline',
+                    gap: '8px',
+                  },
+                },
+                h('strong', { style: { fontSize: '20px' } }, entry.data.title),
+              ),
+            ),
+          ),
+          viewStyle != 'grid' ? 
+          h(
+            'div',
+            { style: { padding: '16px', paddingBottom: '8px', paddingTop: '0px', width: '100%' } },
+            h(
+              'div',
+              {
+                style: {
+                  display: 'flex',
+                  width: '100%',
+                  justifyContent: 'space-between',
+                  alignItems: 'start',
+                },
+              },
+              h(
+                'div',
+                {
+                  style: {
+                    backgroundColor: entry.data.draft === true ? 'RoyalBlue' : 'green',
+                    color: 'white',
+                    border: 'none',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    textDecoration: 'none',
+                    display: 'inline-block',
+                    cursor: 'pointer',
+                    borderRadius: '4px',
+                  },
+                },
+                entry.data.draft === true ? 'Entwurf' : 'Öffentlich',
+              ),
+              h('span', { style: { fontSize: '16px' } }, new Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'numeric', year: 'numeric'}).format(new Date(entry.data.date)))
+            ),
+          ) : null,
+        );
+      };
+      const GenericCard = ({ entry, widgetFor, viewStyle }) => {
+        return h(
+          'div',
+          { style: { width: '100%', height: '100%' } },
+          viewStyle === 'grid' ? widgetFor('image') : null,
+          viewStyle === 'grid' ? 
+          h(
+            'div',
+            { style: { padding: '16px', paddingBottom: '8px', width: '100%' } },
+            h(
+              'div',
+              {
+                style: {
+                  display: 'flex',
+                  width: '100%',
+                  justifyContent: 'space-between',
+                  alignItems: 'start',
+                },
+              },
+              h(
+                'div',
+                {
+                  style: {
+                    backgroundColor: entry.data.draft === true ? 'RoyalBlue' : 'green',
+                    color: 'white',
+                    border: 'none',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    textDecoration: 'none',
+                    display: 'inline-block',
+                    cursor: 'pointer',
+                    borderRadius: '4px',
+                  },
+                },
+                entry.data.draft === true ? 'Entwurf' : 'Öffentlich',
+              ),
+              h('span', { style: { fontSize: '16px' } }, entry.data.category)
+            ),
+          ) : null,
+          h(
+            'div',
+            { style: { padding: '16px', paddingTop: viewStyle === 'grid' ? '8px' : '16px', width: '100%' } },
+            h(
+              'div',
+              {
+                style: {
+                  display: 'flex',
+                  width: '100%',
+                  justifyContent: 'space-between',
+                  alignItems: 'start',
+                },
+              },
+              h(
+                'div',
+                {
+                  style: {
+                    display: 'flex',
+                    flexDirection: viewStyle === 'grid' ? 'column' : 'row',
+                    alignItems: 'baseline',
+                    gap: '8px',
+                  },
+                },
+                h('strong', { style: { fontSize: '20px' } }, entry.data.title),
+              ),
+              viewStyle != 'grid' ? h(
+                'div',
+                {
+                  style: {
+                    backgroundColor: entry.data.draft === true ? 'RoyalBlue' : 'green',
+                    color: 'white',
+                    border: 'none',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    textDecoration: 'none',
+                    display: 'inline-block',
+                    cursor: 'pointer',
+                    borderRadius: '4px',
+                  },
+                },
+                entry.data.draft === true ? 'Entwurf' : 'Öffentlich',
+              ) : null,
+            ),
+          ),
+        );
+      };
+      const NoCatCard = ({ entry, widgetFor, viewStyle }) => {
+        return h(
+          'div',
+          { style: { width: '100%', height: '100%' } },
+          viewStyle === 'grid' ? widgetFor('image') : null,
+          h(
+            'div',
+            { style: { padding: '16px', width: '100%' } },
+            h(
+              'div',
+              {
+                style: {
+                  display: 'flex',
+                  width: '100%',
+                  justifyContent: 'space-between',
+                  alignItems: 'start',
+                },
+              },
+              h(
+                'div',
+                {
+                  style: {
+                    display: 'flex',
+                    flexDirection: viewStyle === 'grid' ? 'column' : 'row',
+                    alignItems: 'baseline',
+                    gap: '8px',
+                  },
+                },
+                h('strong', { style: { fontSize: '20px' } }, entry.data.title),
+              ),
+              h(
+                'div',
+                {
+                  style: {
+                    backgroundColor: entry.data.draft === true ? 'RoyalBlue' : 'green',
+                    color: 'white',
+                    border: 'none',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    textDecoration: 'none',
+                    display: 'inline-block',
+                    cursor: 'pointer',
+                    borderRadius: '4px',
+                  },
+                },
+                entry.data.draft === true ? 'Entwurf' : 'Öffentlich',
+              ),
+            ),
+          ),
+        );
+      };
+      const SmallCard = ({ entry, widgetFor, viewStyle }) => {
+        return h(
+          'div',
+          { style: { width: '100%', height: '100%' } },
+          h(
+            'div',
+            { style: { padding: '16px', width: '100%' } },
+            h(
+              'div',
+              {
+                style: {
+                  display: 'flex',
+                  width: '100%',
+                  justifyContent: 'space-between',
+                  alignItems: 'start',
+                },
+              },
+              h(
+                'div',
+                {
+                  style: {
+                    display: 'flex',
+                    flexDirection: viewStyle === 'grid' ? 'column' : 'row',
+                    alignItems: 'baseline',
+                    gap: '8px',
+                  },
+                },
+                h('strong', { style: { fontSize: '20px' } }, entry.data.title),
+              ),
+              h(
+                'div',
+                {
+                  style: {
+                    backgroundColor: entry.data.draft === true ? 'RoyalBlue' : 'green',
+                    color: 'white',
+                    border: 'none',
+                    padding: '4px 8px',
+                    textAlign: 'center',
+                    textDecoration: 'none',
+                    display: 'inline-block',
+                    cursor: 'pointer',
+                    borderRadius: '4px',
+                  },
+                },
+                entry.data.draft === true ? 'Entwurf' : 'Öffentlich',
+              ),
+            ),
+          ),
+        );
+      };
+      
+      
+      CMS.registerPreviewCard('blog', PostPreviewCard);
+      CMS.registerPreviewCard('ganztagsangebote', GenericCard);  
+      CMS.registerPreviewCard('wettbewerbe', GenericCard); 
+      CMS.registerPreviewCard('begabte', GenericCard); 
+      CMS.registerPreviewCard('abiturienten', NoCatCard);
+      CMS.registerPreviewCard('cantorfora', NoCatCard);
+      CMS.registerPreviewCard('blog-index', SmallCard);
+      CMS.registerPreviewCard('about-index', SmallCard);
+      CMS.registerPreviewCard('anmeldung-index', SmallCard);
+      CMS.registerPreviewCard('cantorpreis-index', SmallCard);
+      CMS.registerPreviewCard('contact-index', SmallCard);  
+      CMS.registerPreviewCard('event-index', SmallCard);
+      CMS.registerPreviewCard('forms-index', SmallCard);
+      CMS.registerPreviewCard('ganztagsangebote-index', SmallCard);
+      CMS.registerPreviewCard('wettbewerbe-index', SmallCard);
+      CMS.registerPreviewCard('begabte-index', SmallCard);
+      CMS.registerPreviewCard('pages', SmallCard);
+      CMS.registerPreviewCard('forms', SmallCard);
+      CMS.registerPreviewCard('schulchronik', SmallCard);
+    </script>
   </body>
 </html>

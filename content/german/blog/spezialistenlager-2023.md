@@ -7,9 +7,9 @@ description: ""
 image: /media/blog/SL-2023//sl-1.jpg
 author: Franziska Berner
 categories:
-  - Traditionen
   - Wettbewerbe
   - Mathematik
+  - Traditionen
 tags:
   - spezilager
   - matheolympiade

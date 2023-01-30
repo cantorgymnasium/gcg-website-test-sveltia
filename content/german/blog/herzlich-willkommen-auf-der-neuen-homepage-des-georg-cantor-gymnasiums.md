@@ -7,7 +7,8 @@ description: ""
 image: /media/image.webp
 author: Frau Schapitz
 categories:
-  - Website
+  - Sonstiges
+  - Informatik/Technik
 tags:
   - renewGCG
 type: post

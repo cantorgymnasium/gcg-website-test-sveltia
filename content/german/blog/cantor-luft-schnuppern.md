@@ -7,7 +7,7 @@ description: ""
 image: /media/image.webp
 author: Schulleitung
 categories:
-  - Ereignisse
+  - Veranstaltungen
 tags:
   - cantorluftschnuppern
   - cantorentdecken

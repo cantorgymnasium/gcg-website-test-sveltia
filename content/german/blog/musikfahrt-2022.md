@@ -8,6 +8,7 @@ image: /media/image.webp
 author: Frau Krug
 categories:
   - Musik
+  - Traditionen
 tags:
   - Musikfahrt
   - Weihnachtskonzert

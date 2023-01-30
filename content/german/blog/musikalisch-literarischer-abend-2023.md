@@ -7,6 +7,9 @@ description: ""
 image: /media/image.webp
 author: Herr Berger
 categories:
+  - Musik
+  - Deutsch
+  - Traditionen
   - Veranstaltungen
 tags:
   - Muli

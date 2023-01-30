@@ -1,5 +1,5 @@
 ---
-title: "Chemkids "
+title: Chemkids
 draft: "false"
 bg_image: /media/backgrounds/page-title.webp
 image: /media/contests/chemkids.webp

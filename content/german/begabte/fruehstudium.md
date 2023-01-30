@@ -3,7 +3,7 @@ title: Frühstudium
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: ""
+image: /media/begabte/image.webp
 category: Naturwissenschaften
 class: 10 - 12 Klasse
 web_url: null

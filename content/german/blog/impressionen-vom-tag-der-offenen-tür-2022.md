@@ -7,7 +7,7 @@ description: ""
 image: /media/image.webp
 author: Herr Berger
 categories:
-  - Ereignisse
+  - Veranstaltungen
 tags:
   - tdot
   - cantorluftschnuppern

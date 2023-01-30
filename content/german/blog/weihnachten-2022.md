@@ -7,8 +7,9 @@ description: ""
 image: /media/blog/gcgweihnachten.webp
 author: Herr Berger
 categories:
-  - Weihnachten
   - Traditionen
+  - Schülerrat
+  - Musik
 tags:
   - Weihnachtskonzert
   - Weihnachtssingen

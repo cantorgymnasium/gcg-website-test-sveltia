@@ -4,10 +4,11 @@ date: 2023-01-24T15:13:45+01:00
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/image.webp
+image: /media/blog/image.webp
 author: Herr Berger
 categories:
   - Wettbewerbe
+  - Fremdsprachen
 tags:
   - TOEFL
   - Englisch

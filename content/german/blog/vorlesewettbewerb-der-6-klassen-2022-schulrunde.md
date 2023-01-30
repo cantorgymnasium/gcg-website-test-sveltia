@@ -8,6 +8,7 @@ image: /media/blog/vlw_logo_blau_rgb.webp
 author: Herr Berger
 categories:
   - Wettbewerbe
+  - Deutsch
 tags:
   - Vorlesewettbewerb 6
   - Schulrunde
