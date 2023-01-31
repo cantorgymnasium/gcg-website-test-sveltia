@@ -45,6 +45,7 @@ trigger:
         - master
     event:
         - push
+        - cron
 
 ---
 kind: pipeline
@@ -96,6 +97,7 @@ trigger:
         - master
     event:
         - push
+        - cron
 
 depends_on:
 - prod
