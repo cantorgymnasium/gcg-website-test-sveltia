@@ -9,7 +9,6 @@ author: Herr Berger
 categories:
   - Wettbewerbe
   - Informatik/Technik
-  - Wettbewerbe
 tags:
   - "2022"
   - Infobiber
