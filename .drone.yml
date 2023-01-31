@@ -46,6 +46,7 @@ trigger:
     event:
         - push
         - cron
+        - rollback
 
 ---
 kind: pipeline
@@ -98,6 +99,7 @@ trigger:
     event:
         - push
         - cron
+        - rollback
 
 depends_on:
 - prod
