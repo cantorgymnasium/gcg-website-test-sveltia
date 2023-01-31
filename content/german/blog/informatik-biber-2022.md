@@ -7,9 +7,7 @@ description: ""
 image: /media/blog/biber_300dpi.png
 author: Herr Berger
 categories:
-  - Wettbewerbe
   - Informatik/Technik
-  - Wettbewerbe
 tags:
   - "2022"
   - Infobiber
