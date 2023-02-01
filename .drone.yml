@@ -81,18 +81,6 @@ steps:
         recursive: true
         delete: true
 
-    - name: notification
-      image: appleboy/drone-telegram
-      settings:
-          token:
-              from_secret: telegram_token
-          to: 
-              from_secret: telegram_room_id
-      when:
-          status:
-              - success
-              - failure
-
 trigger:
     branch:
         - master

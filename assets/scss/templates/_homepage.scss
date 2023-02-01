@@ -10,7 +10,7 @@
   margin-right: 40px;
   padding-left: 70px;
   padding-top: 80px;
-  padding-right: 30%;
+  padding-right: 70px;
 
   @include desktop-xl {
     padding-right: 10%;
@@ -19,7 +19,7 @@
   @include desktop-lg {
     padding-right: 50px;
     padding-left: 50px;
-    padding-top: 30px;
+    padding-top: 40px;
 
     h3 {
       font-size: 20px;
