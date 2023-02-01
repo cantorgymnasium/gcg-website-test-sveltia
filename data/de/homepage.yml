@@ -1,5 +1,5 @@
 top_banner:
-  enable: true
+  enable: false
   text: "Um zur Aufnahmeprüfung zugelassen werden zu können, müssen das
     Aufnahmeformular und eine Kopie des Halbjahreszeugnisses bis spätestens
     Mittwoch, den 8. Februar 2023, eingereicht werden. <br><br>Wir laden zum
@@ -93,7 +93,7 @@ about:
     unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot.
 
 
-    ## Virtueller Rundgang
+    ### Virtueller Rundgang
 
 
     Wer nicht bis zum nächsten Tag der offenen Tür warten möchte, dem bieten wir eine digitale Führung durch das Schulhaus an, um sich bereits virtuell im Schulhaus umzuschauen.
