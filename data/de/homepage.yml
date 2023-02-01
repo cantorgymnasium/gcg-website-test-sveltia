@@ -1,10 +1,12 @@
 top_banner:
   enable: true
-  text: "Wir laden zum literarisch-musikalischen Abend am Mittwoch, den 22.02.2023
-    ab 17 Uhr! "
+  text: "Um zur Aufnahmeprüfung zugelassen werden zu können, müssen das
+    Aufnahmeformular und eine Kopie des Halbjahreszeugnisses bis spätestens
+    Mittwoch, den 8. Februar 2023, eingereicht werden. <br><br>Wir laden zum
+    literarisch-musikalischen Abend am Mittwoch, den 22.02.2023 ab 17 Uhr! "
   color: "#1b57b1"
   font_color: "#ffffff"
-  icon: "fa-solid fa-music "
+  icon: fa-solid fa-circle-info
   temporarily:
     enable: true
     start_date: 2023-01-24T08:12:06.712+01:00
