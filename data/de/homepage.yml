@@ -1,5 +1,5 @@
 top_banner:
-  enable: false
+  enable: true
   text: "Um zur Aufnahmeprüfung zugelassen werden zu können, müssen das
     Aufnahmeformular und eine Kopie des Halbjahreszeugnisses bis spätestens
     Mittwoch, den 8. Februar 2023, eingereicht werden. <br><br>Wir laden zum
@@ -37,7 +37,14 @@ slider:
         enable: true
         link: https://www.marketing.uni-halle.de/schulbuero/prime-gymnasien/
         label: Mehr erfahren
-    - content: Kooperationsschule der Hochschule [Merseburg](https://www.hs-merseburg.de/studium/vor-dem-studium/angebote-fuer-studieninteressierte) und der Hochschule Anhalt
+    - content: Kooperationsschule der Hochschule Merseburg
+      animation_in: left
+      animation_out: right
+      button:
+        link: https://www.hs-merseburg.de/studium/vor-dem-studium/angebote-fuer-studieninteressierte
+        label: Mehr erfahren
+        enable: true
+    - content: Kooperationsschule der Hochschule Anhalt
       animation_in: left
       animation_out: right
       button:
@@ -89,16 +96,13 @@ about:
     Wir sind eine Schule mit mathematisch-naturwissenschaftlich-technischem
     Schwerpunkt und möchten interessierte und begabte Schülerinnen und Schüler
     auf diesem Gebiet fördern. Das schulische Leben unseres Gymnasiums
-    beschränkt sich aber nicht auf den MINT-Bereich. Informieren Sie sich über
-    unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot.
-
-
-    ### Virtueller Rundgang
-
-
-    Wer nicht bis zum nächsten Tag der offenen Tür warten möchte, dem bieten wir eine digitale Führung durch das Schulhaus an, um sich bereits virtuell im Schulhaus umzuschauen.
+    beschränkt sich aber nicht auf den MINT-Bereich.
+    
+    
+    Informieren Sie sich über unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot.
+    Georg &Pi;inguin, unser Schulmaskottchen, begleitet Sie dabei!
   button:
-    enable: true
+    enable: false
     label: Digitale Führung durch das Schulhaus
     link: https://vr.cantorgymnasium.de/tour/
 blog:

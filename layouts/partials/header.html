@@ -93,11 +93,13 @@
       }
     </style>
   </noscript>
-  {{ $top_banner := (index .Site.Data .Site.Language.Lang).homepage.top_banner }}
+</header>
+
+{{ $top_banner := (index .Site.Data .Site.Language.Lang).homepage.top_banner }}
   {{ if and $top_banner.enable }}
   {{ if or (not $top_banner.temporarily.enable) (and $top_banner.temporarily.enable (and (le ($top_banner.temporarily.start_date | time.AsTime).Unix now.Unix ) (ge ($top_banner.temporarily.end_date | time.AsTime).Unix now.Unix))) }}
   {{ with $top_banner }}
-  <div class="p-3 top-banner" style="background:{{ .color }}">
+  <div id="top-banner" class="p-3 top-banner" style="background:{{ .color }}">
     <div class="container">
       <div class="no-gutters align-items-center">
         <div style="color:{{ .font_color }}"><b><i class="{{ .icon }}"></i> {{ .text | markdownify }}</b></div>
@@ -107,7 +109,6 @@
   {{ end }}
   {{ end }}
   {{ end }}
-</header>
 
 {{ if .Params.Gallery }}
 
