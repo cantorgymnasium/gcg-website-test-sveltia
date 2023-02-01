@@ -37,7 +37,7 @@ slider:
         enable: true
         link: https://www.marketing.uni-halle.de/schulbuero/prime-gymnasien/
         label: Mehr erfahren
-    - content: Kooperationsschule der Hochschule Merseburg und der Hochschule Anhalt
+    - content: Kooperationsschule der Hochschule [Merseburg](https://www.hs-merseburg.de/studium/vor-dem-studium/angebote-fuer-studieninteressierte) und der Hochschule Anhalt
       animation_in: left
       animation_out: right
       button:
