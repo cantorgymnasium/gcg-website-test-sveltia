@@ -6,6 +6,9 @@
       <div class="col-lg-7 mb-4 mb-lg-0">
         <form action="https://php.cantorgymnasium.de/formtools/process.php" method="post" enctype="multipart/form-data">
           <input type="hidden" name="form_tools_form_id" value="5" />
+          <div style="display:none">
+            <input type="text" name="bad_email" value="" />
+          </div>
           <input type="text" class="form-control mb-3" id="surname" name="visitor_surname" placeholder="Name (Schüler/in)" required>
           <input type="text" class="form-control mb-3" id="name" name="visitor_name" placeholder="Vorname" required>
           <label for="birthday">Geburtsdatum</label>
