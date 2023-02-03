@@ -2,7 +2,7 @@
 title: Termine
 draft: false
 bg_image: media/backgrounds/page-title.webp
-description: Hier sind alle Termine für das laufende bzw. nächste Schuljahr aufgelistet.
+description: Hier sind alle Termine für das laufende Schuljahr aufgelistet.
 events:
   - date: 2022-08-25T18:29:41.000+02:00
     enddate: ""
@@ -168,10 +168,23 @@ events:
     date: 2023-02-13T15:08:20.930Z
     title: Modulkurs Chemie der 12. Klassen
     location: Fachhochschule Merseburg
+  - date: 2023-02-14T16:21:42.000+01:00
+    enddate: ""
+    title: '"Wie ist es als Transgender aufzuwachsen?" - Projekt im Ethik- und
+      Religionsunterricht der Klasse 10'
+    location: Georg-Cantor-Gymnasium
+  - date: 2023-02-17T16:27:20.000+01:00
+    enddate: ""
+    title: Faschingfeier der 5. und 6. Klassen
+    location: Aula
   - enddate: 2023-03-24T06:00:00.000Z
     date: 2023-02-20T15:09:27.919Z
     title: Verpflichtende Vergleichsarbeit Englisch des 8. Schuljahrgangs
     location: Online
+  - date: 2023-02-22T16:28:45.000+01:00
+    enddate: ""
+    title: Musikalisch-literarischer Abend
+    location: Georg-Cantor-Gymnasium
   - enddate: 2023-02-25T05:00:00.000Z
     date: 2023-02-24T15:11:36.168Z
     title: Landesmathematikolympiade
@@ -188,18 +201,58 @@ events:
     date: 2023-02-27T15:17:14.061Z
     title: Modulkurse Biologie und Physik der 11. Klassen
     location: Georg-Cantor-Gymnasium
+  - date: 2023-03-01T16:46:38.000+01:00
+    enddate: ""
+    title: Mannschaftswettbewerbe Biologie und Physik Klasse 10
+    location: Erfurt
   - enddate: ""
     date: 2023-03-02T15:18:14.073Z
     title: Cantorpreisverleihung
     location: Georg-Cantor-Gymnasium
+  - date: 2023-03-07T16:47:41.000+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Mathematik Klasse 9
+    location: Magdeburg
+  - date: 2023-03-08T16:48:17.000+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Chemie Klasse 11 und 12
+    location: Jena
   - enddate: ""
     date: 2023-03-09T15:18:58.298Z
     title: Landesphysikolympiade
     location: Magdeburg
+  - date: 2023-03-14T16:49:22.000+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Chemie Klasse 9
+    location: Ilmenau
   - enddate: ""
     date: 2023-03-16T15:19:40.241Z
     title: Känguruwettbewerb
     location: Georg-Cantor-Gymnasium
+  - date: 2023-03-16T16:31:32.000+01:00
+    enddate: ""
+    title: Rezitatoren-Wettstreit
+    location: Georg-Cantor-Gymnasium
+  - date: 2023-03-21T16:50:08.000+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Physik Klasse 11
+    location: Frankfurt (Oder)
+  - date: 2023-03-23T16:50:10.000+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Mathematik Klasse 11
+    location: Riesa
+  - date: 2023-03-27T16:36:07.000+02:00
+    enddate: 2023-03-29T00:00:00.000+02:00
+    title: Fotograf im Haus
+    location: Georg-Cantor-Gymnasium
+  - date: 2023-03-30T16:50:11.000+02:00
+    enddate: ""
+    title: Mannschaftswettbewerb Biologie Klasse 9
+    location: Chemnitz
+  - date: 2023-03-30T16:37:34.000+02:00
+    enddate: 2023-03-31T00:00:00.000+02:00
+    title: '"Jugend forscht" Landeswettbewerb'
+    location: Halle
   - enddate: 2023-04-08T06:00:00.000Z
     date: 2023-04-03T14:21:05.216Z
     title: Osterferien
@@ -220,6 +273,14 @@ events:
     date: 2023-04-27T14:21:10.051Z
     title: Schüler-Zukunftstag
     location: selbst gewählter Betrieb
+  - date: 2023-04-27T16:39:04.000+02:00
+    enddate: ""
+    title: Gesamtkonferenz
+    location: Aula
+  - date: 2023-05-12T16:58:12.000+02:00
+    enddate: ""
+    title: Tag der Kulturen
+    location: Georg-Cantor-Gymnasium
   - enddate: 2023-05-18T22:00:00.000Z
     date: 2023-05-15T14:21:10.514Z
     title: Pfingstferien
@@ -236,6 +297,14 @@ events:
     date: 2023-05-26T14:21:11.289Z
     title: Nachprüfung im schriftlichen Abitur
     location: Georg-Cantor-Gymnasium
+  - date: 2023-05-30T16:40:01.000+02:00
+    enddate: ""
+    title: Lehrer-Präventionstag
+    location: " "
+  - date: 2023-06-01T16:41:16.000+02:00
+    enddate: ""
+    title: Sportfest mit Spendenlauf
+    location: Sporthalle Brandberge
   - enddate: 2023-06-09T02:00:00.000Z
     date: 2023-06-05T15:44:26.521Z
     title: Klassenfahrtswochen der Klassen 7 und 10
@@ -248,6 +317,18 @@ events:
     date: 2023-06-14T15:44:27.451Z
     title: Beginn der mündlichen Abiturprüfungen
     location: Georg-Cantor-Gymnasium
+  - date: 2023-06-16T16:50:13.000+02:00
+    enddate: ""
+    title: Mannschaftswettbewerb Physik Klasse 9
+    location: Jena
+  - date: 2023-06-16T16:43:16.000+02:00
+    enddate: ""
+    title: Ausflug der Klasse 11 nach Weimar
+    location: Weimar
+  - date: 2023-06-20T16:50:14.000+02:00
+    enddate: ""
+    title: Mannschaftswettbewerb Mathematik Klasse 10
+    location: Cottbus
   - enddate: ""
     date: 2023-06-20T15:44:27.883Z
     title: Versetzungskonferenzen auf Jahrgangsstufenbasis
@@ -255,6 +336,10 @@ events:
   - enddate: 2023-06-30T03:00:00.000Z
     date: 2023-06-27T15:44:28.388Z
     title: Ökopraktikum der 11. Klassen
+    location: " "
+  - date: 2023-06-28T16:45:21.000+02:00
+    enddate: ""
+    title: '"Der Puppenspieler" - Theaterprojekt der Klasse 10'
     location: " "
   - enddate: ""
     date: 2023-06-29T13:00:28.876Z
@@ -272,6 +357,10 @@ events:
     date: 2023-07-03T15:44:30.356Z
     title: Sozialer Tag der Klassen 7-11
     location: Georg-Cantor-Gymnasium
+  - date: 2023-07-04T16:55:45.000+02:00
+    enddate: ""
+    title: Mannschaftswettbewerb Chemie Klasse 10
+    location: Leipzig
   - enddate: ""
     date: 2023-07-04T15:44:30.803Z
     title: Exkursionstag der Klassen 7-11
