@@ -8,9 +8,9 @@ social:
   - title: YouTube
     icon: fa-brands fa-youtube
     link: https://www.youtube.com/channel/UCFCJdxg2D9RXH0qjZ8MMw1g
-  - title: GitLab
-    icon: fa-brands fa-gitlab
-    link: https://gitlab.cantorgymnasium.de/cantortechnik/
+  - title: Gitea
+    icon: fa-brands fa-git-alt
+    link: https://git.cantorgymnasium.de/cantortechnik/
   - title: E-Mail
     icon: fa-solid fa-at
     link: mailto:technik@cantor-gymnasium.de

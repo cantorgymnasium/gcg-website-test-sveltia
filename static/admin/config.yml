@@ -563,7 +563,7 @@ collections:
               - { label: "Twitter", value: "fa-brands fs-twitter" }
               - { label: "Pinterest", value: "fa-brands fa-pinterest" }
               - { label: "GitHub", value: "fa-brands fa-github" }
-              - { label: "GitLab", value: "fa-brands fa-gitlab" }
+              - { label: "Git", value: "fa-brands fa-git-alt" }
               - { label: "Vimeo", value: "fa-brands fa-vimeo" }
               - { label: "Instagram", value: "fa-brands fa-instagram" }
               - { label: "Facebook", value: "fa-brands fa-facebook" }
@@ -698,7 +698,7 @@ collections:
               - { label: "Twitter", value: "fa-brands fs-twitter" }
               - { label: "Pinterest", value: "fa-brands fa-pinterest" }
               - { label: "GitHub", value: "fa-brands fa-github" }
-              - { label: "GitLab", value: "fa-brands fa-gitlab" }
+              - { label: "Git", value: "fa-brands fa-git-alt" }
               - { label: "Vimeo", value: "fa-brands fa-vimeo" }
               - { label: "Instagram", value: "fa-brands fa-instagram" }
               - { label: "Facebook", value: "fa-brands fa-facebook" }
