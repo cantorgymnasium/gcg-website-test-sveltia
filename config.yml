@@ -92,7 +92,7 @@ menu:
       weight: 5
       hasChildren: false
     - parent: Schule
-      name: Anmeldung
+      name: Aufnahme
       URL: anmeldung
       weight: 6
       hasChildren: false

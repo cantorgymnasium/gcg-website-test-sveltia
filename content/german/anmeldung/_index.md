@@ -19,7 +19,7 @@ elements:
       am Georg-Cantor-Gymnasium [eingereicht](/kontakt) werden.
 
 
-      Das Sekretariat ist in den Ferien Montag bis Mittwoch in der Zeit von 8:00 bis 14:00 Uhr besetzt.
+      Das Sekretariat ist in den Ferien von Montag bis Mittwoch in der Zeit von 8:00 bis 14:00 Uhr besetzt.
 
 
       Gern können Sie uns die Unterlagen per Mail an [aufnahme(at)cantor-gymnasium.de](mailto:aufnahme@cantor-gymnasium.de) zusenden. Die Einladung zur Aufnahmeprüfung mit allen nötigen Informationen erhalten Sie dann ebenfalls per Mail.
