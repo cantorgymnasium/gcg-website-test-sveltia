@@ -1,9 +1,10 @@
 top_banner:
   enable: true
   text: "Um zur Aufnahmeprüfung zugelassen werden zu können, müssen das
-    Aufnahmeformular und eine Kopie des Halbjahreszeugnisses bis spätestens
-    Mittwoch, den 8. Februar 2023, eingereicht werden. <br><br>Wir laden zum
-    literarisch-musikalischen Abend am Mittwoch, den 22.02.2023 ab 17 Uhr! "
+    Aufnahmeformular, eine Kopie des Halbjahreszeugnisses und die
+    Schullaufbahnempfehlung bis spätestens Mittwoch, den 8. Februar 2023,
+    eingereicht werden. <br><br>Wir laden zum literarisch-musikalischen Abend am
+    Mittwoch, den 22.02.2023 ab 17 Uhr! "
   color: "#1b57b1"
   font_color: "#ffffff"
   icon: fa-solid fa-circle-info
@@ -97,10 +98,9 @@ about:
     Schwerpunkt und möchten interessierte und begabte Schülerinnen und Schüler
     auf diesem Gebiet fördern. Das schulische Leben unseres Gymnasiums
     beschränkt sich aber nicht auf den MINT-Bereich.
-    
-    
-    Informieren Sie sich über unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot.
-    Georg &Pi;inguin, unser Schulmaskottchen, begleitet Sie dabei!
+
+
+    Informieren Sie sich über unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot. Georg &Pi;inguin, unser Schulmaskottchen, begleitet Sie dabei!
   button:
     enable: false
     label: Digitale Führung durch das Schulhaus
