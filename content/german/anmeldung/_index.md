@@ -13,7 +13,7 @@ elements:
 
       - eine Kopie des Halbjahreszeugnisses
 
-      - die Schullaufbahnerklärung
+      - die Schullaufbahnempfehlung
 
 
       am Georg-Cantor-Gymnasium [eingereicht](/kontakt) werden.
