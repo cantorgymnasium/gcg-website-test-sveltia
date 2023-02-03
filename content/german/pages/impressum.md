@@ -21,7 +21,7 @@ Frau StD Schapitz
 
 #### Sekretariat:
 
-Frau Kretschmar
+Frau Kretschmar / Frau Jaschak
 
 #### Adresse:
 
