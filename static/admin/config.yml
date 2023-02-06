@@ -13,7 +13,7 @@ backend:
 
 local_backend: true
 
-media_folder: "static/media"
+media_folder: "/static/media"
 public_folder: "/media"
 site_url: https://cantorgymnasium.de
 display_url: https://cantorgymnasium.de
@@ -33,14 +33,14 @@ collections:
     description: "Hier können die Basiseinstellungen der Website geändert werden."
     editor:
       preview: false
-    media_folder: "static/media"
-    public_folder: "media"
+    media_folder: "/static/media"
+    public_folder: "/media"
     files:
       - name: "homepage-config"
         label: "Startseitenkonfiguration"
         file: "data/de/homepage.yml"
         media_folder: "/static/media/home"
-        public_folder: "media/home"
+        public_folder: "/media/home"
         format: yml
         fields:
           - label: "Banner"
@@ -66,7 +66,7 @@ collections:
             collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
-              - {label: "Hintergrundbild", name: "bg_image", widget: "image", required: false}
+              - {label: "Hintergrundbild", name: "bg_image", widget: "image", required: false, media_library: { config: { max_file_size: 2048000 } } }
               - {label: "Titel", name: "title", widget: "string", required: false}
               - label: "Elemente"
                 label_singular: "Element"
@@ -126,14 +126,14 @@ collections:
             collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
-              - {label: "Bild", name: "image", widget: "image", required: false}
+              - {label: "Bild", name: "image", widget: "image", required: false, media_library: { config: { max_file_size: 2048000 } } }
               - label: "Elemente"
                 name: "feature_item"
                 widget: "list"
                 fields:
                   - {label: "Bezeichnung", name: "name", widget: "string", required: false}
                   - {label: "Symbol", name: "icon", widget: "string", required: false, hint: "Liste unter https://fontawesome.com/search"}
-                  - {label: "Bild", name: "image", widget: "image", required: false}
+                  - {label: "Bild", name: "image", widget: "image", required: false, media_library: { config: { max_file_size: 2048000 } } }
                   - {label: "Inhalt", name: "content", widget: "markdown", required: false}
           - label: "Ganztagsangebote"
             name: "ganztagsangebote"
@@ -163,7 +163,7 @@ collections:
             collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
-              - {label: "Hintergrundbild", name: "bg_image", widget: "image", required: false}
+              - {label: "Hintergrundbild", name: "bg_image", widget: "image", required: false, media_library: { config: { max_file_size: 2048000 } } }
               - {label: "Titel", name: "title", widget: "string", required: false}
               - {label: "Inhalt", name: "content", widget: "text", required: false}
               - {label: "Video-Link", name: "video_link", widget: "string", required: false}
@@ -181,7 +181,7 @@ collections:
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Titel", name: "title", widget: "string", required: false}
-              - {label: "Bild", name: "image", widget: "image", required: false}
+              - {label: "Bild", name: "image", widget: "image", required: false, media_library: { config: { max_file_size: 2048000 } } }
               - {label: "Inhalt", name: "content", widget: "markdown", required: false}
           - label: "Logo-Banner (unten)"
             name: "footer_logos"
@@ -236,7 +236,7 @@ collections:
                     widget: "list"
                     fields:
                       - {label: "Link", name: "link", widget: "string"}
-              - {label: "Logo", name: "logo", widget: "image"}
+              - {label: "Logo", name: "logo", widget: "image", media_library: { config: { max_file_size: 2048000 } } }
               - {label: "Autor", name: "author", widget: "string"}
               - {label: "Adresse", name: "address", widget: "string"}
               - {label: "Route (Link)", name: "route_link", widget: "string"}
@@ -259,8 +259,8 @@ collections:
                 widget: "object"
                 fields:
                   - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
-                  - {label: "Logo", name: "preloader", widget: "image"}
-                  - {label: "Ladeanimation", name: "loader", widget: "image"}
+                  - {label: "Logo", name: "preloader", widget: "image", media_library: { config: { max_file_size: 2048000 } } }
+                  - {label: "Ladeanimation", name: "loader", widget: "image", media_library: { config: { max_file_size: 2048000 } } }
               - label: "Soz. Netzwerke"
                 name: "social"
                 widget: "list"
@@ -387,7 +387,7 @@ collections:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
-          - {label: "Bild", name: "image", widget: "image", default: "/media/image.webp", required: false}
+          - {label: "Bild", name: "image", widget: "image", default: "/media/image.webp", required: false, media_library: { config: { max_file_size: 2048000 } } }
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
           - label: "Statistik"
             name: "stats"
@@ -547,7 +547,7 @@ collections:
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
       - {label: "Gravatar-E-Mail", name: "email", widget: "string", required: false}
-      - {label: "Foto", name: "image", widget: "image", required: false}
+      - {label: "Foto", name: "image", widget: "image", required: false, media_library: { config: { max_file_size: 2048000 } } }
       - label: "Kontaktdaten"
         label_singular: " "
         name: "social"
@@ -603,7 +603,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
-      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/blog/image.webp"}
+      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/blog/image.webp", media_library: { config: { max_file_size: 2048000 } } }
       - label: "Beitragsautor"
         name: "author"
         widget: "relation"
@@ -682,7 +682,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Beschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/cantorpreis/image.webp", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/cantorpreis/image.webp", required: false, media_library: { config: { max_file_size: 2048000 } } }
       - {label: "Name", name: "name", widget: "string"}
       - label: "Kontaktdaten/Soz. Netzwerke"
         name: "contact"
@@ -726,7 +726,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/ganztagsangebote/image.webp", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/ganztagsangebote/image.webp", required: false, media_library: { config: { max_file_size: 2048000 } } }
       - label: "Themenbereich"
         name: "category"
         widget: "relation"
@@ -761,7 +761,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/contests/image.webp", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/contests/image.webp", required: false, media_library: { config: { max_file_size: 2048000 } } }
       - label: "Fach"
         name: "category"
         widget: "relation"
@@ -793,7 +793,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/begabte/image.webp", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/begabte/image.webp", required: false, media_library: { config: { max_file_size: 2048000 } } }
       - label: "Fach"
         name: "category"
         widget: "relation"
@@ -849,7 +849,7 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/abiturienten/image.webp", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/abiturienten/image.webp", required: false, media_library: { config: { max_file_size: 2048000 } } }
       - {label: "Mehrere Bilder", name: "multiple", widget: "boolean", default: false, required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "abiturienten"}
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
@@ -881,7 +881,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
-      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/image.webp"}
+      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/image.webp", media_library: { config: { max_file_size: 2048000 } } }
       - {label: "Type", name: "type", widget: "hidden", default: "cantorfora"}
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
       - {label: "Text", name: "body", widget: "markdown"}

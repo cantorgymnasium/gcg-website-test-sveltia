@@ -20,7 +20,29 @@
         CMS.registerIcon(icon[0], ({}) => { return(h('i', {"className": icon[1]})); });
       });
       const StatusPage = () => {
-        return h('a', {href: "https://drone.cantorgymnasium.de/gcg/gcg-website"}, h('img', {src: "https://drone.cantorgymnasium.de/api/badges/gcg/gcg-website/status.svg"}));
+        return h('div', {className: "row"},
+        h('div', {className: "column"},
+          h('h2', {}, "Build-Status"),
+          h('div', {className: "row"},
+            "Produktivumgebung: ",
+            h('a', {href: "https://drone.cantorgymnasium.de/gcg/gcg-website", target: "_blank"}, h('img', {src: "https://drone.cantorgymnasium.de/api/badges/gcg/gcg-website/status.svg"})),
+          h('div', {className: "row"},
+            "Entwicklungsumgebung: ",
+            h('a', {href: "https://drone.cantorgymnasium.de/cantortechnik/gcg-website", target: "_blank"}, h('img', {src: "https://drone.cantorgymnasium.de/api/badges/cantortechnik/gcg-website/status.svg"}))
+        ))),
+        h('div', {className: "column"},
+          h('h2', {}, "Verfügbarkeit"),
+          h('div', {className: "row"},
+            "cantorgymnasium.de: ",
+            h('a', {href: "https://cantorgymnasium.de/", target: "_blank"}, h('img', {src: "https://status.cantorgymnasium.de/api/badge/16/status?upLabel=online&downLabel=offline&style=for-the-badge"})),
+          h('div', {className: "row"},
+            "test.cantorgymnasium.de: ",
+            h('a', {href: "https://test.cantorgymnasium.de/", target: "_blank"}, h('img', {src: "https://status.cantorgymnasium.de/api/badge/25/status?upLabel=online&downLabel=offline&style=for-the-badge"})),
+            h('div', {className: "row"},
+            "dev.cantorgymnasium.de: ",
+            h('a', {href: "https://dev.cantorgymnasium.de/", target: "_blank"}, h('img', {src: "https://status.cantorgymnasium.de/api/badge/31/status?upLabel=online&downLabel=offline&style=for-the-badge"}))
+        ))))
+        );
       };
       CMS.registerAdditionalLink({
         id: 'status',
