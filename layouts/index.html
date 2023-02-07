@@ -57,16 +57,11 @@
 <section class="bg-white">
   <div class="container">
     <div class="row align-items-center">
-		{{- $files := readDir "/static/media/logos/start" }}
-		{{- range $files -}}
-			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl|svg)" }}<!-- is the current file an image? -->
-			{{- if $isimg }}
-				{{- $linkURL := print "/media/logos/start" "/" .Name | absURL }}<!-- relative URL -->
+      {{ range .logos }}
         <div class="col-md-3 col-6 order-1 order-md-2 mt-4">
-          <img class="img-fluid w-100" src="{{ $linkURL }}">
+          <a href="{{ .link }}" target="_blank" title="{{ .title }}"><img class="img-fluid w-100" src="{{ .image }}"></a>
         </div>
-			{{- end }}
-		{{- end }}
+		  {{ end }}
     </div>
   </div>
 </section>
@@ -282,16 +277,11 @@
 <section class="bg-footer">
   <div class="container">
     <div class="row align-items-center">
-		{{- $files := readDir "/static/media/logos" }}
-		{{- range $files -}}
-			{{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl|svg)" }}<!-- is the current file an image? -->
-			{{- if $isimg }}
-				{{- $linkURL := print "/media/logos" "/" .Name | absURL }}<!-- relative URL -->
+		{{ range .logos }}
         <div class="col-md-2 col-4 order-1 order-md-2 mb-4">
-          <img class="img-fluid w-100" src="{{ $linkURL }}">
+          <a href="{{ .link }}" target="_blank" title="{{ .title }}"><img class="img-fluid w-100" src="{{ .image }}"></a>
         </div>
-			{{- end }}
-		{{- end }}
+		{{ end }}
     </div>
   </div>
 </section>
