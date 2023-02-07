@@ -92,12 +92,20 @@ collections:
                       - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
                       - {label: "Bezeichnung", name: "label", widget: "string", required: false}
                       - {label: "Link", name: "link", widget: "string", required: false}
-          - label: "Logo-Banner (oben)"
+          - label: "Partnerlogos (oben)"
             name: "header_logos"
             widget: "object"
             collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - label: "Logos"
+                name: "logos"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Titel", name: "title", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+                  - {label: "Grafik", name: "image", widget: "image", required: true, media_folder: "/static/media/logos", public_folder: "/media/logos"}
           - label: "\"Über\"-Seite"
             name: "about"
             widget: "object"
@@ -183,12 +191,20 @@ collections:
               - {label: "Titel", name: "title", widget: "string", required: false}
               - {label: "Bild", name: "image", widget: "image", required: false, media_library: { config: { max_file_size: 2048000 } } }
               - {label: "Inhalt", name: "content", widget: "markdown", required: false}
-          - label: "Logo-Banner (unten)"
+          - label: "Partnerlogos (unten)"
             name: "footer_logos"
             widget: "object"
             collapsed: true
             fields:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+              - label: "Logos"
+                name: "logos"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Titel", name: "title", widget: "string", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
+                  - {label: "Grafik", name: "image", widget: "image", required: true, media_folder: "/static/media/logos", public_folder: "/media/logos"}
       - name: "hugo-config"
         label: "Website-Konfiguration"
         file: "config.yml"
