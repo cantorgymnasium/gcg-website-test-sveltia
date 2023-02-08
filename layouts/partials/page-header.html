@@ -2,9 +2,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <ul class="list-inline custom-breadcrumb">
+        <ul class="list-inline">
           <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{{ if .Parent.Page }}{{ .Parent.Page.Permalink }}{{ else }}{{ .Site.BaseURL | absLangURL }}{{end}}">{{ with .Parent.Params.title }}{{.}}{{ else }}{{ .Site.Params.home }}{{end}}</a></li>
-          <li class="list-inline-item h2"><i class="fa-solid fa-angle-right text-white"></i></li>
+          <li class="list-inline-item h2"><i class="mdi mdi-chevron-double-right text-white"></i></li>
           <li class="list-inline-item text-white h2 font-secondary">{{ .Title }}</li>
         </ul>
         <p class="text-lighten">{{ .Params.Description | markdownify }}</p>

@@ -20,7 +20,7 @@ params:
   address: Georg-Cantor-Gymnasium <br> Torstraße 13 <br> 06110 Halle (Saale)
   top_header: true
   email: schulleitung@cantor-gymnasium.de
-  email_pretty: schulleitung<i class='fa-solid fa-at'></i>cantor-gymnasium.de
+  email_pretty: schulleitung<i class='mdi mdi-at'></i>cantor-gymnasium.de
   description: Das Georg-Cantor-Gymnasium - eine
     mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale).
   twitter: cantor_news
@@ -32,7 +32,8 @@ params:
       - plugins/slick/slick.css
       - plugins/animate/animate.min.css
       - plugins/venobox/venobox.css
-      - plugins/fontawesome/css/all.min.css
+      - plugins/mdi/css/materialdesignicons.min.css
+      - plugins/simpleicons/font/simple-icons.min.css
       - plugins/fira/fira.css
     js:
       - plugins/jQuery/jquery.min.js
@@ -42,16 +43,16 @@ params:
       - plugins/filterizr/jquery.filterizr.min.js
   social:
     - title: YouTube
-      icon: fa-brands fa-youtube
+      icon: si si-youtube
       link: https://www.youtube.com/@cantornews
     - title: Twitter
-      icon: fa-brands fa-twitter
+      icon: si si-twitter
       link: https://twitter.com/cantor_news
     - title: Instagram
-      icon: fa-brands fa-instagram
+      icon: si si-instagram
       link: https://instagram.com/cantor.news
     - title: Facebook
-      icon: fa-brands fa-facebook
+      icon: si si-facebook
       link: https://facebook.com/cantor.news
   preloader:
     enable: true

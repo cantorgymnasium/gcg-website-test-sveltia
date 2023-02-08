@@ -19,19 +19,19 @@ Torstraße 13
 
 06110 Halle (Saale)
 
-Vertretungsberechtigte Personen:
+**Vertretungsberechtigte Personen:**
 
 Schulleiter Dr. Bernd Gorsler
 
-E-Mail-Adresse:
+**E-Mail-Adresse:**
 
 [schulleitung@cantor-gymnasium.de](mailto:schulleitung@cantor-gymnasium.de)
 
-Telefon:
+**Telefon:**
 
 +49 (0) 345 69 03 156
 
-Impressum:
+**Impressum:**
 
 [https://cantorgymnasium.de/pages/impressum/](https://cantorgymnasium.de/pages/impressum/)
 
@@ -154,7 +154,7 @@ Die Einbindung setzt immer voraus, dass die Drittanbieter dieser Inhalte die IP-
 **Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:**
 
 - **Einbindung von Drittsoftware, Skripten oder Frameworks (z. B. jQuery):** Wir binden in unser Onlineangebot Software ein, die wir von Servern anderer Anbieter abrufen (z.B. Funktions-Bibliotheken, die wir zwecks Darstellung oder Nutzerfreundlichkeit unseres Onlineangebotes verwenden). Hierbei erheben die jeweiligen Anbieter die IP-Adresse der Nutzer und können diese zu Zwecken der Übermittlung der Software an den Browser der Nutzer sowie zu Zwecken der Sicherheit, als auch zur Auswertung und Optimierung ihres Angebotes verarbeiten. - Wir binden in unser Onlineangebot Software ein, die wir von Servern anderer Anbieter abrufen (z.B. Funktions-Bibliotheken, die wir zwecks Darstellung oder Nutzerfreundlichkeit unseres Onlineangebotes verwenden). Hierbei erheben die jeweiligen Anbieter die IP-Adresse der Nutzer und können diese zu Zwecken der Übermittlung der Software an den Browser der Nutzer sowie zu Zwecken der Sicherheit, als auch zur Auswertung und Optimierung ihres Angebotes verarbeiten; **Rechtsgrundlagen:** Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
-- **Font Awesome (Bereitstellung auf eigenem Server):** Darstellung von Schriftarten und Symbolen; **Dienstanbieter:** Die Font Awesome Icons werden auf unserem Server gehostet, es werden keine Daten an den Anbieter von Font Awesome übermittelt; **Rechtsgrundlagen:** Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+- **Material Design Icons (Bereitstellung auf eigenem Server):** Darstellung von Schriftarten und Symbolen; **Dienstanbieter:** Die Material Design Icons werden auf unserem Server gehostet, es werden keine Daten an den Anbieter von Material Design Icons übermittelt; **Rechtsgrundlagen:** Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
 - **OpenStreetMap:** Wir binden die Landkarten des Dienstes "OpenStreetMap" ein, die auf Grundlage der Open Data Commons Open Database Lizenz (ODbL) durch die OpenStreetMap Foundation (OSMF) angeboten werden. Die Daten der Nutzer werden durch OpenStreetMap ausschließlich zu Zwecken der Darstellung der Kartenfunktionen und zur Zwischenspeicherung der gewählten Einstellungen verwendet. Zu diesen Daten können insbesondere IP-Adressen und Standortdaten der Nutzer gehören, die jedoch nicht ohne deren Einwilligung (im Regelfall im Rahmen der Einstellungen ihrer Mobilgeräte vollzogen) erhoben werden; **Dienstanbieter:** OpenStreetMap Foundation (OSMF); **Rechtsgrundlagen:** Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); **Website:** [https://www.openstreetmap.de](https://www.openstreetmap.de); **Datenschutzerklärung:** [https://wiki.osmfoundation.org/wiki/Privacy_Policy](https://wiki.osmfoundation.org/wiki/Privacy_Policy).
 - **YouTube-Videos:** Videoinhalte; **Dienstanbieter:** Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland; **Rechtsgrundlagen:** Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); **Website:** [https://www.youtube.com](https://www.youtube.com); **Datenschutzerklärung:** [https://policies.google.com/privacy](https://policies.google.com/privacy); **Widerspruchsmöglichkeit (Opt-Out):** Opt-Out-Plugin: [https://tools.google.com/dlpage/gaoptout?hl=de](https://tools.google.com/dlpage/gaoptout?hl=de), Einstellungen für die Darstellung von Werbeeinblendungen: [https://adssettings.google.com/authenticated](https://adssettings.google.com/authenticated).
 

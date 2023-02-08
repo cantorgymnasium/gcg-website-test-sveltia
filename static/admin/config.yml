@@ -52,7 +52,7 @@ collections:
               - {label: "Text", name: "text", widget: "string", required: false}
               - {label: "Farbe", name: "color", widget: "color", required: false}
               - {label: "Schriftfarbe", name: "font_color", widget: "color", required: false}
-              - {label: "Symbol", name: "icon", widget: "string", required: false, hint: "Liste unter https://fontawesome.com/search"}
+              - {label: "Symbol", name: "icon", widget: "string", required: false, hint: "Liste unter https://pictogrammers.com/library/mdi/"}
               - label: "Zeitschaltung"
                 name: temporarily
                 widget: "object"
@@ -140,7 +140,7 @@ collections:
                 widget: "list"
                 fields:
                   - {label: "Bezeichnung", name: "name", widget: "string", required: false}
-                  - {label: "Symbol", name: "icon", widget: "string", required: false, hint: "Liste unter https://fontawesome.com/search"}
+                  - {label: "Symbol", name: "icon", widget: "string", required: false, hint: "Liste unter https://pictogrammers.com/library/mdi/"}
                   - {label: "Bild", name: "image", widget: "image", required: false, media_library: { config: { max_file_size: 2048000 } } }
                   - {label: "Inhalt", name: "content", widget: "markdown", required: false}
           - label: "Ganztagsangebote"
@@ -282,7 +282,7 @@ collections:
                 widget: "list"
                 fields:
                   - {label: "Bezeichnung", name: "title", widget: "string"}
-                  - {label: "Symbol", name: "icon", widget: "string", hint: "Liste unter https://fontawesome.com/search"}
+                  - {label: "Symbol", name: "icon", widget: "string", hint: "Liste unter https://pictogrammers.com/library/mdi/"}
                   - {label: "Link", name: "link", widget: "string"}
           - label: "Menü"
             name: "menu"
@@ -529,7 +529,7 @@ collections:
           - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
           - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "pages"
-    icon: "page"
+    icon: "page-add"
     label: "Zusatzseiten"
     label_singular: "Zusatzseite"
     folder: "content/german/pages"
@@ -582,18 +582,19 @@ collections:
             name: "icon"
             widget: "select"
             options:
-              - { label: "YouTube", value: "fa-brands fa-youtube" }
-              - { label: "Twitter", value: "fa-brands fs-twitter" }
-              - { label: "Pinterest", value: "fa-brands fa-pinterest" }
-              - { label: "GitHub", value: "fa-brands fa-github" }
-              - { label: "Git", value: "fa-brands fa-git-alt" }
-              - { label: "Vimeo", value: "fa-brands fa-vimeo" }
-              - { label: "Instagram", value: "fa-brands fa-instagram" }
-              - { label: "Facebook", value: "fa-brands fa-facebook" }
-              - { label: "Linkedin", value: "fa-brands fa-linkedin" }
-              - { label: "E-Mail", value: "fa-solid fa-at" }
-              - { label: "TikTok", value: "fa-brands fa-tiktok" }
-              - { label: "Sonstige", value: "fa-solid fa-share-nodes" }
+              - { label: "YouTube", value: "si si-youtube" }
+              - { label: "Twitter", value: "si si-twitter" }
+              - { label: "Pinterest", value: "si si-pinterest" }
+              - { label: "GitHub", value: "si si-github" }
+              - { label: "Gitea", value: "si si-gitea" }
+              - { label: "Git", value: "si si-git" }
+              - { label: "Vimeo", value: "si si-vimeo" }
+              - { label: "Instagram", value: "si si-instagram" }
+              - { label: "Facebook", value: "si si-facebook" }
+              - { label: "Linkedin", value: "si si-linkedin" }
+              - { label: "E-Mail", value: "mdi mdi-at" }
+              - { label: "TikTok", value: "si si-tiktok" }
+              - { label: "Sonstige", value: "mdi mdi-share-variant-outline" }
           - {label: "Link", name: "link", widget: "string"}
       - {label: "Beschreibung", name: "body", widget: "markdown"}
   - name: "blog"
@@ -717,18 +718,19 @@ collections:
             name: "icon"
             widget: "select"
             options:
-              - { label: "YouTube", value: "fa-brands fa-youtube" }
-              - { label: "Twitter", value: "fa-brands fs-twitter" }
-              - { label: "Pinterest", value: "fa-brands fa-pinterest" }
-              - { label: "GitHub", value: "fa-brands fa-github" }
-              - { label: "Git", value: "fa-brands fa-git-alt" }
-              - { label: "Vimeo", value: "fa-brands fa-vimeo" }
-              - { label: "Instagram", value: "fa-brands fa-instagram" }
-              - { label: "Facebook", value: "fa-brands fa-facebook" }
-              - { label: "Linkedin", value: "fa-brands fa-linkedin" }
-              - { label: "E-Mail", value: "fa-solid fa-at" }
-              - { label: "TikTok", value: "fa-brands fa-tiktok" }
-              - { label: "Sonstige", value: "fa-solid fa-share-nodes" }
+              - { label: "YouTube", value: "si si-youtube" }
+              - { label: "Twitter", value: "si si-twitter" }
+              - { label: "Pinterest", value: "si si-pinterest" }
+              - { label: "GitHub", value: "si si-github" }
+              - { label: "Gitea", value: "si si-gitea" }
+              - { label: "Git", value: "si si-git" }
+              - { label: "Vimeo", value: "si si-vimeo" }
+              - { label: "Instagram", value: "si si-instagram" }
+              - { label: "Facebook", value: "si si-facebook" }
+              - { label: "Linkedin", value: "si si-linkedin" }
+              - { label: "E-Mail", value: "mdi mdi-at" }
+              - { label: "TikTok", value: "si si-tiktok" }
+              - { label: "Sonstige", value: "mdi mdi-share-variant-outline" }
           - {label: "Link", name: "link", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
@@ -801,7 +803,7 @@ collections:
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "begabte"
-    icon: "book"
+    icon: "pi"
     label: "Begabtenförderung"
     label_singular: "Begabtenförderung"
     folder: "content/german/begabte"
@@ -833,7 +835,7 @@ collections:
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "schulchronik"
-    icon: "timeline"
+    icon: "pillar"
     label: "Schulchronik"
     label_singular: "Chronikjahr"
     folder: "content/german/schulchronik"

@@ -5,7 +5,7 @@ description: ""
 image: /media/people/cschapitz.webp
 social:
   - title: E-Mail
-    icon: fa-solid fa-at
+    icon: mdi mdi-at
     link: schapitz@cantor-gymnasium.de
 ---
 Stellvertretende Schulleiterin
