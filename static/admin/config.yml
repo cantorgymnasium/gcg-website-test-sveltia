@@ -298,6 +298,12 @@ collections:
                   - {label: "Untermenüs", name: "hasChildren", widget: "boolean", required: false}
                   - {label: "Link", name: "URL", widget: "string", required: false}
                   - {label: "Untermenü von", name: "parent", widget: "relation", collection: "config", file: "hugo-config", search_fields: ['menu.main.*.name'], display_fields: ['menu.main.*.name'], value_field: "menu.main.*.name", required: false}
+                  - label: "Parameter"
+                    name: "params"
+                    widget: "object"
+                    collapsed: false
+                    fields:
+                      - {label: "Externer Link", hint: "Wird in neuem Tab geöffnet.", name: "external", widget: "boolean", default: false, required: false}
               - label: "unteres Menü"
                 name: "footer"
                 widget: "list"
@@ -324,6 +330,7 @@ collections:
           - label: "Privatsphäre"
             name: "privacy"
             widget: "object"
+            collapsed: true
             fields:
               - label: "Disqus"
                 name: "disqus"
