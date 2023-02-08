@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cantorgymnasium.de/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/plugins/mdi/css/materialdesignicons.min.css">
     <title>Static CMS</title>
   </head>
   <body>
@@ -11,13 +11,16 @@
       body {
         font-family: sans-serif;
       }
+      .icon-md {
+        font-size: 25px;
+      }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/@staticcms/app@^1.2.7/dist/static-cms-app.js"></script>
     <script>
       CMS.init();
-      var icons = [['home', 'fa fa-house'], ['settings', 'fa fa-gear'], ['user', 'fa fa-user'], ['page', 'fa fa-file'], ['document', 'fa fa-file-lines'], ['news', 'fa fa-newspaper'], ['award', 'fa fa-award'], ['group', 'fa fa-people-group'], ['trophy', 'fa fa-trophy'], ['book', 'fa fa-book'], ['timeline', 'fa fa-timeline'], ['graduation-cap', 'fa fa-graduation-cap'], ['info', 'fa fa-circle-info'], ['desktop', 'fa-solid fa-desktop'], ['bookmark', 'fa-solid fa-bookmark'], ['presentation', 'fa-solid fa-person-chalkboard']];
+      var icons = [['settings', 'mdi mdi-cog-outline'], ['user', 'mdi mdi-fountain-pen-tip'], ['page', 'mdi mdi-file-document-outline'], ['page-add', 'mdi mdi-file-document-plus-outline'], ['document', 'mdi mdi-file-document-multiple-outline'], ['news', 'mdi mdi-newspaper'], ['award', 'mdi mdi-seal-variant'], ['group', 'mdi mdi-crowd'], ['trophy', 'mdi mdi-trophy-outline'], ['pi', 'mdi mdi-pi-box'], ['pillar', 'mdi mdi-pillar'], ['graduation-cap', 'mdi mdi-school-outline'], ['help', 'mdi mdi-lifebuoy'], ['dash', 'mdi mdi-monitor-dashboard'], ['presentation', 'mdi mdi-presentation']];
       icons.forEach(icon => {
-        CMS.registerIcon(icon[0], ({}) => { return(h('i', {"className": icon[1]})); });
+        CMS.registerIcon(icon[0], ({}) => { return(h('i', {"className": icon[1] + " icon-md"})); });
       });
       const StatusPage = () => {
         return h('div', {className: "row"},
@@ -49,7 +52,7 @@
         title: 'Status',
         data: StatusPage,
         options: {
-          icon: 'desktop',
+          icon: 'dash',
         },
       }); 
       CMS.registerAdditionalLink({
@@ -57,7 +60,7 @@
         title: 'GCG.Wiki',
         data: 'https://wiki.cantorgymnasium.de',
         options: {
-          icon: 'bookmark',
+          icon: 'help',
         },
       });      
       CMS.registerShortcode('gallery', {
@@ -335,8 +338,8 @@
     </script>
     <script>
       CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/bootstrap/bootstrap.min.css");
-      CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/fontawesome/css/all.css");
       CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/fira/fira.css");
+      CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/mdi/css/materialdesignicons.min.css");
       CMS.registerPreviewStyle("https://cantorgymnasium.de/scss/style.css");
     </script>
     <script>
@@ -348,11 +351,11 @@
                     h('section', {"className": "page-title-section overlay", "style": divStyle},
                       h('div', {"className": "container"},
                         h('div', {"className": "col-md-8"},
-                          h('ul', {"className": "list-inline custom-breadcrumb"},
+                          h('ul', {"className": "list-inline"},
                             h('li', {"className": "list-inline-item h2"},
                               h('a', {"className": "text-primary font-secondary", href: ""}, "Schulchronik")),
                             h('li', {"className": "list-inline-item h2"},
-                              h("i", {"className": "fa-solid fa-angle-right text-white"})),
+                              h("i", {"className": "mdi mdi-chevron-double-right text-white"})),
                             h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title)
                           )
                         )
@@ -444,11 +447,11 @@
                   h('section', {"className": "page-title-section overlay", "style": divStyle},
                     h('div', {"className": "container"},
                       h('div', {"className": "col-md-8"},
-                        h('ul', {"className": "list-inline custom-breadcrumb"},
+                        h('ul', {"className": "list-inline"},
                           h('li', {"className": "list-inline-item h2"},
                             h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")),
                           h('li', {"className": "list-inline-item h2"},
-                            h("i", {"className": "fa-solid fa-angle-right text-white"})),
+                            h("i", {"className": "mdi mdi-chevron-double-right text-white"})),
                           h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title)
                         ),
                         h('p', {"className": "text-lighten"}, entry.data.description
@@ -483,11 +486,11 @@
                   h('section', {"className": "page-title-section overlay", "style": divStyle},
                     h('div', {"className": "container"},
                       h('div', {"className": "col-md-8"},
-                        h('ul', {"className": "list-inline custom-breadcrumb"},
+                        h('ul', {"className": "list-inline"},
                           h('li', {"className": "list-inline-item h2"},
                             h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")),
                           h('li', {"className": "list-inline-item h2"},
-                            h("i", {"className": "fa-solid fa-angle-right text-white"})),
+                            h("i", {"className": "mdi mdi-chevron-double-right text-white"})),
                           h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title)
                         ),
                         h('p', {"className": "text-lighten"}, entry.data.description
@@ -534,12 +537,12 @@
                     h('div', {"className": "row"},
                       h('div', {"className": "container"},
                         h('div', {"className": "col-md-8"},
-                          h('ul', {"className": "list-inline custom-breadcrumb"},
+                          h('ul', {"className": "list-inline"},
                             h('li', {"className": "list-inline-item h2"},
                               h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
                             ),
                             h('li', {"className": "list-inline-item h2"},
-                              h("i", {"className": "fa-solid fa-angle-right text-white"})
+                              h("i", {"className": "mdi mdi-chevron-double-right text-white"})
                             ),
                             h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title
                             )
@@ -566,7 +569,7 @@
                                 ),
                                 h('div', {"className": "d-md-table-cell text-right pr-0 pr-md-4"},
                                   h('p', {},
-                                    h('i', {"className": "fa-solid fa-location-dot text-primary mr-2"}),
+                                    h('i', {"className": "mdi mdi-map-marker-radius-outline icon-s text-primary mr-2"}),
                                     event.data.location
                                   )
                                 )
@@ -591,12 +594,12 @@
                     h('div', {"className": "row"},
                       h('div', {"className": "container"},
                         h('div', {"className": "col-md-8"},
-                          h('ul', {"className": "list-inline custom-breadcrumb"},
+                          h('ul', {"className": "list-inline"},
                             h('li', {"className": "list-inline-item h2"},
                               h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
                             ),
                             h('li', {"className": "list-inline-item h2"},
-                              h("i", {"className": "fa-solid fa-angle-right text-white"})
+                              h("i", {"className": "mdi mdi-chevron-double-right text-white"})
                             ),
                             h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title
                             )
@@ -645,12 +648,12 @@
                     h('div', {"className": "row"},
                       h('div', {"className": "container"},
                         h('div', {"className": "col-md-8"},
-                          h('ul', {"className": "list-inline custom-breadcrumb"},
+                          h('ul', {"className": "list-inline"},
                             h('li', {"className": "list-inline-item h2"},
                               h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
                             ),
                             h('li', {"className": "list-inline-item h2"},
-                              h("i", {"className": "fa-solid fa-angle-right text-white"})
+                              h("i", {"className": "mdi mdi-chevron-double-right text-white"})
                             ),
                             h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title
                             )
@@ -705,12 +708,12 @@
                     h('div', {"className": "row"},
                       h('div', {"className": "container"},
                         h('div', {"className": "col-md-8"},
-                          h('ul', {"className": "list-inline custom-breadcrumb"},
+                          h('ul', {"className": "list-inline"},
                             h('li', {"className": "list-inline-item h2"},
                               h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
                             ),
                             h('li', {"className": "list-inline-item h2"},
-                              h("i", {"className": "fa-solid fa-angle-right text-white"})
+                              h("i", {"className": "mdi mdi-chevron-double-right text-white"})
                             ),
                             h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title
                             )

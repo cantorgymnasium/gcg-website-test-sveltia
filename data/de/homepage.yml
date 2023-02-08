@@ -3,7 +3,7 @@ top_banner:
   text: "Um zur Aufnahmeprüfung zugelassen werden zu können, müssen das Aufnahmeformular, eine Kopie des Halbjahreszeugnisses und die Schullaufbahnempfehlung bis spätestens Mittwoch, den 8. Februar 2023, eingereicht werden. <br><br>Wir laden zum literarisch-musikalischen Abend am Mittwoch, den 22.02.2023 ab 17 Uhr!"
   color: "#1b57b1"
   font_color: "#ffffff"
-  icon: fa-solid fa-circle-info
+  icon: mdi mdi-information
   temporarily:
     enable: true
     start_date: 2023-01-24T08:12:06.712+01:00
@@ -160,7 +160,7 @@ success_banner:
       image: media/home/cds.webp
       icon: ""
     - name: Und viel mehr ...
-      icon: fa-solid fa-medal
+      icon: mdi mdi-trophy-outline
       content: >
         Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
         vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,

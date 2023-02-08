@@ -2,6 +2,11 @@ kind: pipeline
 type: docker
 name: dev
 steps:
+    - name: submodules
+      image: alpine/git
+      commands:
+        - git submodule update --init --recursive
+
     - name: hugo build
       image: plugins/hugo
       settings:

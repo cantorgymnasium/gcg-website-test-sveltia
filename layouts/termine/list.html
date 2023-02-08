@@ -12,7 +12,7 @@
               <p href="{{ .Permalink }}" class="h4 mb-3 d-block">{{ .title }}</p>
               <p class="mb-0">{{ .summary | truncate 100 }}</p>
             </div>
-            <div class="d-md-table-cell text-right pr-0 pr-md-4 p-2"><p><i class="fa-solid fa-location-dot text-primary mr-2"></i>{{ .location | markdownify }}</p></div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4 p-2"><p><i class="mdi mdi-map-marker-radius-outline icon-s text-primary mr-2"></i>{{ .location | markdownify }}</p></div>
           </li>
           {{ end }}
         </ul>

@@ -1,0 +1,3 @@
+[submodule "static/plugins/mdi"]
+	path = static/plugins/mdi
+	url = https://github.com/Templarian/MaterialDesign-Webfont.git

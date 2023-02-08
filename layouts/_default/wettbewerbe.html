@@ -2,7 +2,7 @@
   <img class="card-img-top rounded-0" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
   <div class="card-body">
     <ul class="list-inline">
-      <li class="list-inline-item"><p><i class="fa-solid fa-book-bookmark"></i> {{ .Params.Category }}</p></li>
+      <li class="list-inline-item"><p><i class="mdi mdi-bookmark-outline"></i> {{ .Params.Category }}</p></li>
     </ul>
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 20 }}</a></h4>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm text-uppercase">{{ i18n "read_more"}}</a>

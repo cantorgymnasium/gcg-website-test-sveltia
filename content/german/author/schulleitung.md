@@ -4,7 +4,7 @@ bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/people/gcg.webp
 social:
-  - icon: fa-solid fa-at
+  - icon: mdi mdi-at
     title: Mail
     link: mailto:schulleitung@cantor-gymnasium.de
 ---

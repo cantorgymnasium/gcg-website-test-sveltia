@@ -6,7 +6,7 @@ email: berger@cantor-gymnasium.de
 image: /media/people/websiteprofilbild.webp
 social:
   - link: mailto:berger@cantor-gymnasium.de
-    icon: fa-solid fa-at
+    icon: mdi mdi-at
     title: E-Mail
 ---
 Web-Admin, Lehrer Informatik & Deutsch

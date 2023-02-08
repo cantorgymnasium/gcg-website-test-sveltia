@@ -60,8 +60,8 @@
     infinite: true,
     arrows: true,
     fade: true,
-    prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'fa-solid fa-angle-left\'></i></button>',
-    nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'fa-solid fa-angle-right\'></i></button>',
+    prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'mdi mdi-chevron-left\'></i></button>',
+    nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'mdi mdi-chevron-right\'></i></button>',
     dots: true
   });
   $('.hero-slider').slickAnimation();
