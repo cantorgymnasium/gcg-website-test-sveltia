@@ -1,9 +1,10 @@
 top_banner:
   enable: true
-  text: "Um zur Aufnahmeprüfung zugelassen werden zu können, müssen das Aufnahmeformular, eine Kopie des Halbjahreszeugnisses und die Schullaufbahnempfehlung bis spätestens Mittwoch, den 8. Februar 2023, eingereicht werden. <br><br>Wir laden zum literarisch-musikalischen Abend am Mittwoch, den 22.02.2023 ab 17 Uhr!"
+  text: Wir laden zum literarisch-musikalischen Abend am Mittwoch, den 22.02.2023
+    ab 17 Uhr!
   color: "#1b57b1"
   font_color: "#ffffff"
-  icon: mdi mdi-information
+  icon: mdiBookmarkMusicOutline
   temporarily:
     enable: true
     start_date: 2023-01-24T08:12:06.712+01:00
