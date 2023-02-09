@@ -16,12 +16,12 @@
       }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/@staticcms/app@^1.2.7/dist/static-cms-app.js"></script>
-    <script src="https://cantorgymnasium.de/plugins/wordcloud/wordcloud2.min.js"></script>
+    <!--script src="https://cantorgymnasium.de/plugins/wordcloud/wordcloud2.min.js"></script-->
     <script>
       CMS.init();
       var icons = [['settings', 'mdi mdi-cog-outline'], ['user', 'mdi mdi-fountain-pen-tip'], ['page', 'mdi mdi-file-document-outline'], ['page-add', 'mdi mdi-file-document-plus-outline'], ['document', 'mdi mdi-file-document-multiple-outline'], ['news', 'mdi mdi-newspaper'], ['award', 'mdi mdi-seal-variant'], ['group', 'mdi mdi-crowd'], ['trophy', 'mdi mdi-trophy-outline'], ['pi', 'mdi mdi-pi-box'], ['pillar', 'mdi mdi-pillar'], ['graduation-cap', 'mdi mdi-school-outline'], ['help', 'mdi mdi-lifebuoy'], ['dash', 'mdi mdi-monitor-dashboard'], ['presentation', 'mdi mdi-presentation']];
       icons.forEach(icon => {
-        CMS.registerIcon(icon[0], ({}) => { return(h('i', {"className": icon[1] + " icon-md"})); });
+        CMS.registerIcon(icon[0], ({}) => { return(h('i', {className: icon[1] + " icon-md"})); });
       });
       const StatusPage = () => {
         return h('div', {className: "row"},
@@ -81,12 +81,12 @@
           return [`dir=\"${dir}\"`];
         },
         control: ({ dir, onChange }) => {
-          return h('div', {"className": "row", "style": { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
-          h('b', {"style": {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Gallerie-Ordner: "),
+          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
+          h('b', {style: {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Gallerie-Ordner: "),
           h('input', {
             key: 'control-input',
             value: dir,
-            "style": {
+            style: {
               border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "80%"
             },
             onChange: event => {
@@ -95,8 +95,8 @@
           }));
         },
         preview: ({ dir }) => {
-          return h('div', {"className": "row", "style": { border: "1px solid #868686", borderRadius: "8px", padding: "10px", marginBottom: "5px" }},
-          h('b', {"style": { marginRight: "5px" }}, "Gallerie-Ordner:"),
+          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "8px", padding: "10px", marginBottom: "5px" }},
+          h('b', {style: { marginRight: "5px" }}, "Gallerie-Ordner:"),
           h('code', {}, dir));
         },
       });
@@ -117,12 +117,12 @@
           return [`src=\"${src}\"`];
         },
         control: ({ src, onChange }) => {
-          return h('div', {"className": "row", "style": { border: "1px solid #868686", borderRadius: "16px", padding: "10px" }},
-          h('b', {"style": {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Bild-Pfad:"),
+          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "16px", padding: "10px" }},
+          h('b', {style: {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Bild-Pfad:"),
           h('input', {
             key: 'control-input',
             value: src,
-            "style": {
+            style: {
               border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "80%"
             },
             onChange: event => {
@@ -131,8 +131,8 @@
           }));
         },
         preview: ({ src }) => {
-          return h('div', {"className": "row", "style": { border: "1px solid #ccc", borderRadius: "16px", padding: "10px" }},
-          h('b', {"style": { marginRight: "5px" }}, "Gallerie-Ordner:"),
+          return h('div', {className: "row", style: { border: "1px solid #ccc", borderRadius: "16px", padding: "10px" }},
+          h('b', {style: { marginRight: "5px" }}, "Gallerie-Ordner:"),
           h('code', {}, src));
         },
       });
@@ -174,12 +174,12 @@
           return [`title=\"${title}\"`, `link=\"${link}\"`];
         },
         control: ({ title, link, onChange }) => {
-          return h('div', {"className": "row", "style": { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
-          h('b', {"style": {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Download-Karte:"),
+          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
+          h('b', {style: {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Download-Karte:"),
           h('input', {
             key: 'control-input',
             value: title,
-            "style": {
+            style: {
               border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "35%", marginLeft: "5px", marginRight: "5px"
             },
             onChange: event => {
@@ -189,7 +189,7 @@
           h('input', {
             key: 'control-input',
             value: link,
-            "style": {
+            style: {
               border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "35%", marginLeft: "5px", marginRight: "5px"
             },
             onChange: event => {
@@ -199,13 +199,13 @@
           );
         },
         preview: ({ title, link }) => {
-          return h('div', {"className": "container mb-0"},
-          h('div', {"className": "card border-primary rounded-0 hover-shadow mb-5"}, 
-            h('div', {"className": "card-body mb-0"},
-              h('h4', {"className": "card-title"},
-                h('a', {"className": "text-decoration-none", "href": link}, title),
+          return h('div', {className: "container mb-0"},
+          h('div', {className: "card border-primary rounded-0 hover-shadow mb-5"}, 
+            h('div', {className: "card-body mb-0"},
+              h('h4', {className: "card-title"},
+                h('a', {className: "text-decoration-none", href: link}, title),
               ),
-              h('a', {"className": "mb-0 btn btn-primary btn-sm text-decoration-none", "href": link}, "Download")
+              h('a', {className: "mb-0 btn btn-primary btn-sm text-decoration-none", href: link}, "Download")
             )))},
       });
       CMS.registerShortcode('card', {
@@ -246,12 +246,12 @@
           return [`title=\"${title}\"`, `link=\"${link}\"`];
         },
         control: ({ title, link, onChange }) => {
-          return h('div', {"className": "row", "style": { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
-          h('b', {"style": {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Link-Karte:"),
+          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
+          h('b', {style: {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Link-Karte:"),
           h('input', {
             key: 'control-input',
             value: title,
-            "style": {
+            style: {
               border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "40%", marginLeft: "5px", marginRight: "5px"
             },
             onChange: event => {
@@ -261,7 +261,7 @@
           h('input', {
             key: 'control-input',
             value: link,
-            "style": {
+            style: {
               border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "40%", marginLeft: "5px", marginRight: "5px"
             },
             onChange: event => {
@@ -271,13 +271,13 @@
           );
         },
         preview: ({ title, link }) => {
-          return h('div', {"className": "container mb-0"},
-          h('div', {"className": "card border-primary rounded-0 hover-shadow mb-5"}, 
-            h('div', {"className": "card-body mb-0"},
-              h('h4', {"className": "card-title"},
-                h('a', {"className": "text-decoration-none", "href": link}, title),
+          return h('div', {className: "container mb-0"},
+          h('div', {className: "card border-primary rounded-0 hover-shadow mb-5"}, 
+            h('div', {className: "card-body mb-0"},
+              h('h4', {className: "card-title"},
+                h('a', {className: "text-decoration-none", href: link}, title),
               ),
-              h('a', {"className": "mb-0 btn btn-primary btn-sm text-decoration-none", "href": link}, "Mehr anzeigen")
+              h('a', {className: "mb-0 btn btn-primary btn-sm text-decoration-none", href: link}, "Mehr anzeigen")
             )))},
       });
       CMS.registerShortcode('youtube', {
@@ -294,19 +294,19 @@
         },
         toArgs: ({ src }) => { return [src] },
         control: ({ src, onChange }) => {
-          return h('div', {"className": "row", "style": { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
-          h('b', {"style": {fontFamily: "sans-serif", margin: "10px"}}, "YoutTube-Video:"),
+          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
+          h('b', {style: {fontFamily: "sans-serif", margin: "10px"}}, "YoutTube-Video:"),
           h('input', {
             key: 'control-input',
             value: src,
-            "style": {
+            style: {
               border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "80%"
             },
             onChange: event => {
               onChange({ src: event.target.value });
             },
           }),
-          h('div', {"className": "row", "style": {"marginTop": "10px"}}, 
+          h('div', {className: "row", style: {"marginTop": "10px"}}, 
             h(
                 'iframe',
                 {
@@ -349,51 +349,51 @@
             backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
           };
           return h('div', {"id": "sc-root"},
-                    h('section', {"className": "page-title-section overlay", "style": divStyle},
-                      h('div', {"className": "container"},
-                        h('div', {"className": "col-md-8"},
-                          h('ul', {"className": "list-inline"},
-                            h('li', {"className": "list-inline-item h2"},
-                              h('a', {"className": "text-primary font-secondary", href: ""}, "Schulchronik")),
-                            h('li', {"className": "list-inline-item h2"},
-                              h("i", {"className": "mdi mdi-chevron-double-right text-white"})),
-                            h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title)
+                    h('section', {className: "page-title-section overlay", style: divStyle},
+                      h('div', {className: "container"},
+                        h('div', {className: "col-md-8"},
+                          h('ul', {className: "list-inline"},
+                            h('li', {className: "list-inline-item h2"},
+                              h('a', {className: "text-primary font-secondary", href: ""}, "Schulchronik")),
+                            h('li', {className: "list-inline-item h2"},
+                              h("i", {className: "mdi mdi-chevron-double-right text-white"})),
+                            h('li', {className: "list-inline-item text-white h2 font-secondary"}, entry.data.title)
                           )
                         )
                       )
                     ),
-                    h('section', {"className": "section-sm"},
-                      h('div', {"className": "container"},
-                        h('div', {"className": "row"},
-                          h('div', {"className": "col-12 mb-4 content"},
+                    h('section', {className: "section-sm"},
+                      h('div', {className: "container"},
+                        h('div', {className: "row"},
+                          h('div', {className: "col-12 mb-4 content"},
                           widgetsFor('topics').map(function(i, index) {
-                              return h('div', {"id": i.data.id, "className": "modal"},
-                                h('div', {"className": "modal-dialog modal-lg", "role": "document"},
-                                  h('div', {"className": "modal-content"},
-                                    h('div', {"className": "modal-header"},
-                                      h('h5', {"className": "modal-title"}, i.data.title),
-                                      h('button', {"className": "close", "type": "button", "dataDismiss": "modal", "ariaLabel": "Close"},
+                              return h('div', {"id": i.data.id, className: "modal"},
+                                h('div', {className: "modal-dialog modal-lg", "role": "document"},
+                                  h('div', {className: "modal-content"},
+                                    h('div', {className: "modal-header"},
+                                      h('h5', {className: "modal-title"}, i.data.title),
+                                      h('button', {className: "close", type: "button", "dataDismiss": "modal", "ariaLabel": "Close"},
                                         h('span', {"ariaHidden": "true"}, '\u{00d7}')
                                       )
                                     ),
-                                    h('div', {"className": "modal-body"},
-                                      h('div', {"className": "content"}, i.content)
+                                    h('div', {className: "modal-body"},
+                                      h('div', {className: "content"}, i.content)
                                     )
                                   )
                                 )
                               );
                           }),
-                          entry.data.pretext != "" && entry.data.pretext != null ? h('div', {"id": "pretext", "className": "modal"},
-                          h('div', {"className": "modal-dialog modal-lg", "role": "document"},
-                            h('div', {"className": "modal-content"},
-                              h('div', {"className": "modal-header"},
-                                h('h5', {"className": "modal-title"}, entry.data.title),
-                                h('button', {"className": "close", "type": "button", "dataDismiss": "modal", "ariaLabel": "Close"},
+                          entry.data.pretext != "" && entry.data.pretext != null ? h('div', {"id": "pretext", className: "modal"},
+                          h('div', {className: "modal-dialog modal-lg", "role": "document"},
+                            h('div', {className: "modal-content"},
+                              h('div', {className: "modal-header"},
+                                h('h5', {className: "modal-title"}, entry.data.title),
+                                h('button', {className: "close", type: "button", "dataDismiss": "modal", "ariaLabel": "Close"},
                                   h('span', {"ariaHidden": "true"}, '\u{00d7}')
                                 )
                               ),
-                              h('div', {"className": "modal-body"},
-                                h('div', {"className": "content"}, widgetFor('pretext'))
+                              h('div', {className: "modal-body"},
+                                h('div', {className: "content"}, widgetFor('pretext'))
                               )
                             )
                           )
@@ -444,26 +444,26 @@
           backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
         };
         return h('div', {},
-                  h('section', {"className": "page-title-section overlay", "style": divStyle},
-                    h('div', {"className": "container"},
-                      h('div', {"className": "col-md-8"},
-                        h('ul', {"className": "list-inline"},
-                          h('li', {"className": "list-inline-item h2"},
-                            h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")),
-                          h('li', {"className": "list-inline-item h2"},
-                            h("i", {"className": "mdi mdi-chevron-double-right text-white"})),
-                          h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title)
+                  h('section', {className: "page-title-section overlay", style: divStyle},
+                    h('div', {className: "container"},
+                      h('div', {className: "col-md-8"},
+                        h('ul', {className: "list-inline"},
+                          h('li', {className: "list-inline-item h2"},
+                            h('a', {className: "text-primary font-secondary", href: ""}, "Startseite")),
+                          h('li', {className: "list-inline-item h2"},
+                            h("i", {className: "mdi mdi-chevron-double-right text-white"})),
+                          h('li', {className: "list-inline-item text-white h2 font-secondary"}, entry.data.title)
                         ),
-                        h('p', {"className": "text-lighten"}, entry.data.description
+                        h('p', {className: "text-lighten"}, entry.data.description
                         )
                       )
                     )
                   ),
-                  h('section', {"className": "section-sm"},
-                    h('div', {"className": "container"},
-                      h('div', {"className": "row"},
-                        h('div', {"className": "col-12 mb-4"},
-                          h('div', {"className": "content"}, widgetFor('body'))
+                  h('section', {className: "section-sm"},
+                    h('div', {className: "container"},
+                      h('div', {className: "row"},
+                        h('div', {className: "col-12 mb-4"},
+                          h('div', {className: "content"}, widgetFor('body'))
                         )
                       )
                     )
@@ -483,37 +483,37 @@
           backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
         };
         return h('div', {},
-                  h('section', {"className": "page-title-section overlay", "style": divStyle},
-                    h('div', {"className": "container"},
-                      h('div', {"className": "col-md-8"},
-                        h('ul', {"className": "list-inline"},
-                          h('li', {"className": "list-inline-item h2"},
-                            h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")),
-                          h('li', {"className": "list-inline-item h2"},
-                            h("i", {"className": "mdi mdi-chevron-double-right text-white"})),
-                          h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title)
+                  h('section', {className: "page-title-section overlay", style: divStyle},
+                    h('div', {className: "container"},
+                      h('div', {className: "col-md-8"},
+                        h('ul', {className: "list-inline"},
+                          h('li', {className: "list-inline-item h2"},
+                            h('a', {className: "text-primary font-secondary", href: ""}, "Startseite")),
+                          h('li', {className: "list-inline-item h2"},
+                            h("i", {className: "mdi mdi-chevron-double-right text-white"})),
+                          h('li', {className: "list-inline-item text-white h2 font-secondary"}, entry.data.title)
                         ),
-                        h('p', {"className": "text-lighten"}, entry.data.description
+                        h('p', {className: "text-lighten"}, entry.data.description
                         )
                       )
                     )
                   ),
-                  h('section', {"className": "section-sm"},
-                    h('div', {"className": "container"},
-                      h('div', {"className": "row mb-5"},
-                        h('div', {"className": "col-md-6 content"},
+                  h('section', {className: "section-sm"},
+                    h('div', {className: "container"},
+                      h('div', {className: "row mb-5"},
+                        h('div', {className: "col-md-6 content"},
                           widgetFor('body')
                         )
                       ),
-                      h('div', {"className": "row"},
+                      h('div', {className: "row"},
                         widgetsFor('elements').map(function(element, index) {
-                          return h('div', {"className": "col-lg-4 col-sm-6 mb-4"},
-                            h('div', {"className": "card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0"},
-                              h('div', {"className": "card-body"},
-                                h('h4', {"className": "card-title mb-3"},
+                          return h('div', {className: "col-lg-4 col-sm-6 mb-4"},
+                            h('div', {className: "card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0"},
+                              h('div', {className: "card-body"},
+                                h('h4', {className: "card-title mb-3"},
                                   element.data.title
                                 ),
-                                h('div', {"className": "content"},
+                                h('div', {className: "content"},
                                   element.widgets.content
                                 )
                               )
@@ -533,46 +533,47 @@
           backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
         };
         return h('div', {},
-                  h('section', {"className": "page-title-section overlay", "style": divStyle},
-                    h('div', {"className": "row"},
-                      h('div', {"className": "container"},
-                        h('div', {"className": "col-md-8"},
-                          h('ul', {"className": "list-inline"},
-                            h('li', {"className": "list-inline-item h2"},
-                              h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
+                  h('section', {className: "page-title-section overlay", style: divStyle},
+                    h('div', {className: "row"},
+                      h('div', {className: "container"},
+                        h('div', {className: "col-md-8"},
+                          h('ul', {className: "list-inline"},
+                            h('li', {className: "list-inline-item h2"},
+                              h('a', {className: "text-primary font-secondary", href: ""}, "Startseite")
                             ),
-                            h('li', {"className": "list-inline-item h2"},
-                              h("i", {"className": "mdi mdi-chevron-double-right text-white"})
+                            h('li', {className: "list-inline-item h2"},
+                              h("i", {className: "mdi mdi-chevron-double-right text-white"})
                             ),
-                            h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title
+                            h('li', {className: "list-inline-item text-white h2 font-secondary"}, entry.data.title
                             )
                           ),
-                          h('p', {"className": "text-lighten"}, entry.data.description)
+                          h('p', {className: "text-lighten"}, entry.data.description)
                         )
                       )
                     )
                   ),
-                  h('section', {"className": "section"},
-                    h('div', {"className": "container"},
-                      h('div', {"className": "row"},
-                        h('div', {"className": "col-12 "},
-                          h('ul', {"className": "list-unstyled"},
+                  h('section', {className: "section"},
+                    h('div', {className: "container"},
+                      h('div', {className: "row"},
+                        h('div', {className: "col-12 "},
+                          h('ul', {className: "list-unstyled"},
                             widgetsFor('events').map(function(event, index) {
-                              return h('li', {"className": "d-md-table mb-4 w-100 border-bottom hover-shadow"},
-                                h('div', {"className": "d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0 termin-tc"}, event.data.date != null && event.data.date != "" ?
-                                    h('span', {"className": "h2 d-block"}, new Intl.DateTimeFormat('de-De', { day: 'numeric'}).format(new Date(event.data.date))) : "",
-                                    event.data.date != null && event.data.date != "" ? Intl.DateTimeFormat('de-De', { month: 'short', year: 'numeric' }).format(new Date(event.data.date)) : ""
+                              return h('li', {className: "d-md-table mb-4 w-100 border-bottom hover-shadow"},
+                                h('div', {className: "d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0 termin-tc"}, event.data.date != null && event.data.date != "" ?
+                                    h('span', {className: "h2 d-block"}, Intl.DateTimeFormat('de-De', { day: 'numeric'}).format(new Date(event.data.date))) : "",
+                                    h('span', {className: "d-block"}, event.data.date != null && event.data.date != "" ? Intl.DateTimeFormat('de-De', { month: 'short', year: 'numeric' }).format(new Date(event.data.date)) : ""),
+                                    event.data.enddate != null && event.data.enddate != "" ? [h('br'), Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'short', year: 'numeric'}).format(new Date(event.data.date))] : null
                                 ),
-                                h('div', {"className": "d-md-table-cell px-4 vertical-alighn-middle mb-4 mb-md-0"},
-                                  h('p', {"className": "h4 mb-3 d-block"}, event.data.title),
-                                  h('p', {"className": "mb-0"}, event.data.summary)
+                                h('div', {className: "d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0 p-2"},
+                                  h('p', {className: "h4 mb-0 d-block"}, event.data.title)
                                 ),
-                                h('div', {"className": "d-md-table-cell text-right pr-0 pr-md-4"},
+                                event.data.location != null && event.data.location != "" ?
+                                h('div', {className: "d-md-table-cell text-right pr-0 pr-md-4 p-2 vertical-align-middle"},
                                   h('p', {},
-                                    h('i', {"className": "mdi mdi-map-marker-radius-outline icon-s text-primary mr-2"}),
+                                    h('i', {className: "mdi mdi-map-marker-radius-outline icon-s text-primary mr-2"}),
                                     event.data.location
                                   )
-                                )
+                                ) : null
                               );
                             })
                           )
@@ -590,21 +591,21 @@
           backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
         };
         return h('div', {},
-                  h('section', {"className": "page-title-section overlay", "style": divStyle},
-                    h('div', {"className": "row"},
-                      h('div', {"className": "container"},
-                        h('div', {"className": "col-md-8"},
-                          h('ul', {"className": "list-inline"},
-                            h('li', {"className": "list-inline-item h2"},
-                              h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
+                  h('section', {className: "page-title-section overlay", style: divStyle},
+                    h('div', {className: "row"},
+                      h('div', {className: "container"},
+                        h('div', {className: "col-md-8"},
+                          h('ul', {className: "list-inline"},
+                            h('li', {className: "list-inline-item h2"},
+                              h('a', {className: "text-primary font-secondary", href: ""}, "Startseite")
                             ),
-                            h('li', {"className": "list-inline-item h2"},
-                              h("i", {"className": "mdi mdi-chevron-double-right text-white"})
+                            h('li', {className: "list-inline-item h2"},
+                              h("i", {className: "mdi mdi-chevron-double-right text-white"})
                             ),
-                            h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title
+                            h('li', {className: "list-inline-item text-white h2 font-secondary"}, entry.data.title
                             )
                           ),
-                          h('p', {"className": "text-lighten"}, entry.data.description)
+                          h('p', {className: "text-lighten"}, entry.data.description)
                         )
                       )
                     )
@@ -619,7 +620,7 @@
     CMS.registerPreviewTemplate("begabte-index", PagePreview);
     </script>
     <script>
-    var PagePreviewImage = ({ widgetFor, getAsset, entry}) => {
+    var PagePreviewImage = ({ widgetFor, widgetsFor, getAsset, entry }) => {
         const [imageUrl, setImageUrl] = useState('');
         const image = useMemo(() => entry.data.image, [entry.data.image]);
 
@@ -644,33 +645,56 @@
           backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
         };
         return h('div', {},
-                  h('section', {"className": "page-title-section overlay", "style": divStyle},
-                    h('div', {"className": "row"},
-                      h('div', {"className": "container"},
-                        h('div', {"className": "col-md-8"},
-                          h('ul', {"className": "list-inline"},
-                            h('li', {"className": "list-inline-item h2"},
-                              h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
+                  h('section', {className: "page-title-section overlay", style: divStyle},
+                    h('div', {className: "row"},
+                      h('div', {className: "container"},
+                        h('div', {className: "col-md-8"},
+                          h('ul', {className: "list-inline"},
+                            h('li', {className: "list-inline-item h2"},
+                              h('a', {className: "text-primary font-secondary", href: ""}, "Startseite")
                             ),
-                            h('li', {"className": "list-inline-item h2"},
-                              h("i", {"className": "mdi mdi-chevron-double-right text-white"})
+                            h('li', {className: "list-inline-item h2"},
+                              h("i", {className: "mdi mdi-chevron-double-right text-white"})
                             ),
-                            h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title
+                            h('li', {className: "list-inline-item text-white h2 font-secondary"}, entry.data.title
                             )
                           ),
-                          h('p', {"className": "text-lighten"}, entry.data.description
+                          h('p', {className: "text-lighten"}, entry.data.description
                         ))
                       )
                     )
                   ),
-                  h('section', {"className": "section-sm"},
-                    h('div', {"className": "container"},
-                      h('div', {"className": "row"},
-                        h('div', {"className": "col-12 mb-4"},
-                        h('img', {"className": "img-fluid w-100 mb-4", src: imageUrl}),
-                        h('div', {"className": "content"},
+                  h('section', {className: "section-sm"},
+                    h('div', {className: "container"},
+                      h('div', {className: "row"},
+                        h('div', {className: "col-12 mb-4"},
+                          h('img', {className: "img-fluid w-100 mb-4", src: imageUrl}),
+                        ),
+                        h('div', {className: "col-12"},
+                          h('ul', {className: "list-inline"},
+                            h('li', {className: "list-inline-item mr-4 mb-3 mb-md-0 text-light"},
+                              h('span', {className: "font-weight-bold mr-2"}, "Geschrieben von:"),
+                              entry.data.author
+                            ),
+                            h('li', { className: "list-inline-item mr-4 mb-3 mb-md-0 text-light" },
+                              h('span', { className: "font-weight-bold mr-2"}, "Datum:"),
+                              Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'short', year: 'numeric'}).format(new Date(entry.data.date))
+                            ),
+                            h('li', { className: "list-inline-item mr-4 mb-3 mb-md-0 text-light" },
+                              h('span', { className: "font-weight-bold mr-2"}, "Kategorie:"),
+                              widgetFor('categories').props.value.map(function (category, index) {
+                                var text = (index != 0 ? ", " : "") + category;
+                                return text;
+                              })
+                            ),
+                          )
+                        ),
+                        h('div', { className: "col-12 my-4"},
+                          h('div', {className: "border-bottom"})
+                        ),
+                        h('div', {className: "col-12 mb-5 content"},
                           widgetFor('body')
-                        ))
+                        )
                       )
                     )
                   )
@@ -704,44 +728,44 @@
           backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
         };
         return h('div', {},
-                  h('section', {"className": "page-title-section overlay", "style": divStyle},
-                    h('div', {"className": "row"},
-                      h('div', {"className": "container"},
-                        h('div', {"className": "col-md-8"},
-                          h('ul', {"className": "list-inline"},
-                            h('li', {"className": "list-inline-item h2"},
-                              h('a', {"className": "text-primary font-secondary", href: ""}, "Startseite")
+                  h('section', {className: "page-title-section overlay", style: divStyle},
+                    h('div', {className: "row"},
+                      h('div', {className: "container"},
+                        h('div', {className: "col-md-8"},
+                          h('ul', {className: "list-inline"},
+                            h('li', {className: "list-inline-item h2"},
+                              h('a', {className: "text-primary font-secondary", href: ""}, "Startseite")
                             ),
-                            h('li', {"className": "list-inline-item h2"},
-                              h("i", {"className": "mdi mdi-chevron-double-right text-white"})
+                            h('li', {className: "list-inline-item h2"},
+                              h("i", {className: "mdi mdi-chevron-double-right text-white"})
                             ),
-                            h('li', {"className": "list-inline-item text-white h2 font-secondary"}, entry.data.title
+                            h('li', {className: "list-inline-item text-white h2 font-secondary"}, entry.data.title
                             )
                           ),
-                          h('p', {"className": "text-lighten"}, entry.data.description
+                          h('p', {className: "text-lighten"}, entry.data.description
                         ))
                       )
                     )
                   ),
-                  h('section', {"className": "section-sm"},
-                    h('div', {"className": "container"},
-                      h('div', {"className": "row"},
-                        h('div', {"className": "col-12 mb-4"},
-                        h('img', {"className": "img-fluid w-100 mb-4", src: imageUrl}),
+                  h('section', {className: "section-sm"},
+                    h('div', {className: "container"},
+                      h('div', {className: "row"},
+                        h('div', {className: "col-12 mb-4"},
+                        h('img', {className: "img-fluid w-100 mb-4", src: imageUrl}),
                         widgetFor('body'))
                       )
                     )
                   ),
                   entry.data.stats.enable ? h(
                     'section',
-                    {"className": "section-sm bg-primary"},
-                    h('div', {"className": "container"},
-                      h('div', {"className": "row"},
+                    {className: "section-sm bg-primary"},
+                    h('div', {className: "container"},
+                      h('div', {className: "row"},
                         widgetsFor('stats').data.zahlen.map(element => {
-                          return h('div', {"className": "col-md-3 col-sm-6 mb-4 mb-md-0"}, 
-                            h('div', {"className": "text-center"}, 
-                              h('h2', {"className": "count text-white"}, element.count),
-                              h('h5', {"className": "text-white"}, element.name)
+                          return h('div', {className: "col-md-3 col-sm-6 mb-4 mb-md-0"}, 
+                            h('div', {className: "text-center"}, 
+                              h('h2', {className: "count text-white"}, element.count),
+                              h('h5', {className: "text-white"}, element.name)
                             )
                           );
                         })
@@ -789,7 +813,7 @@
                 },
                 entry.data.draft === true ? 'Entwurf' : 'Öffentlich',
               ),
-              h('span', { style: { fontSize: '16px' } }, new Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'numeric', year: 'numeric'}).format(new Date(entry.data.date)))
+              h('span', { style: { fontSize: '16px' } }, Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'numeric', year: 'numeric'}).format(new Date(entry.data.date)))
             ),
           ) : null,
           h(
@@ -850,7 +874,7 @@
                 },
                 entry.data.draft === true ? 'Entwurf' : 'Öffentlich',
               ),
-              h('span', { style: { fontSize: '16px' } }, new Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'numeric', year: 'numeric'}).format(new Date(entry.data.date)))
+              h('span', { style: { fontSize: '16px' } }, Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'numeric', year: 'numeric'}).format(new Date(entry.data.date)))
             ),
           ) : null,
         );

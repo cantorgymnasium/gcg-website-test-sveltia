@@ -471,6 +471,7 @@ collections:
             label_singular: "Termin"
             name: "events"
             widget: "list"
+            collapsed: false
             fields:
               - {label: "Titel", name: "title", widget: "string", required: true}
               - {label: "Datum/Startdatum", name: "date", widget: "datetime",  required: true, date_format: "dd.MM.yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"}
