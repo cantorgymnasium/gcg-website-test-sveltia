@@ -1,33 +1,7 @@
 (function ($) {
   'use strict';
 
-  // Preloader js
-  $(window).on('load', function () {
-    $('.preloader').fadeOut(100);
-    if ($('header').offset().top > 10) {
-      $('.top-header').addClass('hide');
-      $('.navigation').addClass('nav-bg');
-      $('.navigation').css('margin-top','-'+height+'px');
-    } else {
-      $('.top-header').removeClass('hide');
-      if (!$('#top-banner').length) {
-        $('.navigation').removeClass('nav-bg');
-      }
-      $('.navigation').css('margin-top','-'+0+'px');
-    }
-    if ($('#top-banner').length) {
-      $('.navigation').addClass('nav-bg');
-      $('.hero-section').addClass('hs-banner');
-      $('.page-title-section').addClass('pts-banner');
-    } else {
-      $('.navigation').removeClass('nav-bg');
-      $('.hero-section').removeClass('hs-banner');
-      $('.page-title-section').removeClass('pts-banner');
-    }
-  });
-
-  // Sticky Menu
-  $(window).scroll(function () {
+  function adaptHeight () {
     var height = $('.top-header').innerHeight();
     if ($('header').offset().top > 10) {
       $('.top-header').addClass('hide');
@@ -40,9 +14,25 @@
       }
       $('.navigation').css('margin-top','-'+0+'px');
     }
+  }
+
+  // Preloader js
+  $(window).on('load', function () {
+    $('.preloader').fadeOut(100);
+    adaptHeight();
+    if ($('#top-banner').length) {
+      $('.navigation').addClass('nav-bg');
+      $('.hero-section').addClass('hs-banner');
+      $('.page-title-section').addClass('pts-banner');
+    } else {
+      $('.navigation').removeClass('nav-bg');
+      $('.hero-section').removeClass('hs-banner');
+      $('.page-title-section').removeClass('pts-banner');
+    }
   });
 
-
+  // Sticky Menu
+  $(window).scroll(adaptHeight);
 
   // Background-media
   $('[data-background]').each(function () {
@@ -60,8 +50,8 @@
     infinite: true,
     arrows: true,
     fade: true,
-    prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'mdi mdi-chevron-left\'></i></button>',
-    nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'mdi mdi-chevron-right\'></i></button>',
+    prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'mdi mdi-chevron-left arrowIcon\'></i></button>',
+    nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'mdi mdi-chevron-right arrowIcon\'></i></button>',
     dots: true
   });
   $('.hero-slider').slickAnimation();

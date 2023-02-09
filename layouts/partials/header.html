@@ -51,6 +51,9 @@
               <div class="dropdown-menu">
                 {{ range .Children }}
                 <a class="dropdown-item text-uppercase" href="{{ .URL | absLangURL }}" target="{{ if .Params.External }}_blank{{ else }}_self{{end}}">{{ .Name }}</a>
+                {{ if .Params.separator }}
+                  <hr>
+                {{ end }}
                 {{ end }}
               </div>
             </li>
