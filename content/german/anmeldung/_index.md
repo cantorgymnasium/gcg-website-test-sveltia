@@ -6,7 +6,8 @@ description: Hier finden Sie die Informationen zur Aufnahme am Georg-Cantor-Gymn
 elements:
   - title: Anmeldung
     content: >
-      Bis zum **8. Februar 2023** müssen:
+      Bis spätestens drei Werktage nach Ausgabe der Halbjahreszeugnisse
+      müssen:
 
 
       - eine [schriftliche Anmeldung](/forms/anmeldeformular/) oder eine Anmeldung über das [Online-Anmeldeformular](/anmeldeformular)
@@ -17,9 +18,6 @@ elements:
 
 
       am Georg-Cantor-Gymnasium [eingereicht](/kontakt) werden.
-
-
-      Das Sekretariat ist in den Ferien von Montag bis Mittwoch in der Zeit von 8:00 bis 14:00 Uhr besetzt.
 
 
       Gern können Sie uns die Unterlagen per Mail an [aufnahme(at)cantor-gymnasium.de](mailto:aufnahme@cantor-gymnasium.de) zusenden. Die Einladung zur Aufnahmeprüfung mit allen nötigen Informationen erhalten Sie dann ebenfalls per Mail.
@@ -38,8 +36,8 @@ elements:
       Übungsmöglichkeiten für die Aufnahmeprüfung finden Sie [hier](/forms/aufnahmeklausur).
   - title: Ergebnisse
     content: >
-      Bis zum April 2023 werden ihnen die Ergebnisse der Aufnahmeprüfung
-      schriftlich mitgeteilt.
+      Bis April werden ihnen die Ergebnisse der Aufnahmeprüfung schriftlich
+      mitgeteilt.
 ---
 ## Voraussetzungen
 
