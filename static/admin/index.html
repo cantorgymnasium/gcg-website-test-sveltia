@@ -16,6 +16,7 @@
       }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/@staticcms/app@^1.2.7/dist/static-cms-app.js"></script>
+    <script src="https://cantorgymnasium.de/plugins/wordcloud/wordcloud2.min.js"></script>
     <script>
       CMS.init();
       var icons = [['settings', 'mdi mdi-cog-outline'], ['user', 'mdi mdi-fountain-pen-tip'], ['page', 'mdi mdi-file-document-outline'], ['page-add', 'mdi mdi-file-document-plus-outline'], ['document', 'mdi mdi-file-document-multiple-outline'], ['news', 'mdi mdi-newspaper'], ['award', 'mdi mdi-seal-variant'], ['group', 'mdi mdi-crowd'], ['trophy', 'mdi mdi-trophy-outline'], ['pi', 'mdi mdi-pi-box'], ['pillar', 'mdi mdi-pillar'], ['graduation-cap', 'mdi mdi-school-outline'], ['help', 'mdi mdi-lifebuoy'], ['dash', 'mdi mdi-monitor-dashboard'], ['presentation', 'mdi mdi-presentation']];
@@ -342,7 +343,7 @@
       CMS.registerPreviewStyle("https://cantorgymnasium.de/plugins/mdi/css/materialdesignicons.min.css");
       CMS.registerPreviewStyle("https://cantorgymnasium.de/scss/style.css");
     </script>
-    <script>
+    <!--script>
       var ChronikPreview = ({widgetFor, widgetsFor, entry, document, window }) => {
           const divStyle = {
             backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
@@ -404,7 +405,6 @@
                               topics.push([i.data.title, 40, i.data.id]);
                             });
                             var script = document.createElement('script');
-                            script.src = "https://cantorgymnasium.de/plugins/wordcloud/wordcloud2.min.js";
                             var div = document.getElementById('sc-root');
                             div.appendChild(script);
                             WordCloud(
@@ -437,7 +437,7 @@
 
       CMS.registerPreviewTemplate("schulchronik", ChronikPreview);
 
-    </script>
+    </script-->
     <script>
     var PostPreviewContent = ({widgetFor, entry}) => {
         const divStyle = {

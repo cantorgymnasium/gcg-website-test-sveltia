@@ -22,49 +22,15 @@
       </div>
       {{ end }}
         {{ range .Params.topics }}
-          <div id="{{ lower .id }}" class="modal">
-            <!-- Modal content -->
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">{{ .title }}</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <div class="content">
-                  {{ .content | markdownify }}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {{ partial "chronik-modal" (dict "id" (md5 .title) "title" .title "content" .content) }}
         {{ end }}
-        {{ if .Params.pretext }}
-          <div id="pretext" class="modal">
-            <!-- Modal content -->
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">{{ .Params.title }}</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <div class="content">
-                  {{ .Params.pretext | markdownify }}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        {{ if and .Params.pretext (ne .Params.pretext "\n\n\n") }}
+          {{ partial "chronik-modal" (dict "id" "pretext" "title" .Title "content" .Params.pretext) }}
         {{ end }}
         <div id="wc-canvas"></div>
         {{ $topics := slice (slice .Params.Title 100 "pretext") }}
         {{ range .Params.topics }}
-          {{ $topics  = $topics | append (slice (slice .title 40 .id)) }}
+          {{ $topics  = $topics | append (slice (slice .title 40 (md5 .title) )) }}
         {{ end }}
         {{ $topics = $topics | jsonify }}
         <script>
@@ -80,8 +46,8 @@
                 return (weight === 100) ? '#ffbc3b' : '#1a1a37';
               },
               fontFamily: 'Fira Sans, serif',
-              fontWeight: 800,
-              list: JSON.parse({{ $topics }}),
+              fontWeight: 700,
+              list: JSON.parse("{{ $topics }}"),
               shrinkToFit: true,
               gridSize: 25,
               rotateRatio: 0,

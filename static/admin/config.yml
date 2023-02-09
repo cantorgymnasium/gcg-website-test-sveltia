@@ -840,6 +840,8 @@ collections:
     folder: "content/german/schulchronik"
     filter: {field: "type", value: "schulchronik"}
     create: true
+    editor:
+      preview: false
     media_folder: '/static/media/schulchronik'
     public_folder: '/media/schulchronik'
     fields:
@@ -853,7 +855,6 @@ collections:
         widget: "list"
         fields:
           - {label: "Titel", name: "title", widget: "string", required: true}
-          - {label: "Element-ID", hint: "Kleingeschriebene Bezeichnung ohne Leer- und Sonderzeichen, darf sich nicht innerhalb einer Seite doppeln", name: "id", widget: "string", required: true}
           - {label: "Inhalt", name: "content", widget: "markdown", required: true}
         required: false
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
