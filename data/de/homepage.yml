@@ -4,7 +4,7 @@ top_banner:
     ab 17 Uhr!
   color: "#1b57b1"
   font_color: "#ffffff"
-  icon: mdi mdiBookmarkMusicOutline
+  icon: mdi mdi-bookmark-music-outline
   temporarily:
     enable: true
     start_date: 2023-01-24T08:12:06.712+01:00
