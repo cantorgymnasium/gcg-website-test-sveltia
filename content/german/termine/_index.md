@@ -59,7 +59,7 @@ events:
   - enddate: 2022-11-03T23:00:00.000Z
     date: 2022-10-24T13:22:08.641Z
     title: Herbstferien
-    location: nicht in der Schule
+    location: 
   - enddate: ""
     date: 2022-11-08T14:23:14.581Z
     title: Zweite Runde der Internationalen Physikolympiade
@@ -135,7 +135,7 @@ events:
   - enddate: 2023-01-05T06:00:00.000Z
     date: 2022-12-21T14:55:18.525Z
     title: Weihnachtsferien
-    location: nicht in der Schule
+    location: 
   - enddate: 2023-01-20T05:00:00.000Z
     date: 2023-01-16T14:57:43.479Z
     title: Spezialistenlager Mathematik und Physik der Klassen 8 - 11
@@ -147,7 +147,7 @@ events:
   - enddate: 2023-02-03T04:00:00.000Z
     date: 2023-01-27T14:59:49.571Z
     title: Skilager Klasse 11
-    location: " "
+    location: 
   - enddate: 2023-02-03T05:00:00.000Z
     date: 2023-01-30T15:01:48.171Z
     title: Modulkurs Chemie Klasse 11
@@ -163,7 +163,7 @@ events:
   - enddate: 2023-02-11T07:00:00.000Z
     date: 2023-02-06T15:07:19.620Z
     title: Winterferien
-    location: nicht in der Schule
+    location: 
   - enddate: 2023-02-17T04:00:00.000Z
     date: 2023-02-13T15:08:20.930Z
     title: Modulkurs Chemie der 12. Klassen
@@ -256,7 +256,7 @@ events:
   - enddate: 2023-04-08T06:00:00.000Z
     date: 2023-04-03T14:21:05.216Z
     title: Osterferien
-    location: nicht in der Schule
+    location: 
   - enddate: ""
     date: 2023-03-22T15:21:08.979Z
     title: Landeschemieolympiade
@@ -284,7 +284,7 @@ events:
   - enddate: 2023-05-18T22:00:00.000Z
     date: 2023-05-15T14:21:10.514Z
     title: Pfingstferien
-    location: nicht in der Schule
+    location:
   - enddate: ""
     date: 2023-05-23T14:21:10.753Z
     title: Verpflichtende Zentrale Klassenarbeit Deutsch der 6. Klassen
@@ -300,7 +300,7 @@ events:
   - date: 2023-05-30T16:40:01.000+02:00
     enddate: ""
     title: Lehrer-Präventionstag
-    location: " "
+    location: 
   - date: 2023-06-01T16:41:16.000+02:00
     enddate: ""
     title: Sportfest mit Spendenlauf
@@ -308,7 +308,7 @@ events:
   - enddate: 2023-06-09T02:00:00.000Z
     date: 2023-06-05T15:44:26.521Z
     title: Klassenfahrtswochen der Klassen 7 und 10
-    location: nicht in der Schule
+    location: 
   - enddate: 2023-06-16T05:00:00.000Z
     date: 2023-06-13T15:44:26.948Z
     title: Mitteldeutsche Regionalrunde der Chemieolympiade
@@ -336,11 +336,11 @@ events:
   - enddate: 2023-06-30T03:00:00.000Z
     date: 2023-06-27T15:44:28.388Z
     title: Ökopraktikum der 11. Klassen
-    location: " "
+    location: 
   - date: 2023-06-28T16:45:21.000+02:00
     enddate: ""
     title: '"Der Puppenspieler" - Theaterprojekt der Klasse 10'
-    location: " "
+    location: 
   - enddate: ""
     date: 2023-06-29T13:00:28.876Z
     title: Ausgabe der Reifezeugnisse
@@ -352,11 +352,11 @@ events:
   - enddate: ""
     date: 2023-07-03T15:44:29.868Z
     title: Exkursionstag der Klassen 5 und 6
-    location: " "
+    location:
   - enddate: ""
     date: 2023-07-03T15:44:30.356Z
     title: Sozialer Tag der Klassen 7-11
-    location: Georg-Cantor-Gymnasium
+    location: 
   - date: 2023-07-04T16:55:45.000+02:00
     enddate: ""
     title: Mannschaftswettbewerb Chemie Klasse 10
@@ -364,11 +364,11 @@ events:
   - enddate: ""
     date: 2023-07-04T15:44:30.803Z
     title: Exkursionstag der Klassen 7-11
-    location: " "
+    location:
   - enddate: ""
     date: 2023-07-04T15:44:31.329Z
     title: Sozialer Tag der Klassen 5-6
-    location: Georg-Cantor-Gymnasium
+    location: 
   - enddate: ""
     date: 2023-07-05T15:54:47.837Z
     title: Letzter Schultag - Ausgabe der Zeugnisse zum Schuljahresende
@@ -376,5 +376,5 @@ events:
   - enddate: 2023-08-16T04:00:00.000Z
     date: 2023-07-06T15:54:48.476Z
     title: Sommerferien
-    location: nicht in der Schule
+    location:
 ---

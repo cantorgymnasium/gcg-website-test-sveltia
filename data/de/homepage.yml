@@ -17,9 +17,9 @@ slider:
       animation_in: left
       animation_out: right
       button:
-        enable: false
-        label: ""
-        link: ""
+        enable: true
+        label: Über uns
+        link: about
     - content: Schule mit dem Gütesiegel "Begabungsfördernde Schule"
       animation_in: left
       animation_out: right
