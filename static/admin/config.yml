@@ -743,7 +743,8 @@ collections:
     filter: {field: "type", value: "ganztagsangebote"}
     create: true
     editor:
-      preview: false
+     preview: true
+     frame: true
     media_folder: '/static/media/ganztagsangebote'
     public_folder: '/media/ganztagsangebote'
     fields:
@@ -778,7 +779,8 @@ collections:
     filter: {field: "type", value: "wettbewerbe"}
     create: true
     editor:
-      preview: false
+     preview: true
+     frame: true
     media_folder: '/static/media/contests'
     public_folder: '/media/contests'
     fields:
