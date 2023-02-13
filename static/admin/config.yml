@@ -582,18 +582,16 @@ collections:
             name: "icon"
             widget: "select"
             options:
-              - { label: "YouTube", value: "si si-youtube" }
-              - { label: "Twitter", value: "si si-twitter" }
-              - { label: "Pinterest", value: "si si-pinterest" }
-              - { label: "GitHub", value: "si si-github" }
-              - { label: "Gitea", value: "si si-gitea" }
-              - { label: "Git", value: "si si-git" }
-              - { label: "Vimeo", value: "si si-vimeo" }
-              - { label: "Instagram", value: "si si-instagram" }
-              - { label: "Facebook", value: "si si-facebook" }
-              - { label: "Linkedin", value: "si si-linkedin" }
+              - { label: "YouTube", value: "mdi mdi-youtube" }
+              - { label: "Twitter", value: "mdi mdi-twitter" }
+              - { label: "Pinterest", value: "mdi mdi-pinterest" }
+              - { label: "GitHub", value: "mdi mdi-github" }
+              - { label: "Git", value: "mdi mdi-git" }
+              - { label: "Vimeo", value: "mdi mdi-vimeo" }
+              - { label: "Instagram", value: "mdi mdi-instagram" }
+              - { label: "Facebook", value: "mdi mdi-facebook" }
+              - { label: "Linkedin", value: "mid mdi-linkedin" }
               - { label: "E-Mail", value: "mdi mdi-at" }
-              - { label: "TikTok", value: "si si-tiktok" }
               - { label: "Sonstige", value: "mdi mdi-share-variant-outline" }
           - {label: "Link", name: "link", widget: "string"}
       - {label: "Beschreibung", name: "body", widget: "markdown"}
@@ -718,18 +716,16 @@ collections:
             name: "icon"
             widget: "select"
             options:
-              - { label: "YouTube", value: "si si-youtube" }
-              - { label: "Twitter", value: "si si-twitter" }
-              - { label: "Pinterest", value: "si si-pinterest" }
-              - { label: "GitHub", value: "si si-github" }
-              - { label: "Gitea", value: "si si-gitea" }
-              - { label: "Git", value: "si si-git" }
-              - { label: "Vimeo", value: "si si-vimeo" }
-              - { label: "Instagram", value: "si si-instagram" }
-              - { label: "Facebook", value: "si si-facebook" }
-              - { label: "Linkedin", value: "si si-linkedin" }
+              - { label: "YouTube", value: "mdi mdi-youtube" }
+              - { label: "Twitter", value: "mdi mdi-twitter" }
+              - { label: "Pinterest", value: "mdi mdi-pinterest" }
+              - { label: "GitHub", value: "mdi mdi-github" }
+              - { label: "Git", value: "mdi mdi-git" }
+              - { label: "Vimeo", value: "mdi mdi-vimeo" }
+              - { label: "Instagram", value: "mdi mdi-instagram" }
+              - { label: "Facebook", value: "mdi mdi-facebook" }
+              - { label: "Linkedin", value: "mid mdi-linkedin" }
               - { label: "E-Mail", value: "mdi mdi-at" }
-              - { label: "TikTok", value: "si si-tiktok" }
               - { label: "Sonstige", value: "mdi mdi-share-variant-outline" }
           - {label: "Link", name: "link", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}

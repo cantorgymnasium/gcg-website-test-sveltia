@@ -33,7 +33,6 @@ params:
       - plugins/animate/animate.min.css
       - plugins/venobox/venobox.css
       - plugins/mdi/css/materialdesignicons.min.css
-      - plugins/simpleicons/font/simple-icons.min.css
       - plugins/fira/fira.css
     js:
       - plugins/jQuery/jquery.min.js
@@ -43,16 +42,16 @@ params:
       - plugins/filterizr/jquery.filterizr.min.js
   social:
     - title: YouTube
-      icon: si si-youtube
+      icon: mdi mdi-youtube
       link: https://www.youtube.com/@cantornews
     - title: Twitter
-      icon: si si-twitter
+      icon: mdi mdi-twitter
       link: https://twitter.com/cantor_news
     - title: Instagram
-      icon: si si-instagram
+      icon: mdi mdi-instagram
       link: https://instagram.com/cantor.news
     - title: Facebook
-      icon: si si-facebook
+      icon: mdi mdi-facebook
       link: https://facebook.com/cantor.news
   preloader:
     enable: true

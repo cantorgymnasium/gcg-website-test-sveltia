@@ -6,10 +6,10 @@ email: technik@cantor-gymnasium.de
 image: /media/people/gcg.webp
 social:
   - title: YouTube
-    icon: si si-youtube
+    icon: mdi mdi-youtube
     link: https://www.youtube.com/channel/UCFCJdxg2D9RXH0qjZ8MMw1g
   - title: Gitea
-    icon: si si-gitea
+    icon: mdi mdi-gitea
     link: https://git.cantorgymnasium.de/cantortechnik/
   - title: E-Mail
     icon: mdi mdi-at
