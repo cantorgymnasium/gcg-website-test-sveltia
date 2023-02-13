@@ -17,7 +17,6 @@ steps:
       commands:
         - apk add --update --no-cache tzdata
         - /bin/drone-hugo
-        - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -print0 | xargs -0 gzip -9 -f -k
     
     - name: deploy
       image: drillster/drone-rsync
