@@ -1,4 +1,13 @@
+{{ if or (eq .Site.BaseURL "https://dev.cantorgymnasium.de/") (eq .Site.BaseURL "https://test.cantorgymnasium.de/") }}
+
+User-agent: *
+Disallow: /
+
+{{ else }}
+
 User-agent: *
 Disallow: /admin/
 
 Sitemap: https://cantorgymnasium.de/sitemap.xml
+
+{{ end }}
