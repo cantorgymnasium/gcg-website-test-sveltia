@@ -1,8 +1,8 @@
 top_banner:
   enable: true
-  text: Wir laden zum literarisch-musikalischen Abend am Mittwoch, den 22.02.2023
-    ab 17 Uhr! <br>Zudem eröffnen wir zuvor feierlich ab 16:30 Uhr unsere
-    Galerie Cantorart.
+  text: <br>Wir laden zum literarisch-musikalischen Abend am Mittwoch, den
+    22.02.2023 ab 17 Uhr! <br>Zudem eröffnen wir zuvor feierlich ab 16:30 Uhr
+    unsere Galerie Cantorart.
   color: "#1b57b1"
   font_color: "#ffffff"
   icon: mdi mdi-bookmark-music-outline mdi-24px
