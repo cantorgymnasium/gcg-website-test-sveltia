@@ -29,6 +29,10 @@ Als Auftakt unserer Festwoche wurde unsere Galerie _Cantorart_ eröffnet. Es ist
 
 Im Folgenden haben wir eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung zusammengestellt:
 
+
+
+
+
 ## Musikalisch-literarischer Abend
 
 Auf die Galerie-Eröffnung folgte sofort das nächte Highlight: Unser musikalisch-literarischer Abend. Hierbei konnten unsere Schülerinnen und Schüler nach 3 Jahren Corona-Zwangspause endlich wieder ihre schauspielerischen, sprachlichen und musikalischen Talente zur Schau stellen.
@@ -36,6 +40,8 @@ Auf die Galerie-Eröffnung folgte sofort das nächte Highlight: Unser musikalisc
 Wir erlebten selbstverfasste Lyrik, Filmmusik, Theatersketche, Chorgesang der Musikkurse der Oberstufe, unsere Schulband und eine Premiere des selbstgeschriebenen Krimis unserer Oberstufentheater-AG. Es füllte sich ein 2,5 Stunden langer Abend der Extraklasse.
 
 Vielen Dank an unsere beiden Moderatoren Clara und Pascal aus der 11. Klasse, welche mit Bravur durch den Abend führten. Auch wäre der Abend ohne unsere Musiklehrerinnen und -lehrer und die Zuarbeit der Deutschlehrkräfte nicht möglich gewesen. 
+
+Für das leibliche Wohl sorgten unsere 12. Klassen für ein umfangreiches 
 
 ## Projektwoche
 
@@ -47,18 +53,14 @@ Hier folgen einige Eindrücke vom Präsentationstag, an welchem die Schülerinne
 
 ## Cantorpreis 2023
 
-
-
-
-
 ## Cantor-Tag
 
-Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den traditionellen Cantor-Tag. 
+Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den traditionellen Cantor-Tag.
 
 - Unsere 5. und 6. Klassen wurden zum sicheren Verhalten im Straßenverkehr von der Verkehrswacht geschult und bearbeiteten einen Workshop zu Fabeln.
-- Die 7. Klassenstufe durchliefen die Stationen des Body+Grips-Mobil. 
+- Die 7. Klassenstufe durchliefen die Stationen des Body+Grips-Mobil.
 - Zum Techniktag besuchten die 8. Klassen verschiedene Unternehmen in Halle. Dabei waren die EVH, Papenburg, DELL, Kleusberg GmbH, Sonotec, ECH, Burg Giebichenstein, GAMPT, ELH, Jungheinrich und MinAscent.
-- Alle Neuntklässler besuchten zu Beginn des Tages wie Zwischenpräsentationen der wissenschaftlich-praktischen Arbeiten der 10. Klassenstufe und erhielt danach Möglichkeiten des Einblicks in 
+- Alle Neuntklässler besuchten zu Beginn des Tages wie Zwischenpräsentationen der wissenschaftlich-praktischen Arbeiten der 10. Klassenstufe und erhielt danach Möglichkeiten des Einblicks in
 
 
 
