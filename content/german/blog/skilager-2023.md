@@ -16,7 +16,7 @@ gallery: true
 ---
 #### Endlich wieder Skilager im Cantor-Gymnasium
 
-Die 15 schnellsten Skifahrer (nicht auf der Piste, sondern beim Anmelden) fuhren vom 27.1. bis 03.02.2023 nach Italien.
+Die 15 schnellsten Skifahrer (nicht auf der Piste, sondern beim Anmelden) fuhren vom 27.01. bis 03.02.2023 nach Italien.
 
 Nach einer ungewöhnlichen, aber trotzdem gemütlichen Anreise mit IC, EC und
 Regionalbahn war diese alte Seilbahn das letzte Verkehrsmittel, was uns
