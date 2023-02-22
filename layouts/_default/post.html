@@ -2,7 +2,7 @@
   <img class="card-img-top rounded-0" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
   <div class="card-body">
     <ul class="list-inline mb-3">
-      <li class="list-inline-item mr-3 ml-0"><i class="mdi mdi-calendar-today"></i> {{ time.Format "02 Jan 2006" .PublishDate }}</li>
+      <li class="list-inline-item mr-3 ml-0"><i class="mdi mdi-calendar-today"></i> {{ time.Format "02. Jan 2006" .PublishDate }}</li>
       <li class="list-inline-item mr-3 ml-0"><i class="mdi mdi-fountain-pen-tip"></i> <a
         href="{{ `author` | relLangURL }}/{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></li>
     </ul>
