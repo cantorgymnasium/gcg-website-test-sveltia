@@ -23,4 +23,26 @@ tags:
 type: post
 gallery: true
 ---
-//test
+## Galerie Cantorart
+
+Als Auftakt unserer Festwoche wurde unsere Galerie _Cantorart_ eröffnet. Es ist wieder eine beeindruckende Sammlung der künstlerischen Talente unserer Schule entstanden. Ein Dank geht an unserere Kunstlehrerinnen, welche in ihren Freistunden und an vielen Nachmittagen die Austellung arrangiert haben.  
+
+Im Folgenden haben wir eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung zusammengestellt:
+
+
+
+
+
+## Musikalisch-literarischer Abend
+
+Auf die Galerie-Eröffnung folgte sofort das nächte Highlight: 
+
+## Projektwoche
+
+## Cantorpreis 2023
+
+## Cantor-Tag
+
+
+
+
