@@ -23,13 +23,17 @@ tags:
 type: post
 gallery: true
 ---
-## Galerie Cantorart
+## “Ihr macht hier so coole Dinge"
+
+_Eine Schulpraktikantin im Februar 2022 über die Festwoche._
+
+### Galerie Cantorart
 
 Als Auftakt unserer Festwoche wurde unsere Galerie _Cantorart_ eröffnet. Es ist wieder eine beeindruckende Sammlung der künstlerischen Talente unserer Schule entstanden. Ein Dank geht an unserere Kunstlehrerinnen, welche in ihren Freistunden und an vielen Nachmittagen die Austellung arrangiert haben.
 
 Im Folgenden haben wir eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung zusammengestellt:
 
-## Musikalisch-literarischer Abend
+### Musikalisch-literarischer Abend
 
 Auf die Galerie-Eröffnung folgte sofort das nächte Highlight: Unser musikalisch-literarischer Abend. Hierbei konnten unsere Schülerinnen und Schüler nach 3 Jahren Corona-Zwangspause endlich wieder ihre schauspielerischen, sprachlichen und musikalischen Talente zur Schau stellen.
 
@@ -39,7 +43,7 @@ Vielen Dank an unsere beiden Moderatoren Clara und Pascal aus der 11. Klasse, we
 
 Für das leibliche Wohl sorgten unsere 12. Klassen mit einem umfangreichen Buffet.
 
-## Projektwoche
+### Projektwoche
 
 Vom 27. Februar bis 2. März 2023 gestalten wir gemeinsam die Projektwoche unter dem Motto: ""
 
@@ -49,16 +53,16 @@ Hier folgen einige Eindrücke vom Präsentationstag, an welchem die Schülerinne
 
 Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. Klassen schrieben am Montag, Mittwoch und Freitag Vorabis, die 11. waren überwiegend in den Modulkursen Physik und Biologie an der Uni Halle oder unterstützten Projektgruppen in ihrer Arbeit.
 
-## Cantorpreis 2023
+### Cantorpreis 2023
 
-## Cantor-Tag
+### Cantor-Tag
 
 Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den traditionellen Cantor-Tag.
 
 - Unsere 5. und 6. Klassen wurden zum sicheren Verhalten im Straßenverkehr von der Verkehrswacht geschult und bearbeiteten einen Workshop zu Fabeln.
 - Die 7. Klassenstufe durchliefen die Stationen des Body+Grips-Mobil.
 - Zum Techniktag besuchten die 8. Klassen verschiedene Unternehmen in Halle. Dabei waren die EVH, Papenburg, DELL, Kleusberg GmbH, Sonotec, ECH, Burg Giebichenstein, GAMPT, ELH, Jungheinrich und MinAscent.
-- Alle Neuntklässler besuchten zu Beginn des Tages die Zwischenpräsentationen der wissenschaftlich-praktischen Arbeiten der 10. Klassenstufe und erhielt danach Möglichkeiten des Einblicks in verschiedene Institute der Martin-Luther-Universität. 
+- Alle Neuntklässler besuchten zu Beginn des Tages die Zwischenpräsentationen der wissenschaftlich-praktischen Arbeiten der 10. Klassenstufe und erhielt danach Möglichkeiten des Einblicks in verschiedene Institute der Martin-Luther-Universität.
 - Die 10. Klassen präsentierten ihren Fortschritt bei den wpAs und erlebten das Heine-Programm in unserer Aula.
 - Die 11er, welche nicht in einem der Modulkurse waren, begleiteten das Body+Grips-Programm.
 
