@@ -9,6 +9,9 @@ author: Herr Berger
 categories:
   - Veranstaltungen
   - Traditionen
+  - Deutsch
+  - Kunst
+  - Musik
 type: post
 gallery: false
 ---
