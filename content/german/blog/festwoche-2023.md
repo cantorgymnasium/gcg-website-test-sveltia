@@ -12,6 +12,14 @@ categories:
   - Deutsch
   - Kunst
   - Musik
+tags:
+  - CantorArt
+  - Galerie
+  - MuLi
+  - Festwoche
+  - Projektwoche
+  - Cantor-Tag
+  - Cantorpreis
 type: post
 gallery: true
 ---
