@@ -13,6 +13,6 @@ categories:
   - Kunst
   - Musik
 type: post
-gallery: false
+gallery: true
 ---
 //test
