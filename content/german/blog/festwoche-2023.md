@@ -36,23 +36,31 @@ Ein Dank geht an unserere Kunstlehrerinnen, welche in ihren Freistunden und an v
 
 Es folgt eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung. Durch den großen Umfang der Galerie können leider nicht alle Werke präsentiert werden.
 
-{{< gallery dir="/static/media/blog/Festwoche23/Galerie_2023" />}}
+
+
+{{< gallery dir="/static/media/blog/Festwochen/Festwoche23/Galerie_2023" />}}
+
+
 
 ### Musikalisch-literarischer Abend
 
 Auf die Galerie-Eröffnung folgte sofort das nächte Highlight: Unser musikalisch-literarischer Abend. Hierbei konnten unsere Schülerinnen und Schüler nach 3 Jahren Corona-Zwangspause endlich wieder ihre schauspielerischen, sprachlichen und musikalischen Talente zur Schau stellen. Es füllte sich ein fast drei Stunden langer Abend der Extraklasse. Die Darbietungen waren so zahlreich, dass wir hier gar nicht alle aufführen können. Trotzdem soll bereits hier allen Mitwirkenden gedankt werden.
 
-Emma aus der 10. Klasse präsenierte zu Beginn ihren selbst verfassten englischen Poetry Slam “Just the woman I am”. Clara und Theresa (Kl. 9) überzeugten mit perfektionierten Musical-Bühnengesang. Zoe aus der 8. rezitierte uns Goethes Prometheus. Thadeus (Kl. 10) spielte Nightbook auf unserem Flügel. Schülerinnen und Schüler der 9. Klasse boten uns Aschenputtel reloaded. Auch unsere Schulband zeigte am Abend mehrfach ihr Können. 
+Emma aus der 10. Klasse präsenierte zu Beginn ihren selbst verfassten englischen Poetry Slam “Just the woman I am”. Clara und Theresa (Kl. 9) überzeugten mit perfektionierten Musical-Bühnengesang. Zoe aus der 8. rezitierte uns Goethes Prometheus. Thadeus (Kl. 10) spielte Nightbook auf unserem Flügel. Schülerinnen und Schüler der 9. Klasse boten uns Aschenputtel reloaded. Auch unsere Schulband zeigte am Abend mehrfach ihr Können.
 
-Die Theater-AG operierte u.a. am Küchentisch und kümmerte sich um die Aufklärung eines Mordes in einer Schokoladenfabrik. Letztere Szene stammt aus ihrem neuen selbstverfassten Stück, welches am 22. Juni uraufgeführt werden soll. 
+Die Theater-AG operierte u.a. am Küchentisch und kümmerte sich um die Aufklärung eines Mordes in einer Schokoladenfabrik. Letztere Szene stammt aus ihrem neuen selbstverfassten Stück, welches am 22. Juni uraufgeführt werden soll.
 
-Emelie aus unseren 11. sang Am Tag, als Conny Kramer starb solo. Mehrere Schülerinnen und Schüler der 10. und 11. Klassen rezitierten Gedichte über ihre eigenen Persönlichkeiten, welche zusammen mit Fotos teil unserer Galerie sind. Chiamaka (11. Klasse) überzeugt nicht nur am Flügel, sondern auch in ihrem Schauspiel als Faust zusammen mit Maya als Mephisto. Der Musikkurs von Frau Bethin performte u.a. Roling in the Deep von Adele. 
+Emelie aus unseren 11. sang Am Tag, als Conny Kramer starb solo. Mehrere Schülerinnen und Schüler der 10. und 11. Klassen rezitierten Gedichte über ihre eigenen Persönlichkeiten, welche zusammen mit Fotos teil unserer Galerie sind. Chiamaka (11. Klasse) überzeugt nicht nur am Flügel, sondern auch in ihrem Schauspiel als Faust zusammen mit Maya als Mephisto. Der Musikkurs von Frau Bethin performte u.a. Roling in the Deep von Adele.
 
 Vielen Dank an unsere beiden Moderatoren Clara und Pascal aus der 11. Klasse, welche mit Bravur durch den Abend führten. Auch wäre der Abend ohne unsere Musiklehrerinnen und -lehrer und die Zuarbeit der Deutschlehrkräfte nicht möglich gewesen.
 
 Für das leibliche Wohl sorgten unsere 12. Klassen mit einem umfangreichen Buffet.
 
-{{< gallery dir="/static/media/blog/Festwoche23/Muli23" />}}
+
+
+{{< gallery dir="/static/media/blog/Festwochen/Festwoche23/Muli23" />}}
+
+
 
 ### Projektwoche
 
@@ -62,13 +70,21 @@ Unsere Projektgruppen stellen sich im eigenen Websitebereich Unterricht > Projek
 
 Hier folgen einige Eindrücke vom Präsentationstag, an welchem die Schülerinnen und Schüler bei den anderen Projektgruppen vorbeischauen konnten:
 
-{{< gallery dir="/static/media/blog/Festwoche23/Projektwoche23" />}}
+
+
+{{< gallery dir="/static/media/blog/Festwochen/Festwoche23/Projektwoche23" />}}
+
+
 
 Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. Klassen schrieben am Montag, Mittwoch und Freitag Vorabis, die 11. waren überwiegend in den Modulkursen Physik und Biologie an der Uni Halle oder unterstützten Projektgruppen in ihrer Arbeit.
 
 ### Cantorpreis 2023
 
-{{< gallery dir="/static/media/blog/Festwoche23/Cantorpreistraeger" />}}
+
+
+{{< gallery dir="/static/media/blog/Festwochen/Festwoche23/Cantorpreistraeger" />}}
+
+
 
 ### Cantor-Tag
 
@@ -81,4 +97,8 @@ Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den tradi
 - Die 10. Klassen präsentierten ihren Fortschritt bei den wpAs und erlebten das Heine-Programm in unserer Aula.
 - Die 11er, welche nicht in einem der Modulkurse waren, begleiteten das Body+Grips-Programm.
 
-{{< gallery dir="/static/media/blog/Festwoche23/Cantortag23" />}}
+
+
+{{< gallery dir="/static/media/blog/Festwochen/Festwoche23/Cantortag23" />}}
+
+
