@@ -38,7 +38,7 @@ Es folgt eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung. D
 
 
 
-{{< gallery dir="/static/media/blog/Festwochen/Festwoche23/Galerie_2023" />}}
+{{< gallery dir="/media/blog/Festwochen/Festwoche23/Galerie_2023" />}}
 
 
 
@@ -58,7 +58,7 @@ Für das leibliche Wohl sorgten unsere 12. Klassen mit einem umfangreichen Buffe
 
 
 
-{{< gallery dir="/static/media/blog/Festwochen/Festwoche23/Muli23" />}}
+{{< gallery dir="/media/blog/Festwochen/Festwoche23/Muli23" />}}
 
 
 
@@ -72,7 +72,7 @@ Hier folgen einige Eindrücke vom Präsentationstag, an welchem die Schülerinne
 
 
 
-{{< gallery dir="/static/media/blog/Festwochen/Festwoche23/Projektwoche23" />}}
+{{< gallery dir="/media/blog/Festwochen/Festwoche23/Projektwoche23" />}}
 
 
 
@@ -82,7 +82,7 @@ Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. 
 
 
 
-{{< gallery dir="/static/media/blog/Festwochen/Festwoche23/Cantorpreistraeger" />}}
+{{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantorpreistraeger" />}}
 
 
 
@@ -99,6 +99,6 @@ Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den tradi
 
 
 
-{{< gallery dir="/static/media/blog/Festwochen/Festwoche23/Cantortag23" />}}
+{{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantortag23" />}}
 
 
