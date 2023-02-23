@@ -9,7 +9,7 @@ author: Erik Zschoche
 categories:
   - Naturwissenschaften
 type: post
-gallery: false
+gallery: true
 ---
 Jedes Jahr findet die Chemie Modulwoche in Kooperation mit der Hochschule Merseburg statt. Uns, den Schülern der Oberstufe, wird die Möglichkeit geboten, sich praktisch mit dem Fachgebiet der Chemie zu befassen und neues, weitreichendes Wissen, in weiterführenden Bereichen dieser Wissenschaft, zu erlangen. 
 
