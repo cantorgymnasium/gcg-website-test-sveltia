@@ -30,19 +30,23 @@ _Eine Schulpraktikantin im Februar 2023 über die Kultur- und Wissenschaftstage 
 
 ### Galerie Cantorart
 
-Als Auftakt unserer Festwoche wurde unsere Galerie _Cantorart_ eröffnet. Es ist wieder eine beeindruckende Sammlung der künstlerischen Talente unserer Schule entstanden. Calvin und Tarek aus der 11. Klasse umrahmten die Eröffnung mit Kontrabass und E-Gitarre. Darauf folgte die Eröffnungsrede unseres Schulleiters für gesamten Kultur- und Wissenschaftstage. 
+Als Auftakt unserer Festwoche wurde unsere Galerie _Cantorart_ eröffnet. Es ist wieder eine beeindruckende Sammlung der künstlerischen Talente unserer Schule entstanden. Calvin und Tarek aus der 11. Klasse umrahmten die Eröffnung mit Kontrabass und E-Gitarre. Darauf folgte die Eröffnungsrede unseres Schulleiters für gesamten Kultur- und Wissenschaftstage.
 
 Ein Dank geht an unserere Kunstlehrerinnen, welche in ihren Freistunden und an vielen Nachmittagen die Austellung arrangiert haben.
 
-Es folgt eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung. Durch den großen Umfang der Galerie können leider nicht alle Werke präsentiert werden. 
+Es folgt eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung. Durch den großen Umfang der Galerie können leider nicht alle Werke präsentiert werden.
 
 {{< gallery dir="/static/media/blog/Festwoche23/Galerie_2023" />}}
 
 ### Musikalisch-literarischer Abend
 
-Auf die Galerie-Eröffnung folgte sofort das nächte Highlight: Unser musikalisch-literarischer Abend. Hierbei konnten unsere Schülerinnen und Schüler nach 3 Jahren Corona-Zwangspause endlich wieder ihre schauspielerischen, sprachlichen und musikalischen Talente zur Schau stellen.
+Auf die Galerie-Eröffnung folgte sofort das nächte Highlight: Unser musikalisch-literarischer Abend. Hierbei konnten unsere Schülerinnen und Schüler nach 3 Jahren Corona-Zwangspause endlich wieder ihre schauspielerischen, sprachlichen und musikalischen Talente zur Schau stellen. Es füllte sich ein fast drei Stunden langer Abend der Extraklasse. Die Darbietungen waren so zahlreich, dass wir hier gar nicht alle aufführen können. Trotzdem soll bereits hier allen Mitwirkenden gedankt werden.
 
-Wir erlebten selbstverfasste Lyrik, Filmmusik, Theatersketche, Chorgesang der Musikkurse der Oberstufe, unsere Schulband und eine Premiere des selbstgeschriebenen Krimis unserer Oberstufentheater-AG. Es füllte sich ein 2,5 Stunden langer Abend der Extraklasse.
+Emma aus der 10. Klasse präsenierte zu Beginn ihren selbst verfassten englischen Poetry Slam “Just the woman I am”. Clara und Theresa (Kl. 9) überzeugten mit perfektionierten Musical-Bühnengesang. Zoe aus der 8. rezitierte uns Goethes Prometheus. Thadeus (Kl. 10) spielte Nightbook auf unserem Flügel. Schülerinnen und Schüler der 9. Klasse boten uns Aschenputtel reloaded. Auch unsere Schulband zeigte am Abend mehrfach ihr Können. 
+
+Die Theater-AG operierte u.a. am Küchentisch und kümmerte sich um die Aufklärung eines Mordes in einer Schokoladenfabrik. Letztere Szene stammt aus ihrem neuen selbstverfassten Stück, welches am 22. Juni uraufgeführt werden soll. 
+
+Emelie aus unseren 11. sang Am Tag, als Conny Kramer starb solo. Mehrere Schülerinnen und Schüler der 10. und 11. Klassen rezitierten Gedichte über ihre eigenen Persönlichkeiten, welche zusammen mit Fotos teil unserer Galerie sind. Chiamaka (11. Klasse) überzeugt nicht nur am Flügel, sondern auch in ihrem Schauspiel als Faust zusammen mit Maya als Mephisto. Der Musikkurs von Frau Bethin performte u.a. Roling in the Deep von Adele. 
 
 Vielen Dank an unsere beiden Moderatoren Clara und Pascal aus der 11. Klasse, welche mit Bravur durch den Abend führten. Auch wäre der Abend ohne unsere Musiklehrerinnen und -lehrer und die Zuarbeit der Deutschlehrkräfte nicht möglich gewesen.
 
