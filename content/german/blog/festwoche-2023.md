@@ -30,15 +30,13 @@ _Eine Schulpraktikantin im Februar 2023 über die Kultur- und Wissenschaftstage 
 
 ### Galerie Cantorart
 
-Als Auftakt unserer Festwoche wurde unsere Galerie _Cantorart_ eröffnet. Es ist wieder eine beeindruckende Sammlung der künstlerischen Talente unserer Schule entstanden. Ein Dank geht an unserere Kunstlehrerinnen, welche in ihren Freistunden und an vielen Nachmittagen die Austellung arrangiert haben.
+Als Auftakt unserer Festwoche wurde unsere Galerie _Cantorart_ eröffnet. Es ist wieder eine beeindruckende Sammlung der künstlerischen Talente unserer Schule entstanden. Calvin und Tarek aus der 11. Klasse umrahmten die Eröffnung mit Kontrabass und E-Gitarre. Darauf folgte die Eröffnungsrede unseres Schulleiters für gesamten Kultur- und Wissenschaftstage. 
 
-Im Folgenden haben wir eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung zusammengestellt:
+Ein Dank geht an unserere Kunstlehrerinnen, welche in ihren Freistunden und an vielen Nachmittagen die Austellung arrangiert haben.
 
-
+Es folgt eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung. Durch den großen Umfang der Galerie können leider nicht alle Werke präsentiert werden. 
 
 {{< gallery dir="/static/media/blog/Festwoche23/Galerie_2023" />}}
-
-
 
 ### Musikalisch-literarischer Abend
 
@@ -50,11 +48,7 @@ Vielen Dank an unsere beiden Moderatoren Clara und Pascal aus der 11. Klasse, we
 
 Für das leibliche Wohl sorgten unsere 12. Klassen mit einem umfangreichen Buffet.
 
-
-
 {{< gallery dir="/static/media/blog/Festwoche23/Muli23" />}}
-
-
 
 ### Projektwoche
 
@@ -64,21 +58,13 @@ Unsere Projektgruppen stellen sich im eigenen Websitebereich Unterricht > Projek
 
 Hier folgen einige Eindrücke vom Präsentationstag, an welchem die Schülerinnen und Schüler bei den anderen Projektgruppen vorbeischauen konnten:
 
-
-
 {{< gallery dir="/static/media/blog/Festwoche23/Projektwoche23" />}}
-
-
 
 Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. Klassen schrieben am Montag, Mittwoch und Freitag Vorabis, die 11. waren überwiegend in den Modulkursen Physik und Biologie an der Uni Halle oder unterstützten Projektgruppen in ihrer Arbeit.
 
 ### Cantorpreis 2023
 
-
-
 {{< gallery dir="/static/media/blog/Festwoche23/Cantorpreistraeger" />}}
-
-
 
 ### Cantor-Tag
 
@@ -91,8 +77,4 @@ Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den tradi
 - Die 10. Klassen präsentierten ihren Fortschritt bei den wpAs und erlebten das Heine-Programm in unserer Aula.
 - Die 11er, welche nicht in einem der Modulkurse waren, begleiteten das Body+Grips-Programm.
 
-
-
 {{< gallery dir="/static/media/blog/Festwoche23/Cantortag23" />}}
-
-
