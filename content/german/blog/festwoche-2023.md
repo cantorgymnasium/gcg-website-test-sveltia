@@ -12,6 +12,7 @@ categories:
   - Deutsch
   - Kunst
   - Musik
+  - Sonstiges
 tags:
   - CantorArt
   - Galerie
@@ -25,7 +26,7 @@ gallery: true
 ---
 ## “Ihr macht hier so coole Dinge"
 
-_Eine Schulpraktikantin im Februar 2023 über die Kultur- und Wissenschaftstage in Festwoche._
+_Eine Schulpraktikantin im Februar 2023 über die Kultur- und Wissenschaftstage in der Festwoche._
 
 ### Galerie Cantorart
 
@@ -35,7 +36,7 @@ Im Folgenden haben wir eine kleine Auswahl an Impressionen der Galerie und ihrer
 
 
 
-{{< gallery dir="/static/media/blog/Galerie_2023" />}}
+{{< gallery dir="/static/media/blog/Festwoche23/Galerie_2023" />}}
 
 
 
@@ -51,7 +52,7 @@ Für das leibliche Wohl sorgten unsere 12. Klassen mit einem umfangreichen Buffe
 
 
 
-{{< gallery dir="/static/media/blog/Muli23" />}}
+{{< gallery dir="/static/media/blog/Festwoche23/Muli23" />}}
 
 
 
@@ -65,7 +66,7 @@ Hier folgen einige Eindrücke vom Präsentationstag, an welchem die Schülerinne
 
 
 
-{{< gallery dir="/static/media/blog/Projektwoche23" />}}
+{{< gallery dir="/static/media/blog/Festwoche23/Projektwoche23" />}}
 
 
 
@@ -75,7 +76,7 @@ Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. 
 
 
 
-{{< gallery dir="/static/media/blog/Cantorpreis2023" />}}
+{{< gallery dir="/static/media/blog/Festwoche23/Cantorpreistraeger" />}}
 
 
 
@@ -92,10 +93,6 @@ Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den tradi
 
 
 
-{{< gallery dir="/static/media/blog/Cantortag23" />}}
-
-
-
-
+{{< gallery dir="/static/media/blog/Festwoche23/Cantortag23" />}}
 
 
