@@ -622,8 +622,8 @@
                               entry.data.author
                             ),
                             h('li', { className: "list-inline-item mr-4 mb-3 mb-md-0 text-light" },
-                              h('span', { className: "font-weight-bold mr-2"}, "Datum:"),
-                              Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'short', year: 'numeric'}).format(new Date(entry.data.date))
+                              h('span', { className: "font-weight-bold mr-2"}, "Datum:"), entry.data.date ?
+                              Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'short', year: 'numeric'}).format(new Date(entry.data.date)) : ""
                             ),
                             h('li', { className: "list-inline-item mr-4 mb-3 mb-md-0 text-light" },
                               h('span', { className: "font-weight-bold mr-2"}, "Kategorie:"),
