@@ -25,7 +25,7 @@ gallery: true
 ---
 ## “Ihr macht hier so coole Dinge"
 
-_Eine Schulpraktikantin im Februar 2022 über die Festwoche._
+_Eine Schulpraktikantin im Februar 2023 über die Kultur- und Wissenschaftstage in Festwoche._
 
 ### Galerie Cantorart
 
