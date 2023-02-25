@@ -74,11 +74,11 @@ Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. 
 
 Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den traditionellen Cantor-Tag.
 
-- Unsere 5. und 6. Klassen wurden zum sicheren Verhalten im Straßenverkehr von der Verkehrswacht geschult und bearbeiteten einen Workshop zu Fabeln.
-- Die 7. Klassenstufe durchliefen die Stationen des Body+Grips-Mobil.
+- Unsere 5. und 6. Klassen wurden zum sicheren Verhalten im Straßenverkehr von der Verkehrswacht geschult und erlebten das Fabelprogramm “Die Löwenzahnhochzeit”.
+- Die 7. Klassenstufe durchliefen die Stationen des Body+Grips-Mobils. Dafür konnten sie Räumlichkeiten im Künstlerhaus 188 nutzen.
 - Zum Techniktag besuchten die 8. Klassen verschiedene Unternehmen in Halle. Dabei waren die EVH, Papenburg, DELL, Kleusberg GmbH, Sonotec, ECH, Burg Giebichenstein, GAMPT, ELH, Jungheinrich und MinAscent.
 - Alle Neuntklässler besuchten zu Beginn des Tages die Zwischenpräsentationen der wissenschaftlich-praktischen Arbeiten der 10. Klassenstufe und erhielt danach Möglichkeiten des Einblicks in verschiedene Institute der Martin-Luther-Universität.
-- Die 10. Klassen präsentierten ihren Fortschritt bei den wpAs und erlebten das Heine-Programm in unserer Aula.
+- Die 10. Klassen präsentierten ihren Fortschritt bei den wpAs und erlebten das musikalisch-literarische Heine-Programm des Künstlerduos “Rose & Georgi” in unserer Aula.
 - Die 11er, welche nicht in einem der Modulkurse waren, begleiteten das Body+Grips-Programm.
 
 {{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantortag23" />}}
