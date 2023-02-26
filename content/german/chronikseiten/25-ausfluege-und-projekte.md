@@ -1,12 +1,14 @@
 ---
-title: "25 Jahre Georg-Cantor-Gymnasium Halle (Saale)"
+title: 25 Jahre Georg-Cantor-Gymnasium Halle (Saale)
 draft: false
-bg_image: "media/backgrounds/page-title.webp"
-type: "pages"
-layout: "single.html"
+bg_image: media/backgrounds/page-title.webp
+type: pages
+layout: single.html
+gallery: false
+aliases:
+  - /schulchronik/pages/25-ausfluege-und-projekte
 ---
-
->Freitag, 27.09.2013
+> Freitag, 27.09.2013
 
 ## Ablaufplan
 
@@ -21,16 +23,10 @@ wird es in der Aula ein kleines Programm geben, das sich wiederholt. In Abhängi
 Programm innerhalb dieser Veranstaltung:
 
 - Grußwort des Schulleiters
-
 - Modenschau „25 Jahre“
-
 - Siegerbeitrag Bundeswettbewerb Fremdsprachen „Händel or Handel“ (Kl.7)
-
 - Ausstellung „Jugend forscht“
-
 - Ausstellung „25 Jahre Zeit-, Kultur- und Schulgeschichte“ + Quiz
-
 - Technikausstellung 25 Jahre + „Bekanntes und Antiquarisches aus dem Bereich Technik und Kommunikation“ + Quiz ( R 106)
-
 
 **09.00 Uhr Eröffnung der Galerie „CantorArt“**

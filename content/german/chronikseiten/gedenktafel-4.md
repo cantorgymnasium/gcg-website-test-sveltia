@@ -1,9 +1,12 @@
 ---
-title: "Rede zur feierlichen Enthüllung der neuen Gedenktafel für J.F. Struensee"
+title: Rede zur feierlichen Enthüllung der neuen Gedenktafel für J.F. Struensee
 draft: false
-bg_image: "media/backgrounds/page-title.webp"
-type: "pages"
-layout: "single.html"
+bg_image: media/backgrounds/page-title.webp
+type: pages
+layout: single.html
+gallery: false
+aliases:
+  - /schulchronik/pages/gedenktafel-4
 ---
 
 Johann Friedrich Struensee wurde am 5. August 1737 hier in Halle im Pfarrhaus der Moritzkirche geboren. Er besuchte die Latina und machte an der Universität 1757 den Doktor der Medizin.

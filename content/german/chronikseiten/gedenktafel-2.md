@@ -1,9 +1,12 @@
 ---
-title: "Grußwort"
+title: Grußwort
 draft: false
-bg_image: "media/backgrounds/page-title.webp"
-type: "pages"
-layout: "single.html"
+bg_image: media/backgrounds/page-title.webp
+type: pages
+layout: single.html
+gallery: false
+aliases:
+  - /schulchronik/pages/gedenktafel-2
 ---
 
 Kopenhagen, im April 2010

@@ -1,0 +1,215 @@
+backend:
+  name: gitea
+  repo: gcg/gcg-website
+  branch: master
+  api_root: https://git.cantorgymnasium.de/api/v1
+  base_url: https://oauth.cantorgymnasium.de
+  commit_messages:
+    create: "{{collection}} {{slug}} erstellt"
+    update: "{{collection}} {{slug}} aktualisiert"
+    delete: "{{collection}} {{slug}} gelöscht"
+    uploadMedia: "{{path}} hochgeladen"
+    deleteMedia: "{{path}} gelöscht"
+
+local_backend: true
+
+media_folder: "/static/media/schulchronik"
+public_folder: "/media/schulchronik"
+site_url: https://cantorgymnasium.de/schulchronik/
+display_url: https://cantorgymnasium.de/schulchronik/
+locale: "de"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+show_preview_links: false
+
+collections:
+  - name: "index-pages"
+    icon: "page"
+    label: "Übersichten"
+    editor:
+      preview: true
+      frame: true
+    files:
+      - name: "cantorpreis-index"
+        label: "Cantor-Preis"
+        file: "content/german/cantorpreis/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Inaktiv", name: "draft", widget: "boolean", default: false, required: false, hint: "Diese Einstellung deaktiviert den Bereich auf der Website."}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+          - {label: "Einleitung", name: "description", widget: "text", required: false}
+      - name: "abiturienten"
+        label: "Abiturienten"
+        file: "content/german/abiturienten/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Inaktiv", name: "draft", widget: "boolean", default: false, required: false, hint: "Diese Einstellung deaktiviert den Bereich auf der Website."}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+          - {label: "Einleitung", name: "description", widget: "text", required: false}
+      - name: "cantorfora"
+        label: "Cantorfora"
+        file: "content/german/cantorfora/_index.md"
+        fields:
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Inaktiv", name: "draft", widget: "boolean", default: false, required: false, hint: "Diese Einstellung deaktiviert den Bereich auf der Website."}
+          - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+          - {label: "Einleitung", name: "description", widget: "text", required: false}
+          - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+          - {label: "Text", name: "body", widget: "markdown", required: false}
+  - name: "chronikseiten"
+    icon: "page-add"
+    label: "Inhalt"
+    label_singular: "Seite"
+    folder: "content/german/chronikseiten"
+    create: true
+    editor:
+      preview: true
+      frame: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+      - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - {label: "Type", name: "type", widget: "hidden", default: "pages"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "single.html"}
+      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      - label: "Aliase"
+        name: "aliases"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Alias"
+            name: "alias"
+            widget: "string"
+      - {label: "Text", name: "body", widget: "markdown", required: false}
+  - name: "cantorpreis"
+    icon: "award"
+    label: "Cantor-Preisträger"
+    label_singular: "Cantor-Preisträger"
+    folder: "content/german/cantorpreis"
+    filter: {field: "type", value: "cantorpreis"}
+    sortable_fields:
+      fields: ['title', 'name']
+      default:
+        field: title
+        direction: Descending
+    summary: "{{title}} - {{name}}"
+    create: true
+    editor:
+      preview: false
+    media_folder: '/static/media/cantorpreis'
+    public_folder: '/media/cantorpreis'
+    fields:
+      - {label: "Jahr", name: "title", widget: "string"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+      - {label: "Beschreibung", name: "description", widget: "text", required: false}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/cantorpreis/image.webp", required: false, media_library: { config: { max_file_size: 2048000 } } }
+      - {label: "Name", name: "name", widget: "string"}
+      - label: "Kontaktdaten/Soz. Netzwerke"
+        name: "contact"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Bezeichnung", name: "name", widget: "string"}
+          - label: "Symbol"
+            name: "icon"
+            widget: "select"
+            options:
+              - { label: "YouTube", value: "mdi mdi-youtube" }
+              - { label: "Twitter", value: "mdi mdi-twitter" }
+              - { label: "Pinterest", value: "mdi mdi-pinterest" }
+              - { label: "GitHub", value: "mdi mdi-github" }
+              - { label: "Git", value: "mdi mdi-git" }
+              - { label: "Vimeo", value: "mdi mdi-vimeo" }
+              - { label: "Instagram", value: "mdi mdi-instagram" }
+              - { label: "Facebook", value: "mdi mdi-facebook" }
+              - { label: "Linkedin", value: "mid mdi-linkedin" }
+              - { label: "E-Mail", value: "mdi mdi-at" }
+              - { label: "Sonstige", value: "mdi mdi-share-variant-outline" }
+          - {label: "Link", name: "link", widget: "string"}
+      - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}
+      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      - {label: "Text", name: "body", widget: "markdown", required: false}
+  - name: "schulchronik"
+    icon: "pillar"
+    label: "Schulchronik"
+    label_singular: "Chronikjahr"
+    folder: "content/german/schulchronik"
+    filter: {field: "type", value: "schulchronik"}
+    create: true
+    editor:
+      preview: false
+    media_folder: '/static/media/schulchronik'
+    public_folder: '/media/schulchronik'
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+      - {label: "Type", name: "type", widget: "hidden", default: "schulchronik"}
+      - {label: "Einleitung", name: "pretext", hint: "Jahreszahltext", widget: "markdown", required: false}
+      - label: "Kreative Haufen"
+        name: "topics"
+        widget: "list"
+        fields:
+          - {label: "Titel", name: "title", widget: "string", required: true}
+          - {label: "Inhalt", name: "content", widget: "markdown", required: true}
+        required: false
+      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      - {label: "Text", name: "body", widget: "markdown", required: false, default: ""}
+  - name: "abiturienten"
+    icon: "graduation-cap"
+    label: "Abiturienten"
+    label_singular: "Abiturjahrgang"
+    folder: "content/german/abiturienten"
+    filter: {field: "type", value: "abiturienten"}
+    create: true
+    editor:
+      preview: false
+    media_folder: '/static/media/abiturienten'
+    public_folder: '/media/abiturienten'
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+      - {label: "Bild", name: "image", widget: "image", default: "/media/abiturienten/image.webp", required: false, media_library: { config: { max_file_size: 2048000 } } }
+      - {label: "Mehrere Bilder", name: "multiple", widget: "boolean", default: false, required: false}
+      - {label: "Type", name: "type", widget: "hidden", default: "abiturienten"}
+      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      - {label: "Text", name: "body", widget: "markdown"}
+  - name: "cantorfora"
+    icon: "presentation"
+    label: "Cantorfora"
+    label_singular: "Cantorforum"
+    folder: "content/german/cantorfora"
+    filter: {field: "type", value: "cantorfora"}
+    create: true
+    slug: "{{slug}}"
+    editor:
+     preview: true
+     frame: true
+    media_folder: '/static/media/cantorfora'
+    public_folder: '/media/cantorfora'
+    view_groups:
+      - label: Drafts
+        field: draft
+    sortable_fields:
+      fields: ['index', 'title']
+      default:
+        field: index
+        direction: Ascending
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Laufindex", name: "index", widget: "number", value_type: 'int', min: 1, step: 1, required: true, hint: "Nummer des Cantorforums"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+      - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
+      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/image.webp", media_library: { config: { max_file_size: 2048000 } } }
+      - {label: "Type", name: "type", widget: "hidden", default: "cantorfora"}
+      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      - {label: "Text", name: "body", widget: "markdown"}

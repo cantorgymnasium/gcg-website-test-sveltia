@@ -1,10 +1,12 @@
 ---
-title: "Signaturen der Zeit"
+title: Signaturen der Zeit
 draft: false
-
-bg_image: "media/backgrounds/page-title.webp"
-type: "pages"
-layout: "single.html"
+bg_image: media/backgrounds/page-title.webp
+type: pages
+layout: single.html
+gallery: false
+aliases:
+  - /schulchronik/pages/tuerueberschriften-torstrasse
 ---
 
 Im alte Schulhaus des Torgymnasiums wurden bei der Renovierung verschiedene Zitate neuer Glanz verliehen. So sind nun verschiedene Sprüche wieder sichtbar und diese sind hier aufgelistet und ihr Hintergrund erläutert.

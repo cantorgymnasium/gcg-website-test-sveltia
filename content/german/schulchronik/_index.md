@@ -26,14 +26,14 @@ aus 'David Hilbert, Über das Unendliche', Math. Ann. 95</p><br>
 
 <div class="row">
     {{< card-small link="/abiturienten" title="Abiturienten">}}
-    {{< card-small link="/schulchronik/pages/abiturdurchschnitte" title="Abiturdurchschnitte">}}
-    {{< card-small link="/schulchronik/pages/schülerzahlen" title="Schülerzahlen">}}
-    {{< card-small link="/schulchronik/pages/cantor/" title="Über Georg Cantor" >}}
-    {{< card-small link="/schulchronik/pages/ueber-das-gcg" title="Über das GCG" >}}
-    {{< card-small link="/schulchronik/pages/alumninetzwerk" title="Alumninetzwerk" >}}
-    {{< card-small link="/schulchronik/pages/chronologie" title="Chronologie" >}}
-    {{< card-small link="/schulchronik/pages/traditionen" title="Traditionen" >}}
-    {{< card-small link="/schulchronik/pages/chronisten" title="Chronistenteam" >}}
+    {{< card-small link="/chronikseiten/abiturdurchschnitte" title="Abiturdurchschnitte">}}
+    {{< card-small link="/chronikseiten/schülerzahlen" title="Schülerzahlen">}}
+    {{< card-small link="/chronikseiten/cantor/" title="Über Georg Cantor" >}}
+    {{< card-small link="/chronikseiten/ueber-das-gcg" title="Über das GCG" >}}
+    {{< card-small link="/chronikseiten/alumninetzwerk" title="Alumninetzwerk" >}}
+    {{< card-small link="/chronikseiten/chronologie" title="Chronologie" >}}
+    {{< card-small link="/chronikseiten/traditionen" title="Traditionen" >}}
+    {{< card-small link="/chronikseiten/chronisten" title="Chronistenteam" >}}
 </div>
 
 ---

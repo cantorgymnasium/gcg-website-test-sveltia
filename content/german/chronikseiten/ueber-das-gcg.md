@@ -1,10 +1,12 @@
 ---
-title: "Über das GCG"
+title: Über das GCG
 draft: false
-
-bg_image: "media/backgrounds/page-title.webp"
-type: "pages"
-layout: "single.html"
+bg_image: media/backgrounds/page-title.webp
+type: pages
+layout: single.html
+gallery: false
+aliases:
+  - /schulchronik/pages/ueber-das-gcg
 ---
 
 Da bereits auf der Schulwebsite inhaltlich über das Georg-Cantor-Gymnasium berichtet wird, widmet sich die Schulchronik an dieser Stelle ergänzenden Bereichen, welche die historische Sicht auf die Schule erweitern.

@@ -1,11 +1,13 @@
 ---
-title: "Bericht 1"
+title: 25 Jahre GCG - Bericht 1
 draft: false
-bg_image: "media/backgrounds/page-title.webp"
-type: "pages"
-layout: "single.html"
+bg_image: media/backgrounds/page-title.webp
+type: pages
+layout: single.html
+gallery: false
+aliases:
+  - /schulchronik/pages/25-bericht-1
 ---
-
 **25 Jahre Georg-Cantor-Gymnasium.** Ein solcher Geburtstag muss gefeiert werden! Zum silbernen Jubiläum hatte man deshalb alle Absolventen der letzten Jahre dazu eingeladen, noch einmal an ihre alte Schule zurückzukehren.
 
 Nach einer Auftaktrede am Freitagnachmittag von Schuldirektor Dr. Ulrich Müller sollte am Samstag der Geburtstag gefeiert werden. Um 13 Uhr öffneten sich die Pforten für unsere Ehemaligen, die mit einem Sektempfang begrüßt wurden. Im Anschluss traf man sich in der Aula, um in alten Erinnerungen zu schwelgen und einigen Reden zu lauschen. Dank der akribischen Arbeit der Schulchronisten unternahm man auch eine kleine Zeitreise durch die Geschichte unserer Schule. Für die passende musikalische Untermalung war ebenfalls von Schülern des 12. Jahrgangs und der Instrumentalgruppe gesorgt.

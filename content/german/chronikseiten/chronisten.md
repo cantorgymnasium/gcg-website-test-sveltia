@@ -1,12 +1,12 @@
 ---
-title: "Wir über uns"
+title: Wir über uns
 draft: false
-
-bg_image: "media/backgrounds/page-title.webp"
-
-type: "pages"
-layout: "single.html"
+bg_image: media/backgrounds/page-title.webp
+type: pages
+layout: single.html
 gallery: true
+aliases:
+  - /schulchronik/pages/chronisten
 ---
 
 
