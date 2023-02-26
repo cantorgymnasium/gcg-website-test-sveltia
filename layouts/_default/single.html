@@ -10,15 +10,16 @@
           </div>
           <div class="col-12">
             <ul class="list-inline">
-              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "posted_by" }}
-                  :</span><a
-                  href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></li>
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "posted_by" }}:</span>
+                <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></li>
 
-              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "date" }}
-                  :</span>{{ time.Format "02 Jan, 2006" .PublishDate }}</li>
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "date" }}:
 
-              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "category" }}
-                  :</span>{{ range $index, $elements:= .Params.Categories }}<a
+              </span>{{ time.Format "02. Jan 2006" .PublishDate }}</li>
+
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{{ i18n "category" }}:
+
+              </span>{{ range $index, $elements:= .Params.Categories }}<a
                   href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"> {{ if ne $index 0 }}, {{ end }}
                   {{ . | title }}</a> {{ end}}</li>
 
@@ -27,7 +28,7 @@
           <div class="col-12 my-4">
             <div class="border-bottom"></div>
           </div>
-          <div class="col-12 mb-5 content">
+          <div class="col-12 mb-5 content content-justify">
             {{ .Content }}
           </div>
         </div>

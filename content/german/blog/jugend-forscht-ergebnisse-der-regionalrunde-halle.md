@@ -1,0 +1,30 @@
+---
+title: Jugend forscht - Ergebnisse der Regionalrunde Halle
+date: 2023-02-22T11:08:22+01:00
+draft: false
+bg_image: /media/backgrounds/page-title.webp
+description: ""
+image: /media/blog/JuFo.webp
+author: Frau Felke
+categories:
+  - Wettbewerbe
+  - Naturwissenschaften
+  - Informatik/Technik
+tags:
+  - JuFo
+  - Jugend forscht
+type: post
+gallery: false
+---
+Am 21.02.2023 fand der **Regionalwettbewerb Halle** statt und **alle teilnehmenden Cantorianer waren erfolgreich**.
+
+- Clara J. und Johanna S. aus Klasse 9 erreichten den 1. Preis im Bereich Chemie in der Sparte „Schüler experimentieren“.
+- Felix N. Klasse 7 holte den 1. Preis im Fachbereich Mathematik/Informatik („Schüler experimentieren“).
+- Ansgar E:, Kl. 12, überzeugte die Juroren im Bereich Biologie und errang den 1. Preis bei „Jugend forscht“.
+- Florian J., Kl. 11, wurde mit einem 2. Preis im Bereich Mathematik/Informatik („Jugend forscht“) geehrt.
+
+Alle Schülerinnen und Schüler erhielten darüber hinaus Sonderpreise.
+
+**Die Erstplatzierten vertreten unsere Schule beim Landeswettbewerb in Halle.**
+
+**Herzlichen Glückwunsch!**
