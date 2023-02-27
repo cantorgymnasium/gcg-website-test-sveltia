@@ -48,14 +48,12 @@ Und es geht stets weiter – Sowahr uns Tingeltangel-Bob helfe!
 
 Nikolas Weigt 2015
 
-Wir über uns - Teil 2
+### Wir über uns - Teil 2
 
 -die erste Arbeit einer neuen Chronistengeneration-
 
 Aus der Feder einer aufstrebenden
 Chronistin. Bericht über die Projektwoche 2019.
-
-Erster Tag:
 
 „Wir treffen uns **8.20** am
 Robertinium (Institut für Altertumswissenschaften der
