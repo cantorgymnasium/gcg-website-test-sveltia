@@ -8,5 +8,5 @@ description: Seit 1995, dem Jahr des 150. Geburtstages Georg Cantors, wird
   Georg-Cantor-Gymnasiums gestifteten Zinnbecher mit Motiven der Stadt Halle und
   150 € Preisgeld. Mit diesem Preis werden Schüler für besondere Leistungen und
   Engagement für unsere Schule ausgezeichnet. Hier werden die Cantorpreis-Träger
-  der einzelnen Jahre vorgestellt
+  der einzelnen Jahre vorgestellt.
 ---
