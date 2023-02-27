@@ -160,6 +160,12 @@ collections:
           - {label: "Titel", name: "title", widget: "string", required: true}
           - {label: "Inhalt", name: "content", widget: "markdown", required: true}
         required: false
+      - label: "Cantorpreisträger"
+        name: "cantorpreisträger"
+        widget: "relation"
+        collection: "cantorpreis"
+        search_fields: ["jahr", "name"]
+        value_field: "name"
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
       - {label: "Text", name: "body", widget: "markdown", required: false, default: ""}
   - name: "abiturienten"
