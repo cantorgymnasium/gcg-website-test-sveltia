@@ -166,6 +166,7 @@ collections:
         collection: "cantorpreis"
         search_fields: ["jahr", "name"]
         value_field: "name"
+        required: false
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
       - {label: "Text", name: "body", widget: "markdown", required: false, default: ""}
   - name: "abiturienten"
