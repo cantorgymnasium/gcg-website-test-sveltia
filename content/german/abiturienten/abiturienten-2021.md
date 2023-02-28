@@ -2,7 +2,7 @@
 title: Abiturienten 2021
 draft: false
 bg_image: /media/backgrounds/page-title.webp
-image: /media/abiturienten/image.webp
+image: /media/abiturienten/abi-foto-2021.webp
 multiple: false
 type: abiturienten
 gallery: true
