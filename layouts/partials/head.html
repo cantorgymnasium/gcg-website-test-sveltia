@@ -19,7 +19,9 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt+Warp">
   
-  <script src="{{ `plugins/wordcloud/wordcloud2.min.js` | absURL }}"></script>
+  {{ range .Site.Params.plugins.head_js }}
+    <script src="{{ . | absURL }}"></script>
+  {{ end }}
 
 
   <!-- Matomo -->

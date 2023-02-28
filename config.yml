@@ -36,11 +36,14 @@ params:
       - plugins/mdi/css/materialdesignicons.min.css
       - plugins/fira/fira.css
     js:
-      - plugins/jQuery/jquery.min.js
       - plugins/bootstrap/bootstrap.min.js
       - plugins/slick/slick.min.js
       - plugins/venobox/venobox.min.js
       - plugins/filterizr/jquery.filterizr.min.js
+    head_js:
+      - plugins/wordcloud/wordcloud2.min.js
+      - plugins/echarts/echarts.min.js
+      - plugins/jQuery/jquery.min.js
   social:
     - title: YouTube
       icon: mdi mdi-youtube
