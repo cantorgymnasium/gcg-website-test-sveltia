@@ -2,6 +2,11 @@
 title: Abiturdurchschnitte
 draft: false
 bg_image: media/backgrounds/page-title.webp
+description: >
+  In den Jahren 1999 und 2001 gab es keine Abschlussjahrgänge am GCG.
+  1999 nicht, da sieben Jahre zuvor keine Aufnahme in die siebente Klasse,
+  sondern in die fünfte Klasse erfolgte und 2001 vollzog sich der Übergang zum
+  Abitur nach 13 Schuljahren.
 type: pages
 layout: single.html
 gallery: false
@@ -9,49 +14,160 @@ aliases:
   - /schulchronik/pages/abiturdurchschnitte
 ---
 <style>
-  * {
-  margin: 0;
-  padding: 0;
-}
 #chart-container {
   position: relative;
-  height: 100vh;
+  height: 75vh;
   overflow: hidden;
 }
 </style>
+
 <div id="chart-container"></div>
 <script>
   var dom = document.getElementById("chart-container");
-  var myChart = echarts.init(dom, null, {
+  echarts.registerLocale("DE", {
+    time: {
+        month: [
+            'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
+            'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'
+        ],
+        monthAbbr: [
+            'Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun',
+            'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'
+        ],
+        dayOfWeek: [
+            'Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'
+        ],
+        dayOfWeekAbbr: [
+            'So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'
+        ]
+    },
+    legend: {
+        selector: {
+            all: 'Alle',
+            inverse: 'Invertiert'
+        }
+    },
+    toolbox: {
+        brush: {
+            title: {
+                rect: 'Box Auswahl',
+                polygon: 'Lasso Auswahl',
+                lineX: 'Horizontale Auswahl',
+                lineY: 'Vertikale Auswahl',
+                keep: 'Bereich Auswahl',
+                clear: 'Auswahl zurücksetzen'
+            }
+        },
+        dataView: {
+            title: 'Daten Ansicht',
+            lang: ['Daten Ansicht', 'Schließen', 'Aktualisieren']
+        },
+        dataZoom: {
+            title: {
+                zoom: 'Zoom',
+                back: 'Zoom zurücksetzen'
+            }
+        },
+        magicType: {
+            title: {
+                line: 'Zu Liniendiagramm wechseln',
+                bar: 'Zu Balkendiagramm wechseln',
+                stack: 'Stapel',
+                tiled: 'Kachel'
+            }
+        },
+        restore: {
+            title: 'Wiederherstellen'
+        },
+        saveAsImage: {
+            title: 'Als Bild speichern',
+            lang: ['Rechtsklick zum Speichern des Bildes']
+        }
+    },
+    series: {
+        typeNames: {
+            pie: 'Tortendiagramm',
+            bar: 'Balkendiagramm',
+            line: 'Liniendiagramm',
+            scatter: 'Streudiagramm',
+            effectScatter: 'Welligkeits-Streudiagramm',
+            radar: 'Radar-Karte',
+            tree: 'Baum',
+            treemap: 'Baumkarte',
+            boxplot: 'Boxplot',
+            candlestick: 'Kerzenständer',
+            k: 'K Liniendiagramm',
+            heatmap: 'Heatmap',
+            map: 'Karte',
+            parallel: 'Parallele Koordinatenkarte',
+            lines: 'Liniendiagramm',
+            graph: 'Beziehungsgrafik',
+            sankey: 'Sankey-Diagramm',
+            funnel: 'Trichterdiagramm',
+            gauge: 'Meßanzeige',
+            pictorialBar: 'Bildlicher Balken',
+            themeRiver: 'Thematische Flusskarte',
+            sunburst: 'Sonnenausbruch'
+        }
+    },
+    aria: {
+        general: {
+            withTitle: 'Dies ist ein Diagramm über "{title}"',
+            withoutTitle: 'Dies ist ein Diagramm'
+        },
+        series: {
+            single: {
+                prefix: '',
+                withName: ' mit Typ {seriesType} namens {seriesName}.',
+                withoutName: ' mit Typ {seriesType}.'
+            },
+            multiple: {
+                prefix: '. Es besteht aus {seriesCount} Serienzählung.',
+                withName: ' Die Serie {seriesId} ist ein {seriesType} welcher {seriesName} darstellt.',
+                withoutName: ' Die {seriesId}-Reihe ist ein {seriesType}.',
+                separator: {
+                    middle: '',
+                    end: ''
+                }
+            }
+        },
+        data: {
+            allData: 'Die Daten sind wie folgt: ',
+            partialData: 'Die ersten {displayCnt} Elemente sind: ',
+            withName: 'die Daten für {name} sind {value}',
+            withoutName: '{value}',
+            separator: {
+                middle: ',',
+                end: '.'
+            }
+        }
+    }
+});
+  var chart = echarts.init(dom, null, {
     renderer: "canvas",
-    useDirtyRect: false
+    useDirtyRect: false,
+    locale: "DE"
   });
-  var app = {};
-  var ROOT_PATH = "https://echarts.apache.org/examples";
   var option;
   jQuery.get(
-    "https://git.cantorgymnasium.de/gcg/gcg-website/raw/branch/master/data/de/abiturdurchschnitte.json",
+    "https://cantorgymnasium.de/data/abiturdurchschnitte.json",
     function (data) {
-      myChart.setOption(
+      chart.setOption(
         (option = {
           title: {
-            text: "Beijing AQI",
-            left: "1%"
+            text: "Abiturdurchschnitte",
           },
           tooltip: {
             trigger: "axis"
-          },
-          grid: {
-            left: "5%",
-            right: "15%",
-            bottom: "10%"
           },
           xAxis: {
             data: data.map(function (item) {
               return item[0];
             })
           },
-          yAxis: {},
+          yAxis: {
+            min: 0.9,
+          },
           toolbox: {
             right: 10,
             feature: {
@@ -64,7 +180,7 @@ aliases:
           },
           dataZoom: [
             {
-              startValue: "2014-06-01"
+              startValue: "1992"
             },
             {
               type: "inside"
@@ -73,43 +189,40 @@ aliases:
           visualMap: {
             top: 50,
             right: 10,
+            precision: 1,
             pieces: [
               {
-                gt: 0,
+                gt: 0.9,
                 lte: 1.0,
-                color: "#93CE07"
+                color: "#005da9",
               },
               {
                 gt: 1.0,
-                lte: 1.25,
-                color: "#FBDB0F"
-              },
-              {
-                gt: 1.25,
                 lte: 1.5,
-                color: "#FC7D02"
+                color: "#0b9834"
               },
               {
                 gt: 1.5,
-                lte: 1.75,
-                color: "#FD0100"
-              },
-              {
-                gt: 1.75,
                 lte: 2.0,
-                color: "#AA069F"
+                color: "#93CE07"
               },
               {
                 gt: 2.0,
-                color: "#AC3B2A"
-              }
+                lte: 2.5,
+                color: "#FBDB0F"
+              },
+              /*{
+                gt: 2.0,
+                lte: 2.5,
+                color: "#FC7D02"
+              },*/
             ],
             outOfRange: {
               color: "#999"
             }
           },
           series: {
-            name: "Beijing AQI",
+            name: "Abiturdurchschnitt",
             type: "line",
             data: data.map(function (item) {
               return item[1];
@@ -121,19 +234,16 @@ aliases:
               },
               data: [
                 {
-                  yAxis: 50
+                  yAxis: 1.0
                 },
                 {
-                  yAxis: 100
+                  yAxis: 1.4
                 },
                 {
-                  yAxis: 150
+                  yAxis: 1.7
                 },
                 {
-                  yAxis: 200
-                },
-                {
-                  yAxis: 300
+                  yAxis: 2.0
                 }
               ]
             }
@@ -143,9 +253,7 @@ aliases:
     }
   );
   if (option && typeof option === "object") {
-    myChart.setOption(option);
+    chart.setOption(option);
   }
-  window.addEventListener("resize", myChart.resize);
+  window.addEventListener("resize", chart.resize);
 </script>
-
-In den Jahren 1999 und 2001 gab es keine Abschlussjahrgänge am GCG. 1999 nicht, da sieben Jahre zuvor keine Aufnahme in die siebente Klasse, sondern in die fünfte Klasse erfolgte und 2001 vollzog sich der Übergang zum Abitur nach 13 Schuljahren.
