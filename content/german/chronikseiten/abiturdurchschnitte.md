@@ -235,9 +235,6 @@ aliases:
               },
               data: [
                 {
-                  yAxis: 1.0
-                },
-                {
                   yAxis: 1.4
                 },
                 {
@@ -245,6 +242,9 @@ aliases:
                 },
                 {
                   yAxis: 2.0
+                },
+                {
+                  yAxis: 2.3
                 }
               ]
             }
