@@ -139,11 +139,15 @@ tiles:
   - title: Aktionen
     bg_color: "#0fe008"
     icon: mdi mdi-theater
-    content: >
+    content: >+
       Den Freitag, den zweiten Tag der Festtage zum 30.Jubiläum, verbrachten
       Schülerinnen und Schüler mit unterschiedlichen Aktionen, wie zum Beispiel
       einem Kinobesuch, einer Vorlesung in Physik oder einer Rallye durch die
       Stadt Halle auf den Spuren von Georg Cantor.
+
+
+
+
     font_color: "#ffffff"
     unterhaufen:
       - title: Überblick
