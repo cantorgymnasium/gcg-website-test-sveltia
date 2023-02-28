@@ -14,8 +14,6 @@ tiles:
 
       {{< gallery dir="/media/schulchronik/2018/programmheft" />}}
 
-      {{< figure src="" >}}
-
 
     unterhaufen:
       - title: Erfahrungsbericht
@@ -149,11 +147,108 @@ tiles:
     font_color: "#ffffff"
     unterhaufen:
       - title: Überblick
-        content: |
-          Inhalt
+        content: |+
+          
+
+          {{< gallery dir="/media/schulchronik/2018/ubersicht" />}}
+
+
       - title: Kinobesuch
-        content: |
-          Inhalt
+        content: >
+          ## Nerve
+
+
+          Am 27. und 28. September 2018 feierte das Georg-Cantor-Gymnasium sein 30
+
+          – Jähriges Bestehen. Anlässlich dieser Festtage wurden
+
+          individuelle Programme für die Jahrgänge entworfen. Die damaligen
+
+          7. und 8. Klassen durften sich den Film „Nerve“ angesehen,
+
+          welcher sich mit der Nutzung von Medien auseinandersetzt. Gezeigt
+
+          wurde er im Luchskino am Bergzoo in Halle. 
+
+
+          Die Aussicht an einem Schultag keinen Unterricht machen zu müssen,
+
+          erfreut jedes Schulkind. Umso mehr, wenn man an dem Tag ins Kino
+
+          gehen kann. Man musste zwar genauso aufstehen wie sonst, da sich alle
+
+          schon 7.30 Uhr am Bergzoo trafen, doch das war nur ein geringer
+
+          Preis.
+
+
+          Doch es verlief erst einmal alles etwas zäh. Schülerinnen und Schüler
+
+          fanden sich nur langsam ein. Dies war auch der Straßenbahn
+
+          geschuldet die nur Stoßweise an der Station anhielt. Das sorgte
+
+          dafür, dass die deutsche Pünktlichkeit nicht ganz eingehalten
+
+          werden konnte und erst gegen 7:50 alles geregelt war. Aber immerhin
+
+          blieb alles noch innerhalb des Zeitplans.
+
+
+          Was gehört zu jedem Film dazu? Natürlich Snacks wie Popcorn. Doch viel
+
+          schlauer ist es selbst Snacks mitzubringen, als diese überteuert vor
+
+          Ort zu kaufen. Das hatten die meisten auch bedacht und daher wurden
+
+          im Kinosaal die mitgebrachen Süßigkeiten geöffnet und verteilt.
+
+          Das meiste davon war aber schon aufgegessen, bevor der Film überhaupt
+
+          anfing. Die Handlung lässt sich, ohne zu viel vom Plot zu verraten,
+
+          ungefähr so zusammenfassen: 
+
+
+          Der Film Nerve handelt von der Hauptfigur Venus Delemonie, die von ihrer
+
+          Freundin überzeugt wird, das im Internet auftretende Spiel Nerve zu
+
+          spielen. In diesem Spiel werden Schüler über ihre Handys zu
+
+          peinlichen aber auch riskanten und gefährlichen Aufgaben
+
+          aufgefordert. Für das Lösen dieser Aufgaben verdienen Spieler, auch
+
+          Player genannt, Geld. Die Watcher hingegen schauen den Playern meist
+
+          beim Erledigen ihrer Aufgaben zu und feuern diese an.
+
+
+          Venusentschließt sich trotz anfänglicher Skepsis als Player
+           mitzuspielen. Anfänglich muss sie nur peinliche, aber doch harmlose
+          Aufgaben erfüllen, wie einen Fremden in einem Restaurant küssen.
+
+          Doch im Verlauf des Filmes werden die Challenges immer gefährlicher.
+
+          Bei einer ihrer Aufgaben lernt sie schließlich Ian kennen, mit
+
+          dessen Hilfe es ihr gelingt, zu einer der berühmtesten Player zu
+
+          werden.
+
+
+          Als der Kinosaal sich leerte, entstanden sogleich rege Diskussionen über
+
+          die verschiedensten Eindrücke, die der Film hinterlassen hatte.
+
+          Nachdem sich langsam die Gemüter beruhigten, wurde es ruhig im
+
+          Luchskino. In Gruppen verließen alle Schüler das Kino und
+
+          versammelten sich außerhalb. Im strömenden Regen startete dann die
+
+          Cantor Rallye, welche der nächste Abschnitt des Tages war.
       - title: Cantor-Rallye
         content: |
           Inhalt
