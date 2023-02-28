@@ -16,7 +16,7 @@ aliases:
 <style>
 #chart-container {
   position: relative;
-  height: 75vh;
+  height: 50vh;
   overflow: hidden;
 }
 </style>
