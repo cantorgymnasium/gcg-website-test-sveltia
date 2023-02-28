@@ -3,6 +3,7 @@ title: 30-jähriges Jubiläum
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 type: superhaufen
+gallery: true
 tiles:
   - title: Festveranstaltung
     bg_color: "#ffef00"
