@@ -149,8 +149,7 @@ aliases:
     locale: "DE"
   });
   var option;
-  jQuery.get(
-    "https://cantorgymnasium.de/data/abiturdurchschnitte.json",
+  jQuery.get("/data/abiturdurchschnitte.json",
     function (data) {
       chart.setOption(
         (option = {
@@ -161,8 +160,8 @@ aliases:
             trigger: "axis"
           },
           xAxis: {
-            data: data.map(function (item) {
-              return item[0];
+            data: data['abiturdurchschnitte'].map(function (item) {
+              return item['jahr'];
             })
           },
           yAxis: {
@@ -225,8 +224,8 @@ aliases:
           series: {
             name: "Abiturdurchschnitt",
             type: "line",
-            data: data.map(function (item) {
-              return item[1];
+            data: data['abiturdurchschnitte'].map(function (item) {
+              return item['schnitt'];
             }),
             markLine: {
               silent: true,

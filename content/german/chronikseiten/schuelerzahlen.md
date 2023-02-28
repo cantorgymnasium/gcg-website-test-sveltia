@@ -8,9 +8,8 @@ gallery: false
 aliases:
   - /schulchronik/pages/schülerzahlen
 ---
-
 |Schuljahr|Schülerzahlen gesamt|davon Mädchen|Anteil Mädchen in %|
-|-|-|-|-|
+|---|---|---|---|
 |1988/1989|54|11|20,3|
 |1989/1990|101|14|13,8|
 |1990/1991|173|36|20,8|

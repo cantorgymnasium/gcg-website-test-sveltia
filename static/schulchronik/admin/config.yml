@@ -87,6 +87,24 @@ collections:
             name: "alias"
             widget: "string"
       - {label: "Text", name: "body", widget: "markdown", required: false}
+  - name: "statistik"
+    icon: "stats"
+    label: "Statistik"
+    editor:
+      preview: false
+    files:
+      - name: "abiturdurchschnitte"
+        label: "Abiturdurchschnitte"
+        file: "static/data/abiturdurchschnitte.json"
+        fields:
+          - label: "Abiturdurchschnitte"
+            label_singular: "Abiturdurchschnitt"
+            name: "abiturdurchschnitte"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Jahr", name: "jahr", widget: "number", required: true}
+              - {label: "Schnitt", name: "schnitt", widget: "number", value_type: "float", step: 0.01, required: true}
   - name: "cantorpreis"
     icon: "award"
     label: "Cantor-Preisträger"
