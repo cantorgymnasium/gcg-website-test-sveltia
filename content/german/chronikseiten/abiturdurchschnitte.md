@@ -166,7 +166,8 @@ aliases:
             })
           },
           yAxis: {
-            min: 0.9,
+            min: 1.0,
+            inverse: true
           },
           toolbox: {
             right: 10,
