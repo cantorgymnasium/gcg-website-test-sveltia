@@ -8,7 +8,7 @@ tiles:
   - title: Festveranstaltung
     bg_color: "#ffef00"
     font_color: "#ffffff"
-    icon: mdi mdi-at
+    icon: mdi mdi-crowd
     content: |
       Inhalt……
     unterhaufen:
@@ -134,13 +134,13 @@ tiles:
 
   - title: Aktionen
     bg_color: "#0fe008"
-    icon: mdi mdi-at
+    icon: mdi mdi-theater
     content: |
       inhalt
     font_color: "#ffffff"
   - title: Flashmob
     bg_color: "#0051e5"
-    icon: mdi mdi-at
+    icon: mdi mdi-all-inclusive
     content: |
       inhalt
     font_color: "#ffffff"
