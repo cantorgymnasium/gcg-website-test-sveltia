@@ -145,8 +145,8 @@ collections:
     create: true
     editor:
       preview: false
-    media_folder: '/static/media/schulchronik/superhaufen'
-    public_folder: '/media/schulchronik/superhaufen'
+    media_folder: '/static/media/superhaufen'
+    public_folder: '/media/superhaufen'
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
