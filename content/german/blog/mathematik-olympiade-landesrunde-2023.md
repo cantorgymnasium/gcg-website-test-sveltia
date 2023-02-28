@@ -4,7 +4,7 @@ date: 2023-02-28T22:44:44+01:00
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/blog/M_Logo.webp
+image: /media/blog/mo.webp
 author: Herr Berger
 categories:
   - Wettbewerbe
