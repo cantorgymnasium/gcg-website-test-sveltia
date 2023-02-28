@@ -30,7 +30,7 @@
                     <div class="card-body mb-0">
                       <details class="mb-0">
                       <summary class="mb-0">{{ .title }}</summary>
-                      <div class="content"><p class="content">{{ .content }}</p></div>
+                      <div class="content"><p class="content">{{ .content | markdownify }}</p></div>
                       </details>
                     </div>
                   </div>
