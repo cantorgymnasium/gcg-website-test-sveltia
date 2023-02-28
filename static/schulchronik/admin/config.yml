@@ -136,6 +136,39 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
       - {label: "Text", name: "body", widget: "markdown", required: false}
+  - name: "superhaufen"
+    icon: "superhaufen"
+    label: "Superhaufen"
+    label_singular: "Superhaufen"
+    folder: "content/german/superhaufen"
+    filter: {field: "type", value: "superhaufen"}
+    create: true
+    editor:
+      preview: false
+    media_folder: '/static/media/schulchronik/superhaufen'
+    public_folder: '/media/schulchronik/superhaufen'
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+      - {label: "Type", name: "type", widget: "hidden", default: "superhaufen"}
+      - label: "Kacheln"
+        name: "tiles"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Titel", name: "title", widget: "string", required: true}
+          - {label: "Hintergrundfarbe", name: "bg_color", widget: "color", required: true}
+          - {label: "Symbol", name: "icon", widget: "string", required: true}
+          - {label: "Symbolfarbe", name: "font_color", widget: "color", required: true}
+          - {label: "Inhalt", name: "content", widget: "markdown", required: true}
+          - label: "Unter-Unterhaufen"
+            name: "unterhaufen"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Titel", name: "title", widget: "string", required: false}
+              - {label: "Inhalt", name: "content", widget: "markdown", required: true}
   - name: "schulchronik"
     icon: "pillar"
     label: "Schulchronik"
@@ -156,10 +189,24 @@ collections:
       - label: "Kreative Haufen"
         name: "topics"
         widget: "list"
+        required: false
         fields:
           - {label: "Titel", name: "title", widget: "string", required: true}
           - {label: "Inhalt", name: "content", widget: "markdown", required: true}
-        required: false
+          - label: "Superhaufen"
+            name: "superhaufen"
+            widget: "object"
+            required: false
+            fields:
+              - {label: "Aktiviert", name: "enable", widget: "boolean", required: false}
+              - label: "Superhaufen"
+                name: "link"
+                widget: "relation"
+                collection: "superhaufen"
+                search_fields: ["title"]
+                value_field: "title"
+                required: false
+                collapsed: true
       - label: "Cantorpreisträger"
         name: "cantorpreisträger"
         widget: "relation"

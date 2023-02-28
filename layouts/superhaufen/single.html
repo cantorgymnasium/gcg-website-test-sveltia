@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+<section class="section-sm pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4 content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      {{ range .Params.tiles }}
+      <div id="{{ md5 .title }}" class="modal">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">{{ .title }}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="content">
+                {{ .content | markdownify }}
+              </div>
+              {{ range .unterhaufen }}
+                <div class="container mb-0">
+                  <div class="card border-primary rounded-0 hover-shadow mb-5">
+                    <div class="card-body mb-0">
+                      <details class="mb-0">
+                      <summary class="mb-0">{{ .title }}</summary>
+                      <div class="content"><p class="content">{{ .content }}</p></div>
+                      </details>
+                    </div>
+                  </div>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="card border-primary rounded-0 hover-shadow mb-5">
+          <div class="container fb-tile-color" style="background-color:{{ .bg_color }};">
+            <i class="{{ .icon }} fb-tile-icon" style="color: {{ .font_color }};"></i>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">{{ .title | truncate 55 }}</h4>
+            <button type="button" class="btn btn-primary btn-sm" onclick="$('#{{ md5 .title }}').modal('show');">{{
+              i18n "show_more"}}</button>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

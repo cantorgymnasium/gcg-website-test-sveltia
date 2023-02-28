@@ -28,9 +28,18 @@
           {{ partial "chronik-modal" (dict "id" "pretext" "title" .Title "content" .Params.pretext) }}
         {{ end }}
         <div id="wc-canvas"></div>
-        {{ $topics := slice (slice .Params.Title 100 "pretext") }}
+        {{ $topics := slice }}
+        {{ if .Params.pretext }}
+        {{ $topics = $topics | append (slice (slice .Params.Title 200 "pretext")) }}
+        {{ else }}
+        {{ $topics = $topics | append (slice (slice .Params.Title 200)) }}
+        {{ end }}
         {{ range .Params.topics }}
-          {{ $topics  = $topics | append (slice (slice .title 40 (md5 .title) )) }}
+          {{ if .superhaufen.enable }}
+          {{ $topics  = $topics | append (slice (slice .title 30 (.superhaufen.link | urlize)  "superhaufen" )) }}
+          {{ else }}
+          {{ $topics  = $topics | append (slice (slice .title 30 (md5 .title) )) }}
+          {{ end }}
         {{ end }}
         {{ $topics = $topics | jsonify }}
         <script>
@@ -38,19 +47,33 @@
             document.getElementById('wc-canvas'),
             {
               click: function (item) {
-                if (item[1] != 100 || (item[1] == 100 && item[2] == "pretext")) {
-                  $('#' + item[2]).modal('show');
+                if (item[1] != 200 || (item[1] == 200 && item[2] == "pretext")) {
+                  if( item[3] == "superhaufen" ) {
+                    window.location.href = "{{ `/superhaufen/` | relLangURL }}" + item[2];
+                  } else {
+                   $('#' + item[2]).modal('show');
+                  }
                 }
               },
               color: function (word, weight) {
-                return (weight === 100) ? '#ffbc3b' : '#1a1a37';
+                return (weight === 200) ? '#ffbc3b' : '#1a1a37';
               },
-              fontFamily: 'Fira Sans, serif',
+              hover: function(item, dimension, event) {
+                console.log("item:", item);
+                console.log("dimension:", dimension);
+                console.log("event:", event);
+                item && item[2] ? event.target.style.textDecorationLine = "underline" : null
+              },
+              fontFamily: 'Tilt Warp, serif',
               fontWeight: 700,
               list: JSON.parse("{{ $topics }}"),
               shrinkToFit: true,
-              gridSize: 25,
+              gridSize: 50,
               rotateRatio: 0,
+              shuffle: false,
+              shape: "square",
+              ellipticity: 1,
+              clearCanvas: true
             } 
           );
         </script>
