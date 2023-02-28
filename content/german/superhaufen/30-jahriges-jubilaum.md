@@ -9,8 +9,14 @@ tiles:
     bg_color: "#ffef00"
     font_color: "#ffffff"
     icon: mdi mdi-crowd
-    content: |
-      Inhalt……
+    content: |+
+      
+
+      {{< gallery dir="/media/schulchronik/2018/programmheft" />}}
+
+      {{< figure src="" >}}
+
+
     unterhaufen:
       - title: Erfahrungsbericht
         content: >
@@ -135,9 +141,22 @@ tiles:
   - title: Aktionen
     bg_color: "#0fe008"
     icon: mdi mdi-theater
-    content: |
-      inhalt
+    content: >
+      Den Freitag, den zweiten Tag der Festtage zum 30.Jubiläum, verbrachten
+      Schülerinnen und Schüler mit unterschiedlichen Aktionen, wie zum Beispiel
+      einem Kinobesuch, einer Vorlesung in Physik oder einer Rallye durch die
+      Stadt Halle auf den Spuren von Georg Cantor.
     font_color: "#ffffff"
+    unterhaufen:
+      - title: Überblick
+        content: |
+          Inhalt
+      - title: Kinobesuch
+        content: |
+          Inhalt
+      - title: Cantor-Rallye
+        content: |
+          Inhalt
   - title: Flashmob
     bg_color: "#0051e5"
     icon: mdi mdi-all-inclusive
