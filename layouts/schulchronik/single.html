@@ -35,8 +35,8 @@
         {{ $topics = $topics | append (slice (slice .Params.Title 200)) }}
         {{ end }}
         {{ range .Params.topics }}
-          {{ if .superhaufen }}
-          {{ $topics  = $topics | append (slice (slice .title 30 .superlink  "superhaufen" )) }}
+          {{ if .superhaufen.enable }}
+          {{ $topics  = $topics | append (slice (slice .title 30 (.superhaufen.link | urlize)  "superhaufen" )) }}
           {{ else }}
           {{ $topics  = $topics | append (slice (slice .title 30 (md5 .title) )) }}
           {{ end }}
@@ -49,7 +49,7 @@
               click: function (item) {
                 if (item[1] != 200 || (item[1] == 200 && item[2] == "pretext")) {
                   if( item[3] == "superhaufen" ) {
-                    window.location.href = "/superhaufen/" + item[2];
+                    window.location.href = "{{ `/superhaufen/` | relLangURL }}" + item[2];
                   } else {
                    $('#' + item[2]).modal('show');
                   }

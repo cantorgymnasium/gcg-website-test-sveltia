@@ -446,3 +446,14 @@ details[open] summary {
 .content-justify {
   text-align: justify;
 }
+
+.fb-tile-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 195px;
+}
+
+.fb-tile-icon {
+  font-size: 96px;
+}
