@@ -18,7 +18,7 @@ tiles:
     unterhaufen:
       - title: Erfahrungsbericht
         content: >
-          **Festveranstaltung** 
+          **Festveranstaltung**
 
 
           anlässlich des 30-jährigen Schuljubiläums
@@ -63,7 +63,7 @@ tiles:
 
           war ein faszinierender Anblick und eine würdige Eröffnung der
 
-          Festveranstaltung zu Ehren unseres Gymnasiums. 
+          Festveranstaltung zu Ehren unseres Gymnasiums.
 
 
           Nach der Galerie wurde ein, aus musikalischen Stücken und abwechslungsreichen Vorträgen,
@@ -125,6 +125,9 @@ tiles:
           Festveranstaltung. Mit einem Buffet, bestückt mit Snacks, Sekt sowie
 
           Orangensaft für die Schülerinnen und Schüler klang der Tag aus.
+
+
+          T.R.
       - title: Cantor in Zahlen
         content: |+
           
@@ -168,11 +171,12 @@ tiles:
 
           individuelle Programme für die Jahrgänge entworfen. Die damaligen
 
-          7. und 8. Klassen durften sich den Film „Nerve“ angesehen,
+
+          1. und 8. Klassen durften sich den Film „Nerve“ angesehen,
 
           welcher sich mit der Nutzung von Medien auseinandersetzt. Gezeigt
 
-          wurde er im Luchskino am Bergzoo in Halle. 
+          wurde er im Luchskino am Bergzoo in Halle.
 
 
           Die Aussicht an einem Schultag keinen Unterricht machen zu müssen,
@@ -211,7 +215,7 @@ tiles:
 
           anfing. Die Handlung lässt sich, ohne zu viel vom Plot zu verraten,
 
-          ungefähr so zusammenfassen: 
+          ungefähr so zusammenfassen:
 
 
           Der Film Nerve handelt von der Hauptfigur Venus Delemonie, die von ihrer
@@ -230,7 +234,9 @@ tiles:
 
 
           Venusentschließt sich trotz anfänglicher Skepsis als Player
-           mitzuspielen. Anfänglich muss sie nur peinliche, aber doch harmlose
+
+          mitzuspielen. Anfänglich muss sie nur peinliche, aber doch harmlose
+
           Aufgaben erfüllen, wie einen Fremden in einem Restaurant küssen.
 
           Doch im Verlauf des Filmes werden die Challenges immer gefährlicher.
@@ -253,45 +259,12 @@ tiles:
           versammelten sich außerhalb. Im strömenden Regen startete dann die
 
           Cantor Rallye, welche der nächste Abschnitt des Tages war.
+
+
+          T. R.
       - title: Cantor-Rallye
-        content: >+
-          Anlässlich des 100. Todestages des in Halle tätigen Mathematikers Georg
-          Ferdinand Ludwig Phillip Cantor gestaltete das Georg-Cantor-Gymnasium,
-          mit Unterstützung von Lehramtsstudierenden der Universität Leipzig,
-          vier interaktive Stadtrallyes.
-
-
-          Die Schülerinnen und Schüler der Schulchronik-AG erarbeiteten Themen rund um
-
-          Cantors Mathematik. Dieses Wissen wurde mit dem historischen Wirken Cantors in
-
-          Halle verknüpft und anschaulich in vier Stadtrallyes verpackt. Die vier Rallyes haben
-
-          einen unterschiedlichen Schwierigkeitsgrad und sind demnach für verschiedene
-
-          Klassenstufen geeignet.
-
-          Innerhalb von 90 Minuten können die Teams mit Hilfe ihres Smartphones das Leben
-
-          und Wirken Cantors hautnah erfahren. Die Routen führen dabei unter anderem zu
-
-          Cantors Wohnhaus, dem Cantor-Gymnasium, der neuen Leopoldina oder dem
-
-          Hallmarkt. Dort lösen sie nicht nur geschichtliche Probleme, sondern erlernen
-
-          spielerisch Cantors Mathematik. Durch das richtige Beantworten der Fragen sammeln
-
-          sie Punkte, wodurch am Ende das „Cantor-Meister-Team“ bestimmt werden kann.
-
-          Natürlich sind die verschiedene Rallyes auch ohne schulischen Kontext spielbar und
-
-          regen so Jung und Alt zur Erforschung Cantors Mathematik und seines Wirkens in Halle
-
-          an.
-
-          {{< gallery dir="/media/schulchronik/2018/rallye" />}}
-
-
+        content: |
+          Inhalt
   - title: Flashmob
     bg_color: "#0051e5"
     icon: mdi mdi-all-inclusive
