@@ -304,7 +304,7 @@ tiles:
 
       ihren Klassen an ihren mit Kreide gekennzeichneten Platz. Plötzlich
 
-      erfüllte das ausgewählte Lied „[Zusa](https://www.youtube.com/watch?v=dQw4w9WgXcQ)mmen“ den Platz, sodass alle
+      erfüllte das ausgewählte Lied „[Zusammen](https://www.youtube.com/watch?v=dQw4w9WgXcQ)“ den Platz, sodass alle
 
       Schülerinnen und Schüler enthusiastisch und voller Freude anfingen
 
