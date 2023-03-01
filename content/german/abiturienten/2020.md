@@ -1,0 +1,81 @@
+---
+title: Abiturienten 2020
+draft: false
+bg_image: /media/backgrounds/page-title.webp
+image: /media/abiturienten/image.webp
+multiple: false
+type: abiturienten
+gallery: true
+---
+## Klasse 12/1
+
+|**Name**|**Vorname**|
+|---|---|
+|Feuerstake|Fanny-Elisa|
+|Hahnemann|Josefine|
+|Hohlfelder|Florian|
+|Imming|Anna Tirza|
+|Kochmann|Niclas Noah|
+|Köhne|Albert Theodor|
+|Kutko|Elina|
+|Lustfeld|Julius|
+|Milus|Kurt Wolfram|
+|Pärsch|Nina|
+|Reißmann|Jonas|
+|Silbersack|Ludwig|
+|Steinkopf|Tom Erik|
+|Wolter|Anton Peter|
+|Zimmermann|Leander|
+
+## Klasse 12/2
+
+|**Name**|**Vorname**|
+|---|---|
+|Arbeiter|Jonas|
+|Ballhaus|Alina|
+|Berdin|Anton|
+|Böbenroth|Jonas|
+|Clausing|Gregor Henrik|
+|Felgner|Linus Jonathan|
+|Franko|Heinrich Immanuel|
+|Hannemann|Julius Tom|
+|Hertha|Mathis|
+|Hildmann|Martin Jonathan|
+|Kurth|Vincent|
+|Pohl|Jesse|
+|Reiche|Estelle|
+|Schimpf|Lennart Maximilian|
+|Stephan|Vivien Josephine|
+|Ta Ngoc|Hoang|
+|Ta Ngoc|Phi|
+|Trödel|Cedric|
+|Weißflog|Franz|
+|Wend|Marc|
+|Wisotzki|Hannes|
+|Wollstein|Jonas|
+
+## Klasse 12/3
+
+|**Name**|**Vorname**|
+|---|---|
+|Bleck|Constantin|
+|Brumme|Sergej|
+|Elster|Noha Daniel|
+|Fiedler|Sebastian|
+|Fuchs|Janosch|
+|Kuhn|Anton|
+|Lahmann|Gustav|
+|Puls|Ivan Iker|
+|Richter|Sihaam|
+|Ronniger|Laurenz Erhard|
+|Schaldach|Maximilian|
+|Schneider|Paul Herbert|
+|Trebstein|Gregor Matteo|
+|Weitkemper|Jan|
+|Wensch|Leonhard Alexander|
+|Witt|Paul|
+|Zeitler|Arno|
+
+
+
+
