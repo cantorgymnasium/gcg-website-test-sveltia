@@ -1,5 +1,5 @@
 ---
-title: Abiturenten 2020
+title: Abiturienten 2020
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 image: /media/abiturienten/image.webp
