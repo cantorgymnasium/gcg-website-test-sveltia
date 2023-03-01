@@ -142,15 +142,12 @@ tiles:
   - title: Aktionen
     bg_color: "#0fe008"
     icon: mdi mdi-theater
-    content: >+
+    content: >
       Den Freitag, den zweiten Tag der Festtage zum 30.Jubiläum, verbrachten
       Schülerinnen und Schüler mit unterschiedlichen Aktionen, wie zum Beispiel
       einem Kinobesuch, einer Vorlesung in Physik oder einer Rallye durch die
-      Stadt Halle auf den Spuren von Georg Cantor.
-
-
-
-
+      Stadt Halle auf den Spuren von Georg Cantor, in Form von 4
+      selbstprogrammierten Cantor-Apps.
     font_color: "#ffffff"
     unterhaufen:
       - title: Überblick
@@ -263,8 +260,44 @@ tiles:
 
           T. R.
       - title: Cantor-Rallye
-        content: |
-          Inhalt
+        content: >+
+          Anlässlich des 100. Todestages des in Halle tätigen Mathematikers Georg
+          Ferdinand Ludwig Phillip Cantor gestaltete das Georg-Cantor-Gymnasium,
+          mit Unterstützung von Lehramtsstudierenden der Universität Leipzig,
+          vier interaktive Stadtrallyes.
+
+
+          Die Schülerinnen und Schüler der Schulchronik-AG erarbeiteten Themen rund um
+
+          Cantors Mathematik. Dieses Wissen wurde mit dem historischen Wirken Cantors in
+
+          Halle verknüpft und anschaulich in vier Stadtrallyes verpackt. Die vier Rallyes haben
+
+          einen unterschiedlichen Schwierigkeitsgrad und sind demnach für verschiedene
+
+          Klassenstufen geeignet.
+
+          Innerhalb von 90 Minuten können die Teams mit Hilfe ihres Smartphones das Leben
+
+          und Wirken Cantors hautnah erfahren. Die Routen führen dabei unter anderem zu
+
+          Cantors Wohnhaus, dem Cantor-Gymnasium, der neuen Leopoldina oder dem
+
+          Hallmarkt. Dort lösen sie nicht nur geschichtliche Probleme, sondern erlernen
+
+          spielerisch Cantors Mathematik. Durch das richtige Beantworten der Fragen sammeln
+
+          sie Punkte, wodurch am Ende das „Cantor-Meister-Team“ bestimmt werden kann.
+
+          Natürlich sind die verschiedene Rallyes auch ohne schulischen Kontext spielbar und
+
+          regen so Jung und Alt zur Erforschung Cantors Mathematik und seines Wirkens in Halle
+
+          an.
+
+          {{< gallery dir="/medai/schulchronik/2018/rallye" />}}
+
+
   - title: Flashmob
     bg_color: "#0051e5"
     icon: mdi mdi-all-inclusive
