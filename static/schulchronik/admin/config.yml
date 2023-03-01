@@ -105,6 +105,19 @@ collections:
             fields:
               - {label: "Jahr", name: "jahr", widget: "number", required: true}
               - {label: "Schnitt", name: "schnitt", widget: "number", value_type: "float", step: 0.01, required: true}
+      - name: "schuelerzahlen"
+        label: "Schülerzahlen"
+        file: "static/data/schuelerzahlen.json"
+        fields:
+          - label: "Schülerzahlen"
+            label_singular: "Schülerzahlen"
+            name: "schuelerzahlen"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Jahr", name: "year", widget: "number", required: true}
+              - {label: "Gesamt", name: "all", widget: "number", required: true}
+              - {label: "davon Mädchen", name: "girls", widget: "number", required: true}
   - name: "cantorpreis"
     icon: "award"
     label: "Cantor-Preisträger"
