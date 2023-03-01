@@ -311,23 +311,6 @@ aliases:
             data: data['schuelerzahlen'].map(function (item) {
               return (item['girls']/item['all']*100).toFixed(2);;
             }),
-            markLine: {
-              silent: true,
-              lineStyle: {
-                color: "#333"
-              },
-              data: [
-                {
-                  yAxis: 100
-                },
-                {
-                  yAxis: 300
-                },
-                {
-                  yAxis: 500
-                }
-              ]
-            }
           }
           ]
         })
