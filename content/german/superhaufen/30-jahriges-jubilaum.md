@@ -254,66 +254,48 @@ tiles:
 
           Cantor Rallye, welche der nächste Abschnitt des Tages war.
       - title: Cantor-Rallye
-        content: |
-          Inhalt
+        content: >+
+          Anlässlich des 100. Todestages des in Halle tätigen Mathematikers Georg
+          Ferdinand Ludwig Phillip Cantor gestaltete das Georg-Cantor-Gymnasium,
+          mit Unterstützung von Lehramtsstudierenden der Universität Leipzig,
+          vier interaktive Stadtrallyes.
+
+
+          Die Schülerinnen und Schüler der Schulchronik-AG erarbeiteten Themen rund um
+
+          Cantors Mathematik. Dieses Wissen wurde mit dem historischen Wirken Cantors in
+
+          Halle verknüpft und anschaulich in vier Stadtrallyes verpackt. Die vier Rallyes haben
+
+          einen unterschiedlichen Schwierigkeitsgrad und sind demnach für verschiedene
+
+          Klassenstufen geeignet.
+
+          Innerhalb von 90 Minuten können die Teams mit Hilfe ihres Smartphones das Leben
+
+          und Wirken Cantors hautnah erfahren. Die Routen führen dabei unter anderem zu
+
+          Cantors Wohnhaus, dem Cantor-Gymnasium, der neuen Leopoldina oder dem
+
+          Hallmarkt. Dort lösen sie nicht nur geschichtliche Probleme, sondern erlernen
+
+          spielerisch Cantors Mathematik. Durch das richtige Beantworten der Fragen sammeln
+
+          sie Punkte, wodurch am Ende das „Cantor-Meister-Team“ bestimmt werden kann.
+
+          Natürlich sind die verschiedene Rallyes auch ohne schulischen Kontext spielbar und
+
+          regen so Jung und Alt zur Erforschung Cantors Mathematik und seines Wirkens in Halle
+
+          an.
+
+          {{< gallery dir="/media/schulchronik/2018/rallye" />}}
+
+
   - title: Flashmob
     bg_color: "#0051e5"
     icon: mdi mdi-all-inclusive
-    content: >
-      ## **Flashmob**
-
-
-      Unser geliebtes Gymnasium feierte im Jahr 2018 sein 30-jähriges Jubiläum.
-
-      Nach reichlicher Überlegung kam unserem Schuldirektor Herrn Gorsler
-
-      die Idee einen Flashmob zu veranstalten. Die genaue Form – das mit
-
-      Georg Cantor verbundene Unendlichkeitszeichen – schlug Frau Schmidt
-
-      vor. Daraufhin arbeiteten die Lehrer und Schüler eifrig daran, diese
-
-      Idee auf dem halleschen Markt zu verwirklichen.
-
-
-      Die endgültige Aufstellung wurde von Herrn Plinke und einigen Schülern
-
-      skizziert und festgelegt. Das Unendlichkeitszeichen sollte aus allen
-
-      Cantorianern bestehen. Damit auch alles geordnet ablief, organisierte
-
-      Herr Plinke mit seinem Team zwei Generalproben auf dem Schulhof.
-
-
-      Während des Flashmobs sollte es allerdings nicht still bleiben. Die Schüler
-
-      wurden aufgefordert, gemeinsameine veränderte
-
-      Version des Liedes „Zusammen“ von den Fantastischen Vier zu
-
-      singen. Die Auswahl dieses Songs wurde durch die Musiklehrer
-
-      getroffen und der Text entsprechend des Anlasses angepasst.
-
-
-      Nun waren alle Vorbereitungen getroffen. Am Freitag, den 28.09.2018,
-
-      liefen die Schülerinnen und Schüler im Anschluss an die Rallye zum
-
-      Markt. Nach und nach trafen die Schüler ein und stellen sich in
-
-      ihren Klassen an ihren mit Kreide gekennzeichneten Platz. Plötzlich
-
-      erfüllte das ausgewählte Lied „[Zusammen](https://www.youtube.com/watch?v=dQw4w9WgXcQ)“ den Platz, sodass alle
-
-      Schülerinnen und Schüler enthusiastisch und voller Freude anfingen
-
-      zu singen. Passanten blieben gebannt stehen und applaudierten.
-
-
-      Der Flashmob bildete einen krönenden Abschluss der Festwoche.
-
-
-      {{< gallery dir="/media/schulchronik/2018/liedtext" />}}
+    content: |
+      inhalt
     font_color: "#ffffff"
 ---
