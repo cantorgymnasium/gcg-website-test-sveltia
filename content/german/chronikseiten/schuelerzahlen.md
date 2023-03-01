@@ -8,43 +8,317 @@ gallery: false
 aliases:
   - /schulchronik/pages/schülerzahlen
 ---
-|Schuljahr|Schülerzahlen gesamt|davon Mädchen|Anteil Mädchen in %|
-|---|---|---|---|
-|1988/1989|54|11|20,3|
-|1989/1990|101|14|13,8|
-|1990/1991|173|36|20,8|
-|1991/1992|340|70|20,6|
-|1992/1993|397|99|24,9|
-|1993/1994|446|122|27,4|
-|1994/1995|501|133|26,5|
-|1995/1996|523|149|28,5|
-|1996/1997|555|162|29,2|
-|1997/1998|551|163|29,6|
-|1998/1999|526|152|28,9|
-|1999/2000|581|177|30,5|
-|2000/2001|540|168|31,1|
-|2001/2002|595|179|30,1|
-|2002/2003|587|176|30,0|
-|2003/2004|605|186|30,7|
-|2004/2005|618|183|29,6|
-|2005/2006|604|182|30,1|
-|2006/2007|594|175|29,5|
-|2007/2008|519|139|26,8|
-|2008/2009|509|136|26,7|
-|2009/2010|513|135|26,3|
-|2010/2011|509|137|26,9|
-|2011/2012|514|139|27,0|
-|2012/2013|504|132|26,2|
-|2013/2014|524|127|24,2|
-|2014/2015|536|137|25,6|
-|2015/2016|525|139|26,5|
-|2016/2017|527|138|26,2|
-|2017/2018|522|135|25,9|
-|2018/2019|531|138|26,0|
-|2019/2020|537|141|26,3|
+<style>
+#chart-container {
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+}
+</style>
 
-## Schülerzahlen
-
-![Schülerzahlen Diagramm](/media/statistiken/schuelerzahlen_diagramm1.webp)
-
-![Schülerzahlen Diagramm](/media/statistiken/schuelerzahlen_diagramm2.webp)
+<div id="chart-container"></div>
+<script>
+  var dom = document.getElementById("chart-container");
+  echarts.registerLocale("DE", {
+    time: {
+        month: [
+            'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
+            'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'
+        ],
+        monthAbbr: [
+            'Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun',
+            'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'
+        ],
+        dayOfWeek: [
+            'Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'
+        ],
+        dayOfWeekAbbr: [
+            'So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'
+        ]
+    },
+    legend: {
+        selector: {
+            all: 'Alle',
+            inverse: 'Invertiert'
+        }
+    },
+    toolbox: {
+        brush: {
+            title: {
+                rect: 'Box Auswahl',
+                polygon: 'Lasso Auswahl',
+                lineX: 'Horizontale Auswahl',
+                lineY: 'Vertikale Auswahl',
+                keep: 'Bereich Auswahl',
+                clear: 'Auswahl zurücksetzen'
+            }
+        },
+        dataView: {
+            title: 'Daten Ansicht',
+            lang: ['Daten Ansicht', 'Schließen', 'Aktualisieren']
+        },
+        dataZoom: {
+            title: {
+                zoom: 'Zoom',
+                back: 'Zoom zurücksetzen'
+            }
+        },
+        magicType: {
+            title: {
+                line: 'Zu Liniendiagramm wechseln',
+                bar: 'Zu Balkendiagramm wechseln',
+                stack: 'Stapel',
+                tiled: 'Kachel'
+            }
+        },
+        restore: {
+            title: 'Wiederherstellen'
+        },
+        saveAsImage: {
+            title: 'Als Bild speichern',
+            lang: ['Rechtsklick zum Speichern des Bildes']
+        }
+    },
+    series: {
+        typeNames: {
+            pie: 'Tortendiagramm',
+            bar: 'Balkendiagramm',
+            line: 'Liniendiagramm',
+            scatter: 'Streudiagramm',
+            effectScatter: 'Welligkeits-Streudiagramm',
+            radar: 'Radar-Karte',
+            tree: 'Baum',
+            treemap: 'Baumkarte',
+            boxplot: 'Boxplot',
+            candlestick: 'Kerzenständer',
+            k: 'K Liniendiagramm',
+            heatmap: 'Heatmap',
+            map: 'Karte',
+            parallel: 'Parallele Koordinatenkarte',
+            lines: 'Liniendiagramm',
+            graph: 'Beziehungsgrafik',
+            sankey: 'Sankey-Diagramm',
+            funnel: 'Trichterdiagramm',
+            gauge: 'Meßanzeige',
+            pictorialBar: 'Bildlicher Balken',
+            themeRiver: 'Thematische Flusskarte',
+            sunburst: 'Sonnenausbruch'
+        }
+    },
+    aria: {
+        general: {
+            withTitle: 'Dies ist ein Diagramm über "{title}"',
+            withoutTitle: 'Dies ist ein Diagramm'
+        },
+        series: {
+            single: {
+                prefix: '',
+                withName: ' mit Typ {seriesType} namens {seriesName}.',
+                withoutName: ' mit Typ {seriesType}.'
+            },
+            multiple: {
+                prefix: '. Es besteht aus {seriesCount} Serienzählung.',
+                withName: ' Die Serie {seriesId} ist ein {seriesType} welcher {seriesName} darstellt.',
+                withoutName: ' Die {seriesId}-Reihe ist ein {seriesType}.',
+                separator: {
+                    middle: '',
+                    end: ''
+                }
+            }
+        },
+        data: {
+            allData: 'Die Daten sind wie folgt: ',
+            partialData: 'Die ersten {displayCnt} Elemente sind: ',
+            withName: 'die Daten für {name} sind {value}',
+            withoutName: '{value}',
+            separator: {
+                middle: ',',
+                end: '.'
+            }
+        }
+    }
+});
+  var chart = echarts.init(dom, null, {
+    renderer: "canvas",
+    useDirtyRect: false,
+    locale: "DE"
+  });
+  var option;
+  jQuery.get("/data/schuelerzahlen.json",
+    function (data) {
+      chart.setOption(
+        (option = {
+          title: {
+            text: "Schülerzahlen",
+          },
+          tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+              // Use axis to trigger tooltip
+              type: 'shadow' // 'shadow' as default; can also be 'line' or 'shadow'
+            },
+          },
+          xAxis: {
+            data: data['schuelerzahlen'].map(function (item) {
+              return item['year'];
+            })
+          },
+          yAxis: [{
+            min: 0,
+            inverse: false
+          }, {
+            min: 0,
+            max: 100,
+            axisLabel: {
+              formatter: '{value}%'
+            }
+          }],
+          toolbox: {
+            right: 10,
+            feature: {
+              dataZoom: {
+                yAxisIndex: "none"
+              },
+              restore: {},
+              saveAsImage: {}
+            }
+          },
+          dataZoom: [
+            {
+              startValue: "1988"
+            },
+            {
+              type: "inside"
+            }
+          ],
+          /*visualMap: {
+            top: 50,
+            right: 10,
+            precision: 1,
+            pieces: [
+              {
+                gt: 0.9,
+                lte: 1.0,
+                color: "#005da9",
+              },
+              {
+                gt: 1.0,
+                lte: 1.5,
+                color: "#0b9834"
+              },
+              {
+                gt: 1.5,
+                lte: 2.0,
+                color: "#93CE07"
+              },
+              {
+                gt: 2.0,
+                lte: 2.5,
+                color: "#FBDB0F"
+              },
+              /*{
+                gt: 2.0,
+                lte: 2.5,
+                color: "#FC7D02"
+              },
+            ],
+            outOfRange: {
+              color: "#999"
+            }
+          },*/
+          series: [{
+            name: "Jungen",
+            type: "bar",
+            stack: "total",
+            color: "#7099dc",
+            data: data['schuelerzahlen'].map(function (item) {
+              return item['all'] - item['girls'];
+            }),
+            markLine: {
+              silent: true,
+              lineStyle: {
+                color: "#333"
+              },
+              data: [
+                {
+                  yAxis: 100
+                },
+                {
+                  yAxis: 300
+                },
+                {
+                  yAxis: 500
+                }
+              ]
+            }
+          },
+          {
+            name: "Mädchen",
+            type: "bar",
+            color: "#ff6a6a",
+            stack: "total",
+            data: data['schuelerzahlen'].map(function (item) {
+              return item['girls'];
+            }),
+            markLine: {
+              silent: true,
+              lineStyle: {
+                color: "#333"
+              },
+              data: [
+                {
+                  yAxis: 100
+                },
+                {
+                  yAxis: 300
+                },
+                {
+                  yAxis: 500
+                }
+              ]
+            }
+          },
+          {
+            name: "Insgesamt",
+            color: "#98e17f",
+            type: "line",
+            data: data['schuelerzahlen'].map(function (item) {
+              return item['all'];
+            }),
+            markLine: {
+              silent: true,
+              lineStyle: {
+                color: "#333"
+              },
+              data: [
+                {
+                  yAxis: 100
+                },
+                {
+                  yAxis: 300
+                },
+                {
+                  yAxis: 500
+                }
+              ]
+            }
+          },
+          {
+            name: "Anteil Mädchen",
+            type: "line",
+            color: "#dc9870",
+            yAxisIndex: 1,
+            data: data['schuelerzahlen'].map(function (item) {
+              return (item['girls']/item['all']*100).toFixed(2);;
+            }),
+          }
+          ]
+        })
+      );
+    }
+  );
+  if (option && typeof option === "object") {
+    chart.setOption(option);
+  }
+  window.addEventListener("resize", chart.resize);
+</script>
