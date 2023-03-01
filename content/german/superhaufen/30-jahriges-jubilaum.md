@@ -295,7 +295,7 @@ tiles:
 
           an.
 
-          {{< gallery dir="/media/schulchronik/2018/rally" />}}
+          {{< gallery dir="/media/schulchronik/2018/rallye" />}}
 
 
   - title: Flashmob
