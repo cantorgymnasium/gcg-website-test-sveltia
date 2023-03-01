@@ -259,7 +259,65 @@ tiles:
   - title: Flashmob
     bg_color: "#0051e5"
     icon: mdi mdi-all-inclusive
-    content: |
-      inhalt
+    content: >+
+      ## **Flashmob**
+
+
+      Unser geliebtes Gymnasium feierte im Jahr 2018 sein 30-jähriges Jubiläum.
+
+      Nach reichlicher Überlegung kam unserem Schuldirektor Herrn Gorsler
+
+      die Idee einen Flashmob zu veranstalten. Die genaue Form – das mit
+
+      Georg Cantor verbundene Unendlichkeitszeichen – schlug Frau Schmidt
+
+      vor. Daraufhin arbeiteten die Lehrer und Schüler eifrig daran, diese
+
+      Idee auf dem halleschen Markt zu verwirklichen.
+
+
+      Die endgültige Aufstellung wurde von Herrn Plinke und einigen Schülern
+
+      skizziert und festgelegt. Das Unendlichkeitszeichen sollte aus allen
+
+      Cantorianern bestehen. Damit auch alles geordnet ablief, organisierte
+
+      Herr Plinke mit seinem Team zwei Generalproben auf dem Schulhof.
+
+
+      Während des Flashmobs sollte es allerdings nicht still bleiben. Die Schüler
+
+      wurden aufgefordert, gemeinsameine veränderte
+
+      Version des Liedes „Zusammen“ von den Fantastischen Vier zu
+
+      singen. Die Auswahl dieses Songs wurde durch die Musiklehrer
+
+      getroffen und der Text entsprechend des Anlasses angepasst.
+
+
+      Nun waren alle Vorbereitungen getroffen. Am Freitag, den 28.09.2018,
+
+      liefen die Schülerinnen und Schüler im Anschluss an die Rallye zum
+
+      Markt. Nach und nach trafen die Schüler ein und stellen sich in
+
+      ihren Klassen an ihren mit Kreide gekennzeichneten Platz. Plötzlich
+
+      erfüllte das ausgewählte Lied „Zusammen“ den Platz, sodass alle
+
+      Schülerinnen und Schüler enthusiastisch und voller Freude anfingen
+
+      zu singen. Passanten blieben gebannt stehen und applaudierten.
+
+
+      Der Flashmob bildete einen krönenden Abschluss der Festwoche.
+
+
+
+
+      {{< gallery dir="/media/schulchronik/2018/liedtext" />}}
+
+
     font_color: "#ffffff"
 ---
