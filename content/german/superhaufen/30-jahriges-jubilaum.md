@@ -260,7 +260,7 @@ tiles:
 
           T. R.
       - title: Cantor-Rallye
-        content: >
+        content: >+
           Anlässlich des 100. Todestages des in Halle tätigen Mathematikers Georg
           Ferdinand Ludwig Phillip Cantor gestaltete das Georg-Cantor-Gymnasium,
           mit Unterstützung von Lehramtsstudierenden der Universität Leipzig,
@@ -295,7 +295,9 @@ tiles:
 
           an.
 
-          {{< gallery dir="/medai/schulchronik/2018/rallye" />}}
+          {{< gallery dir="/media/schulchronik/2018/rally" />}}
+
+
   - title: Flashmob
     bg_color: "#0051e5"
     icon: mdi mdi-all-inclusive
