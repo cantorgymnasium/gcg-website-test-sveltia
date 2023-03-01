@@ -157,6 +157,13 @@ aliases:
               // Use axis to trigger tooltip
               type: 'shadow' // 'shadow' as default; can also be 'line' or 'shadow'
             },
+            formatter: function (params, ticket, callback) {
+              var output = "";
+              params.forEach(function(param) {
+                output = output + "<b>" + param.seriesName + ":</b> " + param.value + (param.seriesName == "Anteil Mädchen" ? "%" : "") + "<br>";
+              });
+              return output;
+            }
           },
           xAxis: {
             data: data['schuelerzahlen'].map(function (item) {
@@ -191,41 +198,6 @@ aliases:
               type: "inside"
             }
           ],
-          /*visualMap: {
-            top: 50,
-            right: 10,
-            precision: 1,
-            pieces: [
-              {
-                gt: 0.9,
-                lte: 1.0,
-                color: "#005da9",
-              },
-              {
-                gt: 1.0,
-                lte: 1.5,
-                color: "#0b9834"
-              },
-              {
-                gt: 1.5,
-                lte: 2.0,
-                color: "#93CE07"
-              },
-              {
-                gt: 2.0,
-                lte: 2.5,
-                color: "#FBDB0F"
-              },
-              /*{
-                gt: 2.0,
-                lte: 2.5,
-                color: "#FC7D02"
-              },
-            ],
-            outOfRange: {
-              color: "#999"
-            }
-          },*/
           series: [{
             name: "Jungen",
             type: "bar",
@@ -250,7 +222,7 @@ aliases:
                   yAxis: 500
                 }
               ]
-            }
+            },
           },
           {
             name: "Mädchen",
@@ -285,6 +257,12 @@ aliases:
             data: data['schuelerzahlen'].map(function (item) {
               return item['all'];
             }),
+            lineStyle: {
+              normal: {
+                width: 0,
+              }
+            },
+            symbolSize: 0,
             markLine: {
               silent: true,
               lineStyle: {
@@ -300,13 +278,13 @@ aliases:
                 {
                   yAxis: 500
                 }
-              ]
+              ],
             }
           },
           {
             name: "Anteil Mädchen",
             type: "line",
-            color: "#dc9870",
+            color: "#4b4b4b",
             yAxisIndex: 1,
             data: data['schuelerzahlen'].map(function (item) {
               return (item['girls']/item['all']*100).toFixed(2);;
