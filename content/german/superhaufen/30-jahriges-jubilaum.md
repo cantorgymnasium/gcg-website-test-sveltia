@@ -259,7 +259,7 @@ tiles:
   - title: Flashmob
     bg_color: "#0051e5"
     icon: mdi mdi-all-inclusive
-    content: >+
+    content: >
       ## **Flashmob**
 
 
@@ -304,7 +304,7 @@ tiles:
 
       ihren Klassen an ihren mit Kreide gekennzeichneten Platz. Plötzlich
 
-      erfüllte das ausgewählte Lied „Zusammen“ den Platz, sodass alle
+      erfüllte das ausgewählte Lied „[Zusammen](https://www.youtube.com/watch?v=dQw4w9WgXcQ)“ den Platz, sodass alle
 
       Schülerinnen und Schüler enthusiastisch und voller Freude anfingen
 
@@ -314,10 +314,6 @@ tiles:
       Der Flashmob bildete einen krönenden Abschluss der Festwoche.
 
 
-
-
       {{< gallery dir="/media/schulchronik/2018/liedtext" />}}
-
-
     font_color: "#ffffff"
 ---
