@@ -3,17 +3,17 @@ title: Über Georg Cantor
 draft: false
 bg_image: media/backgrounds/page-title.webp
 type: pages
-template: single.html
 layout: single.html
 gallery: false
 aliases:
   - /schulchronik/pages/cantor
 ---
-![Cantor Kopf](/media/about/cantor-kopf.webp)
+<figure>
+<img src="/media/about/cantor-kopf.webp">
+<figcaption>Georg Cantor (03.03.1845 - 06.01.1918)</figcaption>
+</figure>
 
-Georg Cantor (03.03.1845 - 06.01.1918)
-
-"In der Mathematik ist die Kunst des Fragen stellens wichtiger, als die des Lösens."
+> "In der Mathematik ist die Kunst des Fragen stellens wichtiger, als die des Lösens."
 
 ## Cantors Kindheit und Jugend
 
@@ -28,12 +28,12 @@ Sein Studium begann er im Herbst 1862 an der Universität in Zürich. Nach dem e
 
 Georg Cantor gilt als der Begründer der Mengenlehre. Er kämpfte ein Leben lang für ihre Anerkennung, doch konnte er durch seine Krankheit seit 1884 dieses Werk nicht mit voller Kraft durchsetzen.1868 Staatsprüfung für das höhere Lehramt
 
-- 1872 Hauptarbeit über trigonometrische Reihen in Halle
-- 1873 Beweis einer eineindeutigen Zuordnung zwischen den natürlichen und positiv rationalen Zahlen
-- 1874 Beweis der Abzählbarkeit der algebraischen Zahlen wurde im Crelleschen Journal veröffentlicht.
-- 1877 Beweis einer eineindeutigen Zuordnung zwischen den Punkten eines Einheitsquadrates und den irrationalen Zahlen
-- 1879 - 1883 Arbeit mit dem Titel "Über lineare unendliche Punktmanigfaltigkeiten", die in sechs Teile gegliedert war
+- 1872: Hauptarbeit über trigonometrische Reihen in Halle
+- 1873: Beweis einer eineindeutigen Zuordnung zwischen den natürlichen und positiv rationalen Zahlen
+- 1874: Beweis der Abzählbarkeit der algebraischen Zahlen wurde im Crelleschen Journal veröffentlicht.
+- 1877: Beweis einer eineindeutigen Zuordnung zwischen den Punkten eines Einheitsquadrates und den irrationalen Zahlen
+- 1879-1883: Arbeit mit dem Titel "Über lineare unendliche Punktmanigfaltigkeiten", die in sechs Teile gegliedert war
 
-# Auf den Spuren von Georg Cantor
+## Auf den Spuren von Georg Cantor
 
 {{< card link="http://www.geocaching.com/seek/cache_details.aspx?wp=GC2VXTW" title="Geo(rg)Caching" >}}

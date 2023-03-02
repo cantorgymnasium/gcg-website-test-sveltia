@@ -14,4 +14,4 @@ Eingeladen sind alle Schüler, Lehrer, Ehemalige, Sympathisanten des Georg-Canto
 Mit freundlichen Grüßen
 Stefan Schwarz (Jahrgang 2002)
 
-P.S. Ideen sowie Themenvorschläge für nachfolgende Veranstaltungen können jederzeit beim Schülerrat eingereicht werden!
+P.S.: Ideen sowie Themenvorschläge für nachfolgende Veranstaltungen können jederzeit beim Schülerrat eingereicht werden!

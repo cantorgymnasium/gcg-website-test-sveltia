@@ -4,7 +4,6 @@ draft: false
 
 bg_image: "media/backgrounds/page-title.webp"
 ---
-
 Anno MMV - eine Schar von alten Männern mit langen weißen Bärten machte sich auf,
 um die Geschichte unseres Gymnasiums mit Federkielen aufzuschreiben??? Nein, nein,
 wir waren und sind eine bunt zusammengewürfelte Truppe, meist aus Lateinern, die
@@ -15,10 +14,15 @@ befallen und haben eine eigene Homepage erstellt, die als Teil der Schulhomepage
 jedem Interessierten die wechselvolle Geschichte des GCG präsentiert.
 
 ---
-![Cantor](/media/schulchronik/cantor1.webp)
-
-# "Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."
-aus 'David Hilbert, Über das Unendliche', Math. Ann. 95</p><br>
+<div class="row">
+<div class="col-3">
+<img src="/media/schulchronik/cantor1.webp">
+</div>
+<div class="col-9">
+<h1>"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."</h1>
+aus 'David Hilbert, Über das Unendliche', Math. Ann. 95
+</div>
+</div>
 
 ---
 
@@ -35,8 +39,6 @@ aus 'David Hilbert, Über das Unendliche', Math. Ann. 95</p><br>
     {{< card-small link="/chronikseiten/traditionen" title="Traditionen" >}}
     {{< card-small link="/chronikseiten/chronisten" title="Chronistenteam" >}}
 </div>
-
----
 
 
 ## Chronik

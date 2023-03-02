@@ -21,7 +21,7 @@ Prinzipiell steht das Interesse der Schülerschaft im Vordergrund. Wir möchten 
 
 Je nach Thema und Gast/Gästen wird es sich um Einzelvorträge, Diskussionsrunden u.ä. handeln. Wichtig dabei ist die Einrichtung einer offenen Zeit im Anschluss an die Veranstaltung, wo bei einem kleinen Imbiss und Getränken den Schülern die Möglichkeit gegeben werden soll, mit den Gästen ins Gespräch zu kommen. Eventuell ergeben sich dadurch ein interessanter Gedankenaustausch oder sogar weiterführende Kontakte.
 
-## Wer sind eigentlich „wir“ ?
+## Wer sind eigentlich „wir“?
 
 Bei wir handelt es sich momentan hauptsächlich um:
 
@@ -31,16 +31,4 @@ Bei wir handelt es sich momentan hauptsächlich um:
 
 „Wir“ kann sich aber auch gerne erweitern, heißt also über Hilfe jeglicher Art freuen wir uns natürlich. Die Erörterung der Frage, warum wir das eigentlich machen, ersparen wir uns. Kurz: Wir halten es für eine gute Idee ;-).
 
----
-
-
-
 {{< card title="Cantorfora" link="/cantorfora" >}}
-
-
-
----
-
-
-
-

@@ -9,7 +9,7 @@ aliases:
   - /schulchronik/pages/ueber-das-gcg
 ---
 
-Da bereits auf der Schulwebsite inhaltlich über das Georg-Cantor-Gymnasium berichtet wird, widmet sich die Schulchronik an dieser Stelle ergänzenden Bereichen, welche die historische Sicht auf die Schule erweitern.
+Da bereits an verschiedenen Stellen auf der Schulwebsite inhaltlich über das Georg-Cantor-Gymnasium berichtet wird, widmet sich die Schulchronik an dieser Stelle ergänzenden Bereichen, welche die historische Sicht auf die Schule erweitern.
 
 
 Seit der Gründung der Spezialschule mit inhaltlichem Schwerpunkt in den Bereichen Mathematik und Naturwissenschaften hat sich das Aufnahmeverfahren für Schüler verändert. Dieser Werdegang ist im folgenden dargestellt.
@@ -17,7 +17,15 @@ Seit der Gründung der Spezialschule mit inhaltlichem Schwerpunkt in den Bereich
 
 {{% collapsible  title="Der Weg zum GCG" %}}
 
-![Erkennungsurkunde](/media/schulchronik/1990/wegbild.webp)
+|1988-1990|1990-1995|ab 1995|
+|-|-|-|
+|**- Aufnahme von zukünftigen Neuntklässlern**|**- Aufnahme von zukünftigen Siebtklässlern**|**- aufnahme von zukünftigen Fünftklässlern**|
+|**- Empfehlung der Schule**|||
+|**- Antragstellung**|**- Antragstellung**|**- Antragsstellung**|
+|**- Delegierung durch den Rat des Kreises**|||
+|**- Aufnahmeverfahren**<br>1 Woche Unterricht in naturwissenschaftl. Fächern und Mathematik<br>experimentelle Tätigkeiten<br>Anfertigen von Beobachtungsprotokollen durch hispitierende Lehrer<br>Klausuren in naturwissenschaftlichen Fächern und Mathematik<br>Auswertung der Ergebnisse und Beurteilung|**- Aufnahmeverfahren**<br>Gespräche über Allgemeinwissen<br>Durchführen von freien Experimenten<br>Testen sprachlicher Fähigkeiten<br>Auswertung der Ergebnisse und Beurteilung|**- Aufnahmeverfahren**<br>Absolvieren eines kognitiven Fähigkeitstests<br>Schreiben von Klausuren in Mathematik und Biologie, ab 1996 nur in Mathematik<br>Auswertung der Ergebnisse und Beurteilung|
+|**- Bestehen der Aufnahmeprüfung**|**- Bestehen der Aufnahmeprüfung**|**- Bestehen der Aufnahmeprüfung**|
+|**- Sonderweg**<br>Schülerinnen und Schüler der Klassenstufe 11 der Spezialklassen an der MLU konnten ihre Ausbildung am GCG fortsetzen und dort 1992 das Abitur erwerben.||| 
 
 {{< youtube IoinnnyrG0M >}}
 
@@ -85,6 +93,6 @@ Abschluss der Rekonstruktion des neuen Schulstandortes mit der Fertigstellung de
 Danach konnte sich das Gebäude auch wirklich sehen lassen.
 
 
-Sogar die Sprüche, welche sich über einigen Türen im Gebäude befanden wurden restauriert.
+Sogar die Sprüche, welche sich über einigen Türen im Gebäude befanden, wurden restauriert.
 
 {{< card title="Historische Türüberschriften im Gebäude Torstraße" link="/schulchronik/pages/tuerueberschriften-torstrasse" >}}
