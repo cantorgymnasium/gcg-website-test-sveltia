@@ -1,7 +1,7 @@
 ---
 title: Festwoche 2023
 date: 2023-03-03T12:13:34+01:00
-draft: true
+draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/GCGFestwoche.webp
@@ -70,9 +70,11 @@ Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. 
 
 ### Cantorpreis 2023
 
-… geht an: Bernhard Fuchs! 
+… geht an: Bernhard Fuchs!
 
 
+
+{{< card title="Cantorpreisträger 2023" link="content/german/blog/cantorpreisverleihung-2023.md" >}}
 
 
 
