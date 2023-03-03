@@ -1,6 +1,6 @@
 ---
 title: Festwoche 2023
-date: 2023-02-22T12:45:04+01:00
+date: 2023-03-03T12:13:34+01:00
 draft: true
 bg_image: /media/backgrounds/page-title.webp
 description: ""
@@ -58,13 +58,9 @@ Für das leibliche Wohl sorgten unsere 12. Klassen mit einem umfangreichen Buffe
 
 Vom 27. Februar bis 2. März 2023 gestalteten wir gemeinsam die Projektwoche unter dem Motto: "Georg Cantor und das GCG"
 
-Unsere Projektgruppen stellen sich in einem eigenen Website-Bereich vor. 
-
-
+Unsere Projektgruppen stellen sich in einem eigenen Website-Bereich vor.
 
 {{< card title="Projektübersicht" link="/projektwoche/2023/" >}}
-
-
 
 Hier folgen einige Eindrücke vom Präsentationstag, an welchem die Schülerinnen und Schüler bei den anderen Projektgruppen vorbeischauen konnten:
 
@@ -73,6 +69,12 @@ Hier folgen einige Eindrücke vom Präsentationstag, an welchem die Schülerinne
 Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. Klassen schrieben am Montag, Mittwoch und Freitag Vorabis, die 11. waren überwiegend in den Modulkursen Physik und Biologie an der Uni Halle oder unterstützten Projektgruppen in ihrer Arbeit.
 
 ### Cantorpreis 2023
+
+… geht an: Bernhard Fuchs! 
+
+
+
+
 
 {{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantorpreistraeger" />}}
 
