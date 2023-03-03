@@ -1,7 +1,7 @@
 ---
 title: Festwoche 2023
 date: 2023-03-03T12:13:34+01:00
-draft: false
+draft: true
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/GCGFestwoche.webp
