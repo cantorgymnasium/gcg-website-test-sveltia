@@ -8,6 +8,8 @@ image: /media/blog/modul-chemie-2023.webp
 author: Erik Zschoche
 categories:
   - Naturwissenschaften
+tags:
+  - Modulkurs
 type: post
 gallery: true
 ---
