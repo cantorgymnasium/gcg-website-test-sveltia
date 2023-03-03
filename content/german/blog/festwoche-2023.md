@@ -57,7 +57,7 @@ Für das leibliche Wohl sorgten unsere 12. Klassen mit einem umfangreichen Buffe
 
 ### Projektwoche
 
-Vom 27. Februar bis 2. März 2023 gestalteten wir gemeinsam die Projektwoche unter dem Motto: "Georg Cantor und das GCG"
+Vom 27. Februar bis 2. März 2023 gestalteten wir gemeinsam die Projektwoche unter dem Motto: "Cantor und die Unendlichkeit"
 
 Unsere Projektgruppen stellen sich in einem eigenen Website-Bereich vor.
 
@@ -75,11 +75,7 @@ Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. 
 
 {{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantorpreistraeger" />}}
 
-
-
 {{< card title="Cantorpreisverleihung 2023" link="/blog/cantorpreisverleihung-2023" >}}
-
-
 
 ### Cantor-Tag
 
