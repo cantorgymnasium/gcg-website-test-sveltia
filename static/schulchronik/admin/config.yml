@@ -184,6 +184,13 @@ collections:
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Type", name: "type", widget: "hidden", default: "superhaufen"}
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      - label: "Rückverlinkung"
+        name: "previous"
+        widget: "object"
+        fields:
+          - {label: "Aktiviert", name: "enable", widget: "hidden", default: true}
+          - {label: "Titel", name: "title", widget: "string", required: true}
+          - {label: "Link", name: "link", widget: "string", required: true}
       - label: "Kacheln"
         name: "tiles"
         widget: "list"

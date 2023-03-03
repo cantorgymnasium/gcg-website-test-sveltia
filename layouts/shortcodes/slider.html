@@ -1,0 +1,75 @@
+<div class="img-slider">
+	{{- with (.Get "dir") -}}
+		{{- $files := readDir (print "/static/" .) }}
+		{{- range $index, $file := $files -}}
+			{{- $isimg := lower $file.Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)" }}
+			{{- if $isimg }}
+				{{- $linkURL := print $.Site.BaseURL "/" ($.Get "dir") "/" $file.Name | absURL }}
+                <div class="is-slide {{if eq $index 0 }}active{{end}}">
+                    <img src="{{ $linkURL }}" alt="">
+                </div>            
+			{{- end }}
+		{{- end }}
+	{{- end }}
+    <div class="is-navigation">
+        <div class="is-btn active"></div>
+        <div class="is-btn"></div>
+        <div class="is-btn"></div>
+        <div class="is-btn"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    var slides = document.querySelectorAll('.is-slide');
+    var btns = document.querySelectorAll('.is-btn');
+    let currentSlide = 1;
+
+    // Javascript for image slider manual navigation
+    var manualNav = function(manual){
+      slides.forEach((slide) => {
+        slide.classList.remove('active');
+
+        btns.forEach((btn) => {
+          btn.classList.remove('active');
+        });
+      });
+
+      slides[manual].classList.add('active');
+      btns[manual].classList.add('active');
+    }
+
+    btns.forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        manualNav(i);
+        currentSlide = i;
+      });
+    });
+
+    // Javascript for image slider autoplay navigation
+    var repeat = function(activeClass){
+      let active = document.getElementsByClassName('active');
+      let i = 1;
+
+      var repeater = () => {
+        setTimeout(function(){
+          [...active].forEach((activeSlide) => {
+            activeSlide.classList.remove('active');
+          });
+
+        slides[i].classList.add('active');
+        btns[i].classList.add('active');
+        i++;
+
+        if(slides.length == i){
+          i = 0;
+        }
+        if(i >= slides.length){
+          return;
+        }
+        repeater();
+    /// Time in ms
+      }, 5000);
+      }
+      repeater();
+    }
+    repeat();
+    </script>

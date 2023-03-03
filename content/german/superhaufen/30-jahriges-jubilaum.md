@@ -4,6 +4,10 @@ draft: false
 bg_image: /media/backgrounds/page-title.webp
 type: superhaufen
 gallery: true
+previous:
+  title: 2018
+  link: /schulchronik/2018/
+  enable: true
 tiles:
   - title: Festveranstaltung
     bg_color: "#ffef00"
@@ -143,11 +147,11 @@ tiles:
     bg_color: "#0fe008"
     icon: mdi mdi-theater
     content: >
-      Den Freitag, den zweiten Tag der Festtage zum 30.Jubiläum, verbrachten
+      Den Freitag, den zweiten Tag der Festtage zum 30. Jubiläum, verbrachten
       Schülerinnen und Schüler mit unterschiedlichen Aktionen, wie zum Beispiel
       einem Kinobesuch, einer Vorlesung in Physik oder einer Rallye durch die
-      Stadt Halle auf den Spuren von Georg Cantor, in Form von 4
-      selbstprogrammierten Cantor-Apps.
+      Stadt Halle auf den Spuren von Georg Cantor, in Form von 4 selbst
+      programmierten Cantor-Apps.
     font_color: "#ffffff"
     unterhaufen:
       - title: Überblick
@@ -309,7 +313,7 @@ tiles:
 
       Nach reichlicher Überlegung kam unserem Schuldirektor Herrn Gorsler
 
-      die Idee einen Flashmob zu veranstalten. Die genaue Form – das mit
+      die Idee, einen Flashmob zu veranstalten. Die genaue Form – das mit
 
       Georg Cantor verbundene Unendlichkeitszeichen – schlug Frau Schmidt
 
@@ -329,7 +333,7 @@ tiles:
 
       Während des Flashmobs sollte es allerdings nicht still bleiben. Die Schüler
 
-      wurden aufgefordert, gemeinsameine veränderte
+      wurden aufgefordert, gemeinsam eine veränderte
 
       Version des Liedes „Zusammen“ von den Fantastischen Vier zu
 
@@ -338,7 +342,7 @@ tiles:
       getroffen und der Text entsprechend des Anlasses angepasst.
 
 
-      Nun waren alle Vorbereitungen getroffen. Am Freitag, den 28.09.2018,
+      Nun waren alle Vorbereitungen getroffen. Am Freitag, dem 28.09.2018,
 
       liefen die Schülerinnen und Schüler im Anschluss an die Rallye zum
 
@@ -346,7 +350,7 @@ tiles:
 
       ihren Klassen an ihren mit Kreide gekennzeichneten Platz. Plötzlich
 
-      erfüllte das ausgewählte Lied „[Zusammen](https://www.youtube.com/watch?v=dQw4w9WgXcQ)“ den Platz, sodass alle
+      erfüllte das ausgewählte Lied „Zusammen“ den Platz, sodass alle
 
       Schülerinnen und Schüler enthusiastisch und voller Freude anfingen
 
@@ -354,6 +358,8 @@ tiles:
 
 
       Der Flashmob bildete einen krönenden Abschluss der Festwoche.
+
+      {{< slider dir="/media/schulchronik/2018/flashmob" >}}
 
 
       {{< gallery dir="/media/schulchronik/2018/liedtext" />}}
