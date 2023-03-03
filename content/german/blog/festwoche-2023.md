@@ -70,13 +70,7 @@ Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. 
 
 ### Cantorpreis 2023
 
-… geht an: Bernhard Fuchs!
-
-
-
-{{< card title="Cantorpreisträger 2023" link="content/german/blog/cantorpreisverleihung-2023.md" >}}
-
-
+… geht an: Bernhard Fuchs
 
 {{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantorpreistraeger" />}}
 
