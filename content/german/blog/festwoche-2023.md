@@ -1,6 +1,6 @@
 ---
 title: Festwoche 2023
-date: 2023-03-03T12:13:34+01:00
+date: 2023-03-03T18:47:59+01:00
 draft: true
 bg_image: /media/backgrounds/page-title.webp
 description: ""
@@ -21,6 +21,7 @@ tags:
   - Projektwoche
   - Cantor-Tag
   - Cantorpreis
+  - "2023"
 type: post
 gallery: true
 ---
