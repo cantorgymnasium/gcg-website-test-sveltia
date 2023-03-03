@@ -4,7 +4,7 @@ date: 2023-03-03T12:08:52+01:00
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/blog/image.webp
+image: /media/blog/chemiemodul202311er.webp
 author: Chiamaka Michelle Okoro
 categories:
   - Naturwissenschaften
