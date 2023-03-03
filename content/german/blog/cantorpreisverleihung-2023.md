@@ -1,7 +1,7 @@
 ---
 title: Cantorpreisverleihung 2023
 date: 2023-03-03T13:18:57+01:00
-draft: false
+draft: true
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/dsc_4181_kopie.webp
