@@ -11,6 +11,7 @@ categories:
   - Veranstaltungen
 tags:
   - Cantorpreis
+  - "2023"
 type: post
 gallery: true
 ---
