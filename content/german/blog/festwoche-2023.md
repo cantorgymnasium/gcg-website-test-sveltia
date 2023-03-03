@@ -74,6 +74,12 @@ Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. 
 
 {{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantorpreistraeger" />}}
 
+
+
+{{< card title="Cantorpreisverleihung 2023" link="/blog/cantorpreisverleihung-2023" >}}
+
+
+
 ### Cantor-Tag
 
 Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den traditionellen Cantor-Tag.
