@@ -16,7 +16,7 @@ gallery: true
 ### Modulkurs Klasse 11
 
 Unser Chemieleistungskurs konnte in der Schule einfach nicht genug von der Chemie bekommen.
-Aus diesem Grund fand in der Woche vor den Winterferien wie jedes Jahr der Modulkurs in Merseburg statt. 
+Aus diesem Grund fand in der Woche vor den Winterferien wie jedes Jahr der Modulkurs in Merseburg statt.
 
 Eine Woche voller interessanter Experimente stand auf dem Plan – in Laborräumlichkeiten,
 die uns freundlicherweise von der Hochschule Merseburg zur Verfügung gestellt wurden.
@@ -31,7 +31,7 @@ Anschließend machten wir uns wie richtige Wissenschaftler auf den Weg, um Wasse
 Ab dem zweiten Tag schrieben wir täglich ein Antestat, ähnlich wie es später in der
 Universität oder Hochschule üblich ist, um unser Wissen bezüglich der Experimente zu überprüfen. Während die Nervosität beim ersten Testat sehr groß war, schwand sie im Verlaufe der Woche und während des gesamten Praktikums gab es niemanden, der durch das Antestat durchfiel.
 
-So konntenwir uns unbesorgt dem Experimentieren widmen. 
+So konntenwir uns unbesorgt dem Experimentieren widmen.
 
 Im Rahmen des Praktikums untersuchten wir unter anderem verschiedene Salzkristalle unter
 dem Mikroskop, bestimmten die Gesamthärte und Leitfähigkeit unserer gesammelten Wasserproben, beobachteten oszillierende Reaktionen und schufen farbenfrohe Springbrunnen mithilfe von Ammoniak und Indikatorlösungen.
@@ -42,3 +42,9 @@ schlossen wir mit dem letzten Antestat, einer finalen Experimentierrunde und ein
 Am Ende gingen wir mit einem tieferen Verständnis für die praktische Laborarbeit und Schutzbrillen als Andenken in die Ferien.
 
 Rückblickend bedanken wir uns bei der Hochschule Merseburg für die Möglichkeit, in ihren Laboren experimentieren zu dürfen, insbesondere bei Prof. Dr. Dr. Kaluderovic und Frau Wusterhausen, die uns stets mit Rat und Tat zur Seite standen. Natürlich gilt unser Dank auch Frau Bernhardt, die uns auch unterstützt, täglich unsere Protokolle korrigiert und diese Erfahrung überhaupt erst möglich gemacht hat.
+
+
+
+{{< gallery dir="media/blog/Modulkurse/Chemie202311er" />}}
+
+
