@@ -31,7 +31,7 @@ Gerahmt von mehreren musikalischen Beiträgen unserer Schülerinnen und Schüler
 
 Nach der Eröffnung folgten die Laudationes für unsere drei Nominierten:
 
-- Frau Bernhardt berichtete über Bernhard Schulkarriere anhand der Aufgaben eines Verteidigungsspielers beim Fußball, denn Bernhard spielt schon viele Jahre leidenschaftlich auf dieser Position. Engagement im Schülerrat, zahlreiche Wettbewerbserfolge in verschiedenen Olympiaden und ausführliche Nachhilfe für seine Mitschüler im Jahrgang.
+- Frau Bernhardt berichtete über Bernhards Schulkarriere anhand der Aufgaben eines Verteidigungsspielers beim Fußball, denn Bernhard spielt schon viele Jahre leidenschaftlich auf dieser Position. Engagement im Schülerrat, zahlreiche Wettbewerbserfolge in verschiedenen Olympiaden und ausführliche Nachhilfe für seine Mitschüler im Jahrgang.
 - Frau Felke umriss Hagens Schullaufbahn. Die Laudatio war inspiriert von seinem Auslandsjahr auf Hawaii. Aus diesem brachte Hagen zahlreiche Ideen zum positiven Feedback im Schulleben mit in den Schülerrat. Auch er überzeugte mit vielen Wettbewerbserfolgen und starken schulischen Leistungen.
 - Zuletzt stellte uns Frau Jacob Arvid vor und welche Erlebnisse sie mit ihm bei Mathematik-Olympiaden sammelte. Bereits in der 8. Klasse leitete er die Volumenformel einer Pyramide her und beschäftigte sich eigenständig mit den dazu notwendigen Konstrukten, wie z.B. Grenzwerten.
 
@@ -39,6 +39,6 @@ Anschließend zurück zu den Primzahlen: bereits zum 3. Mal hielt Herr Professor
 
 Am Ende kam Prof. Roth zum Ergebnis, dass Geigen allgemein ein chemisches Geheimnis haben: nur durch Kolophonium und Pferdehaar können wir den Klang der Geigen lauschen. Durch das Kolophonium können die Saiten einer Geige ideal schwingen und bekommen trotzdem genug Bewegungsenergie zugeführt. Ein besonderes Geheimnis für die Stradivaris gibt es also nicht. Unser Festredner fand nur eine mögliche Erklärung: Stradivaris sind so wertvoll, dass nur die besten der Besten sie spielen dürfen und zeitgleich sind die Musiker sich bewusst, in welche Fußstapfen von Künstlern sie eintreten, wenn sie eine Stradivari spielen dürfen. Dadurch üben sie dann besonders intensiv und perfektionieren ihre Kunst.
 
-Danach neigte sich die Festveranstaltung dem Höhepunkt: der Verleihung des Cantorpreises an Bernhard Fuchs. Er bedankte sich bei unserem Kollegium für die intensive Förderungen und berichtete, dass er bereits in der 6. Klasse vom Cantorpreis fasziniert war. Damals konnte er als Klassensprecher erstmals an der Verleihung an ebendiesen teilnehmen. Spätestens seit der 7. Klasse war es dann eines seiner persönlichen Ziele, ihn später selbst zu gewinnen. Auch seiner Familie und den Freunden dankte er intensiv.
+Danach neigte sich die Festveranstaltung dem Höhepunkt entgegen: der Verleihung des Cantorpreises an Bernhard Fuchs. Er bedankte sich bei unserem Kollegium für die intensive Förderungen und berichtete, dass er bereits in der 6. Klasse vom Cantorpreis fasziniert war. Damals konnte er als Klassensprecher erstmals an der Verleihung von ebendiesen teilnehmen. Spätestens seit der 7. Klasse war es dann eines seiner persönlichen Ziele, ihn später selbst zu gewinnen. Auch seiner Familie und den Freunden dankte er intensiv.
 
 {{< gallery dir="/media/blog/Cantorpreisverleihungen/2023" />}}
