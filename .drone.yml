@@ -44,7 +44,7 @@ steps:
           from_secret: ssh_port
         command_timeout: 1m
         script:
-          - /opt/data/webdata/gcg-website/
+          - cd /opt/data/webdata/gcg-website/
           - pagefind --source=.
 
     - name: notification
@@ -117,7 +117,7 @@ steps:
           from_secret: ssh_port
         command_timeout: 1m
         script:
-          - /opt/data/webdata/gcg-website-test/
+          - cd /opt/data/webdata/gcg-website-test/
           - pagefind --source=.
 
 trigger:

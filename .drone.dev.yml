@@ -44,7 +44,7 @@ steps:
           from_secret: ssh_port
         command_timeout: 1m
         script:
-          - /opt/data/webdata/gcg-website-dev/
+          - cd /opt/data/webdata/gcg-website-dev/
           - pagefind --source=.
 
 trigger:
