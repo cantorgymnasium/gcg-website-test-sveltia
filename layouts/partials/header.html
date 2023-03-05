@@ -1,4 +1,4 @@
-<header class="fixed-top header">
+<header class="fixed-top header" data-pagefind-ignore>
   {{ if .Site.Params.top_header }}
   <div class="top-header py-2 bg-white">
     <div class="container">
@@ -30,6 +30,7 @@
   <div class="navigation w-100 {{ if .Site.Params.top_header }} top-hider {{ end }}">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        
         <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}"><img height="60"
             src="{{ .Site.Params.logo | absURL }}" class="py-2" alt="{{ .Site.Title }}"></a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
@@ -63,6 +64,9 @@
             </li>
             {{ end }}
             {{ end }}
+            <li class="nav-item">
+              <div class="nav-link" onclick="$('#pagefind-search').modal('show');"><i class="mdi mdi-magnify"></i> Suche</button>
+            </li>
           </ul>
 
           {{ if .IsTranslated }}
@@ -102,7 +106,7 @@
   {{ if and $top_banner.enable }}
   {{ if or (not $top_banner.temporarily.enable) (and $top_banner.temporarily.enable (and (le ($top_banner.temporarily.start_date | time.AsTime).Unix now.Unix ) (ge ($top_banner.temporarily.end_date | time.AsTime).Unix now.Unix))) }}
   {{ with $top_banner }}
-  <div id="top-banner" class="p-3 top-banner" style="background:{{ .color }}">
+  <div id="top-banner" class="p-3 top-banner" style="background:{{ .color }}" data-pagefind-ignore>
     <div class="container">
       <div class="no-gutters align-items-center">
         <div style="color:{{ .font_color }}"><b><i class="{{ .icon }}"></i> {{ .text | markdownify }}</b></div>
@@ -134,12 +138,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" data-pagefind-ignore>
 <!-- Background of PhotoSwipe.
      It's a separate element, as animating opacity is faster than rgba(). -->
-<div class="pswp__bg"></div>
+<div class="pswp__bg" data-pagefind-ignore></div>
 <!-- Slides wrapper with overflow:hidden. -->
-<div class="pswp__scroll-wrap">
+<div class="pswp__scroll-wrap" data-pagefind-ignore>
     <!-- Container that holds slides.
       PhotoSwipe keeps only 3 of them in DOM to save memory.
       Don't modify these 3 pswp__item elements, data is added later on. -->

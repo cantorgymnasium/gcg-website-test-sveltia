@@ -32,6 +32,21 @@ steps:
         recursive: true
         delete: true
 
+    - name: search index
+      image: appleboy/drone-ssh
+      settings:
+        host:
+          - cantorgymnasium.de
+        username: web-push
+        key: 
+          from_secret: ssh_key
+        port:
+          from_secret: ssh_port
+        command_timeout: 1m
+        script:
+          - /opt/data/webdata/gcg-website-dev/
+          - pagefind --source=.
+
 trigger:
     branch:
         - master

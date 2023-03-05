@@ -5,6 +5,6 @@
       <li class="list-inline-item"><p><i class="mdi mdi-bookmark-outline"></i> {{ .Params.Category }}</p></li>
     </ul>
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 20 }}</a></h4>
-    <a href="{{ .Permalink }}" class="btn btn-primary btn-sm text-uppercase">{{ i18n "read_more"}}</a>
+    <a href="{{ .Permalink }}" class="btn btn-primary btn-sm text-uppercase" data-pagefind-ignore>{{ i18n "read_more"}}</a>
   </div>
 </div>

@@ -4,18 +4,18 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 
 {{- with $.Params.images -}}
-{{- range first 6 . }}<meta property="og:image" content="{{ . | absURL }}" />{{ end -}}
+{{- range first 6 . }}<meta property="og:image" data-pagefind-meta="image[content]" content="{{ . | absURL }}" />{{ end -}}
 {{- else -}}
 {{- $images := $.Resources.ByType "image" -}}
 {{- $featured := $images.GetMatch "*feature*" -}}
 {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
 {{- with $featured -}}
-<meta property="og:image" content="{{ $featured.Permalink }}"/>
+<meta property="og:image" data-pagefind-meta="image[content]" content="{{ $featured.Permalink }}"/>
 {{- else -}}
 {{- with $.Params.image -}}
-<meta property="og:image" content="{{ . | absURL }}"/>
+<meta property="og:image" data-pagefind-meta="image[content]" content="{{ . | absURL }}"/>
 {{- else -}}
-{{- with $.Site.Params.images }}<meta property="og:image" content="{{ index . 0 | absURL }}"/>{{ end -}}
+{{- with $.Site.Params.images }}<meta property="og:image" data-pagefind-meta="image[content]" content="{{ index . 0 | absURL }}"/>{{ end -}}
 {{- end -}}
 {{- end -}}
 {{- end -}}
