@@ -47,7 +47,7 @@ Emma aus der 10. Klasse präsentierte zu Beginn ihren selbst verfassten englisch
 
 Die Theater-AG operierte u.a. am Küchentisch und kümmerte sich um die Aufklärung eines Mordes in einer Schokoladenfabrik. Letztere Szene stammt aus ihrem neuen selbstverfassten Stück, welches am 22. Juni uraufgeführt werden soll.
 
-Emelie aus unseren 11. sang „Am Tag, als Conny Kramer starb“ solo. Mehrere Schülerinnen und Schüler der 10. und 11. Klassen rezitierten Gedichte über ihre eigenen Persönlichkeiten, welche zusammen mit Fotos teil unserer Galerie sind. Chiamaka (11. Klasse) überzeugt nicht nur am Flügel, sondern auch in ihrem Schauspiel als Faust zusammen mit Maya als Mephisto. Der Musikkurs von Frau Bethin performte u.a. „Roling in the Deep“ von Adele.
+Emelie aus unseren 11. sang „Am Tag, als Conny Kramer starb“ solo. Mehrere Schülerinnen und Schüler der 10. und 11. Klassen rezitierten Gedichte über ihre eigenen Persönlichkeiten, welche zusammen mit Fotos teil unserer Galerie sind. Chiamaka (11. Klasse) überzeugt nicht nur am Flügel, sondern auch in ihrem Schauspiel als Faust zusammen mit Maya als Mephisto. Der Musikkurs von Frau Bethin performte u.a. „Rolling in the Deep“ von Adele.
 
 Vielen Dank an unsere beiden Moderatoren Clara und Pascal aus der 11. Klasse, welche mit Bravour durch den Abend führten. Auch wäre der Abend ohne unsere Musiklehrerinnen und -lehrer und die Zuarbeit der Deutschlehrkräfte nicht möglich gewesen.
 
@@ -59,7 +59,7 @@ Für das leibliche Wohl sorgten unsere 12. Klassen mit einem umfangreichen Buffe
 
 Vom 27. Februar bis 2. März 2023 gestalteten wir gemeinsam die Projektwoche unter dem Motto: "Cantor und die Unendlichkeit"
 
-Unsere Projektgruppen stellen sich in einem eigenen Website-Bereich vor.
+Unsere Projektgruppen stellen sich in einem eigenen Website-Bereich vor. In den nächsten Tagen werden noch einige weitere Eindrücke ergänzt.
 
 {{< card title="Projektübersicht" link="/projektwoche/2023/" >}}
 
@@ -88,10 +88,6 @@ Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den tradi
 - Die 10. Klassen präsentierten ihren Fortschritt bei den wpAs und erlebten das musikalisch-literarische Heine-Programm des Künstlerduos „Rose & Georgi“ in unserer Aula.
 - Die 11er, welche nicht in einem der Modulkurse waren, begleiteten das Body+Grips-Programm.
 
-
-
 {{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantortag23" />}}
-
-
 
 _Weitere Eindrücke des Cantor-Tages 2023 folgen in Kürze._
