@@ -88,4 +88,10 @@ Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den tradi
 - Die 10. Klassen präsentierten ihren Fortschritt bei den wpAs und erlebten das musikalisch-literarische Heine-Programm des Künstlerduos „Rose & Georgi“ in unserer Aula.
 - Die 11er, welche nicht in einem der Modulkurse waren, begleiteten das Body+Grips-Programm.
 
+
+
 {{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantortag23" />}}
+
+
+
+_Weitere Eindrücke des Cantor-Tages 2023 folgen in Kürze._
