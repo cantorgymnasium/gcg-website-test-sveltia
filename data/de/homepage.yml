@@ -118,7 +118,7 @@ about:
     link: https://vr.cantorgymnasium.de/tour/
 blog:
   enable: true
-  title: Aktuelle Beiträge
+  title: Aktuelles
 success_banner:
   enable: true
   image: media/home/success_banner.webp
@@ -192,6 +192,8 @@ info:
     produktives Gymnasium mit mathematisch-naturwissenschaftlichem Schwerpunkt
     und dem Gütesiegel \"Begabungsfördernde Schule\" vom Landesinstitut für
     Schulqualität und Lehrerbildung.
+
+    {{< card link="/schulchronik/" title="Schulchronik" >}}
   video_link: https://www.youtube.com/watch?v=v2ovvOmv-xw
 termine:
   enable: true

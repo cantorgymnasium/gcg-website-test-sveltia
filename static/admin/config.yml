@@ -389,6 +389,22 @@ collections:
             required: true
             fields:
               - {label: "Kategorie", name: "category", widget: "string", required: true}
+      - name: "ausblick-config"
+        label: "Ausblick auf die Woche"
+        file: "data/de/ausblick.yml"
+        format: yml
+        fields:
+          - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
+          - {label: "Titel", name: "title", widget: "string", required: false}
+          - label: "Autor"
+            name: "author"
+            widget: "relation"
+            collection: "author"
+            search_fields: ["title"]
+            value_field: "title"
+            required: false
+          - {label: "Titelbild", name: "image", widget: "image", required: false, media_library: { config: { max_file_size: 2048000 } } }
+          - {label: "Inhalt", name: "content", widget: "markdown", required: false}
   - name: "index-pages"
     icon: "page"
     label: "Hauptseiten"
