@@ -848,6 +848,35 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "begabte"}
       - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
       - {label: "Text", name: "body", widget: "markdown"}
+  - name: "projektwoche"
+    icon: "projektwoche"
+    label: "Projektwoche"
+    label_singular: "Projektwoche"
+    folder: "content/german/projektwoche"
+    filter: {field: "type", value: "projektwoche"}
+    create: true
+    editor:
+      preview: false
+    media_folder: '/static/media/projektwoche'
+    public_folder: '/media/projektwoche'
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
+      - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
+      - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
+      - {label: "Type", name: "type", widget: "hidden", default: "projektwoche"}
+      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      - label: "Kacheln"
+        name: "tiles"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Titel", name: "title", widget: "string", required: true}
+          - {label: "Hintergrundfarbe", name: "bg_color", widget: "color", required: true}
+          - {label: "Symbol", name: "icon", widget: "string", required: true}
+          - {label: "Symbolfarbe", name: "font_color", widget: "color", required: true}
+          - {label: "Inhalt", name: "content", widget: "markdown", required: true}
+      - {label: "Text", name: "body", widget: "markdown", required: false, default: ""}
   - name: "schulchronik"
     icon: "pillar"
     label: "Schulchronik"

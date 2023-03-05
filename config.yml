@@ -156,6 +156,13 @@ menu:
       hasChildren: false
       params:
         external: false
+    - parent: Unterricht
+      name: Projektwoche
+      URL: projektwoche
+      weight: 7
+      hasChildren: false
+      params:
+        external: false
     - name: Für Schüler und Eltern
       weight: 4
       hasChildren: true
