@@ -14,7 +14,7 @@ gallery: false
 ---
 **Am vergangenen Wochende trat ein Teil unserer Schülerinnen und Schüler bei der Landesrunde der 62. Mathematik-Olympiade in Magdeburg an.**
 
-**Wir konnten große Erfolge feiern und graturlieren …**
+**Wir konnten große Erfolge feiern und gratulieren …**
 
 **… zu einem 1. Preis:**
 
