@@ -10,6 +10,8 @@ categories:
   - Wettbewerbe
   - Deutsch
   - Gesellschaftswissenschaften
+tags:
+  - "2023"
 type: post
 gallery: false
 ---
