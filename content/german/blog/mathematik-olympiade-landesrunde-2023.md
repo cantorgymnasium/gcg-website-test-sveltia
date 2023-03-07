@@ -12,7 +12,7 @@ categories:
 type: post
 gallery: false
 ---
-**Am vergangenen Wochende trat ein Teil unserer Schülerinnen und Schüler bei der Landesrunde der 62. Mathematik-Olympiade in Magdeburg an.** 
+**Am vergangenen Wochende trat ein Teil unserer Schülerinnen und Schüler bei der Landesrunde der 62. Mathematik-Olympiade in Magdeburg an.**
 
 **Wir konnten große Erfolge feiern und graturlieren …**
 
@@ -25,7 +25,7 @@ gallery: false
 **… zu einem 2. Preis:**
 
 - Leonard Elias F. (5. Klasse)
-- Isabell Marie B. (6. Klasse)
+- Isabelle Marie B. (6. Klasse)
 - Sariana H. (8. Klasse)
 - Pascal Dominic S. (8. Klasse)
 - Igor B. (9. Klasse)
@@ -35,7 +35,7 @@ gallery: false
 **… zu einem 3. Preis:**
 
 - Nora Magdalena K. (7. Klasse)
--  Ruixuan J (7. Klasse)
+- Ruixuan J (7. Klasse)
 - Felix N. (7. Klasse)
 - Georg N. (8. Klasse)
 - Julian T. (8. Klasse)
@@ -44,7 +44,7 @@ gallery: false
 - Leif Erik F. (10. Klasse)
 - Arvid R. (10. Klasse)
 - Simon B. (11. Klasse)
-- Clavin M. (11. Klasse)
+- Calvin M. (11. Klasse)
 
 **… zu einem Anerkennungspreis:**
 
@@ -57,4 +57,4 @@ _Leider mussten wir den Wanderpokal für die punktstärkste Schule in der Landes
 
 Fotoimpressionen der zwei Tage in Magdeburg folgen in Kürze.
 
-Alle Ergebnisse unter [https://mo.elemente.org/wp-content/uploads/sites/8/2023/02/MO62_Preistraeger.pdf](https://mo.elemente.org/wp-content/uploads/sites/8/2023/02/MO62_Preistraeger.pdf) 
+Alle Ergebnisse unter [https://mo.elemente.org/wp-content/uploads/sites/8/2023/02/MO62_Preistraeger.pdf](https://mo.elemente.org/wp-content/uploads/sites/8/2023/02/MO62_Preistraeger.pdf)
