@@ -2,7 +2,7 @@
 title: "Känguru Wettbewerb "
 draft: "false"
 bg_image: /media/backgrounds/page-title.webp
-image: /media/contests/Känguru.webp
+image: /media/contests/kanguru.webp
 category: Mathematik
 class: 5. - 12. Klasse
 web_url: https://www.mathe-kaenguru.de/
