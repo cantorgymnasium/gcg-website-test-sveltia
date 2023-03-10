@@ -3,7 +3,7 @@ title: Jugend debattiert
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 image: /media/contests/jugenddebattiert.webp
-category: Sozialkunde
+category: Sonstiges
 class: 8-12
 web_url: https://www.jugend-debattiert.de/
 type: wettbewerbe
