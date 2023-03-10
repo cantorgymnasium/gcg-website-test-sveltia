@@ -4,7 +4,7 @@ draft: false
 bg_image: /media/backgrounds/page-title.webp
 image: /media/contests/ibo.png
 category: Biologie
-class: 9-12
+class: 9. - 12. Klasse
 web_url: https://www.scienceolympiaden.de/ibo
 type: wettbewerbe
 gallery: false
