@@ -4,7 +4,7 @@ draft: false
 bg_image: /media/backgrounds/page-title.webp
 image: /media/contests/jugenddebattiert.webp
 category: Sonstiges
-class: 8-12
+class: 8. - 12. Klasse
 web_url: https://www.jugend-debattiert.de/
 type: wettbewerbe
 gallery: false
