@@ -29,7 +29,7 @@ jobs:
           switches: -avzr --delete
           path: public/
           remote_path: /opt/data/webdata/gcg-website/dev-test/
-          remote_host: cantorgymnasium.de:1845
+          remote_host: cantorgymnasium.de
           remote_user: web-push
           remote_port: ${{ secrets.WEB_PUSH_PORT }}
           remote_key: ${{ secrets.WEB_PUSH_KEY }}
