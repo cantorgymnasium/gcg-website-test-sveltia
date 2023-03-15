@@ -24,7 +24,7 @@ jobs:
         run: hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
 
       - name: deploy
-        uses: https://github.com/D3rHase/rsync-deploy-action@latest
+        uses: https://git.cantorgymnasium.de/gcg/rsync-deploy-action@main
         with:
           HOST: cantorgymnasium.de
           PORT: ${{secrets.WEB_PUSH_PORT }}
