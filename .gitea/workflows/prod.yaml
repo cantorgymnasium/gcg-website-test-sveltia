@@ -24,15 +24,14 @@ jobs:
         run: hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
 
       - name: deploy
-        uses: https://github.com/burnett01/rsync-deployments@5.2.1
+        uses: https://github.com/D3rHase/rsync-deploy-action@latest
         with:
-          switches: -avzr --delete
-          path: public/
-          remote_path: /opt/data/webdata/gcg-website/dev-test/
-          remote_host: cantorgymnasium.de
-          remote_user: web-push
-          remote_port: ${{ secrets.WEB_PUSH_PORT }}
-          remote_key: ${{ secrets.WEB_PUSH_KEY }}
+          HOST: cantorgymnasium.de
+          PORT: ${{secrets.WEB_PUSH_PORT }}
+          USER: web-push
+          PRIVATE_SSH_KEY: ${{secrets.WEB_PUSH_KEY }}
+          REPOSITORY_PATH: public/
+          SERVER_PATH: /opt/data/webdata/gcg-website/dev-test/
 
       - name: search index
         uses: https://github.com/JimCronqvist/action-ssh@master
