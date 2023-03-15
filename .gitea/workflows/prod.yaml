@@ -24,7 +24,7 @@ jobs:
         run: hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
 
       - name: deploy
-        uses: up9cloud/action-rsync@master
+        uses: https://github.com/up9cloud/action-rsync@master
         env:
           HOST: cantorgymnasium.de
           KEY: ${{ secrets.WEB_PUSH_KEY }}
