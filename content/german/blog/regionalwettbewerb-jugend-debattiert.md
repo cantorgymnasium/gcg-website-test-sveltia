@@ -5,7 +5,7 @@ draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/jugenddebattiert.webp
-author: Herr Berger
+author: Frau Opel-Fritzlar
 categories:
   - Wettbewerbe
   - Deutsch
