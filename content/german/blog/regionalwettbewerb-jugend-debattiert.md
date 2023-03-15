@@ -1,6 +1,6 @@
 ---
 title: Regionalwettbewerb "Jugend debattiert"
-date: 2023-03-07T22:15:03+01:00
+date: 2023-03-15T09:05:16+01:00
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
@@ -15,8 +15,11 @@ tags:
 type: post
 gallery: false
 ---
-Jette P. aus der 10. Klasse hat beim Regionalwettbewerb Jugend debattiert im Elisabethgymnasium Halle am 02. März 2023 den 2. Platz belegt. Sie erhält damit die Möglichkeit das GCG und die Stadt Halle, beim Landeswettbewerb in Magdeburg zu vertreten. 
+## Großartige Talente beim Regionalwettbewerb „Jugend debattiert“
 
-Herzlichen Glückwunsch!
+Am 2. März trafen sich die Teilnehmerinnen und Teilnehmer des Regionalwettbewerbs „Jugend debattiert“ im Elisabeth-Gymnasium. In beiden Altersgruppen, der Sekundarstufe I und der Sekundarstufe II, zeigten die Finalisten des Georg-Cantor-Gymnasiums auf regionaler Ebene ihr Können. Nach den beiden Qualifikationsrunden stand fest, dass wir im Finale der höheren Altersstufe vertreten sein werden. Hier erkämpfte sich Jette aus der 10. Klasse mit viel Engagement einen hervorragenden zweiten Platz und damit die Teilnahme an der Landesrunde in Magdeburg am 17. April. 
+
+**Herzlichen Glückwunsch an alle beteiligten Cantorianer, die
+sich hervorragend präsentiert haben!**
 
 _Bildrechte: Jugend debattiert/Hertie-Stiftung_
