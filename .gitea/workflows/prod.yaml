@@ -31,6 +31,7 @@ jobs:
           TARGET: /opt/data/webdata/gcg-website/dev-test/
           USER: web-push
           ARGS: -avzr --delete
+          VERBOSE: true
           SSH_ARGS: '-p 1845 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no'
           SOURCE: ./public/
           POST_SCRIPT: "cd /opt/data/webdata/gcg-website/ && pagefind --source=."
