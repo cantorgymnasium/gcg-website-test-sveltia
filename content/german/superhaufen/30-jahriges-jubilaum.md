@@ -36,7 +36,7 @@ tiles:
           (frei nach Cantor)
 
 
-          Solautete das Motto der Festveranstaltung anlässlich des Jubiläums
+          So lautete das Motto der Festveranstaltung anlässlich des Jubiläums
 
           zum 30-jährigen Fortbestand des Georg-Cantor-Gymnasiums. Zu diesem
 
