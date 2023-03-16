@@ -24,17 +24,23 @@ jobs:
         run: hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
 
       - name: deploy
-        uses: https://git.cantorgymnasium.de/gcg/action-rsync@master
-        env:
+        uses: https://git.cantorgymnasium.de/gcg/rsync-deploy-action@main
+        with:
           HOST: cantorgymnasium.de
-          KEY: ${{ secrets.WEB_PUSH_KEY }}
-          TARGET: /opt/data/webdata/gcg-website-gt/
+          PORT: ${{secrets.WEB_PUSH_PORT }}
           USER: web-push
-          PORT: 1845
-          ARGS: -avzr --delete
-          VERBOSE: true
-          SOURCE: ./public/
-          POST_SCRIPT: "cd /opt/data/webdata/gcg-website/ && pagefind --source=."
+          PRIVATE_SSH_KEY: ${{secrets.WEB_PUSH_KEY }}
+          REPOSITORY_PATH: public/
+          SERVER_PATH: /opt/data/webdata/gcg-website-gt/
+
+      - name: search index
+        uses: https://github.com/JimCronqvist/action-ssh@master
+        with:
+          hosts: ${{ secrets.WEB_PUSH_HOST }}
+          privateKey: ${{ secrets.WEB_PUSH_KEY }}
+          command: |
+            cd /opt/data/webdata/gcg-website/
+            pagefind --source=.   
 
       - name: notification
         uses: https://github.com/yamaks2306/telegram-notification@main
