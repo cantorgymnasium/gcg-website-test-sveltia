@@ -28,7 +28,7 @@ jobs:
         env:
           HOST: cantorgymnasium.de
           KEY: ${{ secrets.WEB_PUSH_KEY }}
-          TARGET: /opt/data/webdata/gcg-website/dev-test/
+          TARGET: /opt/data/webdata/gcg-website-gt/
           USER: web-push
           PORT: 1845
           ARGS: -avzr --delete
