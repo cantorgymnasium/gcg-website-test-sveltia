@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: act-runner
+    runs-on: docker://act-runner
     steps:
       - name: clone
         uses: actions/checkout@v3
