@@ -13,6 +13,7 @@ concurrency:
 
 jobs:
   prod-build:
+    if: github.repository == 'gcg/gcg-website'
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
@@ -44,6 +45,7 @@ jobs:
           token: ${{ secrets.TG_TOKEN }}
           include_commit_info: false
   test-build:
+    if: github.repository == 'gcg/gcg-website'
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
