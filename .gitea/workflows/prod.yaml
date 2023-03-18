@@ -1,11 +1,11 @@
 name: website-main
 
 on:
-  push:
-    branches:
-      - master
-  schedule:
-    - cron: '0 0 * * *'
+  - push:
+      branches:
+        - master
+  - schedule:
+      - cron: '0 0 * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
