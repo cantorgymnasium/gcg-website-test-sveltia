@@ -32,7 +32,7 @@ jobs:
         run: |
           cd public
           pagefind --source=. 
-          rsync -azr --delete ./ /opt/data/webdata/gcg-website-gt/
+          rsync -azr --delete ./ /opt/data/webdata/gcg-website/
 
       - name: notification
         uses: https://github.com/yamaks2306/telegram-notification@main
