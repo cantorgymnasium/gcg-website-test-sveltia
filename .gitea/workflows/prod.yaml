@@ -59,7 +59,7 @@ jobs:
           extended: true
 
       - name: build
-        run: hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture --output test
+        run: hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture -d test
 
       - name: deploy
         run: |
