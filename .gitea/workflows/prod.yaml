@@ -3,10 +3,15 @@ name: hugo build
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      - master
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   deploy:
+    if: github.repository == 'gcg/gcg-website'
     runs-on: act-runner-user
     steps:
       - name: clone
