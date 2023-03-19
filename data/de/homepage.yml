@@ -124,26 +124,40 @@ success_banner:
   image: media/home/success_banner.webp
   feature_item:
     - name: Mathematik-Olympiade
-      content: |
-        In der Landesrunde der Mathematikolympiade 2022 wurden:
+      content: >
+        In der Landesrunde der [Mathematikolympiade
+        2023](https://cantorgymnasium.de/blog/mathematik-olympiade-landesrunde-2023/)
+        wurden:
 
-        - **2 von 8 ersten Preisen**
-        - **5 von 13 zweiten Preisen**
-        - **9 von 19 dritten Preisen**
-        - **6 von 28 Anerkennungspreisen**
+
+        - **3 von 9 ersten Preisen**
+
+        - **7 von 22 zweiten Preisen**
+
+        - **11 von 32 dritten Preisen**
+
+        - **4 von 34 Anerkennungspreisen**
+
 
         an Schüler unserer Schule verliehen.
       image: media/home/mo.webp
       icon: ""
     - name: Physikolympiade
       image: media/home/po.webp
-      content: |
-        In der Landesphysikolympiade 2022 wurden:
+      content: >
+        In der [Landesphysikolympiade
+        2023](https://cantorgymnasium.de/blog/erfolge-bei-der-landesphysikolympiade-2023/)
+        wurden:
+
 
         - **2 von 5 ersten Preisen**
+
         - **3 von 8 zweiten Preisen**
-        - **1 von 11 dritten Preisen**
-        - **1 von 15 Anerkennungspreisen**
+
+        - **4 von 13 dritten Preisen**
+
+        - **5 von 16 Anerkennungspreisen**
+
 
         an Schüler unserer Schule verliehen.
       icon: ""
@@ -184,7 +198,8 @@ info:
   enable: true
   bg_image: media/home/success-story.webp
   title: Über die Schule
-  content: Das Georg-Cantor-Gymnasium wurde im Jahre 1988 als eine
+  content: >-
+    Das Georg-Cantor-Gymnasium wurde im Jahre 1988 als eine
     mathematisch-naturwissenschaftliche Schule gegründet. Über die vielen Jahre
     kamen viele Veränderungen auf die Schule zu. Nach der Verleihung des Namen
     \"Georg-Cantor\", Umformung zu einem Gymnasium, dem Umzug in ein neues
