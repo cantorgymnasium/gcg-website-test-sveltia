@@ -12,7 +12,7 @@ tags:
   - geschichte
   - lernfahrt
 type: post
-gallery: false
+gallery: true
 ---
 #### Lernfahrt des Grundkurses Geschichte 12/4. Semester am 17.3. -19.3.2023
 
