@@ -92,11 +92,3 @@ jobs:
           cd public
           pagefind --source=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website/
-
-      - name: notification
-        uses: https://github.com/yamaks2306/telegram-notification@main
-        if: always()
-        with:
-          chat_id: ${{ secrets.TG_CHAT_ID }}
-          token: ${{ secrets.TG_TOKEN }}
-          include_commit_info: false
