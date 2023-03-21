@@ -25,9 +25,9 @@ Alle Teilnehmenden präsentierten uns bekannte Lyrik oder wurden zuvor noch selb
 
 #### _Klasse 5 und 6_
 
-1. _Tobechi Okoro_
-1. _Mattheo Friedemann_
-1. _Sophia Busse_
+1. Tobechi Okoro
+1. Mattheo Friedemann
+1. Sophia Busse
 
 #### _Klasse 7 und 8_
 
