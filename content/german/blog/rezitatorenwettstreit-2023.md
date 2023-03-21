@@ -50,7 +50,9 @@ Dieses Gedicht ist inspiriert durch das Theaterstück „Die Kinder des Monsieur
 
 Das Theaterstück handelt von Schülern einer Eliteschule, die an dem enormen Leistungsdruck der auf ihnen liegt, zerbrechen. Doch dann beginnt ein neuer Lehrer namens Clement Mathieu an der Schule zu arbeiten und bringt Licht in das Leben der Kinder. Dieses Gedicht ist aus der Perspektive der Schüler dieser Schule geschrieben und soll Einblick in die Gefühlswelt von ihnen bieten.
 
-<q>
+
+
+
 
 _Flieg’ und taumle kleiner Flieger_
 
@@ -229,8 +231,6 @@ _und dann wärmt sie meine Glieder._
 _Und auch dir wird sie dann scheinen._
 
 _Flieg’ und taumle kleiner Flieger._
-
-_</q>_
 
 
 
