@@ -21,7 +21,7 @@ Am Donnerstag, den 16. März 2023, fand unser
 
 nach 3-jähriger Pandemie-Pause wieder statt. Die Teilnehmerzahlen waren enorm: 46 Schülerinnen und Schüler der 5. bis 11. Klassen nahmen teil. Ursprünglich war der Wettstreit nur für die 3. und 4. Unterrichtsstunde geplant, aber durch die Vielzahl an Teilnehmenden musste noch die 5. Stunde hinzugezogen werden und nach Altersstufen gestaffelt werden.
 
-Alle Teilnehmenden päsentierten uns bekannte Lyrik oder wurden zuvor noch selbst schriftstellerisch aktiv. Folgende Schülerinnen und Schüler konnten sich durchsetzen:
+Alle Teilnehmenden präsentierten uns bekannte Lyrik oder wurden zuvor noch selbst schriftstellerisch aktiv. Folgende Schülerinnen und Schüler konnten sich durchsetzen:
 
 #### _Klasse 5 und 6_
 
