@@ -15,7 +15,7 @@ tags:
 type: post
 gallery: true
 ---
-Am Donnerstag, den 16. März 2023, fand unser
+Am Donnerstag, dem 16. März 2023, fand unser
 
 #### traditioneller Reizitatorenwettstreit
 
@@ -48,7 +48,9 @@ Da wir die besonderen Leistungen unserer Autoren würdigen wollen, folgen einzel
 
 Dieses Gedicht ist inspiriert durch das Theaterstück „Die Kinder des Monsieur Mathieu“, welches in der Oper Halle unter Regie von Lisett Ansorge inszeniert wurde. Dabei handelt es sich um eine Neufassung des gleichnamigen Films aus dem Jahr 2004, wobei die ursprüngliche Handlung in die heutige Zeit versetzt wurde. 
 
-Das Theaterstück handelt von Schülern einer Eliteschule, die an dem enormen Leistungsdruck der auf ihnen liegt zerbrechen. Doch dann beginnt ein neuer Lehrer Namens Clement Mathieu an der Schule zu arbeiten und bringt Licht in das Leben der Kinder. Dieses Gedicht ist aus der Perspektive der Schüler dieser Schule geschrieben und soll Einblick in die Gefühlswelt von ihnen bieten.
+Das Theaterstück handelt von Schülern einer Eliteschule, die an dem enormen Leistungsdruck der auf ihnen liegt, zerbrechen. Doch dann beginnt ein neuer Lehrer namens Clement Mathieu an der Schule zu arbeiten und bringt Licht in das Leben der Kinder. Dieses Gedicht ist aus der Perspektive der Schüler dieser Schule geschrieben und soll Einblick in die Gefühlswelt von ihnen bieten.
+
+<cite>
 
 _Flieg’ und taumle kleiner Flieger_
 
@@ -146,10 +148,6 @@ Lass dich selber nicht im Stich.
 
  
 
- 
-
- 
-
 _Flieg’ und taumle kleiner Flieger_
 
 _gestützt durch Liebe aus den Herzen_
@@ -231,3 +229,5 @@ _und dann wärmt sie meine Glieder._
 _Und auch dir wird sie dann scheinen._
 
 _Flieg’ und taumle kleiner Flieger._
+
+_</cite>_
