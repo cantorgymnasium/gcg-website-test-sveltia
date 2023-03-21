@@ -15,11 +15,11 @@ tags:
 type: post
 gallery: true
 ---
-Am Donnerstag, den 16. März 2023, fand unser 
+Am Donnerstag, den 16. März 2023, fand unser
 
-#### traditioneller Reizitatorenwettstreit 
+#### traditioneller Reizitatorenwettstreit
 
-nach 3-jähriger Pandemie-Pause wieder statt. Die Teilnehmerzahlen waren enorm: 46 Schülerinnen und Schüler der 5. bis 11. Klassen nahmen teil. Ursprünglich war der Wettstreit nur für die 3. und 4. Unterrichtsstunde geplant, aber durch die Vielzahl an Teilnehmenden musste noch die 5. Stunde hinzugezogen werden und nach Altersstufen gestaffelt werden. 
+nach 3-jähriger Pandemie-Pause wieder statt. Die Teilnehmerzahlen waren enorm: 46 Schülerinnen und Schüler der 5. bis 11. Klassen nahmen teil. Ursprünglich war der Wettstreit nur für die 3. und 4. Unterrichtsstunde geplant, aber durch die Vielzahl an Teilnehmenden musste noch die 5. Stunde hinzugezogen werden und nach Altersstufen gestaffelt werden.
 
 Alle Teilnehmenden päsentierten uns bekannte Lyrik oder wurden zuvor noch selbst schriftstellerisch aktiv. Folgende Schülerinnen und Schüler konnten sich durchsetzen:
 
@@ -35,28 +35,14 @@ Alle Teilnehmenden päsentierten uns bekannte Lyrik oder wurden zuvor noch selbs
 1. Kelechi Okoro und Mattis Makosch
 1. Alexander Haase
 
-#### _Klasse 9, 10 und 11_ 
+#### _Klasse 9, 10 und 11_
 
 1. Clara Joachimi und Ole Böhme
-1. Emma Brozek und Simon Bachran
-
-     Comedypreis: Pascal Neuber
-
-
-
-
+1. Emma Brozek und Simon BachranComedypreis: Pascal Neuber
 
 Da wir die besonderen Leistungen unserer Autoren würdigen wollen, folgen einzelne ausgewählte Werke:
 
-#### Papierflieger - Clara Joachimi
-
-
-
-
-
-
-
-
+##### Papierflieger - Clara Joachimi
 
 
 
