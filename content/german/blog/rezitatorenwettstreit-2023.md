@@ -1,7 +1,7 @@
 ---
 title: Rezitatorenwettstreit 2023
 date: 2023-03-21T07:56:46+01:00
-draft: true
+draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/rezi_titelbild.webp
