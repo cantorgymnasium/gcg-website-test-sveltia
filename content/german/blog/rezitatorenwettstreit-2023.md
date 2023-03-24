@@ -228,10 +228,6 @@ Das Theaterstück handelt von Schülern einer Eliteschule, die an dem enormen Le
 
 > _Flieg’ und taumle kleiner Flieger._
 
-```
-undefined
-```
-
 
 
 
