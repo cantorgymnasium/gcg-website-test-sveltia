@@ -19,8 +19,6 @@ jobs:
     steps:
       - name: clone
         uses: actions/checkout@v3
-        with:
-          submodules: true
 
       - name: setup hugo
         uses: https://github.com/peaceiris/actions-hugo@v2
@@ -51,8 +49,6 @@ jobs:
     steps:
       - name: clone
         uses: actions/checkout@v3
-        with:
-          submodules: true
 
       - name: setup hugo
         uses: https://github.com/peaceiris/actions-hugo@v2
@@ -75,8 +71,6 @@ jobs:
     steps:
       - name: clone
         uses: actions/checkout@v3
-        with:
-          submodules: true
 
       - name: setup hugo
         uses: https://github.com/peaceiris/actions-hugo@v2
