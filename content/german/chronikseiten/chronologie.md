@@ -1,4 +1,22 @@
 ---
+"0": t
+"1": e
+"2": m
+"3": p
+"4": u
+"5": s
+"6": " "
+"7": p
+"8": r
+"9": a
+"10": e
+"11": t
+"12": e
+"13": r
+"14": i
+"15": t
+"16": u
+"17": m
 title: Chronologie
 draft: false
 bg_image: media/backgrounds/page-title.webp
@@ -9,23 +27,20 @@ aliases:
   - /schulchronik/pages/chronologie
 ---
 
----
-
-tempus praeteritum
-
----
-
 ## 1986
+
 Beschluss des Rates des Bezirkes Halle zur Gründung einer Spezialschule mathematisch – naturwissenschaftlich – technischer Richtung
 
 ---
 
 ## 1987
+
 **Juli:** Beginn des Aufbaus der Spezialschule in der ehemaligen 28.POS in Halle – Neustadt
 
 ---
 
 ## 1988
+
 **Februar:** Auswahl der 54 besten Schüler des damaligen Bezirkes Halle für den 1. Jahrgang
 
 **1. September:** Gründung der Spezialschule mathematisch – naturwissenschaftlich – technischer Richtung „Ernst Hausmann“
@@ -33,6 +48,7 @@ Beschluss des Rates des Bezirkes Halle zur Gründung einer Spezialschule mathema
 ---
 
 ## 1989
+
 **Juli:** Die Spezialschule ist Austragungsort des Theorieteils der 21. internationalen Chemieolympiade
 
 **August:** Übernahme der rekonstruierten ehemaligen Kindereinrichtung „Mischka der Bär“ als Internat
@@ -40,11 +56,13 @@ Beschluss des Rates des Bezirkes Halle zur Gründung einer Spezialschule mathema
 ---
 
 ## 1990
+
 **September:** 1. Aufnahme einer 7. Klasse
 
 ---
 
 ## 1991
+
 **März:** Verleihung des Namens "Georg Cantor" an unsere Schule
 
 **April:** 1. konstituierende Versammlung des Fördervereins
@@ -54,6 +72,7 @@ Beschluss des Rates des Bezirkes Halle zur Gründung einer Spezialschule mathema
 ---
 
 ## 1992
+
 **Juni:** 1. Abiturjahrgang des GCG
 
 **September:** 1. Aufnahme von vier Klassen des 5. Schuljahrganges
@@ -61,6 +80,7 @@ Beschluss des Rates des Bezirkes Halle zur Gründung einer Spezialschule mathema
 ---
 
 ## 1993
+
 Verleihung vieler JugendForscht!-Preise
 
 14 mal 1,0 Abischnitt
@@ -68,6 +88,7 @@ Verleihung vieler JugendForscht!-Preise
 ---
 
 ## 1994
+
 **September:** nach Abschluss der umfangreichen konzeptionellen Arbeit Beginn des Unterrichts entsprechend der neuen Rahmenrichtlinien mit inhaltlicher
 
 **September:** Einrichtung von Korrespondenzzirkeln in verschiedenen naturwissenschaftlichen Fächern
@@ -75,6 +96,7 @@ Verleihung vieler JugendForscht!-Preise
 ---
 
 ## 1995
+
 **März:** Festwoche zum 150. Geburtstag von Georg Cantor und erstmalige Verleihung des vom Förderverein gestifteten Cantorpreises
 
 **Juli:** Durchführung des ersten Spezialistenlagers am GCG
@@ -82,11 +104,13 @@ Verleihung vieler JugendForscht!-Preise
 ---
 
 ## 1996
+
 **März:** Abschluss einer Rahmenvereinbarung zur Kooperation zwischen GCG und Martin – Luther – Universität Halle
 
 ---
 
 ## 1997
+
 Das Intranet wird ins Leben gerufen
 
 bester Abiturdurchschnitt Sachsen-Anhalts von 1,7 ist das GCG
@@ -94,6 +118,7 @@ bester Abiturdurchschnitt Sachsen-Anhalts von 1,7 ist das GCG
 ---
 
 ## 1998
+
 **September:** Diskussion des Nobelpreisträgers Rudolf Mößbauer mit Schülern und Lehrern desGCG
 
 **18.September:** Festveranstaltung zum 10- jährigen Bestehen des GCG in der Konzerthalle und 1. Absolvententreffen in der Weinbergmensa
@@ -101,41 +126,49 @@ bester Abiturdurchschnitt Sachsen-Anhalts von 1,7 ist das GCG
 ---
 
 ## 1999
+
 Informatikuntericht nun ab Klasse 7 als Teil des naturwissenschaftlichen Profils
 
 ---
 
 ## 2000
+
 Politiker anlässlich des 155. Geburtstages Cantors am GCG
 
 ---
 
 ## 2001
+
 **Oktober:** Festakt zur Verleihung des Siemens – Awards durch den Bundespräsidenten Johannes Rau im Schloss Bellevue, das GCG  erhält ein Preisgeldvon 10000€
 
 ---
 
 ## 2002
+
 **April:** Abschluss eines Vertrages zur Zusammenarbeit des GCG mit der Dow Olefin – Verbund Gmbh Schkopau
 
 ---
 
 ## 2003
+
 Debatten um Standort des GCG und Schülerprotestaktionen
 
 ---
 
 ## 2004
+
 **Oktober:** Das GCG wird Ganztagsschule
 
 ---
 
 ## 2005
+
 Projekt zur Begleitung der Entstehung der Oper: "Cantor -die Vermessung des Unendlichen" mit dem Opernhaus Halle und dem Komponisten Prof. Ingomar Grünauer
 
 ---
 
 ## 2006
+
 3 Mio. Euro für die Renovierung bewilligt
 
 Erster musikalisch-literarischer Abend
@@ -145,6 +178,7 @@ Uraufführung der Cantor-Oper
 ---
 
 ## 2007
+
 **Juni - August:** Umzug des GCG vom Standort Muldestraße in das rekonstruierte Gebäude der Torstraße
 
 **30. August:** feierliche Aufnahme des Schulbetriebes am neuen Standort in der Torstraße
@@ -156,6 +190,7 @@ Teilnahme von 8 SchülerInnen des GCG am Frühstudium der MLU Halle
 ---
 
 ## 2008
+
 **2. April:** Übernahme der rekonstruierten Turnhalle für den Sportunterricht
 
 **15. April:** Feierliche Übergabe der denkmalschutzgerecht rekonstruierten Aula für den Schulbetrieb durch die Stadt Halle
@@ -175,11 +210,13 @@ chinesische Regierungsdelegation am GCG
 ---
 
 ## 2010
+
 Projekt zur Entstehung einer Gedenktafel für Johann Friedrich Struensee
 
 ---
 
 ## 2011
+
 Verleihung des Titels "Schule ohne Rassismus, Schule mit Courage" an das GCG
 
 1. Spendenlauf am 30.09.2011 erbringt 6758,00 € für die Kinderkrebsstation „Kinderplanet“ und das Team „Ärzte ohne Grenzen“
@@ -187,6 +224,7 @@ Verleihung des Titels "Schule ohne Rassismus, Schule mit Courage" an das GCG
 ---
 
 ## 2012
+
 Kulturaustausch durch MINT-EC in Südkorea
 
 Aufbau einer Schulpartnerschaft mit Malawi
@@ -194,6 +232,7 @@ Aufbau einer Schulpartnerschaft mit Malawi
 ---
 
 ## 2013
+
 Das GCG wird 25
 
 ---
@@ -207,6 +246,7 @@ Schulleiterwechsel: Verabschiedung von Herrn OStD Dr. Müller und Begrüßung vo
 ---
 
 ## 2015
+
 Wechsel der stellvertretenden Schulleiter: Verabschiedung von Herrn StR Kammel und Begrüßung von Frau StD Claudia Schapitz
 
 Erste Verleihung des DOW-Awards
@@ -214,10 +254,23 @@ Erste Verleihung des DOW-Awards
 ---
 
 ## 2016
+
 Aufbau einer Schulpartnerschaft mit Ungarn
+
+---
+
+## 2017
+
+Beginn der Vorbereitung des 30-jährigen Jubiläums
+
+---
 
 ---
 
 futura
 
 ---
+
+
+
+
