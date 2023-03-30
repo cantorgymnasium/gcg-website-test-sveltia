@@ -264,8 +264,6 @@ Beginn der Vorbereitung des 30-jährigen Jubiläums
 
 ---
 
----
-
 futura
 
 ---
