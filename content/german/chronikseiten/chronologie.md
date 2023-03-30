@@ -1,4 +1,22 @@
 ---
+"0": t
+"1": e
+"2": m
+"3": p
+"4": u
+"5": s
+"6": " "
+"7": p
+"8": r
+"9": a
+"10": e
+"11": t
+"12": e
+"13": r
+"14": i
+"15": t
+"16": u
+"17": m
 title: Chronologie
 draft: false
 bg_image: media/backgrounds/page-title.webp
@@ -86,7 +104,7 @@ Verleihung zahlreicher “Jugend forscht” Preise
 
 ## 1996
 
-**März:** Abschluss einer Rahmenvereinbarung zur Kooperation zwischen GCG und Martin – Luther – Universität Halle
+Abschluss einer Rahmenvereinbarung zur Kooperation zwischen GCG und Martin – Luther – Universität Halle
 
 ---
 
