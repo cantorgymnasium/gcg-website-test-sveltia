@@ -26,7 +26,6 @@ gallery: false
 aliases:
   - /schulchronik/pages/chronologie
 ---
-
 ## 1986
 
 Beschluss des Rates des Bezirkes Halle zur Gründung einer Spezialschule mathematisch – naturwissenschaftlich – technischer Richtung
@@ -81,7 +80,7 @@ Beschluss des Rates des Bezirkes Halle zur Gründung einer Spezialschule mathema
 
 ## 1993
 
-Verleihung vieler JugendForscht!-Preise
+Verleihung zahlreicher “Jugend forscht” Preise
 
 14 mal 1,0 Abischnitt
 
