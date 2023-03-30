@@ -1,5 +1,5 @@
 ---
-title: Wettbewerbserfolg der letzten Wochen
+title: Wettbewerbserfolge der letzten Wochen
 date: 2023-03-30T11:07:03.082+02:00
 draft: false
 bg_image: /media/backgrounds/page-title.webp
@@ -22,7 +22,7 @@ Unsere Schülerinnen und Schüler waren in den letzten Wochen bei den verschiede
 
 ##### Schüler experimentieren
 
-###### Platz 1 
+###### Platz 1
 
 - Jan-Theodor S. & Mattis M.: BioFuge - eine nachhaltige Alternative zu erdölbasierten Dichtmassen (Kategorie: Arbeitswelt)
 - Linus T.: Stauvermeidung durch innovative Geschwindigkeitsregelung (Kategorie: Physik)
@@ -74,11 +74,3 @@ Sechs unserer Cantorianer haben sich in der Landes-Chemie-Olympiade für die Mit
 
 - Platz 4: Arthur A.
 - Platz 5: Elias P.
-
-
-
-
-
-
-
-
