@@ -13,7 +13,7 @@ categories:
 tags:
   - "2023"
 type: post
-gallery: false
+gallery: true
 ---
 #### Der Landeswettbewerb „Jugend forscht/Schüler experimentieren“ fand in diesem Jahr im neu eröffneten Planetarium Halle statt.
 
