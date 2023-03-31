@@ -1,7 +1,7 @@
 ---
 title: „Jugend forscht“ – Landeswettbewerb 2023
 date: 2023-03-31T09:42:39.466+02:00
-draft: true
+draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/JuFo.webp
