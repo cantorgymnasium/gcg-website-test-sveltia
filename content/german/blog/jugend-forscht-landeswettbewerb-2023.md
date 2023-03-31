@@ -1,7 +1,7 @@
 ---
 title: „Jugend forscht“ – Landeswettbewerb 2023
 date: 2023-03-31T09:42:39.466+02:00
-draft: false
+draft: true
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/JuFo.webp
@@ -43,6 +43,10 @@ Bundeswettbewerb vertreten. Herzlichen Glückwunsch und viel Erfolg!
 - **Linus Trautmann** im Fachgebiet Physik „Schüler experimentieren“
 
 #### Allen Teilnehmern des Landeswettbewerbs herzlichen Dank und weiterhin viel Erfolg!
+
+
+
+
 
 #### Pressemitteilung, 30. März 2023
 
