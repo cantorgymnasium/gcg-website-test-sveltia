@@ -44,11 +44,7 @@ Bundeswettbewerb vertreten. Herzlichen Glückwunsch und viel Erfolg!
 
 #### Allen Teilnehmern des Landeswettbewerbs herzlichen Dank und weiterhin viel Erfolg!
 
-
-
-
-
-#### Pressemitteilung, 30. März 2023
+##### Pressemitteilung, 30. März 2023
 
 **Jugend forscht Sachsen-Anhalt: Erfolgreich mit Blaualgen, fossilen Hölzern und einem Pflegebett**
 
@@ -64,9 +60,9 @@ Aufgrund steigender Energiepreise versuchen Kommunen, ihren Stromverbrauch zu ve
 
 Nach den Landeswettbewerben im März und April findet das 58. Bundesfinale vom 18. bis 21. Mai 2023 in Bremen statt. Gemeinsame Ausrichter sind die Stiftung Jugend forscht e. V. und die Unternehmensverbände im Lande Bremen e. V.
 
-{{< gallery dir="/media/blog/2023/jufo_landeswettbewerb/" />}}
 
-_Bild 1 (Foto Marco Warmuth):_ ***Inga Lovis Endtmann (17), Georg-Cantor-Gymnasium Halle (Saale)*** _Landessiegerin Jugend forscht: Geo-/Raumwissenschaft_
+
+{{< gallery dir="/media/blog/2023/jufo_landeswettbewerb/" />}}_Bild 1 (Foto Marco Warmuth):_ ***Inga Lovis Endtmann (17), Georg-Cantor-Gymnasium Halle (Saale)*** _Landessiegerin Jugend forscht: Geo-/Raumwissenschaft_
 
 _Projekt: Rekonstruktion eines autochthonen Tertiärwaldes_
 
