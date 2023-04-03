@@ -6,12 +6,12 @@ on:
       - dev
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ gitea.workflow }}-${{ gitea.ref }}
   cancel-in-progress: true
 
 jobs:
   dev-build:
-    if: github.repository == 'gcg/gcg-website' && github.event_name == 'push'
+    if: gitea.repository == 'gcg/gcg-website' && gitea.event_name == 'push'
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
@@ -28,7 +28,7 @@ jobs:
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-dev/          
 
       - name: notification
-        uses: https://github.com/yamaks2306/telegram-notification@main
+        uses: actions/telegram-action@main
         if: always()
         with:
           chat_id: ${{ secrets.TG_CHAT_ID }}

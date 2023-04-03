@@ -5,15 +5,15 @@ on:
     branches:
       - master
   issue_comment:
-    types: [created, edited, deleted]
+    types: [created]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ gitea.workflow }}-${{ gitea.ref }}
   cancel-in-progress: true
 
 jobs:
   prod-build:
-    if: github.repository == 'gcg/gcg-website' && github.event_name == 'push'
+    if: gitea.repository == 'gcg/gcg-website' && gitea.event_name == 'push'
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
@@ -30,14 +30,14 @@ jobs:
           rsync -azr --delete ./ /opt/data/webdata/gcg-website/
 
       - name: notification
-        uses: https://github.com/yamaks2306/telegram-notification@main
+        uses: actions/telegram-action@main
         if: always()
         with:
           chat_id: ${{ secrets.TG_CHAT_ID }}
           token: ${{ secrets.TG_TOKEN }}
           include_commit_info: false
   test-build:
-    if: github.repository == 'gcg/gcg-website' && github.event_name == 'push'
+    if: gitea.repository == 'gcg/gcg-website' && gitea.event_name == 'push'
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
@@ -53,7 +53,7 @@ jobs:
           pagefind --source=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-test/
   auto-rebuild:
-    if: github.repository == 'gcg/gcg-website' && github.event.issue.number == 219
+    if: gitea.repository == 'gcg/gcg-website' && gitea.event.issue.number == 219
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
