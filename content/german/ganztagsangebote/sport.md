@@ -5,7 +5,7 @@ bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/sport.webp
 category: Sport
 duration: 1. Stunde
-weekly: Freitag, 7. Stunde
+schedule: Freitag, 7. Stunde
 class: 5. - 6. Klasse
 room: TTO
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

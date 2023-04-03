@@ -5,7 +5,7 @@ bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/chor.webp
 category: Musik
 duration: 45 Minuten
-weekly: Mittwoch, 8. / 9. Stunde
+schedule: Mittwoch, 8. / 9. Stunde
 class: alle Klassenstufen
 room: Aula
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

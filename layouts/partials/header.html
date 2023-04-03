@@ -19,7 +19,7 @@
             </li>
             <li class="list-inline-item">
               <a class="text-color" href="mailto:{{ .Site.Params.email }}"><strong>{{ i18n "email" | upper }} :
-                </strong> {{ .Site.Params.email_pretty | safeHTML }}</a>
+                </strong> {{ .Site.Params.email_label | safeHTML }}</a>
             </li>
           </ul>
         </div>
@@ -122,13 +122,6 @@
 {{ if not ($.Page.Scratch.Get "photoswipeloaded") }}
   {{ $.Page.Scratch.Set "photoswipeloaded" 1 }}
 
-<!--
-*** jQuery must be loaded before load-photoswipe.js ***
-- If your template already loads jQuery in the header then you don't need to load it again here.
-- If your template already loads jQuery in the footer, then you could load load-photoswipe.js from the footer instead
--->
-
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src={{ "js/load-photoswipe.js" | relURL }}></script>
 
 <!-- Photoswipe css/js libraries -->

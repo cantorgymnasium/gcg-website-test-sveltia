@@ -6,7 +6,7 @@ description: ""
 image: /media/ganztagsangebote/cantortechnik.webp
 category: Technik
 duration: 2 Stunden
-weekly: "Donnerstag, 8.-9. Stunde "
+schedule: "Donnerstag, 8.-9. Stunde "
 class: alle Klassenstufen
 room: "405"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

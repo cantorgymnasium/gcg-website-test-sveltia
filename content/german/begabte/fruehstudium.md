@@ -3,10 +3,9 @@ title: Frühstudium
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
-image: /media/begabte/image.webp
-category: Naturwissenschaften
+image: /media/begabte/fruehstudium.webp
 class: 10 - 12 Klasse
-web_url: null
+web_url: https://www.marketing.uni-halle.de/schulbuero/fruehstudium/
 type: begabte
 gallery: false
 ---

@@ -55,7 +55,7 @@
 - id: duration
   translation: Dauer
 
-- id: weekly
+- id: schedule
   translation: Zeit
 
 - id: class

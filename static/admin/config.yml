@@ -258,7 +258,7 @@ collections:
               - {label: "Route (Link)", name: "route_link", widget: "string"}
               - {label: "Telefonnummer", name: "mobile", widget: "string"}
               - {label: "E-Mail-Adresse", name: "email", widget: "string"}
-              - {label: "E-Mail-Adresse (UI-Ansicht)", name: "email_pretty", widget: "string"}
+              - {label: "E-Mail-Adresse (UI-Ansicht)", name: "email_label", widget: "string"}
               - {label: "Beschreibung", name: "description", widget: "string"}
               - {label: "Kontakt-Titelleiste", name: "top_header", widget: "boolean"}
               - label: "Vorschaubilder"
@@ -776,7 +776,7 @@ collections:
         display_fields: ["ganztag.*"]
         options_length: 50
       - {label: "Dauer", name: "duration", widget: "string"}
-      - {label: "Tag/Stunden", name: "weekly", widget: "string"}
+      - {label: "Tag/Stunden", name: "schedule", widget: "string"}
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Raum", name: "room", widget: "string"}
       - {label: "Anmeldelink", name: "apply_url", widget: "hidden", default: "https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828"}

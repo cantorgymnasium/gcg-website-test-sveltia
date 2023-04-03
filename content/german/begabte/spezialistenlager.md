@@ -4,7 +4,6 @@ draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/begabte/image.webp
-category: Mathematik
 class: 5 - 12 Klasse
 web_url: null
 type: begabte

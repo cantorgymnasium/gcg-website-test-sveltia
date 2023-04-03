@@ -97,7 +97,7 @@
 
 {{ if $data.ausblick.enable }}
 {{ with $data.ausblick }}
-  {{ partial "chronik-modal" (dict "id" (md5 .title) "title" .title "content" .content) }}
+  {{ partial "modal" . }}
 {{ end }}
 {{ end }}
 
@@ -127,7 +127,7 @@
       </div>
       {{ range first 2 (where .Site.RegularPages "Type" "post")}}
       <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        {{ .Render "post" }}
+        {{ .Render "card" }}
       </article>
       {{ end }}
     </div>
@@ -181,7 +181,7 @@
     <div class="row justify-content-center">
       {{ range first 6 (where .Site.RegularPages "Type" "ganztagsangebote" | shuffle)}}
       <div class="col-lg-4 col-sm-6">
-        {{ .Render "ganztagsangebote" }}
+        {{ .Render "ganztag" }}
       </div>
       {{ end }}
     </div>

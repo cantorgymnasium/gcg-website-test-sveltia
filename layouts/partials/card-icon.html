@@ -1,0 +1,10 @@
+<div class="card border-primary rounded-0 hover-shadow mb-4">
+    <div class="container fb-tile-color" style="background-color:{{ .bg_color }};">
+      <i class="{{ .icon }} fb-tile-icon" style="color: {{ .font_color }}"></i>
+    </div>
+    <div class="card-body">
+      <h4 class="card-title">{{ .title | truncate 55 }}</h4>
+      <button type="button" class="btn btn-primary btn-sm" onclick="$('#{{ md5 .title }}').modal('show');">{{
+        i18n "show_more"}}</button>
+    </div>
+</div>

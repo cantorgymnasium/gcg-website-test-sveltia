@@ -22,15 +22,15 @@
       </div>
       {{ end }}
         {{ range .Params.topics }}
-          {{ partial "chronik-modal" (dict "id" (md5 .title) "title" .title "content" .content) }}
+          {{ partial "modal" . }}
         {{ end }}
         {{ if and .Params.pretext (ne .Params.pretext "\n\n\n") }}
-          {{ partial "chronik-modal" (dict "id" "pretext" "title" .Title "content" .Params.pretext) }}
+          {{ partial "modal" (dict "title" .Title "content" .Params.pretext) }}
         {{ end }}
         <div id="wc-canvas"></div>
         {{ $topics := slice }}
         {{ if .Params.pretext }}
-        {{ $topics = $topics | append (slice (slice .Params.Title 200 "pretext")) }}
+        {{ $topics = $topics | append (slice (slice .Params.Title 200 (md5 .Title))) }}
         {{ else }}
         {{ $topics = $topics | append (slice (slice .Params.Title 200)) }}
         {{ end }}
@@ -47,7 +47,7 @@
             document.getElementById('wc-canvas'),
             {
               click: function (item) {
-                if (item[1] != 200 || (item[1] == 200 && item[2] == "pretext")) {
+                if (item[1] != 200 || (item[1] == 200 && item[2] == '{{ md5 .Title }}')) {
                   if( item[3] == "superhaufen" ) {
                     window.location.href = "{{ `/superhaufen/` | relLangURL }}" + item[2];
                   } else {

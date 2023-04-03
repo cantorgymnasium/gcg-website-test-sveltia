@@ -5,7 +5,7 @@ bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/schach.webp
 category: Naturwissenschaften
 duration: nach Vereinbarung
-weekly: ab November
+schedule: ab November
 class: alle Klassenstufen
 room: "104"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

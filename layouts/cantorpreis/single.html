@@ -1,24 +1,18 @@
 {{ define "main" }}
 
-<section class="section">
+<section class="section-sm">
   <div class="container">
     <div class="row">
       <div class="col-md-5 mb-5">
-        <img class="img-fluid w-100" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
+        <img class="img-fluid w-75" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
       </div>
-      <div class="col-md-6 mb-5">
+      <div class="col-md-7 mb-5">
         <h3>{{ .Params.Name }}</h3>
         <h6 class="text-color">{{ .Title }}</h6>
         <div class="content">
           {{ .Content | markdownify }}
         </div>
-        </div>
-        <div class="row">
-        </div>
       </div>
-      <!--div class="col-12 content">
-        {{ .Content }}
-      </div-->
     </div>
   </div>
 </section>

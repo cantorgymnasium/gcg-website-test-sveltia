@@ -34,10 +34,11 @@ elements:
 
 
       Übungsmöglichkeiten für die Aufnahmeprüfung finden Sie [hier](/forms/aufnahmeklausur).
-  - title: Ergebnisse
-    content: >
+
+      #### Ergebnisse
+
       Bis April werden ihnen die Ergebnisse der Aufnahmeprüfung schriftlich
-      mitgeteilt.
+      mitgeteilt.      
 ---
 ## Voraussetzungen
 

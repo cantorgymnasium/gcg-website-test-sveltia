@@ -62,7 +62,9 @@ Nach den Landeswettbewerben im März und April findet das 58. Bundesfinale vom 
 
 
 
-{{< gallery dir="/media/blog/2023/jufo_landeswettbewerb/" />}}_Bild 1 (Foto Marco Warmuth):_ ***Inga Lovis Endtmann (17), Georg-Cantor-Gymnasium Halle (Saale)*** _Landessiegerin Jugend forscht: Geo-/Raumwissenschaft_
+{{< gallery dir="/media/blog/2023/jufo_landeswettbewerb/" />}}
+
+_Bild 1 (Foto Marco Warmuth):_ ***Inga Lovis Endtmann (17), Georg-Cantor-Gymnasium Halle (Saale)*** _Landessiegerin Jugend forscht: Geo-/Raumwissenschaft_
 
 _Projekt: Rekonstruktion eines autochthonen Tertiärwaldes_
 

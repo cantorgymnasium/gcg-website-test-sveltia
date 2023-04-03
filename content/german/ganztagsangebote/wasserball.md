@@ -5,7 +5,7 @@ bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/wasserball.webp
 category: Sport
 duration: 2. Stunden
-weekly: Dienstag, 17.00 - 18.30 Uhr
+schedule: Dienstag, 17.00 - 18.30 Uhr
 class: 5. - 8. Klasse
 room: Schwimmhalle Neustadt
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

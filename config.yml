@@ -1,6 +1,6 @@
 baseURL: https://cantorgymnasium.de/
 title: Georg-Cantor-Gymnasium
-paginate: 6
+paginate: 8
 summaryLength: "10"
 defaultContentLanguageInSubdir: false
 defaultContentLanguage: de
@@ -21,7 +21,7 @@ params:
   address: Georg-Cantor-Gymnasium <br> Torstraße 13 <br> 06110 Halle (Saale)
   top_header: true
   email: schulleitung@cantor-gymnasium.de
-  email_pretty: schulleitung<i class='mdi mdi-at'></i>cantor-gymnasium.de
+  email_label: schulleitung<i class='mdi mdi-at'></i>cantor-gymnasium.de
   description: Das Georg-Cantor-Gymnasium - eine
     mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale).
   twitter: cantor_news

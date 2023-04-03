@@ -2,12 +2,12 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-<section class="section">
+<section class="section-sm">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        {{ with .Params.Image }}
-        <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
+        {{ with .Params.image }}
+          <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
         {{ end }}
         {{ .Content }}
       </div>
@@ -21,7 +21,7 @@
   <div class="container">
     <div class="row">
       {{ range .zahlen }}
-      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+      <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
         <div class="text-center">
           <h2 class="count text-white" data-count="{{ .count }}">0</h2>
           <h5 class="text-white">{{ .name }}</h5>

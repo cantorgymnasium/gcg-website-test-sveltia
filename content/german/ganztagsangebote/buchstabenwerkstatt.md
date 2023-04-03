@@ -5,7 +5,7 @@ bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/bw.webp
 category: Gesellschaft
 duration: nach Vereinbarung
-weekly: ab November
+schedule: ab November
 class: alle Klassenstufen
 room: Bibliothek
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

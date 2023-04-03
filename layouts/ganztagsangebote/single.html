@@ -4,70 +4,67 @@
   <div class="container">
     <div class="row">
       <div class="col-12 mb-4">
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.Image | relURL }}"
+        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}"
           class="img-fluid w-100">
       </div>
     </div>
     <div>
       <h2>{{ .Title }}</h2>
     </div>
-    <div class="row align-items-center mb-5">
-      <div class="col-xl-8 order-sm-3 order-xl-2 col-12 order-2">
-        <ul class="list-inline">
-          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+    <div class="row align-items-center mb-4">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
             <div class="d-flex align-items-center">
               <i class="mdi mdi-calendar-today-outline text-primary icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">{{ i18n "weekly" | upper }}</h6>
-                <p class="mb-0">{{ .Params.Weekly }}</p>
+                <h6 class="mb-0">{{ i18n "schedule" | upper }}</h6>
+                <p class="mb-0">{{ .Params.schedule }}</p>
               </div>
             </div>
-          </li>
-          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
             <div class="d-flex align-items-center">
               <i class="mdi mdi-timer-sand text-primary icon-md mr-2"></i>
               <div class="text-left">
                 <h6 class="mb-0">{{ i18n "duration" | upper }}</h6>
-                <p class="mb-0">{{ .Params.Duration }}</p>
+                <p class="mb-0">{{ .Params.duration }}</p>
               </div>
             </div>
-          </li>
-          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
             <div class="d-flex align-items-center">
               <i class="mdi mdi-crowd text-primary icon-md mr-2"></i>
               <div class="text-left">
                 <h6 class="mb-0">{{ i18n "class" | upper }}</h6>
-                <p class="mb-0">{{ .Params.Class }}</p>
+                <p class="mb-0">{{ .Params.class }}</p>
               </div>
             </div>
-          </li>
-          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
             <div class="d-flex align-items-center">
               <i class="mdi mdi-map-marker-radius-outline text-primary icon-md mr-2"></i>
               <div class="text-left">
                 <h6 class="mb-0">{{ i18n "room" | upper }}</h6>
-                <p class="mb-0">{{ .Params.Room }}</p>
+                <p class="mb-0">{{ .Params.room }}</p>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
-      <!--div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
-        <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "join_club" }}</a>
-      </div-->
-      <div class="col-12 mt-4 order-4">
+      <div class="col-12 mt-4">
         <div class="border-bottom border-primary"></div>
       </div>
     </div>
     <div class="row">
-      <div class="col-12 mb-4 content">
+      <div class="col-12 content">
         {{ .Content }}
       </div>
     </div>
   </div>
 </section>
 
-<section class="section pt-0">
+<section class="section-sm pt-0">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -77,9 +74,9 @@
     <div class="row">
       {{ $related := (where .Site.RegularPages "Type" "ganztagsangebote") | intersect (where .Site.Pages ".Title" "!=" .Title) | union (.Site.RegularPages.Related . ) | shuffle | first 3}}
       {{ range first 3 $related }}
-      <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "ganztagsangebote"}}
-      </div>
+        <div class="col-lg-4 col-sm-6 mb-5">
+          {{ .Render "ganztag"}}
+        </div>
       {{ end }}
     </div>
   </div>

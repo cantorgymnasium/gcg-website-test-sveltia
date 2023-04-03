@@ -6,7 +6,7 @@ description: "Zurück in die Zukunft: Unser GCG im Wandel der Zeit"
 image: /media/ganztagsangebote/chronik.webp
 category: Gesellschaft
 duration: 2. Stunden
-weekly: Donnerstag, 9. - 10. Stunde
+schedule: Donnerstag, 9. - 10. Stunde
 class: 8. - 12. Klasse
 room: "105"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

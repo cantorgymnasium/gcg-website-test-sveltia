@@ -5,7 +5,7 @@ bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/keramik.webp
 category: Kunst
 duration: 2. Stunden
-weekly: Dienstag, 7./8. Stunde
+schedule: Dienstag, 7./8. Stunde
 class: 5. - 8. Klasse
 room: Keller
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

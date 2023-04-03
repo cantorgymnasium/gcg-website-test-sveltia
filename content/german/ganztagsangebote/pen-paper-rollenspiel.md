@@ -5,7 +5,7 @@ bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/pen-paper.webp
 category: Gesellschaft
 duration: nach Vereinbarung
-weekly: siehe Tabelle
+schedule: siehe Tabelle
 class: alle Klassenstufen
 room: siehe Tabelle
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

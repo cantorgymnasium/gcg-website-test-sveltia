@@ -5,7 +5,7 @@ bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/lego.webp
 category: Technik
 duration: nach Vereinbarung
-weekly: Mittwoch, 8. Stunde
+schedule: Mittwoch, 8. Stunde
 class: 6. Klasse
 room: DG
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

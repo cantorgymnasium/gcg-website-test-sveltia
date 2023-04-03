@@ -5,7 +5,7 @@ bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/volleyball.webp
 category: Sport
 duration: 2. Stunden
-weekly: Freitag, 8. - 9. Stunde
+schedule: Freitag, 8. - 9. Stunde
 class: 6. - 10. Klasse
 room: TTO
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

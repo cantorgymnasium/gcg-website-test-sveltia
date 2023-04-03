@@ -5,7 +5,7 @@ bg_image: /media/backgrounds/page-title.webp
 image: /media/ganztagsangebote/band.webp
 category: Musik
 duration: flexibel
-weekly: Mittwoch, 9. Stunde
+schedule: Mittwoch, 9. Stunde
 class: alle Klassenstufen
 room: 212
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

@@ -4,7 +4,6 @@ draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/begabte/sfz.webp
-category: Naturwissenschaften
 class: 5 - 12 Klasse
 web_url: https://sfz-halle.de/
 type: begabte

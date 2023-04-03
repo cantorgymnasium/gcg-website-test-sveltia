@@ -16,10 +16,10 @@ crossorigin=""/>
 }
 </style>
 
-<section class="section bg-gray">
+<section class="section-sm bg-gray">
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 mb-4 mb-lg-0">
+      <div class="col-lg-6 mb-4 mb-lg-0">
         <form action="https://php.cantorgymnasium.de/formtools/process.php" method="post">
           <input type="hidden" name="form_tools_form_id" value="2" />
           <div style="display:none">
@@ -32,7 +32,7 @@ crossorigin=""/>
           <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
         </form>
       </div>
-      <div class="col-lg-5 content">
+      <div class="col-lg-6 content">
         {{ .Content }}
       </div>
     </div>

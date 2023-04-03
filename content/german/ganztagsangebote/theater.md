@@ -6,7 +6,7 @@ description: ""
 image: /media/ganztagsangebote/theater.webp
 category: Gesellschaft
 duration: 2. Stunden
-weekly: Dienstag/Freitag 7./8.-9. Stunde
+schedule: Dienstag/Freitag 7./8.-9. Stunde
 class: alle Klassenstufen
 room: Aula
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

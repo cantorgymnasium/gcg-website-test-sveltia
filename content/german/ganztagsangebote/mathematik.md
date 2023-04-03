@@ -6,7 +6,7 @@ description: Förderung für begabte Schülerinnen und Schüler in Mathematik.
 image: /media/ganztagsangebote/mathematik.webp
 category: Mathematik
 duration: 1. Stunde
-weekly: Montag/Dienstag, 7. Stunde
+schedule: Montag/Dienstag, 7. Stunde
 class: 5./6. Klasse
 room: "307"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828

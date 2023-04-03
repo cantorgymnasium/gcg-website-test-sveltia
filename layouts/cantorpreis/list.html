@@ -1,11 +1,17 @@
 {{ define "main" }}
 
-<section class="section">
+<section class="section-sm">
   <div class="container">
     <div class="row">
-      {{ range .Data.Pages }}
+      {{ range .Pages }}
       <div class="col-lg-3 col-sm-4 col-6">
-        {{ .Render "cantorpreis" }}
+        <div class="card border-primary rounded-0 hover-shadow mb-4">
+          <a href="{{ .Permalink }}"><img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}"></a>
+          <div class="card-body">
+            <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <p class="card-text">{{ .Params.name }}</p>
+          </div>
+        </div>
       </div>
       {{ end }}
     </div>

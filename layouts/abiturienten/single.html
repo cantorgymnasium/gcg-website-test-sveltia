@@ -3,16 +3,11 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        {{ if .Params.multiple }}
-        {{ else }}
-        <div class="col-12 mb-4">
-          <img src="{{ .Params.Image | relURL }}" alt="blog-thumb" class="img-fluid w-100">
-        </div>
-        {{ end }}
-        <div class="content">
-          {{ .Content }}
-        </div>
+      <div class="col-12 mb-4">
+        <img src="{{ .Params.image | relURL }}" alt="blog-thumb" class="img-fluid w-100">
+      </div>
+      <div class="col-12 content">
+        {{ .Content }}
       </div>
     </div>
   </div>
