@@ -2,7 +2,7 @@
 title: Termine
 draft: false
 bg_image: media/backgrounds/page-title.webp
-description: Hier sind alle Termine für das laufende Schuljahr aufgelistet.
+description: Hier sind alle Termine für das laufende Schuljahr aufgelistet. Die Liste kann nach anstehenden und vergangenen Terminen gefiltert werden.
 events:
   - date: 2022-08-25T18:29:41.000+02:00
     enddate: ""

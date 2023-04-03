@@ -66,7 +66,7 @@
     var containerEl = document.querySelector('.filtr-container');
     var filterizd;
     if (containerEl) {
-      filterizd = $('.filtr-container').filterizr({});
+      filterizd = $('.filtr-container').filterizr({layout: 'sameWidth', spinner: {enabled: true}});
     }
     //Active changer
     $('.filter-controls li').on('click', function () {
