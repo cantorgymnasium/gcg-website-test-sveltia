@@ -72,10 +72,14 @@
   // filter
   $(document).ready(function () {
     var containerEl = document.querySelector('.filtr-container');
-    var filterizd;
     if (containerEl) {
-      filterizd = $('.filtr-container').filterizr({layout: 'sameWidth', spinner: {enabled: true}});
-    }
+      new Filterizr(
+        '.filtr-container',
+        {
+          layout: 'sameWidth'
+        }
+      );
+    } 
     //Active changer
     $('.filter-controls li').on('click', function () {
       $('.filter-controls li').removeClass('active');

@@ -38,13 +38,13 @@ params:
     js:
       - https://assets.cantorgymnasium.de/bootstrap/v4/bootstrap.min.js
       - https://assets.cantorgymnasium.de/slick/v1.8/slick.min.js
-      - https://assets.cantorgymnasium.de/filterizr/jquery.filterizr.min.js
+      - https://assets.cantorgymnasium.de/lazyload/v17/dist/lazyload.min.js
     head_js:
       - https://assets.cantorgymnasium.de/wordcloud/v2/wordcloud2.min.js
       - https://assets.cantorgymnasium.de/echarts/v5/echarts.min.js
       - https://assets.cantorgymnasium.de/jquery/v3.6/jquery.min.js
       - https://assets.cantorgymnasium.de/venobox/v2/dist/venobox.min.js
-      - https://assets.cantorgymnasium.de/lazyload/v17/dist/lazyload.min.js
+      - https://assets.cantorgymnasium.de/filterizr/v2/dist/vanilla.filterizr.min.js
   social:
     - title: YouTube
       icon: mdi mdi-youtube
