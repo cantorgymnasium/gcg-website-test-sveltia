@@ -42,19 +42,17 @@
   });
 
   //Hero Slider
-  $('.hero-slider').slick({
+  $('.hero-slider-items').slick({
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnFocus: false,
-    pauseOnHover: false,
+    pauseOnHover: true,
     infinite: true,
     arrows: true,
-    fade: true,
     prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'mdi mdi-chevron-left arrowIcon\'></i></button>',
     nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'mdi mdi-chevron-right arrowIcon\'></i></button>',
     dots: true
   });
-  $('.hero-slider').slickAnimation();
 
   // venobox popup
   $(document).ready(function () {
@@ -115,17 +113,7 @@
   $(window).on('scroll', function () {
     counter();
   });
-
-  // Animation
-  $(document).ready(function () {
-    $('.has-animation').each(function (index) {
-      $(this).delay($(this).data('delay')).queue(function () {
-        $(this).addClass('animate-in');
-      });
-    });
-  });
-
-
+  
 })(jQuery);
 
 var acc = document.getElementsByClassName("accordion");

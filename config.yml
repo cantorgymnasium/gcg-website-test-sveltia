@@ -31,7 +31,6 @@ params:
     css:
       - https://assets.cantorgymnasium.de/bootstrap/v4/bootstrap.min.css
       - https://assets.cantorgymnasium.de/slick/v1.8/slick.css
-      - https://assets.cantorgymnasium.de/animate/v3/animate.min.css
       - https://assets.cantorgymnasium.de/venobox/v2/dist/venobox.min.css
       - https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css
       - https://assets.cantorgymnasium.de/fonts/fira/fira.css

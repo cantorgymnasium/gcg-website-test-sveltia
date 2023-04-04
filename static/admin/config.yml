@@ -74,16 +74,6 @@ collections:
                 widget: "list"
                 fields:
                   - {label: "Inhalt", name: "content", widget: "string", required: false}
-                  - label: "Einblendeanimation"
-                    name: "animation_in"
-                    widget: "select"
-                    options: ["left", "right", "up", "down"]
-                    required: false
-                  - label: "Ausblendeanimation"
-                    name: "animation_out"
-                    widget: "select"
-                    options: ["left", "right", "up", "down"]
-                    required: false
                   - label: "Button"
                     name: "button"
                     widget: "object"
