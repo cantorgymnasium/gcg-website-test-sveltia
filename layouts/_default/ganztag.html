@@ -2,8 +2,8 @@
   <a href="{{ .Permalink }}"><img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}"></a>
   <div class="card-body">
     <div class="container">
-      <div class="row mb-2"><i class="mdi mdi-calendar-today mr-2"></i>{{ .Params.schedule }}</div>
-      <div class="row mb-2"><i class="mdi mdi-crowd mr-2"></i>{{ .Params.class }}</div>
+      <div class="row mb-2"><div class="col-1"><i class="mdi mdi-calendar-today"></i></div><div class="col-11">{{ .Params.schedule }}</div></div>
+      <div class="row mb-2"><div class="col-1"><i class="mdi mdi-crowd"></i></div><div class="col-11">{{ .Params.class }}</div></div>
     </div>
     <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 20 }}</a></h4>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm" data-pagefind-ignore>{{ i18n "show_more"}}</a>

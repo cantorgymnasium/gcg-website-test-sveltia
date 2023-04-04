@@ -1,7 +1,7 @@
 <section class="page-title-section overlay" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`media/backgrounds/page-title.webp`| relURL}}');" >
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-8 position-relative">
         <ul class="list-inline">
           <li class="list-inline-item h2" data-pagefind-ignore><a class="text-primary font-secondary" href="{{ if .Params.Previous.enable }}{{ .Params.Previous.link }}{{ else if .Parent.Page }}{{ .Parent.Page.Permalink }}{{ else }}{{ .Site.baseURL | absLangURL }}{{ end }}">{{ if .Params.previous.enable }}{{ .Params.previous.title }}{{ else }}{{ with .Parent.Params.title }}{{.}}{{ else }}{{ .Site.Params.home }}{{ end }}{{ end }}</a></li>
           <li class="list-inline-item h2"><i class="mdi mdi-chevron-double-right text-white"></i></li>

@@ -6,11 +6,10 @@
 {{ with $data.homepage.slider }}
 <section class="hero-section overlay bg-cover hero-default" data-background="{{ .bg_image | absURL }}">
   <div class="container">
-    <div class="hero-slider">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="text-white">{{ $data.homepage.slider.title | markdownify }}</h2>
-            <div class="hero-slider-items">
+            <h2 class="text-white position-relative">{{ $data.homepage.slider.title | markdownify }}</h2>
+            <div class="hero-slider">
             {{ range .slider_item }}
               <div class="hero-slider-item">
                 <p class="text-muted mb-4" >{{ .content | markdownify }}</p>
@@ -21,7 +20,6 @@
             {{ end }}
             </div>
           </div>
-        </div>
     </div>
   </div>
 </section>
@@ -102,7 +100,7 @@
 {{ end }}
 
 {{ if $data.homepage.blog.enable }}
-<section class="mb-4">
+<section class="section-sm mb-4">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -115,7 +113,7 @@
           <img class="card-img-top rounded-0" src="{{ $data.ausblick.image | relURL }}" alt="{{ $data.ausblick.title }}">
           <div class="card-body">
             <ul class="list-inline mb-3">
-              <li class="list-inline-item mr-3 ml-0"><i class="mdi mdi-fountain-pen-tip"></i> <a
+              <li class="list-inline-item me-3 ms-0"><i class="mdi mdi-fountain-pen-tip"></i> <a
                 href="{{ `author` | relLangURL }}/{{ $data.ausblick.author | urlize }}">{{ $data.ausblick.author | title }}</a></li>
             </ul>
               <h4 class="card-title">{{ $data.ausblick.title }}</h4>
@@ -143,7 +141,7 @@
       <div class="col-12">
         <div class="row feature-blocks bg-white justify-content-between">
           {{ range .feature_item }}
-          <div class="col-xl-5 mb-xl-5 mb-4 text-sm-left">
+          <div class="col-xl-5 mb-xl-5 mb-4">
             {{ with .image }}
               <img src="{{ . }}" class="mb-xl-4 mb-lg-3 mb-4 feature-icon"></img>
             {{ end }}
@@ -170,10 +168,10 @@
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.ganztagsangebote.title }}</h2>
+          <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.ganztagsangebote.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{ `ganztagsangebote` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+            <a href="{{ `ganztagsangebote` | relLangURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
           </div>
         </div>
       </div>
@@ -224,10 +222,10 @@
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.termine.title }}</h2>
+          <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.termine.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{`termine` | relLangURL }}" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "all_events" }}</a>
+            <a href="{{`termine` | relLangURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block text-nowrap">{{ i18n "all_events" }}</a>
           </div>
         </div>
       </div>
@@ -244,7 +242,7 @@
       {{ end }}
 
       {{ range first 3 $events }}
-      <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+      <li class="d-md-table mb-4 w-100 border-bottom hover-shadow ps-0">
         <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0 termin-tc">
           <span class="h2 d-block">{{ time.Format "2" .date}}</span>
           <span class="d-block">{{ time.Format "Jan 2006" .date}}</span>
@@ -257,9 +255,9 @@
           <p class="h4 mb-0 d-block">{{ .title }}</p>
         </div>
         {{ with .location }}
-        <div class="d-md-table-cell text-right pr-0 pr-md-4 p-2 vertical-align-middle">
+        <div class="d-md-table-cell text-end pe-0 pe-md-4 p-2 vertical-align-middle">
           <p>
-            <i class="mdi mdi-map-marker-radius-outline icon-s text-primary mr-2"></i>
+            <i class="mdi mdi-map-marker-radius-outline icon-s text-primary me-2"></i>
             {{ . | markdownify }}
           </p>
         </div>

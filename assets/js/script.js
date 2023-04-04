@@ -42,7 +42,7 @@
   });
 
   //Hero Slider
-  $('.hero-slider-items').slick({
+  $('.hero-slider').slick({
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnFocus: false,

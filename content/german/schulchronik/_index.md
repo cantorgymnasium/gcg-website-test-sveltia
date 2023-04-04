@@ -15,11 +15,11 @@ jedem Interessierten die wechselvolle Geschichte des GCG präsentiert.
 
 ---
 <div class="row">
-<div class="col-3">
+<div class="col-md-3 col-12">
 <img src="/media/schulchronik/cantor1.webp">
 </div>
-<div class="col-9">
-<h1>"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."</h1>
+<div class="col-md-9 col-12">
+<p class="fs-1 fw-bold">"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."</p>
 aus 'David Hilbert, Über das Unendliche', Math. Ann. 95
 </div>
 </div>

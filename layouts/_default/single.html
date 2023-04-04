@@ -11,17 +11,17 @@
           <div class="col-12">
             <div class="row mb-3">
               <div class="col-6 mb-md-0 text-light">
-                <span class="font-weight-bold mr-1">{{ i18n "posted_by" }}:</span>
+                <span class="fw-bold me-1">{{ i18n "posted_by" }}:</span>
                 <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.author | title }}</a>
               </div>
               <div class="col-6 mb-3 mb-md-0 text-light">
-                <span class="font-weight-bold mr-1">{{ i18n "date" }}:</span>
+                <span class="fw-bold me-1">{{ i18n "date" }}:</span>
                 {{ time.Format "02. Jan 2006" .PublishDate }}
               </div>
           </div>
           <div class="row">
             <div class="col-12 mb-md-0 text-light">
-              <span class="font-weight-bold mr-1">{{ i18n "category" }}:</span>
+              <span class="fw-bold me-1">{{ i18n "category" }}:</span>
               {{ range $index, $elements:= .Params.categories }}
                 {{ if ne $index 0 }}, {{ end }}
                 <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | title }}</a>

@@ -323,7 +323,7 @@
       });
     </script>
     <script id="preview-styles">
-      CMS.registerPreviewStyle("https://assets.cantorgymnasium.de/bootstrap/v4/bootstrap.min.css");
+      CMS.registerPreviewStyle("https://assets.cantorgymnasium.de/bootstrap/v5/css/bootstrap.min.css");
       CMS.registerPreviewStyle("https://assets.cantorgymnasium.de/fonts/fira/fira.css");
       CMS.registerPreviewStyle("https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css");
       CMS.registerPreviewStyle("https://cantorgymnasium.de/scss/style.css");
@@ -474,7 +474,7 @@
                       h('div', {className: "row"},
                         widgetsFor('elements').map(function(element, index) {
                           return h('div', {className: "col-lg-4 col-sm-6 mb-4"},
-                            h('div', {className: "card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0"},
+                            h('div', {className: "card rounded-0 hover-shadow border-top-0 border-start-0 border-end-0"},
                               h('div', {className: "card-body"},
                                 h('h4', {className: "card-title mb-3"}, element.data.title),
                                 h('div', {className: "content"}, element.widgets.content))));
@@ -513,9 +513,9 @@
                                 h('div', {className: "d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0 p-2"},
                                   h('p', {className: "h4 mb-0 d-block"}, event.data.title)),
                                 event.data.location != null && event.data.location != "" ?
-                                h('div', {className: "d-md-table-cell text-right pr-0 pr-md-4 p-2 vertical-align-middle"},
+                                h('div', {className: "d-md-table-cell text-end pe-0 pe-md-4 p-2 vertical-align-middle"},
                                   h('p', {},
-                                    h('i', {className: "mdi mdi-map-marker-radius-outline icon-s text-primary mr-2"}), event.data.location)) : null);
+                                    h('i', {className: "mdi mdi-map-marker-radius-outline icon-s text-primary me-2"}), event.data.location)) : null);
                             })))))));
       };
     CMS.registerPreviewTemplate("event-index", EventPreview);
@@ -596,16 +596,16 @@
                         ),
                         h('div', {className: "col-12"},
                           h('ul', {className: "list-inline"},
-                            h('li', {className: "list-inline-item mr-4 mb-3 mb-md-0 text-light"},
-                              h('span', {className: "font-weight-bold mr-2"}, "Geschrieben von:"),
+                            h('li', {className: "list-inline-item me-4 mb-3 mb-md-0 text-light"},
+                              h('span', {className: "fw-bold me-2"}, "Geschrieben von:"),
                               entry.data.author
                             ),
-                            h('li', { className: "list-inline-item mr-4 mb-3 mb-md-0 text-light" },
-                              h('span', { className: "font-weight-bold mr-2"}, "Datum:"), entry.data.date ?
+                            h('li', { className: "list-inline-item me-4 mb-3 mb-md-0 text-light" },
+                              h('span', { className: "fw-bold me-2"}, "Datum:"), entry.data.date ?
                               Intl.DateTimeFormat('de-De', { day: 'numeric', month: 'short', year: 'numeric'}).format(new Date(entry.data.date)) : ""
                             ),
-                            h('li', { className: "list-inline-item mr-4 mb-3 mb-md-0 text-light" },
-                              h('span', { className: "font-weight-bold mr-2"}, "Kategorie:"),
+                            h('li', { className: "list-inline-item me-4 mb-3 mb-md-0 text-light" },
+                              h('span', { className: "fw-bold me-2"}, "Kategorie:"),
                               entry.data.categories != null ? entry.data.categories.map((category, index) => {
                                 var text = (index != 0 ? ", " : "") + category;
                                 return text;
@@ -683,37 +683,37 @@
                     h('div', {className: "row align-items-center mb-5"},
                       h('div', {className: "col-xl-8 order-sm-3 order-xl-2 col-12 order-2"},
                         h('ul', {className: "list-inline"},
-                          h('li', {className: "list-inline-item mr-4 mb-3 mb-sm-0"},
+                          h('li', {className: "list-inline-item me-4 mb-3 mb-sm-0"},
                             h('div', {className: "d-flex align-items-center"},
-                              h('i', {className: "mdi mdi-calendar-today-outline text-primary icon-md mr-2"}),
-                              h('div', {className: "text-left"},
+                              h('i', {className: "mdi mdi-calendar-today-outline text-primary icon-md me-2"}),
+                              h('div', {className: "text-start"},
                                 h('h6', {className: "mb-0"}, "Zeit"),
                                 h('p', {className: "mb-0"}, entry.data.schedule)
                               )
                             )
                           ),
-                          h('li', { className: "list-inline-item mr-4 mb-3 mb-sm-0" },
+                          h('li', { className: "list-inline-item me-4 mb-3 mb-sm-0" },
                             h('div', {className: "d-flex align-items-center"},
-                              h('i', {className: "mdi mdi-timer-sand text-primary icon-md mr-2"}),
-                              h('div', {className: "text-left"},
+                              h('i', {className: "mdi mdi-timer-sand text-primary icon-md me-2"}),
+                              h('div', {className: "text-start"},
                                 h('h6', {className: "mb-0"}, "Dauer"),
                                 h('p', {className: "mb-0"}, entry.data.duration)
                               )
                             )
                           ),
-                          h('li', { className: "list-inline-item mr-4 mb-3 mb-sm-0" },
+                          h('li', { className: "list-inline-item me-4 mb-3 mb-sm-0" },
                             h('div', {className: "d-flex align-items-center"},
-                              h('i', {className: "mdi mdi-crowd text-primary icon-md mr-2"}),
-                              h('div', {className: "text-left"},
+                              h('i', {className: "mdi mdi-crowd text-primary icon-md me-2"}),
+                              h('div', {className: "text-start"},
                                 h('h6', {className: "mb-0"}, "Klassen(n)"),
                                 h('p', {className: "mb-0"}, entry.data.class)
                               )
                             )
                           ),
-                          h('li', { className: "list-inline-item mr-4 mb-3 mb-sm-0" },
+                          h('li', { className: "list-inline-item me-4 mb-3 mb-sm-0" },
                             h('div', {className: "d-flex align-items-center"},
-                              h('i', {className: "mdi mdi-map-marker-radius-outline text-primary icon-md mr-2"}),
-                              h('div', {className: "text-left"},
+                              h('i', {className: "mdi mdi-map-marker-radius-outline text-primary icon-md me-2"}),
+                              h('div', {className: "text-start"},
                                 h('h6', {className: "mb-0"}, "Raum"),
                                 h('p', {className: "mb-0"}, entry.data.room)
                               )
@@ -791,10 +791,10 @@
                     h('div', {className: "row align-items-center mb-5"},
                       h('div', {className: "col-xl-8 order-sm-2 order-xl-2 col-12 order-2 col-sm-6"},
                         h('ul', {className: "list-inline"},
-                          h('li', {className: "list-inline-item mr-4 mb-3 mb-sm-0"},
+                          h('li', {className: "list-inline-item me-4 mb-3 mb-sm-0"},
                             h('div', {className: "d-flex align-items-center"},
-                              h('i', {className: "mdi mdi-calendar-today-outline text-primary icon-md mr-2"}),
-                              h('div', {className: "text-left"},
+                              h('i', {className: "mdi mdi-calendar-today-outline text-primary icon-md me-2"}),
+                              h('div', {className: "text-start"},
                                 h('h6', {className: "mb-0"}, "Klasse(n)"),
                                 h('p', {className: "mb-0"}, entry.data.class)
                               )
@@ -802,7 +802,7 @@
                           ),
                         )
                       ),
-                      h('div', {className: "col-xl-2 text-left text-xl-right order-sm-3 order-3 order-xl-3 col-sm-6 col-12 mb-4 mb-xl-0"},
+                      h('div', {className: "col-xl-2 text-start text-xl-end order-sm-3 order-3 order-xl-3 col-sm-6 col-12 mb-4 mb-xl-0"},
                         h('a', {href: entry.data.web_url, className: "btn btn-primary"}, "Website")
                       ),
                       h('div', { className: "col-12 mt-4 order-4"},

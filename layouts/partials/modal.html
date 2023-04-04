@@ -1,16 +1,26 @@
-<div id="{{ md5 .title }}" class="modal">
+<div id="{{ md5 .title }}" class="modal fade">
   <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h3 class="modal-title">{{ .title }}</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-pagefind-ignore>
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-pagefind-ignore></button>
       </div>
       <div class="modal-body">
-        <div class="content">
+        <div class="content mb-4">
         {{ .content | markdownify }}
         </div>
+        {{ range .unterhaufen }}
+          <div class="container mb-0">
+                  <div class="card border-primary rounded-0 hover-shadow mb-2">
+                    <div class="card-body mb-0">
+                      <details class="mb-0">
+                      <summary class="mb-0">{{ .title }}</summary>
+                      <div class="content"><p class="content">{{ .content | markdownify }}</p></div>
+                      </details>
+                    </div>
+                  </div>
+                </div>
+          {{ end }}
       </div>
     </div>
   </div>

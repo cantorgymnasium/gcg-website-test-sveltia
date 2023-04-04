@@ -10,9 +10,6 @@
 - id: contact_info
   translation: Kontaktdaten
 
-- id: subscribe_newsletter
-  translation: Newsletter abbonieren
-
 - id: subscribe
   translation: Abbonieren
 
