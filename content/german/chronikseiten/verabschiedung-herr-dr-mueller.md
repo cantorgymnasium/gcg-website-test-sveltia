@@ -4,7 +4,7 @@ draft: false
 bg_image: media/backgrounds/page-title.webp
 type: pages
 layout: single.html
-gallery: true
+
 aliases:
   - /schulchronik/pages/verabschiedung-herr-dr-mueller
 ---
@@ -94,7 +94,7 @@ anschließend
 
 Das sagte Herr OStD. Dr. Müller am 12. Juli 2014:
 
-![Danksagung](/media/schulchronik/2014/danksagung.webp)
+{{< image src="/media/schulchronik/2014/danksagung.webp" >}}
 
 ### "Cheflied"
 
@@ -169,8 +169,8 @@ I Did It My Way.
 
 ## Zeitungsartikel
 
-![Zeitungsartikel Schulleiter in Öl](/media/schulchronik/2014/zeitung.webp)
+{{< image src="/media/schulchronik/2014/zeitung.webp" >}}
 
 ## Fotos
 
-{{< gallery dir="/media/schulchronik/2014/galerie" />}}
+{{< gallery dir="/media/schulchronik/2014/galerie" >}}

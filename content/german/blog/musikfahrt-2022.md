@@ -13,7 +13,7 @@ tags:
   - Musikfahrt
   - Weihnachtskonzert
 type: post
-gallery: true
+
 ---
 Vom 07.12. bis zum 09.12.2022 durften die Musik-AGs Band, Chor und Keyboard nach zweijähriger Pause wieder auf die Burg Heldrungen zum Einstudieren des Programms für das Weihnachtskonzert am 16.12.2022 fahren!
 
@@ -21,6 +21,6 @@ Unter der Leitung von Frau Bethin, Frau Krug, Herrn Schettler und mit der Unters
 
 Wie schön, dass es so viele musikalische Talente an unserer Schule gibt!
 
-{{< gallery dir=media/blog/musikfahrt-2022 />}}
+{{< gallery dir=media/blog/musikfahrt-2022 >}}
 
 **Bildrechte: J. Borkowski**

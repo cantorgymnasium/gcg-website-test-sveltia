@@ -14,7 +14,7 @@ tags:
   - JuFo
   - Jugend forscht
 type: post
-gallery: false
+
 ---
 Am 21.02.2023 fand der **Regionalwettbewerb Halle** statt und **alle teilnehmenden Cantorianer waren erfolgreich**.
 

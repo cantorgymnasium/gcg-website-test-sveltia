@@ -7,7 +7,7 @@ image: /media/begabte/image.webp
 class: 5 - 12 Klasse
 web_url: null
 type: begabte
-gallery: false
+
 ---
 ### Auszug aus dem Begabtenförderungskonzept unserer Schule:
 

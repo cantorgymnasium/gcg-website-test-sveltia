@@ -7,7 +7,7 @@ description: Herzlich willkommen auf der Seite der Schülervertretung des
   unserer Arbeit.
 type: pages
 layout: single.html
-gallery: false
+
 aliases:
   - /schuelervertretung/
 ---

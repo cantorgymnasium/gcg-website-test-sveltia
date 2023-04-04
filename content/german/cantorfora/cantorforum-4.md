@@ -6,7 +6,7 @@ bg_image: media/backgrounds/page-title.webp
 description: '"Bundestagswahl…mir egal!?"'
 image: media/cantorfora/cantorforum_e04.bmp
 type: cantorfora
-gallery: true
+
 ---
 Als ich auf den Schulhof haste, ein kurzer Blick zur Turmuhr: 15:00. Mist, schon wieder spät dran – und das, obwohl ich den ganzen Tag noch nichts gemacht habe. Frau Schmidt schrieb mir am Mittwoch eine E-Mail, in der sie mitteilte, dass am Montag, dem 21.09.09, ein Cantorforum stattfinden würde, sogar schon das 4. seiner Art. Es solle um Bundestagswahl gehen und Marcus Syring sollte kommen und in einer Art Podiumsdiskussion mit Publikumsbeteiligung über Politik reden, soviel wusste ich.
 
@@ -25,4 +25,4 @@ Das nächste Cantorforum findet dann im November zum Thema Wiedervereinigung sta
 
 Lucas Tittmann, 2009
 
-{{< gallery dir="/media/cantorfora/cantorforum_4" />}}
+{{< gallery dir="/media/cantorfora/cantorforum_4" >}}

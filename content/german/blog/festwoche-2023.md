@@ -23,7 +23,7 @@ tags:
   - Cantorpreis
   - "2023"
 type: post
-gallery: true
+
 ---
 ## „Ihr macht hier so coole Dinge“
 
@@ -37,7 +37,7 @@ Ein Dank geht an unsere Kunstlehrerinnen, welche in ihren Freistunden und an vie
 
 Es folgt eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung. Durch den großen Umfang der Galerie können leider nicht alle Werke präsentiert werden.
 
-{{< gallery dir="/media/blog/Festwochen/Festwoche23/Galerie_2023" />}}
+{{< gallery dir="/media/blog/Festwochen/Festwoche23/Galerie_2023" >}}
 
 ### Musikalisch-literarischer Abend
 
@@ -53,7 +53,7 @@ Vielen Dank an unsere beiden Moderatoren Clara und Pascal aus der 11. Klasse, we
 
 Für das leibliche Wohl sorgten unsere 12. Klassen mit einem umfangreichen Buffet.
 
-{{< gallery dir="/media/blog/Festwochen/Festwoche23/Muli23" />}}
+{{< gallery dir="/media/blog/Festwochen/Festwoche23/Muli23" >}}
 
 ### Projektwoche
 
@@ -65,7 +65,7 @@ Unsere Projektgruppen stellen sich in einem eigenen Website-Bereich vor. In den 
 
 Hier folgen einige Eindrücke vom Präsentationstag, an welchem die Schülerinnen und Schüler bei den anderen Projektgruppen vorbeischauen konnten:
 
-{{< gallery dir="/media/blog/Festwochen/Festwoche23/Projektwoche23" />}}
+{{< gallery dir="/media/blog/Festwochen/Festwoche23/Projektwoche23" >}}
 
 Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. Klassen schrieben am Montag, Mittwoch und Freitag Vorabis, die 11. waren überwiegend in den Modulkursen Physik und Biologie an der Uni Halle oder unterstützten Projektgruppen in ihrer Arbeit.
 
@@ -73,7 +73,7 @@ Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. 
 
 … geht an: Bernhard Fuchs
 
-{{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantorpreistraeger" />}}
+{{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantorpreistraeger" >}}
 
 {{< card title="Cantorpreisverleihung 2023" link="/blog/cantorpreisverleihung-2023" >}}
 
@@ -90,6 +90,6 @@ Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den tradi
 
 
 
-{{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantortag23" />}}
+{{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantortag23" >}}
 
 

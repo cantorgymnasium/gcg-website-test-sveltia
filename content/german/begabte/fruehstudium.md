@@ -7,7 +7,7 @@ image: /media/begabte/fruehstudium.webp
 class: 10 - 12 Klasse
 web_url: https://www.marketing.uni-halle.de/schulbuero/fruehstudium/
 type: begabte
-gallery: false
+
 ---
 Die Martin-Luther-Universität Halle-Wittenberge bietet seit dem Wintersemester 2006/07 die Möglichkeit, besonders begabte und leistungsstarke Schülerinnen und Schüler der Stufen 11 und 12 als Frühstudierende an Vorlesungen und Übungen in bestimmten Studienfächern teilnehmen und dort die entsprechenden Leistungsnachweise erwerben zu lassen.
 

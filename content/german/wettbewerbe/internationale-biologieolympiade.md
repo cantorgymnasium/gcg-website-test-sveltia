@@ -7,7 +7,7 @@ category: Biologie
 class: 9. - 12. Klasse
 web_url: https://www.scienceolympiaden.de/ibo
 type: wettbewerbe
-gallery: false
+
 ---
 Die Internationale Biologieolympiade richtet sich an alle Biologie interessierte Schülerinnen und Schüler ab der Klasse 9, die gern in allen Bereichen der Biologie und der Biochemie unterwegs sind.
 

@@ -13,7 +13,7 @@ categories:
 tags:
   - "2023"
 type: post
-gallery: false
+
 ---
 ## Großartige Talente beim Regionalwettbewerb „Jugend debattiert“
 

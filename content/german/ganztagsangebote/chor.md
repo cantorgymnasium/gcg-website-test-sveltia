@@ -10,7 +10,7 @@ class: alle Klassenstufen
 room: Aula
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-gallery: false
+
 ---
 Herzlich Willkommen zum GCG-Chor!
 

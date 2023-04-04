@@ -10,7 +10,7 @@ categories:
   - Wettbewerbe
   - Mathematik
 type: post
-gallery: false
+
 ---
 **Am vergangenen Wochende trat ein Teil unserer Schülerinnen und Schüler bei der Landesrunde der 62. Mathematik-Olympiade in Magdeburg an.**
 

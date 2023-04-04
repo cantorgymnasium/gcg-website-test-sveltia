@@ -32,19 +32,20 @@ params:
       - https://assets.cantorgymnasium.de/bootstrap/v4/bootstrap.min.css
       - https://assets.cantorgymnasium.de/slick/v1.8/slick.css
       - https://assets.cantorgymnasium.de/animate/v3/animate.min.css
-      - https://assets.cantorgymnasium.de/venobox/v1/venobox.css
+      - https://assets.cantorgymnasium.de/venobox/v2/dist/venobox.min.css
       - https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css
       - https://assets.cantorgymnasium.de/fonts/fira/fira.css
       - https://assets.cantorgymnasium.de/fonts/tilt-warp/tilt-warp.css
     js:
       - https://assets.cantorgymnasium.de/bootstrap/v4/bootstrap.min.js
       - https://assets.cantorgymnasium.de/slick/v1.8/slick.min.js
-      - https://assets.cantorgymnasium.de/venobox/v1/venobox.min.js
       - https://assets.cantorgymnasium.de/filterizr/jquery.filterizr.min.js
     head_js:
       - https://assets.cantorgymnasium.de/wordcloud/v2/wordcloud2.min.js
       - https://assets.cantorgymnasium.de/echarts/v5/echarts.min.js
       - https://assets.cantorgymnasium.de/jquery/v3.6/jquery.min.js
+      - https://assets.cantorgymnasium.de/venobox/v2/dist/venobox.min.js
+      - https://assets.cantorgymnasium.de/lazyload/v17/dist/lazyload.min.js
   social:
     - title: YouTube
       icon: mdi mdi-youtube

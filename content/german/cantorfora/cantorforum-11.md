@@ -6,7 +6,7 @@ bg_image: media/backgrounds/page-title.webp
 description: "Susann Brosig: In 10 Schritten zum Helden"
 image: media/cantorfora/cantorforum_e11.webp
 type: cantorfora
-gallery: true
+
 ---
 Unfälle sind schon etwas eigenartig. Man sieht, dass jemandem etwas passiert, ahnt, dass es wohl nicht gesund für ihn ist, aber Viele können sich nicht rühren und stehen nur daneben, als seien sie von der bizarren und geheimnisvollen Schönheit des Schreckens verzaubert. Wenn man dann wieder klar denken kann, packt das schlechte Gewissen einen, weil man einfach nicht wusste, wie man helfen soll.
 
@@ -24,4 +24,4 @@ Experten sind die meisten leider immer noch nicht: Ich ging mit schlechtem Beisp
 
 Nikolas Weigt 2012
 
-{{< gallery dir="/media/cantorfora/cantorforum_11" />}}
+{{< gallery dir="/media/cantorfora/cantorforum_11" >}}

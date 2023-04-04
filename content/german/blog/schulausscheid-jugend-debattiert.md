@@ -13,7 +13,7 @@ categories:
 tags:
   - Jugend debattiert
 type: post
-gallery: false
+
 ---
 Vor den Winterferien fand der diesjährige Schulausscheid des Wettbewerbes „Jugend debattiert“ statt. Die Debattantinnen und Debattanten mussten sich mit spannenden Fragen wie „Soll ein soziales Pflichtjahr eingeführt werden?“ auseinandersetzen und es wurden viele gute Argumente in den Debatten ausgetauscht. 
 

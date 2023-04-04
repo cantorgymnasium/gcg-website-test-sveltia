@@ -13,7 +13,7 @@ tags:
   - "2022"
   - Infobiber
 type: post
-gallery: false
+
 ---
 ### Erfolge beim Informatik-Biber-Wettbewerb 2022
 

@@ -6,7 +6,7 @@ bg_image: media/backgrounds/page-title.webp
 description: '"Technik und Tradition in Korea" Paula Hähndel und Dorothee Henke'
 image: media/cantorfora/cantorforum_e10.bmp
 type: cantorfora
-gallery: true
+
 ---
 „Annyeong-haseyo!“ sagen Paula Hähndel und Dorothee Henke zum Anfang ihrer Präsentation und verbeugen sich. Eine einfache Einleitung, doch niemand versteht sie, denn „Das ist koreanisch und heißt soviel wie ´Hallo´“, erklärt Dorothee. Über den MINT-EC kamen sie zusammen mit 5 weiteren deutschen Schülern in eine der besten Schulen Koreas.
 
@@ -24,4 +24,4 @@ Zum Schluss sagen wir heute statt „Danke, Anke!“ einfach mal:
 
 Nikolas Weigt, 2012
 
-{{< gallery dir="/media/cantorfora/cantorforum_10" />}}
+{{< gallery dir="/media/cantorfora/cantorforum_10" >}}

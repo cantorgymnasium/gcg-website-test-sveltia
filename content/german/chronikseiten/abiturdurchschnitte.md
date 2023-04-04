@@ -9,7 +9,7 @@ description: >
   Abitur nach 13 Schuljahren.
 type: pages
 layout: single.html
-gallery: false
+
 aliases:
   - /schulchronik/pages/abiturdurchschnitte
 ---

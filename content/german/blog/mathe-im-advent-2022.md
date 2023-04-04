@@ -14,7 +14,7 @@ tags:
   - Mathematik
   - Weihnachten
 type: post
-gallery: false
+
 ---
 **„Mathe im Advent“** ist ein Adventskalender für die Klassenstufen 2 bis 10. Vom 1. Dezember bis Weihnachten gibt es in zwei Altersstufen täglich eine mathematische Aufgabengeschichte rund um die Mathe-Wichtel.
 

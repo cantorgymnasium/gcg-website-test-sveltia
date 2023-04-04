@@ -14,7 +14,7 @@ categories:
 tags:
   - "2023"
 type: post
-gallery: false
+
 ---
 Unsere Schülerinnen und Schüler waren in den letzten Wochen bei den verschiedensten Einzel- und Mannschaftswettbewerben erfolgreich:
 

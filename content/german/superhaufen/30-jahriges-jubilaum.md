@@ -3,7 +3,7 @@ title: 30-jähriges Jubiläum
 draft: false
 bg_image: /media/backgrounds/page-title.webp
 type: superhaufen
-gallery: true
+
 previous:
   title: 2018
   link: /schulchronik/2018/
@@ -16,7 +16,7 @@ tiles:
     content: |+
       
 
-      {{< gallery dir="/media/schulchronik/2018/programmheft" />}}
+      {{< gallery dir="/media/schulchronik/2018/programmheft" >}}
 
 
     unterhaufen:
@@ -140,7 +140,7 @@ tiles:
 
 
 
-          {{< gallery dir="/media/schulchronik/2018/festveranstaltung" />}}
+          {{< gallery dir="/media/schulchronik/2018/festveranstaltung" >}}
 
 
   - title: Aktionen
@@ -158,7 +158,7 @@ tiles:
         content: |+
           
 
-          {{< gallery dir="/media/schulchronik/2018/ubersicht" />}}
+          {{< gallery dir="/media/schulchronik/2018/ubersicht" >}}
 
 
       - title: Kinobesuch
@@ -299,7 +299,7 @@ tiles:
 
           an.
 
-          {{< gallery dir="/media/schulchronik/2018/rallye" />}}
+          {{< gallery dir="/media/schulchronik/2018/rallye" >}}
 
 
   - title: Flashmob
@@ -362,6 +362,6 @@ tiles:
       {{< slider dir="/media/schulchronik/2018/flashmob" >}}
 
 
-      {{< gallery dir="/media/schulchronik/2018/liedtext" />}}
+      {{< gallery dir="/media/schulchronik/2018/liedtext" >}}
     font_color: "#ffffff"
 ---

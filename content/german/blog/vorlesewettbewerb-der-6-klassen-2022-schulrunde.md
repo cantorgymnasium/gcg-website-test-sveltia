@@ -14,7 +14,7 @@ tags:
   - Schulrunde
   - Stimmung
 type: post
-gallery: true
+
 ---
 Am 12.12.2022 traten je zwei Vertreterinnen und Vertreter pro Klasse beim schulinternen Ausscheid zum Vorlesewettbewerb der 6. Klassen an. Dabei wurde ein eigenständig vorbereiteter Romanausschnitt vorgelesen und danach musste ein Fremdtext präsentiert werden. D﻿ie Jury achtete dabei auf die Lesetechnik und ob eine passende Stimmung vermittelt wurde.
 
@@ -22,4 +22,4 @@ Ein Dank soll an Frau Opel-Fritzlar gerichtet werden, welche die schönen zwei S
 
 Mit leichtem Abstand konnte sich Nino aus der 6/3 durchsetzen und wird unsere Schule bei der Stadtrunde vertreten. Wir drücken die Daumen!
 
-{{< gallery dir="media/blog/VorlesewettbewerbKl6_12_2022" />}}
+{{< gallery dir="media/blog/VorlesewettbewerbKl6_12_2022" >}}

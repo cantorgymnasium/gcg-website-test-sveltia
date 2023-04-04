@@ -7,7 +7,7 @@ category: Chemie
 class: 9. - 12. Klasse
 web_url: https://www.scienceolympiaden.de/icho
 type: wettbewerbe
-gallery: false
+
 ---
 - Internationale Wissenschaftsolympiade
 - findet jährlich für Schülerinnen und Schüler ab Klassenstufe 9 statt

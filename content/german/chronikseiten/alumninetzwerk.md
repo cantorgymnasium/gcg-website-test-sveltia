@@ -5,7 +5,7 @@ bg_image: media/backgrounds/page-title.webp
 type: pages
 template: single.html
 layout: single.html
-gallery: false
+
 aliases:
   - /schulchronik/pages/alumninetzwerk
 ---

@@ -7,7 +7,7 @@ category: Sonstiges
 class: 8. - 12. Klasse
 web_url: https://www.jugend-debattiert.de/
 type: wettbewerbe
-gallery: false
+
 ---
 In Zeiten einer Informationsflut und Desinformation ist es besonders wichtig, gut argumentieren und seine Position vertreten zu können. Genau darum geht es im Wettbewerb „Jugend debattiert“ ab der Klasse 8.
 

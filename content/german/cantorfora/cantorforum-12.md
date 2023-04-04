@@ -6,7 +6,7 @@ bg_image: media/backgrounds/page-title.webp
 description: "Leandro Gambôa: 1 Year Backpacking Australia"
 image: media/cantorfora/cantorforum_e12.webp
 type: cantorfora
-gallery: true
+
 ---
 „Lust auf Down Under?“ - so wirbt die GDANSA zur Zeit mit Plakaten für einen Schüleraustausch nach Australien. Doch auch als Nicht-mehr-Schüler kann dieses fantastische Land auf eine ganz spezielle Art entdecken. Eine Mischung aus Wanderarbeit und Rucksacktourismus genannt Backpacking. Leandro Gambôa war ein solcher Backpacker und wir hatten heute das Vergnügen seinen Bericht zu hören.
 
@@ -26,4 +26,4 @@ Doch trotz allem blieben Erinnerungen und viele Fotos von vielen Facetten Austra
 
 Nikolas Weigt 2013
 
-{{< gallery dir="/media/cantorfora/cantorforum_12" />}}
+{{< gallery dir="/media/cantorfora/cantorforum_12" >}}

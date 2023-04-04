@@ -7,7 +7,7 @@ category: Fremdsprachen
 class: 5. - 12. Klasse
 web_url: http://www.bundeswettbewerb-fremdsprachen.de/sachsen-anhalt
 type: wettbewerbe
-gallery: false
+
 ---
 Am Bundeswettbewerb Fremdsprachen kann man sich mit allen an der Schule unterrichteten Fremdsprachen beteiligen, d.h. Englisch, Latein, Französisch und Spanisch. Die Teilnahme ist kostenlos. Die Anmeldung erfolgt ab Schuljahresbeginn bis maximal 06. Oktober. Es gibt mehrere Wettbewerbssparten:
 

@@ -6,6 +6,6 @@ bg_image: media/backgrounds/page-title.webp
 description: '"Abi - und dann...?" Teil 1 von Andreas Bader'
 image: media/cantorfora/cantorforum_e02.bmp
 type: cantorfora
-gallery: true
+
 ---
-{{< gallery dir="/media/cantorfora/cantorforum_2" />}}
+{{< gallery dir="/media/cantorfora/cantorforum_2" >}}

@@ -6,7 +6,7 @@ bg_image: media/backgrounds/page-title.webp
 description: "Maximilian Appel: Ozeanien"
 image: media/cantorfora/cantorforum_e13.webp
 type: cantorfora
-gallery: true
+
 ---
 Nicht allzu lang ist es her, dass Leandro Gamboa und seine Eindrücke aus einem Jahr „Work and Travel“ in Australien schilderte – nun konnten wir erneut einen Australienreisenden Alumnus zu einem Cantorforum begrüßen.
 
@@ -20,4 +20,4 @@ So blieb uns nur noch zu sagen: „Chakka! Und vielen Dank Max.“
 
 Nikolas Weigt 2015
 
-{{< gallery dir="/media/cantorfora/cantorforum_13" />}}
+{{< gallery dir="/media/cantorfora/cantorforum_13" >}}

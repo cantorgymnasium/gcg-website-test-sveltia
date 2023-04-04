@@ -11,7 +11,7 @@ categories:
 tags:
   - Modulkurs
 type: post
-gallery: true
+
 ---
 ### Modulkurs Klasse 11
 
@@ -45,6 +45,6 @@ Rückblickend bedanken wir uns bei der Hochschule Merseburg für die Möglichkei
 
 
 
-{{< gallery dir="media/blog/Modulkurse/Chemie202311er" />}}
+{{< gallery dir="media/blog/Modulkurse/Chemie202311er" >}}
 
 

@@ -542,7 +542,7 @@ collections:
           - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-          - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+          
           - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "pages"
     icon: "page-add"
@@ -561,7 +561,7 @@ collections:
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "pages"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "single.html"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - label: "Aliase"
         name: "aliases"
         widget: "list"
@@ -668,7 +668,7 @@ collections:
             name: "tag"
             widget: "string"
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "forms"
     icon: "document"
@@ -696,7 +696,7 @@ collections:
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Datei", name: "link", widget: "file"}
       - {label: "Type", name: "type", widget: "hidden", default: "forms"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "cantorpreis"
     icon: "award"
@@ -745,7 +745,7 @@ collections:
               - { label: "Sonstige", value: "mdi mdi-share-variant-outline" }
           - {label: "Link", name: "link", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "ganztagsangebote"
     icon: "group"
@@ -781,7 +781,7 @@ collections:
       - {label: "Raum", name: "room", widget: "string"}
       - {label: "Anmeldelink", name: "apply_url", widget: "hidden", default: "https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828"}
       - {label: "Type", name: "type", widget: "hidden", default: "ganztagsangebote"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "wettbewerbe"
     icon: "trophy"
@@ -814,7 +814,7 @@ collections:
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Website", name: "web_url", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "wettbewerbe"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "begabte"
     icon: "pi"
@@ -846,7 +846,7 @@ collections:
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Website", name: "web_url", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "begabte"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "projektwoche"
     icon: "projektwoche"
@@ -865,7 +865,7 @@ collections:
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Type", name: "type", widget: "hidden", default: "projektwoche"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - label: "Kacheln"
         name: "tiles"
         widget: "list"
@@ -901,7 +901,7 @@ collections:
           - {label: "Titel", name: "title", widget: "string", required: true}
           - {label: "Inhalt", name: "content", widget: "markdown", required: true}
         required: false
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown", required: false, default: ""}
   - name: "abiturienten"
     icon: "graduation-cap"
@@ -921,7 +921,7 @@ collections:
       - {label: "Bild", name: "image", widget: "image", default: "/media/abiturienten/image.webp", required: false, media_library: { config: { max_file_size: 2048000 } } }
       - {label: "Mehrere Bilder", name: "multiple", widget: "boolean", default: false, required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "abiturienten"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "cantorfora"
     icon: "presentation"
@@ -952,5 +952,5 @@ collections:
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
       - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/image.webp", media_library: { config: { max_file_size: 2048000 } } }
       - {label: "Type", name: "type", widget: "hidden", default: "cantorfora"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown"}

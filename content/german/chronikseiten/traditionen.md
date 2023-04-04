@@ -4,7 +4,7 @@ draft: false
 bg_image: media/backgrounds/page-title.webp
 type: pages
 layout: single.html
-gallery: false
+
 aliases:
   - /schulchronik/pages/traditionen
 ---
@@ -12,7 +12,7 @@ aliases:
 
 Seit 1995, dem Jahr des 150. Geburtstages Georg Cantors, wird jährlich ein herausragender Schüler bzw. eine herausragende Schülerin mit dem Cantorpreis geehrt. Die Preisträger erhalten einen vom Förderverein des Georg-Cantor-Gymnasiums gestifteten Zinnbecher mit Motiven der Stadt Halle und 150€ Preisgeld. Mit diesem Preis werden Schüler für besondere Leistungen und Engagement für unsere Schule ausgezeichnet. In den einzelnen Jahren unser Chronik werden die Cantorpreisträger vorgestellt
 
-![Cantorpreis](/media/about/cantorpreis.webp)
+{{< image src="/media/about/cantorpreis.webp" >}}
 
 ## 2. Die Kultur- und Wissenschaftswoche
 
@@ -62,4 +62,4 @@ Der Tag der Kulturen trägt an unserer Schule dazu bei, dass die Schülerinnen u
 
 In der Projektwoche 2011 setzte eine Gruppe von Cantorianern die Idee der Gestaltung eines Schulballs erstmallig um. Der erste Schulball in der Geschichte des GCG sollte im folgenden Herbst seine Premiere feiern.
 
-![Eintrittskarte](/media/about/schulball.webp)
+{{< image src="/media/about/schulball.webp" >}}

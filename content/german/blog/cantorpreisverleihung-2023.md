@@ -13,7 +13,7 @@ tags:
   - Cantorpreis
   - "2023"
 type: post
-gallery: true
+
 ---
 ## Der Cantorpreis 2023 geht an Bernhard Fuchs!
 
@@ -41,4 +41,4 @@ Am Ende kam Prof. Roth zum Ergebnis, dass Geigen allgemein ein chemisches Geheim
 
 Danach neigte sich die Festveranstaltung dem Höhepunkt entgegen: der Verleihung des Cantorpreises an Bernhard Fuchs. Er bedankte sich bei unserem Kollegium für die intensive Förderungen und berichtete, dass er bereits in der 6. Klasse vom Cantorpreis fasziniert war. Damals konnte er als Klassensprecher erstmals an der Verleihung von ebendiesen teilnehmen. Spätestens seit der 7. Klasse war es dann eines seiner persönlichen Ziele, ihn später selbst zu gewinnen. Auch seiner Familie und den Freunden dankte er intensiv.
 
-{{< gallery dir="/media/blog/Cantorpreisverleihungen/2023" />}}
+{{< gallery dir="/media/blog/Cantorpreisverleihungen/2023" >}}

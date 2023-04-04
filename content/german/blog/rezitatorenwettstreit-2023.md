@@ -13,7 +13,7 @@ categories:
 tags:
   - "2023"
 type: post
-gallery: true
+
 ---
 Am Donnerstag, dem 16. März 2023, fand unser
 

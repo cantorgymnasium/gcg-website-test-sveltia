@@ -58,7 +58,17 @@
 
   // venobox popup
   $(document).ready(function () {
-    $('.venobox').venobox();
+    new VenoBox({
+      selector: '.vb-video'
+    });
+    new VenoBox({
+      selector: '.vb-gallery',
+      numeration: true,
+      infinigall: true,
+      share: true,
+      shareStyle: 'block',
+      spinner: 'grid'
+    });
   });
 
   // filter

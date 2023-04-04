@@ -10,7 +10,7 @@ class: alle Klassenstufen
 room: siehe Tabelle
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-gallery: false
+
 ---
 Erfindet spannende Geschichten und erlebt selbst erdachte Rollenspiele. Eurer Fantasie sind dabei kaum Grenzen gesetzt.
 

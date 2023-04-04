@@ -58,7 +58,7 @@ collections:
           - {label: "Inaktiv", name: "draft", widget: "boolean", default: false, required: false, hint: "Diese Einstellung deaktiviert den Bereich auf der Website."}
           - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
           - {label: "Einleitung", name: "description", widget: "text", required: false}
-          - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+          
           - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "chronikseiten"
     icon: "page-add"
@@ -77,7 +77,7 @@ collections:
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "pages"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "single.html"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - label: "Aliase"
         name: "aliases"
         widget: "list"
@@ -165,7 +165,7 @@ collections:
               - { label: "Sonstige", value: "mdi mdi-share-variant-outline" }
           - {label: "Link", name: "link", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: false, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "superhaufen"
     icon: "superhaufen"
@@ -183,7 +183,7 @@ collections:
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Hintergrundbild", name: "bg_image", widget: "hidden", default: "/media/backgrounds/page-title.webp"}
       - {label: "Type", name: "type", widget: "hidden", default: "superhaufen"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - label: "Rückverlinkung"
         name: "previous"
         widget: "object"
@@ -253,7 +253,7 @@ collections:
         search_fields: ["jahr", "name"]
         value_field: "name"
         required: false
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown", required: false, default: ""}
   - name: "abiturienten"
     icon: "graduation-cap"
@@ -273,7 +273,7 @@ collections:
       - {label: "Bild", name: "image", widget: "image", default: "/media/abiturienten/image.webp", required: false, media_library: { config: { max_file_size: 2048000 } } }
       - {label: "Mehrere Bilder", name: "multiple", widget: "boolean", default: false, required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "abiturienten"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "cantorfora"
     icon: "presentation"
@@ -304,5 +304,5 @@ collections:
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
       - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/image.webp", media_library: { config: { max_file_size: 2048000 } } }
       - {label: "Type", name: "type", widget: "hidden", default: "cantorfora"}
-      - {label: "Gallerie-Komponente", name: "gallery", widget: "boolean", default: true, required: false, hint: "Benötigt für Gallerie bzw. Bildeinbettung"}
+      
       - {label: "Text", name: "body", widget: "markdown"}

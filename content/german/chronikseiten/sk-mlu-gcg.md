@@ -5,7 +5,7 @@ draft: false
 bg_image: media/backgrounds/page-title.webp
 type: pages
 layout: single.html
-gallery: false
+
 aliases:
   - /schulchronik/pages/sk-mlu-gcg
 ---
@@ -70,7 +70,7 @@ Der Leiter der Spezialklassen war dem Direktor der Sektion Mathematik unterstell
 
 Für Erweiterungskurse in Mathematik und Physik wurden Hochschullehrkräfte der betreffenden Sektionen beauftragt. So unterrichtete z. B. der spätere Rektor Prof. Dr. Dr. G. Berg die Spezialklassenschüler einiger Jahrgänge in Physik.
 
-![Bild 1](/media/schulchronik/1991/spezialklassen/1.webp)
+{{< image src="/media/schulchronik/1991/spezialklassen/1.webp" >}}
 
 ### 5. Die Aufnahmeprüfung
 
@@ -99,7 +99,7 @@ Gegenstand unzähliger Geschichten sind die Internate der Spezialklassen. Anfän
 
 Das Zusammenleben im Internat hatte einen wesentlichen Einfluss auf das positive soziale Klima zwischen den Schülern. Gegenseitige Hilfe und gegenseitiges Anspornen bei der Bewältigung des umfangreichen Lernpensums waren selbstverständlich.
 
-![Bild 1](/media/schulchronik/1991/spezialklassen/2.webp)
+{{< image src="/media/schulchronik/1991/spezialklassen/2.webp" >}}
 
 ### 7. Die Spezialklassen und die Volksbildung
 

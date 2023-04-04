@@ -11,6 +11,6 @@ class: 5. Klasse
 room: "108"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-gallery: false
+
 ---
 Methoden, Geräte, Präparate, Experimente und vieles mehr

@@ -7,7 +7,7 @@ image: /media/begabte/image.webp
 class: 5 - 12 Klasse
 web_url: null
 type: begabte
-gallery: false
+
 ---
 Im Rahmen der Förderung begabter Schüler wird jährlich am Georg-Cantor-Gymnasium ein Spezialistenlager durchgeführt.
 In der Jugendherberge Frauenstein werden die zukünftigen Teilnehmer der von den besten Mathematiklehrern eine Woche darauf vorbereitet und gelehrt.

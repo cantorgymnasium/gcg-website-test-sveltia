@@ -12,7 +12,7 @@ categories:
 tags:
   - IChO
 type: post
-gallery: false
+
 ---
 Bernhard aus der 12. Klassenstufe gehört zu den bundesweit 60 besten Chemikern und nimmt Anfang März an der Auswahlrunde in Göttingen für das deutsche Team auf internationaler Ebene teil. 
 

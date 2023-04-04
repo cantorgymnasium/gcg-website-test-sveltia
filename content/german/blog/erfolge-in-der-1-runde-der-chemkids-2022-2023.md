@@ -11,7 +11,7 @@ categories:
   - Naturwissenschaften
 tags: []
 type: post
-gallery: false
+
 ---
 #### Thema: "Rundis verzauberte Milch"
 

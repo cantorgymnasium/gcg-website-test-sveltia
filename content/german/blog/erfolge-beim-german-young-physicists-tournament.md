@@ -13,7 +13,7 @@ tags:
   - physik
   - gypt
 type: post
-gallery: true
+
 ---
 Am Samstag, dem 21.01.2023, fand in Jena die Regionalrunde des Physikwettbewerbs ["German Young Physicists' Tournament"](https://www.gypt.org/) statt.
 
@@ -28,4 +28,4 @@ Dabei haben sich Leif Fischer, Felix Müller und Christoph Töpel für das Bunde
 
 Wir gratulieren allen Teilnehmerinnen und Teilnehmern zu ihrem Erfolg und wünschen den drei Qualifizierten viel Erfolg für den Bundeswettbewerb, welcher vom 3. bis 5. März in Bad Honnef abgehalten wird.
 
-{{< gallery dir=media/blog/gypt2023 />}}
+{{< gallery dir="media/blog/gypt2023" >}}

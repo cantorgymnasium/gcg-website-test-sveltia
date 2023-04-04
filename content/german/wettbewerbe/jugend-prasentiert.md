@@ -7,7 +7,7 @@ category: Sonstiges
 class: 7. - 12. Klasse
 web_url: https://jugend-praesentiert.de/
 type: wettbewerbe
-gallery: false
+
 ---
 Eine gute Präsentation bannt seine Zuhörerinnen und Zuhörer von der ersten Sekunde an! Genau dein Anliegen? Dann bist du bei diesem Wettbewerb richtig!
 

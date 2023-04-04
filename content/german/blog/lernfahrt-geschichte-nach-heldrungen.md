@@ -12,7 +12,7 @@ tags:
   - geschichte
   - lernfahrt
 type: post
-gallery: true
+
 ---
 #### Lernfahrt des Grundkurses Geschichte 12/4. Semester am 17.3. -19.3.2023
 
@@ -24,6 +24,6 @@ Insgesamt waren die Abiturienten sehr fleißig, und wir wünschen viel Erfolg be
 
 
 
-{{< gallery dir="/media/blog/2023/lernfahrt_geschichte" />}}
+{{< gallery dir="/media/blog/2023/lernfahrt_geschichte" >}}
 
 

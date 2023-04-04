@@ -9,7 +9,7 @@ files:
   - title: Kognitiver Fähigkeitstest
     link: /media/forms/Kognitiver Fähigkeitstest.pdf
 type: forms
-gallery: false
+
 ---
 Hier können die Beispielklausuren für die Aufnahmeprüfung am Georg-Cantor-Gymnasium heruntergeladen werden.
 

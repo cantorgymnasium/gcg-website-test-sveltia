@@ -6,7 +6,7 @@ bg_image: media/backgrounds/page-title.webp
 description: "Katarina Forkmann: Placebo und Nocebo, die innere Apotheke"
 image: media/cantorfora/cantorforum14.webp
 type: cantorfora
-gallery: true
+
 ---
 Manche mögen es der Macht des Herrn zuschreiben, wenn ein tiefgläubiger Mensch eine eigentlich unheilbare Krankheit besiegt – Doch es lässt sich auch eine rationale, wenn auch verblüffende Erklärung geben, die im Grunde jeder kennt: Die positive Einstellung, dass Gott diesen Menschen heilen wird, hat das Unmögliche möglich gemacht. Gemeinhin ist dieser Effekt unter dem Wort Placebo, was Latein ist und „Ich werde gefallen“ bedeutet, bekannt und Katarina ließ uns an ihren Erkenntnissen zu dieser körpereigenen Apotheke teilhaben.
 
@@ -22,4 +22,4 @@ die – wie immer – zum Ende des Cantorforums, indem wir wieder Erstaunliches 
 
 Nikolas Weigt, 2015
 
-{{< gallery dir="/media/cantorfora/cantorforum_14" />}}
+{{< gallery dir="/media/cantorfora/cantorforum_14" >}}

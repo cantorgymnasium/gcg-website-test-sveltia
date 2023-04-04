@@ -5,7 +5,7 @@ bg_image: media/backgrounds/page-title.webp
 description: null
 type: pages
 layout: single.html
-gallery: false
+
 aliases:
   - /impressum/
 ---

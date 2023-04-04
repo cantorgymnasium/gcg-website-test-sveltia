@@ -13,7 +13,7 @@ tags:
   - physikolympiade
   - "2023"
 type: post
-gallery: false
+
 ---
 Am Donnerstag, dem 09.03.2023, fand an der Otto-von-Guericke-Universität in Magdeburg die Endrunde der 19. Landesphysikolympiade statt.
 

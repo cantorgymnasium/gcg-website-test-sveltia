@@ -12,7 +12,7 @@ categories:
 tags:
   - IPhO
 type: post
-gallery: false
+
 ---
 ### Florian J. (Kl. 11) und Arvid H. (Kl. 12) gehörten zu den besten 50 Teilnehmern
 der 3. Runde der Internationalen Physikolympiade.
