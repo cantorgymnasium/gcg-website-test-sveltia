@@ -8,5 +8,8 @@ social:
   - link: mailto:berger@cantor-gymnasium.de
     icon: mdi mdi-at
     title: E-Mail
+type: author
+simplified: false
+active: true
 ---
 Web-Admin, Lehrer Informatik & Deutsch

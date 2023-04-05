@@ -7,6 +7,9 @@ social:
   - title: E-Mail
     icon: mdi mdi-at
     link: mailto:kontakt@denyskon.de
+type: author
+simplified: false
+active: true
 ---
 Ich bin ein Schüler der 9. Klasse am Georg-Cantor-Gymnasium in Halle (Saale) und Schülersprecher im Schuljahr 2022/2023.
 

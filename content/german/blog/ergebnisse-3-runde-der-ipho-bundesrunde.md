@@ -5,7 +5,7 @@ draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/IPhO.webp
-author: "Frau Bachran "
+author: Frau Bachran
 categories:
   - Naturwissenschaften
   - Wettbewerbe

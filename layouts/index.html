@@ -124,7 +124,13 @@
             <div class="row mb-2">
               <div class="col-6">
                 <i class="mdi mdi-fountain-pen-tip me-2"></i>
-                <a href="{{ `author` | relLangURL }}/{{ $data.ausblick.author | urlize }}">{{ $data.ausblick.author | title }}</a>
+                {{ range where (where .Site.RegularPages "Type" "author") "Title" $data.ausblick.author  }}
+                  {{ if .Params.simplified }}
+                    {{ .Title }}
+                  {{ else }}
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                  {{ end }}
+                {{ end }}
               </div>
             </div>
             <h4 class="card-title text-truncate" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">{{ $data.ausblick.title }}</h4>

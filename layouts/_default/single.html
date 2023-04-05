@@ -12,7 +12,13 @@
             <div class="row mb-3">
               <div class="col-6 mb-md-0 text-light">
                 <span class="fw-bold me-1">{{ i18n "posted_by" }}:</span>
-                <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.author | title }}</a>
+                {{ range where (where .Site.RegularPages "Type" "author") "Title" .Params.author  }}
+                  {{ if .Params.simplified }}
+                    {{ .Title }}
+                  {{ else }}
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                  {{ end }}
+                {{ end }}
               </div>
               <div class="col-6 mb-3 mb-md-0 text-light">
                 <span class="fw-bold me-1">{{ i18n "date" }}:</span>
