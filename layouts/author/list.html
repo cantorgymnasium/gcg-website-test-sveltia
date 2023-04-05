@@ -6,22 +6,26 @@
       <div class="col-12">
         <div class="container">
           {{ range .Pages }}
-            <div class="d-md-table w-100 border-bottom hover-shadow p-3">
-              <div class="d-md-table-cell termin-tc">
-              {{ if .Params.image }}
-                <img class="rounded-circle img-fluid" src="{{.Params.image | relURL }}" width="128px">
-              {{ else if .Params.email }}
-                <img class="rounded-circle img-fluid" src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
-              {{ end }}
+          <div class="card mb-4">
+            <div class="row g-0">
+              <div class="col-md-2 col-5">
+                {{ if .Params.image }}
+                <img class="rounded img-fluid w-100" src="{{.Params.image | relURL }}"
+                  style="height: 160px;object-fit: cover;">
+                {{ else if .Params.email }}
+                <img class="rounded img-fluid w-100"
+                  src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=160&pg&d=identicon" style="height: 160px;object-fit: cover;">
+                {{ end }}
               </div>
-              <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
-                <a href="{{ .Permalink }}" class="h4 mb-3 d-block">{{ .Title }}</a>
-                <p class="mb-0">{{ .Summary | truncate 100 }}</p>
-              </div>
-              <div class="d-md-table-cell text-end pe-0 pe-md-4" data-pagefind-ignore>
-                <a href="{{ .Permalink }}" class="btn btn-primary">{{ i18n "read_more"}}</a>
+              <div class="col-md-10 col-7">
+                <div class="card-body text-end">
+                  <h5 class="card-title text-start">{{ .Title }}</h5>
+                  <p class="card-text text-truncate text-start">{{ .Summary }}</p>
+                  <a href="{{ .Permalink }}" class="btn btn-primary">{{ i18n "read_more"}}</a>
+                </div>
               </div>
             </div>
+          </div>
           {{ end }}
         </div>
       </div>
