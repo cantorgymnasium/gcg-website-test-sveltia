@@ -1,6 +1,6 @@
 <div class="card border-primary rounded-0 hover-shadow mb-4">
   <div class="card-body">
-    <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 30 }}</a></h4>
+    <h4 class="card-title text-truncate"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm" data-pagefind-ignore>{{ i18n "show_more"}}</a>
   </div>
 </div>

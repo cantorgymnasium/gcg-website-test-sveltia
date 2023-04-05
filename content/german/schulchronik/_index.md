@@ -13,18 +13,19 @@ analogen Schulchronik gesammelt sind. Seit 2011 sind wir vom Digitalisierungswah
 befallen und haben eine eigene Homepage erstellt, die als Teil der Schulhomepage
 jedem Interessierten die wechselvolle Geschichte des GCG präsentiert.
 
----
-<div class="row">
-<div class="col-md-3 col-12">
-<img src="/media/schulchronik/cantor1.webp">
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-3">
+      <img src="/media/schulchronik/cantor1.webp" class="img-fluid rounded w-100" alt="...">
+    </div>
+    <div class="col-md-9 d-flex align-items-center">
+      <div class="card-body">
+        <p class="h2 card-title">"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."</p>
+        <p class="card-text"><small class="text-muted">aus 'David Hilbert, Über das Unendliche', Math. Ann. 95</small></p>
+      </div>
+    </div>
+  </div>
 </div>
-<div class="col-md-9 col-12">
-<p class="fs-1 fw-bold">"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."</p>
-aus 'David Hilbert, Über das Unendliche', Math. Ann. 95
-</div>
-</div>
-
----
 
 ## Statistische Daten
 

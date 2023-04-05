@@ -20,25 +20,13 @@
             }
           </style>
         </noscript>
-        <ul class="list-unstyled filtr-container">
+        <div class="filtr-container">
           {{ range .Params.events }}
-          <li class="d-md-table mb-4 w-100 hover-shadow filtr-item" data-category="{{ if or (ge (.date | time.AsTime).Unix now.Unix) (and .enddate (ge (.enddate | time.AsTime).Unix now.Unix)) }}upcoming{{else}}past{{end}}" data-time="{{.date}}">
-            <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0 termin-tc">
-              <span class="h2 d-block">{{ time.Format "2" .date}}</span>
-              <span class="d-block">{{ time.Format "Jan 2006" .date}}</span>
-              {{ with .enddate }}<br>bis {{ time.Format "2 Jan 2006" . }}{{ end }}
-            </div>
-            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0 p-2 border-bottom">
-              <p class="h4 mb-0 d-block">{{ .title }}</p>
-            </div>
-            {{ with .location }}
-            <div class="d-md-table-cell text-end pe-0 pe-md-4 p-2 vertical-align-middle border-bottom">
-              <p><i class="mdi mdi-map-marker-radius-outline icon-s text-primary me-2"></i>{{ . | markdownify }}</p>
-            </div>
-            {{ end }}
-          </li>
+          <div class="mb-2 mt-2 col-12 filtr-item" data-category="{{ if or (ge (.date | time.AsTime).Unix now.Unix) (and .enddate (ge (.enddate | time.AsTime).Unix now.Unix)) }}upcoming{{else}}past{{end}}" data-time="{{.date}}">
+            {{ partial "termin" . }}
+          </div>
           {{ end }}
-        </ul>
+        </div>
       </div>
     </div>
   </div>

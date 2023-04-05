@@ -57,7 +57,8 @@
   // venobox popup
   $(document).ready(function () {
     new VenoBox({
-      selector: '.vb-video'
+      selector: '.vb-video',
+      spinner: 'grid'
     });
     new VenoBox({
       selector: '.vb-gallery',
@@ -76,7 +77,8 @@
       new Filterizr(
         '.filtr-container',
         {
-          layout: 'sameWidth'
+          layout: 'sameWidth',
+          gutterPixels: 10
         }
       );
     } 

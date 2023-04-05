@@ -1,6 +1,6 @@
 <div class="card border-primary rounded-0 hover-shadow mb-4">
   <a href="{{ .Permalink }}"><img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}"></a>
-  <div class="card-body">
+  <div class="card-body d-flex flex-column">
     <div class="row mb-2">
       <div class="col-6"><i class="mdi mdi-calendar-today me-2"></i>{{ time.Format "02. Jan 2006" .PublishDate }}</div>
       <div class="col-6">
@@ -8,8 +8,8 @@
         <a href="{{ `author` | relLangURL }}/{{ .Params.author | urlize }}">{{ .Params.author | title }}</a>
       </div>
     </div>
-    <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title | truncate 30 }}</a></h4>
+    <h4 class="card-title text-truncate"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <p class="card-text">{{ .Summary | truncate 100 }}</p>
-    <a href="{{ .Permalink }}" class="btn btn-primary btn-sm" data-pagefind-ignore>{{ i18n "read_more" }}</a>
+    <a href="{{ .Permalink }}" class="btn btn-primary btn-sm mt-auto align-self-start" data-pagefind-ignore>{{ i18n "read_more" }}</a>
   </div>
 </div>

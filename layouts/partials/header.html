@@ -33,7 +33,7 @@
         
         <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}"><img height="60"
             src="{{ .Site.Params.logo | absURL }}" class="py-2" alt="{{ .Site.Title }}"></a>
-        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+        <button class="navbar-toggler rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,17 +46,17 @@
             {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                 {{ .Name }}
               </a>
-              <div class="dropdown-menu">
+              <ul class="dropdown-menu">
                 {{ range .Children }}
-                <a class="dropdown-item text-uppercase" href="{{ .URL | absLangURL }}" target="{{ if .Params.External }}_blank{{ else }}_self{{end}}">{{ .Name }}</a>
+                <li><a class="dropdown-item text-uppercase" href="{{ .URL | absLangURL }}" target="{{ if .Params.External }}_blank{{ else }}_self{{end}}">{{ .Name }}</a></li>
                 {{ if .Params.separator }}
-                  <hr>
+                <hr class="dropdown-divider">
                 {{ end }}
                 {{ end }}
-              </div>
+              </ul>
             </li>
             {{ else }}
             <li class="nav-item">

@@ -2,18 +2,27 @@
 title: Kontakt
 draft: false
 bg_image: media/backgrounds/page-title.webp
-description: Eine Nachricht schreiben.
+description: Wenn Sie noch weitere Fragen haben, können Sie hier eine Nachricht an die Schulleitung schreiben.
+kontaktdaten:
+    - name: Herr OStD Dr. Bernd Gorsler
+      position: Schulleiter
+      email: gorsler@cantor-gymnasium.de
+    - name: Frau StD Claudia Schapitz
+      position: stellv. Schulleiterin
+      email: schapitz@cantor-gymnasium.de
+    - name: Herr Dr. Andreas Koch
+      position: Oberstufenkoordinator
+      email: koch@cantor-gymnasium.de
+    - name: Herr Falko Plinke
+      position: Koordinator für Planung
+      email: plinke@cantor-gymnasium.de
+    - name: Frau Gabriele Felke
+      position: Koordinatorin für den inhaltlichen Schwerpunkt
+      email: felke@cantor-gymnasium.de
+    - name: Frau S. Kretzschmar / Frau J.-M. Jaschak
+      position: Sekretariat
+      email: schulleitung@cantor-gymnasium.de
 ---
-Wenn Sie noch weitere Fragen haben, können Sie hier eine Nachricht an die Schulleitung schreiben.
-
-| | | |
-|---|---|---|
-|Schulleiter|Herr OStD Dr. Bernd Gorsler|[gorsler(at)cantor-gymnasium.de](mailto:gorsler@cantor-gymnasium.de)|
-|stellv. Schulleiterin|Frau StD Claudia Schapitz|[schapitz(at)cantor-gymnasium.de](mailto:schapitz@cantor-gymnasium.de)|
-|Oberstufenkoordinator|Herr Dr. Andreas Koch|[koch(at)cantor-gymnasium.de](mailto:koch@cantor-gymnasium.de)|
-|Koordinator für Planung|Herr Falko Plinke|[plinke(at)cantor-gymnasium.de](mailto:plinke@cantor-gymnasium.de)|
-|Koordinatorin für den inhaltlichen Schwerpunkt|Frau Gabriele Felke|[felke(at)cantor-gymnasium.de](mailto:felke@cantor-gymnasium.de)|
-|Sekretariat|Frau S. Kretzschmar / Frau J.-M. Jaschak|[schulleitung(at)cantor-gymnasium.de](mailto:schulleitung@cantor-gymnasium.de), Tel.: [+49-0345/6903156](tel:+493456903156), Fax.: [+49-0345/6903157](tel:+493456903157)|
 
 
 

@@ -306,9 +306,6 @@ tiles:
     bg_color: "#0051e5"
     icon: mdi mdi-all-inclusive
     content: >
-      ## **Flashmob**
-
-
       Unser geliebtes Gymnasium feierte im Jahr 2018 sein 30-jähriges Jubiläum.
 
       Nach reichlicher Überlegung kam unserem Schuldirektor Herrn Gorsler

@@ -12,7 +12,7 @@ aliases:
 
 Seit 1995, dem Jahr des 150. Geburtstages Georg Cantors, wird jährlich ein herausragender Schüler bzw. eine herausragende Schülerin mit dem Cantorpreis geehrt. Die Preisträger erhalten einen vom Förderverein des Georg-Cantor-Gymnasiums gestifteten Zinnbecher mit Motiven der Stadt Halle und 150€ Preisgeld. Mit diesem Preis werden Schüler für besondere Leistungen und Engagement für unsere Schule ausgezeichnet. In den einzelnen Jahren unser Chronik werden die Cantorpreisträger vorgestellt
 
-{{< image src="/media/about/cantorpreis.webp" >}}
+{{< image src="/media/schulchronik/1995/cantorpreis.webp" >}}
 
 ## 2. Die Kultur- und Wissenschaftswoche
 

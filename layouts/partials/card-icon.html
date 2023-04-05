@@ -3,7 +3,7 @@
       <i class="{{ .icon }} fb-tile-icon" style="color: {{ .font_color }}"></i>
     </div>
     <div class="card-body">
-      <h4 class="card-title">{{ .title | truncate 55 }}</h4>
+      <h4 class="card-title text-truncate">{{ .title }}</h4>
       <button type="button" class="btn btn-primary btn-sm" onclick="$('#{{ md5 .title }}').modal('show');">{{
         i18n "show_more"}}</button>
     </div>

@@ -10,17 +10,8 @@
         {{ .content | markdownify }}
         </div>
         {{ range .unterhaufen }}
-          <div class="container mb-0">
-                  <div class="card border-primary rounded-0 hover-shadow mb-2">
-                    <div class="card-body mb-0">
-                      <details class="mb-0">
-                      <summary class="mb-0">{{ .title }}</summary>
-                      <div class="content"><p class="content">{{ .content | markdownify }}</p></div>
-                      </details>
-                    </div>
-                  </div>
-                </div>
-          {{ end }}
+          {{ partial "collapsible" . }}  
+        {{ end }}
       </div>
     </div>
   </div>

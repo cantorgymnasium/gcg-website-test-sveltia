@@ -1,8 +1,1 @@
-<div class="container mb-0">
-  <div class="card border-primary rounded-0 hover-shadow mb-5">
-    <div class="card-body mb-0">
-      <h4 class="card-title"><a class="text-decoration-none" href='{{ .Get "link" }}'>{{ .Get "title" }}</a></h4>
-      <a href='{{ .Get "link" }}' class="text-decoration-none btn btn-primary btn-sm mb-0"><i class="mdi mdi-tray-arrow-down mb-0"></i> Download</a>
-    </div>
-  </div>
-</div>
+{{ partial "download" (dict "link" (.Get "link") "title" (.Get "title"))}}

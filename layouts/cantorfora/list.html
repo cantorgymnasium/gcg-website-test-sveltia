@@ -13,7 +13,7 @@
   <div class="container">
     <div class="row">
       {{ range sort .Data.Pages ".Params.index" }}
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
         {{ .Render "card-btn" }}
       </div>
       {{ end }}

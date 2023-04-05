@@ -104,29 +104,40 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.blog.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="{{ `blog` | relLangURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        <div class="card rounded-0 border-primary hover-shadow">
-          <img class="card-img-top rounded-0" src="{{ $data.ausblick.image | relURL }}" alt="{{ $data.ausblick.title }}">
-          <div class="card-body">
-            <ul class="list-inline mb-3">
-              <li class="list-inline-item me-3 ms-0"><i class="mdi mdi-fountain-pen-tip"></i> <a
-                href="{{ `author` | relLangURL }}/{{ $data.ausblick.author | urlize }}">{{ $data.ausblick.author | title }}</a></li>
-            </ul>
-              <h4 class="card-title">{{ $data.ausblick.title }}</h4>
-            <p class="card-text">{{ $data.ausblick.content | truncate 100 }}</p>
-            <button type="button" class="btn btn-primary btn-sm" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">{{
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
+        <div class="card border-info rounded-0 hover-shadow mb-4">
+          <span class="position-absolute top-0 start-0 ms-5 translate-middle p-2 text-bg-info border border-light rounded-pill">
+            <i class="mdi mdi-pin me-2">Angeheftet</i>
+          </span>        
+          <img class="card-img-top rounded-0" src="{{ $data.ausblick.image | relURL }}" alt="{{ $data.ausblick.title }}" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">
+          <div class="card-body d-flex flex-column">
+            <div class="row mb-2">
+              <div class="col-6">
+                <i class="mdi mdi-fountain-pen-tip me-2"></i>
+                <a href="{{ `author` | relLangURL }}/{{ $data.ausblick.author | urlize }}">{{ $data.ausblick.author | title }}</a>
+              </div>
+            </div>
+            <h4 class="card-title text-truncate" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">{{ $data.ausblick.title }}</h4>
+            <p class="card-text" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">{{ $data.ausblick.content | truncate 100 }}</p>
+            <button type="button" class="btn btn-primary btn-sm mt-auto align-self-start" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">{{
               i18n "show_more"}}</button>
           </div>
         </div>
       </div>
       {{ range first 2 (where .Site.RegularPages "Type" "post")}}
-      <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
         {{ .Render "card" }}
-      </article>
+      </div>
       {{ end }}
     </div>
   </div>
@@ -217,7 +228,7 @@
 {{ end }}
 
 {{ if $data.homepage.termine.enable }}
-<section class="section bg-gray">
+<section class="section-sm bg-gray">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -242,27 +253,7 @@
       {{ end }}
 
       {{ range first 3 $events }}
-      <li class="d-md-table mb-4 w-100 border-bottom hover-shadow ps-0">
-        <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0 termin-tc">
-          <span class="h2 d-block">{{ time.Format "2" .date}}</span>
-          <span class="d-block">{{ time.Format "Jan 2006" .date}}</span>
-          {{ with .enddate }}
-            <br>
-            bis {{ time.Format "2 Jan 2006" . }}
-          {{ end }}
-        </div>
-        <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0 p-2">
-          <p class="h4 mb-0 d-block">{{ .title }}</p>
-        </div>
-        {{ with .location }}
-        <div class="d-md-table-cell text-end pe-0 pe-md-4 p-2 vertical-align-middle">
-          <p>
-            <i class="mdi mdi-map-marker-radius-outline icon-s text-primary me-2"></i>
-            {{ . | markdownify }}
-          </p>
-        </div>
-        {{ end }}
-      </li>
+        {{ partial "termin" . }}
       {{ end }}
 
       {{ end }}
@@ -308,7 +299,7 @@
 {{ with $data.homepage.footer_logos }}
 <section class="bg-footer">
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row justify-content-center">
 		{{ range .logos }}
         <div class="col-md-2 col-4 order-1 order-md-2 mb-4">
           <a href="{{ .link }}" target="_blank" title="{{ .title }}"><img class="img-fluid w-100" src="{{ .image }}"></a>

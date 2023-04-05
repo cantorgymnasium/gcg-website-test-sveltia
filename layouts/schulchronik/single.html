@@ -4,21 +4,41 @@
   <div class="container">
     <div class="row">
       <div class="col-12 mb-4">
-        {{ if .Params.Cantorpreisträger }}
+        {{ if or .Params.Cantorpreisträger (where (where .Site.RegularPages "Title" (print "Abiturienten " .Params.Title ) ) "Type" "=" "abiturienten") }}
       <div class="col-12">
-        <h2 class="mb-3">{{ i18n "cantorpreisträger" }}</h2>
-        {{ range where (where .Site.RegularPages "Title" .Params.Title ) "Type" "=" "cantorpreis" }}
-        <div class="d-flex justify-content-between align-items-center flex-wrap">
-          <div class="d-flex mb-2 mb-sm-0 align-items-center">
-            <img class="me-4 img-fluid person-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
-            <div class="flex-grow-1">
-              <h4 class="mt-0"><a href="{{ .Permalink }}">{{ .Params.Name }}</a></h4>
-              {{ .Description }}
+        <div class="card-group">
+          {{ range where (where .Site.RegularPages "Title" .Params.Title ) "Type" "=" "cantorpreis" }}
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 col-4">
+                <a href="{{ .Permalink }}"><img src="{{ .Params.Image | relURL }}" class="img-fluid rounded w-100" style="height:150px; object-fit: cover;"></a>
+              </div>
+              <div class="col-md-9 col-8 card-body">
+                <a href="/cantorpreis"><h3 class="card-title">Cantorpreisträger:in</h3></a>
+                <a href="{{ .Permalink }}"><p class="h4 card-text">{{ .Params.name }}</p></a>
+              </div>
             </div>
           </div>
+          {{ end }}
+          {{ range where (where .Site.RegularPages "Title" (print "Abiturienten " .Params.Title ) ) "Type" "=" "abiturienten" }}
+          <div class="card pe-0">
+            <div class="row">
+              <div class="col-7 card-body ps-4">
+                <a href="{{ .Permalink }}"><h3 class="card-title">{{ .Title }}</h3></a>
+                {{ $abiturdurchschnitte := getJSON "static/data/abiturdurchschnitte.json" }}
+                {{ range $abiturdurchschnitte.abiturdurchschnitte  }}
+                  {{ if eq (string (index . "jahr")) "2008" }}<a href="/chronikseiten/abiturdurchschnitte"><p class="h4 card-text">Abiturdurchschnitt: {{ .schnitt }}</p></a>{{ end }}
+                {{ end }}
+              </div>
+              <div class="col-5">
+                <a href="{{ .Permalink }}">
+                  <img src="{{ .Params.Image | relURL }}" class="img-fluid rounded align-self-end w-100" style="height: 150px;object-fit: cover;">
+                </a>
+              </div>
+            </div>
+          </div>
+          {{ end }}
         </div>
-        {{ end }}
-        <div class="border-bottom border-primary mt-4"></div>
       </div>
       {{ end }}
         {{ range .Params.topics }}
@@ -27,7 +47,7 @@
         {{ if and .Params.pretext (ne .Params.pretext "\n\n\n") }}
           {{ partial "modal" (dict "title" .Title "content" .Params.pretext) }}
         {{ end }}
-        <div id="wc-canvas"></div>
+        <div id="wc-canvas" class="wc-canvas"></div>
         {{ $topics := slice }}
         {{ if .Params.pretext }}
         {{ $topics = $topics | append (slice (slice .Params.Title 200 (md5 .Title))) }}
