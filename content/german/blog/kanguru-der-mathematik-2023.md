@@ -1,7 +1,7 @@
 ---
 title: Känguru der Mathematik 2023
 date: 2023-04-12T22:40:16.690+02:00
-draft: true
+draft: false
 bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/kaenguru23.webp
