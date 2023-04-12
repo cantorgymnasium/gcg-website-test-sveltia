@@ -17,8 +17,18 @@ Am 16. März nahmen **385 Schülerinnen** und Schüler unserer Schule am diesjä
 
 Unsere Schülerinnen und Schüler waren, wie in den vergangenen Jahren, sehr erfolgreich. In den nächsten Tagen dürfen die Mathematiklehrer ihren Klassen folgende Preise überreichen:
 
+
+
+{{< gallery dir="/blog/2023/kaenguruwett" >}}
+
+
+
 - Preis 1: 18-mal
 - Preis 2: 33-mal
 - Preis 3: 41-mal
 
 **Wir gratulieren allen Preisträgern!**
+
+
+
+
