@@ -19,7 +19,7 @@ Unsere Schülerinnen und Schüler waren, wie in den vergangenen Jahren, sehr erf
 
 
 
-{{< gallery dir="/blog/2023/kaenguruwett" >}}
+{{< gallery dir="/media/blog/2023/kaenguruwett" >}}
 
 
 
@@ -28,7 +28,3 @@ Unsere Schülerinnen und Schüler waren, wie in den vergangenen Jahren, sehr erf
 - Preis 3: 41-mal
 
 **Wir gratulieren allen Preisträgern!**
-
-
-
-
