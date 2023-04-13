@@ -13,7 +13,6 @@ tags:
   - Cantorpreis
   - "2023"
 type: post
-
 ---
 ## Der Cantorpreis 2023 geht an Bernhard Fuchs!
 
@@ -21,7 +20,7 @@ type: post
 
 Am 02. März 2023 fand einer der Höhepunkte unserer Festwoche statt: die Cantorpreisverleihung.
 
-In diesem Jahr waren normiert:
+In diesem Jahr waren nominiert:
 
 - Bernhard Fuchs
 - Hagen Häußler
