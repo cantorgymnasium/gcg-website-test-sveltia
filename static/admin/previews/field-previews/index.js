@@ -8,5 +8,4 @@ export {
 	DraftPreview,
 	CountPreview,
 	BodyPreview,
-	DraftPreview,
 };
