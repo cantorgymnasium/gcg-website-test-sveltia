@@ -1,7 +1,6 @@
 ---
 title: CantorTechnik
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/ganztagsangebote/cantortechnik.webp
 category: Technik
@@ -11,7 +10,6 @@ class: alle Klassenstufen
 room: "405"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-
 ---
 ### Über die AG
 

@@ -1,7 +1,6 @@
 ---
 title: Mathematik
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: Förderung für begabte Schülerinnen und Schüler in Mathematik.
 image: /media/ganztagsangebote/mathematik.webp
 category: Mathematik
@@ -11,7 +10,6 @@ class: 5./6. Klasse
 room: "307"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-
 ---
 ### Über die AG
 

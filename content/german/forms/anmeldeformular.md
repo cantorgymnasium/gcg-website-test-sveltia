@@ -1,13 +1,11 @@
 ---
 title: Aufnahmeantrag
 draft: false
-bg_image: media/backgrounds/page-title.webp
 description: ""
 files:
   - title: Aufnahmeantrag
     link: /media/forms/aufnahmeantrag.pdf
 type: forms
-
 ---
 Hier kann das Anmeldeformular für die Aufnahmeprüfung am Georg-Cantor-Gymnasium heruntergeladen werden.
 

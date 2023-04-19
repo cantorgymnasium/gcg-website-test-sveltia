@@ -1,7 +1,6 @@
 ---
 title: Theater
-draft: "false"
-bg_image: /media/backgrounds/page-title.webp
+draft: false
 description: ""
 image: /media/ganztagsangebote/theater.webp
 category: Gesellschaft
@@ -11,6 +10,5 @@ class: alle Klassenstufen
 room: Aula
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-
 ---
 In der Theater-AG können Schüler aller Jahrgangsstufen den Spaß am Theaterspielen entdecken und weiterentwickeln. Von klassischen bis hin zu modernen Stücken gibt es ein breites Spektrum, was im Rahmen der AG gespielt werden kann und die Schüler können auch selbst kreativ werden im Schreiben von eigenen Sketchen oder einem ganzen Theaterstück.

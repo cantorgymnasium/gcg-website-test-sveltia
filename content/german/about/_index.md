@@ -1,7 +1,5 @@
 ---
 title: Über die Schule
-draft: false
-bg_image: media/backgrounds/page-title.webp
 image: media/schule.webp
 description: Das Georg-Cantor-Gymnasium - ein
   mathematisch-naturwissenschaftlich-technisches Gymnasium in Halle (Saale)

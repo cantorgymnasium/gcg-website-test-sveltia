@@ -2,17 +2,17 @@
 title: Skilager 2023
 date: 2023-02-21T20:09:03+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/skilager_2023.webp
 author: Frau Tuppack
 categories:
   - Traditionen
   - Sport
+subjects:
+  - Sport
 tags:
   - Skilager
 type: post
-
 ---
 #### Endlich wieder Skilager im Cantor-Gymnasium
 

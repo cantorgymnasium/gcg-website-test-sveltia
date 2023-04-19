@@ -2,11 +2,9 @@
 title: 13. Cantorforum
 index: 13
 draft: false
-bg_image: media/backgrounds/page-title.webp
 description: "Maximilian Appel: Ozeanien"
 image: media/cantorfora/cantorforum_e13.webp
 type: cantorfora
-
 ---
 Nicht allzu lang ist es her, dass Leandro Gamboa und seine Eindrücke aus einem Jahr „Work and Travel“ in Australien schilderte – nun konnten wir erneut einen Australienreisenden Alumnus zu einem Cantorforum begrüßen.
 

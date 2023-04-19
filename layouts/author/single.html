@@ -19,8 +19,8 @@
 		  {{ .Content }}
 		  <hr>
 		  <ul class="list-inline">
-		    {{ range .Params.social }}
-		      <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+		    {{ with .Params.email }}
+		      <li class="list-inline-item"><a href="mailto:{{ . }}"><i class="mdi mdi-at"></i></a></li>
 		    {{ end }}
 		  </ul>
 		</div>

@@ -1,10 +1,7 @@
 ---
 title: 25 Jahre GCG - Bericht 3
 draft: false
-bg_image: media/backgrounds/page-title.webp
 type: pages
-layout: single.html
-
 aliases:
   - /schulchronik/pages/25-bericht-3
 ---

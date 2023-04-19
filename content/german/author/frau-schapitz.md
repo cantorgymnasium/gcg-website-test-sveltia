@@ -1,13 +1,9 @@
 ---
 title: Frau Schapitz
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/people/cschapitz.webp
-social:
-  - title: E-Mail
-    icon: mdi mdi-at
-    link: schapitz@cantor-gymnasium.de
 type: author
+email: schapitz@cantor-gymnasium.de
 simplified: false
 active: true
 ---

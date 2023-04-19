@@ -1,7 +1,6 @@
 ---
 title: Keyboard
-draft: "false"
-bg_image: /media/backgrounds/page-title.webp
+draft: false
 image: /media/ganztagsangebote/kb.webp
 category: Musik
 duration: 1. Stunde
@@ -10,7 +9,6 @@ class: alle Klassenstufen
 room: 212
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-
 ---
 
 

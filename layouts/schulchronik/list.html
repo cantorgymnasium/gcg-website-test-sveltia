@@ -2,13 +2,43 @@
 
 <section class="section-sm">
   <div class="container">
-        {{ .Content }}
+    {{ .Content }}
+  </div>
+  {{ if .Params.infocard.enable }}
+    {{ with .Params.infocard }}
+      <div class="container">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <img src="{{ .image }}" class="img-fluid rounded w-100" alt="Georg Cantor">
+            </div>
+            <div class="col-md-9 d-flex align-items-center">
+              <div class="card-body">
+                <p class="h2 card-title">{{ .quote }}</p>
+                <p class="card-text"><small class="text-muted">{{ .author }}</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+  <div class="container">
+    <h2 class="section-title">Informationsseiten</h2>
+    <div class="row">
+      {{ range .Params.links }}
+        <div class="col-lg-4 col-sm-6">
+          {{ partial "card-btn-ni" . }}
+        </div>
+      {{ end }}
+    </div>
   </div>
   <div class="container">
+    <h2 class="section-title">Chronik</h2>
     <div class="row">
       {{ range (where .Data.Pages "Params.type" "schulchronik") }}
       <div class="col-lg-4 col-sm-6">
-        {{ .Render "card-btn-ni" }}
+        {{ partial "card-btn-ni" (dict "title" .Title "link" .Permalink) }}
       </div>
       {{ end }}
     </div>

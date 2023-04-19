@@ -1,9 +1,7 @@
 ---
 title: 30-jähriges Jubiläum
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 type: superhaufen
-
 previous:
   title: 2018
   link: /schulchronik/2018/
@@ -133,16 +131,8 @@ tiles:
 
           T.R.
       - title: Cantor in Zahlen
-        content: |+
-          
-
-
-
-
-
+        content: |
           {{< gallery dir="/media/schulchronik/2018/festveranstaltung" >}}
-
-
   - title: Aktionen
     bg_color: "#0fe008"
     icon: mdi mdi-theater
@@ -264,7 +254,7 @@ tiles:
 
           T. R.
       - title: Cantor-Rallye
-        content: >+
+        content: >
           Anlässlich des 100. Todestages des in Halle tätigen Mathematikers Georg
           Ferdinand Ludwig Phillip Cantor gestaltete das Georg-Cantor-Gymnasium,
           mit Unterstützung von Lehramtsstudierenden der Universität Leipzig,
@@ -300,13 +290,12 @@ tiles:
           an.
 
           {{< gallery dir="/media/schulchronik/2018/rallye" >}}
-
-
   - title: Flashmob
     bg_color: "#0051e5"
     icon: mdi mdi-all-inclusive
     content: >
-      Unser geliebtes Gymnasium feierte im Jahr 2018 sein 30-jähriges Jubiläum.
+      Unser geliebtes Gymnasium feierte im Jahr 2018 sein 30-jähriges
+      Jubiläum.
 
       Nach reichlicher Überlegung kam unserem Schuldirektor Herrn Gorsler
 

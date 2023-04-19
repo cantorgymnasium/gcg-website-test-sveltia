@@ -1,11 +1,7 @@
 ---
 title: Die Arbeit des Alumninetzwerkes
 draft: false
-bg_image: media/backgrounds/page-title.webp
 type: pages
-template: single.html
-layout: single.html
-
 aliases:
   - /schulchronik/pages/alumninetzwerk
 ---

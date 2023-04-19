@@ -1,13 +1,11 @@
 ---
 title: Diercke WISSEN
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 image: /media/contests/dw.webp
 category: Geographie
 class: 7. - 10. Klasse
 web_url: https://diercke.westermann.de/wissen
 type: wettbewerbe
-
 ---
 Zu Beginn des Kalenderjahres findet der Geografie-Wettbewerb Diercke WISSEN statt. Alle Schüler der Klassen 5 und 6 lösen die Aufgaben für die WISSENs-Junioren.
 

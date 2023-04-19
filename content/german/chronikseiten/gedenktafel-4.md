@@ -1,10 +1,7 @@
 ---
-title: Rede zur feierlichen Enthüllung der neuen Gedenktafel für J.F. Struensee
+title: Rede zur feierlichen Enthüllung der neuen Gedenktafel für J. F. Struensee
 draft: false
-bg_image: media/backgrounds/page-title.webp
 type: pages
-layout: single.html
-
 aliases:
   - /schulchronik/pages/gedenktafel-4
 ---

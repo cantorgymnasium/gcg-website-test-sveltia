@@ -2,18 +2,18 @@
 title: Musikfahrt 2022
 date: 2022-12-10T12:30:33+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/image.webp
 author: Frau Krug
 categories:
   - Musik
   - Traditionen
+subjects:
+  - Musik
 tags:
   - Musikfahrt
   - Weihnachtskonzert
 type: post
-
 ---
 Vom 07.12. bis zum 09.12.2022 durften die Musik-AGs Band, Chor und Keyboard nach zweijähriger Pause wieder auf die Burg Heldrungen zum Einstudieren des Programms für das Weihnachtskonzert am 16.12.2022 fahren!
 

@@ -2,16 +2,16 @@
 title: Chemie Modulwoche 2023 der 12. Klassen
 date: 2023-02-23T17:01:33+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/modul-chemie-2023.webp
 author: Erik Zschoche
 categories:
   - Naturwissenschaften
+subjects:
+  - Chemie
 tags:
   - Modulkurs
 type: post
-
 ---
 Jedes Jahr findet die Chemie Modulwoche in Kooperation mit der Hochschule Merseburg statt. Uns, den Schülern der Oberstufe, wird die Möglichkeit geboten, sich praktisch mit dem Fachgebiet der Chemie zu befassen und neues, weitreichendes Wissen, in weiterführenden Bereichen dieser Wissenschaft, zu erlangen. 
 

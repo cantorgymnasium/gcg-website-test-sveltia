@@ -2,13 +2,14 @@
 title: Erfolge bei den Biologie-Wettbewerben
 date: 2023-04-11T21:26:25.198+02:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/image.webp
 author: Frau Henke
 categories:
   - Naturwissenschaften
   - Wettbewerbe
+subjects:
+  - Biologie
 tags:
   - "2023"
 type: post

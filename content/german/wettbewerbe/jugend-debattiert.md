@@ -1,13 +1,11 @@
 ---
 title: Jugend debattiert
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 image: /media/contests/jugenddebattiert.webp
 category: Sonstiges
 class: 8. - 12. Klasse
 web_url: https://www.jugend-debattiert.de/
 type: wettbewerbe
-
 ---
 In Zeiten einer Informationsflut und Desinformation ist es besonders wichtig, gut argumentieren und seine Position vertreten zu können. Genau darum geht es im Wettbewerb „Jugend debattiert“ ab der Klasse 8.
 

@@ -1,45 +1,30 @@
 ---
-title: "Schulchronik"
-draft: false
-
-bg_image: "media/backgrounds/page-title.webp"
+title: Schulchronik
+description: "Zurück in die Zukunft: Unser GCG im Wandel der Zeit"
+infocard:
+  enable: true
+  image: /media/schulchronik/cantor1.webp
+  quote: '"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand
+    vertreiben können."'
+  author: aus 'David Hilbert, Über das Unendliche', Math. Ann. 95
+links:
+  - title: Abiturienten
+    link: /abiturienten
+  - title: Abiturdurchschnitte
+    link: /chronikseiten/abiturdurchschnitte
+  - title: Schülerzahlen
+    link: /chronikseiten/schuelerzahlen
+  - title: Über Georg Cantor
+    link: /chronikseiten/cantor/
+  - title: Über das GCG
+    link: /chronikseiten/ueber-das-gcg
+  - title: Alumninetzwerk
+    link: /chronikseiten/alumninetzwerk
+  - title: Chronologie
+    link: /chronikseiten/chronologie
+  - title: Traditionen
+    link: /chronikseiten/traditionen
+  - title: Chronistenteam
+    link: /chronikseiten/chronisten
 ---
-Anno MMV - eine Schar von alten Männern mit langen weißen Bärten machte sich auf,
-um die Geschichte unseres Gymnasiums mit Federkielen aufzuschreiben??? Nein, nein,
-wir waren und sind eine bunt zusammengewürfelte Truppe, meist aus Lateinern, die
-als Schulchronisten alles sammeln, ordnen, was mit unserer Schule zu tun hat und
-eigene Artikel verfassen, die in unserer nun mehr als 30 dicke Ordner umfassenden
-analogen Schulchronik gesammelt sind. Seit 2011 sind wir vom Digitalisierungswahn
-befallen und haben eine eigene Homepage erstellt, die als Teil der Schulhomepage
-jedem Interessierten die wechselvolle Geschichte des GCG präsentiert.
-
-<div class="card mb-3">
-  <div class="row g-0">
-    <div class="col-md-3">
-      <img src="/media/schulchronik/cantor1.webp" class="img-fluid rounded w-100" alt="...">
-    </div>
-    <div class="col-md-9 d-flex align-items-center">
-      <div class="card-body">
-        <p class="h2 card-title">"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können."</p>
-        <p class="card-text"><small class="text-muted">aus 'David Hilbert, Über das Unendliche', Math. Ann. 95</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-## Statistische Daten
-
-<div class="row">
-    {{< card-small link="/abiturienten" title="Abiturienten">}}
-    {{< card-small link="/chronikseiten/abiturdurchschnitte" title="Abiturdurchschnitte">}}
-    {{< card-small link="/chronikseiten/schuelerzahlen" title="Schülerzahlen">}}
-    {{< card-small link="/chronikseiten/cantor/" title="Über Georg Cantor" >}}
-    {{< card-small link="/chronikseiten/ueber-das-gcg" title="Über das GCG" >}}
-    {{< card-small link="/chronikseiten/alumninetzwerk" title="Alumninetzwerk" >}}
-    {{< card-small link="/chronikseiten/chronologie" title="Chronologie" >}}
-    {{< card-small link="/chronikseiten/traditionen" title="Traditionen" >}}
-    {{< card-small link="/chronikseiten/chronisten" title="Chronistenteam" >}}
-</div>
-
-
-## Chronik
+Anno MMV - eine Schar von alten Männern mit langen weißen Bärten machte sich auf, um die Geschichte unseres Gymnasiums mit Federkielen aufzuschreiben??? Nein, nein, wir waren und sind eine bunt zusammengewürfelte Truppe, meist aus Lateinern, die als Schulchronisten alles sammeln, ordnen, was mit unserer Schule zu tun hat und eigene Artikel verfassen, die in unserer nun mehr als 30 dicke Ordner umfassenden analogen Schulchronik gesammelt sind. Seit 2011 sind wir vom Digitalisierungswahn befallen und haben eine eigene Homepage erstellt, die als Teil der Schulhomepage jedem Interessierten die wechselvolle Geschichte des GCG präsentiert.

@@ -1,9 +1,9 @@
 ---
 title: Frau Felke
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/people/gcg.webp
 type: author
+email: felke@cantor-gymnasium.de
 simplified: false
 active: true
 ---

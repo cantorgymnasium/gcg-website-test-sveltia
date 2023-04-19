@@ -2,7 +2,6 @@
 title: Festwoche 2023
 date: 2023-03-05T18:47:59+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/GCGFestwoche.webp
 author: Herr Berger
@@ -13,6 +12,10 @@ categories:
   - Kunst
   - Musik
   - Sonstiges
+subjects:
+  - Deutsch
+  - Kunst
+  - Musik
 tags:
   - CantorArt
   - Galerie
@@ -23,7 +26,6 @@ tags:
   - Cantorpreis
   - "2023"
 type: post
-
 ---
 ## „Ihr macht hier so coole Dinge“
 

@@ -2,16 +2,16 @@
 title: Chemie Modulkurs 2023 der 11. Klassen
 date: 2023-03-03T12:08:52+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/chemiemodul202311er.webp
 author: Chiamaka Michelle Okoro
 categories:
   - Naturwissenschaften
+subjects:
+  - Chemie
 tags:
   - Modulkurs
 type: post
-
 ---
 ### Modulkurs Klasse 11
 

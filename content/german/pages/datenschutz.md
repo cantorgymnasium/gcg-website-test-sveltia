@@ -1,11 +1,8 @@
 ---
 title: Datenschutz
 draft: false
-bg_image: media/backgrounds/page-title.webp
 description: null
 type: pages
-layout: single.html
-
 aliases:
   - /datenschutz/
 ---

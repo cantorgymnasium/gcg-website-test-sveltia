@@ -2,7 +2,6 @@
 title: Jugend forscht - Ergebnisse der Regionalrunde Halle
 date: 2023-02-22T11:08:22+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/JuFo.webp
 author: Frau Felke
@@ -10,11 +9,15 @@ categories:
   - Wettbewerbe
   - Naturwissenschaften
   - Informatik/Technik
+subjects:
+  - Chemie
+  - Mathematik
+  - Informatik
+  - Biologie
 tags:
   - JuFo
   - Jugend forscht
 type: post
-
 ---
 Am 21.02.2023 fand der **Regionalwettbewerb Halle** statt und **alle teilnehmenden Cantorianer waren erfolgreich**.
 

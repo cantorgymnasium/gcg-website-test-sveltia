@@ -2,18 +2,18 @@
 title: Erfolge beim "German Young Physicists' Tournament"
 date: 2023-01-22T16:14:48+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog//gy-pt-2023.png
 author: Denys Konovalov
 categories:
   - Wettbewerbe
   - Naturwissenschaften
+subjects:
+  - Physik
 tags:
   - physik
   - gypt
 type: post
-
 ---
 Am Samstag, dem 21.01.2023, fand in Jena die Regionalrunde des Physikwettbewerbs ["German Young Physicists' Tournament"](https://www.gypt.org/) statt.
 

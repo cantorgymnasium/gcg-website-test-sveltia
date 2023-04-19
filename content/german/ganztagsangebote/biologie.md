@@ -1,7 +1,6 @@
 ---
 title: Biologie
-draft: "false"
-bg_image: /media/backgrounds/page-title.webp
+draft: false
 description: ""
 image: /media/ganztagsangebote/biologie.webp
 category: Naturwissenschaften
@@ -11,6 +10,5 @@ class: 5. Klasse
 room: "108"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-
 ---
 Methoden, Geräte, Präparate, Experimente und vieles mehr

@@ -2,13 +2,14 @@
 title: Weihnachten 2022
 date: 2022-12-20T20:40:32.790Z
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/gcgweihnachten.webp
 author: Herr Berger
 categories:
   - Traditionen
   - Schülerrat
+  - Musik
+subjects:
   - Musik
 tags:
   - Weihnachtskonzert
@@ -18,7 +19,6 @@ tags:
   - Traditionen
   - Weihnachten
 type: post
-
 ---
 #### Weihnachtswichteln des Schülerrats
 

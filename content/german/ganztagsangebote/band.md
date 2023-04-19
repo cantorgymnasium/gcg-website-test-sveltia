@@ -1,7 +1,6 @@
 ---
 title: Band
-draft: "false"
-bg_image: /media/backgrounds/page-title.webp
+draft: false
 image: /media/ganztagsangebote/band.webp
 category: Musik
 duration: flexibel
@@ -10,7 +9,6 @@ class: alle Klassenstufen
 room: 212
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-
 ---
 Du willst reich und berühmt werden?
 Dafür können wir bei der Band AG des GCG zwar nicht garantieren, aber versuchen kann man’s ja. Auf alle Fälle bist Du herzlich willkommen.

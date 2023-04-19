@@ -1,10 +1,7 @@
 ---
 title: Über das GCG
 draft: false
-bg_image: media/backgrounds/page-title.webp
 type: pages
-layout: single.html
-
 aliases:
   - /schulchronik/pages/ueber-das-gcg
 ---

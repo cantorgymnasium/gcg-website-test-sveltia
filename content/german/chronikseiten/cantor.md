@@ -1,17 +1,11 @@
 ---
 title: Über Georg Cantor
 draft: false
-bg_image: media/backgrounds/page-title.webp
 type: pages
-layout: single.html
-
 aliases:
   - /schulchronik/pages/cantor
 ---
-<figure>
-<img src="/media/about/cantor-kopf.webp">
-<figcaption>Georg Cantor (03.03.1845 - 06.01.1918)</figcaption>
-</figure>
+{{< figure title="Georg Cantor (03.03.1845 - 06.01.1918)" src="/media/about/cantor-kopf.webp" >}}
 
 > "In der Mathematik ist die Kunst des Fragen stellens wichtiger, als die des Lösens."
 

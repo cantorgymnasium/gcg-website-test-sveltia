@@ -1,10 +1,8 @@
 ---
 title: Hausordnung
 draft: false
-bg_image: media/backgrounds/page-title.webp
 description: ""
 type: forms
-
 ---
 1. Die Schülerinnen und Schüler verhalten sich so, dass eine andere Person durch sie weder gefährdet oder belästigt wird, noch zu Schaden kommt und sind zur Abwendung von Gefahren verpflichtet. Das Eigentum anderer wird geachtet.
 1. Der Vormittagsunterricht beginnt 7:30 Uhr und endet 13:10 Uhr. Der Nachmittagsunterricht beginnt 13:40 Uhr. Das Betreten des Schulgebäudes ist ab 7:15 Uhr gestattet. Die Schule ist bis 16:30 Uhr geöffnet.

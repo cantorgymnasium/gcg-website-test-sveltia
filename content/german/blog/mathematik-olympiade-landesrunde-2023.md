@@ -2,15 +2,15 @@
 title: Mathematik-Olympiade Landesrunde 2023
 date: 2023-02-28T22:44:44+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/mo.webp
 author: Herr Berger
 categories:
   - Wettbewerbe
   - Mathematik
+subjects:
+  - Mathematik
 type: post
-
 ---
 **Am vergangenen Wochende trat ein Teil unserer Schülerinnen und Schüler bei der Landesrunde der 62. Mathematik-Olympiade in Magdeburg an.**
 

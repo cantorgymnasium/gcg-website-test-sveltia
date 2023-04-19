@@ -1,7 +1,6 @@
 ---
 title: Chor
-draft: "false"
-bg_image: /media/backgrounds/page-title.webp
+draft: false
 image: /media/ganztagsangebote/chor.webp
 category: Musik
 duration: 45 Minuten
@@ -10,7 +9,6 @@ class: alle Klassenstufen
 room: Aula
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-
 ---
 Herzlich Willkommen zum GCG-Chor!
 

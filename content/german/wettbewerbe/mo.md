@@ -1,14 +1,12 @@
 ---
 title: Mathematik-Olympiade
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/contests/mo.webp
 category: Mathematik
 class: 5. - 12. Klasse
 web_url: https://mo.elemente.org/
 type: wettbewerbe
-
 ---
 Die Mathematik-Olympiade für die Klassenstufen 5 – 12 ist ein bundesweiter Wettbewerb, welcher nach bundesweit einheitlichen Aufgaben durchgeführt wird.
 

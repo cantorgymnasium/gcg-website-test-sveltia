@@ -2,7 +2,6 @@
 title: Regionalwettbewerb "Jugend debattiert"
 date: 2023-03-15T09:05:16+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/jugenddebattiert.webp
 author: Frau Opel-Fritzlar
@@ -10,10 +9,11 @@ categories:
   - Wettbewerbe
   - Deutsch
   - Gesellschaftswissenschaften
+subjects:
+  - Sozialkunde
 tags:
   - "2023"
 type: post
-
 ---
 ## Großartige Talente beim Regionalwettbewerb „Jugend debattiert“
 

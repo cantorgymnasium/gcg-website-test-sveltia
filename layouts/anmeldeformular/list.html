@@ -47,29 +47,20 @@
             <input type="file" class="form-control" id="slbe" name="slbe" accept="image/*,.pdf">
             <span class="input-group-text">Schullaufbahnempfehlung</span>
           </div>
-          <div class="input-group">
+          <div class="input-group mb-3">
             <div class="input-group-text">
               <input type="checkbox" class="form-check-input" id="accept" name="accept" required>
             </div>
-            <span class="input-group-text">Hiermit melden wir unser Kind verbindlich zur Aufnahmeprüfung an.</span>
-            <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
+            <p class="form-control mb-0">Hiermit melden wir unser Kind verbindlich zur Aufnahmeprüfung an.</p>
           </div>
+          <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
         </form>
       </div>
       <div class="col-lg-4">
         {{ .Content }}
-        <a href="mailto:{{ .Params.email }}" class="btn btn-primary">{{ .Params.email_label | safeHTML }}</a>
       </div>
     </div>
   </div>
-</section>
-
-<section class="section pt-0 bg-gray">
-    <div class="container">
-      <div id="map">
-        <script src="/js/map.js"></script>
-      </div>
-    </div>
 </section>
 
 {{ end }}

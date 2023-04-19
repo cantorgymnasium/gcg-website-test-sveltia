@@ -2,11 +2,9 @@
 title: 8. Cantorforum
 index: 8
 draft: false
-bg_image: media/backgrounds/page-title.webp
 description: '"Energiewende? Ja danke! Aber ohne mich!" von Andreas Bader'
 image: media/cantorfora/cantorforum_e08.bmp
 type: cantorfora
-
 ---
 Atomausstieg, Klimaerwärmung, Emmissionshandel, CO₂, Klimaprotokolle, ENERGIEWENDE... Von Finanzkrise, Rettungsschirm, Griechenland und Co. mal abgesehen, sind das die beherrschenden Themen unserer Zeit. „Doch wer „wendet“ eigentlich die Energie?“, fragt Andreas Bader.
 

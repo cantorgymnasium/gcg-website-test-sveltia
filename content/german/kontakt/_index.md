@@ -1,7 +1,5 @@
 ---
 title: Kontakt
-draft: false
-bg_image: media/backgrounds/page-title.webp
 description: Wenn Sie noch weitere Fragen haben, können Sie hier eine Nachricht an die Schulleitung schreiben.
 kontaktdaten:
     - name: Herr OStD Dr. Bernd Gorsler

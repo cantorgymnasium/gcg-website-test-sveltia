@@ -1,13 +1,11 @@
 ---
 title: Chemkids
-draft: "false"
-bg_image: /media/backgrounds/page-title.webp
+draft: false
 image: /media/contests/chemkids.webp
 category: Chemie
 class: 5. - 8. Klasse
 web_url: https://www.chemkids.de/
 type: wettbewerbe
-
 ---
 - Experimentalwettbewerb für die Klassenstufen 4 bis 8
 - organisiert in den Bundesländern Berlin, Brandenburg, Mecklenburg-Vorpommern,

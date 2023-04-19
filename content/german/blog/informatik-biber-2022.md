@@ -2,18 +2,18 @@
 title: Informatik-Biber 2022
 date: 2023-01-27T21:42:51+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/biber_300dpi.png
 author: Herr Berger
 categories:
   - Wettbewerbe
   - Informatik/Technik
+subjects:
+  - Informatik
 tags:
   - "2022"
   - Infobiber
 type: post
-
 ---
 ### Erfolge beim Informatik-Biber-Wettbewerb 2022
 

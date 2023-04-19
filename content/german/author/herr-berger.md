@@ -1,13 +1,8 @@
 ---
 title: Herr Berger
-bg_image: /media/backgrounds/page-title.webp
-description: Web-Admin
+description: ""
 email: berger@cantor-gymnasium.de
 image: /media/people/websiteprofilbild.webp
-social:
-  - link: mailto:berger@cantor-gymnasium.de
-    icon: mdi mdi-at
-    title: E-Mail
 type: author
 simplified: false
 active: true

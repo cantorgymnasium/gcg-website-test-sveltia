@@ -2,10 +2,7 @@
 title: Die Spezialklassen für Mathematik und Physik an der
   Martin-Luther-Universität Halle-Wittenberg
 draft: false
-bg_image: media/backgrounds/page-title.webp
 type: pages
-layout: single.html
-
 aliases:
   - /schulchronik/pages/sk-mlu-gcg
 ---

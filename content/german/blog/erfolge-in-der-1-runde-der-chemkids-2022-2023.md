@@ -2,16 +2,16 @@
 title: Erfolge in der 1. Runde der Chemkids 2022/2023
 date: 2023-02-03T07:48:30+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/chemkids.webp
 author: Herr Berger
 categories:
   - Wettbewerbe
   - Naturwissenschaften
+subjects:
+  - Chemie
 tags: []
 type: post
-
 ---
 #### Thema: "Rundis verzauberte Milch"
 

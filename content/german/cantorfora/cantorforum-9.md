@@ -2,11 +2,9 @@
 title: 9. Cantorforum
 index: 9
 draft: false
-bg_image: media/backgrounds/page-title.webp
 description: '"Weihnachten – eine naturwissenschaftliche Betrachtung" von Stefan Schwarz'
 image: media/cantorfora/cantorforum_e09.bmp
 type: cantorfora
-
 ---
 Stefan Schwarz ist praktisch der Gottvater der Cantorforen. Er hat sie bisher alle organisiert und die „Alumni“, die ehemaligen Cantor-Schüler, eingeladen. Doch am Mittwoch, den 7. Dezember 2011 hält er selbst den Vortrag. Es ist sein „Abschluss-forum“, denn er zieht bald nach Portugal, um dort zu arbeiten.
 

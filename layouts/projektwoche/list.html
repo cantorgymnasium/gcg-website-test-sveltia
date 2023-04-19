@@ -5,7 +5,7 @@
 		<div class="row">
 			{{ range .Pages }}
 				<div class="col-lg-4 col-sm-6">
-				{{ .Render "card-btn-ni" }}
+					{{ partial "card-btn-ni" (dict "title" .Title "link" .Permalink) }}
 				</div>
 			{{ end }}
 		</div>

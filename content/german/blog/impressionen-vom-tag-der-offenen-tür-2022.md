@@ -2,18 +2,17 @@
 title: Impressionen vom Tag der offenen Tür 2022
 date: 2022-11-24T09:41:02.882Z
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/image.webp
 author: Herr Berger
 categories:
   - Veranstaltungen
+subjects: []
 tags:
   - tdot
   - cantorluftschnuppern
   - cantorentdecken
 type: post
-
 ---
 Am 19. November 2022 öffneten wir unsere Pforten für vielleicht zukünftige Cantorianer und ihre Eltern. Trotz erster Schneeflocken in der Nacht waren die Besucherzahlen groß. Unsere Fachbereiche präsentierten die Schule und luden mit Angeboten zum Mitmachen ein. Alle Fragen zum Alltag an unserer Schule wurden von unseren Cantorianern und den Lehrkräften beantwortet. Herr Dr. Gorsler, der Schulleiter, informierte umfangreich zum Schulprofil und Aufnahmeverfahren. Die Theater-AG präsentierte verschiedene Sketche in der Aula und unsere Oberstufen-Schüler hatten für das leibliche Wohl gesorgt. Einige Momente sind in den Impressionen unten festgehalten.
 

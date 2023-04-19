@@ -2,7 +2,6 @@
 title: Wettbewerbserfolge der letzten Wochen
 date: 2023-03-30T11:07:03.082+02:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/image.webp
 author: Herr Berger
@@ -11,10 +10,17 @@ categories:
   - Naturwissenschaften
   - Mathematik
   - Sonstiges
+subjects:
+  - Mathematik
+  - Physik
+  - Biologie
+  - Mathematik
+  - Informatik
+  - Chemie
+  - Geografie
 tags:
   - "2023"
 type: post
-
 ---
 Unsere Schülerinnen und Schüler waren in den letzten Wochen bei den verschiedensten Einzel- und Mannschaftswettbewerben erfolgreich:
 

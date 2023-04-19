@@ -1,10 +1,7 @@
 ---
 title: 25 Jahre Georg-Cantor-Gymnasium Halle (Saale)
 draft: false
-bg_image: media/backgrounds/page-title.webp
-type: pages
-layout: single.html
-
+type: chronikseiten
 aliases:
   - /schulchronik/pages/25-ausfluege-und-projekte
 ---

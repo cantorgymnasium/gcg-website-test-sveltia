@@ -1,8 +1,5 @@
 ---
 title: Cantorfora
-draft: false
-bg_image: media/backgrounds/page-title.webp
-
 ---
 Liebe Cantorianer,
 Wir laden Euch alle ganz herzlich zum ersten Cantor-Forum ein!

@@ -2,19 +2,19 @@
 title: Vorlesewettbewerb der 6. Klassen 2022 - Schulrunde
 date: 2022-12-12T12:00:43.329Z
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/vlw_logo_blau_rgb.webp
 author: Herr Berger
 categories:
   - Wettbewerbe
   - Deutsch
+subjects:
+  - Deutsch
 tags:
   - Vorlesewettbewerb 6
   - Schulrunde
   - Stimmung
 type: post
-
 ---
 Am 12.12.2022 traten je zwei Vertreterinnen und Vertreter pro Klasse beim schulinternen Ausscheid zum Vorlesewettbewerb der 6. Klassen an. Dabei wurde ein eigenständig vorbereiteter Romanausschnitt vorgelesen und danach musste ein Fremdtext präsentiert werden. D﻿ie Jury achtete dabei auf die Lesetechnik und ob eine passende Stimmung vermittelt wurde.
 

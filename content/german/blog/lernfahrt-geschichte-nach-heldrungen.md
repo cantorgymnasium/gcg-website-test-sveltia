@@ -2,17 +2,17 @@
 title: Lernfahrt Geschichte nach Heldrungen
 date: 2023-03-19T14:08:31+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/lernfahrt_geschichte_2023.webp
 author: Frau Krug
 categories:
   - Gesellschaftswissenschaften
+subjects:
+  - Geschichte
 tags:
   - geschichte
   - lernfahrt
 type: post
-
 ---
 #### Lernfahrt des Grundkurses Geschichte 12/4. Semester am 17.3. -19.3.2023
 

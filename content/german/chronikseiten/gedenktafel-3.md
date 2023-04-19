@@ -1,10 +1,7 @@
 ---
 title: Grußwort Roland Struensee
 draft: false
-bg_image: media/backgrounds/page-title.webp
 type: pages
-layout: single.html
-
 aliases:
   - /schulchronik/pages/gedenktafel-3
 ---

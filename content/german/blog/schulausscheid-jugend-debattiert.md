@@ -2,7 +2,6 @@
 title: Schulausscheid „Jugend debattiert“
 date: 2023-02-11T11:28:18+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/jugenddebattiert.webp
 author: Frau Schulz
@@ -10,10 +9,11 @@ categories:
   - Wettbewerbe
   - Gesellschaftswissenschaften
   - Deutsch
+subjects:
+  - Sozialkunde
 tags:
   - Jugend debattiert
 type: post
-
 ---
 Vor den Winterferien fand der diesjährige Schulausscheid des Wettbewerbes „Jugend debattiert“ statt. Die Debattantinnen und Debattanten mussten sich mit spannenden Fragen wie „Soll ein soziales Pflichtjahr eingeführt werden?“ auseinandersetzen und es wurden viele gute Argumente in den Debatten ausgetauscht. 
 

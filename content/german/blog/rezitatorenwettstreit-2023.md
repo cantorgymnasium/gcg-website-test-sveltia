@@ -2,7 +2,6 @@
 title: Rezitatorenwettstreit 2023
 date: 2023-03-21T07:56:46+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/rezi_titelbild.webp
 author: Herr Berger
@@ -10,10 +9,11 @@ categories:
   - Wettbewerbe
   - Traditionen
   - Deutsch
+subjects:
+  - Deutsch
 tags:
   - "2023"
 type: post
-
 ---
 Am Donnerstag, dem 16. März 2023, fand unser
 

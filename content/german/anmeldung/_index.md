@@ -1,7 +1,5 @@
 ---
 title: Aufnahmeverfahren
-draft: false
-bg_image: media/backgrounds/page-title.webp
 description: Hier finden Sie die Informationen zur Aufnahme am Georg-Cantor-Gymnasium.
 elements:
   - title: Anmeldung
@@ -35,10 +33,11 @@ elements:
 
       Übungsmöglichkeiten für die Aufnahmeprüfung finden Sie [hier](/forms/aufnahmeklausur).
 
+
       #### Ergebnisse
 
-      Bis April werden ihnen die Ergebnisse der Aufnahmeprüfung schriftlich
-      mitgeteilt.      
+
+      Bis April werden ihnen die Ergebnisse der Aufnahmeprüfung schriftlich mitgeteilt.
 ---
 ## Voraussetzungen
 

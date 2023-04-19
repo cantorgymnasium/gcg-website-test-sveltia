@@ -1,13 +1,11 @@
 ---
 title: Jugend präsentiert
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 image: /media/contests/jp.webp
 category: Sonstiges
 class: 7. - 12. Klasse
 web_url: https://jugend-praesentiert.de/
 type: wettbewerbe
-
 ---
 Eine gute Präsentation bannt seine Zuhörerinnen und Zuhörer von der ersten Sekunde an! Genau dein Anliegen? Dann bist du bei diesem Wettbewerb richtig!
 

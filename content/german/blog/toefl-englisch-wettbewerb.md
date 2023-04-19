@@ -2,18 +2,18 @@
 title: TOEFL-Englisch-Wettbewerb
 date: 2023-01-24T15:13:45+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/image.webp
 author: Herr Berger
 categories:
   - Wettbewerbe
   - Fremdsprachen
+subjects:
+  - Englisch
 tags:
   - TOEFL
   - Englisch
 type: post
-
 ---
 ### Große Erfolge beim TOEFL-Englisch-Wettbewerb
 

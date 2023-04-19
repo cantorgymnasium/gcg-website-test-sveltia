@@ -2,7 +2,6 @@
 title: Mathe im Advent 2022
 date: 2022-12-02T12:44:09.256Z
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: Der Schülerwettbewerb unter der Schirmherrschaft des
   Bildungsministeriums geht in die nächste Runde.
 image: /media/blog/mia2.webp
@@ -10,11 +9,12 @@ author: Denys Konovalov
 categories:
   - Wettbewerbe
   - Mathematik
+subjects:
+  - Mathematik
 tags:
   - Mathematik
   - Weihnachten
 type: post
-
 ---
 **„Mathe im Advent“** ist ein Adventskalender für die Klassenstufen 2 bis 10. Vom 1. Dezember bis Weihnachten gibt es in zwei Altersstufen täglich eine mathematische Aufgabengeschichte rund um die Mathe-Wichtel.
 

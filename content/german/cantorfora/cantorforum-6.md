@@ -2,12 +2,10 @@
 title: 6. Cantorforum
 index: 6
 draft: false
-bg_image: media/backgrounds/page-title.webp
 description: '"Der Einfluss sozialer Netzwerke auf
   Stellenbesetzungsentscheidungen von Unternehmen" von Tino Rasch'
 image: media/cantorfora/cantorforum_e06.bmp
 type: cantorfora
-
 ---
 Am 10.05.2010 fand unser sechstes Cantorforum statt. Tino Rasch hatte 2003 sein Abitur gemacht und Bundeswirtschaftslehre studiert. Er verdeutlichte, dass unser Webauftritt eben doch nicht vollkommen unwichtig ist. Denn sobald man sich bei „Twitter“, „Studi.VZ“, „Facebook“ oder anderen „Social Networks“ anmeldet, werden Personalmanager fündig. Hat man von seiner letzten Party ein paar peinliche Bilder ins Netz gestellt, wird das herausgefunden - das hat Konsequenzen!
 

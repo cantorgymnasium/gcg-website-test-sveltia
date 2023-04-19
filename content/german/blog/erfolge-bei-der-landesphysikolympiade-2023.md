@@ -2,18 +2,18 @@
 title: Erfolge bei der Landesphysikolympiade 2023
 date: 2023-03-13T22:02:51+01:00
 draft: false
-bg_image: /media/backgrounds/page-title.webp
 description: ""
 image: /media/blog/PhO.webp
 author: Denys Konovalov
 categories:
   - Naturwissenschaften
   - Wettbewerbe
+subjects:
+  - Physik
 tags:
   - physikolympiade
   - "2023"
 type: post
-
 ---
 Am Donnerstag, dem 09.03.2023, fand an der Otto-von-Guericke-Universität in Magdeburg die Endrunde der 19. Landesphysikolympiade statt.
 

@@ -1,7 +1,6 @@
 ---
 title: Schach
-draft: "false"
-bg_image: /media/backgrounds/page-title.webp
+draft: false
 image: /media/ganztagsangebote/schach.webp
 category: Naturwissenschaften
 duration: nach Vereinbarung
@@ -10,6 +9,5 @@ class: alle Klassenstufen
 room: "104"
 apply_url: https://moodle.bildung-lsa.de/gcg/mod/choice/view.php?id=828
 type: ganztagsangebote
-
 ---
 Analysieren, Beurteilen, kreativ Denken - Verbessere Deine Spielstärke im Schach!
