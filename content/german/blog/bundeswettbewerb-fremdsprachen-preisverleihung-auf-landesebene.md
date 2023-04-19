@@ -17,8 +17,6 @@ type: post
 
 **Emma Brozek (10/1)** Wettbewerbssprache: Englisch
 
-  
-
 **2. Landespreis TEAM**
 
 **Luisa Grunert, Lucina Kraus, Frieda Sienko & Chelsea Ukokobili** **(Kl. 8/1)** Wettbewerbssprache: Englisch
