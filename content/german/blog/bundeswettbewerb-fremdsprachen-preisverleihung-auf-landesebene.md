@@ -9,6 +9,8 @@ author: Frau Berthelmann
 categories:
   - Wettbewerbe
   - Fremdsprachen
+subjects:
+  - Englisch
 type: post
 ---
 ##### ***Unsere Schülerinnen und Schüler errangen im Bundeswettbewerb Fremdsprachen auf Landesebene folgende Preise:*** 
@@ -28,7 +30,3 @@ type: post
   
 
 ##### ***Herzlichen Glückwunsch!***
-
-
-
-
