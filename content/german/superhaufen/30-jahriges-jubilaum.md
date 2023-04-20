@@ -348,6 +348,8 @@ tiles:
       {{< slider dir="/media/schulchronik/2018/flashmob" >}}
 
 
+
+
       {{< gallery dir="/media/schulchronik/2018/liedtext" >}}
     font_color: "#ffffff"
 ---
