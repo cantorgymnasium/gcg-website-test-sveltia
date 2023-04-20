@@ -63,11 +63,11 @@ Vom 27. Februar bis 2. März 2023 gestalteten wir gemeinsam die Projektwoche unt
 
 Unsere Projektgruppen stellen sich in einem eigenen Website-Bereich vor. In den nächsten Tagen werden noch einige weitere Eindrücke ergänzt.
 
+
+
 {{< card title="Projektübersicht" link="/projektwoche/2023/" >}}
 
-Hier folgen einige Eindrücke vom Präsentationstag, an welchem die Schülerinnen und Schüler bei den anderen Projektgruppen vorbeischauen konnten:
 
-{{< gallery dir="/media/blog/Festwochen/Festwoche23/Projektwoche23" >}}
 
 Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. Klassen schrieben am Montag, Mittwoch und Freitag Vorabis, die 11. waren überwiegend in den Modulkursen Physik und Biologie an der Uni Halle oder unterstützten Projektgruppen in ihrer Arbeit.
 
@@ -90,8 +90,4 @@ Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den tradi
 - Die 10. Klassen präsentierten ihren Fortschritt bei den wpAs und erlebten das musikalisch-literarische Heine-Programm des Künstlerduos „Rose & Georgi“ in unserer Aula.
 - Die 11er, welche nicht in einem der Modulkurse waren, begleiteten das Body+Grips-Programm.
 
-
-
 {{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantortag23" >}}
-
-
