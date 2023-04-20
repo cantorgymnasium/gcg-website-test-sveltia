@@ -138,7 +138,7 @@
         "cantorfora",
         "chronikseiten",
       ].forEach((collection) =>
-        CMS.registerPreviewTemplate(collection, "draft", DraftPreview)
+        CMS.registerFieldPreview(collection, "draft", DraftPreview)
       );
       ["blog", "author", "chronikseiten", "pages", "cantorpreis", "begabte"].forEach(
         (collection) => CMS.registerFieldPreview(collection, "body", BodyPreview)
