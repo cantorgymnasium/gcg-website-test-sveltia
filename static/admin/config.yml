@@ -69,6 +69,7 @@ collections:
                 label_singular: "Element"
                 name: "slider_item"
                 widget: "list"
+                collapsed: true
                 fields:
                   - {label: "Inhalt", name: "content", widget: "string", required: false}
                   - label: "Button"
@@ -89,6 +90,7 @@ collections:
                 name: "logos"
                 widget: "list"
                 required: false
+                collapsed: true
                 fields:
                   - {label: "Titel", name: "title", widget: "string", required: false}
                   - {label: "Link", name: "link", widget: "string", required: false}
@@ -125,6 +127,7 @@ collections:
               - label: "Elemente"
                 name: "feature_item"
                 widget: "list"
+                collapsed: true
                 fields:
                   - {label: "Bezeichnung", name: "name", widget: "string", required: false}
                   - {label: "Symbol", name: "icon", widget: "string", required: false, hint: "Liste unter https://pictogrammers.com/library/mdi/"}
@@ -160,7 +163,7 @@ collections:
               - {label: "Aktivieren", name: "enable", widget: "boolean", required: false}
               - {label: "Hintergrundbild", name: "bg_image", widget: "image", required: false }
               - {label: "Titel", name: "title", widget: "string", required: false}
-              - {label: "Inhalt", name: "content", widget: "text", required: false}
+              - {label: "Inhalt", name: "content", widget: "markdown", required: false}
               - {label: "Video-Link", name: "video_link", widget: "string", required: false}
           - label: "Termine"
             name: "termine"
@@ -188,6 +191,7 @@ collections:
                 name: "logos"
                 widget: "list"
                 required: false
+                collapsed: true
                 fields:
                   - {label: "Titel", name: "title", widget: "string", required: false}
                   - {label: "Link", name: "link", widget: "string", required: false}
@@ -205,6 +209,7 @@ collections:
           - {label: "Emoji", name: "enableEmoji", widget: "boolean", required: false}
           - {label: "robots.txt", name: "enableRobotsTxt", widget: "boolean", required: false}
           - {label: "Zeitzone", name: "timeZone", widget: "string"}
+          - {label: "Pfade von Akzenten und Umlauten bereinigen", name: "removePathAccents", widget: "boolean", required: false, default: true}
           - label: "Markdown-Enstellungen"
             name: "markup"
             widget: "object"
@@ -228,15 +233,24 @@ collections:
               - label: "Plugins"
                 name: "plugins"
                 widget: "object"
+                collapsed: true
                 fields:
                   - label: "CSS"
                     name: "css"
                     widget: "list"
+                    collapsed: true
                     fields:
                       - {label: "Link", name: "link", widget: "string"}
                   - label: "JavaScript"
                     name: "js"
                     widget: "list"
+                    collapsed: true
+                    fields:
+                      - {label: "Link", name: "link", widget: "string"}
+                  - label: "JavaScript (am Seitenanfang)"
+                    name: "head_js"
+                    widget: "list"
+                    collapsed: true
                     fields:
                       - {label: "Link", name: "link", widget: "string"}
               - {label: "Logo", name: "logo", widget: "image" }
@@ -379,6 +393,14 @@ collections:
             collapsed: true
             fields:
               - {label: "Kategorie", name: "category", widget: "string", required: true}
+          - label: "Fächer (Fachzuordnung)"
+            label_singular: "Fach"
+            name: "subjects"
+            widget: "list"
+            required: true
+            collapsed: true
+            fields:
+              - {label: "Fach", name: "subject", widget: "string", required: true}
       - name: "ausblick-config"
         label: "Ausblick auf die Woche"
         file: "data/de/ausblick.yml"
