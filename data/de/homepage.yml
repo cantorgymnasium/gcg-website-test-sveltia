@@ -1,13 +1,11 @@
 top_banner:
-  enable: true
-  text: <br>Wir laden zum literarisch-musikalischen Abend am Mittwoch, den
-    22.02.2023 ab 17 Uhr! <br>Zudem eröffnen wir zuvor feierlich ab 16:30 Uhr
-    unsere Galerie Cantorart.
+  enable: false
+  text: ""
   color: "#1b57b1"
   font_color: "#ffffff"
   icon: mdi mdi-bookmark-music-outline mdi-24px
   temporarily:
-    enable: true
+    enable: false
     start_date: 2023-01-24T08:12:06.712+01:00
     end_date: 2023-02-22T16:32:30.000+01:00
 slider:
@@ -91,7 +89,7 @@ about:
     beschränkt sich aber nicht auf den MINT-Bereich.
 
 
-    Informieren Sie sich über unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot. Georg &Pi;inguin, unser Schulmaskottchen, begleitet Sie dabei!
+    Informieren Sie sich über unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot. Georg Πinguin, unser Schulmaskottchen, begleitet Sie dabei!
   button:
     enable: false
     label: Digitale Führung durch das Schulhaus
