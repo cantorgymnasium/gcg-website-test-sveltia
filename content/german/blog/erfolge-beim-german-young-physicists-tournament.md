@@ -3,7 +3,7 @@ title: Erfolge beim "German Young Physicists' Tournament"
 date: 2023-01-22T16:14:48+01:00
 draft: false
 description: ""
-image: /media/blog//gy-pt-2023.png
+image: /media/blog/2023/gy-pt-2023.webp
 author: Denys Konovalov
 categories:
   - Wettbewerbe
