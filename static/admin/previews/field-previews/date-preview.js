@@ -9,3 +9,5 @@ const DatePreview = ({ value }) =>
 			hour12: false,
 		}).format(new Date(value))
 	);
+
+export default DatePreview;
