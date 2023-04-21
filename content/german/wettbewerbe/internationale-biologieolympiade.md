@@ -1,7 +1,7 @@
 ---
 title: Internationale Biologieolympiade
 draft: false
-image: /media/contests/ibo.png
+image: /media/contests/ibo.webp
 category: Biologie
 class: 9. - 12. Klasse
 web_url: https://www.scienceolympiaden.de/ibo
