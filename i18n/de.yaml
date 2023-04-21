@@ -10,9 +10,6 @@
 - id: contact_info
   translation: Kontaktdaten
 
-- id: subscribe
-  translation: Abbonieren
-
 - id: contact_us
   translation: Kontakt aufnehmen
 
@@ -122,7 +119,7 @@
   translation: "Mehr anzeigen"
 
 - id: cantorpreisträger
-  translation: "Cantor-Preis-Träger"
+  translation: "Cantorpreisträger"
 
 - id: register_now
   translation: Online-Anmeldung
