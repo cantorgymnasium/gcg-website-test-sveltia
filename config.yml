@@ -34,7 +34,7 @@ params:
       - https://assets.cantorgymnasium.de/venobox/v2/dist/venobox.min.css
       - https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css
       - https://assets.cantorgymnasium.de/fonts/fira/fira.css
-      - https://assets.cantorgymnasium.de/fonts/rubik/rubik.css
+      - https://assets.cantorgymnasium.de/fonts/ubuntu/ubuntu.css
     js:
       - https://assets.cantorgymnasium.de/bootstrap/v5/js/bootstrap.bundle.min.js
       - https://assets.cantorgymnasium.de/slick/v1.8/slick.min.js
