@@ -20,7 +20,7 @@ display_url: https://cantorgymnasium.de
 locale: "de"
 
 media_library:
-  max_file_size: 2048000
+  max_file_size: 10240000
   folder_support: true
 
 slug:
