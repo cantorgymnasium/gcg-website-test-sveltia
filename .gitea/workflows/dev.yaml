@@ -11,22 +11,19 @@ concurrency:
 
 jobs:
   dev-build:
-    if: gitea.repository == 'gcg/gcg-website' && gitea.event_name == 'push'
+    if: gitea.repository == 'gcg/gcg-website'
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
       - name: clone
         uses: actions/checkout@v3
-
       - name: build
         run: hugo --minify --gc --baseURL "https://dev.cantorgymnasium.de/" --buildDrafts --buildFuture -d dev
-
       - name: deploy
         run: |
           cd dev
           pagefind --source=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-dev/          
-
       - name: notification
         uses: actions/telegram-action@main
         if: always()

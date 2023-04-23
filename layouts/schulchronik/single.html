@@ -50,18 +50,17 @@
         <div id="wc-canvas" class="wc-canvas"></div>
         {{ $topics := slice }}
         {{ if .Params.pretext }}
-        {{ $topics = $topics | append (slice (slice .Params.Title 200 (md5 .Title))) }}
+          {{ $topics = $topics | append (slice (slice .Params.Title 200 (md5 .Title))) }}
         {{ else }}
-        {{ $topics = $topics | append (slice (slice .Params.Title 200)) }}
+          {{ $topics = $topics | append (slice (slice .Params.Title 200)) }}
         {{ end }}
         {{ range .Params.topics }}
           {{ if .superhaufen.enable }}
-          {{ $topics  = $topics | append (slice (slice .title 30 (.superhaufen.link | urlize)  "superhaufen" )) }}
+            {{ $topics  = $topics | append (slice (slice .title 30 (.superhaufen.link | urlize)  "superhaufen" )) }}
           {{ else }}
-          {{ $topics  = $topics | append (slice (slice .title 30 (md5 .title) )) }}
+            {{ $topics  = $topics | append (slice (slice .title 30 (md5 .title) )) }}
           {{ end }}
         {{ end }}
-        {{ $topics = $topics | jsonify }}
         <script>
           WordCloud(
             document.getElementById('wc-canvas'),
@@ -81,9 +80,9 @@
               /* hover: function(item, dimension, event) {
                 item && item[2] ? event.target.style.textDecorationLine = "underline" : null
               },*/
-              fontFamily: 'Tilt Warp, serif',
+              fontFamily: 'Rubik, sans-serif',
               fontWeight: 700,
-              list: JSON.parse("{{ $topics }}"),
+              list: JSON.parse("{{ $topics | jsonify }}"),
               shrinkToFit: true,
               gridSize: 50,
               rotateRatio: 0,

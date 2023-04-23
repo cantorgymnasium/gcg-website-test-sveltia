@@ -8,7 +8,7 @@ crossorigin=""/>
  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
  crossorigin=""></script>
 
-<section class="section-sm bg-gray">
+<section class="section-sm pb-0 bg-gray">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 mb-4 mb-lg-0">
@@ -48,11 +48,25 @@ crossorigin=""/>
   </div>
 </section>
 
-<section class="section pt-0 bg-gray">
+<section class="section-sm bg-gray">
     <div class="container">
       <div class="row">
         <div id="map" class="card col-12" style="height: 50vh;">
-          <script src="/js/map.js"></script>
+          <script>
+            var map = L.map('map', {
+              scrollWheelZoom: false
+            }).setView([51.473361, 11.965619], 100);
+
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            var marker = L.marker([51.473361, 11.965619]).addTo(map);
+
+            map.on('click', (e) => {
+                marker.bindPopup('Georg-Cantor-Gymnasium<br>Torstraße 13<br>06110 Halle (Saale)<br><b><a href="https://www.qwant.com/maps/place/osm:way:54033279@Georg-Cantor-Gymnasium">Route</a>').openPopup();
+            });
+          </script>
         </div>
       </div>
     </div>

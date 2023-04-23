@@ -174,14 +174,9 @@ a h4 {
   font-size: 36px;
 }
 
-/* page title */
 .page-title-section {
   padding: 200px 0 80px;
 }
-
-
-
-/* /page title */
 
 .list-styled {
   padding-left: 25px;
@@ -214,6 +209,7 @@ textarea.form-control {
 
 
 /* pagination */
+
 .pagination {
   justify-content: center;
 
@@ -269,7 +265,7 @@ textarea.form-control {
       &::before {
         position: absolute;
         content: "\f0B2A";
-        font-family: "Material Design Icons";
+        font-family: $icon-font;
         font-size: 14px;
         left: 0;
         top: 1px;
@@ -289,6 +285,7 @@ textarea.form-control {
     max-width: 100%;
     margin-bottom: 1rem;
     border: 1px solid #dee2e6;
+    table-layout: fixed;
 
     th,
     td {
@@ -312,13 +309,13 @@ textarea.form-control {
 
 
   blockquote {
-    border-left: 3px solid $primary-color;
-    border-top: 1px solid $primary-color;
-    border-bottom: 1px solid $primary-color;
+    border: 1px solid $border-color;
+    border-left: 5px solid $primary-color;
     padding: 20px;
+    padding-left: 40px;
     background-color: $light;
+
     p {
-      margin-bottom: 0;
       color: $text-color;
       font-style: italic !important;
     }
@@ -327,26 +324,15 @@ textarea.form-control {
     }
   }
 
-
-
-
   pre {
     padding: 10px 20px;
     background: $light;
   }
 }
 
-.person-thumb-sm {
-  height: 85px;
-  width: 85px;
-  object-fit: cover;
-}
-
 summary {
   font-weight: 900;
-  margin: -.5em -.5em 0;
-  padding: .5em;
-  font-size: 20px;
+  font-size: 22px;
   color: $secondary-color;
 
   &.hover {
@@ -357,6 +343,7 @@ summary {
 
 details[open] {
   padding: .5em;
+  padding-bottom: 0;
 }
 
 details[open] summary {
@@ -369,6 +356,83 @@ details[open] summary {
     width: 25%;
   }
 }
+
+/* hero */
+
+.hero-section {
+  padding: 250px 0 200px;
+}
+
+.hs-banner {
+  padding: 50px 0 200px;
+}
+
+.hero-slider {
+
+  .prevArrow,
+  .nextArrow {
+    position: absolute;
+    bottom: -123px;
+    z-index: 9;
+    padding: 15px;
+    color: rgba($color: $white, $alpha: .5);
+    border: 0;
+    font-size: 30px;
+    transition: all linear .2s;
+    background: transparent;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  .prevArrow {
+    right: 60px;
+  }
+
+  .nextArrow {
+    right: 0;
+  }
+
+  .arrowIcon {
+    font-size: 40px;
+  }
+
+  .slick-dots {
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 6px;
+
+      &.slick-active {
+        button {
+          background: $primary-color;
+        }
+      }
+
+      button {
+        color: transparent;
+        padding: 0;
+        overflow: hidden;
+        height: 10px;
+        width: 10px;
+        background: rgba($color: $white, $alpha: .5);
+        border: 0;
+        outline: 0;
+      }
+    }
+  }
+}
+
+/* /hero */
 
 .top-banner {
  padding-top: 160px !important; 
@@ -396,4 +460,31 @@ details[open] summary {
 .wc-canvas {
   width: 100%;
   height: 600px;
+}
+
+.filter-controls{
+  li{
+    cursor: pointer;
+    transition: .1s ease;
+    &.active{
+      font-weight: 600;
+      color: $primary-color;
+    }
+    &:hover{
+      color: $primary-color;
+    }
+  }
+}
+
+.tag-list{
+  a{
+    display: block;
+    padding: 5px 10px;
+    background: $light;
+    color: $text-color;
+    &:hover{
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
 }
