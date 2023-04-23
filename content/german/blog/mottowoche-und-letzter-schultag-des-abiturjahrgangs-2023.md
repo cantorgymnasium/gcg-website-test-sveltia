@@ -1,9 +1,9 @@
 ---
 title: Mottowoche und letzter Schultag des Abiturjahrgangs 2023
 date: 2023-04-23T14:18:13.497+02:00
-draft: true
+draft: false
 description: ""
-image: /media/blog/image.webp
+image: /media/blog/2023/Abitag/Abitag_Gruppenfoto.webp
 author: Herr Berger
 categories:
   - Traditionen
