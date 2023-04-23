@@ -23,7 +23,7 @@ Am letzten Tag folgte dann der letzte Schultag unter dem Motto DemokrABI, denn i
 
 
 
-{{< gallery >}}
+{{< gallery dir="/media/blog/2023/Abitag" >}}
 
 
 
