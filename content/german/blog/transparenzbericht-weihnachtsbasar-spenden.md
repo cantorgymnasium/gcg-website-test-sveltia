@@ -41,7 +41,7 @@ Aus Transparenzgründen haben wir uns entschieden, die Höhe der einzelnen Spend
 |10/3|15 €|
 |11|45 €|
 |12|45 €|
-|Gesamtsumme| |
+|Gesamtsumme|792,68 €|
 
 Der entsprechende Betrag wird zu jeweils 50 % an das Kinderhospiz in Halle sowie den Verein Kinderplanet.
 
