@@ -680,7 +680,7 @@ collections:
       - {label: "Datum", name: "date", widget: "datetime", date_format: "dd/MM/yyyy", time_format: false, format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Metabeschreibung", name: "description", widget: "text", default: "", required: false}
-      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/blog/image.webp" }
+      - {label: "Beitragsbild", name: "image", widget: "image", default: "/media/image.webp" }
       - label: "Beitragsautor"
         name: "author"
         widget: "relation"
@@ -767,7 +767,7 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Beschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/cantorpreis/image.webp", required: false }
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.webp", required: false }
       - {label: "Type", name: "type", widget: "hidden", default: "cantorpreis"}
       - {label: "Text", name: "body", widget: "markdown", required: false}
   - name: "ganztagsangebote"
@@ -785,7 +785,7 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/ganztagsangebote/image.webp", required: false }
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.webp", required: false }
       - label: "Themenbereich"
         name: "category"
         widget: "relation"
@@ -818,7 +818,7 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/contests/image.webp", required: false }
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.webp", required: false }
       - label: "Fach"
         name: "category"
         widget: "relation"
@@ -848,7 +848,7 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Metabeschreibung", name: "description", widget: "text", required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/begabte/image.webp", required: false }
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.webp", required: false }
       - {label: "Klassenstufen", name: "class", widget: "string"}
       - {label: "Website", name: "web_url", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "hidden", default: "begabte"}
@@ -992,7 +992,7 @@ collections:
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Entwurf", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Bild", name: "image", widget: "image", default: "/media/abiturienten/image.webp", required: false }
+      - {label: "Bild", name: "image", widget: "image", default: "/media/image.webp", required: false }
       - {label: "Type", name: "type", widget: "hidden", default: "abiturienten"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "cantorfora"
