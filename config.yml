@@ -87,15 +87,13 @@ menu:
       URL: ganztagsangebote
       weight: 2
       hasChildren: false
-      params:
-        external: false
+      params: false
     - parent: Schule
       name: Termine
       URL: termine
       weight: 3
       hasChildren: false
-      params:
-        external: false
+      params: false
     - parent: Schule
       name: Aufnahme
       URL: anmeldung
@@ -174,8 +172,7 @@ menu:
       URL: forms
       weight: 1
       hasChildren: false
-      params:
-        external: false
+      params: false
     - parent: Für Schüler und Eltern
       name: Vertretungsplan
       URL: https://stundenplan24.de/20072021/mobil/
