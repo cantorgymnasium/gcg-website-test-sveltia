@@ -35,7 +35,7 @@ collections:
       frame: true
     files:
       - name: "cantorpreis-index"
-        label: "Cantor-Preis"
+        label: "Cantorpreis"
         file: "content/german/cantorpreis/_index.md"
         fields:
           - {label: "Titel", name: "title", widget: "string"}
@@ -120,8 +120,8 @@ collections:
               - {label: "davon Mädchen", name: "girls", widget: "number", required: true}
   - name: "cantorpreis"
     icon: "award"
-    label: "Cantor-Preisträger"
-    label_singular: "Cantor-Preisträger"
+    label: "Cantorpreisträger"
+    label_singular: "Cantorpreisträger"
     folder: "content/german/cantorpreis"
     filter: {field: "type", value: "cantorpreis"}
     sortable_fields:

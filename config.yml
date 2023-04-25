@@ -70,11 +70,13 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - name: Schule
       weight: 2
       hasChildren: true
       params:
         external: false
+        separator: false
     - parent: Schule
       name: Über die Schule
       URL: about
@@ -82,6 +84,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Schule
       name: Ganztagsbereich
       URL: ganztagsangebote
@@ -89,6 +92,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Schule
       name: Termine
       URL: termine
@@ -96,6 +100,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Schule
       name: Aufnahme
       URL: anmeldung
@@ -103,6 +108,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Schule
       name: Schulbibliothek
       URL: pages/bibo
@@ -110,6 +116,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Schule
       name: Schulchronik
       URL: schulchronik
@@ -117,6 +124,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Schule
       name: Cantorpreis
       URL: cantorpreis
@@ -124,6 +132,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Schule
       name: Virtueller Rundgang
       URL: https://vr.cantorgymnasium.de/tour/
@@ -131,11 +140,13 @@ menu:
       hasChildren: false
       params:
         external: true
+        separator: false
     - weight: 3
       name: Unterricht
       hasChildren: true
       params:
         external: false
+        separator: false
     - parent: Unterricht
       name: Wettbewerbe
       URL: wettbewerbe
@@ -143,6 +154,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Unterricht
       name: Begabtenförderung
       URL: begabte
@@ -150,6 +162,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Unterricht
       name: Junior-Ingenieur-Akademie
       URL: pages/jia
@@ -157,6 +170,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Unterricht
       name: Projektwoche
       URL: projektwoche
@@ -164,11 +178,13 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - name: Für Schüler und Eltern
       weight: 4
       hasChildren: true
       params:
         external: false
+        separator: false
     - parent: Für Schüler und Eltern
       name: Dokumente und Formulare
       URL: forms
@@ -176,6 +192,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Für Schüler und Eltern
       name: Vertretungsplan
       URL: https://stundenplan24.de/20072021/mobil/
@@ -183,6 +200,7 @@ menu:
       hasChildren: false
       params:
         external: true
+        separator: false
     - parent: Für Schüler und Eltern
       name: Lernplattform Moodle
       URL: https://moodle.bildung-lsa.de/gcg
@@ -190,6 +208,7 @@ menu:
       hasChildren: false
       params:
         external: true
+        separator: false
     - parent: Für Schüler und Eltern
       name: Essensbestellung
       URL: https://heideklause-halle.de/bestellung/
@@ -197,6 +216,7 @@ menu:
       hasChildren: false
       params:
         external: true
+        separator: false
     - parent: Für Schüler und Eltern
       name: Schulshop
       URL: https://schulkleidung.de/shop/index.php?nr=SDQUCKVD
@@ -204,6 +224,7 @@ menu:
       hasChildren: false
       params:
         external: true
+        separator: true
     - parent: Für Schüler und Eltern
       name: Förderverein
       URL: pages/foerderverein
@@ -211,6 +232,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - parent: Für Schüler und Eltern
       name: Schülervertretung
       URL: pages/schuelervertretung
@@ -218,6 +240,7 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - name: Elternvertretung
       weight: 8
       URL: pages/elternvertretung
@@ -225,12 +248,14 @@ menu:
       hasChildren: false
       params:
         external: false
+        separator: false
     - name: Kontakt
       URL: kontakt
       weight: 5
       hasChildren: false
       params:
         external: false
+        separator: false
   footer:
     - name: Termine
       URL: termine
