@@ -1,7 +1,7 @@
 ---
 title: TOEFL-Test
 draft: false
-image: /media/toefl.webp
+image: /media/contests/toefl.webp
 category: Fremdsprachen
 class: 5. - 12. Klasse
 web_url: https://www.de.ets.org/toefl.html
