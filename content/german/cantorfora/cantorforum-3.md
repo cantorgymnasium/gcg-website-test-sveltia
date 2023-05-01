@@ -3,7 +3,7 @@ title: 3. Cantorforum
 index: 3
 draft: false
 description: '"Abi - und dann...?" Teil 2 von Johannes Herzog'
-image: media/cantorfora/cantorforum_e03.bmp
+image: /media/cantorfora/cantorforum_3/titelbild.webp
 type: cantorfora
 ---
 13.05.09, 14.30 Uhr, Raum 313: Das dritte "Cantor-Forum" findet statt.
