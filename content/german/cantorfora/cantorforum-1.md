@@ -4,7 +4,7 @@ index: 1
 draft: false
 description: '"Auf den Spuren von Georg Cantor" von Dr. Helmut Podhaisky und Dr.
   Alf Gerisch'
-image: media/cantorfora/cantorforum_e01.bmp
+image: /media/cantorfora/cantorforum_1/titelbild.webp
 type: cantorfora
 ---
 Was macht man eigentlich als ehemaliger Cantorianer? Diese Frage wurde von Dr. Helmut Podhaisky und Dr. Alf Gerisch aus dem Abiturjahrgang 1992 beantwortet. Zu Beginn, hielten beide sehr anschauliche, humorvolle und interessante Vorträge. Das Thema, wie nicht anders zu erwarten, war Mathematik, doch soll das Cantorforum, alle Themenbereiche erfassen, denn die Ehemaligen haben sich um den ganzen Globus in jede Fachrichtung verteilt. So zeigte Helmut, dass der Somawürfel, das Sodoku und das Damenproblem und vieles mehr auf eine ganze einfache Gleichung zurückzuführen sind, und Alf erklärte Anwendungsgebiete der Differenzialrechung.
