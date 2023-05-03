@@ -1,7 +1,7 @@
 ---
 title: "Transparenzbericht: Weihnachtsbasar-Spenden"
-date: 2023-04-24T14:52:41.185+02:00
-draft: true
+date: 2023-05-03T16:11:27.148+02:00
+draft: false
 description: ""
 image: /media/blog/image.webp
 author: Denys Konovalov
@@ -13,7 +13,7 @@ tags:
   - schülerrat
 type: post
 ---
-Nach einer langen Corona-Pause konnte im Dezember 2022 unser traditioneller Weihnachtbasar endlich wieder in gewohntem Formt stattfinden.
+Nach einer langen Corona-Pause konnte im Dezember 2022 unser traditioneller Weihnachtbasar endlich wieder in gewohntem Format stattfinden.
 
 Wie üblich wurde auch dieses Jahr ein Teil des Erlöses gesammelt, um ihn als Spende verschiedenen gemeinnützigen Organisationen zukommen zu lassen.
 
@@ -43,6 +43,6 @@ Aus Transparenzgründen haben wir uns entschieden, die Höhe der einzelnen Spend
 |12|45 €|
 |Gesamtsumme|792,68 €|
 
-Der entsprechende Betrag wird zu jeweils 50 % an das Kinderhospiz in Halle sowie den Verein Kinderplanet.
+Der entsprechende Betrag wird zu jeweils 50 % an das Kinderhospiz in Halle sowie das Deutsche Rote Kreuz (Ukrainehilfe) gespendet.
 
 Wir danken allen Beteiligten, dem Schülerratsteam, allen Besucherinnen und Besuchern sowie den Klassensprechern für den großartigen Erfolg!
