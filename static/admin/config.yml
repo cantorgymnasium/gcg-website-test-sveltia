@@ -219,7 +219,7 @@ collections:
           - {label: "Website-URL", name: "baseURL", widget: "string"}
           - {label: "Titel", name: "title", widget: "string"}
           - {label: "Elemente je Seite", name: "paginate", widget: "number", value_type: "int"}
-          - {label: "Lände von Zusammenfassungen", name: "summaryLength", widget: "number", value_type: "int"}
+          - {label: "Länge von Zusammenfassungen", name: "summaryLength", widget: "number", value_type: "int"}
           - {label: "Standardsprache in Unterordner", name: "defaultContentLanguageInSubdir", widget: "boolean", required: false}
           - {label: "Standardsprache", name: "defaultContentLanguage", widget: "string"}
           - {label: "Emoji", name: "enableEmoji", widget: "boolean", required: false}
