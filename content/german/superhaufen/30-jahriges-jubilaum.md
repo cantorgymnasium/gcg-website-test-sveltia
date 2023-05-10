@@ -163,7 +163,7 @@ tiles:
           individuelle Programme für die Jahrgänge entworfen. Die damaligen
 
 
-          1. und 8. Klassen durften sich den Film „Nerve“ angesehen,
+          \1. und 8. Klassen durften sich den Film „Nerve“ angesehen,
 
           welcher sich mit der Nutzung von Medien auseinandersetzt. Gezeigt
 
@@ -185,7 +185,7 @@ tiles:
 
           fanden sich nur langsam ein. Dies war auch der Straßenbahn
 
-          geschuldet die nur Stoßweise an der Station anhielt. Das sorgte
+          geschuldet, die nur stoßweise an der Station anhielt. Das sorgte
 
           dafür, dass die deutsche Pünktlichkeit nicht ganz eingehalten
 
@@ -200,7 +200,7 @@ tiles:
 
           Ort zu kaufen. Das hatten die meisten auch bedacht und daher wurden
 
-          im Kinosaal die mitgebrachen Süßigkeiten geöffnet und verteilt.
+          im Kinosaal die mitgebrachten Süßigkeiten geöffnet und verteilt.
 
           Das meiste davon war aber schon aufgegessen, bevor der Film überhaupt
 
@@ -215,7 +215,7 @@ tiles:
 
           spielen. In diesem Spiel werden Schüler über ihre Handys zu
 
-          peinlichen aber auch riskanten und gefährlichen Aufgaben
+          peinlichen, aber auch riskanten und gefährlichen Aufgaben
 
           aufgefordert. Für das Lösen dieser Aufgaben verdienen Spieler, auch
 
@@ -255,10 +255,10 @@ tiles:
           T. R.
       - title: Cantor-Rallye
         content: >
-          Anlässlich des 100. Todestages des in Halle tätigen Mathematikers Georg
-          Ferdinand Ludwig Phillip Cantor gestaltete das Georg-Cantor-Gymnasium,
-          mit Unterstützung von Lehramtsstudierenden der Universität Leipzig,
-          vier interaktive Stadtrallyes.
+          Anlässlich des 100. Todestages des in Halle tätigen Mathematikers
+          Georg Ferdinand Ludwig Phillip Cantor gestaltete das
+          Georg-Cantor-Gymnasium, mit Unterstützung von Lehramtsstudierenden der
+          Universität Leipzig, vier interaktive Stadtrallyes.
 
 
           Die Schülerinnen und Schüler der Schulchronik-AG erarbeiteten Themen rund um
@@ -294,8 +294,7 @@ tiles:
     bg_color: "#0051e5"
     icon: mdi mdi-all-inclusive
     content: >
-      Unser geliebtes Gymnasium feierte im Jahr 2018 sein 30-jähriges
-      Jubiläum.
+      Unser geliebtes Gymnasium feierte im Jahr 2018 sein 30-jähriges Jubiläum.
 
       Nach reichlicher Überlegung kam unserem Schuldirektor Herrn Gorsler
 
