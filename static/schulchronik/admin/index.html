@@ -4,571 +4,109 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@staticcms/app@^2.0.0/dist/main.css" />
     <title>Chronikverwaltung</title>
   </head>
   <body>
-    <style>
-      body {
-        font-family: sans-serif;
-      }
-      .icon-md {
-        font-size: 25px;
-      }
-    </style>
-    <script src="https://cdn.jsdelivr.net/npm/@staticcms/app@^1.2.7/dist/static-cms-app.js"></script>
-    <!--script src="https://cantorgymnasium.de/plugins/wordcloud/wordcloud2.min.js"></script-->
-    <script id="cms-init">
-      CMS.init();
-    </script>
-    <script id="icons">
-      var icons = [['settings', 'mdi mdi-cog-outline'], ['user', 'mdi mdi-fountain-pen-tip'], ['page', 'mdi mdi-file-document-outline'], ['page-add', 'mdi mdi-file-document-plus-outline'], ['document', 'mdi mdi-file-document-multiple-outline'], ['news', 'mdi mdi-newspaper'], ['award', 'mdi mdi-seal-variant'], ['group', 'mdi mdi-crowd'], ['trophy', 'mdi mdi-trophy-outline'], ['pi', 'mdi mdi-pi-box'], ['pillar', 'mdi mdi-pillar'], ['graduation-cap', 'mdi mdi-school-outline'], ['help', 'mdi mdi-lifebuoy'], ['dash', 'mdi mdi-monitor-dashboard'], ['presentation', 'mdi mdi-presentation'], ['superhaufen', 'mdi mdi-view-dashboard'], ['stats', 'mdi mdi-chart-bar']];
-      icons.forEach(icon => {
-        CMS.registerIcon(icon[0], ({}) => { return(h('i', {className: icon[1] + " icon-md"})); });
-      });
-    </script>
-    <script id="links">
-      CMS.registerAdditionalLink({
-        id: 'wiki',
-        title: 'GCG.Wiki',
-        data: 'https://wiki.cantorgymnasium.de',
-        options: {
-          icon: 'help',
-        },
-      });
-    </script>
-    <script>   
-      CMS.registerShortcode('gallery', {
-        label: 'Bildergallerie',
-        openTag: '{{< ',
-        closeTag: ' >}}',
-        separator: ' ',
-        toProps: args => {
-          if (args.length > 0) {
-            var dir = args.find(arg => arg.startsWith('dir='))?.split('=')[1].replaceAll("\"","") ?? '';
-            return { dir: dir };
-          }
-          return { dir: '' };
-        },
-        toArgs: ({ dir }) => {
-          return [`dir=\"${dir}\"`];
-        },
-        control: ({ dir, onChange }) => {
-          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
-          h('b', {style: {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Gallerie-Ordner: "),
-          h('input', {
-            key: 'control-input',
-            value: dir,
-            style: {
-              border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "80%"
-            },
-            onChange: event => {
-              onChange({ dir: event.target.value });
-            },
-          }));
-        },
-        preview: ({ dir }) => {
-          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "8px", padding: "10px", marginBottom: "5px" }},
-          h('b', {style: { marginRight: "5px" }}, "Gallerie-Ordner:"),
-          h('code', {}, dir));
-        },
-      });
-      CMS.registerShortcode('figure', {
-        label: 'Bild',
-        openTag: '{{< ',
-        closeTag: ' >}}',
-        separator: ' ',
-        toProps: args => {
-          if (args.length > 0) {
-            var src = args.find(arg => arg.startsWith('src='))?.split('=')[1].replaceAll("\"","") ?? '';
-            return { src };
-          }
-      
-          return { dir: '' };
-        },
-        toArgs: ({ src }) => {
-          return [`src=\"${src}\"`];
-        },
-        control: ({ src, onChange }) => {
-          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "16px", padding: "10px" }},
-          h('b', {style: {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Bild-Pfad:"),
-          h('input', {
-            key: 'control-input',
-            value: src,
-            style: {
-              border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "80%"
-            },
-            onChange: event => {
-              onChange({ src: event.target.value });
-            },
-          }));
-        },
-        preview: ({ src }) => {
-          return h('div', {className: "row", style: { border: "1px solid #ccc", borderRadius: "16px", padding: "10px" }},
-          h('b', {style: { marginRight: "5px" }}, "Gallerie-Ordner:"),
-          h('code', {}, src));
-        },
-      });
-      CMS.registerShortcode('download', {
-        label: 'Download-Karte',
-        openTag: '{{< ',
-        closeTag: ' >}}',
-        separator: ' ',
-        toProps: args => {
-          if (args.length > 0) {
-            var title = "";
-            var link = "";
-            var linkIndex = args.findIndex(arg => arg.startsWith('link="'));
-            var titleIndex = args.findIndex(arg => arg.startsWith('title="'));
-            if (titleIndex + 1 < linkIndex) {
-              title += args.find(arg => arg.startsWith('title='))?.split('=')[1].replaceAll("\"","") ?? '';
-              for (let i = titleIndex + 1; i < linkIndex; i++) {
-                title += " " + args[i].replaceAll("\"","") ;
-              } 
-            } else {
-              title = args.find(arg => arg.startsWith('title='))?.split('=')[1].replaceAll("\"","") ?? ''
-            }
-            if (linkIndex + 1 < args.length) {
-              link += args.find(arg => arg.startsWith('link='))?.split('=')[1].replaceAll("\"","") ?? '';
-              for (let i = linkIndex + 1; i < args.length; i++) {
-                link += " " + args[i].replaceAll("\"","");
-              }                 
-            } else {
-              link = args.find(arg => arg.startsWith('link='))?.split('=')[1].replaceAll("\"","") ?? ''
-            }
-            title.trim();
-            link.trim();
-            return { title: title, link: link };
-          }
+    <script src="https://cdn.jsdelivr.net/npm/@staticcms/app@^2.0.0/dist/static-cms-app.js"></script>
+    <script type="module">
+      import config from "../../admin/config/schulchronik.js";
+      // imports
+      import {
+        PagePreview,
+        HeaderPreview,
+        ChronikPreview,
+        ChronikIndexPreview,
+        CantorpreisPreview,
+        AbiturientenPreview,
+        ProjektwochePreview,
+        PreviewStyles,
+      } from "../../admin/previews/page-previews/index.js";
+      import {
+        BooleanPreview,
+        DraftPreview,
+        CountPreview,
+        BodyPreview,
+        DatePreview,
+      } from "../../admin/previews/field-previews/index.js";
+      import {
+        GalleryShortcode,
+        ImageShortcode,
+        DownloadShortcode,
+        CardShortcode,
+        YoutubeShortcode,
+        AudioShortcode,
+        SliderShortcode,
+      } from "../../admin/shortcodes/index.js";
+      import { WikiLink } from "../../admin/links/index.js";
+      import Icons from "../../admin/icons.js";
 
-          return { title: '', link: '' };
-        },
-        toArgs: ({ title, link }) => {
-          return [`title=\"${title}\"`, `link=\"${link}\"`];
-        },
-        control: ({ title, link, onChange }) => {
-          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
-          h('b', {style: {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Download-Karte:"),
-          h('input', {
-            key: 'control-input',
-            value: title,
-            style: {
-              border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "35%", marginLeft: "5px", marginRight: "5px"
-            },
-            onChange: event => {
-              onChange({ title: event.target.value, link: link });
-            },
-          }),
-          h('input', {
-            key: 'control-input',
-            value: link,
-            style: {
-              border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "35%", marginLeft: "5px", marginRight: "5px"
-            },
-            onChange: event => {
-              onChange({ title: title, link: event.target.value });
-            },
-          })
-          );
-        },
-        preview: ({ title, link }) => {
-          return h('div', {className: "container mb-0"},
-          h('div', {className: "card border-primary rounded-0 hover-shadow mb-5"}, 
-            h('div', {className: "card-body mb-0"},
-              h('h4', {className: "card-title"},
-                h('a', {className: "text-decoration-none", href: link}, title),
-              ),
-              h('a', {className: "mb-0 btn btn-primary btn-sm text-decoration-none", href: link}, "Download")
-            )))},
-      });
-      CMS.registerShortcode('card', {
-        label: 'Link-Karte',
-        openTag: '{{< ',
-        closeTag: ' >}}',
-        separator: ' ',
-        toProps: args => {
-          if (args.length > 0) {
-            var title = "";
-            var link = "";
-            var linkIndex = args.findIndex(arg => arg.startsWith('link="'));
-            var titleIndex = args.findIndex(arg => arg.startsWith('title="'));
-            if (titleIndex + 1 < linkIndex) {
-              title += args.find(arg => arg.startsWith('title='))?.split('=')[1].replaceAll("\"","") ?? '';
-              for (let i = titleIndex + 1; i < linkIndex; i++) {
-                title += " " + args[i].replaceAll("\"","") ;
-              } 
-            } else {
-              title = args.find(arg => arg.startsWith('title='))?.split('=')[1].replaceAll("\"","") ?? ''
-            }
-            if (linkIndex + 1 < args.length) {
-              link += args.find(arg => arg.startsWith('link='))?.split('=')[1].replaceAll("\"","") ?? '';
-              for (let i = linkIndex + 1; i < args.length; i++) {
-                link += " " + args[i].replaceAll("\"","");
-              }                 
-            } else {
-              link = args.find(arg => arg.startsWith('link='))?.split('=')[1].replaceAll("\"","") ?? ''
-            }
-            title.trim();
-            link.trim();
-            return { title: title, link: link };
-          }
+      // cms initialization
+      CMS.init({ config });
 
-          return { title: '', link: '' };
-        },
-        toArgs: ({ title, link }) => {
-          return [`title=\"${title}\"`, `link=\"${link}\"`];
-        },
-        control: ({ title, link, onChange }) => {
-          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
-          h('b', {style: {width: "30%", fontFamily: "sans-serif", margin: "10px"}}, "Link-Karte:"),
-          h('input', {
-            key: 'control-input',
-            value: title,
-            style: {
-              border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "40%", marginLeft: "5px", marginRight: "5px"
-            },
-            onChange: event => {
-              onChange({ title: event.target.value, link: link });
-            },
-          }),
-          h('input', {
-            key: 'control-input',
-            value: link,
-            style: {
-              border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "40%", marginLeft: "5px", marginRight: "5px"
-            },
-            onChange: event => {
-              onChange({ title: title, link: event.target.value });
-            },
-          })
-          );
-        },
-        preview: ({ title, link }) => {
-          return h('div', {className: "container mb-0"},
-          h('div', {className: "card border-primary rounded-0 hover-shadow mb-5"}, 
-            h('div', {className: "card-body mb-0"},
-              h('h4', {className: "card-title"},
-                h('a', {className: "text-decoration-none", href: link}, title),
-              ),
-              h('a', {className: "mb-0 btn btn-primary btn-sm text-decoration-none", href: link}, "Mehr anzeigen")
-            )))},
-      });
-      CMS.registerShortcode('youtube', {
-        label: 'YouTube-Video',
-        openTag: '{{< ',
-        closeTag: ' >}}',
-        separator: ' ',
-        toProps: args => {
-          if (args.length > 0) {
-            return { src: args[0] };
-          }
-      
-          return { src: '' };
-        },
-        toArgs: ({ src }) => { return [src] },
-        control: ({ src, onChange }) => {
-          return h('div', {className: "row", style: { border: "1px solid #868686", borderRadius: "8px", padding: "10px" }},
-          h('b', {style: {fontFamily: "sans-serif", margin: "10px"}}, "YoutTube-Video:"),
-          h('input', {
-            key: 'control-input',
-            value: src,
-            style: {
-              border: "1px solid #ced4da", borderRadius: "8px", padding: "10px", width: "80%"
-            },
-            onChange: event => {
-              onChange({ src: event.target.value });
-            },
-          }),
-          h('div', {className: "row", style: {"marginTop": "10px"}}, 
-            h(
-                'iframe',
-                {
-                  key: 'control-preview',
-                  width: '100%',
-                  height: '360',
-                  src: `https://piped.kavin.rocks/embed/${src}`,
-                  style: { borderRadius: "8px" }
-                },
-                '',
-            )
-          ));
-        },
-        preview: ({ src }) => {
-          return h(
-            'span',
-            {},
-            h(
-              'iframe',
-              {
-                width: '420',
-                height: '315',
-                src: `https://piped.kavin.rocks/embed/${src}`,
-              },
-              '',
-            ),
-          );
-        },
-      });
-    </script>
-    <script id="preview-styles">
-      CMS.registerPreviewStyle("https://assets.cantorgymnasium.de/bootstrap/v5/css/bootstrap.min.css");
-      CMS.registerPreviewStyle("https://assets.cantorgymnasium.de/fonts/fira/fira.css");
-      CMS.registerPreviewStyle("https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css");
-      CMS.registerPreviewStyle("https://cantorgymnasium.de/scss/style.css");
-    </script>
-    <!--script>
-      var ChronikPreview = ({widgetFor, widgetsFor, entry, document, window }) => {
-          const divStyle = {
-            backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
-          };
-          return h('div', {"id": "sc-root"},
-                    h('section', {className: "page-title-section overlay", style: divStyle},
-                      h('div', {className: "container"},
-                        h('div', {className: "col-md-8"},
-                          h('ul', {className: "list-inline"},
-                            h('li', {className: "list-inline-item h2"},
-                              h('a', {className: "text-primary font-secondary", href: ""}, "Schulchronik")),
-                            h('li', {className: "list-inline-item h2"},
-                              h("i", {className: "mdi mdi-chevron-double-right text-white"})),
-                            h('li', {className: "list-inline-item text-white h2 font-secondary"}, entry.data.title)
-                          )
-                        )
-                      )
-                    ),
-                    h('section', {className: "section-sm"},
-                      h('div', {className: "container"},
-                        h('div', {className: "row"},
-                          h('div', {className: "col-12 mb-4 content"},
-                          widgetsFor('topics').map(function(i, index) {
-                              return h('div', {"id": i.data.id, className: "modal"},
-                                h('div', {className: "modal-dialog modal-lg", "role": "document"},
-                                  h('div', {className: "modal-content"},
-                                    h('div', {className: "modal-header"},
-                                      h('h5', {className: "modal-title"}, i.data.title),
-                                      h('button', {className: "close", type: "button", "dataDismiss": "modal", "ariaLabel": "Close"},
-                                        h('span', {"ariaHidden": "true"}, '\u{00d7}')
-                                      )
-                                    ),
-                                    h('div', {className: "modal-body"},
-                                      h('div', {className: "content"}, i.content)
-                                    )
-                                  )
-                                )
-                              );
-                          }),
-                          entry.data.pretext != "" && entry.data.pretext != null ? h('div', {"id": "pretext", className: "modal"},
-                          h('div', {className: "modal-dialog modal-lg", "role": "document"},
-                            h('div', {className: "modal-content"},
-                              h('div', {className: "modal-header"},
-                                h('h5', {className: "modal-title"}, entry.data.title),
-                                h('button', {className: "close", type: "button", "dataDismiss": "modal", "ariaLabel": "Close"},
-                                  h('span', {"ariaHidden": "true"}, '\u{00d7}')
-                                )
-                              ),
-                              h('div', {className: "modal-body"},
-                                h('div', {className: "content"}, widgetFor('pretext'))
-                              )
-                            )
-                          )
-                          ) : null,
-                          h('div', {"id": "wc-canvas"}),
-                          () => {
-                            var topics = [[entry.data.title, 100, "pretext"]];
-                            widgetsFor('topics').map(function(i, index) {
-                              topics.push([i.data.title, 40, i.data.id]);
-                            });
-                            var script = document.createElement('script');
-                            var div = document.getElementById('sc-root');
-                            div.appendChild(script);
-                            WordCloud(
-                              document.getElementById('wc-canvas'),
-                              {
-                                click: function (item) {
-                                  if (item[1] != 100 || (item[1] == 100 && item[2] == "pretext")) {
-                                    $('#' + item[2]).modal('show');
-                                  }
-                                },
-                                color: function (word, weight) {
-                                  return (weight === 100) ? '#ffbc3b' : '#1a1a37';
-                                },
-                                fontFamily: 'Fira Sans, serif',
-                                fontWeight: 800,
-                                list: topics,
-                                shrinkToFit: true,
-                                gridSize: 25,
-                                rotateRatio: 0,
-                              } 
-                            );
-                          },
-                          widgetFor('body')
-                          )
-                        )
-                      )
-                    )
-          );
-        };
+      // preview templates
+      CMS.registerPreviewTemplate("chronikjahre", ChronikPreview);
+      CMS.registerPreviewTemplate("schulchronik-index", ChronikIndexPreview);
+      CMS.registerPreviewTemplate("cantorpreis", CantorpreisPreview);
+      CMS.registerPreviewTemplate("superhaufen", ProjektwochePreview);
+      ["abiturienten", "cantorfora"].forEach((page) =>
+        CMS.registerPreviewTemplate(page, AbiturientenPreview)
+      );
+      [
+        "cantorpreis-index",
+        "abiturienten-index",
+      ].forEach((page) => CMS.registerPreviewTemplate(page, HeaderPreview));
+      [
+        "abiturienten",
+        "cantorfora-index",
+        "schulchronik-index",
+        "chronikseiten",
+      ].forEach((page) => CMS.registerPreviewTemplate(page, PagePreview));
 
-      CMS.registerPreviewTemplate("schulchronik", ChronikPreview);
+      PreviewStyles.forEach((url) => {
+        CMS.registerPreviewStyle(url);
+      });
 
-    </script-->
-    <script>
-      var PostPreviewContent = ({widgetFor, entry}) => {
-        const divStyle = {
-          backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
-        };
-        return h('div', {},
-                  h('section', {className: "page-title-section overlay", style: divStyle},
-                    h('div', {className: "container"},
-                      h('div', {className: "col-md-8"},
-                        h('ul', {className: "list-inline"},
-                          h('li', {className: "list-inline-item h2"},
-                            h('a', {className: "text-primary font-secondary", href: ""}, "Startseite")),
-                          h('li', {className: "list-inline-item h2"},
-                            h("i", {className: "mdi mdi-chevron-double-right text-white"})),
-                          h('li', {className: "list-inline-item text-white h2 font-secondary"}, entry.data.title)
-                        ),
-                        h('p', {className: "text-lighten"}, entry.data.description)))),
-                  h('section', {className: "section-sm"},
-                    h('div', {className: "container"},
-                      h('div', {className: "row"},
-                        h('div', {className: "col-12 mb-4"},
-                          h('div', {className: "content"}, widgetFor('body')))))));
-      };
-      ["abiturienten", "cantorfora", "chronikseiten"].forEach(page => {
-        CMS.registerPreviewTemplate(page, PostPreviewContent);
-      });
-    </script>
-    <script>
-      var PagePreview = ({widgetFor, entry}) => {
-        const divStyle = {
-          backgroundImage: 'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
-        };
-        return h('div', {},
-                  h('section', {className: "page-title-section overlay", style: divStyle},
-                    h('div', {className: "row"},
-                      h('div', {className: "container"},
-                        h('div', {className: "col-md-8"},
-                          h('ul', {className: "list-inline"},
-                            h('li', {className: "list-inline-item h2"},
-                              h('a', {className: "text-primary font-secondary", href: ""}, "Startseite")),
-                            h('li', {className: "list-inline-item h2"},
-                              h("i", {className: "mdi mdi-chevron-double-right text-white"})),
-                            h('li', {className: "list-inline-item text-white h2 font-secondary"}, entry.data.title)),
-                          h('p', {className: "text-lighten"}, entry.data.description))))));
-      };
+      //shortcodes
+      CMS.registerShortcode("gallery", GalleryShortcode);
+      CMS.registerShortcode("image", ImageShortcode);
+      CMS.registerShortcode("download", DownloadShortcode);
+      CMS.registerShortcode("card", CardShortcode);
+      CMS.registerShortcode("youtube", YoutubeShortcode);
+      CMS.registerShortcode("audio", AudioShortcode);
+      CMS.registerShortcode("slider", SliderShortcode);
 
-      ["cantorpreis-index"].forEach(page => {
-        CMS.registerPreviewTemplate(page, PagePreview);
-      });
-    </script>
-    <script>   
-      const NoDateCard = ({ entry, widgetFor, viewStyle }) => {
-        return h(
-          'div',
-          { style: { width: '100%', height: '100%' } },
-          viewStyle === 'grid' ? widgetFor('image') : null,
-          h(
-            'div',
-            { style: { padding: '16px', width: '100%' } },
-            h(
-              'div',
-              {
-                style: {
-                  display: 'flex',
-                  width: '100%',
-                  justifyContent: 'space-between',
-                  alignItems: 'start',
-                },
-              },
-              h(
-                'div',
-                {
-                  style: {
-                    display: 'flex',
-                    flexDirection: viewStyle === 'grid' ? 'column' : 'row',
-                    alignItems: 'baseline',
-                    gap: '8px',
-                  },
-                },
-                h('strong', { style: { fontSize: '20px' } }, entry.data.title),
-              ),
-              h(
-                'div',
-                {
-                  style: {
-                    backgroundColor: entry.data.draft === true ? 'RoyalBlue' : 'green',
-                    color: 'white',
-                    border: 'none',
-                    padding: '4px 8px',
-                    textAlign: 'center',
-                    textDecoration: 'none',
-                    display: 'inline-block',
-                    cursor: 'pointer',
-                    borderRadius: '4px',
-                  },
-                },
-                entry.data.draft === true ? 'Entwurf' : 'Öffentlich',
-              ),
-            ),
-          ),
-        );
-      };
-      const SmallCard = ({ entry, widgetFor, viewStyle }) => {
-        return h(
-          'div',
-          { style: { width: '100%', height: '100%' } },
-          h(
-            'div',
-            { style: { padding: '16px', width: '100%' } },
-            h(
-              'div',
-              {
-                style: {
-                  display: 'flex',
-                  width: '100%',
-                  justifyContent: 'space-between',
-                  alignItems: 'start',
-                },
-              },
-              h(
-                'div',
-                {
-                  style: {
-                    display: 'flex',
-                    flexDirection: viewStyle === 'grid' ? 'column' : 'row',
-                    alignItems: 'baseline',
-                    gap: '8px',
-                  },
-                },
-                h('strong', { style: { fontSize: '20px' } }, entry.data.title),
-              ),
-              h(
-                'div',
-                {
-                  style: {
-                    backgroundColor: entry.data.draft === true ? 'RoyalBlue' : 'green',
-                    color: 'white',
-                    border: 'none',
-                    padding: '4px 8px',
-                    textAlign: 'center',
-                    textDecoration: 'none',
-                    display: 'inline-block',
-                    cursor: 'pointer',
-                    borderRadius: '4px',
-                  },
-                },
-                entry.data.draft === true ? 'Entwurf' : 'Öffentlich',
-              ),
-            ),
-          ),
-        );
-      };
-      
-      ['schulchronik', 'chronikseiten', 'cantorpreis-index'].forEach(page => {
-        CMS.registerPreviewCard(page, SmallCard);
-      });
-      
-      CMS.registerPreviewCard('abiturienten', NoDateCard);
-      CMS.registerPreviewCard('cantorfora', NoDateCard);
+      // links
+      CMS.registerAdditionalLink(WikiLink);
+
+      // icons
+      Icons.forEach((i) => CMS.registerIcon(i.name, i.icon));
+
+      // field previews
+
+      CMS.registerFieldPreview("chronikjahre", "topics", CountPreview);
+      CMS.registerFieldPreview("superhaufen", "tiles", CountPreview);
+      [
+        "cantorpreis",
+        "chronikjahre",
+        "abiturienten",
+        "superhaufen",
+        "cantorfora",
+        "chronikseiten",
+      ].forEach((collection) =>
+        CMS.registerFieldPreview(collection, "draft", DraftPreview)
+      );
+      ["chronikseiten", "cantorpreis"].forEach(
+        (collection) => CMS.registerFieldPreview(collection, "body", BodyPreview)
+      );
+      [
+        "cantorpreis-index",
+        "abiturienten-index",
+        "cantorfora",
+      ].forEach((collection) =>
+        CMS.registerFieldPreview(collection, "description", BodyPreview)
+      );
+      CMS.registerFieldPreview("chronikseiten", "title", BodyPreview);
     </script>
   </body>
 </html>

@@ -9,7 +9,7 @@ const IconNames = {
     group: "mdi mdi-crowd",
     trophy: "mdi mdi-trophy-outline",
     pi: "mdi mdi-pi-box",
-    pillar: "mdi mdi-pillar",
+    schulchronik: "mdi mdi-pillar",
     "graduation-cap": "mdi mdi-school-outline",
     help: "mdi mdi-lifebuoy",
     dash: "mdi mdi-monitor-dashboard",

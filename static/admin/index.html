@@ -10,6 +10,7 @@
   <body>
     <script src="https://cdn.jsdelivr.net/npm/@staticcms/app@^2.0.0/dist/static-cms-app.js"></script>
     <script type="module">
+      import config from "./config/index.js";
       // imports
       import {
         AboutPreview,
@@ -61,7 +62,7 @@
       CMS.registerPreviewTemplate("contact-index", KontaktPreview);
       CMS.registerPreviewTemplate("event-index", EventPreview);
       CMS.registerPreviewTemplate("anmeldung-index", AnmeldungPreview);
-      CMS.registerPreviewTemplate("schulchronik", ChronikPreview);
+      CMS.registerPreviewTemplate("chronikjahre", ChronikPreview);
       CMS.registerPreviewTemplate("anmeldeformular", AnmeldeformularPreview);
       CMS.registerPreviewTemplate("schulchronik-index", ChronikIndexPreview);
       CMS.registerPreviewTemplate("author", AuthorPreview);
@@ -119,7 +120,7 @@
       CMS.registerFieldPreview("author", "active", BooleanPreview);
       CMS.registerFieldPreview("author", "simplified", BooleanPreview);
       CMS.registerFieldPreview("blog", "date", DatePreview);
-      CMS.registerFieldPreview("schulchronik", "topics", CountPreview);
+      CMS.registerFieldPreview("chronikjahre", "topics", CountPreview);
       ["projektwoche", "superhaufen"].forEach((collection) =>
         CMS.registerFieldPreview(collection, "tiles", CountPreview)
       );
@@ -132,7 +133,7 @@
         "wettbewerbe",
         "begabte",
         "projektwoche",
-        "schulchronik",
+        "chronikjahre",
         "abiturienten",
         "superhaufen",
         "cantorfora",

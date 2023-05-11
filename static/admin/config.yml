@@ -960,7 +960,7 @@ collections:
         name: "previous"
         widget: "object"
         fields:
-          - {label: "Aktiviert", name: "enable", widget: "hidden", default: true}
+          - {label: "Aktiviert", name: "enable", widget: "boolean", default: true}
           - {label: "Titel", name: "title", widget: "string", required: true}
           - {label: "Link", name: "link", widget: "string", required: true}
       - label: "Kacheln"
