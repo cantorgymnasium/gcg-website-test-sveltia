@@ -242,3 +242,6 @@ footer_logos:
     - title: Gefördert durch die Deutsche Telekom Stiftung
       link: https://www.telekom-stiftung.de/aktivitaeten/junior-ingenieur-akademie
       image: media/logos/telekom.svg
+    - title: Gefördert im Rahmen des Bundesprogramms Demokratie leben!
+      link: https://www.demokratie-leben.de/
+      image: /media/logos/demokratie_leben.webp
