@@ -1,4 +1,4 @@
-import { AbiturientenCollection, CantorforaCollection, CantorpreisCollection, ChronikjahreCollection, SuperhaufenCollection } from "./collections/index.js";
+import { AbiturientenCollection, CantorforaCollection, CantorpreisCollection, ChronikjahreCollection, ChronikseitenCollection, SuperhaufenCollection } from "./collections/index.js";
 
 
 const config = {
@@ -35,7 +35,8 @@ const config = {
         SuperhaufenCollection,
         CantorpreisCollection,
         AbiturientenCollection,
-        CantorforaCollection
+        CantorforaCollection,
+        ChronikseitenCollection
     ]
 };
 
