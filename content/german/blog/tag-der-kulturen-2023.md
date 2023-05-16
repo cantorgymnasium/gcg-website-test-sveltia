@@ -40,3 +40,9 @@ Hinzu kommen zwei Freiblöcke. In diesen konnte das freie **Rahmenprogramm** bes
 Weiterhin fand sich im Rahmenprogramm das **traditionelle Buffet** wieder. Hier repräsentiert jede Klasse ein Land und zeigt die dortigen Köstlichkeiten.  Es gab wie immer die Buffetflatrate: 5 € zahlen und so viel essen, wie man will. Die Einnahmen des Buffets kommen alljährlich mehreren gemeinnützigen Zwecken zugute. **In diesem Jahr erreichte die Spendensumme einen neuen Höchststand von sensationellen 1700 €!** Neu in 2023 war, dass der Schülerrat dazu aufrief, beim Buffet Müll zu vermeiden und dafür eigenes Besteck und einen Teller mitzubringen.
 
 Zudem veranstalteten wir eine Aktion zum Red Hand Day. Dies ist eine Aktion, welche, eigentlich jährlich am 12. Februar, auf das Schicksal von Kindersoldaten aufmerksam macht. Dazu bemalten wir unsere Hände mit roter Farbe und druckten sie ab. Hinzu kamen fordernde Botschaften. Die gesammelten Werke werden in einem zukünftigen Schulereignis, welches soll noch geheim bleiben, an den halleschen Bundestagsabgeordneten Karamba Diaby übergeben. Dieser trägt die Hände dann weiter in die Politik und fordert den energischen Kampf für den Schutz von Kindersoldaten.
+
+
+
+{{< gallery dir="/media/blog/2023/TdK" >}}
+
+
