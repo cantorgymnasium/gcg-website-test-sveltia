@@ -43,6 +43,6 @@ Zudem veranstalteten wir eine Aktion zum Red Hand Day. Dies ist eine Aktion, wel
 
 
 
-{{< gallery dir="/media/blog/2023/TdK" >}}
+{{< gallery dir="/media/blog/2023/TdK/TdKGalerie" >}}
 
 
