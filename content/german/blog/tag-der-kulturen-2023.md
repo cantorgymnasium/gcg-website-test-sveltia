@@ -43,6 +43,8 @@ Zudem veranstalteten wir eine Aktion zum Red Hand Day. Dies ist eine Aktion, wel
 
 
 
-{{< gallery dir="/media/blog/2023/TdK/TdKGalerie" >}}
+{{< gallery dir="/media/blog/2023/TdK/TdK23Galerie" >}}
 
 
+
+Jetzt wünschen wir allen Schülerinnen und Schülern schöne Pfingstferien!
