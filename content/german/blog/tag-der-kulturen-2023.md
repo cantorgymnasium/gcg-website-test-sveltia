@@ -13,7 +13,7 @@ tags:
   - "2023"
 type: post
 ---
-##### Am 16.05.2023 veranstalteten unsere Schülerinnen und Schüler den traditionellen Tag der Kulturen. Dieser ist unser Projekt im Netzwerk Schule ohne Rassismus - Schule mit Courage.
+##### Am 12.05.2023 veranstalteten unsere Schülerinnen und Schüler den traditionellen Tag der Kulturen. Dieser ist unser Projekt im Netzwerk Schule ohne Rassismus - Schule mit Courage.
 
 **Der Tag der Kulturen ist ein Projekt von Schüler für Schüler. Unter Leitung des Schülerrats wird er alljährlich gestaltet. Schülerinnen und Schüler stellen dabei in Vorträgen und Workshops fremde Länder, Kulturen und Fertigkeiten vor.**
 
