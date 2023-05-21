@@ -35,6 +35,7 @@ collections:
     description: "Hier können die Basiseinstellungen der Website geändert werden. Die meisten Bereiche müssen nur in Ausnahmefällen angepasst werden."
     editor:
       preview: false
+      size: half
     files:
       - name: "homepage-config"
         label: "Startseitenkonfiguration"
@@ -453,6 +454,7 @@ collections:
     editor:
       preview: true
       frame: true
+      size: half
     summary_fields: ["title", "description"]
     files:
       - name: "blog-index"
@@ -624,6 +626,7 @@ collections:
     editor:
       preview: true
       frame: true
+      size: half
     slug: "{{slug}}"
     filter:
       field: type
@@ -654,6 +657,7 @@ collections:
     editor:
      preview: true
      frame: true
+     size: half
     view_filters:
       - label: "aktiv"
         field: active
@@ -693,6 +697,7 @@ collections:
     editor:
      preview: true
      frame: true
+     size: half
     view_groups:
       - label: Entwurf
         field: draft
@@ -760,6 +765,7 @@ collections:
     editor:
       preview: true
       frame: true
+      size: half
     summary_fields: ["title", "draft"]
     fields:
       - {label: "Titel", name: "title", widget: "string"}
@@ -785,6 +791,7 @@ collections:
     editor:
      preview: true
      frame: true
+     size: half
     summary_fields: ["title", "draft", "category", "schedule", "room"]
     fields:
       - {label: "Titel", name: "title", widget: "string"}
@@ -819,6 +826,7 @@ collections:
     editor:
      preview: true
      frame: true
+     size: half
     summary_fields: ["title", "draft", "category"]
     fields:
       - {label: "Titel", name: "title", widget: "string"}
@@ -850,6 +858,7 @@ collections:
     editor:
       preview: true
       frame: true
+      size: half
     summary_fields: ["title", "draft", "body"]
     fields:
       - {label: "Titel", name: "title", widget: "string"}
@@ -871,6 +880,7 @@ collections:
     editor:
       preview: true
       frame: true
+      size: half
     summary_fields: ["title", "draft", "tiles", "description"]
     fields:
       - {label: "Titel", name: "title", widget: "string"}
@@ -900,6 +910,7 @@ collections:
     create: true
     editor:
       preview: false
+      size: half
     summary_fields: ["title", "draft", "cantorpreisträger", "topics"]
     sortable_fields:
       fields: ['title']
@@ -951,6 +962,7 @@ collections:
     editor:
       preview: true
       frame: true
+      size: half
     summary_fields: ["title", "draft", "tiles"]
     fields:
       - {label: "Titel", name: "title", widget: "string"}
@@ -1000,6 +1012,7 @@ collections:
     editor:
       preview: true
       frame: true
+      size: half
     summary_fields: ["title", "name", "draft", "body"]
     fields:
       - {label: "Jahr", name: "title", widget: "string"}
@@ -1020,6 +1033,7 @@ collections:
     editor:
       preview: true
       frame: true
+      size: half
     summary_fields: ["title", "draft"]
     sortable_fields:
       fields: ["title"]
@@ -1044,6 +1058,7 @@ collections:
     editor:
      preview: true
      frame: true
+     size: half
     view_groups:
       - label: Drafts
         field: draft
@@ -1071,6 +1086,7 @@ collections:
     editor:
       preview: true
       frame: true
+      size: half
     slug: "{{slug}}"
     filter: {field: "type", value: "pages"}
     summary_fields: ["title", "draft", "aliases", "body"]
@@ -1094,6 +1110,7 @@ collections:
     label: "Statistik"
     editor:
       preview: false
+      size: half
     files:
       - name: "abiturdurchschnitte"
         label: "Abiturdurchschnitte"
