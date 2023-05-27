@@ -3,7 +3,7 @@ title: Jugend forscht - das Bundesfinale 2023
 date: 2023-05-21T17:34:47.943+02:00
 draft: false
 description: ""
-image: /media/blog/2023/jufo_bundesfinale_bremen_23/jufo_bf_23_1.webp
+image: /media/blog/2023/jufo_bundesfinale_bremen_23/jufo_bf23_01.webp
 author: Frau Felke
 categories:
   - Wettbewerbe

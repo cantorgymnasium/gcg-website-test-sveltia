@@ -3,7 +3,7 @@ title: 15. Cantorforum
 index: 15
 draft: false
 description: "Markus Bauersfeld und Tom Gebhardt: Abi und dann?"
-image: media/cantorfora/cantorforum15.webp
+image: media/cantorfora/cf15/titelbild.webp
 type: cantorfora
 ---
 Knapp drei Wochen vor den Weihnachtsferien, am 01. Dezember 2015 war es endlich soweit: Ein weiteres Cantorforum fand statt. Mithilfe von Stefan Schwarz, der, wie schon so oft der Promotor war, trafen sich zum fünfzehnten Mal Lehrer und Schüler, um sich einen Vortrag anzuhören. Diesmal gaben Markus Bauersfeld und Tom Gebhardt ihr Wissen an uns weiter. Alles über Studium und Ausbildung wurde unter dem Thema „Abi und dann?“ zusammengefasst.
@@ -22,4 +22,4 @@ Danke an Tom Gebhardt und Marcus Bauersfeld.
 
 Lavinia Burkhardt, 2015
 
-{{< gallery dir="/media/cantorfora/cantorforum_15" >}}
+{{< gallery dir="/media/cantorfora/cf15/galerie" >}}

@@ -1,7 +1,7 @@
 ---
 title: Diercke WISSEN
 draft: false
-image: /media/contests/dw.webp
+image: /media/wettbewerbe/dw.webp
 category: Geographie
 class: 7. - 10. Klasse
 web_url: https://diercke.westermann.de/wissen

@@ -1,7 +1,7 @@
 ---
 title: The Big Challenge
 draft: false
-image: /media/contests/big-challenge.webp
+image: /media/wettbewerbe/big-challenge.webp
 category: Fremdsprachen
 class: 5. - 9. Klasse
 web_url: https://www.thebigchallenge.com/de/

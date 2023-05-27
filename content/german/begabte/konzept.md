@@ -2,7 +2,7 @@
 title: Begabtenförderungskonzept
 draft: false
 description: ""
-image: /media/begabte/image.webp
+image: /media/image.webp
 class: 5 - 12 Klasse
 web_url: null
 type: begabte

@@ -1,7 +1,7 @@
 ---
 title: Internationale Junior-Science-Olympiade (IJSO)
 draft: false
-image: /media/contests/IJSO.webp
+image: /media/wettbewerbe/ijso.webp
 category: MINT
 class: 5. - 9. Klasse
 web_url: https://www.scienceolympiaden.de/ijso

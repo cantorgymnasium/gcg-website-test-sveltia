@@ -1,7 +1,7 @@
 ---
 title: "Jugend forscht"
 draft: false
-image: /media/contests/JuFo.webp
+image: /media/wettbewerbe/jufo.webp
 category: MINT
 class: 5. - 12. Klasse
 web_url: https://www.jugend-forscht.de/

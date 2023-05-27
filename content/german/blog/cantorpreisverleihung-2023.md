@@ -3,7 +3,7 @@ title: Cantorpreisverleihung 2023
 date: 2023-03-03T00:00:00.000+01:00
 draft: false
 description: ""
-image: /media/blog/dsc_4181_kopie.webp
+image: /media/blog/2023/cantorpreis/cp23_01.webp
 author: Herr Berger
 categories:
   - Traditionen
@@ -40,4 +40,4 @@ Am Ende kam Prof. Roth zum Ergebnis, dass Geigen allgemein ein chemisches Geheim
 
 Danach neigte sich die Festveranstaltung dem Höhepunkt entgegen: der Verleihung des Cantorpreises an Bernhard Fuchs. Er bedankte sich bei unserem Kollegium für die intensive Förderungen und berichtete, dass er bereits in der 6. Klasse vom Cantorpreis fasziniert war. Damals konnte er als Klassensprecher erstmals an der Verleihung von ebendiesen teilnehmen. Spätestens seit der 7. Klasse war es dann eines seiner persönlichen Ziele, ihn später selbst zu gewinnen. Auch seiner Familie und den Freunden dankte er intensiv.
 
-{{< gallery dir="/media/blog/Cantorpreisverleihungen/2023" >}}
+{{< gallery dir="/media/blog/2023/cantorpreis" >}}

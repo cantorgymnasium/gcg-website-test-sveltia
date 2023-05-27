@@ -16,7 +16,7 @@ Seit der Gründung der Spezialschule mit inhaltlichem Schwerpunkt in den Bereich
 
 |1988-1990|1990-1995|ab 1995|
 |-|-|-|
-|**- Aufnahme von zukünftigen Neuntklässlern**|**- Aufnahme von zukünftigen Siebtklässlern**|**- aufnahme von zukünftigen Fünftklässlern**|
+|**- Aufnahme von zukünftigen Neuntklässlern**|**- Aufnahme von zukünftigen Siebtklässlern**|**- Aufnahme von zukünftigen Fünftklässlern**|
 |**- Empfehlung der Schule**|||
 |**- Antragstellung**|**- Antragstellung**|**- Antragsstellung**|
 |**- Delegierung durch den Rat des Kreises**|||

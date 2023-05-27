@@ -16,9 +16,7 @@ const ContestPreview = ({ widgetFor, entry, fields, collection }) => {
 		Section(
 			Container([
 				entry.data.image &&
-				!["/media/contests/image.webp", "/media/begabte/image.webp"].includes(
-					entry.data.image
-				)
+				entry.data.image != "/media/image.webp"
 					? Row(
 							h(
 								"div",

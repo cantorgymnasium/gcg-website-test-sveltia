@@ -3,7 +3,7 @@ title: Erfolge bei der Landesphysikolympiade 2023
 date: 2023-03-13T22:02:51+01:00
 draft: false
 description: ""
-image: /media/blog/PhO.webp
+image: /media/wettbewerbe/pho.webp
 author: Denys Konovalov
 categories:
   - Naturwissenschaften

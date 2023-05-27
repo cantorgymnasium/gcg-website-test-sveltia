@@ -3,7 +3,7 @@ title: Regionalwettbewerb "Jugend debattiert"
 date: 2023-03-15T09:05:16+01:00
 draft: false
 description: ""
-image: /media/blog/jugenddebattiert.webp
+image: /media/wettbewerbe/jugenddebattiert.webp
 author: Frau Opel-Fritzlar
 categories:
   - Wettbewerbe

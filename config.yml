@@ -16,7 +16,7 @@ markup:
 params:
   mobile: +49 345 6903156
   author: Georg-Cantor-Gymnasium Halle (Saale). Made with Educenter by Themefisher.
-  logo: media/logo.webp
+  logo: media/logo_lg_white.webp
   route_link: https://www.qwant.com/maps/place/osm:way:54033279@Georg-Cantor-Gymnasium
   address: Georg-Cantor-Gymnasium <br> Torstraße 13 <br> 06110 Halle (Saale)
   top_header: true
@@ -60,7 +60,7 @@ params:
       link: https://facebook.com/cantor.news
   preloader:
     enable: true
-    preloader: media/logo.webp
+    preloader: media/logo_lg_white.webp
     loader: media/load.svg
 menu:
   main:

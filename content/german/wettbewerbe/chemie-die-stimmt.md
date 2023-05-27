@@ -1,7 +1,7 @@
 ---
 title: Chemie - die stimmt!
 draft: false
-image: /media/contests/chds.webp
+image: /media/wettbewerbe/chds.webp
 category: Chemie
 class: 8. - 10. Klasse
 web_url: https://www.chemie-die-stimmt.de/

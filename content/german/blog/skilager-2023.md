@@ -3,7 +3,7 @@ title: Skilager 2023
 date: 2023-02-21T20:09:03+01:00
 draft: false
 description: ""
-image: /media/blog/skilager_2023.webp
+image: /media/blog/2023/skilager.webp
 author: Frau Tuppack
 categories:
   - Traditionen
@@ -23,9 +23,9 @@ Regionalbahn war diese alte Seilbahn das letzte Verkehrsmittel, was uns
 nach Meransen in Südtirol brachte, bevor diese schneebedeckte Wiese die
 Abkürzung zum Hotel war.
 
-{{< gallery dir="/media/blog/skilager_2023/g1" >}}
+{{< gallery dir="/media/blog/2023/skilager/g1" >}}
 
 Die Tage waren mit Training im
 beschaulichen kleinen Skigebiet Gitschberg-Jochtal gefüllt, wobei bei Sonnenschein alle die Pisten beherrschten. Unsere gelben Westen betrachteten wir erst argwöhnisch, bevor sie sehr geschätzt waren, weil wir uns so schnell alle erkannten.
 
-{{< gallery dir="/media/blog/skilager_2023" >}}
+{{< gallery dir="/media/blog/2023/skilager/g2" >}}

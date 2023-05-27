@@ -23,7 +23,7 @@ Und genau für solche Projekte benötigen wir Ihre Unterstützung.  Ob durch ein
 
 Wenn Sie Fragen zu unserer Arbeit haben und uns unterstützen möchten, dann suchen Sie den Kontakt zum Vorstand oder stellen Sie einen Mitgliedsantrag
 
-{{< download title="Mitgliedschaftsantrag" link="/media/forms/Beitrittserklaerung-FöV.pdf" >}}
+{{< download title="Mitgliedschaftsantrag" link="/media/forms/mitgliedschaftsantrag_foev.pdf" >}}
 
 
 

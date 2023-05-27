@@ -21,6 +21,6 @@ Unter der Leitung von Frau Bethin, Frau Krug, Herrn Schettler und mit der Unters
 
 Wie schön, dass es so viele musikalische Talente an unserer Schule gibt!
 
-{{< gallery dir=media/blog/musikfahrt-2022 >}}
+{{< gallery dir="/media/blog/2022/musikfahrt" >}}
 
 **Bildrechte: J. Borkowski**

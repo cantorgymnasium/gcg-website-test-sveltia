@@ -3,7 +3,7 @@ title: 7. Cantorforum
 index: 7
 draft: false
 description: '"Einmal Sushi, bitte - Jugendbotschafter in Japan" von Maximilian König'
-image: media/cantorfora/cantorforum_e07.bmp
+image: media/cantorfora/cf07/titelbild.webp
 type: cantorfora
 ---
 Im Kimono kam er zwar nicht, aber mit einer Menge neuer Erfahrungen aus dem Land der aufgehenden Sonne. Am 10.03.2011 berichtete Maximilian König über seine Tätigkeit als Jugendbotschafter in Tokyo.
@@ -53,4 +53,4 @@ Wir danken den Organisatoren und Ehemaligen Marco Garten, Stefan Schwarz, Thomas
 
 Max Appel, 2011
 
-{{< gallery dir="/media/cantorfora/cantorforum_7" >}}
+{{< gallery dir="/media/cantorfora/cf07/galerie" >}}

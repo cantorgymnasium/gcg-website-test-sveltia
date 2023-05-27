@@ -3,7 +3,7 @@ title: „Jugend forscht“ – Landeswettbewerb 2023
 date: 2023-03-31T09:42:39.466+02:00
 draft: false
 description: ""
-image: /media/blog/JuFo.webp
+image: /media/wettbewerbe/jufo.webp
 author: Frau Felke
 categories:
   - Wettbewerbe
@@ -18,6 +18,7 @@ subjects:
   - Physik
 tags:
   - "2023"
+  - "jufo"
 type: post
 ---
 #### Der Landeswettbewerb „Jugend forscht/Schüler experimentieren“ fand in diesem Jahr im neu eröffneten Planetarium Halle statt.

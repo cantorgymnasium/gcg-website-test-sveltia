@@ -2,7 +2,7 @@
 title: Mathematik-Olympiade
 draft: false
 description: ""
-image: /media/contests/mo.webp
+image: /media/wettbewerbe/mo.webp
 category: Mathematik
 class: 5. - 12. Klasse
 web_url: https://mo.elemente.org/

@@ -3,7 +3,7 @@ title: Känguru der Mathematik 2023
 date: 2023-04-12T22:40:16.690+02:00
 draft: false
 description: ""
-image: /media/blog/kaenguru23.webp
+image: /media/wettbewerbe/kanguru.webp
 author: Frau Jacob
 categories:
   - Wettbewerbe
@@ -20,7 +20,7 @@ Unsere Schülerinnen und Schüler waren, wie in den vergangenen Jahren, sehr erf
 
 
 
-{{< gallery dir="/media/blog/2023/kaenguruwett" >}}
+{{< image src="/media/blog/2023/kaenguru.webp" >}}
 
 
 

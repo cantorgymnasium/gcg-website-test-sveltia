@@ -3,7 +3,7 @@ title: Festwoche 2023
 date: 2023-03-05T18:47:59+01:00
 draft: false
 description: ""
-image: /media/blog/GCGFestwoche.webp
+image: /media/blog/festwoche.webp
 author: Herr Berger
 categories:
   - Veranstaltungen
@@ -39,7 +39,7 @@ Ein Dank geht an unsere Kunstlehrerinnen, welche in ihren Freistunden und an vie
 
 Es folgt eine kleine Auswahl an Impressionen der Galerie und ihrer Eröffnung. Durch den großen Umfang der Galerie können leider nicht alle Werke präsentiert werden.
 
-{{< gallery dir="/media/blog/Festwochen/Festwoche23/Galerie_2023" >}}
+{{< gallery dir="/media/blog/2023/Festwoche/Galerie" >}}
 
 ### Musikalisch-literarischer Abend
 
@@ -55,7 +55,7 @@ Vielen Dank an unsere beiden Moderatoren Clara und Pascal aus der 11. Klasse, we
 
 Für das leibliche Wohl sorgten unsere 12. Klassen mit einem umfangreichen Buffet.
 
-{{< gallery dir="/media/blog/Festwochen/Festwoche23/Muli23" >}}
+{{< gallery dir="/media/blog/2023/Festwoche/Muli" >}}
 
 ### Projektwoche
 
@@ -75,7 +75,7 @@ Nur unsere Oberstufenschülerinnen und -schüler mussten eifrig pauken: Die 12. 
 
 … geht an: Bernhard Fuchs
 
-{{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantorpreistraeger" >}}
+{{< image src="image: /media/blog/2023/cantorpreis/cp23_01.webp" >}}
 
 {{< card title="Cantorpreisverleihung 2023" link="/blog/cantorpreisverleihung-2023" >}}
 
@@ -90,4 +90,4 @@ Zum Abschluss der Festwoche erlebten unsere Schülerinnen und Schüler den tradi
 - Die 10. Klassen präsentierten ihren Fortschritt bei den wpAs und erlebten das musikalisch-literarische Heine-Programm des Künstlerduos „Rose & Georgi“ in unserer Aula.
 - Die 11er, welche nicht in einem der Modulkurse waren, begleiteten das Body+Grips-Programm.
 
-{{< gallery dir="/media/blog/Festwochen/Festwoche23/Cantortag23" >}}
+{{< gallery dir="/media/blog/2023/Festwoche/Cantortag" >}}

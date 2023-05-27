@@ -3,7 +3,7 @@ title: Chemie Modulwoche 2023 der 12. Klassen
 date: 2023-02-23T17:01:33+01:00
 draft: false
 description: ""
-image: /media/blog/modul-chemie-2023.webp
+image: /media/blog/2023/modul-chemie.webp
 author: Erik Zschoche
 categories:
   - Naturwissenschaften
@@ -21,6 +21,6 @@ Diese Woche ist ideal, um die praktische Arbeit für das Abitur zu üben, Einbli
 
 
 
-{{< gallery dir="media/blog/Modulkurse/Chemie2023" >}}
+{{< gallery dir="/media/blog/2023/ModulChemie" >}}
 
 

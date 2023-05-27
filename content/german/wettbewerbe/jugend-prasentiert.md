@@ -1,7 +1,7 @@
 ---
 title: Jugend präsentiert
 draft: false
-image: /media/contests/jp.webp
+image: /media/wettbewerbe/jp.webp
 category: Sonstiges
 class: 7. - 12. Klasse
 web_url: https://jugend-praesentiert.de/

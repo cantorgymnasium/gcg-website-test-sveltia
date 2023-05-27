@@ -3,7 +3,7 @@ title: Tag der Kulturen 2023
 date: 2023-05-16T21:40:40.773+02:00
 draft: false
 description: ""
-image: /media/blog/2023/TdK/tdk_23_header.webp
+image: /media/blog/2023/tdk.webp
 author: Herr Berger
 categories:
   - Traditionen
@@ -41,6 +41,6 @@ Weiterhin fand sich im Rahmenprogramm das **traditionelle Buffet** wieder. Hier 
 
 Zudem veranstalteten wir eine Aktion zum **Red Hand Day**. Dies ist eine Aktion, welche, eigentlich jährlich am 12. Februar, auf das Schicksal von Kindersoldaten aufmerksam macht. Dazu bemalten wir unsere Hände mit roter Farbe und druckten sie ab. Hinzu kamen fordernde Botschaften. Die gesammelten Werke werden in einem zukünftigen Schulereignis, welches soll noch geheim bleiben, an den halleschen Bundestagsabgeordneten Karamba Diaby übergeben. Dieser trägt die Hände dann weiter in die Politik und fordert den energischen Kampf für den Schutz von Kindersoldaten.
 
-{{< gallery dir="/media/blog/2023/TdK/TdK23Galerie" >}}
+{{< gallery dir="/media/blog/2023/TdK" >}}
 
 Jetzt wünschen wir allen Schülerinnen und Schülern schöne Pfingstferien!

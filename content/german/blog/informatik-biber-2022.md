@@ -3,7 +3,7 @@ title: Informatik-Biber 2022
 date: 2023-01-27T21:42:51+01:00
 draft: false
 description: ""
-image: /media/blog/biber_300dpi.png
+image: /media/wettbewerbe/biber.webp
 author: Herr Berger
 categories:
   - Wettbewerbe

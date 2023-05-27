@@ -3,7 +3,7 @@ title: Vorlesewettbewerb der 6. Klassen 2022 - Schulrunde
 date: 2022-12-12T12:00:43.329Z
 draft: false
 description: ""
-image: /media/blog/vlw_logo_blau_rgb.webp
+image: /media/blog/vlw.webp
 author: Herr Berger
 categories:
   - Wettbewerbe

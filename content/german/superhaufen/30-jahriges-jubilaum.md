@@ -349,6 +349,6 @@ tiles:
 
 
 
-      {{< gallery dir="/media/schulchronik/2018/liedtext" >}}
+      {{< image src="/media/schulchronik/2018/liedtext.webp" >}}
     font_color: "#ffffff"
 ---

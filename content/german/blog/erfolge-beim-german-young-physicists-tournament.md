@@ -3,7 +3,7 @@ title: Erfolge beim "German Young Physicists' Tournament"
 date: 2023-01-22T16:14:48+01:00
 draft: false
 description: ""
-image: /media/blog/2023/gy-pt-2023.webp
+image: /media/blog/gypt.webp
 author: Denys Konovalov
 categories:
   - Wettbewerbe
@@ -28,4 +28,4 @@ Dabei haben sich Leif Fischer, Felix Müller und Christoph Töpel für das Bunde
 
 Wir gratulieren allen Teilnehmerinnen und Teilnehmern zu ihrem Erfolg und wünschen den drei Qualifizierten viel Erfolg für den Bundeswettbewerb, welcher vom 3. bis 5. März in Bad Honnef abgehalten wird.
 
-{{< gallery dir="media/blog/gypt2023" >}}
+{{< image src="/media/blog/2023/gypt.webp" >}}

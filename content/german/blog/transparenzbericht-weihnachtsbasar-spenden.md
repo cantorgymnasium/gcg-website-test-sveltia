@@ -3,7 +3,7 @@ title: "Transparenzbericht: Weihnachtsbasar-Spenden"
 date: 2023-05-03T16:11:27.148+02:00
 draft: false
 description: ""
-image: /media/blog/image.webp
+image: /media/image.webp
 author: Denys Konovalov
 categories:
   - Schülerrat

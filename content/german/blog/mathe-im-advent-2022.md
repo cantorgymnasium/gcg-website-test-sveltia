@@ -4,7 +4,7 @@ date: 2022-12-02T12:44:09.256Z
 draft: false
 description: Der Schülerwettbewerb unter der Schirmherrschaft des
   Bildungsministeriums geht in die nächste Runde.
-image: /media/blog/mia2.webp
+image: /media/blog/mia.webp
 author: Denys Konovalov
 categories:
   - Wettbewerbe

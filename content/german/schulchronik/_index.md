@@ -3,7 +3,7 @@ title: Schulchronik
 description: "Zurück in die Zukunft: Unser GCG im Wandel der Zeit"
 infocard:
   enable: true
-  image: /media/schulchronik/cantor1.webp
+  image: /media/schulchronik/cantor.webp
   quote: '"Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand
     vertreiben können."'
   author: aus 'David Hilbert, Über das Unendliche', Math. Ann. 95

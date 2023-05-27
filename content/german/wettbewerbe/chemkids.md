@@ -1,7 +1,7 @@
 ---
 title: Chemkids
 draft: false
-image: /media/contests/chemkids.webp
+image: /media/wettbewerbe/chemkids.webp
 category: Chemie
 class: 5. - 8. Klasse
 web_url: https://www.chemkids.de/

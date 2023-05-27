@@ -3,7 +3,7 @@ title: Wettbewerbserfolge der letzten Wochen
 date: 2023-03-30T11:07:03.082+02:00
 draft: false
 description: ""
-image: /media/blog/image.webp
+image: /media/image.webp
 author: Herr Berger
 categories:
   - Wettbewerbe

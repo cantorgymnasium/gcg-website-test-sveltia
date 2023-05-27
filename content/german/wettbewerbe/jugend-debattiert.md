@@ -1,7 +1,7 @@
 ---
 title: Jugend debattiert
 draft: false
-image: /media/contests/jugenddebattiert.webp
+image: /media/wettbewerbe/jugenddebattiert.webp
 category: Sonstiges
 class: 8. - 12. Klasse
 web_url: https://www.jugend-debattiert.de/

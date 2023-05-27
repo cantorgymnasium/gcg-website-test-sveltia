@@ -27,6 +27,6 @@ weil coronabedingt der für 2021 geplante Austausch nur virtuell stattfinden kon
 
 
 
-{{< gallery dir="/media/jia/ps" >}}
+{{< gallery dir="/media/jia/partnerschulen" >}}
 
 

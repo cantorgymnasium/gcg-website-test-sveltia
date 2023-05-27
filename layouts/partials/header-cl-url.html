@@ -1,6 +1,6 @@
 <section class="section-sm">
   <div class="container">
-    {{ if (and .Params.image (ne .Params.image .default_img) ) }}
+    {{ if (and .Params.image (ne .Params.image "/media/image.webp") ) }}
     <div class="row">
       <div class="col-12 mb-4">
         <img class="img-fluid w-100" src="{{ .Params.image | relURL }}">

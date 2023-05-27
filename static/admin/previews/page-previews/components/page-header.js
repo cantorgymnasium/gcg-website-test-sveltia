@@ -6,7 +6,7 @@ const PageHeader = (entry) => {
 			className: "page-title-section overlay",
 			style: {
 				backgroundImage:
-					'url("/media/backgrounds/page-title.webp"),url("/media/backgrounds/page-title.webp")',
+					'url("/media/titelbild.webp"),url("/media/titelbild.webp")',
 			},
 		},
 		h(

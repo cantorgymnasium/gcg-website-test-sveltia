@@ -22,4 +22,4 @@ Vielen Dank an alle Beteiligten!
 
 Alle aktuellen Informationen zum Aufnahmeverfahren in die neuen 5. Klassen finden sie unter [Schule > Anmeldung](https://cantorgymnasium.de/anmeldung/).
 
-{{< gallery dir="/media/blog/TdoT2022" >}}
+{{< gallery dir="/media/blog/2022/TdoT" >}}

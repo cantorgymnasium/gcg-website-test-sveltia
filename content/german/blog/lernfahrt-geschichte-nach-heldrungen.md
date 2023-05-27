@@ -3,7 +3,7 @@ title: Lernfahrt Geschichte nach Heldrungen
 date: 2023-03-19T14:08:31+01:00
 draft: false
 description: ""
-image: /media/blog/lernfahrt_geschichte_2023.webp
+image: /media/blog/2023/lernfahrt_geschichte.webp
 author: Frau Krug
 categories:
   - Gesellschaftswissenschaften

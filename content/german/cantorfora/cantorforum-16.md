@@ -3,7 +3,7 @@ title: 16. Cantorforum
 index: 16
 draft: false
 description: "Stefan Schwarz: Mysterium Stipendium"
-image: media/cantorfora/cantorforum16.webp
+image: media/cantorfora/cf16/titelbild.webp
 type: cantorfora
 ---
 Am 15 März 2016 fand ein weiteres Cantorforum statt. Es war schon das Zweite in dem Schuljahr 2015/2016. „Mysterium Stipendium“ war diesmal das Thema. Mysterium? Übersetzt heißt dies soviel wie „Geheimnis“. Und was ist mit „Stipendium“? Noch so ein lateinisches Wort! (Man merkt schon, wie auch hier Frau Schmidt mal wieder verborgen im Untergrund mitgemischt hat.) Was hat es damit auf sich? Man könnte es übersetzen mit „Sold“, „Steuer“ beziehungsweise „Abgabe“. Somit geht es letztendlich in dem Forum um das Geheimnis des Stipendiums, also der Abgabe, und dieses Geheimnis sollte in dem kommenden Vortrag gelüftet werden.
@@ -26,4 +26,4 @@ Zum Schluss soll noch gesagt sein, dass es da ein Vorurteil gibt, dass uns alle 
 
 Lavinia Burkhardt, 2016
 
-{{< gallery dir="/media/cantorfora/cantorforum_16" >}}
+{{< gallery dir="/media/cantorfora/cf16/galerie" >}}

@@ -3,7 +3,7 @@ title: Jugend forscht - Ergebnisse der Regionalrunde Halle
 date: 2023-02-22T11:08:22+01:00
 draft: false
 description: ""
-image: /media/blog/JuFo.webp
+image: /media/wettbewerbe/jufo.webp
 author: Frau Felke
 categories:
   - Wettbewerbe
