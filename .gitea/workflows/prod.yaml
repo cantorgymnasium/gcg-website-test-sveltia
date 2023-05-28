@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: clone
-        uses: https://gitea.com/actions/checkout@v3
+        uses: actions/checkout@v3
       - name: build
         run: hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
       - name: deploy
