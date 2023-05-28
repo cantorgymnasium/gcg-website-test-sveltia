@@ -35,7 +35,7 @@ jobs:
           include_commit_info: false
   test-build:
     if: gitea.repository == 'gcg/gcg-website' && gitea.event_name == 'push'
-    runs-on: act-runner-user:host
+    runs-on: act-runner-user
     timeout-minutes: 5
     steps:
       - name: clone
@@ -49,7 +49,7 @@ jobs:
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-test/
   auto-rebuild:
     if: gitea.repository == 'gcg/gcg-website' && gitea.event.issue.number == 219
-    runs-on: act-runner-user:host
+    runs-on: act-runner-user
     timeout-minutes: 5
     steps:
       - name: clone
