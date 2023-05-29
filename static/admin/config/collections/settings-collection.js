@@ -650,7 +650,12 @@ const SettingsCollection = {
               widget: "list",
               collapsed: true,
               fields: [
-                Title(false),
+                {
+                  name: "name",
+                  label: "Bezeichnung",
+                  widget: "string",
+                  required: true
+                },
                 {
                   name: "weight",
                   label: "Positionierung",
@@ -673,7 +678,7 @@ const SettingsCollection = {
                   label: "Übergeordneter Eintrag",
                   hint: "Falls ausgewählt, wird dieser Eintrag im Untermenü erscheinen",
                   widget: "relation",
-                  collection: "config",
+                  collection: "settings",
                   file: "hugo-config",
                   value_field: "menu.main.*.name",
                   search_fields: ["menu.main.*.name"],
