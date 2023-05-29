@@ -4,7 +4,8 @@ date: 2023-02-28T22:44:44+01:00
 draft: false
 description: ""
 image: /media/wettbewerbe/mo.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Wettbewerbe
   - Mathematik

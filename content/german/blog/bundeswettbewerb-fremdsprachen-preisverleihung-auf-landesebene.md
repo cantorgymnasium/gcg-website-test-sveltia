@@ -4,7 +4,8 @@ date: 2023-04-19T12:55:48.540+02:00
 draft: false
 description: ""
 image: /media/wettbewerbe/bwfs.webp
-author: Frau Berthelmann
+author:
+  - frau-berthelmann
 categories:
   - Wettbewerbe
   - Fremdsprachen

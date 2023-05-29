@@ -5,7 +5,8 @@
       <div class="col-6"><i class="mdi mdi-calendar-today me-2"></i>{{ time.Format "02. Jan 2006" .PublishDate }}</div>
       <div class="col-6 text-truncate">
         <i class="mdi mdi-fountain-pen-tip me-2"></i>
-        {{ range where (where .Site.RegularPages "Type" "author") "Title" .Params.author  }}
+        {{ range $index, $elements := where (where .Site.RegularPages "Type" "author") "File.BaseFileName" "in" .Params.author  }}
+          {{ if ne $index 0 }}, {{ end }}
           {{ if .Params.simplified }}
             {{ .Title }}
           {{ else }}

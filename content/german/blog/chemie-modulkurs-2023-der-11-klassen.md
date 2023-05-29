@@ -4,7 +4,8 @@ date: 2023-03-03T12:08:52+01:00
 draft: false
 description: ""
 image: /media/blog/2023/modul-chemie-11.webp
-author: Chiamaka Michelle Okoro
+author:
+  - chiamaka-michelle-okoro
 categories:
   - Naturwissenschaften
 subjects:

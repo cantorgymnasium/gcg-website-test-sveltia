@@ -4,7 +4,8 @@ date: 2023-05-16T21:40:40.773+02:00
 draft: false
 description: ""
 image: /media/blog/2023/tdk.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Traditionen
   - Schülerrat

@@ -4,7 +4,8 @@ date: 2023-03-05T18:47:59+01:00
 draft: false
 description: ""
 image: /media/blog/festwoche.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Veranstaltungen
   - Traditionen

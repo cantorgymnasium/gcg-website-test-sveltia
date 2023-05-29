@@ -122,9 +122,10 @@
           <img class="card-img-top rounded-0" src="{{ $data.ausblick.image | relURL }}" alt="{{ $data.ausblick.title }}" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">
           <div class="card-body d-flex flex-column">
             <div class="row mb-2">
-              <div class="col-6">
+              <div class="col-12">
                 <i class="mdi mdi-fountain-pen-tip me-2"></i>
-                {{ range where (where .Site.RegularPages "Type" "author") "Title" $data.ausblick.author  }}
+                {{ range $index, $elements := where (where .Site.RegularPages "Type" "author") "File.BaseFileName" "in" $data.ausblick.author  }}
+                  {{ if ne $index 0 }}, {{ end }}
                   {{ if .Params.simplified }}
                     {{ .Title }}
                   {{ else }}
@@ -140,7 +141,7 @@
           </div>
         </div>
       </div>
-      {{ range first 2 (where .Site.RegularPages "Type" "post")}}
+      {{ range first (int $data.homepage.blog.number) (where .Site.RegularPages "Type" "post")}}
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
         {{ .Render "card" }}
       </div>
@@ -194,7 +195,7 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      {{ range first 6 (where .Site.RegularPages "Type" "ganztagsangebote" | shuffle)}}
+      {{ range first (int $data.homepage.ganztagsangebote.number) (where .Site.RegularPages "Type" "ganztagsangebote" | shuffle)}}
       <div class="col-lg-4 col-sm-6">
         {{ .Render "ganztag" }}
       </div>
@@ -258,7 +259,7 @@
         {{ end }}
       {{ end }}
 
-      {{ range first 3 $events }}
+      {{ range first (int $data.homepage.termine.number) $events }}
         {{ partial "termin" . }}
       {{ end }}
 

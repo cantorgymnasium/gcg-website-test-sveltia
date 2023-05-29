@@ -4,7 +4,8 @@ date: 2023-02-03T07:48:30+01:00
 draft: false
 description: ""
 image: /media/wettbewerbe/chemkids.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Wettbewerbe
   - Naturwissenschaften

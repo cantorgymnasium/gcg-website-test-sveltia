@@ -4,7 +4,8 @@ date: 2023-01-19T19:13:48+01:00
 draft: false
 description: ""
 image: /media/blog/2023/spezilager/01.webp
-author: Franziska Berner
+author:
+  - franziska-berner
 categories:
   - Wettbewerbe
   - Mathematik

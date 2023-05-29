@@ -1,6 +1,7 @@
 enable: true
 title: Ausblick auf die Woche
-author: Frau Felke
+author:
+  - frau-felke
 image: /media/ausblick.webp
 content: >
   Wir hoffen, dass alle erholt aus den Ferien kommen und frisch in die letzte

@@ -4,7 +4,8 @@ date: 2023-01-24T15:13:45+01:00
 draft: false
 description: ""
 image: /media/wettbewerbe/toefl.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Wettbewerbe
   - Fremdsprachen

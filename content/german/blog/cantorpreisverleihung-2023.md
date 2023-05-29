@@ -4,7 +4,8 @@ date: 2023-03-03T00:00:00.000+01:00
 draft: false
 description: ""
 image: /media/blog/2023/cantorpreis/cp23_01.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Traditionen
   - Veranstaltungen

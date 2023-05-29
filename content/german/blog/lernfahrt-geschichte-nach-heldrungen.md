@@ -4,7 +4,8 @@ date: 2023-03-19T14:08:31+01:00
 draft: false
 description: ""
 image: /media/blog/2023/lernfahrt_geschichte.webp
-author: Frau Krug
+author:
+  - frau-krug
 categories:
   - Gesellschaftswissenschaften
 subjects:

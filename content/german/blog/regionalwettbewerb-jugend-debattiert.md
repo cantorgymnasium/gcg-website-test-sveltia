@@ -4,7 +4,8 @@ date: 2023-03-15T09:05:16+01:00
 draft: false
 description: ""
 image: /media/wettbewerbe/jugenddebattiert.webp
-author: Frau Opel-Fritzlar
+author:
+  - frau-opel-fritzlar
 categories:
   - Wettbewerbe
   - Deutsch

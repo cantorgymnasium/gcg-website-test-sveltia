@@ -4,7 +4,8 @@ date: 2023-02-21T20:09:03+01:00
 draft: false
 description: ""
 image: /media/blog/2023/skilager.webp
-author: Frau Tuppack
+author:
+  - frau-tuppack
 categories:
   - Traditionen
   - Sport

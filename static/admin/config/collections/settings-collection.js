@@ -1,135 +1,981 @@
-import { DateFormat, MarkdownProps } from "../props.js";
-import { EnableBoolean, Title } from "./widgets.js";
+import {
+  DataObject,
+  DateFormat,
+  MarkdownProps,
+  PatternEmail,
+} from "../props.js";
+import {
+  ButtonObject,
+  EnableBoolean,
+  Title,
+  IconList,
+  PreviewNumber,
+  DescriptionText,
+  DisableBoolean,
+} from "./widgets.js";
 
 const SettingsCollection = {
-    name: "settings",
-    label: "Einstellungen",
-    icon: "settings",
-    description: "Hier können die Basiseinstellungen der Website geändert werden. Die meisten Bereiche müssen nur in Ausnahmefällen angepasst werden.",
-    editor: {
-        preview: false
-    },
-    files: [
+  name: "settings",
+  label: "Einstellungen",
+  icon: "settings",
+  description:
+    "Hier können die Basiseinstellungen der Website geändert werden. Die meisten Bereiche müssen nur in Ausnahmefällen angepasst werden.",
+  editor: {
+    preview: false,
+    size: "half",
+  },
+  files: [
+    {
+      name: "data-homepage",
+      label: "Startseiteneinstellungen",
+      file: "data/de/homepage.yml",
+      fields: [
         {
-            name: "data-homepage",
-            label: "Startseiteneinstellungen",
-            file: "data/de/homepage.yml",
-            fields: [
+          name: "top_banner",
+          label: "Banner",
+          ...DataObject,
+          fields: [
+            EnableBoolean,
+            {
+              name: "text",
+              label: "Text",
+              widget: "markdown",
+              required: false,
+              ...MarkdownProps,
+            },
+            {
+              name: "color",
+              label: "Farbe",
+              widget: "color",
+              required: false,
+            },
+            {
+              name: "font_color",
+              label: "Schriftfarbe",
+              widget: "color",
+              required: false,
+            },
+            IconList,
+            {
+              name: "temporarily",
+              label: "Zeitschaltung",
+              widget: "object",
+              fields: [
+                EnableBoolean,
                 {
-                    name: "top_banner",
-                    label: "Banner",
-                    widget: "object",
-                    collapsed: true,
-                    summary: "{{fields.enable | ternary('aktiv', 'inaktiv')}}",
-                    fields: [
-                        EnableBoolean,
-                        {
-                            name: "text",
-                            label: "Text",
-                            widget: "markdown",
-                            required: false,
-                            ...MarkdownProps
-                        },
-                        {
-                            name: "color",
-                            label: "Farbe",
-                            widget: "color",
-                            required: false
-                        },
-                        {
-                            name: "font_color",
-                            label: "Schriftfarbe",
-                            widget: "color",
-                            required: false
-                        },
-                        {
-                            name: "icon",
-                            label: "Symbol",
-                            widget: "string",
-                            required: false,
-                            hint: "Liste unter https://assets.cantorgymnasium.de/fonts/mdi/v7/preview.html"
-                        },
-                        {
-                            name: "temporarily",
-                            label: "Zeitschaltung",
-                            widget: "object",
-                            fields: [
-                                EnableBoolean,
-                                {
-                                    name: "start_date",
-                                    label: "Startdatum",
-                                    widget: "datetime",
-                                    ...DateFormat,
-                                    required: false,
-                                },
-                                {
-                                    name: "end_date",
-                                    label: "Enddatum",
-                                    widget: "datetime",
-                                    ...DateFormat,
-                                    required: false,
-                                }
-                            ]
-                        }
-                    ]
+                  name: "start_date",
+                  label: "Startdatum",
+                  widget: "datetime",
+                  ...DateFormat,
+                  required: false,
                 },
                 {
-                    name: "slider",
-                    label: "Karusell",
-                    widget: "object",
-                    collapsed: true,
-                    summary: "{{fields.enable | ternary('aktiv', 'inaktiv')}}",
-                    fields: [
-                        EnableBoolean,
-                        {
-                            name: "bg_image",
-                            label: "Hintergrundbild",
-                            widget: "image",
-                            required: false,
-                        },
-                        Title(true),
-                        {
-                            name: "slider_item",
-                            label: "Elemente",
-                            label_singular: "Element",
-                            widget: "list",
-                            collapsed: true,
-                            fields: [
-                                {
-                                    name: "content",
-                                    label: "Text",
-                                    widget: "string",
-                                    required: false
-                                },
-                                {
-                                    name: "button",
-                                    label: "Button",
-                                    widget: "object",
-                                    required: false,
-                                    collapsed: true,
-                                    fields: [
-                                        EnableBoolean,
-                                        {
-                                            name: "label",
-                                            label: "Aufschrift",
-                                            widget: "string",
-                                            required: false
-                                        },
-                                        {
-                                            name: "link",
-                                            label: "Link",
-                                            widget: "string",
-                                            required: false
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+                  name: "end_date",
+                  label: "Enddatum",
+                  widget: "datetime",
+                  ...DateFormat,
+                  required: false,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "slider",
+          label: "Karusell",
+          ...DataObject,
+          fields: [
+            EnableBoolean,
+            {
+              name: "bg_image",
+              label: "Hintergrundbild",
+              widget: "image",
+              required: true,
+            },
+            Title(false),
+            {
+              name: "slider_item",
+              label: "Elemente",
+              label_singular: "Element",
+              widget: "list",
+              collapsed: true,
+              fields: [
+                {
+                  name: "content",
+                  label: "Text",
+                  widget: "string",
+                  required: false,
+                },
+                ButtonObject,
+              ],
+            },
+          ],
+        },
+        {
+          name: "header_logos",
+          label: "Partnerlogos (oben)",
+          ...DataObject,
+          fields: [
+            EnableBoolean,
+            {
+              name: "logos",
+              label: "Logos",
+              label_singular: "Logo",
+              widget: "list",
+              required: false,
+              collapsed: true,
+              fields: [
+                Title(true),
+                {
+                  name: "link",
+                  label: "Link",
+                  widget: "string",
+                  required: false,
+                },
+                {
+                  name: "image",
+                  label: "Grafik",
+                  widget: "image",
+                  required: true,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "about",
+          label: "Einstiegsabschnitt",
+          ...DataObject,
+          fields: [
+            EnableBoolean,
+            Title(false),
+            {
+              name: "content",
+              label: "Inhalt",
+              widget: "markdown",
+              required: false,
+              ...MarkdownProps,
+            },
+            ButtonObject,
+          ],
+        },
+        {
+          name: "blog",
+          label: "Blog-Abschnitt",
+          ...DataObject,
+          fields: [EnableBoolean, Title(false), PreviewNumber],
+        },
+        {
+          name: "success_banner",
+          label: "Erfolge",
+          ...DataObject,
+          fields: [
+            EnableBoolean,
+            {
+              name: "image",
+              label: "Hintergrundbild",
+              widget: "image",
+              required: true,
+            },
+            {
+              name: "feature_item",
+              label: "Elemente",
+              label_singular: "Element",
+              widget: "list",
+              collapsed: true,
+              types: [
+                {
+                  name: "image",
+                  label: "Grafik",
+                  widget: "object",
+                  summary: "{{fields.name}}",
+                  fields: [
+                    {
+                      name: "name",
+                      label: "Bezeichnung",
+                      widget: "string",
+                      required: true,
+                    },
+                    {
+                      name: "image",
+                      label: "Grafik",
+                      widget: "image",
+                      required: false,
+                    },
+                    {
+                      name: "content",
+                      label: "Inhalt",
+                      widget: "markdown",
+                      required: false,
+                      ...MarkdownProps,
+                    },
+                  ],
+                },
+                {
+                  name: "icon",
+                  label: "Symbol",
+                  widget: "object",
+                  summary: "{{fields.name}}",
+                  fields: [
+                    {
+                      name: "name",
+                      label: "Bezeichnung",
+                      widget: "string",
+                      required: true,
+                    },
+                    IconList,
+                    {
+                      name: "content",
+                      label: "Inhalt",
+                      widget: "markdown",
+                      required: false,
+                      ...MarkdownProps,
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "ganztagsangebote",
+          label: "Ganztagsangebote",
+          ...DataObject,
+          fields: [EnableBoolean, Title(false), PreviewNumber],
+        },
+        {
+          name: "cta",
+          label: "Button-Abschnitt",
+          ...DataObject,
+          fields: [
+            EnableBoolean,
+            Title(false),
+            {
+              name: "subtitle",
+              label: "Untertitel",
+              widget: "string",
+              required: false,
+            },
+            ButtonObject,
+          ],
+        },
+        {
+          name: "info",
+          label: "Informationsabschnitt (inkl. Video)",
+          ...DataObject,
+          fields: [
+            EnableBoolean,
+            {
+              name: "bg_image",
+              label: "Hintergrundbild",
+              widget: "image",
+              required: true,
+            },
+            Title(false),
+            {
+              name: "content",
+              label: "Inhalt",
+              widget: "markdown",
+              required: false,
+              ...MarkdownProps,
+            },
+            {
+              name: "video_link",
+              label: "Video-Link",
+              widget: "string",
+              required: false,
+            },
+          ],
+        },
+        {
+          name: "termine",
+          label: "Termine",
+          ...DataObject,
+          fields: [EnableBoolean, Title(false), PreviewNumber],
+        },
+        {
+          name: "digitalpakt",
+          label: "DigitalPakt-Banner",
+          ...DataObject,
+          fields: [
+            EnableBoolean,
+            Title(false),
+            {
+              name: "image",
+              label: "Bild",
+              widget: "image",
+              required: false,
+            },
+            {
+              name: "content",
+              label: "Inhalt",
+              widget: "markdown",
+              required: false,
+              ...MarkdownProps,
+            },
+          ],
+        },
+        {
+          name: "footer_logos",
+          label: "Partnerlogos (unten)",
+          ...DataObject,
+          fields: [
+            EnableBoolean,
+            {
+              name: "logos",
+              label: "Logos",
+              label_singular: "Logo",
+              widget: "list",
+              required: false,
+              collapsed: true,
+              fields: [
+                Title(true),
+                {
+                  name: "link",
+                  label: "Link",
+                  widget: "string",
+                  required: false,
+                },
+                {
+                  name: "image",
+                  label: "Grafik",
+                  widget: "image",
+                  required: true,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "data-ausblick",
+      label: "Ausblick auf die Woche",
+      file: "data/de/ausblick.yml",
+      fields: [
+        EnableBoolean,
+        Title(false),
+        {
+          name: "author",
+          label: "Autor",
+          hint: "Verwaltet im Autoren-Bereich",
+          widget: "relation",
+          collection: "author",
+          value_field: "{{slug}}",
+          search_fields: ["{{title}}"],
+          display_fields: ["{{title}}"],
+          multiple: true,
+          required: true,
+        },
+        {
+          name: "image",
+          label: "Titelbild",
+          widget: "image",
+          required: true,
+        },
+        {
+          name: "content",
+          label: "Inhalt",
+          widget: "markdown",
+          required: false,
+          ...MarkdownProps,
+        },
+      ],
+    },
+    {
+      name: "hugo-config",
+      label: "Website-Einstellungen für Entwickler",
+      file: "config.yml",
+      fields: [
+        {
+          name: "baseURL",
+          label: "Website-URL",
+          widget: "string",
+          required: true,
+        },
+        Title(false),
+        {
+          name: "paginate",
+          label: "Anzahl der Seitenelemente",
+          widget: "number",
+          value_type: "int",
+          min: 1,
+          step: 1,
+          required: true,
+        },
+        {
+          name: "summaryLength",
+          label: "Länge von Zusammenfassungen (Zeichenanzahl)",
+          widget: "number",
+          value_type: "int",
+          min: 1,
+          step: 1,
+          required: true,
+        },
+        {
+          name: "defaultContentLanguageInSubdir",
+          label: "Standardsprache in Unterordner rendern",
+          widget: "boolean",
+          required: false,
+        },
+        {
+          name: "defaultContentLanguage",
+          label: "Standardsprache",
+          widget: "string",
+          required: true,
+        },
+        {
+          name: "enableEmoji",
+          label: "Emoji",
+          widget: "boolean",
+          required: false,
+        },
+        {
+          name: "enableRobotsTxt",
+          label: "robots.txt generieren",
+          widget: "boolean",
+          required: false,
+        },
+        {
+          name: "timeZone",
+          label: "Zeitzone",
+          widget: "string",
+          required: true,
+        },
+        {
+          name: "removePathAccents",
+          label: "Pfadbereinigung",
+          hint: "Entfernt Umlaute, Akzente u. ä. aus Dateinamen und Pfaden",
+          widget: "boolean",
+          required: false,
+        },
+        {
+          name: "markup",
+          label: "Markup",
+          widget: "object",
+          collapsed: true,
+          summary: "{{fields.defaultMarkdownHandler}}",
+          fields: [
+            {
+              name: "defaultMarkdownHandler",
+              label: "Markdown-Handler",
+              hint: "Dienst, welcher als Markdown-Renderer fungiert.",
+              widget: "select",
+              options: ["blackfriday", "goldmark"],
+              required: true,
+            },
+            {
+              name: "goldmark",
+              label: "Goldmark-Einstellungen",
+              widget: "object",
+              fields: [
+                {
+                  name: "renderer",
+                  label: "Renderer",
+                  widget: "object",
+                  fields: [
+                    {
+                      name: "unsafe",
+                      label: "Unsicheren Inhalt erlauben",
+                      hint: "Ermöglicht das Rendern von HTML in Markdown-Dateien",
+                      widget: "boolean",
+                      required: false,
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "params",
+          label: "Parameter",
+          widget: "object",
+          collapsed: true,
+          fields: [
+            {
+              name: "plugins",
+              label: "Erweiterungen",
+              widget: "object",
+              collapsed: true,
+              fields: [
+                {
+                  name: "css",
+                  label: "CSS-Stylesheets",
+                  label_singular: "CSS-Stylesheet",
+                  widget: "list",
+                  collapsed: true,
+                  fields: [{ name: "link", label: "Link", widget: "string" }],
+                },
+                {
+                  name: "head_js",
+                  label: "JavaScript (am Seitenanfang)",
+                  label_singular: "JS-Datei",
+                  widget: "list",
+                  collapsed: true,
+                  fields: [{ name: "link", label: "Link", widget: "string" }],
+                },
+                {
+                  name: "js",
+                  label: "JavaScript (am Seitenende)",
+                  label_singular: "JS-Datei",
+                  widget: "list",
+                  collapsed: true,
+                  fields: [{ name: "link", label: "Link", widget: "string" }],
+                },
+              ],
+            },
+            {
+              name: "logo",
+              label: "Logo",
+              widget: "image",
+              required: true,
+            },
+            {
+              name: "author",
+              label: "Autor-Eintrag",
+              widget: "string",
+              required: true,
+            },
+            {
+              name: "address",
+              label: "Adresse",
+              widget: "string",
+              required: true,
+            },
+            {
+              name: "route_link",
+              label: "Route (Link)",
+              widget: "string",
+              required: false,
+            },
+            {
+              name: "mobile",
+              label: "Telefonnummer",
+              widget: "string",
+              required: true,
+            },
+            {
+              name: "email",
+              label: "E-Mail-Adresse",
+              widget: "string",
+              required: true,
+              ...PatternEmail,
+            },
+            {
+              name: "email_label",
+              label: "E-Mail-Adresse (UI-Ansicht)",
+              hint: "Wird über die E-Mail-Adresse gelegt, um Spambots entgegenzuwirken",
+              widget: "string",
+              required: true,
+            },
+            DescriptionText,
+            {
+              name: "top_header",
+              label: "Kontakt-Leiste",
+              widget: "boolean",
+              required: false,
+            },
+            {
+              name: "images",
+              label: "Vorschaubilder",
+              label_singular: "Vorschaubild",
+              hint: "Werden als Linkvorschau in soz. Netzwerken & co. angezeigt",
+              widget: "list",
+              required: false,
+              collapsed: true,
+              fields: [{ name: "path", label: "Bild-Pfad", widget: "string" }],
+            },
+            {
+              name: "twitter",
+              label: "Twitter-Konto",
+              widget: "string",
+              required: false,
+            },
+            {
+              name: "preloader",
+              label: "Ladebildschirm",
+              ...DataObject,
+              fields: [
+                EnableBoolean,
+                {
+                  name: "preloader",
+                  label: "Logo",
+                  widget: "image",
+                  required: true,
+                },
+                {
+                  name: "loader",
+                  label: "Ladeanimation",
+                  widget: "image",
+                  required: true,
+                },
+              ],
+            },
+            {
+              name: "social",
+              label: "Soziale Netzwerke",
+              label_singular: "Link",
+              widget: "list",
+              collapsed: true,
+              fields: [
+                {
+                  name: "title",
+                  label: "Bezeichnung",
+                  widget: "string",
+                  required: true,
+                },
+                IconList,
+                {
+                  name: "link",
+                  label: "Link",
+                  widget: "string",
+                  required: true,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "menu",
+          label: "Menüs",
+          widget: "object",
+          collapsed: true,
+          fields: [
+            {
+              name: "main",
+              label: "Hauptmenü",
+              label_singular: "Menüeintrag",
+              hint: "Wird am Seitenanfang angezeigt",
+              widget: "list",
+              collapsed: true,
+              fields: [
+                Title(false),
+                {
+                  name: "weight",
+                  label: "Positionierung",
+                  hint: "Je höher die Zahl, desto weiter unten liegt der Eintrag",
+                  widget: "number",
+                  value_type: "int",
+                  min: 1,
+                  step: 1,
+                  required: true,
+                },
+                {
+                  name: "hasChildren",
+                  label: "Erweitertes Menü",
+                  hint: "Der Menüpunkt dient als Untermenü für weitere Elemente",
+                  widget: "boolean",
+                  required: false,
+                },
+                {
+                  name: "parent",
+                  label: "Übergeordneter Eintrag",
+                  hint: "Falls ausgewählt, wird dieser Eintrag im Untermenü erscheinen",
+                  widget: "relation",
+                  collection: "config",
+                  file: "hugo-config",
+                  value_field: "menu.main.*.name",
+                  search_fields: ["menu.main.*.name"],
+                  display_fields: ["menu.main.*.name"],
+                  required: false,
+                },
+                {
+                  name: "URL",
+                  label: "Link",
+                  widget: "string",
+                  required: false,
+                },
+                {
+                  name: "params",
+                  label: "Parameter",
+                  widget: "object",
+                  collapsed: false,
+                  fields: [
+                    {
+                      name: "external",
+                      label: "Externer Link",
+                      hint: "Wird in einem neuen Tab geöffnet",
+                      widget: "boolean",
+                      required: false,
+                    },
+                    {
+                      name: "separator",
+                      label: "Trennlinie",
+                      hint: "Wird unter dem Menüpunkt eingefügt",
+                      widget: "boolean",
+                      required: false,
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              name: "footer",
+              label: "Link-Liste",
+              label_singular: "Link",
+              hint: "Wird am Seitenende angezeigt",
+              widget: "list",
+              collapsed: true,
+              fields: [
+                {
+                  name: "name",
+                  label: "Bezeichnung",
+                  widget: "string",
+                  required: true,
+                },
+                {
+                  name: "URL",
+                  label: "Link",
+                  widget: "string",
+                  required: true,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "languages",
+          label: "Sprachen",
+          widget: "object",
+          collapsed: true,
+          fields: [
+            {
+              name: "de",
+              label: "Deutsch",
+              widget: "object",
+              collapsed: false,
+              fields: [
+                {
+                  name: "languageName",
+                  label: "Abkürzung",
+                  hint: "De, En, Fr...",
+                  widget: "string",
+                  required: true,
+                },
+                {
+                  name: "languageCode",
+                  label: "Sprachcode",
+                  hint: "de-de, en-us, fr-fr...",
+                  widget: "string",
+                  required: true,
+                },
+                {
+                  name: "contentDir",
+                  label: "Ordner mit Inhalt",
+                  widget: "file",
+                  media_folder: "/content",
+                  public_folder: "content",
+                  select_folder: true,
+                },
+                {
+                  name: "weight",
+                  label: "Positionierung",
+                  hint: "Je höher die Zahl, desto weiter unten liegt der Eintrag",
+                  widget: "number",
+                  value_type: "int",
+                  min: 1,
+                  step: 1,
+                  required: true,
+                },
+                {
+                  name: "copyright",
+                  label: "Copyright-Eintrag",
+                  hint: "Am Seitenende sichtbar",
+                  widget: "markdown",
+                  required: true,
+                  ...MarkdownProps,
+                },
+                {
+                  name: "params",
+                  label: "Parameter",
+                  widget: "object",
+                  collapsed: false,
+                  fields: [
+                    {
+                      name: "home",
+                      label: "Startseitenbezeichnung",
+                      hint: "Verwendet für Menüerstellung",
+                      widget: "string",
+                      required: true,
+                    },
+                    {
+                      name: "impressumURL",
+                      label: "Link zum Impressum",
+                      hint: "pages/impressum",
+                      widget: "string",
+                      required: true,
+                    },
+                    {
+                      name: "dseURL",
+                      label: "Link zur Datenschutzerklärung",
+                      hint: "pages/datenschutz",
+                      widget: "string",
+                      required: true,
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "privacy",
+          label: "Datenschutz-Optionen",
+          hint: "Konfiguration externer Dienste",
+          widget: "object",
+          collapsed: true,
+          fields: [
+            {
+              name: "disqus",
+              label: "Disqus",
+              widget: "object",
+              fields: [DisableBoolean],
+            },
+            {
+              name: "googleAnalytics",
+              label: "Google Analytics",
+              widget: "object",
+              fields: [DisableBoolean],
+            },
+            {
+              name: "instagram",
+              label: "Instagram",
+              widget: "object",
+              fields: [DisableBoolean],
+            },
+            {
+              name: "twitter",
+              label: "Twitter",
+              widget: "object",
+              fields: [
+                {
+                  name: "enableDNT",
+                  label: "Tracking deaktivieren",
+                  widget: "boolean",
+                  required: false,
+                },
+              ],
+            },
+            {
+              name: "youtube",
+              label: "YouTube",
+              widget: "object",
+              fields: [
+                {
+                  name: "privacyEnhanced",
+                  label: "Piped-Proxy",
+                  hint: "Datenschutzfreundliche Oberfläche für YouTube",
+                  widget: "boolean",
+                  required: false,
+                },
+              ],
+            },
+            {
+              name: "vimeo",
+              label: "Vimeo",
+              widget: "object",
+              fields: [
+                {
+                  name: "enableDNT",
+                  label: "Tracking deaktivieren",
+                  widget: "boolean",
+                  required: false,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "data-categories",
+      label: "Kategorien und Zuordnungen",
+      file: "data/de/categories.yml",
+      fields: [
+        {
+          name: "blog",
+          label: "Aktuelles",
+          label_singular: "Kategorie",
+          widget: "list",
+          required: true,
+          collapsed: true,
+          fields: [
+            {
+              name: "category",
+              label: "Kategorie",
+              widget: "string",
+              required: true,
+            },
+          ],
+        },
+        {
+          name: "ganztag",
+          label: "Ganztagsbereich",
+          label_singular: "Kategorie",
+          widget: "list",
+          required: true,
+          collapsed: true,
+          fields: [
+            {
+              name: "category",
+              label: "Kategorie",
+              widget: "string",
+              required: true,
+            },
+          ],
+        },
+        {
+          name: "contests",
+          label: "Wettbewerbe",
+          label_singular: "Kategorie",
+          widget: "list",
+          required: true,
+          collapsed: true,
+          fields: [
+            {
+              name: "category",
+              label: "Kategorie",
+              widget: "string",
+              required: true,
+            },
+          ],
+        },
+        {
+          name: "begabte",
+          label: "Begabtenförderung",
+          label_singular: "Kategorie",
+          widget: "list",
+          required: true,
+          collapsed: true,
+          fields: [
+            {
+              name: "category",
+              label: "Kategorie",
+              widget: "string",
+              required: true,
+            },
+          ],
+        },
+        {
+          name: "subjects",
+          label: "Fächer (Fachzuordnung)",
+          label_singular: "Fach",
+          widget: "list",
+          required: true,
+          collapsed: true,
+          fields: [
+            {
+              name: "category",
+              label: "Kategorie",
+              widget: "string",
+              required: true,
+            },
+          ],
+        },
+      ],
+    },
+  ],
 };
 
 export default SettingsCollection;

@@ -4,7 +4,8 @@ date: 2023-05-03T07:53:14.221+02:00
 draft: false
 description: ""
 image: /media/wettbewerbe/jugenddebattiert.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Deutsch
   - Gesellschaftswissenschaften

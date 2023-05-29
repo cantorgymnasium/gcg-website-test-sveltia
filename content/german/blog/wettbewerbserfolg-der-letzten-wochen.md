@@ -4,7 +4,8 @@ date: 2023-03-30T11:07:03.082+02:00
 draft: false
 description: ""
 image: /media/image.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Wettbewerbe
   - Naturwissenschaften

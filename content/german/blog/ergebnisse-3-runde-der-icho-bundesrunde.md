@@ -4,7 +4,8 @@ date: 2023-02-21T09:44:35+01:00
 draft: false
 description: ""
 image: /media/wettbewerbe/icho.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Wettbewerbe
   - Naturwissenschaften

@@ -4,7 +4,8 @@ date: 2022-12-10T12:30:33+01:00
 draft: false
 description: ""
 image: /media/image.webp
-author: Frau Krug
+author:
+  - frau-krug
 categories:
   - Musik
   - Traditionen

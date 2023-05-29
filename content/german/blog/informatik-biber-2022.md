@@ -4,7 +4,8 @@ date: 2023-01-27T21:42:51+01:00
 draft: false
 description: ""
 image: /media/wettbewerbe/biber.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Wettbewerbe
   - Informatik/Technik

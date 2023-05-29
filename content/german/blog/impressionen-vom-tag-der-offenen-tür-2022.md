@@ -4,7 +4,8 @@ date: 2022-11-24T09:41:02.882Z
 draft: false
 description: ""
 image: /media/image.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Veranstaltungen
 subjects: []

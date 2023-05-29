@@ -4,7 +4,8 @@ date: 2023-01-24T08:18:02+01:00
 draft: false
 description: ""
 image: /media/image.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Musik
   - Deutsch

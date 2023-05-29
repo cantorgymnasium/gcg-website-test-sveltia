@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@staticcms/app@^2.0.0/dist/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@staticcms/app@^2.0.0/dist/main.css"
+    />
     <title>Chronikverwaltung</title>
   </head>
   <body>
@@ -52,10 +58,9 @@
       ["abiturienten", "cantorfora"].forEach((page) =>
         CMS.registerPreviewTemplate(page, AbiturientenPreview)
       );
-      [
-        "cantorpreis-index",
-        "abiturienten-index",
-      ].forEach((page) => CMS.registerPreviewTemplate(page, HeaderPreview));
+      ["cantorpreis-index", "abiturienten-index"].forEach((page) =>
+        CMS.registerPreviewTemplate(page, HeaderPreview)
+      );
       [
         "abiturienten",
         "cantorfora-index",
@@ -96,15 +101,12 @@
       ].forEach((collection) =>
         CMS.registerFieldPreview(collection, "draft", DraftPreview)
       );
-      ["chronikseiten", "cantorpreis"].forEach(
-        (collection) => CMS.registerFieldPreview(collection, "body", BodyPreview)
+      ["chronikseiten", "cantorpreis"].forEach((collection) =>
+        CMS.registerFieldPreview(collection, "body", BodyPreview)
       );
-      [
-        "cantorpreis-index",
-        "abiturienten-index",
-        "cantorfora",
-      ].forEach((collection) =>
-        CMS.registerFieldPreview(collection, "description", BodyPreview)
+      ["cantorpreis-index", "abiturienten-index", "cantorfora"].forEach(
+        (collection) =>
+          CMS.registerFieldPreview(collection, "description", BodyPreview)
       );
       CMS.registerFieldPreview("chronikseiten", "title", BodyPreview);
     </script>

@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@staticcms/app@^2.0.0/dist/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@staticcms/app@^2.0.0/dist/main.css"
+    />
     <title>Static CMS</title>
   </head>
   <body>
@@ -52,15 +58,15 @@
       import Icons from "./icons.js";
 
       // cms initialization
-      CMS.init();
+      CMS.init({ config });
 
       // preview templates
       CMS.registerPreviewTemplate("about-index", AboutPreview);
       CMS.registerPreviewTemplate("blog", BlogPreview);
       CMS.registerPreviewTemplate("wettbewerbe", ContestPreview);
       CMS.registerPreviewTemplate("ganztagsangebote", GanztagPreview);
-      CMS.registerPreviewTemplate("contact-index", KontaktPreview);
-      CMS.registerPreviewTemplate("event-index", EventPreview);
+      CMS.registerPreviewTemplate("kontakt", KontaktPreview);
+      CMS.registerPreviewTemplate("termine", EventPreview);
       CMS.registerPreviewTemplate("anmeldung-index", AnmeldungPreview);
       CMS.registerPreviewTemplate("chronikjahre", ChronikPreview);
       CMS.registerPreviewTemplate("anmeldeformular", AnmeldeformularPreview);
@@ -116,7 +122,6 @@
       Icons.forEach((i) => CMS.registerIcon(i.name, i.icon));
 
       // field previews
-
       CMS.registerFieldPreview("author", "active", BooleanPreview);
       CMS.registerFieldPreview("author", "simplified", BooleanPreview);
       CMS.registerFieldPreview("blog", "date", DatePreview);
@@ -141,8 +146,15 @@
       ].forEach((collection) =>
         CMS.registerFieldPreview(collection, "draft", DraftPreview)
       );
-      ["blog", "author", "chronikseiten", "pages", "cantorpreis", "begabte"].forEach(
-        (collection) => CMS.registerFieldPreview(collection, "body", BodyPreview)
+      [
+        "blog",
+        "author",
+        "chronikseiten",
+        "pages",
+        "cantorpreis",
+        "begabte",
+      ].forEach((collection) =>
+        CMS.registerFieldPreview(collection, "body", BodyPreview)
       );
       [
         "cantorpreis-index",
@@ -154,8 +166,8 @@
         "blog-index",
         "about-index",
         "anmeldung-index",
-        "contact-index",
-        "event-index",
+        "kontakt",
+        "termine",
         "forms-index",
         "ganztagsangebote-index",
         "begabte-index",
@@ -166,6 +178,27 @@
       ["chronikseiten", "blog"].forEach((collection) =>
         CMS.registerFieldPreview(collection, "title", BodyPreview)
       );
+
+      // access control
+      CMS.registerEventListener({
+        name: "login",
+        handler: ({ login }) => {
+          const adminUsers = [
+            "fberger",
+            "denyskon",
+            "gfelke",
+            "lberthold",
+            "cschapitz",
+            "bgorsler",
+          ];
+          if (login && !adminUsers.includes(login)) {
+            alert(
+              "Sie sind nicht berechtigt, diese Seite aufzurufen. Sie werden nun auf die Startseite weitergeleitet."
+            );
+            location.href = "/";
+          }
+        },
+      });
     </script>
   </body>
 </html>

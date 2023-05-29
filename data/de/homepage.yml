@@ -99,11 +99,13 @@ about:
 blog:
   enable: true
   title: Aktuelles
+  number: 2
 success_banner:
   enable: true
   image: media/home/success_banner.webp
   feature_item:
-    - name: Mathematik-Olympiade
+    - type: image
+      name: Mathematik-Olympiade
       content: >
         In der Landesrunde der [Mathematikolympiade
         2023](https://cantorgymnasium.de/blog/mathematik-olympiade-landesrunde-2023/)
@@ -121,8 +123,8 @@ success_banner:
 
         an Schüler unserer Schule verliehen.
       image: media/home/mo.webp
-      icon: ""
-    - name: Physikolympiade
+    - type: image
+      name: Physikolympiade
       image: media/home/po.webp
       content: >
         In der [Landesphysikolympiade
@@ -140,32 +142,36 @@ success_banner:
 
 
         an Schüler unserer Schule verliehen.
-      icon: ""
-    - name: Chemieolympiade
+    - type: image
+      name: Chemieolympiade
       image: media/home/icho.webp
       content: >
         Ein Schüler unserer Schule bekam die Bronzemedaille in der
         Internationalen Chemieolympiade 2020 verliehen. Ein weiterer Schüler
         unserer Schule wurde für die Nationalmannschaft für die IChO 2021
         ausgewählt.
-      icon: ""
-    - content: >
+    - type: image
+      content: >
         Ein Schüler unserer Schule bekam in der Endrunde von "Chemie - die
         stimmt!" 2021 den ersten Platz in drei Kategorien.
       name: Chemie - die stimmt!
       image: media/home/cds.webp
-      icon: ""
-    - name: Und viel mehr ...
+    - type: icon
+      name: Und viel mehr ...
       icon: mdi mdi-trophy-outline
       content: >
         Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
         vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
         Spezialistenlager und begabtenfördernde Ganztagsangebote.
-      img: false
-      image: ""
+    - type: image
+      name: uztr
+      image: /media/logo_lg_blue.webp
+      content: |
+        ttttt
 ganztagsangebote:
   enable: true
   title: Unsere Ganztagsangebote
+  number: 6
 cta:
   enable: true
   title: Interessiert ?
@@ -195,6 +201,7 @@ info:
 termine:
   enable: true
   title: Anstehende Termine
+  number: 1
 digitalpakt:
   enable: true
   title: DigitalPakt Schule

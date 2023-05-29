@@ -7,11 +7,11 @@ import AudioShortcode from "./audio.js";
 import SliderShortcode from "./slider.js";
 
 export {
-	GalleryShortcode,
-	ImageShortcode,
-	DownloadShortcode,
-	CardShortcode,
-	YoutubeShortcode,
-	AudioShortcode,
-	SliderShortcode,
+  GalleryShortcode,
+  ImageShortcode,
+  DownloadShortcode,
+  CardShortcode,
+  YoutubeShortcode,
+  AudioShortcode,
+  SliderShortcode,
 };

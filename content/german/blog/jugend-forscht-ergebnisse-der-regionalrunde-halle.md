@@ -4,7 +4,8 @@ date: 2023-02-22T11:08:22+01:00
 draft: false
 description: ""
 image: /media/wettbewerbe/jufo.webp
-author: Frau Felke
+author:
+  - frau-felke
 categories:
   - Wettbewerbe
   - Naturwissenschaften

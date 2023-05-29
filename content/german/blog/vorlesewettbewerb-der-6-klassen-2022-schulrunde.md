@@ -4,7 +4,8 @@ date: 2022-12-12T12:00:43.329Z
 draft: false
 description: ""
 image: /media/blog/vlw.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Wettbewerbe
   - Deutsch

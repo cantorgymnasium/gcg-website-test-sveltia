@@ -4,7 +4,8 @@ date: 2023-02-11T11:28:18+01:00
 draft: false
 description: ""
 image: /media/wettbewerbe/jugenddebattiert.webp
-author: Frau Schulz
+author:
+  - frau-schulz
 categories:
   - Wettbewerbe
   - Gesellschaftswissenschaften

@@ -4,7 +4,8 @@ date: 2022-12-20T20:40:32.790Z
 draft: false
 description: ""
 image: /media/blog/weihnachten.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Traditionen
   - Schülerrat

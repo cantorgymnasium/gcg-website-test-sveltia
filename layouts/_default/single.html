@@ -12,7 +12,8 @@
             <div class="row mb-3">
               <div class="col-6 mb-md-0 text-light">
                 <span class="fw-bold me-1">{{ i18n "posted_by" }}:</span>
-                {{ range where (where .Site.RegularPages "Type" "author") "Title" .Params.author  }}
+                {{ range $index, $elements := where (where .Site.RegularPages "Type" "author") "File.BaseFileName" "in" .Params.author  }}
+                  {{ if ne $index 0 }}, {{ end }}
                   {{ if .Params.simplified }}
                     {{ .Title }}
                   {{ else }}
@@ -28,7 +29,7 @@
           <div class="row">
             <div class="col-12 mb-md-0 text-light">
               <span class="fw-bold me-1">{{ i18n "category" }}:</span>
-              {{ range $index, $elements:= .Params.categories }}
+              {{ range $index, $elements := .Params.categories }}
                 {{ if ne $index 0 }}, {{ end }}
                 <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | title }}</a>
               {{ end }}

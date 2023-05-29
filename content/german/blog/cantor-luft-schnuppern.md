@@ -4,7 +4,8 @@ date: 2022-10-24T14:40:47.927Z
 draft: false
 description: ""
 image: /media/image.webp
-author: Schulleitung
+author:
+  - schulleitung
 categories:
   - Veranstaltungen
 subjects: []

@@ -4,7 +4,8 @@ date: 2023-03-21T07:56:46+01:00
 draft: false
 description: ""
 image: /media/blog/rezi_wettstreit.webp
-author: Herr Berger
+author:
+  - herr-berger
 categories:
   - Wettbewerbe
   - Traditionen

@@ -4,7 +4,8 @@ date: 2022-10-19T16:04:15.580Z
 draft: false
 description: ""
 image: /media/image.webp
-author: Frau Schapitz
+author:
+  - frau-schapitz
 categories:
   - Sonstiges
   - Informatik/Technik

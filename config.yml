@@ -268,12 +268,13 @@ languages:
     languageName: De
     languageCode: de-de
     contentDir: content/german
-    weight: 2
-    home: Startseite
+    weight: 1
     copyright: "Copyright &copy; 2023 Georg-Cantor-Gymnasium Halle (Saale). Made
       with :heart: and [Hugo](https://gohugo.io)."
-    impressumURL: pages/impressum
-    dseURL: pages/datenschutz
+    params:
+      home: Startseite
+      impressumURL: pages/impressum
+      dseURL: pages/datenschutz
 privacy:
   disqus:
     disable: true

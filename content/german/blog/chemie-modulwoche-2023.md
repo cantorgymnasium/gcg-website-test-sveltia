@@ -4,7 +4,8 @@ date: 2023-02-23T17:01:33+01:00
 draft: false
 description: ""
 image: /media/blog/2023/modul-chemie.webp
-author: Erik Zschoche
+author:
+  - erik-zschoche
 categories:
   - Naturwissenschaften
 subjects:

@@ -4,7 +4,8 @@ date: 2023-02-14T21:49:04+01:00
 draft: false
 description: ""
 image: /media/wettbewerbe/ipho.webp
-author: Frau Bachran
+author:
+  - frau-bachran
 categories:
   - Naturwissenschaften
   - Wettbewerbe

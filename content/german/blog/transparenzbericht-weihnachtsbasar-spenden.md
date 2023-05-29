@@ -4,7 +4,8 @@ date: 2023-05-03T16:11:27.148+02:00
 draft: false
 description: ""
 image: /media/image.webp
-author: Denys Konovalov
+author:
+  - denys-konovalov
 categories:
   - Schülerrat
 tags:

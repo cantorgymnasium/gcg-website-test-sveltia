@@ -4,7 +4,8 @@ date: 2023-01-22T16:14:48+01:00
 draft: false
 description: ""
 image: /media/blog/gypt.webp
-author: Denys Konovalov
+author:
+  - denys-konovalov
 categories:
   - Wettbewerbe
   - Naturwissenschaften

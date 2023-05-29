@@ -5,7 +5,8 @@ draft: false
 description: Der Schülerwettbewerb unter der Schirmherrschaft des
   Bildungsministeriums geht in die nächste Runde.
 image: /media/blog/mia.webp
-author: Denys Konovalov
+author:
+  - denys-konovalov
 categories:
   - Wettbewerbe
   - Mathematik

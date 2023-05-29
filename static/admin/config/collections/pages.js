@@ -1,14 +1,14 @@
 import { MarkdownProps } from "../props.js";
 import { DescriptionText, DraftBoolean, Title } from "./widgets.js";
 
-const ChronikseitenCollection = {
-  name: "chronikseiten",
-  label: "Chronikseiten",
-  label_singular: "Zusatzseite (Chronik)",
+const PagesCollection = {
+  name: "pages",
+  label: "Zusatzseiten",
+  label_singular: "Zusatzseite",
   description:
-    "Chronikseiten entsprechen von der Funktionalität herkömmlichen Zusatzseiten, sind allerdings der Schulchronik vorbehalten.",
+    "Zusatzseiten können direkt aus der grafischen Oberfläche heraus erstellt werden und sind unter https://cantorgymnasium.de/pages/[SEITENTITEL] einsehbar. Sie bestehen immer aus einem Titel, einer Metabeschreibung (kurzer Einstiegstext) und dem eigentlichen Inhalt. Einer Zusatzseite kann auch ein Alias, also eine alternative URL zugewiesen werden.",
   icon: "page-add",
-  folder: "content/german/chronikseiten",
+  folder: "content/german/pages",
   create: true,
   editor: {
     preview: true,
@@ -19,7 +19,7 @@ const ChronikseitenCollection = {
     field: "type",
     value: "pages",
   },
-  summary_fields: ["title", "draft", "aliases", "body"],
+  summary_fields: ["title", "draft", "aliases", "description"],
   fields: [
     Title(false),
     DraftBoolean,
@@ -55,4 +55,4 @@ const ChronikseitenCollection = {
   ],
 };
 
-export default ChronikseitenCollection;
+export default PagesCollection;

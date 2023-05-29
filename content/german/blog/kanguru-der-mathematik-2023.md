@@ -4,7 +4,8 @@ date: 2023-04-12T22:40:16.690+02:00
 draft: false
 description: ""
 image: /media/wettbewerbe/kanguru.webp
-author: Frau Jacob
+author:
+  - frau-jacob
 categories:
   - Wettbewerbe
   - Mathematik
