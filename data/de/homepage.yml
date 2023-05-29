@@ -163,11 +163,6 @@ success_banner:
         Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
         vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
         Spezialistenlager und begabtenfördernde Ganztagsangebote.
-    - type: image
-      name: uztr
-      image: /media/logo_lg_blue.webp
-      content: |
-        ttttt
 ganztagsangebote:
   enable: true
   title: Unsere Ganztagsangebote
