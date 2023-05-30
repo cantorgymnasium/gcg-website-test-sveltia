@@ -1,11 +1,11 @@
 top_banner:
   enable: true
   text: >
-    Am 31. Mai 2023 laden unsere 12. Klassen ab vsl. 18 Uhr zum traditionellen
-    Abifiz und hoffen auf zahlreiche spendable Besucher!
-  color: "#1b57b1"
+    Achtung: das traditionelle Abifiz am 31.05.2023 **entfällt** leider. Wir
+    bitten, die Unannehmlichkeiten zu entschuldigen.
+  color: "#de6829"
   font_color: "#ffffff"
-  icon: "mdi mdi-book-music "
+  icon: mdi mdi-alert-decagram-outline
   temporarily:
     enable: true
     start_date: 2023-05-22T08:12:06.000+02:00
