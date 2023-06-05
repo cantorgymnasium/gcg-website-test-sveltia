@@ -27,6 +27,6 @@ Es galt sich in den Disziplinen Weitsprung, Medizinballstoßen und Sprint zu mes
 
 Zu den drei Disziplinen kamen jeweils 15 Minuten auf der Tartanbahn für den Spendenlauf des Schülerrats. Hier wurden von allen Teilnehmenden (Schülerinnen und Schüler, Lehrkräfte, Sekretärin) insgesamt 4275 Runden gelaufen. Dies entspricht 855 km, also ungefähr die Luftlinienentfernung zwischen Halle (Saale) und London. In den nächsten zwei Wochen werden nun die Spendenbescheinigungen ausgefüllt, die Gelder gesammelt und dann können wir die Endsumme des Spendenlaufs ermitteln, die dann für zukünftige Schülerratsprojekte zur Verfügung steht.
 
-Nach Abschluss aller Disziplinen gab es zudem jeweils pro Jahrgang einen Staffellauf als Duell zwischen den Klassen. Hier wollten sich auch die 11. Klassen den Sport nicht nehmen lassen, stellten zwei Teams auf und forderten die Lehrer zu einem Lehrer-gegen-Schüler-Staffellauf auf. Hier konnten die 11er gegen uns Lehrer siegen.
+Nach Abschluss aller Disziplinen gab es zudem jeweils pro Jahrgang einen Staffellauf als Duell zwischen den Klassen. Hier wollten sich auch die 11. Klassen den Sport nicht nehmen lassen, stellten zwei Teams auf und forderten die Lehrer zu einem Lehrer-gegen-Schüler-Staffellauf auf. Hier konnten die 11er gegen uns Lehrer siegen. Den Abschluss des Tages bildeten die Siegerehrungen.
 
 Wir bedanken uns bei den Sportlehrern für die grandiose Organisation und Durchführung sowie bei den Schülerinnen und Schülern der 11. Klassen, welche die Disziplinen bereuten und als Wettkampfrichter fungierten.
