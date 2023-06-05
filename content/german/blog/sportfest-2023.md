@@ -1,8 +1,8 @@
 ---
 title: Sportfest 2023
 date: 2023-06-05T10:01:35.134+02:00
-draft: true
-image: /media/image.webp
+draft: false
+image: /media/blog/2023/Sportfest23/sportfest23_00.webp
 author:
   - herr-berger
 categories:
@@ -30,3 +30,9 @@ Zu den drei Disziplinen kamen jeweils 15 Minuten auf der Tartanbahn für den Spe
 Nach Abschluss aller Disziplinen gab es zudem jeweils pro Jahrgang einen Staffellauf als Duell zwischen den Klassen. Hier wollten sich auch die 11. Klassen den Sport nicht nehmen lassen, stellten zwei Teams auf und forderten die Lehrer zu einem Lehrer-gegen-Schüler-Staffellauf auf. Hier konnten die 11er gegen uns Lehrer siegen. Den Abschluss des Tages bildeten die Siegerehrungen.
 
 Wir bedanken uns bei den Sportlehrern für die grandiose Organisation und Durchführung sowie bei den Schülerinnen und Schülern der 11. Klassen, welche die Disziplinen bereuten und als Wettkampfrichter fungierten.
+
+
+
+{{< gallery dir="/media/blog/2023/Sportfest23" >}}
+
+
