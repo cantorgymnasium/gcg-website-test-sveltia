@@ -1,6 +1,6 @@
 ---
 title: Frau Schmidt
-image: /media/authors/gcg.webp
+image: /media/people/gcg.webp
 simplified: false
 active: true
 ---
