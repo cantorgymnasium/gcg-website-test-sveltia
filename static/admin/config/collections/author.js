@@ -72,7 +72,7 @@ const AuthorCollection = {
       label: "Bild",
       widget: "image",
       required: false,
-      default: "/media/authors/gcg.webp",
+      default: "/media/people/gcg.webp",
     },
     {
       name: "simplified",
