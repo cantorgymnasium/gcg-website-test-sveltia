@@ -88,6 +88,12 @@ const AuthorCollection = {
       default: true,
     },
     {
+      name: "type",
+      label: "Typ",
+      widget: "hidden",
+      default: "author",
+    },
+    {
       name: "body",
       label: "Beschreibung",
       widget: "markdown",
