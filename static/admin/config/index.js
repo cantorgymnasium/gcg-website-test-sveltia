@@ -24,7 +24,8 @@ const config = {
     repo: "gcg/gcg-website",
     branch: "master",
     api_root: "https://git.cantorgymnasium.de/api/v1",
-    base_url: "https://oauth.cantorgymnasium.de",
+    base_url: "https://git.cantorgymnasium.de",
+    app_id: "1b612fb1-fbc1-44b2-9b9d-6eeb1dc55bff",
     commit_messages: {
       create: "{{collection}} {{slug}} erstellt",
       update: "{{collection}} {{slug}} aktualisiert",
