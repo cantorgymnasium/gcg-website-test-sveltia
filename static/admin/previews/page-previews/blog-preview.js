@@ -34,13 +34,13 @@ const BlogPreview = ({ widgetFor, entry, fields, collection }) => {
               { className: "row mb-3" },
               h(
                 "div",
-                { className: "col-6 mb-md-0 text-light" },
+                { className: "col-6 mb-md-0 text-body-tertiary" },
                 h("span", { className: "fw-bold me-1" }, "Geschrieben von:"),
                 widgetFor("author")
               ),
               h(
                 "div",
-                { className: "col-6 mb-3 mb-md-0 text-light" },
+                { className: "col-6 mb-3 mb-md-0 text-body-tertiary" },
                 h("span", { className: "fw-bold me-1" }, "Datum:"),
                 entry.data.date
                   ? DateFormat({
@@ -58,7 +58,7 @@ const BlogPreview = ({ widgetFor, entry, fields, collection }) => {
           Row(
             h(
               "div",
-              { className: "col-12 mb-md-0 text-light" },
+              { className: "col-12 mb-md-0 text-body-tertiary" },
               h("span", { className: "fw-bold me-1" }, "Kategorie:"),
               entry.data.categories
                 ? entry.data.categories.map(

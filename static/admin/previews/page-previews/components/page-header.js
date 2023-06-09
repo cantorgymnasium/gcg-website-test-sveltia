@@ -26,7 +26,7 @@ const PageHeader = (entry) => {
               { className: "list-inline-item h2" },
               h(
                 "font",
-                { className: "text-primary font-secondary", href: "" },
+                { className: "text-primary font-header", href: "" },
                 "Startseite"
               )
             ),
@@ -37,11 +37,11 @@ const PageHeader = (entry) => {
             ),
             h(
               "li",
-              { className: "list-inline-item text-white h2 font-secondary" },
+              { className: "list-inline-item text-white h2 font-header" },
               entry.data.title
             )
           ),
-          h("p", { className: "text-lighten" }, entry.data.description)
+          h("p", { className: "text-white text-opacity-75" }, entry.data.description)
         )
       )
     )

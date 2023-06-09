@@ -37,7 +37,7 @@ const CantorpreisPreview = ({ widgetFor, entry, fields, collection }) => {
             "div",
             { className: "col-md-7 mb-5" },
             h("h3", {}, entry.data.name),
-            h("h6", { className: "text-color" }, entry.data.title),
+            h("h6", { className: "text-body-secondary" }, entry.data.title),
             Content(widgetFor("body"))
           ),
         ])

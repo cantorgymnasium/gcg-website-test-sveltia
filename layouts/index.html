@@ -216,7 +216,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="text-white font-secondary mb-0">{{ .title | markdownify }}</h2>
+        <h2 class="text-white mb-0">{{ .title | markdownify }}</h2>
         <h5 class="section-title text-white">{{ .subtitle | markdownify }}</h5>
         {{ if .button.enable }}
         {{ with .button }}
@@ -235,7 +235,7 @@
 {{ end }}
 
 {{ if $data.homepage.termine.enable }}
-<section class="section-sm bg-gray">
+<section class="section-sm bg-body-tertiary">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -281,8 +281,8 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-7 order-2 order-md-1">
-        <h3 class="section-title text-white font-secondary">{{ .title | markdownify }}</h2>
-        <div class="content ">
+        <h3 class="section-title text-white">{{ .title | markdownify }}</h2>
+        <div class="content text-white text-opacity-50">
           {{ .content | markdownify }}
         </div>
         {{ if .button.enable }}

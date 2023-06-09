@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-3 col-sm-8 mb-5 mb-lg-0">
           <a class="logo-footer" href="{{ .Site.BaseURL | relLangURL }}"><img class="mb-4" height="60" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
-          <ul class="list-unstyled">
+          <ul class="list-unstyled text-white text-opacity-50">
             <li class="mb-4">
               <a href="{{ .Site.Params.route_link }}">{{ .Site.Params.address | markdownify }}</a>
             </li>
@@ -22,7 +22,7 @@
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "links" }}</h4>
           <ul class="list-unstyled">
             {{ range .Site.Menus.footer }}
-            <li class="mb-3"><a class="text-color" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+            <li class="mb-3"><a class="text-white text-opacity-50" href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
         </div>
@@ -30,7 +30,7 @@
           <h4 class="text-white mb-5 text-uppercase">{{ i18n "clubs_footer" }}</h4>
           <ul class="list-unstyled">
             {{ range first 5 (where .Site.RegularPages "Type" "ganztagsangebote" | shuffle)}}
-            <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Title }}</a></li>
+            <li class="mb-3"><a class="text-white text-opacity-50" href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{ end }}
           </ul>
         </div>
@@ -38,7 +38,7 @@
           <h4 class="text-white mb-5 text-uppercase">Aktuelles</h4>
           <ul class="list-unstyled">
             {{ range first 5 (where .Site.RegularPages "Type" "post")}}
-            <li class="mb-3"><a class="text-color" href="{{ .Permalink }}">{{ .Title | truncate 35 }}</a></li>
+            <li class="mb-3"><a class="text-white text-opacity-50" href="{{ .Permalink }}">{{ .Title | truncate 35 }}</a></li>
             {{ end }}
           </ul>
         </div>

@@ -47,7 +47,7 @@
         {{ if and .Params.pretext (ne .Params.pretext "\n\n\n") }}
           {{ partial "modal" (dict "title" .Title "content" .Params.pretext) }}
         {{ end }}
-        <div id="wc-canvas" class="wc-canvas"></div>
+        <div id="wc-canvas"></div>
         {{ $topics := slice }}
         {{ if .Params.pretext }}
           {{ $topics = $topics | append (slice (slice .Params.Title 200 (md5 .Title))) }}

@@ -1,6 +1,6 @@
 .feature-icon {
   font-size: 60px;
-  color: $secondary-color;
+  color: var(--gcg-color-secondary);
   display: inline-block;
 }
 
@@ -69,8 +69,8 @@
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background: $primary-color;
-  color: $white;
+  background: var(--gcg-color-primary);
+  color: white;
   font-size: 25px;
   text-align: center;
 
@@ -84,7 +84,7 @@
     height: 0;
     width: 0;
     transform: translate(-50%, -50%);
-    background: $white;
+    background: white;
     border-radius: 50%;
     top: 50%;
     left: 50%;
@@ -99,7 +99,7 @@
     height: 80%;
     width: 80%;
     transform: translate(-50%, -50%);
-    background: $primary-color;
+    background: var(--gcg-color-primary);
     border-radius: 50%;
     top: 50%;
     left: 50%;

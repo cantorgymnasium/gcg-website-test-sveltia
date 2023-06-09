@@ -11,32 +11,32 @@
 }
 
 .navigation {
-  background: linear-gradient(to right, transparent 50%, $primary-color 50%);
+  background: linear-gradient(to right, transparent 50%, var(--gcg-color-primary) 50%);
   transition: .2s ease;
 
   @include desktop {
-    background: $secondary-color;
+    background: var(--gcg-color-secondary);
   }
 }
 
 .navbar-collapse{
   @include desktop {
-    background: $secondary-color;
+    background: var(--gcg-color-secondary);
   }
 }
 
 .navbar-nav {
   padding-left: 50px;
-  background: $primary-color;
+  background: var(--gcg-color-primary);
 
   @include desktop {
     padding-left: 0;
-    background: $secondary-color;
+    background: var(--gcg-color-secondary);
   }
 }
 
 .nav-bg {
-  background-color: $secondary-color;
+  background-color: var(--gcg-color-secondary);
 }
 
 .nav-item {
@@ -55,7 +55,7 @@
     height: 6px;
     width: 100%;
     content: "";
-    background: $white;
+    background: white;
     transform: scaleY(0);
     transform-origin: top;
     transition: transform .3s ease;
@@ -71,19 +71,19 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: $white;
+  color: white;
 }
 
 link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: $white;
+  color: white;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-  color: $white;
+  color: white;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -99,7 +99,7 @@ link:focus,
   top: 0;
   width: 100%;
   z-index: 10;
-  background: $white;
+  background: white;
   box-shadow: 0 2px 5px #0000000d;
 }
 
@@ -115,7 +115,7 @@ link:focus,
 
     &-menu {
       box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
-      border-bottom: 5px solid $primary-color;
+      border-bottom: 5px solid var(--gcg-color-primary);
       padding: 15px;
       top: 96px;
       border-radius: 0;
@@ -124,7 +124,7 @@ link:focus,
       transition: .3s ease;
       opacity: 0;
       transform: translateY(20px);
-      background: $white;
+      background: white;
 
       @include desktop {
         display: none;
@@ -146,10 +146,10 @@ link:focus,
 
     &-item {
       position: relative;
-      color: $text-color-dark;
+      color: var(--gcg-color-secondary);
       transition: .2s ease;
       text-transform: capitalize;
-      font-family: $primary-font;
+      font-family: var(--gcg-font-primary);
 
       @include desktop {
         text-align: center;
@@ -160,7 +160,7 @@ link:focus,
       }
 
       &:hover {
-        color: $primary-color;
+        color: var(--gcg-color-primary);
         background: transparent;
       }
     }

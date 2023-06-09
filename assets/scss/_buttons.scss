@@ -1,7 +1,7 @@
 /* Button style */
 .btn {
   font-size: 16px;
-  font-family: $primary-font;
+  font-family: var(--gcg-font-primary);
   padding: 15px 40px;
   border-radius: 0;
   font-weight: 500;
@@ -49,16 +49,16 @@
 }
 
 .btn-primary {
-  background: $primary-color;
-  color: $white;
+  background: var(--gcg-color-primary);
+  color: white;
 
   &::before {
-    background: $white;
+    background: white;
   }
 
   &:active {
-    background: $primary-color !important;
-    color: $primary-color;
+    background: var(--gcg-color-primary) !important;
+    color: var(--gcg-color-primary);
 
     &::before {
       height: 80%;
@@ -66,57 +66,57 @@
   }
 
   &:hover {
-    background: darken($color: $primary-color, $amount: 10);
-    color: $primary-color;
+    background: var(--gcg-color-primary);
+    color: var(--gcg-color-primary);
   }
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-  color: $white;
-  background-color: darken($color: $primary-color, $amount: 10);
-  border-color: darken($color: $primary-color, $amount: 10);
+  color: white;
+  background-color: var(--gcg-color-primary);
+  border-color: var(--gcg-color-primary);
 }
 
 .btn-secondary {
-  background: $white;
-  color: $primary-color;
-  border: 1px solid $white;
+  background: white;
+  color: var(--gcg-color-primary);
+  border: 1px solid white;
 
   &::before {
-    background: $primary-color;
+    background: var(--gcg-color-primary);
   }
 
   &:active {
-    background: $primary-color;
-    color: $white;
-    border: 1px solid $white;
+    background: var(--gcg-color-primary);
+    color: white;
+    border: 1px solid white;
   }
 
   &:hover {
-    background: $white;
-    color: $white;
-    border: 1px solid $white;
+    background: white;
+    color: white;
+    border: 1px solid white;
   }
 }
 
 .btn-primary-outline {
-  border: 1px solid $primary-color;
-  color: $primary-color;
+  border: 1px solid var(--gcg-color-primary);
+  color: var(--gcg-color-primary);
   background: transparent;
 
   &::before {
-    background: $white;
+    background: white;
   }
 
   &:hover {
-    background: $primary-color;
-    color: $primary-color;
+    background: var(--gcg-color-primary);
+    color: var(--gcg-color-primary);
   }
 
   &:active {
-    background: $primary-color;
-    color: $white;
+    background: var(--gcg-color-primary);
+    color: white;
   }
 }

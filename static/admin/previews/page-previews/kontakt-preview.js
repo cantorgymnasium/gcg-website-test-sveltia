@@ -5,7 +5,7 @@ const KontaktPreview = ({ widgetsFor, entry }) => {
     PageHeader(entry),
     h(
       "section",
-      { className: "section-sm bg-gray" },
+      { className: "section-sm bg-body-tertiary" },
       h(
         "div",
         { className: "container" },
