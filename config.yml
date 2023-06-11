@@ -179,13 +179,17 @@ menu:
       params:
         external: false
         separator: false
-    - name: Für Schüler und Eltern
+    - name: >
+        Für Schüler
+        und Eltern
       weight: 4
       hasChildren: true
       params:
         external: false
         separator: false
-    - parent: Für Schüler und Eltern
+    - parent: >
+        Für Schüler
+        und Eltern
       name: Dokumente und Formulare
       URL: forms
       weight: 1
@@ -193,7 +197,9 @@ menu:
       params:
         external: false
         separator: false
-    - parent: Für Schüler und Eltern
+    - parent: >
+        Für Schüler
+        und Eltern
       name: Vertretungsplan
       URL: https://stundenplan24.de/20072021/mobil/
       weight: 2
@@ -201,7 +207,9 @@ menu:
       params:
         external: true
         separator: false
-    - parent: Für Schüler und Eltern
+    - parent: >
+        Für Schüler
+        und Eltern
       name: Lernplattform Moodle
       URL: https://moodle.bildung-lsa.de/gcg
       weight: 3
@@ -209,7 +217,9 @@ menu:
       params:
         external: true
         separator: false
-    - parent: Für Schüler und Eltern
+    - parent: >
+        Für Schüler
+        und Eltern
       name: Essensbestellung
       URL: https://heideklause-halle.de/bestellung/
       weight: 4
@@ -217,7 +227,9 @@ menu:
       params:
         external: true
         separator: false
-    - parent: Für Schüler und Eltern
+    - parent: >
+        Für Schüler
+        und Eltern
       name: Schulshop
       URL: https://schulkleidung.de/shop/index.php?nr=SDQUCKVD
       weight: 5
@@ -225,7 +237,9 @@ menu:
       params:
         external: true
         separator: true
-    - parent: Für Schüler und Eltern
+    - parent: >
+        Für Schüler
+        und Eltern
       name: Förderverein
       URL: pages/foerderverein
       weight: 6
@@ -233,7 +247,9 @@ menu:
       params:
         external: false
         separator: false
-    - parent: Für Schüler und Eltern
+    - parent: >
+        Für Schüler
+        und Eltern
       name: Schülervertretung
       URL: pages/schuelervertretung
       weight: 7
@@ -244,7 +260,9 @@ menu:
     - name: Elternvertretung
       weight: 8
       URL: pages/elternvertretung
-      parent: Für Schüler und Eltern
+      parent: >
+        Für Schüler
+        und Eltern
       hasChildren: false
       params:
         external: false

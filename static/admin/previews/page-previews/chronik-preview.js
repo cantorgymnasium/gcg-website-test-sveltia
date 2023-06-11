@@ -2,7 +2,7 @@ import { PageHeader } from "./components/index.js";
 
 const ChronikPreview = ({ widgetFor, widgetsFor, entry, document, window }) => {
   /*return [PageHeader,
-            h('section', {className: "section-sm"},
+            h('section', {className: "section"},
                 h('div', {className: "container"},
                     h('div', {className: "row"},
                     h('div', {className: "col-12 mb-4 content"},

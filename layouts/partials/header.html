@@ -27,7 +27,7 @@
     </div>
   </div>
   {{ end }}
-  <div class="navigation w-100 {{ if .Site.Params.top_header }} top-hider {{ end }}">
+  <div class="navigation w-100">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
         
@@ -47,7 +47,7 @@
             {{ if .HasChildren }}
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                {{ .Name }}
+                {{ .Name | markdownify }}
               </a>
               <ul class="dropdown-menu">
                 {{ range .Children }}
@@ -65,7 +65,7 @@
             {{ end }}
             {{ end }}
             <li class="nav-item">
-              <div class="nav-link" onclick="$('#pagefind-search').modal('show');"><i class="mdi mdi-magnify"></i> Suche</button>
+              <div class="nav-link nav-search" onclick="$('#pagefind-search').modal('show');">Suche</button>
             </li>
           </ul>
 
@@ -106,10 +106,10 @@
   {{ if and $top_banner.enable }}
   {{ if or (not $top_banner.temporarily.enable) (and $top_banner.temporarily.enable (and (le ($top_banner.temporarily.start_date | time.AsTime).Unix now.Unix ) (ge ($top_banner.temporarily.end_date | time.AsTime).Unix now.Unix))) }}
   {{ with $top_banner }}
-  <div id="top-banner" class="p-3 top-banner" style="background:{{ .color }}" data-pagefind-ignore>
+  <div id="top-banner" class="p-3" style="background: {{ .color }}" data-pagefind-ignore>
     <div class="container">
       <div class="no-gutters align-items-center">
-        <div style="color:{{ .font_color }}"><b><i class="{{ .icon }}"></i> {{ .text | markdownify }}</b></div>
+        <div style="color: {{ .font_color }}"><b><i class="{{ .icon }}"></i> {{ .text | markdownify }}</b></div>
       </div>
     </div>
   </div>

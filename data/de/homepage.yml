@@ -196,7 +196,7 @@ info:
 termine:
   enable: true
   title: Anstehende Termine
-  number: 1
+  number: 3
 digitalpakt:
   enable: true
   title: DigitalPakt Schule

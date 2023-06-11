@@ -16,7 +16,7 @@ const AboutPreview = ({ widgetFor, widgetsFor, entry, fields, collection }) => {
     PageHeader(entry),
     h(
       "section",
-      { className: "section-sm" },
+      { className: "section" },
       h(
         "div",
         { className: "container" },
@@ -35,7 +35,7 @@ const AboutPreview = ({ widgetFor, widgetsFor, entry, fields, collection }) => {
     entry.data.stats.enable
       ? h(
           "section",
-          { className: "section-sm bg-primary" },
+          { className: "section bg-primary" },
           h(
             "div",
             { className: "container" },

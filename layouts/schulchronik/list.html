@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="section-sm">
+<section class="section">
   <div class="container">
     {{ .Content }}
   </div>
@@ -24,7 +24,7 @@
     {{ end }}
   {{ end }}
   <div class="container">
-    <h2 class="section-title">Informationsseiten</h2>
+    <h2 class="mb-4">Informationsseiten</h2>
     <div class="row">
       {{ range .Params.links }}
         <div class="col-lg-4 col-sm-6">
@@ -34,7 +34,7 @@
     </div>
   </div>
   <div class="container">
-    <h2 class="section-title">Chronik</h2>
+    <h2 class="mb-4">Chronik</h2>
     <div class="row">
       {{ range (where .Data.Pages "Params.type" "schulchronik") }}
       <div class="col-lg-4 col-sm-6">

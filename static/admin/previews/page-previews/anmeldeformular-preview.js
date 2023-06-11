@@ -5,7 +5,7 @@ const AnmeldeformularPreview = ({ widgetFor, entry }) => {
     PageHeader(entry),
     h(
       "section",
-      { className: "section-sm bg-body-tertiary" },
+      { className: "section bg-body-tertiary" },
       h(
         "div",
         { className: "container" },

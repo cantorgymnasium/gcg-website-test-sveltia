@@ -5,7 +5,7 @@ const FormsPreview = ({ widgetsFor, widgetFor, entry }) => {
     PageHeader(entry),
     h(
       "section",
-      { className: "section-sm" },
+      { className: "section" },
       h(
         "div",
         { className: "container" },
@@ -15,7 +15,7 @@ const FormsPreview = ({ widgetsFor, widgetFor, entry }) => {
           h(
             "div",
             { className: "col-12" },
-            h("h2", { className: "section-title" }, entry.data.title)
+            h("h2", { className: "mb-4" }, entry.data.title)
           )
         ),
         h(

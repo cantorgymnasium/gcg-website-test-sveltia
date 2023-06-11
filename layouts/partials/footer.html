@@ -1,5 +1,5 @@
 <footer data-pagefind-ignore>
-  <div class="footer bg-footer section border-bottom">
+  <div class="footer bg-footer section">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-sm-8 mb-5 mb-lg-0">
@@ -67,11 +67,9 @@
 <script src="{{ . | absURL }}"></script>
 {{ end }}
 
-{{ $script := resources.Get "js/script.js" | minify}}
+{{ $script := resources.Get "js/script.js" | minify }}
 <script src="{{ $script.Permalink }}"></script>
 
 <script>
-  var lazyLoadInstance = new LazyLoad({
-    // Your custom settings go here
-  });
+  new LazyLoad();
 </script>

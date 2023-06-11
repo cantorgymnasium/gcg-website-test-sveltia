@@ -76,7 +76,7 @@ const BlogPreview = ({ widgetFor, entry, fields, collection }) => {
             "div",
             {
               key: "body-content",
-              className: "col-12 mb-5 content content-justify",
+              className: "col-12 mb-5 content text-justify",
             },
             widgetFor("body")
           ),

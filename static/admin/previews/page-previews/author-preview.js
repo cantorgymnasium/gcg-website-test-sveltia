@@ -16,7 +16,7 @@ const AuthorPreview = ({ widgetFor, entry, fields, collection }) => {
     PageHeader(entry),
     h(
       "section",
-      { className: "section-sm bg-light" },
+      { className: "section bg-light" },
       h(
         "div",
         { className: "container" },

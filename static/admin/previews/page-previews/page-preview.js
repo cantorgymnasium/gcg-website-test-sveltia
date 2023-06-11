@@ -5,7 +5,7 @@ const PagePreview = ({ widgetFor, entry }) => {
     PageHeader(entry),
     h(
       "section",
-      { className: "section-sm" },
+      { className: "section" },
       h(
         "div",
         { className: "container" },

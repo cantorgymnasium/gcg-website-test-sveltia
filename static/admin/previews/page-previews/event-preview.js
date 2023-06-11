@@ -16,7 +16,7 @@ const EventPreview = ({ widgetsFor, entry }) => {
     PageHeader(entry),
     h(
       "section",
-      { className: "section-sm" },
+      { className: "section" },
       h(
         "div",
         { className: "container" },
@@ -111,7 +111,7 @@ const EventPreview = ({ widgetsFor, entry }) => {
                       "div",
                       {
                         className:
-                          "d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0 p-2",
+                          "d-md-table-cell px-4 align-middle mb-4 mb-md-0 p-2",
                       },
                       h("p", { className: "h4 mb-0 d-block" }, event.data.title)
                     ),
@@ -120,7 +120,7 @@ const EventPreview = ({ widgetsFor, entry }) => {
                           "div",
                           {
                             className:
-                              "d-md-table-cell text-end pe-md-4 p-2 vertical-align-middle",
+                              "d-md-table-cell text-end pe-md-4 p-2 align-middle",
                           },
                           h(
                             "p",

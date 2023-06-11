@@ -4,11 +4,11 @@
       <span class="d-block">{{ time.Format "Jan 2006" .date}}</span>
       {{ with .enddate }}<br>bis {{ time.Format "2 Jan 2006" . }}{{ end }}
     </div>
-    <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0 p-2">
+    <div class="d-md-table-cell px-4 align-middle mb-4 mb-md-0 p-2">
       <p class="h4 mb-0 d-block">{{ .title }}</p>
     </div>
     {{ with .location }}
-    <div class="d-md-table-cell text-end pe-md-4 p-2 vertical-align-middle">
+    <div class="d-md-table-cell text-end pe-md-4 p-2 align-middle">
       <p><i class="mdi mdi-map-marker-radius-outline icon-s text-primary me-2"></i>{{ . | markdownify }}</p>
     </div>
     {{ end }}

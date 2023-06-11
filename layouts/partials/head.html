@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="{{ . | absURL }}">
   {{ end }}
 
-  {{ $styles := resources.Get "scss/style.scss" | toCSS }}
-  <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+  {{ $style := resources.Get "css/style.css" | minify }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" media="screen">
 
   <link rel="shortcut icon" href="{{ `media/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `media/favicon.png` | absURL }}" type="image/x-icon">
@@ -46,7 +46,7 @@
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function() {
-      var u="//analytics.cantorgymnasium.de/";
+      var u="https://analytics.cantorgymnasium.de/";
       _paq.push(['setTrackerUrl', u+'matomo.php']);
       _paq.push(['setSiteId', '1']);
       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];

@@ -4,14 +4,14 @@
 <section class="section bg-cover" data-background="{{ .bg_image | absURL }}">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-sm-4 position-relative success-video">
+      <div class="col-lg-6 col-sm-4 position-relative intro-video">
         <a class="play-btn vb-video" href="{{ .video_link | safeURL }}" data-vbtype="video">
           <i class="mdi mdi-play icon-md"></i>
         </a>
       </div>
       <div class="col-lg-6 col-sm-8">
         <div class="bg-white p-5">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <h2 class="mb-4">{{ .title | markdownify }}</h2>
           <p>{{ .content | markdownify }}</p>
         </div>
       </div>

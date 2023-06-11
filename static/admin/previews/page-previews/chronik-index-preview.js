@@ -22,7 +22,7 @@ const ChronikIndexPreview = ({
     PageHeader(entry),
     h(
       "section",
-      { className: "section-sm" },
+      { className: "section" },
       h("div", { className: "container" }, widgetFor("body")),
       widgetsFor("infocard").data.enable
         ? h(
@@ -71,7 +71,7 @@ const ChronikIndexPreview = ({
       h(
         "div",
         { className: "container" },
-        h("h2", { className: "section-title" }, "Informationsseiten"),
+        h("h2", { className: "mb-4" }, "Informationsseiten"),
         h(
           "div",
           { className: "row" },

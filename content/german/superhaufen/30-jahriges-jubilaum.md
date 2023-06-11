@@ -12,7 +12,7 @@ tiles:
     font_color: "#ffffff"
     icon: mdi mdi-crowd
     content: |+
-      
+
 
       {{< gallery dir="/media/schulchronik/2018/programmheft" >}}
 
@@ -146,7 +146,7 @@ tiles:
     unterhaufen:
       - title: Überblick
         content: |+
-          
+
 
           {{< gallery dir="/media/schulchronik/2018/ubersicht" >}}
 
@@ -163,7 +163,7 @@ tiles:
           individuelle Programme für die Jahrgänge entworfen. Die damaligen
 
 
-          \1. und 8. Klassen durften sich den Film „Nerve“ angesehen,
+          8. Klassen durften sich den Film „Nerve“ angesehen,
 
           welcher sich mit der Nutzung von Medien auseinandersetzt. Gezeigt
 

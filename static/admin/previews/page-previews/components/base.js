@@ -1,5 +1,5 @@
 const Section = (children) =>
-  h("section", { className: "section-sm" }, children);
+  h("section", { className: "section" }, children);
 const Container = (children) => h("div", { className: "container" }, children);
 const Row = (children) => h("div", { className: "row" }, children);
 const Content = (children) => h("div", { className: "content" }, children);
