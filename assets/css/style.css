@@ -450,7 +450,7 @@ details[open] summary {
   bottom: -123px;
   z-index: 9;
   padding: 15px;
-  color: rgba(white, 0.5);
+  color: rgba(255, 255, 255, 0.5);
   border: 0;
   font-size: 30px;
   transition: all linear 0.2s;
@@ -501,7 +501,7 @@ details[open] summary {
   overflow: hidden;
   height: 10px;
   width: 10px;
-  background: rgba(white, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   border: 0;
   outline: 0;
 }
