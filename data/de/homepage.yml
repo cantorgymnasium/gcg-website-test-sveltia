@@ -1,15 +1,16 @@
 top_banner:
   enable: true
   text: >
-    Achtung: das traditionelle Abifiz am 31.05.2023 **entfällt** leider. Wir
-    bitten, die Unannehmlichkeiten zu entschuldigen.
-  color: "#de6829"
+    Die Theater-AG lädt am 22. und 23. Juni ab 17 Uhr zur Aufführung ihres
+    neusten Stückes: Mord mit Nachsicht. Erleben Sie witzige Ermittlungen rund
+    um den Mord in einer Schokoladenfabrik. Eintrittskarten kosten 3€. 
+  color: "#19aa96"
   font_color: "#ffffff"
-  icon: mdi mdi-alert-decagram-outline
+  icon: mdi mdi-drama-masks
   temporarily:
     enable: true
-    start_date: 2023-05-22T08:12:06.000+02:00
-    end_date: 2023-06-01T16:32:30.000+02:00
+    start_date: 2023-06-17T13:20:17.421+02:00
+    end_date: 2023-06-24T16:32:30.000+02:00
 slider:
   enable: true
   bg_image: media/home/banner.webp
