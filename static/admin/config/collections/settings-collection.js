@@ -28,7 +28,7 @@ const SettingsCollection = {
     {
       name: "data-homepage",
       label: "Startseiteneinstellungen",
-      file: "data/de/homepage.yml",
+      file: "data/homepage.yml",
       fields: [
         {
           name: "top_banner",
@@ -351,7 +351,7 @@ const SettingsCollection = {
     {
       name: "data-ausblick",
       label: "Ausblick auf die Woche",
-      file: "data/de/ausblick.yml",
+      file: "data/ausblick.yml",
       fields: [
         EnableBoolean,
         Title(false),
@@ -896,7 +896,7 @@ const SettingsCollection = {
     {
       name: "data-categories",
       label: "Kategorien und Zuordnungen",
-      file: "data/de/categories.yml",
+      file: "data/categories.yml",
       fields: [
         {
           name: "blog",
