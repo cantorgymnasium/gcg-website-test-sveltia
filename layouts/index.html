@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := .Site.Data }}
 
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
@@ -30,7 +30,7 @@
       display: none;
     }
   </style>
-  <section class="hero-section overlay bg-cover" style="background-image: url({{ $data.homepage.slider.bg_image | absURL }});">
+  <section class="hero-section overlay bg-cover" style="background-image: url('{{ $data.homepage.slider.bg_image | absURL }}');">
     <div class="container">
       <div class="hero-slider">
           <div class="row">
@@ -114,17 +114,19 @@
       </div>
     </div>
     <div class="row justify-content-center">
+      {{ if $data.ausblick.enable }}
+      {{ with $data.ausblick }}
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
         <div class="card border-info rounded-0 hover-shadow mb-4">
           <span class="position-absolute top-0 start-0 ms-5 translate-middle p-2 text-bg-info border border-light rounded-pill">
             <i class="mdi mdi-pin me-2">Angeheftet</i>
           </span>        
-          <img class="card-img-top rounded-0" src="{{ $data.ausblick.image | relURL }}" alt="{{ $data.ausblick.title }}" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">
+          <img class="card-img-top rounded-0" src="{{ .image | relURL }}" alt="{{ .title }}" onclick="$('#{{ md5 .title }}').modal('show');">
           <div class="card-body d-flex flex-column">
             <div class="row mb-2">
               <div class="col-12">
                 <i class="mdi mdi-fountain-pen-tip me-2"></i>
-                {{ range $index, $elements := where (where .Site.RegularPages "Type" "author") "File.BaseFileName" "in" $data.ausblick.author  }}
+                {{ range $index, $elements := where (where .Site.RegularPages "Type" "author") "File.BaseFileName" "in" .author  }}
                   {{ if ne $index 0 }}, {{ end }}
                   {{ if .Params.simplified }}
                     {{ .Title }}
@@ -134,14 +136,16 @@
                 {{ end }}
               </div>
             </div>
-            <h4 class="card-title text-truncate" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">{{ $data.ausblick.title }}</h4>
-            <p class="card-text" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">{{ $data.ausblick.content | truncate 100 }}</p>
-            <button type="button" class="btn btn-primary btn-sm mt-auto align-self-start" onclick="$('#{{ md5 $data.ausblick.title }}').modal('show');">{{
+            <h4 class="card-title text-truncate" onclick="$('#{{ md5 .title }}').modal('show');">{{ .title }}</h4>
+            <p class="card-text" onclick="$('#{{ md5 .title }}').modal('show');">{{ .content | truncate 100 }}</p>
+            <button type="button" class="btn btn-primary btn-sm mt-auto align-self-start" onclick="$('#{{ md5 .title }}').modal('show');">{{
               i18n "show_more"}}</button>
           </div>
         </div>
       </div>
-      {{ range first (int $data.homepage.blog.number) (where .Site.RegularPages "Type" "post")}}
+      {{ end }}
+      {{ end }}
+      {{ range first (cond $data.ausblick.enable (int $data.homepage.blog.number) (add $data.homepage.blog.number 1)) (where .Site.RegularPages "Type" "post")}}
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
         {{ .Render "card" }}
       </div>

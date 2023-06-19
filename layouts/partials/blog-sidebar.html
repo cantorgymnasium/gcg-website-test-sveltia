@@ -1,8 +1,7 @@
 <aside class="col-lg-4 order-4 order-lg-2" data-pagefind-ignore="all">
   <div class="bg-white mb-4">
     <h4 class="mb-4">{{ i18n "categories" }}</h4>
-    {{ $data := index .Site.Data .Site.Language.Lang }}
-    {{ $transliterations := $data.transliterations.transliterations }}
+    {{ $transliterations := .Site.Data.transliterations.transliterations }}
     {{- if isset .Site.Taxonomies "categories" }}
     {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
     <ul class="list-inline tag-list">
