@@ -8,7 +8,7 @@ const PagesCollection = {
   description:
     "Zusatzseiten können direkt aus der grafischen Oberfläche heraus erstellt werden und sind unter https://cantorgymnasium.de/pages/[SEITENTITEL] einsehbar. Sie bestehen immer aus einem Titel, einer Metabeschreibung (kurzer Einstiegstext) und dem eigentlichen Inhalt. Einer Zusatzseite kann auch ein Alias, also eine alternative URL zugewiesen werden.",
   icon: "page-add",
-  folder: "content/german/pages",
+  folder: "content/pages",
   create: true,
   editor: {
     preview: true,

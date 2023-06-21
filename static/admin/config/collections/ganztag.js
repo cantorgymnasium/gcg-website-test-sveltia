@@ -8,7 +8,7 @@ const GanztagCollection = {
   description:
     "Hier kann die Übersicht der Ganztagsangebote bearbeitet werden.",
   icon: "group",
-  folder: "content/german/ganztagsangebote",
+  folder: "content/ganztagsangebote",
   create: true,
   editor: {
     preview: true,

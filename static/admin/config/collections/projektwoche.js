@@ -7,7 +7,7 @@ const ProjektwocheCollection = {
   label_singular: "Projektwoche",
   description: "Hier kann die Übersicht der Projektwochen bearbeitet werden.",
   icon: "projektwoche",
-  folder: "content/german/projektwoche",
+  folder: "content/projektwoche",
   filter: {
     field: "type",
     value: "projektwoche",

@@ -7,7 +7,7 @@ const CantorpreisCollection = {
   description:
     "Hier sind alle Cantorpreisträger aufgelistet. Dieser Bereich wird von der Schulchronik verwaltet.",
   icon: "award",
-  folder: "content/german/cantorpreis",
+  folder: "content/cantorpreis",
   filter: {
     field: "type",
     value: "cantorpreis",

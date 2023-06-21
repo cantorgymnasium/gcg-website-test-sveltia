@@ -8,7 +8,7 @@ const FormsCollection = {
   description:
     "Hier sind Formulare, Vorlagen und andere Dokumente zu hinterlegen.",
   icon: "document",
-  folder: "content/german/forms",
+  folder: "content/forms",
   create: true,
   editor: {
     preview: true,

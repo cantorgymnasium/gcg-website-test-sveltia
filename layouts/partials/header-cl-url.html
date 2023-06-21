@@ -12,14 +12,14 @@
         <div class="d-flex align-items-center">
           <i class="mdi mdi-crowd text-primary icon-md me-2"></i>
           <div class="text-start">
-            <h6 class="mb-0">{{ i18n "class" | upper }}</h6>
+            <h6 class="mb-0 text-uppercase">Klassen</h6>
             <p class="mb-0">{{ .Params.class }}</p>
           </div>
         </div>
       </div>
       {{ if .Params.web_url }}
       <div class="col-5 text-end mb-4 mb-xl-0">
-        <a href="{{ .Params.web_url | safeURL }}" class="btn btn-primary">{{ i18n "website" }}</a>
+        <a href="{{ .Params.web_url | safeURL }}" class="btn btn-primary">Website</a>
       </div>
       {{ end }}
       <div class="col-12 mt-4">

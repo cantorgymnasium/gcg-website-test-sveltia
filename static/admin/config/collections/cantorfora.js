@@ -8,7 +8,7 @@ const CantorforaCollection = {
   description:
     "Hier kann die Übersicht der Cantorfora bearbeitet werden. Dieser Bereich wird von der Schulchronik verwaltet.",
   icon: "presentation",
-  folder: "content/german/cantorfora",
+  folder: "content/cantorfora",
   filter: {
     field: "type",
     value: "cantorfora",

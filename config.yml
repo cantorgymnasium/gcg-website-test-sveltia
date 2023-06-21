@@ -2,12 +2,11 @@ baseURL: https://cantorgymnasium.de/
 title: Georg-Cantor-Gymnasium
 paginate: 8
 summaryLength: "10"
-defaultContentLanguageInSubdir: false
-defaultContentLanguage: de
 enableEmoji: true
 enableRobotsTxt: true
 timeZone: Europe/Berlin
 removePathAccents: true
+defaultContentLanguage: "de"
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
@@ -24,9 +23,12 @@ params:
   email_label: schulleitung<i class='mdi mdi-at'></i>cantor-gymnasium.de
   description: Das Georg-Cantor-Gymnasium - eine
     mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale).
-  twitter: cantor_news
   images:
     - media/zeichnung.webp
+  impressumURL: pages/impressum
+  dseURL: pages/datenschutz
+  copyright: "Copyright &copy; 2023 Georg-Cantor-Gymnasium Halle (Saale). Made
+      with :heart: and [Hugo](https://gohugo.io)."
   plugins:
     css:
       - https://assets.cantorgymnasium.de/bootstrap/v5/css/bootstrap.min.css
@@ -179,17 +181,13 @@ menu:
       params:
         external: false
         separator: false
-    - name: >
-        Für Schüler
-        und Eltern
+    - name: Für Schüler und Eltern
       weight: 4
       hasChildren: true
       params:
         external: false
         separator: false
-    - parent: >
-        Für Schüler
-        und Eltern
+    - parent: Für Schüler und Eltern
       name: Dokumente und Formulare
       URL: forms
       weight: 1
@@ -197,9 +195,7 @@ menu:
       params:
         external: false
         separator: false
-    - parent: >
-        Für Schüler
-        und Eltern
+    - parent: Für Schüler und Eltern
       name: Vertretungsplan
       URL: https://stundenplan24.de/20072021/mobil/
       weight: 2
@@ -207,9 +203,7 @@ menu:
       params:
         external: true
         separator: false
-    - parent: >
-        Für Schüler
-        und Eltern
+    - parent: Für Schüler und Eltern
       name: Lernplattform Moodle
       URL: https://moodle.bildung-lsa.de/gcg
       weight: 3
@@ -217,9 +211,7 @@ menu:
       params:
         external: true
         separator: false
-    - parent: >
-        Für Schüler
-        und Eltern
+    - parent: Für Schüler und Eltern
       name: Essensbestellung
       URL: https://heideklause-halle.de/bestellung/
       weight: 4
@@ -227,9 +219,7 @@ menu:
       params:
         external: true
         separator: false
-    - parent: >
-        Für Schüler
-        und Eltern
+    - parent: Für Schüler und Eltern
       name: Schulshop
       URL: https://schulkleidung.de/shop/index.php?nr=SDQUCKVD
       weight: 5
@@ -237,9 +227,7 @@ menu:
       params:
         external: true
         separator: true
-    - parent: >
-        Für Schüler
-        und Eltern
+    - parent: Für Schüler und Eltern
       name: Förderverein
       URL: pages/foerderverein
       weight: 6
@@ -247,9 +235,7 @@ menu:
       params:
         external: false
         separator: false
-    - parent: >
-        Für Schüler
-        und Eltern
+    - parent: Für Schüler und Eltern
       name: Schülervertretung
       URL: pages/schuelervertretung
       weight: 7
@@ -260,9 +246,7 @@ menu:
     - name: Elternvertretung
       weight: 8
       URL: pages/elternvertretung
-      parent: >
-        Für Schüler
-        und Eltern
+      parent: Für Schüler und Eltern
       hasChildren: false
       params:
         external: false
@@ -281,18 +265,6 @@ menu:
       URL: anmeldung
     - name: Dokumente und Formulare
       URL: forms
-languages:
-  de:
-    languageName: De
-    languageCode: de-de
-    contentDir: content/german
-    weight: 1
-    copyright: "Copyright &copy; 2023 Georg-Cantor-Gymnasium Halle (Saale). Made
-      with :heart: and [Hugo](https://gohugo.io)."
-    params:
-      home: Startseite
-      impressumURL: pages/impressum
-      dseURL: pages/datenschutz
 privacy:
   disqus:
     disable: true

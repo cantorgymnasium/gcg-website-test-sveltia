@@ -8,7 +8,7 @@ const ChronikjahreCollection = {
   icon: "schulchronik",
   label: "Chronikjahre",
   label_singular: "Chronikjahr",
-  folder: "content/german/schulchronik",
+  folder: "content/schulchronik",
   filter: {
     field: "type",
     value: "schulchronik",

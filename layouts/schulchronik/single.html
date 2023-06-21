@@ -68,7 +68,7 @@
               click: function (item) {
                 if (item[1] != 200 || (item[1] == 200 && item[2] == '{{ md5 .Title }}')) {
                   if( item[3] == "superhaufen" ) {
-                    window.location.href = "{{ `/superhaufen/` | relLangURL }}" + item[2];
+                    window.location.href = "{{ `/superhaufen/` | relURL }}" + item[2];
                   } else {
                    $('#' + item[2]).modal('show');
                   }

@@ -7,7 +7,7 @@ const SuperhaufenCollection = {
   description:
     '"Superhaufen" sind ein besonderer Bereich der Schulchronik, um besonders ausführliche Ereignisse darzustellen. Dieser Bereich wird von der Schulchronik verwaltet.',
   icon: "superhaufen",
-  folder: "content/german/superhaufen",
+  folder: "content/superhaufen",
   filter: {
     field: "type",
     value: "superhaufen",

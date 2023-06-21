@@ -8,7 +8,7 @@ const BegabteCollection = {
   description:
     "Hier kann die Übersicht der Begabtenförderungsangebote bearbeitet werden.",
   icon: "pi",
-  folder: "content/german/begabte",
+  folder: "content/begabte",
   create: true,
   editor: {
     preview: true,

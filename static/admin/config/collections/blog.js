@@ -8,7 +8,7 @@ const BlogCollection = {
   description:
     'Diese Artikel werden im Bereich "Aktuelles" auf der Schulhomepage angezeigt. Sie können sowohl direkt veröffentlicht, als auch als Entwurf gespeichert werden.',
   icon: "news",
-  folder: "content/german/blog",
+  folder: "content/blog",
   create: true,
   editor: {
     preview: true,

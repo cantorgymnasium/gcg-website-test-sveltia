@@ -7,7 +7,7 @@ const WettbewerbeCollection = {
   label_singular: "Wettbewerb",
   description: "Hier kann die Übersicht der Wettbewerbe bearbeitet werden.",
   icon: "trophy",
-  folder: "content/german/wettbewerbe",
+  folder: "content/wettbewerbe",
   create: true,
   editor: {
     preview: true,

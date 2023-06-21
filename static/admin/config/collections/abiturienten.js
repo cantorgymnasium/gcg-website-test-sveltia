@@ -8,7 +8,7 @@ const AbiturientenCollection = {
   description:
     "Hier kann die Übersicht der Abiturjahrgänge bearbeitet werden. Dieser Bereich wird von der Schulchronik verwaltet.",
   icon: "graduation-cap",
-  folder: "content/german/abiturienten",
+  folder: "content/abiturienten",
   filter: {
     field: "type",
     value: "abiturienten",

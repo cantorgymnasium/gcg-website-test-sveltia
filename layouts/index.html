@@ -14,7 +14,7 @@
               <div class="hero-slider-item">
                 <p class="text-muted mb-4" >{{ .content | markdownify }}</p>
                 {{ if .button.enable }}
-                  <a href="{{ .button.link | absLangURL }}" class="btn btn-primary">{{ .button.label }}</a>
+                  <a href="{{ .button.link | absURL }}" class="btn btn-primary">{{ .button.label }}</a>
                 {{ end }}
               </div>
             {{ end }}
@@ -39,7 +39,7 @@
               {{ range first 1 $data.homepage.slider.slider_item }}
                 <p class="text-muted mb-4">{{ .content | markdownify }}</p>
                 {{ if .button.enable }}
-                  <a href="{{ .button.link | absLangURL }}" class="btn btn-primary">{{ .button.label }}</a>
+                  <a href="{{ .button.link | absURL }}" class="btn btn-primary">{{ .button.label }}</a>
                 {{ end }}
               {{ end }}
             </div>
@@ -78,7 +78,7 @@
         </div>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
+        <a href="{{ .link | absURL }}" class="btn btn-primary">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
@@ -108,7 +108,7 @@
           <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.blog.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{ `blog` | relLangURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+            <a href="{{ `blog` | relURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block">Alle anzeigen</a>
           </div>
         </div>
       </div>
@@ -138,8 +138,7 @@
             </div>
             <h4 class="card-title text-truncate" onclick="$('#{{ md5 .title }}').modal('show');">{{ .title }}</h4>
             <p class="card-text" onclick="$('#{{ md5 .title }}').modal('show');">{{ .content | truncate 100 }}</p>
-            <button type="button" class="btn btn-primary btn-sm mt-auto align-self-start" onclick="$('#{{ md5 .title }}').modal('show');">{{
-              i18n "show_more"}}</button>
+            <button type="button" class="btn btn-primary btn-sm mt-auto align-self-start" onclick="$('#{{ md5 .title }}').modal('show');">Mehr anzeigen</button>
           </div>
         </div>
       </div>
@@ -193,7 +192,7 @@
           <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.ganztagsangebote.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{ `ganztagsangebote` | relLangURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+            <a href="{{ `ganztagsangebote` | relURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block">Alle anzeigen</a>
           </div>
         </div>
       </div>
@@ -207,7 +206,7 @@
     </div>
     <div class="row">
       <div class="col-12 text-center">
-        <a href="{{ `ganztagsangebote` | relLangURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+        <a href="{{ `ganztagsangebote` | relURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">Alle anzeigen</a>
       </div>
     </div>
   </div>
@@ -224,7 +223,7 @@
         <h5 class="mb-4 text-white">{{ .subtitle | markdownify }}</h5>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-secondary text-uppercase">{{ .label }}</a>
+        <a href="{{ .link | absURL }}" class="btn btn-secondary text-uppercase">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
@@ -247,7 +246,7 @@
           <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.termine.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{`termine` | relLangURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block text-nowrap">{{ i18n "all_events" }}</a>
+            <a href="{{`termine` | relURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block text-nowrap">Alle anzeigen</a>
           </div>
         </div>
       </div>
@@ -272,7 +271,7 @@
     </div>
     <div class="row">
       <div class="col-12 text-center">
-        <a href="{{`termine` | relLangURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+        <a href="{{`termine` | relURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">Alle anzeigen</a>
       </div>
     </div>
   </div>
@@ -291,7 +290,7 @@
         </div>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
+        <a href="{{ .link | absURL }}" class="btn btn-primary">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>

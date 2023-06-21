@@ -8,7 +8,7 @@ const ChronikseitenCollection = {
   description:
     "Chronikseiten entsprechen von der Funktionalität herkömmlichen Zusatzseiten, sind allerdings der Schulchronik vorbehalten.",
   icon: "page-add",
-  folder: "content/german/chronikseiten",
+  folder: "content/chronikseiten",
   create: true,
   editor: {
     preview: true,

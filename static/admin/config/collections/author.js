@@ -8,7 +8,7 @@ const AuthorCollection = {
   description:
     "Autoren können einem Blogartikel zugewiesen werden. Wir unterscheiden in aktive und inaktive sowie vereinfachte Autoren, welche nur mit dem Namen angezeigt werden, und erweiterte Autoren, für die eine Übersichtsseite angelegt wird.Autoren können einem Blogartikel zugewiesen werden.",
   icon: "user",
-  folder: "content/german/author",
+  folder: "content/author",
   create: true,
   editor: {
     preview: true,

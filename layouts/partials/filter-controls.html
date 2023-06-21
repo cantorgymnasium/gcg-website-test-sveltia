@@ -1,7 +1,7 @@
 <div class="row gta-cat">
   <div class="col-lg-12">
     <ul class="list-inline text-center filter-controls mb-5">
-      <li class="list-inline-item m-3 text-uppercase active" data-filter="all">{{ i18n "all" }}</li>
+      <li class="list-inline-item m-3 text-uppercase active" data-filter="all">Alle</li>
       {{ $categories := slice }}
       {{ range .Data.Pages }}
         {{ $categories = $categories | append .Params.category }}

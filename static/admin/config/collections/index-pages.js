@@ -23,13 +23,13 @@ const IndexPagesCollection = {
     {
       name: "blog-index",
       label: "Aktuelles",
-      file: "content/german/blog/_index.md",
+      file: "content/blog/_index.md",
       fields: [Title(false), DescriptionText],
     },
     {
       name: "about-index",
       label: "Über die Schule",
-      file: "content/german/about/_index.md",
+      file: "content/about/_index.md",
       fields: [
         Title(false),
         DescriptionText,
@@ -84,7 +84,7 @@ const IndexPagesCollection = {
     {
       name: "anmeldung-index",
       label: "Aufnahmeverfahren",
-      file: "content/german/anmeldung/_index.md",
+      file: "content/anmeldung/_index.md",
       fields: [
         Title(false),
         DescriptionText,
@@ -118,13 +118,13 @@ const IndexPagesCollection = {
     {
       name: "author-index",
       label: "Autoren",
-      file: "content/german/author/_index.md",
+      file: "content/author/_index.md",
       fields: [Title(false), DescriptionText],
     },
     {
       name: "anmeldeformular",
       label: "Anmeldeformular",
-      file: "content/german/anmeldeformular/_index.md",
+      file: "content/anmeldeformular/_index.md",
       fields: [
         Title(false),
         DescriptionText,
@@ -140,13 +140,13 @@ const IndexPagesCollection = {
     {
       name: "cantorpreis-index",
       label: "Cantorpreis",
-      file: "content/german/cantorpreis/_index.md",
+      file: "content/cantorpreis/_index.md",
       fields: [Title(false), DescriptionText],
     },
     {
       name: "kontakt",
       label: "Kontakt",
-      file: "content/german/kontakt/_index.md",
+      file: "content/kontakt/_index.md",
       fields: [
         Title(false),
         DescriptionText,
@@ -183,7 +183,7 @@ const IndexPagesCollection = {
     {
       name: "termine",
       label: "Termine",
-      file: "content/german/termine/_index.md",
+      file: "content/termine/_index.md",
       fields: [
         Title(false),
         DescriptionText,
@@ -229,43 +229,43 @@ const IndexPagesCollection = {
     {
       name: "forms-index",
       label: "Dokumente und Formulare",
-      file: "content/german/forms/_index.md",
+      file: "content/forms/_index.md",
       fields: [Title(false), DescriptionText],
     },
     {
       name: "ganztagsangebote-index",
       label: "Unser Ganztagsbereich",
-      file: "content/german/ganztagsangebote/_index.md",
+      file: "content/ganztagsangebote/_index.md",
       fields: [Title(false), DescriptionText],
     },
     {
       name: "projektwoche-index",
       label: "Projektwoche",
-      file: "content/german/projektwoche/_index.md",
+      file: "content/projektwoche/_index.md",
       fields: [Title(false), DescriptionText],
     },
     {
       name: "wettbewerbe-index",
       label: "Wettbewerbe",
-      file: "content/german/wettbewerbe/_index.md",
+      file: "content/wettbewerbe/_index.md",
       fields: [Title(false), DescriptionText],
     },
     {
       name: "begabte-index",
       label: "Begabtenförderung",
-      file: "content/german/begabte/_index.md",
+      file: "content/begabte/_index.md",
       fields: [Title(false), DescriptionText],
     },
     {
       name: "abiturienten-index",
       label: "Abiturienten",
-      file: "content/german/abiturienten/_index.md",
+      file: "content/abiturienten/_index.md",
       fields: [Title(false), DescriptionText],
     },
     {
       name: "cantorfora-index",
       label: "Cantorfora",
-      file: "content/german/cantorfora/_index.md",
+      file: "content/cantorfora/_index.md",
       fields: [
         Title(false),
         DescriptionText,
@@ -281,7 +281,7 @@ const IndexPagesCollection = {
     {
       name: "schulchronik-index",
       label: "Schulchronik",
-      file: "content/german/schulchronik/_index.md",
+      file: "content/schulchronik/_index.md",
       fields: [
         Title(false),
         DescriptionText,
