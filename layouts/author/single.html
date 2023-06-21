@@ -37,7 +37,7 @@
 		  <h2 class="mb-4">{{ i18n "posted_by" }} {{ .Title }}</h2>
 		</div>
 	</div>
-	  {{ range where .Site.RegularPages "Params.author" (.Title | title) }}
+	  {{ range where .Site.RegularPages "Params.author" "intersect" (slice .File.BaseFileName) }}
 	    <div class="col-lg-4 col-sm-6 mb-4">
 	      {{ .Render "card" }}
 	    </div>
