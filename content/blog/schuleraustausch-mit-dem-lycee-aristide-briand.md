@@ -1,7 +1,7 @@
 ---
 title: Schüleraustausch mit dem Lycée "Aristide Briand"
 date: 2023-06-21T18:44:28.226+02:00
-draft: true
+draft: false
 image: /media/blog/2023/austausch_frankreich/02.webp
 author:
   - katharina-starzmann
