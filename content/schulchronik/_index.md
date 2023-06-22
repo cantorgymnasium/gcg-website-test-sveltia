@@ -19,7 +19,9 @@ links:
   - title: Über das GCG
     link: /chronikseiten/ueber-das-gcg
   - title: Alumninetzwerk
-    link: /chronikseiten/alumninetzwerk
+    link: /alumninetzwerk
+  - title: Cantorfora
+    link: /cantorfora
   - title: Chronologie
     link: /chronikseiten/chronologie
   - title: Traditionen
