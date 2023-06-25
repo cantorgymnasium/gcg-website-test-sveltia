@@ -47,6 +47,7 @@ const BlogCollection = {
     {
       name: "image",
       label: "Titelbild",
+      hint: "16:9 Seitenverhältnis beachten",
       widget: "image",
       required: true,
       default: "/media/image.webp",
