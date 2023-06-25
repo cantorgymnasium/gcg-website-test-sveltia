@@ -126,7 +126,7 @@
             <div class="row mb-2">
               <div class="col-12">
                 <i class="mdi mdi-fountain-pen-tip me-2"></i>
-                {{ range $index, $elements := where (where .Site.RegularPages "Type" "author") "File.BaseFileName" "in" .author  }}
+                {{ range $index, $elements := where (where $.Site.RegularPages "Type" "author") "File.BaseFileName" "in" .author  }}
                   {{ if ne $index 0 }}, {{ end }}
                   {{ if .Params.simplified }}
                     {{ .Title }}
