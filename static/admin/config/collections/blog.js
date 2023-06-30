@@ -88,7 +88,7 @@ const BlogCollection = {
       search_fields: ["subjects.*"],
       display_fields: ["subjects.*"],
       multiple: true,
-      required: true,
+      required: false,
     },
     {
       name: "tags",
