@@ -1,8 +1,8 @@
 ---
-title: Leben in der DDR - Ein Theaterstück für unsere 10er
+title: Leben in der DDR - Ein Puppentheaterstück für unsere 10er
 date: 2023-07-02T20:44:28.330+02:00
-draft: true
-image: /media/image.webp
+draft: false
+image: /media/blog/2023/theaterddr10erbildcollage.webp
 author:
   - frau-hartig
 categories:
