@@ -63,6 +63,7 @@ const BlogCollection = {
       display_fields: ["{{title}}"],
       multiple: true,
       required: true,
+      options_length: 10000,
     },
     {
       name: "categories",
@@ -76,6 +77,7 @@ const BlogCollection = {
       display_fields: ["blog.*"],
       multiple: true,
       required: true,
+      options_length: 10000,
     },
     {
       name: "subjects",
@@ -89,6 +91,7 @@ const BlogCollection = {
       display_fields: ["subjects.*"],
       multiple: true,
       required: false,
+      options_length: 10000,
     },
     {
       name: "tags",
