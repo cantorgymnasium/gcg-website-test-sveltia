@@ -1,5 +1,5 @@
 ---
-title: 22. SParkassencup der Schulen - Drachenboot
+title: 22. Sparkassencup der Schulen - Drachenboot
 date: 2023-07-06T11:35:36.499+02:00
 draft: false
 image: /media/blog/2023/Drachenbootrennen/drachenboot23_0.webp
@@ -8,6 +8,8 @@ author:
 categories:
   - Wettbewerbe
   - Traditionen
+  - Sport
+subjects:
   - Sport
 tags:
   - "2023"
