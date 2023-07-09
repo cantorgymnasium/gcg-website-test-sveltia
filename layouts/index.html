@@ -137,7 +137,7 @@
               </div>
             </div>
             <h4 class="card-title text-truncate" onclick="$('#{{ md5 .title }}').modal('show');">{{ .title }}</h4>
-            <p class="card-text" onclick="$('#{{ md5 .title }}').modal('show');">{{ .content | plainify | truncate 100 }}</p>
+            <p class="card-text" onclick="$('#{{ md5 .title }}').modal('show');">{{ .content | markdownify | plainify | truncate 100 }}</p>
             <button type="button" class="btn btn-primary btn-sm mt-auto align-self-start" onclick="$('#{{ md5 .title }}').modal('show');">Mehr anzeigen</button>
           </div>
         </div>
