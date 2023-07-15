@@ -14,7 +14,7 @@
     <div class="row">
       {{ range sort .Data.Pages ".Params.index" }}
       <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
-        {{ .Render "card-btn" }}
+        {{ partial "card-btn" . }}
       </div>
       {{ end }}
     </div>

@@ -9,7 +9,7 @@
     <div class="row filtr-container">
       {{ range .Data.Pages }}
       <div data-category="{{ .Params.Category | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
-        {{ .Render "card-ct" }}
+        {{ partial "card-category" . }}
       </div>
       {{ end }}
     </div>

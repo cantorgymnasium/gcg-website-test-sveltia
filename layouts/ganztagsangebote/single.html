@@ -72,7 +72,7 @@
       {{ $related := (where .Site.RegularPages "Type" "ganztagsangebote") | intersect (where .Site.Pages ".Title" "!=" .Title) | union (.Site.RegularPages.Related . ) | shuffle | first 3}}
       {{ range first 3 $related }}
         <div class="col-lg-4 col-sm-6">
-          {{ .Render "ganztag"}}
+          {{ partial "ganztag" . }}
         </div>
       {{ end }}
     </div>

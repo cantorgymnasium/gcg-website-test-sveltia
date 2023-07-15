@@ -6,7 +6,7 @@
 	<div class="row filtr-container">
 	  {{ range .Data.Pages }}
 	    <div data-category="{{ .Params.category | urlize }}" class="col-lg-4 col-sm-6 mb-5 filtr-item">
-	      {{ .Render "ganztag" }}
+	      {{ partial "ganztag" . }}
 		</div>
 	  {{ end }}
 	</div>

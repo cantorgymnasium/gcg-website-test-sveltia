@@ -146,7 +146,7 @@
       {{ end }}
       {{ range first (cond $data.ausblick.enable (int $data.homepage.blog.number) (add $data.homepage.blog.number 1)) (where .Site.RegularPages "Type" "post")}}
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
-        {{ .Render "card" }}
+        {{ partial "card" . }}
       </div>
       {{ end }}
     </div>
@@ -200,7 +200,7 @@
     <div class="row justify-content-center">
       {{ range first (int $data.homepage.ganztagsangebote.number) (where .Site.RegularPages "Type" "ganztagsangebote" | shuffle)}}
       <div class="col-lg-4 col-sm-6">
-        {{ .Render "ganztag" }}
+        {{ partial "ganztag" . }}
       </div>
       {{ end }}
     </div>

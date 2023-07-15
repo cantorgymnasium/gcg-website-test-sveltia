@@ -13,7 +13,7 @@
       {{ $related := (where .Site.RegularPages "Type" "wettbewerbe") | intersect (where .Site.Pages ".Title" "!=" .Title) | union (.Site.RegularPages.Related . ) | shuffle | first 3}}
       {{ range first 3 $related }}
       <div class="col-lg-4 col-sm-6">
-        {{ .Render "card-ct"}}
+        {{ partial "card-category" . }}
       </div>
       {{ end }}
     </div>

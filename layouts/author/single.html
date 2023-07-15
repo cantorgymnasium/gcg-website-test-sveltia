@@ -38,8 +38,8 @@
 		</div>
 	</div>
 	  {{ range where .Site.RegularPages "Params.author" "intersect" (slice .File.BaseFileName) }}
-	    <div class="col-lg-4 col-sm-6 mb-4">
-	      {{ .Render "card" }}
+	    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
+	      {{ partial "card" . }}
 	    </div>
 	  {{ end }}
     </div>
