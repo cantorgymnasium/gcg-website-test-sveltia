@@ -25,6 +25,4 @@ Weitere Eindrücke vom Wettbewerb:
 
 
 
- [[https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==](https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==)](https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==)
-
-_Bildquelle:_ 
+_Bildquelle:_ [_https://www.instagram.com/p/CuctCMntYtL/?igshid=MTc4MmM1YmI2Ng==_](https://www.instagram.com/p/CuctCMntYtL/?igshid=MTc4MmM1YmI2Ng==)
