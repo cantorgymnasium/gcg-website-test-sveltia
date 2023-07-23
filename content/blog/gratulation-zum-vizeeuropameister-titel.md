@@ -1,7 +1,7 @@
 ---
 title: Gratulation zum Vizeeuropameister-Titel
 date: 2023-07-23T16:41:40.796+02:00
-draft: true
+draft: false
 image: /media/blog/2023/gratulationelias.webp
 author:
   - herr-berger
