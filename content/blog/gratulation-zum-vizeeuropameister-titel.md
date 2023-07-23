@@ -21,7 +21,7 @@ Weitere Eindrücke vom Wettbewerb:
 
 
 
-{{< card title="InstagrampostdesHalleschenISC" link="https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==" >}}
+{{< card title="Instagram-Post des Halleschen ISC" link="https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==" >}}
 
 
 
