@@ -1,7 +1,7 @@
 ---
 title: Gratulation zum Vizeeuropameister-Titel
 date: 2023-07-23T16:41:40.796+02:00
-draft: false
+draft: true
 image: /media/blog/2023/gratulationelias.webp
 author:
   - herr-berger
@@ -13,10 +13,18 @@ tags:
   - "2023"
 type: post
 ---
-## Wir gratulieren Elias Peschek zum Vizeeuropameister-Titel im Speedskating mit dem Halleschen Inline Skate Club. 
+## Wir gratulieren Elias Peschek zum Vizeeuropameister-Titel im Speedskating mit dem Halleschen Inline Skate Club.
 
-**Das #TEAMD gewinnt beim Staffellauf die Silbermedaille.** 
+**Das #TEAMD gewinnt beim Staffellauf die Silbermedaille.**
 
-Weitere Eindrücke vom Wettbewerb: [https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==](https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==)
+Weitere Eindrücke vom Wettbewerb:
 
-_Bildquelle:_ [_https://www.instagram.com/p/CuctCMntYtL/?img_index=1_](https://www.instagram.com/p/CuctCMntYtL/?img_index=1)
+
+
+{{< card title="InstagrampostdesHalleschenISC" link="https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==" >}}
+
+
+
+ [[https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==](https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==)](https://www.instagram.com/p/Cu-ZtanNZHc/?igshid=MTc4MmM1YmI2Ng==)
+
+_Bildquelle:_ 
