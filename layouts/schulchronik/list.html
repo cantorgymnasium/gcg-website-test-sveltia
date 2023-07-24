@@ -27,9 +27,7 @@
     <h2 class="mb-4">Informationsseiten</h2>
     <div class="row">
       {{ range .Params.links }}
-        <div class="col-lg-4 col-sm-6">
-          {{ partial "card-btn-ni" . }}
-        </div>
+        {{ partial "card-btn-ni" . }}
       {{ end }}
     </div>
   </div>
@@ -37,9 +35,7 @@
     <h2 class="mb-4">Chronik</h2>
     <div class="row">
       {{ range (where .Data.Pages "Params.type" "schulchronik") }}
-      <div class="col-lg-4 col-sm-6">
         {{ partial "card-btn-ni" (dict "title" .Title "link" .Permalink) }}
-      </div>
       {{ end }}
     </div>
   </div>

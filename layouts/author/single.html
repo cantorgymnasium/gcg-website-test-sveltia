@@ -2,43 +2,31 @@
 
 <section class="section bg-light">
   <div class="container">
-	<div class="row">
-      <div class="col-lg-10 mx-auto">
 		<div class="text-center">
-	      <figure>
-		    {{ if .Params.image }}
-			  <img class="rounded-circle img-fluid mb-4" src="{{.Params.Image | relURL }}" width="128px">
+		  {{ if .Params.image }}
+			  <img class="rounded-circle img-fluid mb-4" src="{{.Params.Image | relURL }}" width="128px" height="128px">
 			{{ else if .Params.email}}
 			  <img class="rounded-circle img-fluid mb-4" src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
 			{{ end }}
-			<figcaption>
-			  <h4 class="fw-bold">{{ .Title }}</h4>
-			</figcaption>
-		  </figure>
+			<h4 class="fw-bold">{{ .Title }}</h4>
 		  <hr>
 		  {{ .Content }}
 		  <hr>
-		  <ul class="list-inline">
-		    {{ with .Params.email }}
-		      <li class="list-inline-item"><a href="mailto:{{ . }}"><i class="mdi mdi-at"></i></a></li>
-		    {{ end }}
-		  </ul>
+		  {{ with .Params.email }}
+		      <a href="mailto:{{ . }}"><i class="mdi mdi-at"></i></a>
+		  {{ end }}
 		</div>
-      </div>
-	</div>
   </div>
 </section>
 
-<section class="section">
+<section class="section pt-0 bg-light">
   <div class="container">
-    <div class="row">
-	  <div class="col-lg-12">
-		<div class="title text-center">
+    <div class="title text-center">
 		  <h2 class="mb-4">Geschrieben von {{ .Title }}</h2>
 		</div>
-	</div>
+    <div class="row">
 	  {{ range where .Site.RegularPages "Params.author" "intersect" (slice .File.BaseFileName) }}
-	    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
+	    <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
 	      {{ partial "card" . }}
 	    </div>
 	  {{ end }}

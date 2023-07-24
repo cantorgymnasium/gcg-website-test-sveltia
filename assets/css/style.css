@@ -414,6 +414,12 @@ details[open] summary {
   color: var(--gcg-color-primary);
 }
 
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .tag-list a {
   display: block;
   padding: 5px 10px;
@@ -975,4 +981,16 @@ link:focus,
   .feature-blocks {
     padding-right: 10%;
   }
+}
+
+#map {
+  height: 50vh;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.min-w-0 {
+  min-width: 0;
 }

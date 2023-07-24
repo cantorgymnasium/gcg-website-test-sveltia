@@ -2,91 +2,86 @@
 
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12">{{ .Content }}</div>
-      <div class="col-lg-8 mb-4 mb-lg-0">
-        <form
-          action="https://php.cantorgymnasium.de/formtools/process.php"
-          method="post"
-        >
-          <input type="hidden" name="form_tools_form_id" value="7" />
-          <div hidden>
-            <input type="text" name="bad_email" value="" />
-          </div>
-          <div class="input-group">
-            <input
-              type="text"
-              class="form-control mb-3"
-              id="surname"
-              name="surname"
-              placeholder="Name"
-              required
-            />
-            <input
-              type="text"
-              class="form-control mb-3"
-              id="name"
-              name="name"
-              placeholder="Vorname"
-              required
-            />
-          </div>
-          <input
-            type="text"
-            class="form-control mb-3"
-            id="year"
-            name="year"
-            placeholder="Abiturjahrgang"
-            required
-          />
-          <input
-            type="email"
-            class="form-control mb-3"
-            id="mail"
-            name="mail"
-            placeholder="E-Mail-Adresse"
-            required
-          />
-          <textarea
-            name="message"
-            id="message"
-            class="form-control mb-3"
-            placeholder="Nachricht/Sonstiges"
-          ></textarea>
-          <div class="input-group mb-3">
-            <div class="input-group-text">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="accept"
-                name="accept"
-                required
-              />
-            </div>
-            <p class="form-control mb-0">
-              Ich willige hiermit ein, dass meine E-Mail-Adresse zur
-              Kontaktaufnahme eingesetzt wird.
-            </p>
-          </div>
-          <div class="input-group mb-3">
-            <div class="input-group-text">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="public_email"
-                name="public_email"
-              />
-            </div>
-            <p class="form-control mb-0">
-              Meine E-Mail-Adresse darf für andere Adressaten sichtbar sein.
-            </p>
-          </div>
-          <button type="submit" value="send" class="btn btn-primary">
-            Speichern
-          </button>
-        </form>
+    <form
+      action="https://php.cantorgymnasium.de/formtools/process.php"
+      method="post"
+    >
+      <input type="hidden" name="form_tools_form_id" value="7" />
+      <div hidden>
+        <input type="text" name="bad_email" value="" />
       </div>
-    </div>
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control mb-3"
+          id="surname"
+          name="surname"
+          placeholder="Name"
+          required
+        />
+        <input
+          type="text"
+          class="form-control mb-3"
+          id="name"
+          name="name"
+          placeholder="Vorname"
+          required
+        />
+      </div>
+      <input
+        type="text"
+        class="form-control mb-3"
+        id="year"
+        name="year"
+        placeholder="Abiturjahrgang"
+        required
+      />
+      <input
+        type="email"
+        class="form-control mb-3"
+        id="mail"
+        name="mail"
+        placeholder="E-Mail-Adresse"
+        required
+      />
+      <textarea
+        name="message"
+        id="message"
+        class="form-control mb-3"
+        placeholder="Nachricht/Sonstiges"
+      ></textarea>
+      <div class="input-group mb-3">
+        <div class="input-group-text">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="accept"
+            name="accept"
+            required
+          />
+        </div>
+        <p class="form-control mb-0">
+          Ich willige hiermit ein, dass meine E-Mail-Adresse zur
+          Kontaktaufnahme eingesetzt wird.
+        </p>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-text">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="public_email"
+            name="public_email"
+          />
+        </div>
+        <p class="form-control mb-0">
+          Meine E-Mail-Adresse darf für andere Adressaten sichtbar sein.
+        </p>
+      </div>
+      <button type="submit" value="send" class="btn btn-primary">
+        Speichern
+      </button>
+    </form>
   </div>
 </section>
 

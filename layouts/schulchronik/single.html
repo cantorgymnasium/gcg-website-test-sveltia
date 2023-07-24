@@ -4,38 +4,34 @@
   <div class="container">
     <div class="row">
       <div class="col-12 mb-4">
-        {{ if or .Params.Cantorpreisträger (where (where .Site.RegularPages "Title" (print "Abiturienten " .Params.Title ) ) "Type" "=" "abiturienten") }}
+        {{ if or .Params.cantorpreisträger (where (where .Site.RegularPages "Title" (print "Abiturienten " .Params.Title ) ) "Type" "=" "abiturienten") }}
       <div class="col-12">
         <div class="card-group">
           {{ range where (where .Site.RegularPages "Title" .Params.Title ) "Type" "=" "cantorpreis" }}
-          <div class="card">
-            <div class="row">
-              <div class="col-md-3 col-4">
-                <a href="{{ .Permalink }}"><img src="{{ .Params.Image | relURL }}" class="img-fluid rounded w-100" style="height:150px; object-fit: cover;"></a>
+          <div class="card d-flex flex-row flex-wrap">
+              <div class="flex-shrink-0">
+                <a href="{{ .Permalink }}"><img src="{{ .Params.Image | relURL }}" class="rounded-circle m-3 object-cover" height="128px" width="128px"></a>
               </div>
-              <div class="col-md-9 col-8 card-body">
+              <div class="flex-grow card-body min-w-0">
                 <a href="/cantorpreis"><h3 class="card-title">Cantorpreisträger:in</h3></a>
                 <a href="{{ .Permalink }}"><p class="h4 card-text">{{ .Params.name }}</p></a>
               </div>
-            </div>
           </div>
           {{ end }}
           {{ range where (where .Site.RegularPages "Title" (print "Abiturienten " .Params.Title ) ) "Type" "=" "abiturienten" }}
-          <div class="card pe-0">
-            <div class="row">
-              <div class="col-7 card-body ps-4">
+          <div class="card d-flex flex-row flex-wrap-reverse">
+            <div class="flex-grow card-body min-w-0">
                 <a href="{{ .Permalink }}"><h3 class="card-title">{{ .Title }}</h3></a>
                 {{ $abiturdurchschnitte := getJSON "static/data/abiturdurchschnitte.json" }}
                 {{ range $abiturdurchschnitte.abiturdurchschnitte  }}
                   {{ if eq (string (index . "jahr")) "2008" }}<a href="/chronikseiten/abiturdurchschnitte"><p class="h4 card-text">Abiturdurchschnitt: {{ .schnitt }}</p></a>{{ end }}
                 {{ end }}
               </div>
-              <div class="col-5">
+              <div class="">
                 <a href="{{ .Permalink }}">
-                  <img src="{{ .Params.Image | relURL }}" class="img-fluid rounded align-self-end w-100" style="height: 150px;object-fit: cover;">
+                  <img src="{{ .Params.Image | relURL }}" class="rounded-circle object-cover m-3" width="128px" height="128px">
                 </a>
               </div>
-            </div>
           </div>
           {{ end }}
         </div>

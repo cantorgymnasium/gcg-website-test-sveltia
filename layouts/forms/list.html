@@ -2,21 +2,15 @@
 
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="container">
-          {{ range .Data.Pages }}
-            <div class="card d-md-table w-100 border-primary hover-shadow p-3 mb-2">
-              <div class="d-md-table-cell px-4 align-middle mb-4 mb-md-0">
-                <a href="{{ .Permalink }}" class="h4 mb-3 d-block card-title">{{ .Title }}</a>
-                <p class="mb-0">{{ .Summary | truncate 100 }}</p>
-              </div>
-              <div class="d-md-table-cell text-end pe-0 pe-md-4" data-pagefind-ignore><a href="{{ .Permalink }}" class="btn btn-primary">Mehr anzeigen</a></div>
-            </div>
-          {{ end }}
+    {{ range .Data.Pages }}
+      <div class="card flex-row border-primary hover-shadow p-4 mb-2 align-items-center flex-wrap gap-3">
+        <div class="flex-grow-1">
+          <a href="{{ .Permalink }}" class="h4 mb-3 card-title">{{ .Title }}</a>
+          <p class="mb-0">{{ partial "summary" .Content }}</p>
         </div>
+        <div class="flex-shrink-0" data-pagefind-ignore><a href="{{ .Permalink }}" class="btn btn-primary">Mehr anzeigen</a></div>
       </div>
-    </div>
+    {{ end }}
   </div>
 </section>
 

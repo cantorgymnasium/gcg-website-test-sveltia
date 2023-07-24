@@ -1,22 +1,14 @@
 {{ define "main" }}
 
-{{ partial "header-cl-url" (dict "Params" .Params "Content" .Content) }}
-
+{{ partial "header-cl-url" . }}
 
 <section class="section pt-0">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="mb-4">Weitere Begabtenförderungsangebote</h2>
-      </div>
-    </div>
+    <h2 class="mb-4">Weitere Begabtenförderungsangebote</h2>
     <div class="row" data-pagefind-ignore="all">
-      {{ $related := (where .Site.RegularPages "Type" "begabte") | intersect (where .Site.Pages ".Title" "!=" .Title) | union (.Site.RegularPages.Related . ) | shuffle | first 3}}
-      {{ range first 3 $related }}
-      <div class="col-lg-4 col-sm-6">
-        {{ partial "card-btn" . }}
-      </div>
-      {{ end }}
+    {{ range partial "related" . }}
+      {{ partial "card-btn" . }}
+    {{ end }}
     </div>
   </div>
 </section>

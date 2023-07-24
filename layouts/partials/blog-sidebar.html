@@ -1,14 +1,14 @@
-<aside class="col-lg-4 order-4 order-lg-2" data-pagefind-ignore="all">
+<aside class="col-lg-4 mt-4 mt-lg-0" data-pagefind-ignore="all">
   <div class="bg-white mb-4">
     <h4 class="mb-4">Kategorien</h4>
     {{ $transliterations := .Site.Data.transliterations.transliterations }}
     {{- if isset .Site.Taxonomies "categories" }}
     {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
-    <ul class="list-inline tag-list">
+    <div class="tag-list">
       {{- range $name, $items := .Site.Taxonomies.categories }}
-      <li class="list-inline-item mb-2"><a href="{{ `categories/` | relURL }}{{ $name | urlize | lower }}">{{ if (index $transliterations $name) }}{{ index $transliterations $name }}{{ else }}{{ $name | title }}{{end}}</a></li>
+      <a href="{{ `categories/` | relURL }}{{ $name | urlize | lower }}">{{ if (index $transliterations $name) }}{{ index $transliterations $name }}{{ else }}{{ $name | title }}{{end}}</a>
       {{- end }}
-    </ul>
+    </div>
     {{- end }}
     {{- end }}
   </div>
@@ -16,11 +16,11 @@
     <h4 class="mb-4">Tags</h4>
     {{- if isset .Site.Taxonomies "tags" }}
     {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
-    <ul class="list-inline tag-list">
+    <div class="tag-list">
       {{- range $name, $items := .Site.Taxonomies.tags }}
-      <li class="list-inline-item mb-2"><a href="{{ `tags/` | relURL }}{{ $name | urlize | lower }}">{{ $name }}</a></li>
+      <a href="{{ `tags/` | relURL }}{{ $name | urlize | lower }}">{{ $name }}</a>
       {{- end }}
-    </ul>
+    </div>
     {{- end }}
     {{- end }}
   </div>
@@ -31,7 +31,7 @@
       <a href="{{ .Permalink }}"><img class="me-3 post-thumb-sm" src="{{ .Params.Image | absURL }}"></a>
       <div class="flex-grow-1">
         <a href="{{ .Permalink }}">
-          <h5 class="mt-0">{{ .Title }}</h5>
+          <h5>{{ .Title }}</h5>
         </a>
         {{ time.Format "02. Jan 2006" .PublishDate }}
       </div>

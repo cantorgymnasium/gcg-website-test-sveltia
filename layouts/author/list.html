@@ -2,36 +2,29 @@
 
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="container">
-          {{ range .Pages }}
-          <div class="card mb-4">
-            <div class="row g-0">
-              <div class="col-md-2 col-5">
-                {{ if .Params.image }}
-                <img class="rounded img-fluid w-100" src="{{.Params.image | relURL }}"
-                  style="height: 160px;object-fit: cover;">
-                {{ else if .Params.email }}
-                <img class="rounded img-fluid w-100"
-                  src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=160&pg&d=identicon" style="height: 160px;object-fit: cover;">
-                {{ end }}
-              </div>
-              <div class="col-md-10 col-7">
-                <div class="card-body text-end">
-                  <h5 class="card-title text-start">{{ .Title }}</h5>
-                  <p class="card-text text-truncate text-start">{{ .Summary }}</p>
-                  {{ if not .Params.simplified }}
-                  <a href="{{ .Permalink }}" class="btn btn-primary">Mehr anzeigen</a>
-                  {{ end }}
-                </div>
-              </div>
-            </div>
-          </div>
+    {{ range .Pages }}
+    <div class="card mb-4">
+      <div class="d-flex">
+        <div class="flex-shrink-0">
+          {{ if .Params.image }}
+          <img class="rounded-circle m-3 object-cover" src="{{.Params.image | relURL }}" width="128px" height="128px">
+          {{ else if .Params.email }}
+          <img class="rounded-circle img-fluid m-3"
+            src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
           {{ end }}
+        </div>
+        <div class="flex-grow">
+          <div class="card-body">
+            <h5 class="card-title">{{ .Title }}</h5>
+            <p class="card-text">{{ partial "summary" .Content }}</p>
+            {{ if not .Params.simplified }}
+            <a href="{{ .Permalink }}" class="btn btn-primary">Mehr anzeigen</a>
+            {{ end }}
+          </div>
         </div>
       </div>
     </div>
+    {{ end }}
   </div>
 </section>
 

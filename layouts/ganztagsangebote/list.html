@@ -3,13 +3,13 @@
 <section class="section">
   <div class="container">
     {{ partial "filter-controls" . }}
-	<div class="row filtr-container">
-	  {{ range .Data.Pages }}
-	    <div data-category="{{ .Params.category | urlize }}" class="col-lg-4 col-sm-6 mb-5 filtr-item">
-	      {{ partial "ganztag" . }}
-		</div>
-	  {{ end }}
-	</div>
+    <div class="filtr-container">
+    {{ range .Data.Pages }}
+      <div data-category="{{ .Params.category | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
+        {{ partial "ganztag" . }}
+      </div>
+    {{ end }}
+    </div>
   </div>
 </section>
 

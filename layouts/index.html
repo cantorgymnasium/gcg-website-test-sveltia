@@ -126,18 +126,11 @@
             <div class="row mb-2">
               <div class="col-12">
                 <i class="mdi mdi-fountain-pen-tip me-2"></i>
-                {{ range $index, $elements := where (where $.Site.RegularPages "Type" "author") "File.BaseFileName" "in" .author  }}
-                  {{ if ne $index 0 }}, {{ end }}
-                  {{ if .Params.simplified }}
-                    {{ .Title }}
-                  {{ else }}
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                  {{ end }}
-                {{ end }}
+                {{ partial "authors" (dict "Site" $.Site "author" .author)}}
               </div>
             </div>
             <h4 class="card-title text-truncate" onclick="$('#{{ md5 .title }}').modal('show');">{{ .title }}</h4>
-            <p class="card-text" onclick="$('#{{ md5 .title }}').modal('show');">{{ .content | markdownify | plainify | truncate 100 }}</p>
+            <p class="card-text" onclick="$('#{{ md5 .title }}').modal('show');">{{ partial "summary" .content }}</p>
             <button type="button" class="btn btn-primary btn-sm mt-auto align-self-start" onclick="$('#{{ md5 .title }}').modal('show');">Mehr anzeigen</button>
           </div>
         </div>

@@ -1,0 +1,8 @@
+{{ range $index, $elements := where (where .Site.RegularPages "Type" "author") "File.BaseFileName" "in" .author  }}
+	{{ if ne $index 0 }}, {{ end }}
+	{{ if .Params.simplified }}
+	{{ .Title }}
+	{{ else }}
+	<a href="{{ .Permalink }}">{{ .Title }}</a>
+	{{ end }}
+{{ end }}

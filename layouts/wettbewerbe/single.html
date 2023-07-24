@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "header-cl-url" (dict "Params" .Params "Content" .Content) }}
+{{ partial "header-cl-url" . }}
 
 <section class="section pt-0">
   <div class="container">
@@ -10,8 +10,7 @@
       </div>
     </div>
     <div class="row" data-pagefind-ignore="all">
-      {{ $related := (where .Site.RegularPages "Type" "wettbewerbe") | intersect (where .Site.Pages ".Title" "!=" .Title) | union (.Site.RegularPages.Related . ) | shuffle | first 3}}
-      {{ range first 3 $related }}
+      {{ range partial "related" 3 }}
       <div class="col-lg-4 col-sm-6">
         {{ partial "card-category" . }}
       </div>
