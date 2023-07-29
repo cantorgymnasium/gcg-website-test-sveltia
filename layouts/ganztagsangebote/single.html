@@ -2,72 +2,24 @@
 
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-12 mb-4">
-        <img src="{{ .Params.image | relURL }}" class="img-fluid w-100">
-      </div>
+    <img src="{{ .Params.image | relURL }}" class="img-fluid w-100 mb-4">
+    <h2 class="mb-4">{{ .Title }}</h2>
+    <div class="row mb-4">
+      {{ partial "icon-element" (dict "size" 3 "icon" "mdi-calendar-today-outline" "title" "Zeit" "content" .Params.schedule) }}
+      {{ partial "icon-element" (dict "size" 3 "icon" "mdi-timer-sand" "title" "Dauer" "content" .Params.duration) }}
+      {{ partial "icon-element" (dict "size" 3 "icon" "mdi-crowd" "title" "Klassen" "content" .Params.class) }}
+      {{ partial "icon-element" (dict "size" 3 "icon" "mdi-map-marker-radius-outline" "title" "Raum" "content" .Params.room) }}
     </div>
-    <h2>{{ .Title }}</h2>
-    <div class="row align-items-center mb-4">
-      <div class="col-12">
-        <div class="row">
-          <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
-            <div class="d-flex align-items-center">
-              <i class="mdi mdi-calendar-today-outline text-primary icon-md me-2"></i>
-              <div class="text-start">
-                <h6 class="mb-0 text-uppercase">Zeit</h6>
-                <p class="mb-0">{{ .Params.schedule }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
-            <div class="d-flex align-items-center">
-              <i class="mdi mdi-timer-sand text-primary icon-md me-2"></i>
-              <div class="text-start">
-                <h6 class="mb-0 text-uppercase">Dauer</h6>
-                <p class="mb-0">{{ .Params.duration }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
-            <div class="d-flex align-items-center">
-              <i class="mdi mdi-crowd text-primary icon-md me-2"></i>
-              <div class="text-start">
-                <h6 class="mb-0 text-uppercase">Klassen</h6>
-                <p class="mb-0">{{ .Params.class }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
-            <div class="d-flex align-items-center">
-              <i class="mdi mdi-map-marker-radius-outline text-primary icon-md me-2"></i>
-              <div class="text-start">
-                <h6 class="mb-0 text-uppercase">Raum</h6>
-                <p class="mb-0">{{ .Params.room }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 mt-4">
-        <div class="border-bottom border-primary"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 content">
+    <hr class="mb-4">
+    <div class="content text-justify">
         {{ .Content }}
-      </div>
     </div>
   </div>
 </section>
 
 <section class="section pt-0" data-pagefind-ignore="all">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="mb-4">Andere Arbeitsgemeinschaften</h2>
-      </div>
-    </div>
+    <h2 class="mb-4">Andere Arbeitsgemeinschaften</h2>
     <div class="row">
       {{ range partial "related" . }}
         <div class="col-lg-4 col-sm-6">

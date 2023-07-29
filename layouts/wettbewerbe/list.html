@@ -2,13 +2,10 @@
 
 <section class="section">
   <div class="container">
-    <div class="row">
-      {{ .Content }}
-    </div>
     {{ partial "filter-controls" . }}
     <div class="row filtr-container">
       {{ range .Data.Pages }}
-      <div data-category="{{ .Params.Category | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
+      <div data-category="{{ .Params.category | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
         {{ partial "card-category" . }}
       </div>
       {{ end }}

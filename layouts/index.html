@@ -6,20 +6,20 @@
 {{ with $data.homepage.slider }}
 <section class="hero-section overlay bg-cover hero-default" data-background="{{ .bg_image | absURL }}">
   <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="text-white position-relative">{{ $data.homepage.slider.title | markdownify }}</h2>
-            <div class="hero-slider">
-            {{ range .slider_item }}
-              <div class="hero-slider-item">
-                <p class="text-muted mb-4" >{{ .content | markdownify }}</p>
-                {{ if .button.enable }}
-                  <a href="{{ .button.link | absURL }}" class="btn btn-primary">{{ .button.label }}</a>
-                {{ end }}
-              </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-white position-relative">{{ $data.homepage.slider.title | markdownify }}</h2>
+        <div class="hero-slider">
+          {{ range .slider_item }}
+          <div class="hero-slider-item">
+            <p class="text-muted mb-4" >{{ .content | markdownify }}</p>
+            {{ if .button.enable }}
+              <a href="{{ .button.link | absURL }}" class="btn btn-primary">{{ .button.label }}</a>
             {{ end }}
-            </div>
           </div>
+        {{ end }}
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -73,7 +73,7 @@
     <div class="row align-items-center">
       <div class="col-md-10 order-2 order-md-1">
         <h3 class="mb-4">{{ .title | markdownify }}</h3>
-        <div class="content">
+        <div class="content text-justify">
           {{ .content | markdownify }}
         </div>
         {{ if .button.enable }}
@@ -139,7 +139,7 @@
       {{ end }}
       {{ range first (cond $data.ausblick.enable (int $data.homepage.blog.number) (add $data.homepage.blog.number 1)) (where .Site.RegularPages "Type" "post")}}
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
-        {{ partial "card" . }}
+        {{ partial "card-article" . }}
       </div>
       {{ end }}
     </div>

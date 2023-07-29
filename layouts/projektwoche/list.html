@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			{{ range .Pages }}
-				{{ partial "card-btn-ni" (dict "title" .Title "link" .Permalink) }}
+				{{ partial "card-btn" . }}
 			{{ end }}
 		</div>
 	</div>

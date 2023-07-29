@@ -1,16 +1,12 @@
 {{ define "main" }}
 
-{{ partial "header-cl-url" . }}
+{{ partial "header-contest" . }}
 
 <section class="section pt-0">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="mb-4">Weitere Wettbewerbe</h2>
-      </div>
-    </div>
+    <h2 class="mb-4">Weitere Wettbewerbe</h2>
     <div class="row" data-pagefind-ignore="all">
-      {{ range partial "related" 3 }}
+      {{ range partial "related" . }}
       <div class="col-lg-4 col-sm-6">
         {{ partial "card-category" . }}
       </div>

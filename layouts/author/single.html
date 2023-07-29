@@ -27,7 +27,7 @@
     <div class="row">
 	  {{ range where .Site.RegularPages "Params.author" "intersect" (slice .File.BaseFileName) }}
 	    <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
-	      {{ partial "card" . }}
+	      {{ partial "card-article" . }}
 	    </div>
 	  {{ end }}
     </div>

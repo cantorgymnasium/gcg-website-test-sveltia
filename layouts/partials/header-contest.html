@@ -1,0 +1,23 @@
+<section class="section">
+  <div class="container">
+    {{ if (and .Params.image (ne .Params.image "/media/image.webp") ) }}
+      <img class="img-fluid w-100 mb-4" src="{{ .Params.image | relURL }}">
+    {{ end }}
+    <div class="d-flex justify-content-between mb-4">
+      <div class="d-flex align-items-center">
+        <i class="mdi mdi-crowd text-primary icon-md me-2"></i>
+        <div class="text-start">
+          <h6 class="mb-0 text-uppercase">Klassen</h6>
+          <p class="mb-0">{{ .Params.class }}</p>
+        </div>
+      </div>
+      {{ if .Params.web_url }}
+      <a href="{{ .Params.web_url | safeURL }}" class="btn btn-primary">Website</a>
+      {{ end }}
+    </div>
+    <hr>
+    <div class="content text-justify">
+      {{ .Content }}
+    </div>
+  </div>
+</section>

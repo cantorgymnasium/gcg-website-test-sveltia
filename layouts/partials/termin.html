@@ -1,15 +1,19 @@
-<div class="card d-md-table w-100 hover-shadow border-primary ps-0 pe-0 mb-4">
-    <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0 termin-tc rounded">
+<div class="card hover-shadow border-primary mb-4 p-0">
+  <div class="row g-0">
+    <div class="col-md-3 text-center p-4 bg-primary text-white rounded">
       <span class="h2 d-block">{{ time.Format "2" .date}}</span>
       <span class="d-block">{{ time.Format "Jan 2006" .date}}</span>
       {{ with .enddate }}<br>bis {{ time.Format "2 Jan 2006" . }}{{ end }}
     </div>
-    <div class="d-md-table-cell px-4 align-middle mb-4 mb-md-0 p-2">
-      <p class="h4 mb-0 d-block">{{ .title }}</p>
+    <div class="col-md-9">
+      <div class="card-body h-100 d-flex flex-column justify-content-between">
+        <h4 class="card-title">{{ .title }}</h4>
+        {{ with .location }}
+        <div class="card-text">
+          <i class="mdi mdi-map-marker-radius-outline icon-s text-primary me-2"></i>{{ . | markdownify }}
+        </div>
+        {{ end }}
+      </div>
     </div>
-    {{ with .location }}
-    <div class="d-md-table-cell text-end pe-md-4 p-2 align-middle">
-      <p><i class="mdi mdi-map-marker-radius-outline icon-s text-primary me-2"></i>{{ . | markdownify }}</p>
-    </div>
-    {{ end }}
+  </div>
 </div>

@@ -537,7 +537,7 @@ details[open] summary {
 .intro-video .play-btn {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: calc(50% - 40px);
   transform: translateY(-50%);
 }
 
@@ -911,12 +911,6 @@ link:focus,
   .intro-video .play-btn {
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-}
-
-@media (min-width: 768px) {
-  .termin-tc {
-    width: 25%;
   }
 }
 
