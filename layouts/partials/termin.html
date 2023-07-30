@@ -6,7 +6,7 @@
       {{ with .enddate }}<br>bis {{ time.Format "2 Jan 2006" . }}{{ end }}
     </div>
     <div class="col-md-9">
-      <div class="card-body h-100 d-flex flex-column justify-content-between">
+      <div class="card-body h-100 d-flex flex-column justify-content-around">
         <h4 class="card-title">{{ .title }}</h4>
         {{ with .location }}
         <div class="card-text">

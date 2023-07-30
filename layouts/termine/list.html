@@ -2,32 +2,17 @@
 
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="row gta-cat">
-          <div class="col-12">
-            <ul class="list-inline text-center filter-controls mb-5">
-              <li class="list-inline-item m-3 text-uppercase active" data-filter="all">Alle</li>
-              <li class="list-inline-item m-3 text-uppercase" data-filter="upcoming">Anstehend</li>
-              <li class="list-inline-item m-3 text-uppercase" data-filter="past">Vergangen</li>
-            </ul>
-          </div>
-        </div>
-        <noscript>
-          <style>
-            .gta-cat {
-              display: none;
-            }
-          </style>
-        </noscript>
-        <div class="filtr-container">
-          {{ range .Params.events }}
-          <div class="mb-2 mt-2 col-12 filtr-item" data-category="{{ if or (ge (.date | time.AsTime).Unix now.Unix) (and .enddate (ge (.enddate | time.AsTime).Unix now.Unix)) }}upcoming{{else}}past{{end}}" data-time="{{.date}}">
-            {{ partial "termin" . }}
-          </div>
-          {{ end }}
-        </div>
+    <ul class="list-inline text-center filter-controls mb-4">
+      <li class="list-inline-item m-3 text-uppercase active" data-filter="all">Alle</li>
+      <li class="list-inline-item m-3 text-uppercase" data-filter="upcoming">Anstehend</li>
+      <li class="list-inline-item m-3 text-uppercase" data-filter="past">Vergangen</li>
+    </ul>
+    <div class="filtr-container row">
+      {{ range .Params.events }}
+      <div class="filtr-item col-12" data-category="{{ if or (ge (.date | time.AsTime).Unix now.Unix) (and .enddate (ge (.enddate | time.AsTime).Unix now.Unix)) }}upcoming{{else}}past{{end}}" data-time="{{.date}}">
+        {{ partial "termin" . }}
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
