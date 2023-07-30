@@ -414,6 +414,12 @@ details[open] summary {
   color: var(--gcg-color-primary);
 }
 
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .tag-list a {
   display: block;
   padding: 5px 10px;
@@ -531,7 +537,7 @@ details[open] summary {
 .intro-video .play-btn {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: calc(50% - 40px);
   transform: translateY(-50%);
 }
 
@@ -908,12 +914,6 @@ link:focus,
   }
 }
 
-@media (min-width: 768px) {
-  .termin-tc {
-    width: 25%;
-  }
-}
-
 @media (max-width: 991px) {
   .navigation {
     background: var(--gcg-color-secondary);
@@ -975,4 +975,16 @@ link:focus,
   .feature-blocks {
     padding-right: 10%;
   }
+}
+
+#map {
+  height: 50vh;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.min-w-0 {
+  min-width: 0;
 }

@@ -1,10 +1,8 @@
-<div class="card border-primary rounded-0 hover-shadow mb-4">
+<div class="card border-primary rounded-0 hover-shadow mb-2">
   <a href="{{ .Permalink }}"><img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}"></a>
   <div class="card-body">
-    <div class="container">
-      <div class="row mb-2"><div class="col-1"><i class="mdi mdi-calendar-today"></i></div><div class="col-11">{{ .Params.schedule }}</div></div>
-      <div class="row mb-2"><div class="col-1"><i class="mdi mdi-crowd"></i></div><div class="col-11">{{ .Params.class }}</div></div>
-    </div>
+    <div class="mb-2 text-truncate"><i class="mdi mdi-calendar-today me-2"></i>{{ .Params.schedule }}</div>
+    <div class="mb-2 text-truncate"><i class="mdi mdi-crowd me-2"></i>{{ .Params.class }}</div>
     <h4 class="card-title text-truncate"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm" data-pagefind-ignore>Mehr anzeigen</a>
   </div>

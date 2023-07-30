@@ -4,11 +4,11 @@
   <div class="container">
     <div class="row">
       {{ range .Pages }}
-      <div class="col-lg-3 col-sm-4 col-6">
+      <div class="col-lg-3 col-sm-4 col-6 d-flex align-items-stretch">
         <div class="card border-primary rounded-0 hover-shadow mb-4">
           <a href="{{ .Permalink }}"><img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}"></a>
-          <div class="card-body">
-            <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title mt-auto"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
             <p class="card-text">{{ .Params.name }}</p>
           </div>
         </div>

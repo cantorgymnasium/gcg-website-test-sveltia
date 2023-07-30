@@ -2,13 +2,11 @@
 
 <section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        {{ with .Params.image }}
-          <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
-        {{ end }}
-        {{ .Content }}
-      </div>
+    {{ with .Params.image }}
+      <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="Foto der Schule">
+    {{ end }}
+    <div class="content text-justify">
+      {{ .Content }}
     </div>
   </div>
 </section>
@@ -32,6 +30,6 @@
 {{ end }}
 {{ end }}
 
-{{ partial "info.html" . }}
+{{ partial "info" . }}
 
 {{ end }}

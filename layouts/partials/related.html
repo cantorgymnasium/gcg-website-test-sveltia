@@ -1,0 +1,2 @@
+{{ $related := (where .Site.RegularPages "Type" .Type) | intersect (where .Site.Pages ".Title" "!=" .Title) | union (.Site.RegularPages.Related . ) | shuffle | first 3 }}
+{{ return $related }}

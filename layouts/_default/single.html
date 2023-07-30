@@ -3,45 +3,30 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 order-2 order-lg-1">
-        <div class="row">
-          <div class="col-12 mb-4">
-            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100">
+      <div class="col-lg-8">
+        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100 mb-4">
+        <div class="d-flex flex-wrap gap-2 justify-content-between">
+          <div class="text-body-secondary">
+            <span class="fw-bold me-1">Geschrieben von:</span>
+            {{ partial "authors" (dict "Site" .Site "author" .Params.author )}}
           </div>
-          <div class="col-12">
-            <div class="row mb-3">
-              <div class="col-6 mb-md-0 text-white text-body-tertiary">
-                <span class="fw-bold me-1">Geschrieben von:</span>
-                {{ range $index, $elements := where (where .Site.RegularPages "Type" "author") "File.BaseFileName" "in" .Params.author  }}
-                  {{ if ne $index 0 }}, {{ end }}
-                  {{ if .Params.simplified }}
-                    {{ .Title }}
-                  {{ else }}
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                  {{ end }}
-                {{ end }}
-              </div>
-              <div class="col-6 mb-3 mb-md-0 text-body-tertiary">
-                <span class="fw-bold me-1">Datum:</span>
-                {{ time.Format "02. Jan 2006" .PublishDate }}
-              </div>
+          <div class="text-body-secondary">
+            <span class="fw-bold me-1">Datum:</span>
+            {{ time.Format "02. Jan 2006" .PublishDate }}
           </div>
-          <div class="row">
-            <div class="col-12 mb-md-0 text-body-tertiary">
+          <div class="text-body-secondary">
               <span class="fw-bold me-1">Kategorien:</span>
               {{ range $index, $elements := .Params.categories }}
                 {{ if ne $index 0 }}, {{ end }}
                 <a href="{{ `categories/` | relURL }}{{ . | urlize | lower }}">{{ . | title }}</a>
               {{ end }}
-              </div>
-            </div>
           </div>
-          <div class="col-12 my-4">
-            <div class="border-bottom"></div>
-          </div>
-          <div class="col-12 mb-5 content text-justify">
-            {{ .Content }}
-          </div>
+        </div>
+        <div class="my-4">
+          <div class="border-bottom"></div>
+        </div>
+        <div class="mb-4 content text-justify">
+          {{ .Content }}
         </div>
       </div>
       {{ partial "blog-sidebar.html" . }}

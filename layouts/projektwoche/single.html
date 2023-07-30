@@ -1,23 +1,5 @@
 {{ define "main" }}
 
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 mb-4 content">
-        {{ .Content }}
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      {{ range .Params.tiles }}
-      {{ partial "modal" . }}
-      <div class="col-lg-4 col-sm-6">
-        {{ partial "card-icon" . }}
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
+{{ partial "tile-modals" . }}
 
 {{ end }}
