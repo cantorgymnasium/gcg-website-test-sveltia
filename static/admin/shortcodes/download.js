@@ -46,27 +46,23 @@ const DownloadShortcode = {
   preview: ({ title, link }) => {
     return h(
       "div",
-      { className: "container mb-0" },
+      { className: "card border-primary rounded-0 hover-shadow mb-2" },
       h(
         "div",
-        { className: "card border-primary rounded-0 hover-shadow mb-5" },
+        { className: "card-body mb-0" },
         h(
-          "div",
-          { className: "card-body mb-0" },
-          h(
-            "h4",
-            { className: "card-title" },
-            h("a", { className: "text-decoration-none", href: link }, title)
-          ),
-          h(
-            "a",
-            {
-              className: "mb-0 btn btn-primary btn-sm text-decoration-none",
-              href: link,
-            },
-            h("i", { className: "mdi mdi-tray-arrow-down mb-0 me-2" }),
-            "Download"
-          )
+          "h4",
+          { className: "card-title" },
+          h("a", { className: "text-decoration-none", href: link }, title)
+        ),
+        h(
+          "a",
+          {
+            className: "mb-0 btn btn-primary btn-sm text-decoration-none",
+            href: link,
+          },
+          h("i", { className: "mdi mdi-tray-arrow-down mb-0 me-2" }),
+          "Download"
         )
       )
     );

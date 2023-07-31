@@ -1,4 +1,9 @@
-import { Container, PageHeader, Section, Row } from "./components/index.js";
+import {
+  Container,
+  PageHeader,
+  Section,
+  ContentJustify,
+} from "./components/index.js";
 
 const AbiturientenPreview = ({ widgetFor, entry, collection, fields }) => {
   const imageField = useMemo(
@@ -15,16 +20,10 @@ const AbiturientenPreview = ({ widgetFor, entry, collection, fields }) => {
   return [
     PageHeader(entry),
     Section(
-      Container(
-        Row([
-          h(
-            "div",
-            { className: "col-12 mb-4" },
-            h("img", { className: "img-fluid w-100", src: imageUrl })
-          ),
-          h("div", { className: "col-12 content" }, widgetFor("body")),
-        ])
-      )
+      Container([
+        h("img", { className: "img-fluid w-100 mb-4", src: imageUrl }),
+        ContentJustify(widgetFor("body")),
+      ])
     ),
   ];
 };

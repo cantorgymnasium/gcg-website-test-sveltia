@@ -1,22 +1,18 @@
-import { PageHeader } from "./components/index.js";
+import {
+  Container,
+  ContentJustify,
+  PageHeader,
+  Row,
+  Section,
+} from "./components/index.js";
 
 const AnmeldungPreview = ({ widgetsFor, widgetFor, entry }) => {
   return [
     PageHeader(entry),
-    h(
-      "section",
-      { className: "section" },
-      h(
-        "div",
-        { className: "container" },
-        h(
-          "div",
-          { className: "row mb-4" },
-          h("div", { className: "col-md-6 content" }, widgetFor("body"))
-        ),
-        h(
-          "div",
-          { className: "row" },
+    Section(
+      Container([
+        ContentJustify(widgetFor("body")),
+        Row(
           widgetsFor("elements").map(function (element, index) {
             return h(
               "div",
@@ -35,8 +31,8 @@ const AnmeldungPreview = ({ widgetsFor, widgetFor, entry }) => {
               )
             );
           })
-        )
-      )
+        ),
+      ])
     ),
   ];
 };

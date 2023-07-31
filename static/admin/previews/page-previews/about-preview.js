@@ -1,4 +1,10 @@
-import { PageHeader } from "./components/index.js";
+import {
+  Container,
+  ContentJustify,
+  PageHeader,
+  Row,
+  Section,
+} from "./components/index.js";
 
 const AboutPreview = ({ widgetFor, widgetsFor, entry, fields, collection }) => {
   const imageField = useMemo(
@@ -14,34 +20,18 @@ const AboutPreview = ({ widgetFor, widgetsFor, entry, fields, collection }) => {
   );
   return [
     PageHeader(entry),
-    h(
-      "section",
-      { className: "section" },
-      h(
-        "div",
-        { className: "container" },
-        h(
-          "div",
-          { className: "row" },
-          h(
-            "div",
-            { className: "col-12" },
-            h("img", { className: "img-fluid w-100 mb-4", src: imageUrl }),
-            widgetFor("body")
-          )
-        )
-      )
+    Section(
+      Container([
+        h("img", { className: "img-fluid w-100 mb-4", src: imageUrl }),
+        ContentJustify(widgetFor("body")),
+      ])
     ),
     entry.data.stats.enable
       ? h(
           "section",
           { className: "section bg-primary" },
-          h(
-            "div",
-            { className: "container" },
-            h(
-              "div",
-              { className: "row" },
+          Container(
+            Row(
               widgetsFor("stats").data.zahlen.map((element) => {
                 return h(
                   "div",

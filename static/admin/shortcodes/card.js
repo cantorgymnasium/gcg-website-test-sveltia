@@ -46,26 +46,22 @@ const CardShortcode = {
   preview: ({ title, link }) => {
     return h(
       "div",
-      { className: "container mb-0" },
+      { className: "card border-primary rounded-0 hover-shadow mb-2" },
       h(
         "div",
-        { className: "card border-primary rounded-0 hover-shadow mb-5" },
+        { className: "card-body mb-0" },
         h(
-          "div",
-          { className: "card-body mb-0" },
-          h(
-            "h4",
-            { className: "card-title" },
-            h("a", { className: "text-decoration-none", href: link }, title)
-          ),
-          h(
-            "a",
-            {
-              className: "mb-0 btn btn-primary btn-sm text-decoration-none",
-              href: link,
-            },
-            "Mehr anzeigen"
-          )
+          "h4",
+          { className: "card-title" },
+          h("a", { className: "text-decoration-none", href: link }, title)
+        ),
+        h(
+          "a",
+          {
+            className: "mb-0 btn btn-primary btn-sm text-decoration-none",
+            href: link,
+          },
+          "Mehr anzeigen"
         )
       )
     );
