@@ -1,4 +1,9 @@
-import { Container, PageHeader, Row, Section } from "./components/index.js";
+import {
+  Container,
+  ContentJustify,
+  PageHeader,
+  Section,
+} from "./components/index.js";
 
 const ContestPreview = ({ widgetFor, entry, fields, collection }) => {
   const imageField = useMemo(() => {
@@ -16,46 +21,28 @@ const ContestPreview = ({ widgetFor, entry, fields, collection }) => {
     Section(
       Container([
         entry.data.image && entry.data.image != "/media/image.webp"
-          ? Row(
-              h(
-                "div",
-                { className: "col-12 mb-4" },
-                h("img", { className: "img-fluid w-100", src: imageUrl })
-              )
-            )
+          ? h("img", { className: "img-fluid w-100 mb-4", src: imageUrl })
           : null,
         h(
           "div",
-          { className: "row mb-4" },
+          { className: "d-flex justify-content-between mb-4" },
           h(
             "div",
-            { className: "col-7" },
+            { className: "d-flex align-items-center" },
+            h("i", { className: "mdi mdi-crowd text-primary icon-md me-2" }),
             h(
               "div",
-              { className: "d-flex align-items-center" },
-              h("i", { className: "mdi mdi-crowd text-primary icon-md me-2" }),
-              h(
-                "div",
-                { className: "text-start" },
-                h("h6", { className: "mb-0" }, "KLASSE(N)"),
-                h("p", { className: "mb-0" }, entry.data.class)
-              )
+              { className: "text-start" },
+              h("h6", { className: "mb-0 text-uppercase" }, "Klassen"),
+              h("p", { className: "mb-0" }, entry.data.class)
             )
           ),
           entry.data.web_url
-            ? h(
-                "div",
-                { className: "col-5 text-end mb-4 mb-xl-0" },
-                h("a", { className: "btn btn-primary" }, "Website")
-              )
-            : null,
-          h(
-            "div",
-            { className: "col-12 mt-4" },
-            h("div", { className: "border-bottom border-primary" })
-          )
+            ? h("a", { className: "btn btn-primary" }, "Website")
+            : null
         ),
-        Row(h("div", { className: "col-12 content" }, widgetFor("body"))),
+        h("hr"),
+        ContentJustify(widgetFor("body")),
       ])
     ),
   ];

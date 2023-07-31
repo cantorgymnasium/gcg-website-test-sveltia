@@ -1,4 +1,4 @@
-import { PageHeader } from "./components/index.js";
+import { Container, PageHeader, Section, Row } from "./components/index.js";
 
 const ChronikIndexPreview = ({
   widgetFor,
@@ -20,14 +20,10 @@ const ChronikIndexPreview = ({
   );
   return [
     PageHeader(entry),
-    h(
-      "section",
-      { className: "section" },
-      h("div", { className: "container" }, widgetFor("body")),
+    Section(
+      Container(widgetFor("body")),
       widgetsFor("infocard").data.enable
-        ? h(
-            "div",
-            { className: "container" },
+        ? Container(
             h(
               "div",
               { className: "card mb-3" },
@@ -68,34 +64,31 @@ const ChronikIndexPreview = ({
             )
           )
         : null,
-      h(
-        "div",
-        { className: "container" },
+      Container([
         h("h2", { className: "mb-4" }, "Informationsseiten"),
-        h(
-          "div",
-          { className: "row" },
+        Row(
           widgetsFor("links").map((element) =>
             h(
               "div",
-              { className: "col-lg-4 col-sm-6" },
+              { className: "col-lg-4 col-sm-6 d-flex align-items-stretch" },
               h(
                 "div",
                 {
-                  className: "card border-primary rounded-0 hover-shadow mb-4",
+                  className:
+                    "card border-primary rounded-0 hover-shadow mb-2 w-100",
                 },
                 h(
                   "div",
-                  { className: "card-body" },
+                  { className: "card-body d-flex flex-column" },
                   h(
                     "h4",
-                    { className: "card-title text-truncate" },
+                    { className: "card-title text-truncate mt-auto" },
                     h("a", { href: element.data.link }, element.data.title)
                   ),
                   h(
                     "a",
                     {
-                      className: "btn btn-primary btn-sm",
+                      className: "btn btn-primary btn-sm align-self-start",
                       href: element.data.link,
                     },
                     "Mehr anzeigen"
@@ -104,8 +97,8 @@ const ChronikIndexPreview = ({
               )
             )
           )
-        )
-      )
+        ),
+      ])
     ),
   ];
 };

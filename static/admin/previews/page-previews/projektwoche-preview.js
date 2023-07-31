@@ -1,12 +1,17 @@
-import { Container, PageHeader, Row, Section } from "./components/index.js";
+import {
+  Container,
+  ContentJustify,
+  PageHeader,
+  Row,
+} from "./components/index.js";
 
 const ProjektwochePreview = ({ widgetsFor, widgetFor, entry }) => {
   return [
     PageHeader(entry),
-    Section([
-      Container(
-        Row(h("div", { className: "col-12 mb-4 content" }, widgetFor("body")))
-      ),
+    h(
+      "section",
+      { className: "section superhaufen" },
+      Container(ContentJustify(widgetFor("body"))),
       Container(
         Row([
           widgetsFor("tiles").map((tile) =>
@@ -47,8 +52,8 @@ const ProjektwochePreview = ({ widgetsFor, widgetFor, entry }) => {
             )
           ),
         ])
-      ),
-    ]),
+      )
+    ),
   ];
 };
 

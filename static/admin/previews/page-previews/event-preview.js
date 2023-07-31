@@ -1,145 +1,121 @@
-import { PageHeader, DateFormat } from "./components/index.js";
-
-function isFuture(date, enddate) {
-  let date1 = new Date(date ? date : 0);
-  let date2 = new Date(enddate ? enddate : 0);
-  let present = new Date();
-  if (date1 >= present || date2 >= present) {
-    return true;
-  } else {
-    return false;
-  }
-}
+import {
+  PageHeader,
+  DateFormat,
+  Section,
+  Container,
+} from "./components/index.js";
 
 const EventPreview = ({ widgetsFor, entry }) => {
   return [
     PageHeader(entry),
-    h(
-      "section",
-      { className: "section" },
-      h(
-        "div",
-        { className: "container" },
+    Section(
+      Container([
+        h(
+          "ul",
+          { className: "list-inline text-center filter-controls mb-5" },
+          h(
+            "li",
+            { className: "list-inline-item m-3 text-uppercase active" },
+            "Alle"
+          ),
+          h(
+            "li",
+            { className: "list-inline-item m-3 text-uppercase" },
+            "Anstehend"
+          ),
+          h(
+            "li",
+            { className: "list-inline-item m-3 text-uppercase" },
+            "Vergangen"
+          )
+        ),
         h(
           "div",
-          { className: "row" },
-          h(
-            "div",
-            { className: "col-12" },
+          { className: "filtr-container row" },
+          widgetsFor("events").map((event) =>
             h(
               "div",
-              { className: "row" },
+              { className: "filtr-item col-12" },
               h(
                 "div",
-                { className: "col-12" },
-                h(
-                  "ul",
-                  { className: "list-inline text-center filter-controls mb-5" },
-                  h(
-                    "li",
-                    { className: "list-inline-item m-3 text-uppercase active" },
-                    "Alle"
-                  ),
-                  h(
-                    "li",
-                    { className: "list-inline-item m-3 text-uppercase" },
-                    "Anstehend"
-                  ),
-                  h(
-                    "li",
-                    { className: "list-inline-item m-3 text-uppercase" },
-                    "Vergangen"
-                  )
-                )
-              )
-            ),
-            h(
-              "div",
-              { className: "filtr-container" },
-              widgetsFor("events").map((event) =>
+                {
+                  className: "card hover-shadow border-primary mb-4 p-0",
+                },
                 h(
                   "div",
-                  { className: "mb-2 mt-2 col-12 filtr-item" },
+                  { className: "row g-0" },
                   h(
                     "div",
                     {
                       className:
-                        "card d-md-table w-100 hover-shadow border-primary ps-0 pe-0 mb-4",
+                        "col-md-3 text-center p-4 bg-primary text-white rounded",
                     },
                     h(
-                      "div",
-                      {
-                        className:
-                          "d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0 termin-tc rounded",
-                      },
-                      h(
-                        "span",
-                        { className: "h2 d-block" },
-                        event.data.date != null && event.data.date != ""
-                          ? DateFormat({
-                              date: event.data.date,
-                              format: { day: "numeric" },
-                            })
-                          : null
-                      ),
-                      h(
-                        "span",
-                        { className: "d-block" },
-                        event.data.date != null && event.data.date != ""
-                          ? DateFormat({
-                              date: event.data.date,
-                              format: { month: "short", year: "numeric" },
-                            })
-                          : null
-                      ),
-                      event.data.enddate != null && event.data.enddate != ""
-                        ? [
-                            h("br"),
-                            "bis " +
-                              DateFormat({
-                                date: event.data.enddate,
-                                format: {
-                                  day: "numeric",
-                                  month: "short",
-                                  year: "numeric",
-                                },
-                              }),
-                          ]
+                      "span",
+                      { className: "h2" },
+                      event.data.date != null && event.data.date != ""
+                        ? DateFormat({
+                            date: event.data.date,
+                            format: { day: "numeric" },
+                          })
                         : null
                     ),
                     h(
+                      "span",
+                      {},
+                      event.data.date != null && event.data.date != ""
+                        ? DateFormat({
+                            date: event.data.date,
+                            format: { month: "short", year: "numeric" },
+                          })
+                        : null
+                    ),
+                    event.data.enddate != null && event.data.enddate != ""
+                      ? [
+                          h("br"),
+                          "bis " +
+                            DateFormat({
+                              date: event.data.enddate,
+                              format: {
+                                day: "numeric",
+                                month: "short",
+                                year: "numeric",
+                              },
+                            }),
+                        ]
+                      : null
+                  ),
+                  h(
+                    "div",
+                    { className: "col-md-9" },
+                    h(
                       "div",
                       {
                         className:
-                          "d-md-table-cell px-4 align-middle mb-4 mb-md-0 p-2",
+                          "card-body h-100 d-flex flex-column justify-content-around",
                       },
-                      h("p", { className: "h4 mb-0 d-block" }, event.data.title)
-                    ),
-                    event.data.location
-                      ? h(
-                          "div",
-                          {
-                            className:
-                              "d-md-table-cell text-end pe-md-4 p-2 align-middle",
-                          },
-                          h(
-                            "p",
-                            {},
+                      h("h4", { className: "card-title" }, event.data.title),
+                      event.data.location
+                        ? h(
+                            "div",
+                            {
+                              className: "card-text",
+                            },
                             h("i", {
                               className:
                                 "mdi mdi-map-marker-radius-outline icon-s text-primary me-2",
                             }),
                             event.data.location
                           )
-                        )
-                      : null
+                        : null
+                    )
                   )
                 )
               )
             )
           )
-        )
-      )
+        ),
+      ])
     ),
   ];
 };

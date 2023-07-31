@@ -1,17 +1,13 @@
-import { PageHeader } from "./components/index.js";
+import { Container, PageHeader, Row } from "./components/index.js";
 
 const KontaktPreview = ({ widgetsFor, entry }) => {
   return [
     PageHeader(entry),
     h(
       "section",
-      { className: "section bg-body-tertiary" },
-      h(
-        "div",
-        { className: "container" },
-        h(
-          "div",
-          { className: "row" },
+      { className: "section pb-0" },
+      Container(
+        Row([
           h(
             "div",
             { className: "col-lg-6 mb-4 mb-lg-0" },
@@ -88,8 +84,8 @@ const KontaktPreview = ({ widgetsFor, entry }) => {
                 )
               )
             )
-          )
-        )
+          ),
+        ])
       )
     ),
   ];

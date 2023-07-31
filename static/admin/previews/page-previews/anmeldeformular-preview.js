@@ -1,17 +1,11 @@
-import { PageHeader } from "./components/index.js";
+import { Container, PageHeader, Row, Section } from "./components/index.js";
 
 const AnmeldeformularPreview = ({ widgetFor, entry }) => {
   return [
     PageHeader(entry),
-    h(
-      "section",
-      { className: "section bg-body-tertiary" },
-      h(
-        "div",
-        { className: "container" },
-        h(
-          "div",
-          { className: "row" },
+    Section(
+      Container(
+        Row(
           h(
             "div",
             { className: "col-lg-8 mb-4 mb-lg-0" },

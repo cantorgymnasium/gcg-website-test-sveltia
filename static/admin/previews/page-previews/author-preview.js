@@ -1,4 +1,4 @@
-import { PageHeader, md5 } from "./components/index.js";
+import { Container, PageHeader, Section, md5 } from "./components/index.js";
 
 const AuthorPreview = ({ widgetFor, entry, fields, collection }) => {
   const imageField = useMemo(
@@ -14,57 +14,28 @@ const AuthorPreview = ({ widgetFor, entry, fields, collection }) => {
 
   return [
     PageHeader(entry),
-    h(
-      "section",
-      { className: "section bg-light" },
-      h(
-        "div",
-        { className: "container" },
+    Section(
+      Container([
         h(
           "div",
-          { className: "row" },
-          h(
-            "div",
-            { className: "col-lg-10 mx-auto" },
-            h(
-              "div",
-              { className: "text-center" },
-              h(
-                "figure",
-                {},
-                h("img", {
-                  className: "rounded-circle img-fluid mb-4",
-                  src:
-                    imageUrl ??
-                    "https://www.gravatar.com/avatar/" +
-                      md5(entry.data.email) +
-                      "?s=128&pg&d=identicon",
-                  width: "128px",
-                }),
-                h(
-                  "figcaption",
-                  {},
-                  h("h4", { className: "fw-bold" }, entry.data.title)
-                )
-              ),
-              h("hr"),
-              widgetFor("body"),
-              h("hr"),
-              h(
-                "ul",
-                { className: "list-inline" },
-                entry.data.email
-                  ? h(
-                      "li",
-                      { className: "list-inline-item" },
-                      h("i", { className: "mdi mdi-at" })
-                    )
-                  : null
-              )
-            )
-          )
-        )
-      )
+          { className: "text-center" },
+          h("img", {
+            className: "rounded-circle img-fluid mb-4",
+            src:
+              imageUrl ??
+              "https://www.gravatar.com/avatar/" +
+                md5(entry.data.email) +
+                "?s=128&pg&d=identicon",
+            width: "128px",
+            height: "128px",
+          }),
+          h("h4", { className: "fw-bold" }, entry.data.title),
+          h("hr"),
+          widgetFor("body"),
+          h("hr"),
+          entry.data.email ? h("i", { className: "mdi mdi-at" }) : null
+        ),
+      ])
     ),
   ];
 };

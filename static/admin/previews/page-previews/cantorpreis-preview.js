@@ -3,7 +3,7 @@ import {
   Section,
   Container,
   Row,
-  Content,
+  ContentJustify,
 } from "./components/index.js";
 
 const CantorpreisPreview = ({ widgetFor, entry, fields, collection }) => {
@@ -26,19 +26,18 @@ const CantorpreisPreview = ({ widgetFor, entry, fields, collection }) => {
         Row([
           h(
             "div",
-            { className: "col-md-5 mb-5" },
+            { className: "col-md-5 mb-4" },
             h("img", {
-              className: "img-fluid w-75",
+              className: "img-fluid w-100",
               src: imageUrl,
-              alt: entry.data.name,
             })
           ),
           h(
             "div",
-            { className: "col-md-7 mb-5" },
+            { className: "col-md-7" },
             h("h3", {}, entry.data.name),
             h("h6", { className: "text-body-secondary" }, entry.data.title),
-            Content(widgetFor("body"))
+            ContentJustify(widgetFor("body"))
           ),
         ])
       )
