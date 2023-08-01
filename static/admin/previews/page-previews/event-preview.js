@@ -51,7 +51,7 @@ const EventPreview = ({ widgetsFor, entry }) => {
                         "col-md-3 text-center p-4 bg-primary text-white rounded",
                     },
                     h(
-                      "span",
+                      "div",
                       { className: "h2" },
                       event.data.date != null && event.data.date != ""
                         ? DateFormat({
@@ -61,7 +61,7 @@ const EventPreview = ({ widgetsFor, entry }) => {
                         : null
                     ),
                     h(
-                      "span",
+                      "div",
                       {},
                       event.data.date != null && event.data.date != ""
                         ? DateFormat({

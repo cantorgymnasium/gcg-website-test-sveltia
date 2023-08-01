@@ -42,15 +42,15 @@
     <div id="wc-canvas"></div>
     {{ $topics := slice }}
     {{ if .Params.pretext }}
-      {{ $topics = $topics | append (slice (slice .Params.Title 200 (md5 .Title))) }}
+      {{ $topics = $topics | append (dict "Title" .Params.Title "Size" (int 200) "ID" (md5 .Title)) }}
     {{ else }}
-      {{ $topics = $topics | append (slice (slice .Params.Title 200)) }}
+      {{ $topics = $topics | append (dict "Title" .Params.Title "Size" (int 200)) }}
     {{ end }}
     {{ range .Params.topics }}
       {{ if .superhaufen.enable }}
-        {{ $topics  = $topics | append (slice (slice .title 30 (.superhaufen.link | urlize)  "superhaufen" )) }}
+        {{ $topics  = $topics | append (dict "Title" .title "Size" 30 "ID" (.superhaufen.link | urlize)  "Superhaufen" true ) }}
       {{ else }}
-        {{ $topics  = $topics | append (slice (slice .title 30 (md5 .title) )) }}
+        {{ $topics  = $topics | append (dict "Title" .title "Size" 30 "ID" (md5 .title)) }}
       {{ end }}
     {{ end }}
     <script>
@@ -58,8 +58,8 @@
         document.getElementById('wc-canvas'),
         {
           click: function (item) {
-            if (item[1] != 200 || (item[1] == 200 && item[2] == '{{ md5 .Title }}')) {
-              if( item[3] == "superhaufen" ) {
+            if (item[2] != null) {
+              if (item[3])  {
                 window.location.href = "{{ `/superhaufen/` | relURL }}" + item[2];
               } else {
                 $('#' + item[2]).modal('show');
@@ -74,7 +74,9 @@
           },*/
           fontFamily: 'Ubuntu, sans-serif',
           fontWeight: 700,
-          list: JSON.parse("{{ $topics | jsonify }}"),
+          list: JSON.parse("{{ $topics | jsonify }}").map(obj => {
+            return [obj.Title, obj.Size, obj.ID ? obj.ID : null, obj.Superhaufen ? true : false]
+          }),
           shrinkToFit: true,
           gridSize: 50,
           rotateRatio: 0,

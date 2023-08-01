@@ -1,8 +1,8 @@
 <div class="card hover-shadow border-primary mb-4 p-0">
   <div class="row g-0">
     <div class="col-md-3 text-center p-4 bg-primary text-white rounded">
-      <span class="h2">{{ time.Format "2" .date}}</span>
-      <span>{{ time.Format "Jan 2006" .date}}</span>
+      <div class="h2">{{ time.Format "2" .date}}</div>
+      <div>{{ time.Format "Jan 2006" .date}}</div>
       {{ with .enddate }}<br>bis {{ time.Format "2 Jan 2006" . }}{{ end }}
     </div>
     <div class="col-md-9">
