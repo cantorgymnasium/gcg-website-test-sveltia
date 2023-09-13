@@ -9,7 +9,7 @@ categories:
   - Traditionen
   - Sonstiges
 tags:
-  - 23_24
+  - "2023"
 type: post
 ---
 ## Willkommen (zurück) im GCG
