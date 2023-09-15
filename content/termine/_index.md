@@ -55,4 +55,7 @@ events:
     enddate: 2023-09-26T11:00:16.000+02:00
     title: Mannschaftswettbewerb Biologie der Sekundarstufe II
     location: Georg-Cantor Gymnasium
+  - date: 2023-10-02T16:45:22.000+02:00
+    enddate: 2023-10-02T16:45:22.000+02:00
+    title: Ferientag
 ---
