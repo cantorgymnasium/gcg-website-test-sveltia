@@ -76,13 +76,44 @@ events:
     enddate: 2023-11-24T11:00:16.000+02:00
     title: Betriebspraktikum Klassenstufe 9
   - date: 2023-11-14T11:00:16.000+02:00
+    title: Internationale Physikolympiade (IPhO) Runde 2
+  - date: 2023-11-14T11:00:16.000+02:00
     title: Matheolympiade Runde 2
   - date: 2023-11-21T11:00:16.000+02:00
     title: Physik-Klausur Klassenstufe 10
   - date: 2023-11-23T11:00:16.000+02:00
-    title: "Tag der Justiz" für Schüler der Sozialkundekurse Klassnestufe 10
+    title: "Tag der Justiz" für Schüler der Sozialkundekurse Klassenstufe 10
   - date: 2023-11-25T11:00:16.000+02:00
     title: Tag der offenen Tür
   - date: 2023-11-29T11:00:16.000+02:00
     title: Geschichtsexkursion Klassenstufe 12 (Hr. Dr. Krause)
+  - date: 2023-12-01T11:00:16.000+02:00
+    title: Fahrt in den Bundestag der Sozialkundekurse Klassenstufe 11
+    location: Berlin
+  - date: 2023-12-01T11:00:16.000+02:00
+    title: Geografie-Exkursion für Geografiekurse Klassenstufe 11
+    location: Halle
+  - date: 2023-12-01T11:00:16.000+02:00
+    title: Internationale Chemieolympiade (ICho)
+  - date: 2023-12-06T11:00:16.000+02:00
+    enddate: 2023-12-08T11:00:16.000+02:00
+    title: Musikfahrt
+    location: Naumburg
+  - date: 2023-12-11T11:00:16.000+02:00
+    title: Wechsel des Kurshalbjahres im Abiturjahrgang
+  - date: 2023-12-13T11:00:16.000+02:00
+    title: Generalprobe Weihnachtskonzert
+    location: Ulrichskirche  
+  - date: 2023-12-15T11:00:16.000+02:00
+    title: Weihnachtskonzert
+    location: Ulrichskirche
+  - date: 2023-12-21T11:00:16.000+02:00
+    enddate: 2024-01-03T11:00:16.000+02:00
+    title: Weihnachtsferien 
+  - date: 2024-01-11T11:00:16.000+02:00
+    title: Fachbereichskonferenzen der sprachlich-literarisch-künstlerischen Fächer
+  - date: 2024-01-12T11:00:16.000+02:00
+    enddate: 2024-01-19T11:00:16.000+02:00
+    title: Ski-Kompaktkurs Klassenstufe 11
+    location: 
 ---
