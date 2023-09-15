@@ -115,5 +115,4 @@ events:
   - date: 2024-01-12T11:00:16.000+02:00
     enddate: 2024-01-19T11:00:16.000+02:00
     title: Ski-Kompaktkurs Klassenstufe 11
-    location: 
 ---
