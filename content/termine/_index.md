@@ -82,7 +82,7 @@ events:
   - date: 2023-11-21T11:00:16.000+02:00
     title: Physik-Klausur Klassenstufe 10
   - date: 2023-11-23T11:00:16.000+02:00
-    title: "Tag der Justiz" für Schüler der Sozialkundekurse Klassenstufe 10
+    title: \"Tag der Justiz\" für Schüler der Sozialkundekurse Klassenstufe 10
   - date: 2023-11-25T11:00:16.000+02:00
     title: Tag der offenen Tür
   - date: 2023-11-29T11:00:16.000+02:00
