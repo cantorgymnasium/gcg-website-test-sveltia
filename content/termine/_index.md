@@ -8,23 +8,17 @@ events:
     title: Sommerferien
     location: null
   - date: 2023-08-24T11:00:16.000+02:00
-    enddate: 2023-08-24T11:00:16.000+02:00
     title: AG-Börse
     location: null
   - date: 2023-09-12T10:10:18.000+02:00
-    enddate: 2023-09-12T10:10:18.000+02:00
-    title: Projekt "Red Hand Day - Alltag von Kindersoldaten"; Übergabe der
-      Red-Hand-Mappe an Dr. Karamba Diabi
+    title: Projekt "Red Hand Day - Alltag von Kindersoldaten": Übergabe der Red-Hand-Mappe an Dr. Karamba Diabi
   - date: 2023-09-13T11:00:16.000+02:00
-    enddate: 2023-09-13T11:00:16.000+02:00
     title: Jugend-forscht-Tag Klassenstufen 5 und 6
     location: null
   - date: 2023-09-14T11:00:16.000+02:00
-    enddate: 2023-09-14T11:00:16.000+02:00
     title: Festveranstaltung zum 35-jährigen Schuljubiläum
     location: null
   - date: 2023-09-15T11:00:16.000+02:00
-    enddate: 2023-09-15T11:00:16.000+02:00
     title: Projekttag zum Schuljubiläum
     location: null
   - date: 2023-09-18T11:00:16.000+02:00
@@ -32,7 +26,6 @@ events:
     title: Schülerratstraining
     location: Villa Jühling
   - date: 2023-09-19T11:00:16.000+02:00
-    enddate: 2023-09-23T11:00:16.000+02:00
     title: Bundesrunde Chemieolympiade
     location: Leipzig
   - date: 2023-09-18T11:00:16.000+02:00
@@ -44,11 +37,9 @@ events:
     title: Elternversammlung
     location: null
   - date: 2023-09-23T11:00:16.000+02:00
-    enddate: 2023-09-23T11:00:16.000+02:00
     title: Stadtschulmesse
     location: null
   - date: 2023-09-25T11:00:16.000+02:00
-    enddate: 2023-09-25T11:00:16.000+02:00
     title: Chemkids
     location: null
   - date: 2023-09-26T11:00:16.000+02:00
