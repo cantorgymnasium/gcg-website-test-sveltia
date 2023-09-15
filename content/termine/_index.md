@@ -201,4 +201,19 @@ events:
   - date: 2024-06-24T11:00:16.000+02:00
     enddate: 2024-08-03T11:00:16.000+02:00
     title: Sommerferien
+  - date: 2024-08-19T11:00:16.000+02:00
+    enddate: 2024-08-23T11:00:16.000+02:00
+    title: Klassensfahrt Klassenstufen 5
+    location: Grünheide
+  - date: 2024-09-30T11:00:16.000+02:00
+    enddate: 2024-10-12T11:00:16.000+02:00
+    title: Herbstferien
+  - date: 2024-12-06T11:00:16.000+02:00
+    title: Internationale Chemieolympiade (IChO)
+  - date: 2024-12-13T11:00:16.000+02:00
+    title: Weihnachtskonzert
+    location: Ulrichskonzert
+  - date: 2024-12-23T11:00:16.000+02:00
+    enddate: 2025-01-03T11:00:16.000+02:00
+    title: Weihnachtsferien
 ---
