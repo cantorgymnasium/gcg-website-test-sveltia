@@ -49,4 +49,40 @@ events:
   - date: 2023-10-02T16:45:22.000+02:00
     enddate: 2023-10-02T16:45:22.000+02:00
     title: Ferientag
+  - date: 2023-10-10T11:00:16.000+02:00
+    enddate: 2023-10-12T11:00:16.000+02:00
+    title: Gedenkstättenfahrt Klassenstufe 10
+    location: Bernburg
+  - date: 2023-10-12T11:00:16.000+02:00
+    title: Gesamtkonferenz
+  - date: 2023-10-13T11:00:16.000+02:00
+    title: Landesphysikolympiade Runde 1 
+  - date: 2023-10-16T11:00:16.000+02:00
+    enddate: 2023-10-30T11:00:16.000+02:00
+    title: Herbstferien
+  - date: 2023-11-01T11:00:16.000+02:00
+    enddate: 2023-11-02T11:00:16.000+02:00
+    title: Pädagogische Konferenzen
+  - date: 2023-11-06T11:00:16.000+02:00
+    enddate: 2023-11-10T11:00:16.000+02:00
+    title: Kennelernfahrt Klassenstufe 5
+    location: Grünheide
+  - date: 2023-11-09T11:00:16.000+02:00
+    title: Lehrersprechtag
+  - date: 2023-11-13T11:00:16.000+02:00
+    enddate: 2023-11-20T11:00:16.000+02:00
+    title: NaWi-Praktikum Klassenstufe 10
+  - date: 2023-11-13T11:00:16.000+02:00
+    enddate: 2023-11-24T11:00:16.000+02:00
+    title: Betriebspraktikum Klassenstufe 9
+  - date: 2023-11-14T11:00:16.000+02:00
+    title: Matheolympiade Runde 2
+  - date: 2023-11-21T11:00:16.000+02:00
+    title: Physik-Klausur Klassenstufe 10
+  - date: 2023-11-23T11:00:16.000+02:00
+    title: "Tag der Justiz" für Schüler der Sozialkundekurse Klassnestufe 10
+  - date: 2023-11-25T11:00:16.000+02:00
+    title: Tag der offenen Tür
+  - date: 2023-11-29T11:00:16.000+02:00
+    title: Geschichtsexkursion Klassenstufe 12 (Hr. Dr. Krause)
 ---
