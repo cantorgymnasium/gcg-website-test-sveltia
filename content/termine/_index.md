@@ -31,28 +31,28 @@ events:
     enddate: 2023-09-19T11:00:16.000+02:00
     title: Schülerratstraining
     location: Villa Jühling
-  - date: 2024-01-15T11:00:16.000+01:00
-    enddate: 2024-01-19T11:00:16.000+01:00
-    title: Bundesrunde Bundesrunde Chemieolympiade
+  - date: 2023-09-19T11:00:16.000+02:00
+    enddate: 2023-09-23T11:00:16.000+02:00
+    title: Bundesrunde Chemieolympiade
     location: Leipzig
-  - date: 2024-01-15T11:00:16.000+01:00
-    enddate: 2024-01-19T11:00:16.000+01:00
+  - date: 2023-09-18T11:00:16.000+02:00
+    enddate: 2023-09-22T11:00:16.000+02:00
     title: Praktikum Modulkurs der Klassenstufe 12
     location: Martin-Luther-Universität
-  - date: 2024-01-15T11:00:16.000+01:00
-    enddate: 2024-01-19T11:00:16.000+01:00
+  - date: 2023-09-19T11:00:16.000+02:00
+    enddate: 2023-09-21T11:00:16.000+02:00
     title: Elternversammlung
     location: null
-  - date: 2024-01-15T11:00:16.000+01:00
-    enddate: 2024-01-19T11:00:16.000+01:00
+  - date: 2023-09-23T11:00:16.000+02:00
+    enddate: 2023-09-23T11:00:16.000+02:00
     title: Stadtschulmesse
     location: null
-  - date: 2024-01-15T11:00:16.000+01:00
-    enddate: 2024-01-19T11:00:16.000+01:00
+  - date: 2023-09-25T11:00:16.000+02:00
+    enddate: 2023-09-25T11:00:16.000+02:00
     title: Chemkids
     location: null
-  - date: 2024-01-15T11:00:16.000+01:00
-    enddate: 2024-01-19T11:00:16.000+01:00
+  - date: 2023-09-26T11:00:16.000+02:00
+    enddate: 2023-09-26T11:00:16.000+02:00
     title: Mannschaftswettbewerb Biologie der Sekundarstufe II
     location: Georg-Cantor Gymnasium
 ---
