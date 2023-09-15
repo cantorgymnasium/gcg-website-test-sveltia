@@ -115,4 +115,37 @@ events:
   - date: 2024-01-12T11:00:16.000+02:00
     enddate: 2024-01-19T11:00:16.000+02:00
     title: Ski-Kompaktkurs Klassenstufe 11
+  - date: 2024-01-15T11:00:16.000+02:00
+    enddate: 2024-01-19T11:00:16.000+02:00
+    title: Spezialistenlager für Klassenstufen 5-7
+    location: Wittenberg
+  - date: 2024-01-16T11:00:16.000+02:00
+    enddate: 2024-01-18T11:00:16.000+02:00
+    title: Halbjahreskonferenzen
+  - date: 2024-01-29T11:00:16.000+02:00
+    enddate: 2024-02-02T11:00:16.000+02:00
+    title: Modulkurs Chemie Klassenstufe 11
+    location: Hochschule Merseburg
+  - date: 2024-02-02T11:00:16.000+02:00
+    title: Halbjahreszeugnisverleihung 
+  - date: 2024-02-05T11:00:16.000+02:00
+    enddate: 2024-02-10T11:00:16.000+02:00
+    title: Winterferien
+  - date: 2024-02-12T11:00:16.000+02:00
+    enddate: 2024-02-16T11:00:16.000+02:00
+    title: Modulkurs Chemie Klassenstufe 12
+    location: Hochschule Merseburg
+  - date: 2024-02-14T11:00:16.000+02:00
+    title: verpflichtende Vergleichsarbeit Naturwissenschaften für Klassenstufe 8
+  - date: 2024-02-15T11:00:16.000+02:00
+    title: Fachbereichskonferenzen der gesellschaftswissenschaftlichen Fächer und Sport
+  - date: 2024-02-19T11:00:16.000+02:00
+    enddate: 2024-03-22T11:00:16.000+02:00
+    title: verpflichtende Vergleichsarbeit Mathematik für Klassenstufe 8 (online)
+  - date: 2024-02-23T11:00:16.000+02:00
+    enddate: 2024-02-24T11:00:16.000+02:00
+    title: Landesrunde der Mathematikolympiade
+  - date: 2024-03-04T11:00:16.000+02:00
+    enddate: 2024-03-08T11:00:16.000+02:00
+    title: Projektwoche
 ---
