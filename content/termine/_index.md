@@ -23,12 +23,12 @@ events:
     enddate: 2023-09-14T11:00:16.000+02:00
     title: Festveranstaltung zum 35-jährigen Schuljubiläum
     location: null
-  - date: 2024-01-15T11:00:16.000+01:00
-    enddate: 2024-01-19T11:00:16.000+01:00
+  - date: 2023-09-15T11:00:16.000+02:00
+    enddate: 2023-09-15T11:00:16.000+02:00
     title: Projekttag zum Schuljubiläum
     location: null
-  - date: 2024-01-15T11:00:16.000+01:00
-    enddate: 2024-01-19T11:00:16.000+01:00
+  - date: 2023-09-18T11:00:16.000+02:00
+    enddate: 2023-09-19T11:00:16.000+02:00
     title: Schülerratstraining
     location: Villa Jühling
   - date: 2024-01-15T11:00:16.000+01:00
