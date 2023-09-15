@@ -11,7 +11,7 @@ events:
     title: AG-Börse
     location: null
   - date: 2023-09-12T10:10:18.000+02:00
-    title: "Projekt \"Red Hand Day - Alltag von Kindersoldaten\": Übergabe der Red-Hand-Mappe an Dr. Karamba Diaby"
+    title: Projekt \"Red Hand Day - Alltag von Kindersoldaten\": Übergabe der Red-Hand-Mappe an Dr. Karamba Diaby
   - date: 2023-09-13T11:00:16.000+02:00
     title: Jugend-forscht-Tag Klassenstufen 5 und 6
     location: null
