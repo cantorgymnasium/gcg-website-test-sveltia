@@ -6,21 +6,16 @@ events:
   - enddate: 2023-08-16T04:00:00.000Z
     date: 2023-07-06T15:54:48.476Z
     title: Sommerferien
-    location: null
   - date: 2023-08-24T11:00:16.000+02:00
     title: AG-Börse
-    location: null
   - date: 2023-09-12T10:10:18.000+02:00
     title: Projekt \"Red Hand Day - Alltag von Kindersoldaten\": Übergabe der Red-Hand-Mappe an Dr. Karamba Diaby
   - date: 2023-09-13T11:00:16.000+02:00
     title: Jugend-forscht-Tag Klassenstufen 5 und 6
-    location: null
   - date: 2023-09-14T11:00:16.000+02:00
     title: Festveranstaltung zum 35-jährigen Schuljubiläum
-    location: null
   - date: 2023-09-15T11:00:16.000+02:00
     title: Projekttag zum Schuljubiläum
-    location: null
   - date: 2023-09-18T11:00:16.000+02:00
     enddate: 2023-09-19T11:00:16.000+02:00
     title: Schülerratstraining
@@ -35,13 +30,10 @@ events:
   - date: 2023-09-19T11:00:16.000+02:00
     enddate: 2023-09-21T11:00:16.000+02:00
     title: Elternversammlung
-    location: null
   - date: 2023-09-23T11:00:16.000+02:00
     title: Stadtschulmesse
-    location: null
   - date: 2023-09-25T11:00:16.000+02:00
     title: Chemkids
-    location: null
   - date: 2023-09-26T11:00:16.000+02:00
     enddate: 2023-09-26T11:00:16.000+02:00
     title: Mannschaftswettbewerb Biologie der Sekundarstufe II
@@ -165,7 +157,7 @@ events:
   - date: 2024-04-19T11:00:16.000+02:00
     title: Abistreiche 
   - date: 2024-04-25T11:00:16.000+02:00
-    title: Girl's/Boy's Day (Zukunftstag)
+    title: Girl's und Boy's Day (Zukunftstag)
   - date: 2024-04-29T11:00:16.000+02:00
     title: Sportfest
     location: Brandbergehalle
