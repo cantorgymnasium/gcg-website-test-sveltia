@@ -6,21 +6,16 @@ events:
   - enddate: 2023-08-16T04:00:00.000Z
     date: 2023-07-06T15:54:48.476Z
     title: Sommerferien
-    location: null
   - date: 2023-08-24T11:00:16.000+02:00
     title: AG-Börse
-    location: null
   - date: 2023-09-12T10:10:18.000+02:00
-    title: "Projekt \"Red Hand Day - Alltag von Kindersoldaten\": Übergabe der Red-Hand-Mappe an Dr. Karamba Diaby"
+    title: Projekt \"Red Hand Day - Alltag von Kindersoldaten\" - Übergabe der Red-Hand-Mappe an Dr. Karamba Diaby
   - date: 2023-09-13T11:00:16.000+02:00
     title: Jugend-forscht-Tag Klassenstufen 5 und 6
-    location: null
   - date: 2023-09-14T11:00:16.000+02:00
     title: Festveranstaltung zum 35-jährigen Schuljubiläum
-    location: null
   - date: 2023-09-15T11:00:16.000+02:00
     title: Projekttag zum Schuljubiläum
-    location: null
   - date: 2023-09-18T11:00:16.000+02:00
     enddate: 2023-09-19T11:00:16.000+02:00
     title: Schülerratstraining
@@ -35,13 +30,10 @@ events:
   - date: 2023-09-19T11:00:16.000+02:00
     enddate: 2023-09-21T11:00:16.000+02:00
     title: Elternversammlung
-    location: null
   - date: 2023-09-23T11:00:16.000+02:00
     title: Stadtschulmesse
-    location: null
   - date: 2023-09-25T11:00:16.000+02:00
     title: Chemkids
-    location: null
   - date: 2023-09-26T11:00:16.000+02:00
     enddate: 2023-09-26T11:00:16.000+02:00
     title: Mannschaftswettbewerb Biologie der Sekundarstufe II
@@ -145,7 +137,75 @@ events:
   - date: 2024-02-23T11:00:16.000+02:00
     enddate: 2024-02-24T11:00:16.000+02:00
     title: Landesrunde der Mathematikolympiade
+    location: Magdeburg 
   - date: 2024-03-04T11:00:16.000+02:00
     enddate: 2024-03-08T11:00:16.000+02:00
     title: Projektwoche
+  - date: 2024-03-07T11:00:16.000+02:00
+    title: Landesphysikolympiade 
+    location: Magdeburg
+  - date: 2024-03-07T11:00:16.000+02:00
+    title: Cantorpreisverleihung 
+  - date: 2024-03-13T11:00:16.000+02:00
+    title: Landeschemieolympiade 
+    location: Schulpforta
+  - date: 2024-03-25T11:00:16.000+02:00
+    enddate: 2024-03-30T11:00:16.000+02:00
+    title: Osterferien
+  - date: 2024-04-18T11:00:16.000+02:00
+    title: Känguru-Wettbewerb
+  - date: 2024-04-19T11:00:16.000+02:00
+    title: Abistreiche 
+  - date: 2024-04-25T11:00:16.000+02:00
+    title: Girl's und Boy's Day (Zukunftstag)
+  - date: 2024-04-29T11:00:16.000+02:00
+    title: Sportfest
+    location: Brandbergehalle
+  - date: 2024-05-10T11:00:16.000+02:00
+    title: flexibler Ferientag 
+  - date: 2024-05-16T11:00:16.000+02:00
+    title: zentrale Klassenarbeit Mathematik für Klassenstufe 6
+  - date: 2024-05-21T11:00:16.000+02:00
+    enddate: 2024-05-24T11:00:16.000+02:00
+    title: Pfingstferien
+  - date: 2024-05-31T11:00:16.000+02:00
+    title: zentrale Klassenarbeit Englisch für Klassenstufe 6
+  - date: 2024-06-04T11:00:16.000+02:00
+    enddate: 2024-06-07T11:00:16.000+02:00
+    title: Mitteldeutsche Regionalrunde Chemie
+    location: Hochschule Merseburg
+  - date: 2024-06-06T11:00:16.000+02:00
+    title: Versetzungskonferenzen
+  - date: 2024-06-14T11:00:16.000+02:00
+    title: Schulfest
+  - date: 2024-06-14T11:00:16.000+02:00
+    title: Ausgabe der Reifezeugnisse
+  - date: 2024-06-14T11:00:16.000+02:00
+    title: Abi-Ball
+  - date: 2024-06-17T11:00:16.000+02:00
+    enddate: 2024-06-20T11:00:16.000+02:00
+    title: Klassensfahrt Klassenstufen 7 und 10
+  - date: 2024-06-17T11:00:16.000+02:00
+    enddate: 2024-06-20T11:00:16.000+02:00
+    title: Ökopraktikum Klassenstufe 11
+  - date: 2024-06-21T11:00:16.000+02:00
+    title: AUsgabe der Zeugnisse zum Schuljahresende
+  - date: 2024-06-24T11:00:16.000+02:00
+    enddate: 2024-08-03T11:00:16.000+02:00
+    title: Sommerferien
+  - date: 2024-08-19T11:00:16.000+02:00
+    enddate: 2024-08-23T11:00:16.000+02:00
+    title: Klassensfahrt Klassenstufen 5
+    location: Grünheide
+  - date: 2024-09-30T11:00:16.000+02:00
+    enddate: 2024-10-12T11:00:16.000+02:00
+    title: Herbstferien
+  - date: 2024-12-06T11:00:16.000+02:00
+    title: Internationale Chemieolympiade (IChO)
+  - date: 2024-12-13T11:00:16.000+02:00
+    title: Weihnachtskonzert
+    location: Ulrichskonzert
+  - date: 2024-12-23T11:00:16.000+02:00
+    enddate: 2025-01-03T11:00:16.000+02:00
+    title: Weihnachtsferien
 ---
