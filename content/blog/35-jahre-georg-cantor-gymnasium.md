@@ -32,23 +32,37 @@ Im Rahmen der ["Red Hand Day"-Aktion](https://www.redhandday.org/de/), welche au
 
 Unserem Wunsch, diese Handabdrücke an die Politik heranzutragen, konnte der Bundestagsabgeordnete für Halle, Herr Dr. Karamba Diaby, entsprechen. Am Dienstag, dem 12.09.2023, bekamen wir die Gelegenheit, eine Podiumsdiskussion mit ihm zu veranstalten, und im Rahmen dieser auch eine Mappe mit den Handabdrücken zu übergeben.
 
-<video src="" controls width="100%"></video>
+{{< card title="Artikel: Red Hand Day - Talk mit Dr. Karamba Diaby" link="/blog/red-hand-day-talk-mit-dr-karamba-diaby/" >}}
+
+<video class="mt-2" src="" controls width="100%"></video>
 
 ## "Jugend forscht"-Tag
 
-TBC
+Am Mittwoch, dem 13.09., fand für unsere jüngeren Schülerinnen und Schüler der "Jugend forscht"-Tag statt. Erfahrene Jungforscherinnen und Jungforscher stellten ihre Projekte und Ergebnisse sowie die Wettbewerbe "Jugend forscht" bzw. "Schüler experimentieren" vor, mit dem Ziel, die 5. und 6. Klassen für die Forschung zu begeistern - denn wer weiß, in welch stillem Köpfchen eine geniale Idee steckt?
+
+`{ {< gallery dir="" >} }`
 
 ## Festveranstaltung
 
-TBC
+Am Donnerstag, dem 14.09., wurde das Jubiläum auch in offiziellem feierlichem Rahmen begangen. Die Schulleitung versammelte zahlreiche Gäste in der Aula zu einer Festveranstaltung - darunter sowohl derzeitige, als auch ehemalige Lehrkräfte der Schule, Vertreterinnen und Vertreter vom Schülerrat, Elternrat und Förderverein sowie externe Gäste - unter anderem Herrn Frolow (Leiter Fachbereich Bildung), Herrn Mischo und Frau **X** von der Kindernothilfe. Warum? Dazu später.
 
-### Rede Herr Frolow
+Das umfangreiche Programm bestehend aus wisschenschaftlichen, literarischen und musikalischen Beiträgen symbolisiert perfekt die Interessens- und Talentvielfalt, welche unsere Schule 35 Jahre nach ihrer Gründung fest in ihrer DNA verankert hat.
+
+Nach einer musikalischen Entrée bekam man einen der Erfolge der Projektwoche im letzten Schuljahr zu hören - der Cantor-Rap, vorgetragen von Schülerinnen und Schülern der Klassenstufen 6. und 7., erzählt auf unterhaltsame Art und Weise die Geschichte von Georg Cantor und dem Georg-Cantor-Gymnasium.
+
+Danach folgte das, womit solche Veranstaltungen eigentlich immer beginnen - eine Rede. Unser Schulleiter, Herr Dr. Bernd Gorsler, sprach von der großartigen Entwicklung unserer Schule und dankte allen, die dies ermöglicht hatten, für ihre stetige Unterstützung.
+
+Die Moderation übernahm nun das Duo aus Amelie Boebenroth und Gero **X** (Kl. 11), welches das Publikum durch den weiteren Verlauf des Nachmittags führen durfte.
+
+Die beiden nutzten die Gelegenheit, beim "Schulgeburtstag" zu sprechen, um sich ein "Geburtstagsgeschenk" für unsere Schule zu wünschen - eine Erneuerung der naturwissenschaftlichen Fachräume. Doch auch die Entwicklungen der letzten Jahre blieben nicht unvergessen - die voranschreitende Digitalisierung uns Erneuerung der Schule, welche wir der Unterstützung unseres Fördervereins und der Stadt verdanken.
+
+Denn danach sprach der Vertreter ebendieser. Herr A. Frolow, der Leiter des Fachbereichs Bildung in der Stadtverwaltung Halle (Saale), erfreute uns seiner Anwesenheit und sagte einige Worte zur Feier des Tages.
 
 > TBC
 > <br>
 > **- Herr A. Frolow (Leiter Fachbereich Bildung der Stadt Halle)**
 
-### Gedicht Clara/Theresa
+Nach einer Menge Applaus und einem weiteren musikalischen Beitrag trug uns Theresa Messe (Kl. 10) das Gedicht "Unendlichkeit" vor, welches ihre Mitschülerin Clara Joachimi, welche auch in anderen Bereichen der Veranstaltung aktiv war, zu diesem Schuljubiläum verfasst hat.
 
 > Wo ﬁng es an?  
 > Wo wird es enden?  
@@ -98,6 +112,8 @@ TBC
 > Lasst uns zusammen die Welt verstehen.  
 > <br>
 > **- Clara Joachimi (Kl. 10): "Unendlichkeit"**
+
+Umrandet von weiteren musikalischen Werken präsentierten uns Clara und Franziska (Kl. 10) nun ihre Recherche-Ergebnisse zur Psychischen Krankheit von Georg Cantor - ein weiteres Produkt der diesjährigen Projektwoche.
 
 ### Poetry-Slam Benno
 
