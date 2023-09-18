@@ -45,7 +45,6 @@ jobs:
       - name: deploy
         run: |
           cd test
-          pagefind --source=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-test/
   auto-rebuild:
     if: gitea.repository == 'gcg/gcg-website' && gitea.event.issue.number == 219
