@@ -71,6 +71,9 @@ header_logos:
     - title: Gefördert durch den "DigitalPakt Schule"
       link: https://www.halle.de/de/Verwaltung/Bildung/DigitalPakt-Schule/
       image: media/logos/digitalpakt.webp
+    - title: IKT-Förderung
+      image: /media/logos/ikt.webp
+      link: https://cantorgymnasium.de/blog/richtlinie-zur-forderung-des-zugangs-zu-informations-und-kommunikationstechnologien-an-schulen-ikt-rl/
     - title: Projektschule LemaS
       link: https://www.leistung-macht-schule.de/
       image: media/logos/lemas.webp
@@ -80,8 +83,6 @@ header_logos:
     - title: Mitglied im Netzwerk "Schule ohne Rassismus - Schule mit Courage"
       link: https://www.schule-ohne-rassismus.org/
       image: media/logos/sor.svg
-    - title: IKT-Förderung
-      image: /media/logos/ikt.webp
 about:
   enable: true
   title: Herzlich willkommen auf der Homepage des Georg-Cantor-Gymnasiums!
