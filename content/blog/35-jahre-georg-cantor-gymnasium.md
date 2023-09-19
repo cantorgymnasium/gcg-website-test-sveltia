@@ -178,7 +178,7 @@ Zum Zeitpunkt der Veröffentlichung dieses Artikels ist der Wetterballon bereits
 Mit dem nun vorletzten Programmpunkt und damit unserem letzten Redebeitrag neigte sich diese besondere Veranstaltung langsam dem Ende. In diesem zeigte Emma Brozek (Kl. 11) mit ihren Gedanken zu ihrer Schule, wie abwechslungsreich, verbindend und prägend eine Rede sein kann.
 
 > Sehr geehrte Damen und Herren, Lehrer\*innen, Schüler\*innen, Liebe Gäste,  
-> <br>
+> <br/>
 > Schule… was ist Schule und was sollte Schule sein?  
 > Eine heiß umstrittene Debatte, die schon lange, und so wies aussieht auch weiterhin noch im Raum steht.  
 > Schule ist... für jeden unterschiedlich. Wir alle erleben unsere Schulzeit anders. Erfahrungen unterscheiden sich und somit auch unser Gesamtbild im Nachhinein aber auch noch währenddessen.  
@@ -199,9 +199,9 @@ Mit dem nun vorletzten Programmpunkt und damit unserem letzten Redebeitrag neigt
 > Außerdem lernen wir hier Freundschaften zu schließen, unsere Meinungen zu entwickeln und andere anzuhören. Wir lernen einander zuzuhören, zu verstehen und zu helfen. Wenn nun Schule auch noch in anderen Bereichen wie Inklusion wachsen würde, würden genauso wir auch noch weiterwachsen.  
 > Das 35 Jahre Cantor Jubiläum sehe ich daher als perfekten Anlass, dass ich unsere Schule zur Herausforderung nimmt, noch besser zu werden, für die klugen Köpfe die seit Jahren hier lernen und auch noch in Zukunft vondieser Schule lernen können.  
 > Ich bin dankbar, ein Teil dieser Gemeinschaft zu sein, die jeden Tag die beste Version von sich preisgibt und stetig für uns ihr Bestes gibt: Die Schulleitung, unsere treuen Lehrer\*innen, aber auch wir Schüler\*innen selbst. Wir sind die Veränderung, die unsere Generation mit sich bringt, und die unsere heutige Zeit braucht.  
-> <br>
+> <br/>
 > Also Danke, an Sie und euch alle.  
-> <br>
+> <br/>
 > **- Emma Brozek (Kl. 11): Gedanken zu meiner Schule**
 
 Unser festlicher Nachmittag nahte dem Ende, was die Schulband jedoch nicht davon abhielt, mit ihrer atemberaubenden Performance - "I'm Still Standing" von Elton John, den krönenden Abschluss zu machen - was am zahlreichen Applaus definitiv bemerkbar war.
