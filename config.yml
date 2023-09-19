@@ -2,11 +2,11 @@ baseURL: https://cantorgymnasium.de/
 title: Georg-Cantor-Gymnasium
 paginate: 8
 summaryLength: "10"
+defaultContentLanguage: de
 enableEmoji: true
 enableRobotsTxt: true
 timeZone: Europe/Berlin
 removePathAccents: true
-defaultContentLanguage: "de"
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
@@ -28,7 +28,7 @@ params:
   impressumURL: pages/impressum
   dseURL: pages/datenschutz
   copyright: "Copyright &copy; 2023 Georg-Cantor-Gymnasium Halle (Saale). Made
-      with :heart: and [Hugo](https://gohugo.io)."
+    with :heart: and [Hugo](https://gohugo.io)."
   plugins:
     css:
       - https://assets.cantorgymnasium.de/bootstrap/v5/css/bootstrap.min.css
@@ -219,14 +219,6 @@ menu:
       params:
         external: true
         separator: false
-    - parent: Für Schüler und Eltern
-      name: Schulshop
-      URL: https://schulkleidung.de/shop/index.php?nr=SDQUCKVD
-      weight: 5
-      hasChildren: false
-      params:
-        external: true
-        separator: true
     - parent: Für Schüler und Eltern
       name: Förderverein
       URL: pages/foerderverein
