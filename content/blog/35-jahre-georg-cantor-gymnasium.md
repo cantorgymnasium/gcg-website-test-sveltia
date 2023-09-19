@@ -198,6 +198,8 @@ Mit dem vorletzten Programmpunkt und damit auch unserem letzten Redebeitrag neig
 
 Unser festlicher Nachmittag nahte dem Ende, was die Schulband jedoch nicht davon abhielt, mit ihrer atemberaubenden Performance - "I'm Still Standing" von Elton John, den krönenden Abschluss zu machen - was am zahlreichen Applaus definitiv bemerkbar war.
 
+`{ {< gallery dir="" >} }`
+
 ## Projekttag
 
 Am Freitag, den 15.09., entfiel der Unterricht für alle Schülerinnen und Schüler. Stattdessen stand für alle ein abwechslungsreiches Programm auf dem Plan:
@@ -209,6 +211,8 @@ Am Freitag, den 15.09., entfiel der Unterricht für alle Schülerinnen und Schü
 
 Doch dieses vielfältige Programm war längst noch nicht das Ende dieser feierlichen Woche.
 
+`{ {< gallery dir="" >} }`
+
 ## Flashmob: Konstruktion der "Cantor-Menge"
 
 Da ist sie wieder, die "Cantor-Menge", welche bereits zum Anfang des Artikels erwähnt wurde. Doch bevor wir auf diesen Programmpunkt genauer eingehen, stellt sich für einige Leserinnen und Leser vielleicht die Frage: Was ist diese "Cantor-Menge" überhaupt. Wir helfen nach!
@@ -216,6 +220,19 @@ Da ist sie wieder, die "Cantor-Menge", welche bereits zum Anfang des Artikels er
 Die Cantor-Menge ist ein Fraktal, welches von Georg Cantor im Jahre 1883 vorgestellt wurde. Ihre Konstruktion beginnt, in dem man eine Strecke der Länge 1 drittelt und dann das mittlere Drittel entfernt. Diese Schritte führt man mit den zwei verbleibenden Strecken wieder durch. Dieser Vorgang, fortgesetzt in die Unendlichkeit, ergibt die Cantor-Menge. Aus mathematischer Sicht ist die Cantor-Menge abgeschlossen, kompakt, überabzählbar, innen leer (besteht nur aus Randpunkten), insichdicht und besitzt die Länge 0 - was für den Laien erstmal nur eine lose Ansammlung von Begriffen sein mag, ist für den Mathematiker eine Reihe von hochinteressanten Eigenschaften.
 
 Es ist bereits zur Tradition geworden, dass unsere Schule zum Schuljubiläum flashmobs veranstaltet - so bildeten wir zuvor schon erfolgreich die "Cantor-Diagonalen" und das Unendlichkeits-Zeichen als Symbol für Cantors größtes Forschungsgebiet. Die Cantor-Menge, oder genauer gesagt die Konstruktion der Cantor-Menge, wie mich der Schulleiter zum Glück rechtzeitig korrigierte, sollte nun das Motiv für unseren diesjährigen Flashmob werden.
+
+Aus viel Planungsaufwand und zahlreichen Ausflügen zum Salzgrafenplatz vor dem MDR-Gebäude entstand am Ende ein Aufstellungsplan, an dem Herr Plinke wochenlang feilte.
+
+Am Freitag war es nun soweit - um 12.30 Uhr versammelte sich die Menge am Salzgrafenplatz zur ersten Stellprobe.
+Einige Versuche später entstand um 12.46 Uhr die Endversion des Bildes als krönender Abschluss der Woche - dank Felix **X** als Drohnenaufnahme.
+
+`{ {< gallery dir="" >} }`
+
+## Danksagung
+
+Diese wirklich abwechslungsreiche Festwoche hat allen beteiligten viel Mühe abverlangt. Daher wollen wir gerne hier die Gelegenheit ergreifen, nochmal allen involvierten für ihr Engagement zu danken. Nur der gemeinsame Einsatz von ihnen allen hat diese großartigen Tage möglich gemacht.
+
+Zum Schluss bleibt mir nur noch eins - unserer Schule alles Gute zum 35-jährigen Jubiläum und noch viele Erfolge in der Zukunft zu wünschen. 
 
 
 
