@@ -167,11 +167,7 @@ Auf das letzte Klavierstück der Veranstaltung - "Nightbook" von Ludovico Einaud
 
 Zum letzten Mal für diesen abwechslungsreichen Nachmittag stand nun wieder die Wissenschaft im Vordergrund: mittels einer Live-Übertragung durften unsere Gäste den Start eines Wetterballons, organisiert und umgesetzt durch den Modulkurs Physik der Klasse 11, mitverfolgen.
 
-
-
-
-
-
+<video src="https://cloud.cantorgymnasium.de/f/b8aeac28fd63421da6ff/?dl=1" width="100%" controls></video>
 
 Zum Zeitpunkt der Veröffentlichung dieses Artikels ist der Wetterballon bereits gelandet und die aufgenommenen Daten befinden sich in der Auswertung. Regelmäßige Website-Besucher können sich also schon jetzt auf einen eigenen Beitrag zum Ballonstart freuen.
 
@@ -235,6 +231,8 @@ Am Freitag war es soweit - um 12.30 Uhr versammelte sich die Schüler- und Lehre
 Einige Versuche später entstand um 12.46 Uhr die Endversion des Bildes als krönender Abschluss der Woche - dank Felix Müller (Kl. 10), der eine Aufnahme mit der Drohne machte.
 
 `{ {< gallery dir="" >} }`
+
+<video src="https://cloud.cantorgymnasium.de/f/6648aa61caed45f7b806/?dl=1" width="100%" controls></video>
 
 ## Danksagung
 
