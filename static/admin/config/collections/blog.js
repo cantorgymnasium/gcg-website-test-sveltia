@@ -59,7 +59,7 @@ const BlogCollection = {
       widget: "relation",
       collection: "author",
       value_field: "{{slug}}",
-      search_fields: ["{{title}}"],
+      search_fields: ["title"],
       display_fields: ["{{title}}"],
       multiple: true,
       required: true,
@@ -98,6 +98,7 @@ const BlogCollection = {
       label: "Tags",
       widget: "list",
       delimiter: ",",
+      required: false
     },
     {
       name: "type",
