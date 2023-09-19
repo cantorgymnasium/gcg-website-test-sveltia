@@ -9,7 +9,8 @@ events:
   - date: 2023-08-24T11:00:16.000+02:00
     title: AG-Börse
   - date: 2023-09-12T10:10:18.000+02:00
-    title: Projekt \"Red Hand Day - Alltag von Kindersoldaten\" - Übergabe der Red-Hand-Mappe an Dr. Karamba Diaby
+    title: Projekt "Red Hand Day - Alltag von Kindersoldaten" - Übergabe der
+      Red-Hand-Mappe an Dr. Karamba Diaby
   - date: 2023-09-13T11:00:16.000+02:00
     title: Jugend-forscht-Tag Klassenstufen 5 und 6
   - date: 2023-09-14T11:00:16.000+02:00
@@ -35,11 +36,9 @@ events:
   - date: 2023-09-25T11:00:16.000+02:00
     title: Chemkids
   - date: 2023-09-26T11:00:16.000+02:00
-    enddate: 2023-09-26T11:00:16.000+02:00
     title: Mannschaftswettbewerb Biologie der Sekundarstufe II
     location: Georg-Cantor Gymnasium
   - date: 2023-10-02T16:45:22.000+02:00
-    enddate: 2023-10-02T16:45:22.000+02:00
     title: Ferientag
   - date: 2023-10-10T11:00:16.000+02:00
     enddate: 2023-10-12T11:00:16.000+02:00
@@ -48,7 +47,7 @@ events:
   - date: 2023-10-12T11:00:16.000+02:00
     title: Gesamtkonferenz
   - date: 2023-10-13T11:00:16.000+02:00
-    title: Landesphysikolympiade Runde 1 
+    title: Landesphysikolympiade Runde 1
   - date: 2023-10-16T11:00:16.000+02:00
     enddate: 2023-10-30T11:00:16.000+02:00
     title: Herbstferien
@@ -74,9 +73,12 @@ events:
   - date: 2023-11-21T11:00:16.000+02:00
     title: Physik-Klausur Klassenstufe 10
   - date: 2023-11-23T11:00:16.000+02:00
-    title: \"Tag der Justiz\" für Schüler der Sozialkundekurse Klassenstufe 10
+    title: '"Tag der Justiz" für Schüler der Sozialkundekurse Klassenstufe 10'
   - date: 2023-11-25T11:00:16.000+02:00
     title: Tag der offenen Tür
+  - date: 2023-11-28T21:48:04.000+01:00
+    title: Landeswettbewerb Latein (Lateinkurse Kl. 11 und 12)
+    location: Aula
   - date: 2023-11-29T11:00:16.000+02:00
     title: Geschichtsexkursion Klassenstufe 12 (Hr. Dr. Krause)
   - date: 2023-12-01T11:00:16.000+02:00
@@ -95,13 +97,13 @@ events:
     title: Wechsel des Kurshalbjahres im Abiturjahrgang
   - date: 2023-12-13T11:00:16.000+02:00
     title: Generalprobe Weihnachtskonzert
-    location: Ulrichskirche  
+    location: Ulrichskirche
   - date: 2023-12-15T11:00:16.000+02:00
     title: Weihnachtskonzert
     location: Ulrichskirche
   - date: 2023-12-21T11:00:16.000+02:00
     enddate: 2024-01-03T11:00:16.000+02:00
-    title: Weihnachtsferien 
+    title: Weihnachtsferien
   - date: 2024-01-11T11:00:16.000+02:00
     title: Fachbereichskonferenzen der sprachlich-literarisch-künstlerischen Fächer
   - date: 2024-01-12T11:00:16.000+02:00
@@ -119,7 +121,7 @@ events:
     title: Modulkurs Chemie Klassenstufe 11
     location: Hochschule Merseburg
   - date: 2024-02-02T11:00:16.000+02:00
-    title: Halbjahreszeugnisverleihung 
+    title: Halbjahreszeugnisverleihung
   - date: 2024-02-05T11:00:16.000+02:00
     enddate: 2024-02-10T11:00:16.000+02:00
     title: Winterferien
@@ -130,24 +132,25 @@ events:
   - date: 2024-02-14T11:00:16.000+02:00
     title: verpflichtende Vergleichsarbeit Naturwissenschaften für Klassenstufe 8
   - date: 2024-02-15T11:00:16.000+02:00
-    title: Fachbereichskonferenzen der gesellschaftswissenschaftlichen Fächer und Sport
+    title: Fachbereichskonferenzen der gesellschaftswissenschaftlichen Fächer und
+      Sport
   - date: 2024-02-19T11:00:16.000+02:00
     enddate: 2024-03-22T11:00:16.000+02:00
     title: verpflichtende Vergleichsarbeit Mathematik für Klassenstufe 8 (online)
   - date: 2024-02-23T11:00:16.000+02:00
     enddate: 2024-02-24T11:00:16.000+02:00
     title: Landesrunde der Mathematikolympiade
-    location: Magdeburg 
+    location: Magdeburg
   - date: 2024-03-04T11:00:16.000+02:00
     enddate: 2024-03-08T11:00:16.000+02:00
     title: Projektwoche
   - date: 2024-03-07T11:00:16.000+02:00
-    title: Landesphysikolympiade 
+    title: Landesphysikolympiade
     location: Magdeburg
   - date: 2024-03-07T11:00:16.000+02:00
-    title: Cantorpreisverleihung 
+    title: Cantorpreisverleihung
   - date: 2024-03-13T11:00:16.000+02:00
-    title: Landeschemieolympiade 
+    title: Landeschemieolympiade
     location: Schulpforta
   - date: 2024-03-25T11:00:16.000+02:00
     enddate: 2024-03-30T11:00:16.000+02:00
@@ -155,14 +158,14 @@ events:
   - date: 2024-04-18T11:00:16.000+02:00
     title: Känguru-Wettbewerb
   - date: 2024-04-19T11:00:16.000+02:00
-    title: Abistreiche 
+    title: Abistreich
   - date: 2024-04-25T11:00:16.000+02:00
     title: Girl's und Boy's Day (Zukunftstag)
   - date: 2024-04-29T11:00:16.000+02:00
     title: Sportfest
     location: Brandbergehalle
   - date: 2024-05-10T11:00:16.000+02:00
-    title: flexibler Ferientag 
+    title: flexibler Ferientag
   - date: 2024-05-16T11:00:16.000+02:00
     title: zentrale Klassenarbeit Mathematik für Klassenstufe 6
   - date: 2024-05-21T11:00:16.000+02:00
@@ -189,23 +192,8 @@ events:
     enddate: 2024-06-20T11:00:16.000+02:00
     title: Ökopraktikum Klassenstufe 11
   - date: 2024-06-21T11:00:16.000+02:00
-    title: AUsgabe der Zeugnisse zum Schuljahresende
+    title: Ausgabe der Zeugnisse zum Schuljahresende
   - date: 2024-06-24T11:00:16.000+02:00
     enddate: 2024-08-03T11:00:16.000+02:00
     title: Sommerferien
-  - date: 2024-08-19T11:00:16.000+02:00
-    enddate: 2024-08-23T11:00:16.000+02:00
-    title: Klassensfahrt Klassenstufen 5
-    location: Grünheide
-  - date: 2024-09-30T11:00:16.000+02:00
-    enddate: 2024-10-12T11:00:16.000+02:00
-    title: Herbstferien
-  - date: 2024-12-06T11:00:16.000+02:00
-    title: Internationale Chemieolympiade (IChO)
-  - date: 2024-12-13T11:00:16.000+02:00
-    title: Weihnachtskonzert
-    location: Ulrichskonzert
-  - date: 2024-12-23T11:00:16.000+02:00
-    enddate: 2025-01-03T11:00:16.000+02:00
-    title: Weihnachtsferien
 ---
