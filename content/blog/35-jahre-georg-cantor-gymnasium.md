@@ -20,48 +20,48 @@ tags:
 type: post
 ---
 
-35 Jahre Georg-Cantor-Gymnasium. Ein Moment, welcher nicht wie jeder andere ist. Ein Zeitpunk, welcher wie kein anderer für Zusammenhalt und Stärke steht. Ein Anlass, um zu feiern.
+35 Jahre Georg-Cantor-Gymnasium. Ein Moment, welcher nicht wie jeder Andere ist. Ein Zeitpunkt, welcher wie kein Anderer für Zusammenhalt und Stärke steht. Ein Anlass, um zu feiern.
 
-Genau das war der Grundgedanke, der in den Ereignissen der letzten Woche steckte. Am 1. September 1988 wurde in Halle-Neustadt die Spezialschule mathematisch–naturwissenschaftlich–technischer Richtung "Ernst Hausmann" eröffnet - der vorläufer unseres heutigen Georg-Cantor-Gymnasiums. Viele Jahre später, in der Woche vom 11.09. bis zum 15.09.2023, feirte unsere Schule mit zahlreichen Veranstaltungen ihr 35-jähriges Bestehen.
+Genau dies war der Grundgedanke, der hinter den Ereignissen der letzten Woche steckt. Am 1. September 1988 wurde in Halle-Neustadt die mathematisch-naturwissenschaftlich-technische Spezialschule "Ernst Hausmann" eröffnet - der Vorläufer unseres heutigen Georg-Cantor-Gymnasiums. Viele Jahre später, in der Woche vom 11.09.2023 bis zum 15.09.2023, feierte unsere Schule mit zahlreichen Veranstaltungen ihr 35-jähriges Bestehen.
 
-Diese Woche war geprägt von feierlicher Stimmung, überragendem Talent, zahlreichen Vorbereitungen, wissenschaftlichem und technischen Know-How und natürlich viel Stress für alle beteiligten. Immer wieder tauchte ein Wort auf - die "Cantor-Menge". Was hat es damit auf sich? Dazu später in diesem Artikel.
+Diese Woche war geprägt von feierlicher Stimmung, überragendem Talent, wissenschaftlichem und technischen Know-How und natürlich zahlreichen Vorbereitungen für alle beteiligten. Währenddessen tauchte immer wieder ein Wort auf - die "Cantor-Menge". Aber was hat es eigentlich damit auf sich? Dazu später mehr in diesem Artikel.
 
 ## Podiumsdiskussion mit Herrn Dr. Karamba Diaby (MdB)
 
-Im Rahmen der ["Red Hand Day"-Aktion](https://www.redhandday.org/de/), welche auf das Schicksal von hunderttausenden Kindersoldaten aufmerksam machen soll, haben wir zum Tag der Kulturen und zum Schulfest im letzten Schuljahr zahlreiche Handabdrücke gesammelt, um im Namen der gesamten Schule ein Zeichen zu setzen und diese wichtige Botschaft in die Welt zu tragen.
+Im Rahmen der ["Red Hand Day"-Aktion](https://www.redhandday.org/de/), welche auf das Schicksal von hunderttausenden von Kindersoldaten aufmerksam machen soll, haben wir zum Tag der Kulturen und zum Schulfest im letzten Schuljahr zahlreiche Handabdrücke gesammelt. Dammit wollten wir um im Namen der gesamten Schule ein Zeichen setzen, um diese wichtige Botschaft in die Welt zu tragen.
 
-Unserem Wunsch, diese Handabdrücke an die Politik heranzutragen, konnte der Bundestagsabgeordnete für Halle, Herr Dr. Karamba Diaby, entsprechen. Am Dienstag, dem 12.09.2023, bekamen wir die Gelegenheit, eine Podiumsdiskussion mit ihm zu veranstalten, und im Rahmen dieser auch eine Mappe mit den Handabdrücken zu übergeben.
+Unserem Wunsch, diese Botschaft im Form von Handabdrücken an die Politik zu übergeben, konnte der Bundestagsabgeordnete für Halle, Herr Dr. Karamba Diaby, entsprechen. Am Dienstag, dem 12.09.2023, bekamen wir die Gelegenheit, eine Podiumsdiskussion mit ihm zu veranstalten. In diesem Rahmen übergaben wir Ihm auch eine Mappe mit unseren Handabdrücken.
 
 <video class="mt-2" src="https://cloud.cantorgymnasium.de/f/ede1a9767a204b61a87c/?dl=1" controls width="100%"></video>
 
 {{< card title="Artikel: Red Hand Day - Talk mit Dr. Karamba Diaby" link="/blog/red-hand-day-talk-mit-dr-karamba-diaby/" >}}
 ## "Jugend forscht"-Tag
 
-Am Mittwoch, dem 13.09., fand für unsere jüngeren Schülerinnen und Schüler der "Jugend forscht"-Tag statt. Erfahrene Jungforscherinnen und Jungforscher stellten ihre Projekte und Ergebnisse sowie die Wettbewerbe "Jugend forscht" bzw. "Schüler experimentieren" vor, mit dem Ziel, die 5. und 6. Klassen für die Forschung zu begeistern - denn wer weiß, in welch stillem Köpfchen eine geniale Idee steckt?
+Am Mittwoch, dem 13.09.2023, fand für unsere jüngeren Schülerinnen und Schüler der "Jugend forscht"-Tag statt. Erfahrene Jungforscherinnen und Jungforscher stellten ihre Projekte und Ergebnisse sowie die Wettbewerbe "Jugend forscht" bzw. "Schüler experimentieren" vor. Das Ziel war, die 5. und 6. Klassen für die Forschung zu begeistern - denn wer weiß, in welch stillem Köpfchen eine geniale Idee steckt?
 
 `{ {< gallery dir="" >} }`
 
 ## Festveranstaltung
 
-Am Donnerstag, dem 14.09., wurde das Jubiläum auch in offiziellem feierlichem Rahmen begangen. Die Schulleitung versammelte zahlreiche Gäste in der Aula zu einer Festveranstaltung - darunter sowohl derzeitige, als auch ehemalige Lehrkräfte der Schule, Vertreterinnen und Vertreter vom Schülerrat, Elternrat und Förderverein sowie externe Gäste - unter anderem Herrn Frolow (Leiter Fachbereich Bildung), Herrn Mischo und Frau Dr. Schaper von der Kindernothilfe. Warum? Dazu später.
+Am Donnerstag, dem 14.09.2023, wurde das Jubiläum in offiziellem feierlichem Rahmen zelebriert. Die Schulleitung versammelte zahlreiche Gäste in der Aula zu einer Festveranstaltung - darunter sowohl derzeitige, als auch ehemalige Lehrkräfte der Schule, Vertreterinnen und Vertreter vom Schülerrat, Elternrat und Förderverein sowie externe Gäste - unter anderem Herrn Frolow (Leiter Fachbereich Bildung), Herrn Mischo und Frau Dr. Schaper von der Kindernothilfe. Warum diese Gäste teilnahmen, erfahren Sie im weiteren Verlauf des Artikels.
 
-Das umfangreiche Programm bestehend aus wisschenschaftlichen, literarischen und musikalischen Beiträgen symbolisiert perfekt die Interessens- und Talentvielfalt, welche unsere Schule 35 Jahre nach ihrer Gründung fest in ihrer DNA verankert hat.
+Das umfangreiche Programm, bestehend aus wisschenschaftlichen, literarischen und musikalischen Beiträgen, symbolisiert perfekt die Interessens- und Talentvielfalt der Schülerinnen und Schüler. Eine solch vielseitige Passion ist seit der Gründung vor 35 Jahren fest in der DNA unserer Schule verankert.
 
-Nach einer musikalischen Entrée von Antonia Schutkowski bekam man einen der Erfolge der Projektwoche im letzten Schuljahr zu hören - der Cantor-Rap, vorgetragen von Schülerinnen und Schülern der Klassenstufen 6. und 7., erzählt auf unterhaltsame Art und Weise die Geschichte von Georg Cantor und dem Georg-Cantor-Gymnasium.
+Nach einer musikalischen Entrée von Antonia Schutkowski hörte man einen der Erfolge der Projektwoche des letzten Schuljahres - der Cantor-Rap, vorgetragen von Schülerinnen und Schülern der Klassenstufen 6 und 7, erzählt auf unterhaltsame Art und Weise die Geschichte von Georg Cantor und dem Georg-Cantor-Gymnasium.
 
-Danach folgte das, womit solche Veranstaltungen eigentlich immer beginnen - eine Rede. Unser Schulleiter, Herr Dr. Bernd Gorsler, sprach von der großartigen Entwicklung unserer Schule und dankte allen, die dies ermöglicht hatten, für ihre stetige Unterstützung. Seine größte Wirkungsperiode habe Cantor erst mit dem Alter von 35 Jahren begonnen - möge unsere Schule seinem Beispiel folgen, und mit dem 35-jährigen Jubiläum ihr erfolgreichstes Kapitel einleiten. 
+Danach folgte die formale Begrüßung der Gäste durch eine Rede. Unser Schulleiter, Herr Dr. Bernd Gorsler, sprach von der großartigen Entwicklung unserer Schule und dankte allen für ihre stetige Unterstützung. Seine größte Wirkungsperiode habe Cantor erst mit dem Alter von 35 Jahren begonnen - möge unsere Schule seinem Beispiel folgen, und mit dem 35-jährigen Jubiläum ihr erfolgreichstes Kapitel einleiten. 
 
-Die Moderation übernahm nun das Duo aus Amelie Boebenroth und Gero Schneider (Kl. 11), welches das Publikum durch den weiteren Verlauf des Nachmittags führen durfte.
+Die Moderation übernahm das Duo bestehend aus Amelie Boebenroth und Gero Schneider (Kl. 11), welche das Publikum durch den weiteren Verlauf des Nachmittags führten.
 
-Die beiden nutzten die Gelegenheit, beim "Schulgeburtstag" zu sprechen, um sich ein "Geburtstagsgeschenk" für unsere Schule zu wünschen - eine Erneuerung der naturwissenschaftlichen Fachräume. Doch auch die Entwicklungen der letzten Jahre blieben nicht unvergessen - die voranschreitende Digitalisierung uns Erneuerung der Schule, welche wir der Unterstützung unseres Fördervereins und der Stadt verdanken.
+Die Beiden nutzten die Gelegenheit, am "Schulgeburtstag" zu sprechen, um sich ein "Geburtstagsgeschenk" für unsere Schule zu wünschen - die Erneuerung der naturwissenschaftlichen Fachräume. Doch auch die Entwicklungen der letzten Jahre blieben nicht unerwähnt - die voranschreitende Digitalisierung uns Modernisierung der Schule, welche wir der Unterstützung unseres Fördervereins und der Stadt verdanken.
 
-Denn danach sprach der Vertreter ebendieser. Herr A. Frolow, der Leiter des Fachbereichs Bildung in der Stadtverwaltung Halle (Saale), erfreute uns seiner Anwesenheit und sagte einige Worte zur Feier des Tages.
+Sodann sprach der Vertreter ebendieser. Herr A. Frolow, der Leiter des Fachbereichs Bildung in der Stadtverwaltung Halle (Saale), erfreute uns seiner Anwesenheit und richtete einige Worte zur Feier des Tages an das Publikum.
 
 > TBC
 > <br>
 > **- Herr A. Frolow (Leiter Fachbereich Bildung der Stadt Halle)**
 
-Nach einer Menge Applaus und einem weiteren musikalischen Beitrag (Claude Debussy: "Clair de Lune", gespielt von Lola Zschaege) trug uns Theresa Messe (Kl. 10) das Gedicht "Unendlichkeit" vor, welches ihre Mitschülerin Clara Joachimi, welche auch in anderen Bereichen der Veranstaltung aktiv war, zu diesem Schuljubiläum verfasst hat.
+Nach einer Menge Applaus und einem weiteren musikalischen Beitrag (Claude Debussy: "Clair de Lune", gespielt von Lola Zschaege) trug uns Theresa Messe (Kl. 10) das Gedicht "Unendlichkeit" vor. Dieses wurde von ihrer Mitschülerin Clara Joachimi, welche zusätzlich in anderen Bereichen der Veranstaltung aktiv war, zu diesem Schuljubiläum verfasst.
 
 > Wo ﬁng es an?  
 > Wo wird es enden?  
@@ -112,9 +112,9 @@ Nach einer Menge Applaus und einem weiteren musikalischen Beitrag (Claude Debuss
 > <br>
 > **- Clara Joachimi (Kl. 10): "Unendlichkeit"**
 
-Clara Joachimi und Franziska (Kl. 10) präsentierten uns in Anschluss an das Gedicht nun ihre Recherche-Ergebnisse zur Psychischen Krankheit von Georg Cantor - ein weiteres Produkt der diesjährigen Projektwoche. Die spannende Frage, ob Cantors geniale Erfolge auf seine psychische Störung zurückzuführen seien, konnte für die aufmerksamen Zuhörer zum Schluss mit einem sehr wahrscheinlichen Nein beantwortet werden. Wie dünn also die Grenze zwischen Genie und Wahnsinn wirklich ist, werden wir auch in naher Zukunft nicht so schnell erfahren.
+Clara Joachimi und Franziska (Kl. 10) präsentierten uns im Anschluss an das Gedicht ihre Recherche-Ergebnisse zur psychischen Krankheit von Georg Cantor - ein weiteres Produkt der diesjährigen Projektwoche. Die spannende Frage, ob Cantors geniale Erfolge auf seine psychische Störung zurückzuführen seien, konnte für die aufmerksamen Zuhörer mit einem sehr wahrscheinlichen Nein beantwortet werden. Wie dünn also die Grenze zwischen Genie und Wahnsinn wirklich ist, werden wir auch in naher Zukunft nicht so schnell erfahren.
 
-Nach einem weiteren Musikstück aus den Händen von ANtonia Schurtkowski - "Comptine d'un autre été, l'après-midi" von Jan Tiersen - erfreute Benno Conrad (Kl. 10) das Publikum mit einem weiteren lyrischen Werk - einem sekbst verfassten Poetry-Slam zum Thema "Zukunft".
+Nach einem weiteren Musikstück vorgetragen durch Antonia Schurtkowski - "Comptine d'un autre été, l'après-midi" von Jan Tiersen - erfreute Benno Conrad (Kl. 10) das Publikum mit seinem selbst verfassten lyrischen Werk - einem Poetry-Slam zum Thema "Zukunft".
 
 > Jeder lebt so knapp vor ihr  
 > Um sie unvorbereitet zu erleben  
@@ -153,21 +153,21 @@ Nach einem weiteren Musikstück aus den Händen von ANtonia Schurtkowski - "Comp
 > <br>
 > **- Benno Conrad (Kl. 10): "Zukunft"**
 
-Als nächstes sorgte die Projektgruppe zum "Red Hand Day" für den sozialen Höhepunkt des Nachmittags - nach einer kurzen Präsentation der Ergebnisse und einer Erwähnung des Besuchs von Dr. Karamba Diaby zwei Tage zuvor wurde neben dem symbolischen Teil nun auch der unmittelbare Teil unserer Unterstützung des Projekts verwirklicht - ein Spendenscheck in höhe von 500€ - das Geld stammt aus den Einnahmen des letzten Tags der Kulturen, bei dem wir mit der "Red Hand Day"-Aktion angefangen haben - wurde an den Kinderschutzbund, vertreten durch Herrn Mischo und Frau Dr. Schaper, übergeben.
+Hierauf sorgte die Projektgruppe des "Red Hand Days" für den sozialen Höhepunkt der Festveranstaltung. Nach einer kurzen Präsentation der Ergebnisse und einer Erwähnung des Besuchs von Dr. Karamba Diaby, wurde neben dem symbolischen Teil auch der unmittelbare Teil unserer Unterstützung für das Projekt verwirklicht. Ein Spendenscheck in Höhe von 500€ - das Geld stammt aus den Einnahmen des letzten Tages der Kulturen, bei dem wir mit der "Red Hand Day"-Aktion angefangen haben - wurde an den Kinderschutzbund, vertreten durch Herrn Mischo und Frau Dr. Schaper, übergeben.
 
-Im Anschluss nahm sich Herr Mischo die Zeit für einige Fragen von unserem Moderations-Duo. Dieses Geld werde definitiv an der richtigen Stelle ankommen, und es werde helfen, war die Aussage, die am Ende in den Köpfen aller blieb.
+Im Anschluss nahm sich Herr Mischo die Zeit für einige Fragen, gestellt von unserem Moderations-Duo. Dieses Geld werde definitiv an der richtigen Stelle ankommen, und werde helfen, war die Aussage, die am Ende in den Köpfen Aller blieb.
 
 **Wir hören nicht auf - wir werden gemeinsam weiter gegen den Einsatz von Kindersoldaten kämpfen.**
 
 Auf das letzte Klavierstück der Veranstaltung - "Nightbook" von Ludovico Einaudi, gespielt von Isabelle Bethin, folgte der erste Auftritt unserer schuleigenen Band, mit dem Lied "Flowers" von Miley Cyrus.
 
-Zum letzten Mal für diesen abwechslungsreichen Nachmittag stand nun wieder die Wissenschaft im Vordergrund: mittels einer Live-Übertragung durften unsere Gäste den Start eines Wetterballons durch den Modulkurs Physik der Klasse 11 mitverfolgen.
+Zum letzten Mal für diesen abwechslungsreichen Nachmittag stand nun wieder die Wissenschaft im Vordergrund: mittels einer Live-Übertragung durften unsere Gäste den Start eines Wetterballons, organisiert und umgesetzt durch den Modulkurs Physik der Klasse 11, mitverfolgen.
 
 <video src="" width="100%"></video>
 
-Zum Zeitpunkt der Veröffentlichung ist der Wetterballon bereits gelandet und die Daten befinden sich in der Auswertung. Regelmäßige Website-Besucher können sich also in nächster Zeit auf einen eigenen Website-Artikel zum Ballonstart freuen.
+Zum Zeitpunkt der Veröffentlichung dieses Artikels ist der Wetterballon bereits gelandet und die aufgenommenen Daten befinden sich in der Auswertung. Regelmäßige Website-Besucher können sich also schon jetzt auf einen eigenen Beitrag zum Ballonstart freuen.
 
-Mit dem vorletzten Programmpunkt und damit auch unserem letzten Redebeitrag neigte sich diese besondere Veranstaltung langsam dem Ende - doch Emma Brozek (Kl. 11) zeigte mit ihren Gedanken zu ihrer Schule, wie abwechslungsreich, verbindend und prägend eine Rede sein kann.
+Mit dem nun vorletzten Programmpunkt und damit unserem letzten Redebeitrag neigte sich diese besondere Veranstaltung langsam dem Ende. In diesem zeigte Emma Brozek (Kl. 11) mit ihren Gedanken zu ihrer Schule, wie abwechslungsreich, verbindend und prägend eine Rede sein kann.
 
 > Sehr geehrte Damen und Herren, Lehrer\*innen, Schüler\*innen, Liebe Gäste,  
 > <br>
@@ -202,35 +202,35 @@ Unser festlicher Nachmittag nahte dem Ende, was die Schulband jedoch nicht davon
 
 ## Projekttag
 
-Am Freitag, den 15.09., entfiel der Unterricht für alle Schülerinnen und Schüler. Stattdessen stand für alle ein abwechslungsreiches Programm auf dem Plan:
+Am Freitag, den 15.09.2023, entfiel der Unterricht für alle Schülerinnen und Schüler. Stattdessen stand für Alle ein abwechslungsreiches Programm auf dem Plan:
 
 - Die Klassenstufen 5 und 6 konnten ihre Fähigkeiten im Cantor-Team-Duell, einer weiteren Ausarbeitung der Projektwoche, auf die Probe stellen. Zudem durften sie Georg Cantors Leben mittels der "Cantor-App", welche bereits zum 30-jährigen Schuljubiläum 2018 erarbeitet wurde, erkunden.
 - Die 7. Klassen schauten im Puschkino den Film "Alfons Zitterbacke - Endlich Klassenfahrt". Anschließend stand **X** auf dem Programm.
 - Für die 8. und 9. Klassen ging es ebenfalls ins Puschkino - allerdings diesmal zu "Jojo Rabbit".
-- Die Schülerinnen und Schüler der Klasse 10 und aufwärts unterstützten die Lehrkräfte bei dem Programm für die 5. und 6. Klassen. Als besonderer Programmpunkt stand bei ihnen zudem der Mathematik-YouTuber und Rapper "DorFuchs" auf dem Plan, welchen wir für einige Stunden in unserer Schule begrüßen durften.
+- Die Schülerinnen und Schüler der Klasse 10 und aufwärts unterstützten die Lehrkräfte beim Programm für die 5. und 6. Klassen. Als besonderer Programmpunkt stand bei ihnen zudem der Mathematik-YouTuber und Rapper "DorFuchs" auf dem Plan, welchen wir für einige Stunden in unserer Schule begrüßen durften.
 
-Doch dieses vielfältige Programm war längst noch nicht das Ende dieser feierlichen Woche.
+Doch dieses vielfältige Programm war längst noch nicht das Ende dieser feierlichen Woche. Den Abschluss stellte, wie zum 30-jährigen Jubiläum, ein Flashmob dar.
 
 `{ {< gallery dir="" >} }`
 
 ## Flashmob: Konstruktion der "Cantor-Menge"
 
-Da ist sie wieder, die "Cantor-Menge", welche bereits zum Anfang des Artikels erwähnt wurde. Doch bevor wir auf diesen Programmpunkt genauer eingehen, stellt sich für einige Leserinnen und Leser vielleicht die Frage: Was ist diese "Cantor-Menge" überhaupt. Wir helfen nach!
+Da ist sie wieder, die "Cantor-Menge". Doch bevor wir auf diesen Programmpunkt genauer eingehen können, stellt sich für einige Leserinnen und Leser vielleicht die Frage: Was ist diese "Cantor-Menge" überhaupt? Wir helfen nach!
 
-Die Cantor-Menge ist ein Fraktal, welches von Georg Cantor im Jahre 1883 vorgestellt wurde. Ihre Konstruktion beginnt, in dem man eine Strecke der Länge 1 drittelt und dann das mittlere Drittel entfernt. Diese Schritte führt man mit den zwei verbleibenden Strecken wieder durch. Dieser Vorgang, fortgesetzt in die Unendlichkeit, ergibt die Cantor-Menge. Aus mathematischer Sicht ist die Cantor-Menge abgeschlossen, kompakt, überabzählbar, innen leer (besteht nur aus Randpunkten), insichdicht und besitzt die Länge 0 - was für den Laien erstmal nur eine lose Ansammlung von Begriffen sein mag, ist für den Mathematiker eine Reihe von hochinteressanten Eigenschaften.
+Die Cantor-Menge ist ein Fraktal, welches von Georg Cantor im Jahre 1883 vorgestellt wurde. Ihre Konstruktion beginnt, indem man eine Strecke der Länge 1 drittelt und dann das mittlere Drittel entfernt. Diese Schritte führt man mit den zwei verbleibenden Strecken wiederholt durch. Dieser Vorgang, fortgesetzt in die Unendlichkeit, ergibt die Cantor-Menge. Aus mathematischer Sicht ist die Cantor-Menge abgeschlossen, kompakt, überabzählbar, innen leer (besteht nur aus Randpunkten), insichdicht und besitzt die Länge 0. Was für den Laien erstmal nur eine lose Ansammlung von Begriffen sein mag, ist für den Mathematiker eine Reihe von hochinteressanten Eigenschaften.
 
-Es ist bereits zur Tradition geworden, dass unsere Schule zum Schuljubiläum flashmobs veranstaltet - so bildeten wir zuvor schon erfolgreich die "Cantor-Diagonalen" und das Unendlichkeits-Zeichen als Symbol für Cantors größtes Forschungsgebiet. Die Cantor-Menge, oder genauer gesagt die Konstruktion der Cantor-Menge, wie mich der Schulleiter zum Glück rechtzeitig korrigierte, sollte nun das Motiv für unseren diesjährigen Flashmob werden.
+Es ist bereits zur Tradition geworden, dass unsere Schule zum Schuljubiläum flashmobs veranstaltet - so bildeten wir zuvor erfolgreich die "Cantor-Diagonalen" und das Unendlichkeits-Zeichen als Symbol für Cantors größtes Forschungsgebiet. Die Cantor-Menge, oder genauer gesagt die Konstruktion der Cantor-Menge, wie mich der Schulleiter zum Glück rechtzeitig korrigierte, sollte nun das Motiv für unseren diesjährigen Flashmob werden.
 
-Aus viel Planungsaufwand und zahlreichen Ausflügen zum Salzgrafenplatz vor dem MDR-Gebäude entstand am Ende ein Aufstellungsplan, an dem Herr Plinke wochenlang feilte.
+Aus viel Planungsaufwand und zahlreichen Ausflügen zum Salzgrafenplatz vor dem MDR-Gebäude entstand am Ende ein Aufstellungsplan, an welchem Herr Plinke wochenlang feilte.
 
-Am Freitag war es nun soweit - um 12.30 Uhr versammelte sich die Menge am Salzgrafenplatz zur ersten Stellprobe.
-Einige Versuche später entstand um 12.46 Uhr die Endversion des Bildes als krönender Abschluss der Woche - dank Felix **X** als Drohnenaufnahme.
+Am Freitag war es nun soweit - um 12.30 Uhr versammelte sich die Schüler- und Lehrerschaft am Salzgrafenplatz zur ersten Stellprobe.
+Einige Versuche später entstand um 12.46 Uhr die Endversion des Bildes als krönender Abschluss der Woche - dank Felix Müller (Kl. 10), der eine Aufnahme mit der Drohne machte.
 
 `{ {< gallery dir="" >} }`
 
 ## Danksagung
 
-Diese wirklich abwechslungsreiche Festwoche hat allen beteiligten viel Mühe abverlangt. Daher wollen wir gerne hier die Gelegenheit ergreifen, nochmal allen involvierten für ihr Engagement zu danken. Nur der gemeinsame Einsatz von ihnen allen hat diese großartigen Tage möglich gemacht.
+Diese wirklich abwechslungsreiche und äußerst gelungene Festwoche hat allen beteiligten viel Mühe abverlangt. Daher wollen wir hiermit die Gelegenheit ergreifen, nochmal allen Involvierten für ihr Engagement zu danken. Nur der gemeinsame Einsatz von Ihnen und Euch allen hat diese großartigen Tage möglich gemacht.
 
 Zum Schluss bleibt mir nur noch eins - unserer Schule alles Gute zum 35-jährigen Jubiläum und noch viele Erfolge in der Zukunft zu wünschen. 
 
