@@ -214,6 +214,7 @@ const IndexPagesCollection = {
               hint: "Für mehrtägige Veanstaltungen, nur sichtbar wenn eingestellt",
               widget: "datetime",
               required: false,
+              default: "",
               ...DateFormat,
             },
             {
