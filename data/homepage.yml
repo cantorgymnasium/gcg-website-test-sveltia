@@ -80,6 +80,8 @@ header_logos:
     - title: Mitglied im Netzwerk "Schule ohne Rassismus - Schule mit Courage"
       link: https://www.schule-ohne-rassismus.org/
       image: media/logos/sor.svg
+    - title: IKT-Förderung
+      image: /media/logos/ikt.webp
 about:
   enable: true
   title: Herzlich willkommen auf der Homepage des Georg-Cantor-Gymnasiums!
