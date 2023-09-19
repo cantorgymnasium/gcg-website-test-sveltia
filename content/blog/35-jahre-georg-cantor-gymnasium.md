@@ -32,10 +32,9 @@ Im Rahmen der ["Red Hand Day"-Aktion](https://www.redhandday.org/de/), welche au
 
 Unserem Wunsch, diese Handabdrücke an die Politik heranzutragen, konnte der Bundestagsabgeordnete für Halle, Herr Dr. Karamba Diaby, entsprechen. Am Dienstag, dem 12.09.2023, bekamen wir die Gelegenheit, eine Podiumsdiskussion mit ihm zu veranstalten, und im Rahmen dieser auch eine Mappe mit den Handabdrücken zu übergeben.
 
+<video class="mt-2" src="https://cloud.cantorgymnasium.de/f/ede1a9767a204b61a87c/?dl=1" controls width="100%"></video>
+
 {{< card title="Artikel: Red Hand Day - Talk mit Dr. Karamba Diaby" link="/blog/red-hand-day-talk-mit-dr-karamba-diaby/" >}}
-
-<video class="mt-2" src="" controls width="100%"></video>
-
 ## "Jugend forscht"-Tag
 
 Am Mittwoch, dem 13.09., fand für unsere jüngeren Schülerinnen und Schüler der "Jugend forscht"-Tag statt. Erfahrene Jungforscherinnen und Jungforscher stellten ihre Projekte und Ergebnisse sowie die Wettbewerbe "Jugend forscht" bzw. "Schüler experimentieren" vor, mit dem Ziel, die 5. und 6. Klassen für die Forschung zu begeistern - denn wer weiß, in welch stillem Köpfchen eine geniale Idee steckt?
@@ -44,15 +43,15 @@ Am Mittwoch, dem 13.09., fand für unsere jüngeren Schülerinnen und Schüler d
 
 ## Festveranstaltung
 
-Am Donnerstag, dem 14.09., wurde das Jubiläum auch in offiziellem feierlichem Rahmen begangen. Die Schulleitung versammelte zahlreiche Gäste in der Aula zu einer Festveranstaltung - darunter sowohl derzeitige, als auch ehemalige Lehrkräfte der Schule, Vertreterinnen und Vertreter vom Schülerrat, Elternrat und Förderverein sowie externe Gäste - unter anderem Herrn Frolow (Leiter Fachbereich Bildung), Herrn Mischo und Frau **X** von der Kindernothilfe. Warum? Dazu später.
+Am Donnerstag, dem 14.09., wurde das Jubiläum auch in offiziellem feierlichem Rahmen begangen. Die Schulleitung versammelte zahlreiche Gäste in der Aula zu einer Festveranstaltung - darunter sowohl derzeitige, als auch ehemalige Lehrkräfte der Schule, Vertreterinnen und Vertreter vom Schülerrat, Elternrat und Förderverein sowie externe Gäste - unter anderem Herrn Frolow (Leiter Fachbereich Bildung), Herrn Mischo und Frau Dr. Schaper von der Kindernothilfe. Warum? Dazu später.
 
 Das umfangreiche Programm bestehend aus wisschenschaftlichen, literarischen und musikalischen Beiträgen symbolisiert perfekt die Interessens- und Talentvielfalt, welche unsere Schule 35 Jahre nach ihrer Gründung fest in ihrer DNA verankert hat.
 
-Nach einer musikalischen Entrée bekam man einen der Erfolge der Projektwoche im letzten Schuljahr zu hören - der Cantor-Rap, vorgetragen von Schülerinnen und Schülern der Klassenstufen 6. und 7., erzählt auf unterhaltsame Art und Weise die Geschichte von Georg Cantor und dem Georg-Cantor-Gymnasium.
+Nach einer musikalischen Entrée von Antonia Schutkowski bekam man einen der Erfolge der Projektwoche im letzten Schuljahr zu hören - der Cantor-Rap, vorgetragen von Schülerinnen und Schülern der Klassenstufen 6. und 7., erzählt auf unterhaltsame Art und Weise die Geschichte von Georg Cantor und dem Georg-Cantor-Gymnasium.
 
-Danach folgte das, womit solche Veranstaltungen eigentlich immer beginnen - eine Rede. Unser Schulleiter, Herr Dr. Bernd Gorsler, sprach von der großartigen Entwicklung unserer Schule und dankte allen, die dies ermöglicht hatten, für ihre stetige Unterstützung.
+Danach folgte das, womit solche Veranstaltungen eigentlich immer beginnen - eine Rede. Unser Schulleiter, Herr Dr. Bernd Gorsler, sprach von der großartigen Entwicklung unserer Schule und dankte allen, die dies ermöglicht hatten, für ihre stetige Unterstützung. Seine größte Wirkungsperiode habe Cantor erst mit dem Alter von 35 Jahren begonnen - möge unsere Schule seinem Beispiel folgen, und mit dem 35-jährigen Jubiläum ihr erfolgreichstes Kapitel einleiten. 
 
-Die Moderation übernahm nun das Duo aus Amelie Boebenroth und Gero **X** (Kl. 11), welches das Publikum durch den weiteren Verlauf des Nachmittags führen durfte.
+Die Moderation übernahm nun das Duo aus Amelie Boebenroth und Gero Schneider (Kl. 11), welches das Publikum durch den weiteren Verlauf des Nachmittags führen durfte.
 
 Die beiden nutzten die Gelegenheit, beim "Schulgeburtstag" zu sprechen, um sich ein "Geburtstagsgeschenk" für unsere Schule zu wünschen - eine Erneuerung der naturwissenschaftlichen Fachräume. Doch auch die Entwicklungen der letzten Jahre blieben nicht unvergessen - die voranschreitende Digitalisierung uns Erneuerung der Schule, welche wir der Unterstützung unseres Fördervereins und der Stadt verdanken.
 
@@ -62,7 +61,7 @@ Denn danach sprach der Vertreter ebendieser. Herr A. Frolow, der Leiter des Fach
 > <br>
 > **- Herr A. Frolow (Leiter Fachbereich Bildung der Stadt Halle)**
 
-Nach einer Menge Applaus und einem weiteren musikalischen Beitrag trug uns Theresa Messe (Kl. 10) das Gedicht "Unendlichkeit" vor, welches ihre Mitschülerin Clara Joachimi, welche auch in anderen Bereichen der Veranstaltung aktiv war, zu diesem Schuljubiläum verfasst hat.
+Nach einer Menge Applaus und einem weiteren musikalischen Beitrag (Claude Debussy: "Clair de Lune", gespielt von Lola Zschaege) trug uns Theresa Messe (Kl. 10) das Gedicht "Unendlichkeit" vor, welches ihre Mitschülerin Clara Joachimi, welche auch in anderen Bereichen der Veranstaltung aktiv war, zu diesem Schuljubiläum verfasst hat.
 
 > Wo ﬁng es an?  
 > Wo wird es enden?  
@@ -108,14 +107,14 @@ Nach einer Menge Applaus und einem weiteren musikalischen Beitrag trug uns There
 > Und auch wenn wir die Unendlichkeit nie ganz erreichen werden,  
 > so doch bestimmt die Hälfte davon.  
 > Schließlich hat das hier alles schon vor 35 Jahren begonnen.  
-> Das heißt wir sind schon weit gekommen und werden immer weiter gehen.  
+> Das heißt wir sind schon weit gekomchtigen Stelle amen und werden immer weiter gehen.  
 > Lasst uns zusammen die Welt verstehen.  
 > <br>
 > **- Clara Joachimi (Kl. 10): "Unendlichkeit"**
 
-Umrandet von weiteren musikalischen Werken präsentierten uns Clara und Franziska (Kl. 10) nun ihre Recherche-Ergebnisse zur Psychischen Krankheit von Georg Cantor - ein weiteres Produkt der diesjährigen Projektwoche.
+Clara Joachimi und Franziska (Kl. 10) präsentierten uns in Anschluss an das Gedicht nun ihre Recherche-Ergebnisse zur Psychischen Krankheit von Georg Cantor - ein weiteres Produkt der diesjährigen Projektwoche. Die spannende Frage, ob Cantors geniale Erfolge auf seine psychische Störung zurückzuführen seien, konnte für die aufmerksamen Zuhörer zum Schluss mit einem sehr wahrscheinlichen Nein beantwortet werden. Wie dünn also die Grenze zwischen Genie und Wahnsinn wirklich ist, werden wir auch in naher Zukunft nicht so schnell erfahren.
 
-### Poetry-Slam Benno
+Nach einem weiteren Musikstück aus den Händen von ANtonia Schurtkowski - "Comptine d'un autre été, l'après-midi" von Jan Tiersen - erfreute Benno Conrad (Kl. 10) das Publikum mit einem weiteren lyrischen Werk - einem sekbst verfassten Poetry-Slam zum Thema "Zukunft".
 
 > Jeder lebt so knapp vor ihr  
 > Um sie unvorbereitet zu erleben  
@@ -154,7 +153,21 @@ Umrandet von weiteren musikalischen Werken präsentierten uns Clara und Franzisk
 > <br>
 > **- Benno Conrad (Kl. 10): "Zukunft"**
 
-### Rede Emma Brozek
+Als nächstes sorgte die Projektgruppe zum "Red Hand Day" für den sozialen Höhepunkt des Nachmittags - nach einer kurzen Präsentation der Ergebnisse und einer Erwähnung des Besuchs von Dr. Karamba Diaby zwei Tage zuvor wurde neben dem symbolischen Teil nun auch der unmittelbare Teil unserer Unterstützung des Projekts verwirklicht - ein Spendenscheck in höhe von 500€ - das Geld stammt aus den Einnahmen des letzten Tags der Kulturen, bei dem wir mit der "Red Hand Day"-Aktion angefangen haben - wurde an den Kinderschutzbund, vertreten durch Herrn Mischo und Frau Dr. Schaper, übergeben.
+
+Im Anschluss nahm sich Herr Mischo die Zeit für einige Fragen von unserem Moderations-Duo. Dieses Geld werde definitiv an der richtigen Stelle ankommen, und es werde helfen, war die Aussage, die am Ende in den Köpfen aller blieb.
+
+**Wir hören nicht auf - wir werden gemeinsam weiter gegen den Einsatz von Kindersoldaten kämpfen.**
+
+Auf das letzte Klavierstück der Veranstaltung - "Nightbook" von Ludovico Einaudi, gespielt von Isabelle Bethin, folgte der erste Auftritt unserer schuleigenen Band, mit dem Lied "Flowers" von Miley Cyrus.
+
+Zum letzten Mal für diesen abwechslungsreichen Nachmittag stand nun wieder die Wissenschaft im Vordergrund: mittels einer Live-Übertragung durften unsere Gäste den Start eines Wetterballons durch den Modulkurs Physik der Klasse 11 mitverfolgen.
+
+<video src="" width="100%"></video>
+
+Zum Zeitpunkt der Veröffentlichung ist der Wetterballon bereits gelandet und die Daten befinden sich in der Auswertung. Regelmäßige Website-Besucher können sich also in nächster Zeit auf einen eigenen Website-Artikel zum Ballonstart freuen.
+
+Mit dem vorletzten Programmpunkt und damit auch unserem letzten Redebeitrag neigte sich diese besondere Veranstaltung langsam dem Ende - doch Emma Brozek (Kl. 11) zeigte mit ihren Gedanken zu ihrer Schule, wie abwechslungsreich, verbindend und prägend eine Rede sein kann.
 
 > Sehr geehrte Damen und Herren, Lehrer\*innen, Schüler\*innen, Liebe Gäste,  
 > <br>
@@ -182,6 +195,27 @@ Umrandet von weiteren musikalischen Werken präsentierten uns Clara und Franzisk
 > Also Danke, an Sie und euch alle.  
 > <br>
 > **- Emma Brozek (Kl. 11): Gedanken zu meiner Schule**
+
+Unser festlicher Nachmittag nahte dem Ende, was die Schulband jedoch nicht davon abhielt, mit ihrer atemberaubenden Performance - "I'm Still Standing" von Elton John, den krönenden Abschluss zu machen - was am zahlreichen Applaus definitiv bemerkbar war.
+
+## Projekttag
+
+Am Freitag, den 15.09., entfiel der Unterricht für alle Schülerinnen und Schüler. Stattdessen stand für alle ein abwechslungsreiches Programm auf dem Plan:
+
+- Die Klassenstufen 5 und 6 konnten ihre Fähigkeiten im Cantor-Team-Duell, einer weiteren Ausarbeitung der Projektwoche, auf die Probe stellen. Zudem durften sie Georg Cantors Leben mittels der "Cantor-App", welche bereits zum 30-jährigen Schuljubiläum 2018 erarbeitet wurde, erkunden.
+- Die 7. Klassen schauten im Puschkino den Film "Alfons Zitterbacke - Endlich Klassenfahrt". Anschließend stand **X** auf dem Programm.
+- Für die 8. und 9. Klassen ging es ebenfalls ins Puschkino - allerdings diesmal zu "Jojo Rabbit".
+- Die Schülerinnen und Schüler der Klasse 10 und aufwärts unterstützten die Lehrkräfte bei dem Programm für die 5. und 6. Klassen. Als besonderer Programmpunkt stand bei ihnen zudem der Mathematik-YouTuber und Rapper "DorFuchs" auf dem Plan, welchen wir für einige Stunden in unserer Schule begrüßen durften.
+
+Doch dieses vielfältige Programm war längst noch nicht das Ende dieser feierlichen Woche.
+
+## Flashmob: Konstruktion der "Cantor-Menge"
+
+Da ist sie wieder, die "Cantor-Menge", welche bereits zum Anfang des Artikels erwähnt wurde. Doch bevor wir auf diesen Programmpunkt genauer eingehen, stellt sich für einige Leserinnen und Leser vielleicht die Frage: Was ist diese "Cantor-Menge" überhaupt. Wir helfen nach!
+
+Die Cantor-Menge ist ein Fraktal, welches von Georg Cantor im Jahre 1883 vorgestellt wurde. Ihre Konstruktion beginnt, in dem man eine Strecke der Länge 1 drittelt und dann das mittlere Drittel entfernt. Diese Schritte führt man mit den zwei verbleibenden Strecken wieder durch. Dieser Vorgang, fortgesetzt in die Unendlichkeit, ergibt die Cantor-Menge. Aus mathematischer Sicht ist die Cantor-Menge abgeschlossen, kompakt, überabzählbar, innen leer (besteht nur aus Randpunkten), insichdicht und besitzt die Länge 0 - was für den Laien erstmal nur eine lose Ansammlung von Begriffen sein mag, ist für den Mathematiker eine Reihe von hochinteressanten Eigenschaften.
+
+Es ist bereits zur Tradition geworden, dass unsere Schule zum Schuljubiläum flashmobs veranstaltet - so bildeten wir zuvor schon erfolgreich die "Cantor-Diagonalen" und das Unendlichkeits-Zeichen als Symbol für Cantors größtes Forschungsgebiet. Die Cantor-Menge, oder genauer gesagt die Konstruktion der Cantor-Menge, wie mich der Schulleiter zum Glück rechtzeitig korrigierte, sollte nun das Motiv für unseren diesjährigen Flashmob werden.
 
 
 
