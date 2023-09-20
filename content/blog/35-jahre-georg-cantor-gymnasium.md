@@ -50,7 +50,7 @@ Das umfangreiche Programm, bestehend aus wissenschaftlichen, literarischen und m
 
 Nach einer musikalischen Entrée von Antonia (Kl. 7) hörte man einen der Erfolge der Projektwoche des letzten Schuljahres - der Cantor-Rap, vorgetragen von Schülerinnen und Schülern der Klassenstufen 6 und 7, erzählt auf unterhaltsame Art und Weise die Geschichte von Georg Cantor und dem Georg-Cantor-Gymnasium.
 
-Danach folgte die formale Begrüßung der Gäste durch eine Rede. Unser Schulleiter, Herr Dr. Bernd Gorsler, sprach von der großartigen Entwicklung unserer Schule und dankte allen für ihre stetige Unterstützung. Seine größte Wirkungsperiode habe Cantor erst mit dem Alter von 35 Jahren begonnen - möge unsere Schule seinem Beispiel folgen, und mit dem 35-jährigen Jubiläum ihr erfolgreichstes Kapitel einleiten.
+Danach folgte die formelle Begrüßung der Gäste durch eine Rede. Unser Schulleiter, Herr Dr. Bernd Gorsler, sprach von der großartigen Entwicklung unserer Schule und dankte allen für ihre stetige Unterstützung. Seine größte Wirkungsperiode habe Cantor erst mit dem Alter von 35 Jahren begonnen - möge unsere Schule seinem Beispiel folgen, und mit dem 35-jährigen Jubiläum ihr erfolgreichstes Kapitel einleiten.
 
 Die Moderation übernahm das Duo bestehend aus Amelie und Gero (Kl. 11), welche das Publikum durch den weiteren Verlauf des Nachmittags führten.
 
