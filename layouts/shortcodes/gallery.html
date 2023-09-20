@@ -7,7 +7,11 @@
 	  {{ if $isimg }}
 	    {{ $linkURL := print (trim $.Site.BaseURL "/") "/" $dir "/" .Name | absURL }}
 	    <div class="col-lg-3 col-md-4 col-sm-6">
-		  <a class="vb-gallery" data-gall="{{ md5 $dir }}" href="{{ $linkURL }}"><img class="lazy img-thumbnail w-100 h-100" style="object-fit: cover;" data-src="{{ $linkURL }}"></a>
+		  <a class="vb-gallery" data-gall="{{ md5 $dir }}" href="{{ $linkURL }}">
+		  	<div class="ratio ratio-4x3">
+				<img class="lazy img-thumbnail w-100 object-cover" data-src="{{ $linkURL }}">
+			</div>
+		  </a>	
 	    </div>
 	  {{ end }}
     {{ end }}

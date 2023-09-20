@@ -31,11 +31,7 @@ Im Rahmen der ["Red Hand Day"-Aktion](https://www.redhandday.org/de/), welche au
 
 Unserem Wunsch, diese Botschaft im Form von Handabdrücken an die Politik zu übergeben, konnte der Bundestagsabgeordnete für Halle, Herr Dr. Karamba Diaby, entsprechen. Am Dienstag, dem 12.09.2023, bekamen wir die Gelegenheit, eine Podiumsdiskussion mit ihm zu veranstalten. In diesem Rahmen übergaben wir ihm auch eine Mappe mit unseren Handabdrücken.
 
-
-
-
-
-
+<video class="mb-0" src="https://cloud.cantorgymnasium.de/f/ede1a9767a204b61a87c/?dl=1" controls width="100%"></video>
 
 {{< card title="Artikel: Red Hand Day - Talk mit Dr. Karamba Diaby" link="/blog/red-hand-day-talk-mit-dr-karamba-diaby/" >}}
 
@@ -51,19 +47,17 @@ Am Donnerstag, dem 14.09.2023, wurde das Jubiläum in offiziellem feierlichem Ra
 
 Das umfangreiche Programm, bestehend aus wissenschaftlichen, literarischen und musikalischen Beiträgen, symbolisiert perfekt die Interessens- und Talentvielfalt der Schülerinnen und Schüler. Eine solch vielseitige Passion ist seit der Gründung vor 35 Jahren fest in der DNA unserer Schule verankert.
 
-Nach einer musikalischen Entrée von Antonia Schutkowski hörte man einen der Erfolge der Projektwoche des letzten Schuljahres - der Cantor-Rap, vorgetragen von Schülerinnen und Schülern der Klassenstufen 6 und 7, erzählt auf unterhaltsame Art und Weise die Geschichte von Georg Cantor und dem Georg-Cantor-Gymnasium.
+Nach einer musikalischen Entrée von Antonia (Kl. 7) hörte man einen der Erfolge der Projektwoche des letzten Schuljahres - der Cantor-Rap, vorgetragen von Schülerinnen und Schülern der Klassenstufen 6 und 7, erzählt auf unterhaltsame Art und Weise die Geschichte von Georg Cantor und dem Georg-Cantor-Gymnasium.
 
 Danach folgte die formale Begrüßung der Gäste durch eine Rede. Unser Schulleiter, Herr Dr. Bernd Gorsler, sprach von der großartigen Entwicklung unserer Schule und dankte allen für ihre stetige Unterstützung. Seine größte Wirkungsperiode habe Cantor erst mit dem Alter von 35 Jahren begonnen - möge unsere Schule seinem Beispiel folgen, und mit dem 35-jährigen Jubiläum ihr erfolgreichstes Kapitel einleiten.
 
-Die Moderation übernahm das Duo bestehend aus Amelie Boebenroth und Gero Schneider (Kl. 11), welche das Publikum durch den weiteren Verlauf des Nachmittags führten.
+Die Moderation übernahm das Duo bestehend aus Amelie und Gero (Kl. 11), welche das Publikum durch den weiteren Verlauf des Nachmittags führten.
 
 Die Beiden nutzten die Gelegenheit, am "Schulgeburtstag" zu sprechen, um sich ein "Geburtstagsgeschenk" für unsere Schule zu wünschen - die Erneuerung der naturwissenschaftlichen Fachräume. Doch auch die Entwicklungen der letzten Jahre blieben nicht unerwähnt - die voranschreitende Digitalisierung uns Modernisierung der Schule, welche wir der Unterstützung unseres Fördervereins und der Stadt verdanken.
 
-Sodann sprach der Vertreter ebendieser. Herr A. Frolow, der Leiter des Fachbereichs Bildung in der Stadtverwaltung Halle (Saale), erfreute uns seiner Anwesenheit und richtete einige Worte zur Feier des Tages an das Publikum.
+Sodann sprach der Vertreter ebendieser. Herr A. Frolow, der Leiter des Fachbereichs Bildung in der Stadtverwaltung Halle (Saale), erfreute uns seiner Anwesenheit und richtete einige Worte zur Feier des Tages an das Publikum. Er hob die Erfolge unserer Schule hervor und versprach auch weiterhin eine aktive Unterstützung der Stadt.
 
-> TBC**- Herr A. Frolow (Leiter Fachbereich Bildung der Stadt Halle)**
-
-Nach einer Menge Applaus und einem weiteren musikalischen Beitrag (Claude Debussy: "Clair de Lune", gespielt von Lola Zschaege) trug uns Theresa Messe (Kl. 10) das Gedicht "Unendlichkeit" vor. Dieses wurde von ihrer Mitschülerin Clara Joachimi, welche zusätzlich in anderen Bereichen der Veranstaltung aktiv war, zu diesem Schuljubiläum verfasst.
+Nach einer Menge Applaus und einem weiteren musikalischen Beitrag (Claude Debussy: "Clair de Lune") trug uns Theresa Messe (Kl. 10) das Gedicht "Unendlichkeit" vor. Dieses wurde von ihrer Mitschülerin Clara Joachimi, welche zusätzlich in anderen Bereichen der Veranstaltung aktiv war, zu diesem Schuljubiläum verfasst.
 
 > Wo ﬁng es an?  
 > Wo wird es enden?  
@@ -114,9 +108,9 @@ Nach einer Menge Applaus und einem weiteren musikalischen Beitrag (Claude Debuss
 > <br/>
 > **- Clara Joachimi (Kl. 10): "Unendlichkeit"**
 
-Clara Joachimi und Franziska (Kl. 10) präsentierten uns im Anschluss an das Gedicht ihre Recherche-Ergebnisse zur psychischen Krankheit von Georg Cantor - ein weiteres Produkt der diesjährigen Projektwoche. Die spannende Frage, ob Cantors geniale Erfolge auf seine psychische Störung zurückzuführen seien, konnte für die aufmerksamen Zuhörer mit einem sehr wahrscheinlichen Nein beantwortet werden. Wie dünn also die Grenze zwischen Genie und Wahnsinn wirklich ist, werden wir auch in naher Zukunft nicht so schnell erfahren.
+Clara und Franziska (Kl. 10) präsentierten uns im Anschluss an das Gedicht ihre Recherche-Ergebnisse zur psychischen Krankheit von Georg Cantor - ein weiteres Produkt der diesjährigen Projektwoche. Die spannende Frage, ob Cantors geniale Erfolge auf seine psychische Störung zurückzuführen seien, konnte für die aufmerksamen Zuhörer mit einem sehr wahrscheinlichen Nein beantwortet werden. Wie dünn also die Grenze zwischen Genie und Wahnsinn wirklich ist, werden wir auch in naher Zukunft nicht so schnell erfahren.
 
-Nach einem weiteren Musikstück vorgetragen durch Antonia Schurtkowski - "Comptine d'un autre été, l'après-midi" von Jan Tiersen - erfreute Benno Conrad (Kl. 10) das Publikum mit seinem selbst verfassten lyrischen Werk - einem Poetry-Slam zum Thema "Zukunft".
+Nach einem weiteren Musikstück vorgetragen durch Antonia (Kl. 7) - "Comptine d'un autre été, l'après-midi" von Jan Tiersen - erfreute Benno Conrad (Kl. 10) das Publikum mit seinem selbst verfassten lyrischen Werk - einem Poetry-Slam zum Thema "Zukunft".
 
 > Jeder lebt so knapp vor ihr  
 > Um sie unvorbereitet zu erleben  
@@ -163,7 +157,7 @@ Im Anschluss nahm sich Herr Mischo die Zeit für einige Fragen, gestellt von uns
 
 **Wir hören nicht auf - wir werden gemeinsam weiter gegen den Einsatz von Kindersoldaten kämpfen.**
 
-Auf das letzte Klavierstück der Veranstaltung - "Nightbook" von Ludovico Einaudi, gespielt von Isabelle Bethin, folgte der erste Auftritt unserer schuleigenen Band, mit dem Lied "Flowers" von Miley Cyrus.
+Auf das letzte Klavierstück der Veranstaltung - "Nightbook" von Ludovico Einaudi, gespielt von Isabelle Bethin (Kl. 7), folgte der erste Auftritt unserer schuleigenen Band, mit dem Lied "Flowers" von Miley Cyrus.
 
 Zum letzten Mal für diesen abwechslungsreichen Nachmittag stand nun wieder die Wissenschaft im Vordergrund: mittels einer Live-Übertragung durften unsere Gäste den Start eines Wetterballons, organisiert und umgesetzt durch den Modulkurs Physik der Klasse 11, mitverfolgen.
 
@@ -202,20 +196,20 @@ Mit dem nun vorletzten Programmpunkt und damit unserem letzten Redebeitrag neigt
 
 Unser festlicher Nachmittag nahte dem Ende, was die Schulband jedoch nicht davon abhielt, mit ihrer atemberaubenden Performance - "I'm Still Standing" von Elton John, den krönenden Abschluss zu machen - was am zahlreichen Applaus definitiv bemerkbar war.
 
-`{ {< gallery dir="" >} }`
+{{< gallery dir="/media/blog/Sj2023_2024/35-jahre-gcg/festveranstaltung" >}}
 
 ## Projekttag
 
 Am Freitag, dem 15.09.2023, entfiel der Unterricht für alle Schülerinnen und Schüler. Stattdessen stand für alle ein abwechslungsreiches Programm auf dem Plan:
 
-- Die Klassenstufen 5 und 6 konnten ihre Fähigkeiten im Cantor-Team-Duell, einer weiteren Ausarbeitung der Projektwoche, auf die Probe stellen. Zudem durften sie Georg Cantors Leben mittels der "Cantor-App", welche bereits zum 30-jährigen Schuljubiläum 2018 erarbeitet wurde, erkunden.
-- Die 7. Klassen schauten im Puschkino den Film "Alfons Zitterbacke - Endlich Klassenfahrt". Anschließend stand **X** auf dem Programm.
+- Die Klassenstufen 5 und 6 konnten ihre Fähigkeiten im Cantor-Team-Duell, einer weiteren Ausarbeitung der Projektwoche, auf die Probe stellen. Abweichend von den anderem nahm die Klasse 5/1 am [HALLIANZ-Spendenlauf](https://www.hallianz-fuer-vielfalt.de/hallianz-spendenlauf/) teil. Zudem durften sie Georg Cantors Leben mittels der "Cantor-App", welche bereits zum 30-jährigen Schuljubiläum 2018 erarbeitet wurde, erkunden.
+- Die 7. Klassen schauten im Puschkino den Film "Alfons Zitterbacke - Endlich Klassenfahrt". Anschließend stand ein Ausflug zur Peißnitz auf dem Programm.
 - Für die 8. und 9. Klassen ging es ebenfalls ins Puschkino - allerdings diesmal zu "Jojo Rabbit".
 - Die Schülerinnen und Schüler der Klasse 10 und aufwärts unterstützten die Lehrkräfte beim Programm für die 5. und 6. Klassen. Als besonderer Programmpunkt stand bei ihnen zudem der Mathematik-YouTuber und Rapper "DorFuchs" auf dem Plan, welchen wir für einige Stunden in unserer Schule begrüßen durften.
 
 Doch dieses vielfältige Programm war längst noch nicht das Ende dieser feierlichen Woche. Den Abschluss stellte, wie zum 30-jährigen Jubiläum, ein Flashmob dar.
 
-`{ {< gallery dir="" >} }`
+{{< gallery dir="/media/blog/Sj2023_2024/35-jahre-gcg/projekttag" >}}
 
 ## Flashmob: Konstruktion der "Cantor-Menge"
 
@@ -228,9 +222,9 @@ Es ist bereits zur Tradition geworden, dass unsere Schule zum Schuljubiläum Fla
 Aus viel Planungsaufwand und zahlreichen Ausflügen zum Salzgrafenplatz vor dem MDR-Gebäude entstand am Ende ein Aufstellungsplan, an welchem Herr Plinke wochenlang feilte.
 
 Am Freitag war es soweit - um 12.30 Uhr versammelte sich die Schüler- und Lehrerschaft am Salzgrafenplatz zur ersten Stellprobe.
-Einige Versuche später entstand um 12.46 Uhr die Endversion des Bildes als krönender Abschluss der Woche - dank Felix Müller (Kl. 10), der eine Aufnahme mit der Drohne machte.
+Einige Versuche später entstand um 12.46 Uhr die Endversion des Bildes als krönender Abschluss der Woche - dank Felix Müller (Kl. 11), der eine Aufnahme mit der Drohne machte.
 
-`{ {< gallery dir="" >} }`
+{{< gallery dir="/media/blog/Sj2023_2024/35-jahre-gcg/flashmob" >}}
 
 <video src="https://cloud.cantorgymnasium.de/f/6648aa61caed45f7b806/?dl=1" width="100%" controls></video>
 
