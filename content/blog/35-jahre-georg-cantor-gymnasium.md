@@ -227,7 +227,7 @@ Einige Versuche später entstand um 12.46 Uhr die Endversion des Bildes als krö
 
 {{< gallery dir="/media/blog/Sj2023_2024/35-jahre-gcg/flashmob" >}}
 
-<video src="https://cloud.cantorgymnasium.de/f/6648aa61caed45f7b806/?dl=1" width="100%" controls></video>
+<video src="https://cloud.cantorgymnasium.de/f/5687bafb49f649c48e7d/?dl=1" width="100%" controls></video>
 
 ## Danksagung
 
