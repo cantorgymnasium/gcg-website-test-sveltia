@@ -1,8 +1,8 @@
 ---
 title: 35 Jahre Georg-Cantor-Gymnasium
-date: 2023-09-15T09:31:49.198+02:00
-draft: true
-image: /media/image.webp
+date: 2023-09-20T09:31:49.198+02:00
+draft: false
+image: /media/blog/Sj2023_2024/35-jahre-gcg/titelbild.webp
 author:
   - denys-konovalov
 categories:
@@ -39,7 +39,7 @@ Unserem Wunsch, diese Botschaft im Form von Handabdrücken an die Politik zu üb
 
 Am Mittwoch, dem 13.09.2023, fand für unsere jüngeren Schülerinnen und Schüler der "Jugend forscht"-Tag statt. Erfahrene Jungforscherinnen und Jungforscher stellten ihre Projekte und Ergebnisse sowie die Wettbewerbe "Jugend forscht" bzw. "Schüler experimentieren" vor. Das Ziel war, die 5. und 6. Klassen für die Forschung zu begeistern - denn wer weiß, in welch stillem Köpfchen eine geniale Idee steckt?
 
-`{ {< gallery dir="" >} }`
+{{< gallery dir="/media/blog/Sj2023_2024/35-jahre-gcg/jftag" >}}
 
 ## Festveranstaltung
 
