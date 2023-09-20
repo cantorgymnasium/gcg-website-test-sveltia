@@ -18,6 +18,7 @@ tags:
   - jubiläum
   - redhandday
 type: post
+aliases: ["/35-jahre-gcg"]
 ---
 35 Jahre Georg-Cantor-Gymnasium. Ein Moment, welcher nicht wie jeder Andere ist. Ein Zeitpunkt, welcher wie kein Anderer für Zusammenhalt und Stärke steht. Ein Anlass, um zu feiern.
 
