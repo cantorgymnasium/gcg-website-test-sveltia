@@ -44,7 +44,7 @@ Am Mittwoch, dem 13.09.2023, fand für unsere jüngeren Schülerinnen und Schül
 
 ## Festveranstaltung
 
-Am Donnerstag, dem 14.09.2023, wurde das Jubiläum in offiziellem feierlichem Rahmen zelebriert. Die Schulleitung versammelte zahlreiche Gäste in der Aula zu einer Festveranstaltung - darunter sowohl derzeitige als auch ehemalige Lehrkräfte der Schule, Vertreterinnen und Vertreter vom Schülerrat, Elternrat und Förderverein sowie externe Gäste - unter anderem Herrn Frolow (Leiter Fachbereich Bildung), Herrn Mischo und Frau Dr. Schaper von der Kindernothilfe. Warum diese Gäste teilnahmen, erfahren Sie im weiteren Verlauf des Artikels.
+Am Donnerstag, dem 14.09.2023, wurde das Jubiläum in offiziellem feierlichem Rahmen zelebriert. Die Schulleitung versammelte zahlreiche Gäste in der Aula zu einer Festveranstaltung - darunter sowohl derzeitige als auch ehemalige Lehrkräfte der Schule, Vertreterinnen und Vertreter vom Schülerrat, Elternrat und Förderverein sowie externe Gäste - unter anderem Herrn Frolow (Leiter Fachbereich Bildung), Herrn Mischo und Frau Dr. Schaper vom Kindernothilfe. Warum diese Gäste teilnahmen, erfahren Sie im weiteren Verlauf des Artikels.
 
 Das umfangreiche Programm, bestehend aus wissenschaftlichen, literarischen und musikalischen Beiträgen, symbolisiert perfekt die Interessens- und Talentvielfalt der Schülerinnen und Schüler. Eine solch vielseitige Passion ist seit der Gründung vor 35 Jahren fest in der DNA unserer Schule verankert.
 
