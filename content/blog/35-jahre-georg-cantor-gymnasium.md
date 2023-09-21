@@ -203,7 +203,7 @@ Unser festlicher Nachmittag nahte dem Ende, was die Schulband jedoch nicht davon
 
 Am Freitag, dem 15.09.2023, entfiel der Unterricht für alle Schülerinnen und Schüler. Stattdessen stand für alle ein abwechslungsreiches Programm auf dem Plan:
 
-- Die Klassenstufen 5 und 6 konnten ihre Fähigkeiten im Cantor-Team-Duell, einer weiteren Ausarbeitung der Projektwoche, auf die Probe stellen. Abweichend von den anderem nahm die Klasse 5/1 am [HALLIANZ-Spendenlauf](https://www.hallianz-fuer-vielfalt.de/hallianz-spendenlauf/) teil. Zudem durften sie Georg Cantors Leben mittels der "Cantor-App", welche bereits zum 30-jährigen Schuljubiläum 2018 erarbeitet wurde, erkunden.
+- Die Klassenstufen 5 und 6 konnten ihre Fähigkeiten im Cantor-Team-Duell, einer weiteren Ausarbeitung der Projektwoche, auf die Probe stellen. Abweichend von den anderem nahm die Klasse 5/1 am [HALLIANZ-Spendenlauf](https://www.hallianz-fuer-vielfalt.de/hallianz-spendenlauf/) teil, bei dem sie 278 Runden und damit beachtliche 380 Euro an Spendengeldern erlaufen konnte. Zudem durften sie Georg Cantors Leben mittels der "Cantor-App", welche bereits zum 30-jährigen Schuljubiläum 2018 erarbeitet wurde, erkunden.
 - Die 7. Klassen schauten im Puschkino den Film "Alfons Zitterbacke - Endlich Klassenfahrt". Anschließend stand ein Ausflug zur Peißnitz auf dem Programm.
 - Für die 8. und 9. Klassen ging es ebenfalls ins Puschkino - allerdings diesmal zu "Jojo Rabbit".
 - Die Schülerinnen und Schüler der Klasse 10 und aufwärts unterstützten die Lehrkräfte beim Programm für die 5. und 6. Klassen. Als besonderer Programmpunkt stand bei ihnen zudem der Mathematik-YouTuber und Rapper "DorFuchs" auf dem Plan, welchen wir für einige Stunden in unserer Schule begrüßen durften.
