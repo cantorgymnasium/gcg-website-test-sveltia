@@ -30,7 +30,7 @@ jobs:
           hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
       - name: deploy
         run: |
-          cd cd /opt/data/actions/gcg-website-master/public
+          cd /opt/data/actions/gcg-website-master/public
           pagefind --source=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website/
       - name: notification
