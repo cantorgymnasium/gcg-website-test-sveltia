@@ -25,10 +25,12 @@ jobs:
           git fetch --all
           git reset --hard origin/master
       - name: build
-        run: hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
+        run: |
+          cd /opt/data/actions/gcg-website-master
+          hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
       - name: deploy
         run: |
-          cd public
+          cd cd /opt/data/actions/gcg-website-master/public
           pagefind --source=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website/
       - name: notification
@@ -49,10 +51,12 @@ jobs:
           git fetch --all
           git reset --hard origin/master
       - name: build
-        run: hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture -d test
+        run: |
+          cd /opt/data/actions/gcg-website-master
+          hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture -d test
       - name: deploy
         run: |
-          cd test
+          cd cd /opt/data/actions/gcg-website-master/test
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-test/
   auto-rebuild:
     if: gitea.repository == 'gcg/gcg-website' && gitea.event_name == 'schedule'
@@ -65,9 +69,11 @@ jobs:
           git fetch --all
           git reset --hard origin/master
       - name: build
-        run: hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
+        run: |
+          cd /opt/data/actions/gcg-website-master
+          hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
       - name: deploy
         run: |
-          cd public
+          cd cd /opt/data/actions/gcg-website-master/public
           pagefind --source=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website/
