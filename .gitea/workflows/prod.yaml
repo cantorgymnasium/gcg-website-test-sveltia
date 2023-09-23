@@ -49,7 +49,7 @@ jobs:
           cd test
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-test/
   auto-rebuild:
-    if: gitea.repository == 'gcg/gcg-website' && gitea.event.issue.number == 219
+    if: gitea.repository == 'gcg/gcg-website' && gitea.event_name == 'schedule'
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
