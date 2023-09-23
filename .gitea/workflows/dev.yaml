@@ -15,13 +15,19 @@ jobs:
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
-      - name: clone
-        uses: actions/checkout@v3
+      - name: pull
+        run: |
+          cd /opt/data/actions/gcg-website-dev
+          git pull
+          git reset --hard origin/dev
       - name: build
-        run: hugo --minify --gc --baseURL "https://dev.cantorgymnasium.de/" --buildDrafts --buildFuture -d dev
+        run: |
+          cd /opt/data/actions/gcg-website-dev
+          rm -rf dev
+          hugo --minify --gc --baseURL "https://dev.cantorgymnasium.de/" --buildDrafts --buildFuture -d dev
       - name: deploy
         run: |
-          cd dev
+          cd /opt/data/actions/gcg-website-dev/dev
           pagefind_extended --site=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-dev/          
       - name: notification
