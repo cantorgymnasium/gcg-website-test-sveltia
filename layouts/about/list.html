@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+<main data-pagefind-body>
 <section class="section">
   <div class="container">
     {{ with .Params.image }}
@@ -31,5 +32,6 @@
 {{ end }}
 
 {{ partial "info" . }}
+</main>
 
 {{ end }}

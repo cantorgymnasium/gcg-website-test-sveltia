@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+<main data-pagefind-body>
+
 {{ $data := .Site.Data }}
 
 {{ if $data.homepage.slider.enable }}
@@ -286,5 +288,7 @@
 </section>
 {{ end }}
 {{ end }}
+
+</main>
 
 {{ end }}

@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="section">
+<section class="section" data-pagefind-body>
   <!-- TODO: everything -->
   <div class="container">
     {{ if or .Params.cantorpreisträger (where (where .Site.RegularPages "Title" (print "Abiturienten " .Params.Title ) ) "Type" "=" "abiturienten") }}
