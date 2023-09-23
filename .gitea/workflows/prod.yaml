@@ -7,7 +7,7 @@ on:
   issue_comment:
     types: [created]
   schedule:
-    - cron: '56 13 * * *'
+    - cron: '0 0 * * *'
 
 concurrency:
   group: ${{ gitea.workflow }}-${{ gitea.ref }}
