@@ -56,7 +56,7 @@ jobs:
           hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture -d test
       - name: deploy
         run: |
-          cd cd /opt/data/actions/gcg-website-master/test
+          cd /opt/data/actions/gcg-website-master/test
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-test/
   auto-rebuild:
     if: gitea.repository == 'gcg/gcg-website' && gitea.event_name == 'schedule'
@@ -74,6 +74,6 @@ jobs:
           hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
       - name: deploy
         run: |
-          cd cd /opt/data/actions/gcg-website-master/public
+          cd /opt/data/actions/gcg-website-master/public
           pagefind --source=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website/
