@@ -19,8 +19,11 @@ jobs:
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
-      - name: clone
-        uses: actions/checkout@v3
+      - name: pull
+        run: |
+          cd /opt/data/actions/gcg-website-master
+          git fetch --all
+          git reset --hard origin/master
       - name: build
         run: hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
       - name: deploy
@@ -40,8 +43,11 @@ jobs:
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
-      - name: clone
-        uses: actions/checkout@v3
+      - name: pull
+        run: |
+          cd /opt/data/actions/gcg-website-master
+          git fetch --all
+          git reset --hard origin/master
       - name: build
         run: hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture -d test
       - name: deploy
@@ -53,8 +59,11 @@ jobs:
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
-      - name: clone
-        uses: actions/checkout@v3
+      - name: pull
+        run: |
+          cd /opt/data/actions/gcg-website-master
+          git fetch --all
+          git reset --hard origin/master
       - name: build
         run: hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
       - name: deploy
