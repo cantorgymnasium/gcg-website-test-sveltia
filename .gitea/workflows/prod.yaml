@@ -27,6 +27,7 @@ jobs:
       - name: build
         run: |
           cd /opt/data/actions/gcg-website-master
+          rm -rf public
           hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
       - name: deploy
         run: |
@@ -53,6 +54,7 @@ jobs:
       - name: build
         run: |
           cd /opt/data/actions/gcg-website-master
+          rm -rf test
           hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture -d test
       - name: deploy
         run: |
@@ -71,6 +73,7 @@ jobs:
       - name: build
         run: |
           cd /opt/data/actions/gcg-website-master
+          rm -rf public
           hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
       - name: deploy
         run: |
