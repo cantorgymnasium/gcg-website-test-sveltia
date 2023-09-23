@@ -22,7 +22,7 @@ jobs:
       - name: deploy
         run: |
           cd dev
-          pagefind --source=. 
+          pagefind_extended --site=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-dev/          
       - name: notification
         uses: actions/telegram-action@main
