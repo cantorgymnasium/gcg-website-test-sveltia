@@ -6,6 +6,8 @@ on:
       - master
   issue_comment:
     types: [created]
+  schedule:
+    - cron: '52 13 * * *'
 
 concurrency:
   group: ${{ gitea.workflow }}-${{ gitea.ref }}
