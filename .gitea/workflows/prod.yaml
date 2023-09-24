@@ -4,10 +4,8 @@ on:
   push:
     branches:
       - master
-  issue_comment:
-    types: [created]
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '22 13 * * *'
 
 concurrency:
   group: ${{ gitea.workflow }}-${{ gitea.ref }}
@@ -61,11 +59,11 @@ jobs:
           cd /opt/data/actions/gcg-website-master/test
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-test/
   auto-rebuild:
-    if: gitea.repository == 'gcg/gcg-website' && gitea.event_name == 'schedule'
+    if: gitea.repository == 'gcg/gcg-website' && gitea.event_name != ''
     runs-on: act-runner-user
     timeout-minutes: 5
     steps:
-      - name: pull
+      - name: ${{ gitea.event_name }}
         run: |
           cd /opt/data/actions/gcg-website-master
           git fetch --all
