@@ -58,23 +58,3 @@ jobs:
         run: |
           cd /opt/data/actions/gcg-website-master/test
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-test/
-  auto-rebuild:
-    if: gitea.repository == 'gcg/gcg-website'
-    runs-on: act-runner-user
-    timeout-minutes: 5
-    steps:
-      - name: pull
-        run: |
-          cd /opt/data/actions/gcg-website-master
-          git fetch --all
-          git reset --hard origin/master
-      - name: build
-        run: |
-          cd /opt/data/actions/gcg-website-master
-          rm -rf public
-          hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
-      - name: deploy
-        run: |
-          cd /opt/data/actions/gcg-website-master/public
-          pagefind_extended --site=. 
-          rsync -azr --delete ./ /opt/data/webdata/gcg-website/
