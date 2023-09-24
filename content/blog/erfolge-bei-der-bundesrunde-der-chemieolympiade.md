@@ -26,7 +26,7 @@ Auch Tien Nguyen und Arthur Ahrens konnten sich gut platzieren.
 
 Danke an alle drei für das große Engagement.
 
-> Foto: Jan Bandemer ([https://www.chemie-die-stimmt.de/preistr%C3%A4ger/4-runde-2022-23/](https://www.chemie-die-stimmt.de/preistr%C3%A4ger/4-runde-2022-23/)), Bundesfinale 2022/23: alle Prämierten
+> Foto: Jan Bandemer ([https://www.chemie-die-stimmt.de/preistr%C3%A4ger/4-runde-2022-23/](https://www.chemie-die-stimmt.de/preistr%C3%A4ger/4-runde-2022-23/)), Bundesfinale 2022/23
 
 
 
