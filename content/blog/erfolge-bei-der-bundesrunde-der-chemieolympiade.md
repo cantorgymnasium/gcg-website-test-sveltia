@@ -16,7 +16,7 @@ tags:
   - "2023"
 type: post
 ---
-**Bundesfinale der Chemieolympiade - Herzlichen Glückwunsch an Paul Kaufmann**
+#### **Bundesfinale der Chemieolympiade - Herzlichen Glückwunsch an Paul Kaufmann**
 
 Vom 19. bis 23. September haben sich die 36 Finalisten der Wettbewerbssaison 2022/23 zum großen **Bundesfinale der Chemieolympiade** in Leipzig getroffen.
 
