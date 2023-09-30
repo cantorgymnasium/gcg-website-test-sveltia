@@ -102,7 +102,7 @@
 {{ end }}
 
 {{ if $data.homepage.blog.enable }}
-<section class="section mb-4">
+<section class="section mb-4" data-pagefind-ignore>
   <div class="container">
     <div class="d-flex align-items-center mb-4 justify-content-between">
       <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.blog.title }}</h2>
@@ -169,7 +169,7 @@
 {{ end }}
 
 {{ if $data.homepage.ganztagsangebote.enable }}
-<section class="section">
+<section class="section" data-pagefind-ignore>
   <div class="container">
     <div class="d-flex align-items-center mb-4 justify-content-between">
       <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.ganztagsangebote.title }}</h2>
