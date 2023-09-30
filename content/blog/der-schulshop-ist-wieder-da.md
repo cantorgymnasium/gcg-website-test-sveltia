@@ -1,7 +1,7 @@
 ---
 title: Der Schulshop ist wieder da!
 date: 2023-09-30T16:42:12.937+02:00
-draft: false
+draft: true
 image: /media/image.webp
 author:
   - denys-konovalov
