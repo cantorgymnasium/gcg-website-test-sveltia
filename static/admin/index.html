@@ -182,7 +182,7 @@
       // access control
       CMS.registerEventListener({
         name: "login",
-        handler: ({ login }) => {
+        handler: ({ author: { login, name } }) => {
           const adminUsers = [
             "Tramus00",
             "denyskon",
@@ -191,7 +191,7 @@
             "cschapitz",
             "bgorsler",
           ];
-          if (login && !adminUsers.includes(login)) {
+          if (author.login && !adminUsers.includes(author.login)) {
             alert(
               "Sie sind nicht berechtigt, diese Seite aufzurufen. Sie werden nun auf die Startseite weitergeleitet."
             );
