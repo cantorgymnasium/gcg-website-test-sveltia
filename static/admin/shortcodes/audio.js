@@ -42,13 +42,13 @@ const AudioShortcode = {
       }),
       h(
         "span",
-        { key: "audio-button", className: "flex gap-2 pt-2 px-2" },
+        { key: "audio-button", className: "CMS_WidgetDateTime_NowButton_root" },
         h(
           "button",
           {
             type: "button",
             onClick: handleOpenMediaLibrary,
-            className: "btn btn-contained-primary",
+            className: "CMS_Button_root CMS_Button_outlined-primary",
           },
           "wählen"
         )
