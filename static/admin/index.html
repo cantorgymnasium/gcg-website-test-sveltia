@@ -191,9 +191,9 @@
             "cschapitz",
             "bgorsler",
           ];
-          if (author.login && !adminUsers.includes(author.login)) {
+          if (login && !adminUsers.includes(login)) {
             alert(
-              "Sie sind nicht berechtigt, diese Seite aufzurufen. Sie werden nun auf die Startseite weitergeleitet."
+              "Sie sind nicht berechtigt, diese Seite aufzurufen. Sie werden nun zur Startseite weitergeleitet."
             );
             location.href = "/";
           }
