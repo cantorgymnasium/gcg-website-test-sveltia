@@ -31,7 +31,11 @@ const YoutubeShortcode = {
             width: "100%",
             height: "360",
             src: `https://piped.kavin.rocks/embed/${src}`,
-            className: "px-3 pt-3",
+            style: {
+              paddingLeft: "0.75rem",
+              paddingRight: "0.75rem",
+              paddingTop: "0.75rem",
+            },
           },
           ""
         ),

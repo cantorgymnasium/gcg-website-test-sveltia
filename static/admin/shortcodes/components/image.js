@@ -1,36 +1,35 @@
 const Image = ({ label, assetSource, handleOpenMediaLibrary }) =>
   h(
     "span",
-    { className: "flex flex-col w-full" },
+    { className: "CMS_Field_wrapper" },
     h(
       "label",
       {
-        className:
-          "w-full flex text-xs font-bold dark:font-semibold group-focus-within/active:text-blue-500 group-hover/active:text-blue-500 cursor-text text-slate-500 dark:text-slate-400 px-3 pt-3",
+        className: "CMS_Label_root CMS_Label_cursor-pointer",
       },
       label
     ),
     h(
       "span",
-      { className: "flex flex-col gap-2 px-3 pt-2" },
+      { className: "CMS_WidgetFileImage_content" },
       h(
         "span",
         {},
         h("img", {
           role: "presentation",
           src: assetSource,
-          className: "object-cover max-w-full overflow-hidden",
+          className: "CMS_Image_root",
         })
       ),
       h(
         "span",
-        { className: "flex gap-2" },
+        { className: "CMS_WidgetFileImage_actions" },
         h(
           "button",
           {
             type: "button",
             onClick: handleOpenMediaLibrary,
-            className: "btn btn-contained-primary",
+            className: "CMS_Button_root CMS_Button_outlined-primary",
           },
           "Bild auswählen"
         )

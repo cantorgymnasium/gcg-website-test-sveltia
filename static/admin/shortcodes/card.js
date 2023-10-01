@@ -17,7 +17,7 @@ const CardShortcode = {
       for (let arg of args.slice(linkIndex)) {
         link += " " + arg.replaceAll("link=", "").replaceAll('"', "");
       }
-      return { title: title.trim(), link: link.trim() };
+      return { title: title.trimStart(), link: link.trim() };
     }
 
     return { title: "", link: "" };
@@ -31,7 +31,7 @@ const CardShortcode = {
         label: "Titel",
         value: title,
         onChange: (event) => {
-          onChange({ title: event.target.value, link });
+          onChange({ title: event.target.value.trimStart(), link });
         },
       }),
       TextField({

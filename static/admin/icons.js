@@ -25,11 +25,7 @@ for (let [name, icon] of Object.entries(IconNames)) {
   Icons.push({
     name,
     icon: () =>
-      h(
-        "div",
-        { className: "flex items-center" },
-        h("i", { className: icon, style: { fontSize: "1.5rem" } })
-      ),
+      h("i", { className: "CMS_Icon_root cms-icon " + icon, style: { fontSize: "1.5rem" } })
   });
 }
 

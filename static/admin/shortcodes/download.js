@@ -17,7 +17,7 @@ const DownloadShortcode = {
       for (let arg of args.slice(linkIndex)) {
         link += " " + arg.replaceAll("link=", "").replaceAll('"', "");
       }
-      return { title: title.trim(), link: link.trim() };
+      return { title: title.trimStart(), link: link.trim() };
     }
 
     return { title: "", link: "" };
@@ -25,22 +25,54 @@ const DownloadShortcode = {
   toArgs: ({ title, link }) => {
     return [`title=\"${title}\"`, `link=\"${link}\"`];
   },
-  control: ({ title, link, onChange }) => {
+  control: ({ title, link, onChange, controlProps }) => {
+    const { collection, field } = controlProps;
+
+    const handleChange = ({ path }) => {
+      onChange({ title: title, link: path });
+    };
+
+    const handleOpenMediaLibrary = useMediaInsert(
+      link,
+      { collection, field },
+      handleChange
+    );
+
     return Card([
       TextField({
         label: "Titel",
         value: title,
         onChange: (event) => {
-          onChange({ title: event.target.value, link });
+          onChange({ title: event.target.value.trimStart(), link });
         },
       }),
-      TextField({
-        label: "Download-Link",
-        value: link,
-        onChange: (event) => {
-          onChange({ title, link: event.target.value });
+      h(
+        "span",
+        {
+          style: {
+            display: "flex",
+            "flex-direction": "row",
+            "align-items": "end",
+          },
         },
-      }),
+        TextField({
+          label: "Download-Link",
+          value: link,
+          onChange: (event) => {
+            onChange({ title, link: event.target.value });
+          },
+        }),
+        h(
+          "button",
+          {
+            type: "button",
+            onClick: handleOpenMediaLibrary,
+            className: "CMS_Button_root CMS_Button_outlined-primary",
+            style: { "margin-left": "0.75rem", "margin-right": "0.75rem" },
+          },
+          "wählen"
+        )
+      ),
     ]);
   },
   preview: ({ title, link }) => {

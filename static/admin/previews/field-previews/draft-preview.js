@@ -6,7 +6,7 @@ const DraftPreview = ({ value }) =>
         backgroundColor: value === true ? "rgb(37 99 235)" : "rgb(22 163 74)",
         color: "white",
         border: "none",
-        padding: "2px 6px",
+        padding: "0 5px",
         textAlign: "center",
         textDecoration: "none",
         display: "inline-block",
