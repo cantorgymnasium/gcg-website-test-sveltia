@@ -12,6 +12,7 @@ import {
   PreviewNumber,
   DescriptionText,
   DisableBoolean,
+  AuthorRelation,
 } from "./widgets.js";
 
 const SettingsCollection = {
@@ -355,18 +356,7 @@ const SettingsCollection = {
       fields: [
         EnableBoolean,
         Title(false),
-        {
-          name: "author",
-          label: "Autor",
-          hint: "Verwaltet im Autoren-Bereich",
-          widget: "relation",
-          collection: "author",
-          value_field: "{{slug}}",
-          search_fields: ["{{title}}"],
-          display_fields: ["{{title}}"],
-          multiple: true,
-          required: true,
-        },
+        AuthorRelation,
         {
           name: "image",
           label: "Titelbild",
@@ -664,7 +654,7 @@ const SettingsCollection = {
                   name: "name",
                   label: "Bezeichnung",
                   widget: "string",
-                  required: true
+                  required: true,
                 },
                 {
                   name: "weight",

@@ -6,7 +6,7 @@ const AuthorCollection = {
   label: "Autoren",
   label_singular: "Autor",
   description:
-    "Autoren können einem Blogartikel zugewiesen werden. Wir unterscheiden in aktive und inaktive sowie vereinfachte Autoren, welche nur mit dem Namen angezeigt werden, und erweiterte Autoren, für die eine Übersichtsseite angelegt wird.Autoren können einem Blogartikel zugewiesen werden.",
+    "Autoren können einem Blogartikel zugewiesen werden. Wir unterscheiden in aktive und inaktive sowie vereinfachte Autoren, welche nur mit dem Namen angezeigt werden, und erweiterte Autoren, für die eine Übersichtsseite angelegt wird.",
   icon: "user",
   folder: "content/author",
   create: true,

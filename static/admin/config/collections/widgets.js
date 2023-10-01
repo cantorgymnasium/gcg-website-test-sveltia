@@ -76,6 +76,20 @@ const ButtonObject = {
   ],
 };
 
+const AuthorRelation = {
+  name: "author",
+  label: "Autor(en)",
+  hint: "Verwaltet im Autoren-Bereich. Mehrere Autoren werden in alphabetischer Reihenfolge aufgelistet.",
+  widget: "relation",
+  collection: "author",
+  value_field: "{{slug}}",
+  search_fields: ["title"],
+  display_fields: ["{{title}}"],
+  multiple: true,
+  required: true,
+  options_length: 10000,
+};
+
 export {
   EnableBoolean,
   DisableBoolean,
@@ -85,4 +99,5 @@ export {
   IconList,
   PreviewNumber,
   ButtonObject,
+  AuthorRelation,
 };

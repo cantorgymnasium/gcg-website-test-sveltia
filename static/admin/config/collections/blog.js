@@ -1,5 +1,10 @@
 import { DateFormat, MarkdownProps } from "../props.js";
-import { DescriptionText, DraftBoolean, Title } from "./widgets.js";
+import {
+  AuthorRelation,
+  DescriptionText,
+  DraftBoolean,
+  Title,
+} from "./widgets.js";
 
 const BlogCollection = {
   name: "blog",
@@ -52,19 +57,7 @@ const BlogCollection = {
       required: true,
       default: "/media/image.webp",
     },
-    {
-      name: "author",
-      label: "Autor(en)",
-      hint: "Verwaltet im Autoren-Bereich. Mehrere Autoren werden in alphabetischer Reihenfolge aufgelistet.",
-      widget: "relation",
-      collection: "author",
-      value_field: "{{slug}}",
-      search_fields: ["title"],
-      display_fields: ["{{title}}"],
-      multiple: true,
-      required: true,
-      options_length: 10000,
-    },
+    AuthorRelation,
     {
       name: "categories",
       label: "Kategorien",
@@ -98,7 +91,7 @@ const BlogCollection = {
       label: "Tags",
       widget: "list",
       delimiter: ",",
-      required: false
+      required: false,
     },
     {
       name: "type",
