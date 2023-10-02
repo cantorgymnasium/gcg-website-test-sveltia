@@ -1,15 +1,16 @@
 top_banner:
   enable: true
   text: >
-    Bitte beachtet die Hinweise zum Schuljahresstart weiter unten auf der
-    Startseite bzw. der Moodle-Startseite. 
+    Der Schulshop ist wieder da, mit einem neuen Bestellzeitraum vom 2. Oktober
+    bis zum 3. November. Mehr [im
+    Artikel](https://cantorgymnasium.de/blog/der-schulshop-ist-wieder-da/).
   color: "#19aa96"
   font_color: "#ffffff"
-  icon: mdi mdi-alarm-multiple
+  icon: mdi mdi-cart
   temporarily:
     enable: true
-    start_date: 2023-08-10T11:55:46.762+02:00
-    end_date: 2023-08-17T11:55:49.000+02:00
+    start_date: 2023-10-02T18:48:39.005+02:00
+    end_date: 2023-11-03T18:48:39.000+01:00
 slider:
   enable: true
   bg_image: media/home/banner.webp
