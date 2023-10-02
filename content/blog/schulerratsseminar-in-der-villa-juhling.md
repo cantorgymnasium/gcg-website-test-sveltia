@@ -4,7 +4,7 @@ date: 2023-10-02T19:01:58.709+02:00
 draft: true
 image: /media/image.webp
 author:
-  - schulleitung
+  - johann-franke
 categories:
   - Schülerrat
 tags:
