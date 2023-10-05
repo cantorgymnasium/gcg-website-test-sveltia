@@ -1,6 +1,6 @@
 ---
 title: Schülerratsseminar in der Villa Jühling
-date: 2023-10-02T19:01:58.709+02:00
+date: 2023-10-05T12:29:49.711+02:00
 draft: true
 image: /media/image.webp
 author:
@@ -20,3 +20,9 @@ Das Schülerratsseminar dient dem Kennenlernen der Klassensprecher als auch dem 
 Neben diesen Arbeitsgruppen beschäftigten sich die Klassensprecher und Klassensprecherinnen mit aktuellen Themen und vertreten die Wünsche und Probleme der Schüler und Schülerinnen ihrer Klasse. Diese Arbeit der Klassensprecher und Klassensprecherinnen wurde am zweiten Seminartag neben weiterem Teambuilding sowohl in den Arbeitsgruppen als auch an weiteren Thematiken geprobt.
 
 Mit der Vorbereitung aus diesem Seminar startet euer Schülerrat in das Schuljahr, um alle Schüler und Schülerinnen des GCG zu vertreten und ein interessantes Angebot an Projekten zu bieten.
+
+
+
+{{< gallery dir="/media/blog/Sj2023_2024/VillaJühling" >}}
+
+
