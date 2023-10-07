@@ -192,20 +192,20 @@ const IndexPagesCollection = {
           label: "Termine",
           label_singular: "Termin",
           widget: "list",
-          required: true,
+          required: false,
           collapsed: true,
           fields: [
             {
               name: "title",
               label: "Bezeichnung",
               widget: "string",
-              required: true,
+              required: false,
             },
             {
               name: "date",
               label: "Datum/Startdatum",
               widget: "datetime",
-              required: true,
+              required: false,
               ...DateFormat,
             },
             {
