@@ -9,6 +9,7 @@ events:
   - date: 2023-08-24T11:00:16.000+02:00
     title: AG-Börse
     enddate: ""
+    location: Aula
   - date: 2023-09-12T10:10:18.000+02:00
     title: Projekt "Red Hand Day - Alltag von Kindersoldaten" - Übergabe der
       Red-Hand-Mappe an Dr. Karamba Diaby
@@ -241,4 +242,5 @@ events:
   - date: 2024-06-24T11:00:16.000+02:00
     enddate: 2024-08-03T11:00:16.000+02:00
     title: Sommerferien
+    location: ""
 ---
