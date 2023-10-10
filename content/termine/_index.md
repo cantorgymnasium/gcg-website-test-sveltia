@@ -128,11 +128,22 @@ events:
     title: Weihnachtskonzert
     location: Ulrichskirche
     enddate: ""
+  - date: 2023-12-19T15:09:55.000+01:00
+    enddate: ""
+    title: Weihnachtsbasar für Eltern und Gäste
+    location: Aula
+  - date: 2023-12-20T15:10:47.000+01:00
+    enddate: ""
+    title: Weihnachtsbasar für Schülerinnen und Schüler
+    location: Aula
+  - date: 2023-12-20T15:11:40.000+01:00
+    enddate: ""
+    title: Weihnachtssingen
   - date: 2023-12-21T11:00:16.000+02:00
     enddate: 2024-01-03T11:00:16.000+02:00
     title: Weihnachtsferien
   - date: 2024-01-11T11:00:16.000+02:00
-    title: Fachbereichskonferenzen der sprachlich-literarisch-künstlerischen Fächer
+    title: Fachbereichskonferenz der sprachlich-literarisch-künstlerischen Fächer
     enddate: ""
   - date: 2024-01-12T11:00:16.000+02:00
     enddate: 2024-01-19T11:00:16.000+02:00
@@ -159,19 +170,21 @@ events:
     title: Modulkurs Chemie Klassenstufe 12
     location: Hochschule Merseburg
   - date: 2024-02-14T11:00:16.000+02:00
-    title: verpflichtende Vergleichsarbeit Naturwissenschaften für Klassenstufe 8
+    title: Verpflichtende Vergleichsarbeit Naturwissenschaften für Klassenstufe 8
     enddate: ""
   - date: 2024-02-15T11:00:16.000+02:00
-    title: Fachbereichskonferenzen der gesellschaftswissenschaftlichen Fächer und
-      Sport
+    title: Fachbereichskonferenz der gesellschaftswissenschaftlichen Fächer und Sport
     enddate: ""
   - date: 2024-02-19T11:00:16.000+02:00
     enddate: 2024-03-22T11:00:16.000+02:00
-    title: verpflichtende Vergleichsarbeit Mathematik für Klassenstufe 8 (online)
+    title: Verpflichtende Vergleichsarbeit Mathematik für Klassenstufe 8 (online)
   - date: 2024-02-23T11:00:16.000+02:00
     enddate: 2024-02-24T11:00:16.000+02:00
     title: Landesrunde der Mathematikolympiade
     location: Magdeburg
+  - date: 2024-03-01T15:12:10.000+01:00
+    enddate: ""
+    title: Tag der Kulturen
   - date: 2024-03-04T11:00:16.000+02:00
     enddate: 2024-03-08T11:00:16.000+02:00
     title: Projektwoche
@@ -243,4 +256,8 @@ events:
     enddate: 2024-08-03T11:00:16.000+02:00
     title: Sommerferien
     location: ""
+  - date: 2023-12-19T15:04:15.000+01:00
+    enddate: ""
+    title: Weihnachtsbasar für Eltern und Gäste
+    location: Aula
 ---
