@@ -256,8 +256,4 @@ events:
     enddate: 2024-08-03T11:00:16.000+02:00
     title: Sommerferien
     location: ""
-  - date: 2023-12-19T15:04:15.000+01:00
-    enddate: ""
-    title: Weihnachtsbasar für Eltern und Gäste
-    location: Aula
 ---
