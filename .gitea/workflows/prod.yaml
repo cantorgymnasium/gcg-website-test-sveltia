@@ -7,6 +7,10 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+defaults:
+  run:
+    working-directory: /opt/data/actions/gcg-website-master
+
 jobs:
   prod-build:
     if: gitea.repository == 'gcg/gcg-website'
@@ -15,17 +19,15 @@ jobs:
     steps:
       - name: pull
         run: |
-          cd /opt/data/actions/gcg-website-master
           git fetch --all
           git reset --hard origin/master
       - name: build
         run: |
-          cd /opt/data/actions/gcg-website-master
           rm -rf public
           hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
       - name: deploy
         run: |
-          cd /opt/data/actions/gcg-website-master/public
+          cd public
           pagefind_extended --site=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website/
       - name: notification
@@ -41,15 +43,13 @@ jobs:
     steps:
       - name: pull
         run: |
-          cd /opt/data/actions/gcg-website-master
           git fetch --all
           git reset --hard origin/master
       - name: build
         run: |
-          cd /opt/data/actions/gcg-website-master
           rm -rf test
           hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture -d test
       - name: deploy
         run: |
-          cd /opt/data/actions/gcg-website-master/test
+          cd test
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-test/
