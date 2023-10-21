@@ -5,10 +5,6 @@ on:
     branches:
       - dev
 
-concurrency:
-  group: ${{ gitea.workflow }}-${{ gitea.ref }}
-  cancel-in-progress: true
-
 jobs:
   dev-build:
     if: gitea.repository == 'gcg/gcg-website'
@@ -36,4 +32,3 @@ jobs:
         with:
           chat_id: ${{ secrets.TG_CHAT_ID }}
           token: ${{ secrets.TG_TOKEN }}
-          include_commit_info: false
