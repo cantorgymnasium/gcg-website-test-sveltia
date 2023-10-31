@@ -13,12 +13,17 @@
     {{ end }}
   </div>
   <div class="mb-4">
-    <h4 class="mb-4">Tags</h4>
+    <h4 class="mb-4"><a href="{{ `tags/` | relURL }}">Tags</a></h4>
     {{ if isset .Site.Taxonomies "tags" }}
     {{ if not (eq (len .Site.Taxonomies.tags) 0) }}
     <div class="tag-list">
       {{ range $name, $items := .Site.Taxonomies.tags }}
-      <a href="{{ `tags/` | relURL }}{{ $name | urlize | lower }}">{{ $name }}</a>
+      {{ $pages := sort $items "Params.date" "desc" }}
+      {{ if or (gt (len $pages) 2) (gt ((index $pages 0).Params.date | time.AsTime).Unix (sub now.Unix 7889229)) }}
+        {{ $size := "1rem" }}
+        {{ if gt (len $pages) 3 }}{{ $size = "1.25rem" }}{{ else if lt (len $pages) 2 }}{{ $size = ".75rem" }}{{ end }}
+        <a href="{{ `tags/` | relURL }}{{ $name | urlize | lower }}" style="font-size: {{ $size }};">{{ $name }}</a>
+      {{ end }}
       {{ end }}
     </div>
     {{ end }}

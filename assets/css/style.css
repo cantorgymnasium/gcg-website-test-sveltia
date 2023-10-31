@@ -429,6 +429,8 @@ details[open] summary {
   padding: 5px 10px;
   background: var(--bs-secondary-bg);
   color: var(--bs-secondary-color);
+  height: fit-content;
+  width: fit-content;
 }
 
 .tag-list a:hover {
