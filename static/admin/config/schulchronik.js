@@ -7,6 +7,7 @@ import {
   StatsCollection,
   SuperhaufenCollection,
 } from "./collections/index.js";
+import { GCGThemeDark, GCGThemeLight } from "./themes.js";
 
 const config = {
   backend: {
@@ -37,6 +38,13 @@ const config = {
     encoding: "ascii",
     clean_accents: true,
     sanitize_replacement: "-",
+  },
+  theme: {
+    include_built_in_themes: false,
+    themes: [
+      GCGThemeDark,
+      GCGThemeLight
+    ]    
   },
   collections: [
     ChronikjahreCollection,
