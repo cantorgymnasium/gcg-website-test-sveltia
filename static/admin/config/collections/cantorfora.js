@@ -19,6 +19,12 @@ const CantorforaCollection = {
     frame: true,
     size: "half",
   },
+  view_groups: [
+    {
+      label: "Entwürfe",
+      field: "draft",
+    },
+  ],
   summary_fields: ["title", "draft", "description"],
   sortable_fields: {
     fields: ["index", "title"],

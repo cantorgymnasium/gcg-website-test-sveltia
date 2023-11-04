@@ -24,16 +24,12 @@ const BlogCollection = {
     field: "type",
     value: "post",
   },
-  view_groups: {
-    default: "draft",
-    groups: [
-      {
-        name: "draft",
-        label: "Entwurf",
-        field: "draft",
-      },
-    ],
-  },
+  view_groups: [
+    {
+      label: "Entwurf",
+      field: "draft",
+    },
+  ],
   sortable_fields: {
     fields: ["date", "title"],
     default: {
