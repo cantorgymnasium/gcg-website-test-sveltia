@@ -1,0 +1,248 @@
+top_banner:
+  enable: false
+  text: |
+    Wir laden zu unserem Tag der offenen Tür am 25. November 2023.
+  color: "#19aa96"
+  font_color: "#ffffff"
+  icon: mdi mdi-door-open
+  temporarily:
+    enable: true
+    start_date: 2023-11-04T23:02:10.839+01:00
+    end_date: 2023-11-25T23:02:12.000+01:00
+slider:
+  enable: true
+  bg_image: media/home/banner.webp
+  title: Das Georg-Cantor-Gymnasium
+  slider_item:
+    - content: Mathematisch-naturwissenschaftliche Spezialschule
+      button:
+        enable: true
+        label: Über uns
+        link: about
+    - content: Schule mit dem Gütesiegel "Begabungsfördernde Schule"
+      button:
+        enable: true
+        link: https://lisa.sachsen-anhalt.de/unterricht/projekte-und-paedagogische-entwicklungsvorhaben/begabungsfoerderung/netzwerk-begabungsfoerdernde-schulen-in-sachsen-anhalt/
+        label: Mehr erfahren
+    - content: Primegymnasium der Martin-Luther-Universität Halle-Wittenberg
+      button:
+        enable: true
+        link: https://www.marketing.uni-halle.de/schulbuero/prime-gymnasien/
+        label: Mehr erfahren
+    - content: Kooperationsschule der Hochschule Merseburg
+      button:
+        link: https://www.hs-merseburg.de/studium/vor-dem-studium/angebote-fuer-studieninteressierte
+        label: Mehr erfahren
+        enable: true
+    - content: Kooperationsschule der Hochschule Anhalt
+      button:
+        link: https://www.hs-anhalt.de/nc/studieren/orientierung/schulcampus/schulkooperationen.html
+        label: Mehr erfahren
+        enable: true
+    - content: Kooperationsschule der Dow Olefinverbund GmbH
+      button:
+        enable: false
+        label: ""
+        link: ""
+    - content: Mitglied im Netzwerk MINT-EC
+      button:
+        enable: true
+        label: Mehr erfahren
+        link: https://mint-ec.de
+    - content: Projektschule LemaS
+      button:
+        enable: true
+        link: https://www.leistung-macht-schule.de/
+        label: Mehr erfahren
+    - content: KMK "Jugend forscht"-Schule 2018
+      button:
+        enable: true
+        link: https://www.kmk.org/aktuelles/artikelansicht/georg-cantor-gymnasium-halle-saale-ist-die-jugend-forscht-schule-2018.html
+        label: Mehr erfahren
+    - content: Mitglied im Netzwerk "Schule ohne Rassismus - Schule mit Courage"
+      button:
+        enable: true
+        link: https://www.schule-ohne-rassismus.org/
+        label: Mehr erfahren
+header_logos:
+  enable: true
+  logos:
+    - title: Gefördert durch den "DigitalPakt Schule"
+      link: https://www.halle.de/de/Verwaltung/Bildung/DigitalPakt-Schule/
+      image: media/logos/digitalpakt.webp
+    - title: Projektschule LemaS
+      link: https://www.leistung-macht-schule.de/
+      image: media/logos/lemas.webp
+    - title: Mitglied im Netzwerk MINT-EC
+      link: https://mint-ec.de
+      image: media/logos/mintec.webp
+    - title: Mitglied im Netzwerk "Schule ohne Rassismus - Schule mit Courage"
+      link: https://www.schule-ohne-rassismus.org/
+      image: media/logos/sor.svg
+about:
+  enable: true
+  title: Herzlich willkommen auf der Homepage des Georg-Cantor-Gymnasiums!
+  image: media/home/pinguin.webp
+  content: >
+    Wir sind eine Schule mit mathematisch-naturwissenschaftlich-technischem
+    Schwerpunkt und möchten interessierte und begabte Schülerinnen und Schüler
+    auf diesem Gebiet fördern. Das schulische Leben unseres Gymnasiums
+    beschränkt sich aber nicht auf den MINT-Bereich.
+
+
+    Informieren Sie sich über unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot. Georg Πinguin, unser Schulmaskottchen, begleitet Sie dabei!
+  button:
+    enable: false
+    label: Digitale Führung durch das Schulhaus
+    link: https://vr.cantorgymnasium.de/tour/
+blog:
+  enable: true
+  title: Aktuelles
+  number: 2
+success_banner:
+  enable: true
+  image: media/home/success_banner.webp
+  feature_item:
+    - type: image
+      name: Mathematik-Olympiade
+      content: >
+        In der Landesrunde der [Mathematikolympiade
+        2023](https://cantorgymnasium.de/blog/mathematik-olympiade-landesrunde-2023/)
+        wurden:
+
+
+        - **3 von 9 ersten Preisen**
+
+        - **7 von 22 zweiten Preisen**
+
+        - **11 von 32 dritten Preisen**
+
+        - **4 von 34 Anerkennungspreisen**
+
+
+        an Schüler unserer Schule verliehen.
+      image: media/home/mo.webp
+    - type: image
+      name: Physikolympiade
+      image: media/home/po.webp
+      content: >
+        In der [Landesphysikolympiade
+        2023](https://cantorgymnasium.de/blog/erfolge-bei-der-landesphysikolympiade-2023/)
+        wurden:
+
+
+        - **2 von 5 ersten Preisen**
+
+        - **3 von 8 zweiten Preisen**
+
+        - **4 von 13 dritten Preisen**
+
+        - **5 von 16 Anerkennungspreisen**
+
+
+        an Schüler unserer Schule verliehen.
+    - type: image
+      name: Chemieolympiade
+      image: media/home/icho.webp
+      content: >
+        Ein Schüler unserer Schule bekam die Bronzemedaille in der
+        Internationalen Chemieolympiade 2020 verliehen. Ein weiterer Schüler
+        unserer Schule wurde für die Nationalmannschaft für die IChO 2021
+        ausgewählt.
+    - type: image
+      content: >
+        Ein Schüler unserer Schule bekam in der Endrunde von "Chemie - die
+        stimmt!" 2021 den ersten Platz in drei Kategorien.
+      name: Chemie - die stimmt!
+      image: media/home/cds.webp
+    - type: icon
+      name: Und viel mehr ...
+      icon: mdi mdi-trophy-outline
+      content: >
+        Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
+        vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
+        Spezialistenlager und begabtenfördernde Ganztagsangebote.
+ganztagsangebote:
+  enable: true
+  title: Unsere Ganztagsangebote
+  number: 6
+cta:
+  enable: true
+  title: Interessiert ?
+  subtitle: Dann geht es hier direkt zur Anmeldung!
+  button:
+    enable: true
+    label: Aufnahmeantrag stellen
+    link: anmeldung
+info:
+  enable: true
+  bg_image: media/home/success-story.webp
+  title: Über die Schule
+  content: >+
+    Das Georg-Cantor-Gymnasium wurde im Jahre 1988 als eine
+    mathematisch-naturwissenschaftliche Schule gegründet. Über die vielen Jahre
+    kamen viele Veränderungen auf die Schule zu. Nach der Verleihung des Namen
+    "Georg-Cantor", Umformung zu einem Gymnasium, dem Umzug in ein neues Gebäude
+    u. v. m. ist die Schule heute ein erfolgreiches, modernes und produktives
+    Gymnasium mit mathematisch-naturwissenschaftlichem Schwerpunkt und dem
+    Gütesiegel "Begabungsfördernde Schule" vom Landesinstitut für Schulqualität
+    und Lehrerbildung.
+
+    {{< card title="Schulchronik" link="/schulchronik/" >}}
+
+
+  video_link: https://www.youtube.com/watch?v=v2ovvOmv-xw
+termine:
+  enable: true
+  title: Anstehende Termine
+  number: 3
+digitalpakt:
+  enable: true
+  title: DigitalPakt Schule
+  image: media/home/digitalpakt.webp
+  content: >
+    Für die Umsetzung des Förderprogramms DigitalPakt Schule
+    (DigitalPakt-Richtlinie) gewährt das Land Sachsen-Anhalt für kommunale
+    Schulen der Stadt Halle (Saale) Zuwendungen aus Bundesmitteln.
+
+
+    Dem Georg-Cantor-Gymnasium werden für die Umsetzung des Aufbaus oder Verbesserung der passiven und aktiven Infrastrukturkomponenten finanzielle Mittel durch die Bundesregierung zur Verfügung gestellt. Es handelt sich hierbei um eine Anteilsfinanzierung. Weitere benötigte finanzielle Mittel stellt die Stadt Halle (Saale) zur Verfügung.
+footer_logos:
+  enable: true
+  logos:
+    - title: Projektschule LemaS
+      link: https://www.leistung-macht-schule.de
+      image: media/logos/lemas.webp
+    - title: Mitglied im Netzwerk MINT-EC
+      link: https://mint-ec.de
+      image: media/logos/mintec.webp
+    - title: Teilnehmer am Projekt "Erasmus+"
+      link: https://www.erasmusplus.de/
+      image: media/logos/erasmusplus.webp
+    - title: Mitglied im Netzwerk "Hallianz für Vielfalt"
+      link: https://www.hallianz-fuer-vielfalt.de/
+      image: media/logos/hallianz.webp
+    - title: Kooperationsschule der Hochschule Merseburg
+      link: https://www.hs-merseburg.de/studium/vor-dem-studium/angebote-fuer-studieninteressierte
+      image: media/logos/home.webp
+    - title: Kooperationsschule der Hochschule Anhalt
+      link: https://www.hs-anhalt.de/nc/studieren/orientierung/schulcampus/schulkooperationen.html
+      image: media/logos/hsa.svg
+    - title: Mitglied im Netzwerk "Schule ohne Rassismus - Schule mit Courage"
+      link: https://www.schule-ohne-rassismus.org/
+      image: media/logos/sor.svg
+    - title: Partnerschule des Deutschen Nationalitätengymnasiums Budapest
+      link: http://www.dng-bp.hu/
+      image: media/logos/dng.webp
+    - title: Gütesiegel "Begabungsfördernde Schule"
+      link: https://lisa.sachsen-anhalt.de/unterricht/projekte-und-paedagogische-entwicklungsvorhaben/begabungsfoerderung/netzwerk-begabungsfoerdernde-schulen-in-sachsen-anhalt/
+      image: media/logos/bfs.webp
+    - title: Primegymnasium der Martin-Luther-Universit Halle-Wittenberg
+      link: https://www.marketing.uni-halle.de/schulbuero/prime-gymnasien/
+      image: media/logos/prime.webp
+    - title: Gefördert durch die Deutsche Telekom Stiftung
+      link: https://www.telekom-stiftung.de/aktivitaeten/junior-ingenieur-akademie
+      image: media/logos/telekom.svg
+    - title: Gefördert im Rahmen des Bundesprogramms Demokratie leben!
+      link: https://www.demokratie-leben.de/
+      image: /media/logos/demokratie_leben.webp
