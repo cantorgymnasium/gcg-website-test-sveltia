@@ -2,9 +2,11 @@ top_banner:
   enable: true
   text: >
     **Wir laden zum Tag der offenen Tür am 25. November 2023 von 9 bis 12 Uhr in
-    unser Schulgebäude.** <br> _Infos zum Weihnachtskonzert finden sich für die
-    Schulgemeinschaft und unsere Alumnis_
-    [_hier_](https://cantorgymnasium.de/blog/einladung-weihnachtskonzert-2023/)_._
+    unser Schulgebäude.** <br> Auch laden wir unsere Schülerinnen und Schüler
+    sowie ihre Familien zum **Vorleseabend** am 30.11.2023 ab 16:45 Uhr. <br>
+    _Infos zum Weihnachtskonzert finden sich für die Schulgemeinschaft und
+    unsere Alumnis_
+    [***hier***](https://cantorgymnasium.de/blog/einladung-weihnachtskonzert-2023/)_._
   color: "#19aa96"
   font_color: "#ffffff"
   icon: mdi mdi-door-open
