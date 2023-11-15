@@ -17,13 +17,17 @@
     {{ if isset .Site.Taxonomies "tags" }}
     {{ if not (eq (len .Site.Taxonomies.tags) 0) }}
     <div class="tag-list">
+      {{ $tags := dict }}
       {{ range $name, $items := .Site.Taxonomies.tags }}
-      {{ $pages := sort $items "Params.date" "desc" }}
-      {{ if or (gt (len $pages) 2) (gt ((index $pages 0).Params.date | time.AsTime).Unix (sub now.Unix 7889229)) }}
-        {{ $size := "1rem" }}
-        {{ if gt (len $pages) 3 }}{{ $size = "1.25rem" }}{{ else if lt (len $pages) 2 }}{{ $size = ".75rem" }}{{ end }}
-        <a href="{{ `tags/` | relURL }}{{ $name | urlize | lower }}" style="font-size: {{ $size }};">{{ $name }}</a>
+        {{ $tags = merge $tags (dict (print $name) (dict "name" $name "items" $items "len" (len $items))) }}
       {{ end }}
+      {{ range (sort $tags "len" "desc") }}
+        {{ $pages := sort .items "Params.date" "desc" }}
+        {{ if or (gt (len $pages) 2) (gt ((index $pages 0).Params.date | time.AsTime).Unix (sub now.Unix 7889229)) }}
+          {{ $size := "1rem" }}
+          {{ if gt (len $pages) 3 }}{{ $size = "1.25rem" }}{{ else if lt (len $pages) 2 }}{{ $size = ".75rem" }}{{ end }}
+          <a href="{{ `tags/` | relURL }}{{ .name | urlize | lower }}" style="font-size: {{ $size }};">{{ .name }}</a>
+        {{ end }}
       {{ end }}
     </div>
     {{ end }}
