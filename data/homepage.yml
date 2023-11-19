@@ -13,7 +13,7 @@ top_banner:
   temporarily:
     enable: true
     start_date: 2023-11-05T14:47:53.000+01:00
-    end_date: 2023-11-25T18:48:39.000+01:00
+    end_date: 2023-12-01T18:48:39.000+01:00
 slider:
   enable: true
   bg_image: media/home/banner.webp
