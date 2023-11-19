@@ -4,6 +4,7 @@ date: 2023-11-19T20:29:57.827+01:00
 draft: false
 image: /media/image.webp
 author:
+  - frau-opel-fritzlar
   - herr-berger
 categories:
   - Traditionen
