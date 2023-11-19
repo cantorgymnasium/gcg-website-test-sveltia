@@ -1,6 +1,6 @@
 ---
 title: Einladung zum Vorleseabend 2023
-date: 2023-11-14T19:12:07.369+01:00
+date: 2023-11-19T20:29:57.827+01:00
 draft: false
 image: /media/image.webp
 author:
