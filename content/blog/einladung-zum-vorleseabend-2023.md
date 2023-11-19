@@ -11,6 +11,6 @@ subjects:
   - Deutsch
 type: post
 ---
-Wir laden unsere Schülerinnen und Schüler sowie ihren Familien zum Vorleseabend am 30.11.2023 ab 17 Uhr (Einlass ab 16:45 Uhr) ein. 
+Am **30. November** findet der zweite Vorleseabend am Georg-Cantor-Gymnasium statt. Es lesen die Leistungskurse Deutsch, und auch Lehrer, für die 5. und 6. Klassen sowie für ältere Schüler ab Klasse 7 und für Eltern, Großeltern sowie Lehrer vor. Von Harry Potter über Percy Jackson bis zu den Känguru-Apokryphen und Solaris ist für jeden etwas dabei.
 
-Lernende der Oberstufe lesen aus verschiedenen Romanen. Dabei ist die Atmosphäre jedes Raumes auf die gelesenen Geschichten abgestimmt. Nach ca. 30 Minuten besteht für die Zuhörenden die Mlglichkeit den Raum zu wechseln.
+Die Schule ist ab 16.30 Uhr geöffnet. **17.00 Uhr beginnen die Lesungen**. Immer nach einer halben Stunde kann man zur nächsten Lesung wechseln. Ein Buffet und ein Café laden zu Speis und Trank sowie zu unterhaltsamen Gesprächen ein. Um 19.00 Uhr endet unser Leseabend. 
