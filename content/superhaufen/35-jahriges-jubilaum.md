@@ -12,4 +12,9 @@ tiles:
     icon: mdi mdi-file-document-outline
     font_color: "#ffffff"
     content: "\ \n"
+  - title: Festveranstaltung
+    bg_color: "#2a1dc8"
+    icon: mdi mdi-crowd
+    font_color: "#fff9f9"
+    content: "\ \n"
 ---
