@@ -14,7 +14,7 @@ tiles:
     content: "\ \n"
   - title: Festveranstaltung
     bg_color: "#2a1dc8"
-    icon: mdi mdi-crowd
+    icon: mdi mdi-party-popper
     font_color: "#fff9f9"
     content: "\ \n"
   - title: Flashmob
