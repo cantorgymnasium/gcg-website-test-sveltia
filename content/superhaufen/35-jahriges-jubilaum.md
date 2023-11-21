@@ -7,7 +7,7 @@ previous:
   title: "2023"
   link: /schulchronik/2023/
 tiles:
-  - title: Programm
+  - title: Aktionen
     bg_color: "#f85d1f"
     icon: mdi mdi-file-document-outline
     font_color: "#ffffff"
