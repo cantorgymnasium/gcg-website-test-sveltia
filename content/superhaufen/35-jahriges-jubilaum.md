@@ -17,4 +17,9 @@ tiles:
     icon: mdi mdi-crowd
     font_color: "#fff9f9"
     content: "\ \n"
+  - title: Flashmob
+    bg_color: "#49e649"
+    icon: mdi mdi-crowd
+    font_color: "#fff5f5"
+    content: "\ \n"
 ---
