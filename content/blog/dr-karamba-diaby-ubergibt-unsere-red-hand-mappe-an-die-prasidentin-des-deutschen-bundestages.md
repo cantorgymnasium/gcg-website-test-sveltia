@@ -18,6 +18,7 @@ type: post
 
 Er schreibt dazu auf [Instagram](https://www.instagram.com/p/CzYNnQctzc5/?utm_source=ig_web_button_share_sheet):
 
-_Buchübergabe an Bundestagspräsidentin Bärbel Bas!
-Die Schüler:innen des Georg-Cantor-Gymnasiums aus meinem Wahlkreis Halle zeigen besonderen Einsatz: Anlässlich des Red Hand Days und eines tollen Schulprojekts ist ein umfangreiches Buch entstanden. Damit soll auf das Schicksal von Kindersoldat:innen und Kindern in den bewaffneten Konflikten weltweit aufmerksam gemacht werden.
-Ich war von der Arbeit so beeindruckt, dass ich es gleich unserer Bundestagspräsidentin vorgestellt habe. Wir sind uns einig: So viel Engagement junger Menschen ist ein tolles Zeichen für Kinderrechte und gegen die Ungerechtigkeiten in unserer Welt!_ 
+> **Buchübergabe an Bundestagspräsidentin Bärbel Bas!**
+> 
+> Die Schüler:innen des Georg-Cantor-Gymnasiums aus meinem Wahlkreis Halle zeigen besonderen Einsatz: Anlässlich des Red Hand Days und eines tollen Schulprojekts ist ein umfangreiches Buch entstanden. Damit soll auf das Schicksal von Kindersoldat:innen und Kindern in den bewaffneten Konflikten weltweit aufmerksam gemacht werden.
+> Ich war von der Arbeit so beeindruckt, dass ich es gleich unserer Bundestagspräsidentin vorgestellt habe. Wir sind uns einig: So viel Engagement junger Menschen ist ein tolles Zeichen für Kinderrechte und gegen die Ungerechtigkeiten in unserer Welt!

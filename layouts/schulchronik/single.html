@@ -11,7 +11,7 @@
             <a href="{{ .Permalink }}"><img src="{{ .Params.Image | relURL }}" class="rounded-circle m-3 object-cover" height="128px" width="128px"></a>
           </div>
           <div class="flex-grow card-body min-w-0">
-            <a href="/cantorpreis"><h3 class="card-title">Cantorpreisträger:in</h3></a>
+            <a href="/cantorpreis"><h3 class="card-title">Cantorpreisträger</h3></a>
             <a href="{{ .Permalink }}"><p class="h4 card-text">{{ .Params.name }}</p></a>
           </div>
       </div>
@@ -22,7 +22,7 @@
             <a href="{{ .Permalink }}"><h3 class="card-title">{{ .Title }}</h3></a>
             {{ $abiturdurchschnitte := getJSON "static/data/abiturdurchschnitte.json" }}
             {{ range $abiturdurchschnitte.abiturdurchschnitte  }}
-              {{ if eq (string (index . "jahr")) "2008" }}<a href="/chronikseiten/abiturdurchschnitte"><p class="h4 card-text">Abiturdurchschnitt: {{ .schnitt }}</p></a>{{ end }}
+              {{ if eq (string (index . "jahr")) $.Title }}<a href="/chronikseiten/abiturdurchschnitte"><p class="h4 card-text">Abiturdurchschnitt: {{ .schnitt }}</p></a>{{ end }}
             {{ end }}
           </div>
           <div class="">
