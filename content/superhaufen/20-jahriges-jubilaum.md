@@ -7,7 +7,7 @@ previous:
   title: "2008"
   link: /schulchronik/2008
 tiles:
-  - content: >
+  - content: >+
       ## Das GCG wird 20
 
 
@@ -18,7 +18,14 @@ tiles:
 
 
       Kerstin Schmidt (17. Juli 2012)
-    title: Bericht
+
+
+
+
+      {{< image src="/media/schulchronik/2008/jubil20/programm.webp" >}}
+
+
+    title: Programm
     icon: mdi mdi-text
     bg_color: "#44bda7"
     font_color: "#ffffff"
