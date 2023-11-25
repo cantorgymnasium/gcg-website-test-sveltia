@@ -1,19 +1,19 @@
 top_banner:
   enable: true
   text: >
-    **Wir laden zum Tag der offenen Tür am 25. November 2023 von 9 bis 12 Uhr in
-    unser Schulgebäude.** <br> Auch laden wir unsere Schülerinnen und Schüler
-    sowie ihre Familien zum **Vorleseabend** am 30.11.2023 ab 16:45 Uhr. <br>
-    _Infos zum Weihnachtskonzert finden sich für die Schulgemeinschaft und
-    unsere Alumnis_
-    [***hier***](https://cantorgymnasium.de/blog/einladung-weihnachtskonzert-2023/)_._
+    Die Deutsch-LKs laden unsere Schülerinnen und Schüler sowie ihre Familien
+    zum **Vorleseabend** am 30.11.2023 ab 16:45 Uhr. <br> _Infos zum_
+    ***Weihnachtskonzert*** _finden sich für die Schulgemeinschaft und unsere
+    Alumnis_
+    [***hier***](https://cantorgymnasium.de/blog/einladung-weihnachtskonzert-2023/)_.
+    <br>_ Am 19.12.2023 findet unser **Weihnachtsbasar** 16-19 Uhr statt.
   color: "#19aa96"
   font_color: "#ffffff"
-  icon: mdi mdi-door-open
+  icon: mdi mdi-book-open-page-variant
   temporarily:
     enable: true
     start_date: 2023-11-05T14:47:53.000+01:00
-    end_date: 2023-12-01T18:48:39.000+01:00
+    end_date: 2023-12-19T22:25:30.000+01:00
 slider:
   enable: true
   bg_image: media/home/banner.webp
