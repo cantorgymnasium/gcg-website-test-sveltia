@@ -1,15 +1,13 @@
 top_banner:
   enable: true
   text: >
-    Die Deutsch-LKs laden unsere Schülerinnen und Schüler sowie ihre Familien
-    zum **Vorleseabend** am 30.11.2023 ab 16:45 Uhr. <br> _Infos zum_
-    ***Weihnachtskonzert*** _finden sich für die Schulgemeinschaft und unsere
-    Alumnis_
-    [***hier***](https://cantorgymnasium.de/blog/einladung-weihnachtskonzert-2023/)_.
-    <br>_ Am 19.12.2023 findet unser **Weihnachtsbasar** 16-19 Uhr statt.
+    _Infos zum_ ***Weihnachtskonzert*** _finden sich für die Schulgemeinschaft
+    und unsere Alumnis_
+    [***hier***](https://cantorgymnasium.de/blog/einladung-weihnachtskonzert-2023/)_._  Am
+    19.12.2023 findet unser **Weihnachtsbasar** 16-19 Uhr statt.
   color: "#19aa96"
   font_color: "#ffffff"
-  icon: mdi mdi-book-open-page-variant
+  icon: mdi mdi-music
   temporarily:
     enable: true
     start_date: 2023-11-05T14:47:53.000+01:00
