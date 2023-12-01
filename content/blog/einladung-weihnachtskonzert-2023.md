@@ -11,6 +11,8 @@ subjects:
   - Musik
 type: post
 ---
+#### Es gibt nur noch wenige Resttickets! (Stand: 30.11.2023)
+
 Liebe Schulgemeinschaft, liebe Alumnis,
 
 am 15. Dezember 2023 findet unser traditionelles Weihnachtskonzert in der Konzerthalle Ulrichskirche ab 17 Uhr statt. Eine Karte wird 5 Euro kosten.
