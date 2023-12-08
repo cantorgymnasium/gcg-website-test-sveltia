@@ -1,10 +1,8 @@
 top_banner:
   enable: true
   text: >
-    Am 19.12.2023 findet unser **Weihnachtsbasar** 16-19 Uhr statt. (_Infos zum_
-    ***Weihnachtskonzert*** _finden sich für die Schulgemeinschaft und unsere
-    Alumni_
-    [***hier***](https://cantorgymnasium.de/blog/einladung-weihnachtskonzert-2023/)_.)_ 
+    Am 19.12.2023 findet unser **Weihnachtsbasar** 16-19 Uhr statt. <br>
+    ***Weihnachtskonzert*** _am 15.12.2023._
   color: "#19aa96"
   font_color: "#ffffff"
   icon: mdi mdi-gift-open
