@@ -32,7 +32,7 @@ Im Rahmen der ["Red Hand Day"-Aktion](https://www.redhandday.org/de/), welche au
 
 Unserem Wunsch, diese Botschaft im Form von Handabdrücken an die Politik zu übergeben, konnte der Bundestagsabgeordnete für Halle, Herr Dr. Karamba Diaby, entsprechen. Am Dienstag, dem 12.09.2023, bekamen wir die Gelegenheit, eine Podiumsdiskussion mit ihm zu veranstalten. In diesem Rahmen übergaben wir ihm auch eine Mappe mit unseren Handabdrücken.
 
-<video class="mb-0" src="https://cloud.cantorgymnasium.de/f/ede1a9767a204b61a87c/?dl=1" controls width="100%"></video>
+<video class="mb-0" src="https://cloud.cantorgymnasium.de/s/9RqxDLfppQt5YBL/download/RedHandErweitert_Final.mp4" controls width="100%"></video>
 
 {{< card title="Artikel: Red Hand Day - Talk mit Dr. Karamba Diaby" link="/blog/red-hand-day-talk-mit-dr-karamba-diaby/" >}}
 
@@ -236,7 +236,7 @@ Auf das letzte Klavierstück der Veranstaltung - "Nightbook" von Ludovico Einaud
 
 Zum letzten Mal für diesen abwechslungsreichen Nachmittag stand nun wieder die Wissenschaft im Vordergrund: mittels einer Live-Übertragung durften unsere Gäste den Start eines Wetterballons, organisiert und umgesetzt durch den Modulkurs Physik der Klasse 11, mitverfolgen.
 
-<video src="https://cloud.cantorgymnasium.de/f/b8aeac28fd63421da6ff/?dl=1" width="100%" controls></video>
+<video src="https://cloud.cantorgymnasium.de/s/8HHKXf5Fewb5im7/download/Wetterballon%20ffmpeg.mp4" width="100%" controls></video>
 
 Zum Zeitpunkt der Veröffentlichung dieses Artikels ist der Wetterballon bereits gelandet und die aufgenommenen Daten befinden sich in der Auswertung. Regelmäßige Website-Besucher können sich also schon jetzt auf einen eigenen Beitrag zum Ballonstart freuen.
 
@@ -324,7 +324,7 @@ Einige Versuche später entstand um 12.46 Uhr die Endversion des Bildes als krö
 
 {{< gallery dir="/media/blog/Sj2023_2024/35-jahre-gcg/flashmob" >}}
 
-<video src="https://cloud.cantorgymnasium.de/f/5687bafb49f649c48e7d/?dl=1" width="100%" controls></video>
+<video src="https://cloud.cantorgymnasium.de/s/kP6KYoBsjBGEwLs/download/35%20Jahre%20Georg%20Cantor%20Gymnasium.mp4" width="100%" controls></video>
 
 ## Danksagung
 
