@@ -48,7 +48,6 @@ const PagesCollection = {
     {
       name: "body",
       label: "Inhalt",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },

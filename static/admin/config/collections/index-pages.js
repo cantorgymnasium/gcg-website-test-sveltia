@@ -3,6 +3,7 @@ import {
   DateFormat,
   MarkdownProps,
   PatternEmail,
+  ImageProps
 } from "../props.js";
 import { DescriptionText, EnableBoolean, Title } from "./widgets.js";
 
@@ -36,8 +37,7 @@ const IndexPagesCollection = {
         {
           name: "image",
           label: "Bild",
-          widget: "image",
-          required: false,
+          ...ImageProps,
         },
         {
           name: "stats",
@@ -75,7 +75,6 @@ const IndexPagesCollection = {
         {
           name: "body",
           label: "Inhalt",
-          widget: "markdown",
           required: false,
           ...MarkdownProps,
         },
@@ -91,7 +90,6 @@ const IndexPagesCollection = {
         {
           name: "body",
           label: "Inhalt",
-          widget: "markdown",
           required: false,
           ...MarkdownProps,
         },
@@ -107,7 +105,6 @@ const IndexPagesCollection = {
             {
               name: "content",
               label: "Inhalt",
-              widget: "markdown",
               required: true,
               ...MarkdownProps,
             },
@@ -131,7 +128,6 @@ const IndexPagesCollection = {
         {
           name: "body",
           label: "Inhalt",
-          widget: "markdown",
           required: false,
           ...MarkdownProps,
         },
@@ -273,7 +269,6 @@ const IndexPagesCollection = {
         {
           name: "body",
           label: "Inhalt",
-          widget: "markdown",
           required: false,
           ...MarkdownProps,
         },
@@ -289,7 +284,6 @@ const IndexPagesCollection = {
         {
           name: "body",
           label: "Inhalt",
-          widget: "markdown",
           required: false,
           ...MarkdownProps,
         },
@@ -302,8 +296,7 @@ const IndexPagesCollection = {
             {
               name: "image",
               label: "Bild",
-              widget: "image",
-              required: false,
+              ...ImageProps,
             },
             {
               name: "quote",

@@ -32,7 +32,6 @@ const ProjektwocheCollection = {
     {
       name: "body",
       label: "Inhalt",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },
@@ -61,7 +60,6 @@ const ProjektwocheCollection = {
         {
           name: "content",
           label: "Inhalt",
-          widget: "markdown",
           required: true,
           ...MarkdownProps,
         },

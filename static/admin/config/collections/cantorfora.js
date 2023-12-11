@@ -1,4 +1,4 @@
-import { MarkdownProps } from "../props.js";
+import { MarkdownProps, ImageProps } from "../props.js";
 import { DescriptionText, DraftBoolean, Title } from "./widgets.js";
 
 const CantorforaCollection = {
@@ -19,12 +19,6 @@ const CantorforaCollection = {
     frame: true,
     size: "half",
   },
-  view_groups: [
-    {
-      label: "Entwürfe",
-      field: "draft",
-    },
-  ],
   summary_fields: ["title", "draft", "description"],
   sortable_fields: {
     fields: ["index", "title"],
@@ -50,8 +44,8 @@ const CantorforaCollection = {
     {
       name: "image",
       label: "Titelbild",
-      widget: "image",
       default: "/media/image.webp",
+      ...ImageProps,
       required: true,
     },
     {
@@ -63,7 +57,6 @@ const CantorforaCollection = {
     {
       name: "body",
       label: "Text",
-      widget: "markdown",
       required: true,
       ...MarkdownProps,
     },

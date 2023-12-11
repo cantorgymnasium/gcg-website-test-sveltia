@@ -1,4 +1,4 @@
-import { DateFormat, MarkdownProps } from "../props.js";
+import { DateFormat, MarkdownProps, ImageProps } from "../props.js";
 import {
   AuthorRelation,
   DescriptionText,
@@ -24,12 +24,16 @@ const BlogCollection = {
     field: "type",
     value: "post",
   },
-  view_groups: [
-    {
-      label: "Entwurf",
-      field: "draft",
-    },
-  ],
+  view_groups: {
+    default: "draft",
+    groups: [
+      {
+        name: "draft",
+        label: "Entwurf",
+        field: "draft",
+      },
+    ],
+  },
   sortable_fields: {
     fields: ["date", "title"],
     default: {
@@ -53,9 +57,9 @@ const BlogCollection = {
       name: "image",
       label: "Titelbild",
       hint: "16:9 Seitenverhältnis beachten",
-      widget: "image",
-      required: true,
       default: "/media/image.webp",
+      ...ImageProps,
+      required: true,
     },
     AuthorRelation,
     {
@@ -102,7 +106,6 @@ const BlogCollection = {
     {
       name: "body",
       label: "Inhalt",
-      widget: "markdown",
       required: true,
       ...MarkdownProps,
     },
