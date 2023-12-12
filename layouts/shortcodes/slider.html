@@ -1,39 +1,25 @@
+{{ $dir := (.Get "dir") }}
+{{ if $dir }}
 <div class="card border-primary rounded-3">
-  <div class="carousel carousel-dark slide mb-0" data-bs-ride="true" id='slider-{{ md5 (.Get "dir") }}'>
-    {{ $dir := (.Get "dir") }}
-    {{ with $dir }}
-      {{ $files := readDir (print "/static/" .) }}
-      <div class="carousel-indicators mb-0">
-      {{ range $index, $file := $files }}
-        {{ $isimg := lower $file.Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)" }}
-        {{ if $isimg }}
-          {{ $linkURL := print $.Site.BaseURL "/" ($.Get "dir") "/" $file.Name | absURL }}
-          {{ if eq $index 0 }}
-          <button type="button mb-5" data-bs-target="#slider-{{ md5 $dir }}" data-bs-slide-to="{{ $index }}" class="active"></button>
-          {{ else }}
-          <button type="button mb-5" data-bs-target="#slider-{{ md5 $dir }}" data-bs-slide-to="{{ $index }}"></button>
-          {{ end }}
-        {{ end }}
+  <div class="carousel carousel-dark slide mb-0" data-bs-ride="true" id='slider-{{ md5 $dir }}'>
+    {{ $images := slice }}
+    {{ range readDir (print "/static/" $dir) }}
+      {{ if (lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
+        {{ $images = $images | append . }}
       {{ end }}
-      </div>
-      <div class="carousel-inner mb-0">
-        {{ range $index, $file := $files }}
-        {{ $isimg := lower $file.Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)" }}
-        {{ if $isimg }}
-          {{ $linkURL := print $.Site.BaseURL "/" ($.Get "dir") "/" $file.Name | absURL }}
-          {{ if eq $index 0 }}
-          <div class="carousel-item mb-0 active">
-            <img src="{{ $linkURL }}" class="d-block w-100 mb-0 rounded-3">
-          </div>
-          {{ else }}
-          <div class="carousel-item mb-0">
-            <img src="{{ $linkURL }}" class="d-block w-100 mb-0 rounded-3">
-          </div>
-          {{ end }}
-        {{ end }}
-      {{ end }}
-      </div>
     {{ end }}
+    <div class="carousel-indicators mb-0">
+    {{ range $index, $image := $images }}
+      <button type="button mb-5" data-bs-target="#slider-{{ md5 $dir }}" data-bs-slide-to="{{ $index }}" {{ if eq $index 0 }}class="active"{{ end }}></button>
+    {{ end }}
+    </div>
+    <div class="carousel-inner mb-0">
+      {{ range $index, $image := $images }}
+        <div class="carousel-item mb-0 {{ if eq $index 0 }}active{{end}}">
+          <img src='{{ print $.Site.BaseURL $dir "/" $image.Name | absURL }}' class="d-block w-100 mb-0 rounded-3">
+        </div>
+    {{ end }}
+    </div>
     <button class="carousel-control-prev mb-0" type="button" data-bs-target="#slider-{{ md5 $dir }}" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Zurück</span>
@@ -44,3 +30,4 @@
     </button>
   </div>
 </div>
+{{ end }}
