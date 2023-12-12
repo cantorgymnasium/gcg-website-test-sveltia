@@ -3,7 +3,6 @@ import {
   DateFormat,
   MarkdownProps,
   PatternEmail,
-  ImageProps
 } from "../props.js";
 import {
   ButtonObject,
@@ -41,6 +40,7 @@ const SettingsCollection = {
             {
               name: "text",
               label: "Text",
+              widget: "markdown",
               required: false,
               ...MarkdownProps,
             },
@@ -90,7 +90,7 @@ const SettingsCollection = {
             {
               name: "bg_image",
               label: "Hintergrundbild",
-              ...ImageProps,
+              widget: "image",
               required: true,
             },
             Title(false),
@@ -136,7 +136,7 @@ const SettingsCollection = {
                 {
                   name: "image",
                   label: "Grafik",
-                  ...ImageProps,
+                  widget: "image",
                   required: true,
                 },
               ],
@@ -153,6 +153,7 @@ const SettingsCollection = {
             {
               name: "content",
               label: "Inhalt",
+              widget: "markdown",
               required: false,
               ...MarkdownProps,
             },
@@ -174,7 +175,7 @@ const SettingsCollection = {
             {
               name: "image",
               label: "Hintergrundbild",
-              ...ImageProps,
+              widget: "image",
               required: true,
             },
             {
@@ -199,11 +200,13 @@ const SettingsCollection = {
                     {
                       name: "image",
                       label: "Grafik",
-                      ...ImageProps,
+                      widget: "image",
+                      required: false,
                     },
                     {
                       name: "content",
                       label: "Inhalt",
+                      widget: "markdown",
                       required: false,
                       ...MarkdownProps,
                     },
@@ -225,6 +228,7 @@ const SettingsCollection = {
                     {
                       name: "content",
                       label: "Inhalt",
+                      widget: "markdown",
                       required: false,
                       ...MarkdownProps,
                     },
@@ -265,13 +269,14 @@ const SettingsCollection = {
             {
               name: "bg_image",
               label: "Hintergrundbild",
-              ...ImageProps,
+              widget: "image",
               required: true,
             },
             Title(false),
             {
               name: "content",
               label: "Inhalt",
+              widget: "markdown",
               required: false,
               ...MarkdownProps,
             },
@@ -299,11 +304,13 @@ const SettingsCollection = {
             {
               name: "image",
               label: "Bild",
-              ...ImageProps,
+              widget: "image",
+              required: false,
             },
             {
               name: "content",
               label: "Inhalt",
+              widget: "markdown",
               required: false,
               ...MarkdownProps,
             },
@@ -333,7 +340,7 @@ const SettingsCollection = {
                 {
                   name: "image",
                   label: "Grafik",
-                  ...ImageProps,
+                  widget: "image",
                   required: true,
                 },
               ],
@@ -353,12 +360,13 @@ const SettingsCollection = {
         {
           name: "image",
           label: "Titelbild",
-          ...ImageProps,
+          widget: "image",
           required: true,
         },
         {
           name: "content",
           label: "Inhalt",
+          widget: "markdown",
           required: false,
           ...MarkdownProps,
         },
@@ -504,7 +512,7 @@ const SettingsCollection = {
             {
               name: "logo",
               label: "Logo",
-              ...ImageProps,
+              widget: "image",
               required: true,
             },
             {
@@ -571,13 +579,13 @@ const SettingsCollection = {
                 {
                   name: "preloader",
                   label: "Logo",
-                  ...ImageProps,
+                  widget: "image",
                   required: true,
                 },
                 {
                   name: "loader",
                   label: "Ladeanimation",
-                  ...ImageProps,
+                  widget: "image",
                   required: true,
                 },
               ],
@@ -622,6 +630,7 @@ const SettingsCollection = {
               name: "copyright",
               label: "Copyright-Eintrag",
               hint: "Am Seitenende sichtbar",
+              widget: "markdown",
               required: true,
               ...MarkdownProps,
             },

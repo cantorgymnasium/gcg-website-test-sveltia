@@ -1,4 +1,4 @@
-import { MarkdownProps, PatternEmail, ImageProps } from "../props.js";
+import { MarkdownProps, PatternEmail } from "../props.js";
 import { DescriptionText } from "./widgets.js";
 
 const AuthorCollection = {
@@ -19,49 +19,38 @@ const AuthorCollection = {
     field: "type",
     value: "author",
   },
-  view_filters: {
-    filters: [
-      {
-        name: "active",
-        label: "aktiv",
-        field: "active",
-        pattern: true,
-      },
-      {
-        name: "inactive",
-        label: "inaktiv",
-        field: "active",
-        pattern: false,
-      },
-      {
-        name: "simplified",
-        label: "einfach",
-        field: "simplified",
-        pattern: true,
-      },
-      {
-        name: "extended",
-        label: "erweitert",
-        field: "simplified",
-        pattern: false,
-      },
-    ],
-  },
-  view_groups: {
-    default: "active",
-    groups: [
-      {
-        name: "simplified",
-        label: "vereinfacht",
-        field: "simplified",
-      },
-      {
-        name: "active",
-        label: "aktiv",
-        field: "active",
-      },
-    ],
-  },
+  view_filters: [
+    {
+      label: "aktiv",
+      field: "active",
+      pattern: true,
+    },
+    {
+      label: "inaktiv",
+      field: "active",
+      pattern: false,
+    },
+    {
+      label: "einfach",
+      field: "simplified",
+      pattern: true,
+    },
+    {
+      label: "erweitert",
+      field: "simplified",
+      pattern: false,
+    },
+  ],
+  view_groups: [
+    {
+      label: "vereinfacht",
+      field: "simplified",
+    },
+    {
+      label: "aktiv",
+      field: "active",
+    },
+  ],
   summary_fields: ["title", "active", "simplified", "body"],
   fields: [
     {
@@ -81,8 +70,9 @@ const AuthorCollection = {
     {
       name: "image",
       label: "Bild",
+      widget: "image",
+      required: false,
       default: "/media/people/gcg.webp",
-      ...ImageProps,
     },
     {
       name: "simplified",
@@ -106,6 +96,7 @@ const AuthorCollection = {
     {
       name: "body",
       label: "Beschreibung",
+      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },

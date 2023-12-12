@@ -1,5 +1,4 @@
 const MarkdownProps = {
-  widget: "markdown",
   toolbar_buttons: {
     main: [
       "bold",
@@ -75,12 +74,4 @@ const PatternEmail = {
   ],
 };
 
-const ImageProps = {
-  widget: "image",
-  required: false,
-  media_library: {
-    folder_support: true,
-  }
-};
-
-export { MarkdownProps, DateFormat, DataObject, PatternEmail, ImageProps };
+export { MarkdownProps, DateFormat, DataObject, PatternEmail };

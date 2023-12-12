@@ -1,4 +1,4 @@
-import { MarkdownProps, ImageProps } from "../props.js";
+import { MarkdownProps } from "../props.js";
 import { Title, DescriptionText, DraftBoolean } from "./widgets.js";
 
 const GanztagCollection = {
@@ -27,8 +27,8 @@ const GanztagCollection = {
     {
       name: "image",
       label: "Titelbild",
+      widget: "image",
       default: "/media/ganztagsangebote/image.webp",
-      ...ImageProps,
       required: true,
     },
     {
@@ -82,6 +82,7 @@ const GanztagCollection = {
     {
       name: "body",
       label: "Inhalt",
+      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },

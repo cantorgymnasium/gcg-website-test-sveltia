@@ -1,4 +1,4 @@
-import { MarkdownProps, ImageProps } from "../props.js";
+import { MarkdownProps } from "../props.js";
 import { DescriptionText, DraftBoolean, Title } from "./widgets.js";
 
 const WettbewerbeCollection = {
@@ -26,7 +26,7 @@ const WettbewerbeCollection = {
     {
       name: "image",
       label: "Titelbild",
-      ...ImageProps,
+      widget: "image",
       required: true,
       default: "/media/image.webp",
     },
@@ -63,6 +63,7 @@ const WettbewerbeCollection = {
     {
       name: "body",
       label: "Inhalt",
+      widget: "markdown",
       required: true,
       ...MarkdownProps,
     },

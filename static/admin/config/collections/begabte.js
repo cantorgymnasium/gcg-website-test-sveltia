@@ -1,4 +1,4 @@
-import { MarkdownProps, ImageProps } from "../props.js";
+import { MarkdownProps } from "../props.js";
 import { DescriptionText, DraftBoolean, Title } from "./widgets.js";
 
 const BegabteCollection = {
@@ -27,9 +27,9 @@ const BegabteCollection = {
     {
       name: "image",
       label: "Titelbild",
-      default: "/media/image.webp",
-      ...ImageProps,
+      widget: "image",
       required: true,
+      default: "/media/image.webp",
     },
     {
       name: "class",
@@ -52,6 +52,7 @@ const BegabteCollection = {
     {
       name: "body",
       label: "Inhalt",
+      widget: "markdown",
       required: true,
       ...MarkdownProps,
     },

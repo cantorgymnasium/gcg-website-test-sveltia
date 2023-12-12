@@ -1,4 +1,4 @@
-import { MarkdownProps, ImageProps } from "../props.js";
+import { MarkdownProps } from "../props.js";
 import { DraftBoolean, Title } from "./widgets.js";
 
 const AbiturientenCollection = {
@@ -33,8 +33,9 @@ const AbiturientenCollection = {
     {
       name: "image",
       label: "Bild",
+      widget: "image",
       default: "/media/image.webp",
-      ...ImageProps,
+      required: false,
     },
     {
       name: "type",
@@ -45,6 +46,7 @@ const AbiturientenCollection = {
     {
       name: "body",
       label: "Text",
+      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },

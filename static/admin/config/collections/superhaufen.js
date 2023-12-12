@@ -74,7 +74,8 @@ const SuperhaufenCollection = {
         {
           name: "content",
           label: "Inhalt",
-          required: false,
+          widget: "markdown",
+          required: true,
           ...MarkdownProps,
         },
         {
@@ -88,7 +89,8 @@ const SuperhaufenCollection = {
             {
               name: "content",
               label: "Inhalt",
-              required: false,
+              widget: "markdown",
+              required: true,
               ...MarkdownProps,
             },
           ],

@@ -1,4 +1,4 @@
-import { MarkdownProps, ImageProps } from "../props.js";
+import { MarkdownProps } from "../props.js";
 import { DescriptionText, DraftBoolean } from "./widgets.js";
 
 const CantorpreisCollection = {
@@ -45,8 +45,9 @@ const CantorpreisCollection = {
     {
       name: "image",
       label: "Bild",
+      widget: "image",
       default: "/media/image.webp",
-      ...ImageProps,
+      required: false,
     },
     {
       name: "type",
@@ -57,6 +58,7 @@ const CantorpreisCollection = {
     {
       name: "body",
       label: "Text",
+      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },
