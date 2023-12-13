@@ -1,4 +1,4 @@
-import { MarkdownProps } from "../props.js";
+import { EditorProps, MarkdownProps } from "../props.js";
 import { DescriptionText, DraftBoolean, IconList, Title } from "./widgets.js";
 
 const ProjektwocheCollection = {
@@ -12,12 +12,7 @@ const ProjektwocheCollection = {
     field: "type",
     value: "projektwoche",
   },
-  create: true,
-  editor: {
-    preview: true,
-    frame: true,
-    size: "half",
-  },
+  ...EditorProps,
   summary_fields: ["title", "draft", "tiles", "description"],
   fields: [
     Title(false),
@@ -32,7 +27,6 @@ const ProjektwocheCollection = {
     {
       name: "body",
       label: "Inhalt",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },
@@ -61,7 +55,6 @@ const ProjektwocheCollection = {
         {
           name: "content",
           label: "Inhalt",
-          widget: "markdown",
           required: true,
           ...MarkdownProps,
         },

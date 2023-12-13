@@ -1,4 +1,4 @@
-import { MarkdownProps } from "../props.js";
+import { EditorProps, MarkdownProps, ImageProps } from "../props.js";
 import { DescriptionText, DraftBoolean } from "./widgets.js";
 
 const CantorpreisCollection = {
@@ -20,12 +20,7 @@ const CantorpreisCollection = {
     },
   },
   summary: "{{title}} - {{name}}",
-  create: true,
-  editor: {
-    preview: true,
-    frame: true,
-    size: "half",
-  },
+  ...EditorProps,
   summary_fields: ["title", "name", "draft", "body"],
   fields: [
     {
@@ -45,9 +40,8 @@ const CantorpreisCollection = {
     {
       name: "image",
       label: "Bild",
-      widget: "image",
       default: "/media/image.webp",
-      required: false,
+      ...ImageProps,
     },
     {
       name: "type",
@@ -58,7 +52,6 @@ const CantorpreisCollection = {
     {
       name: "body",
       label: "Text",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },

@@ -1,4 +1,4 @@
-import { MarkdownProps, PatternEmail } from "../props.js";
+import { EditorProps, MarkdownProps, PatternEmail, ImageProps } from "../props.js";
 import { DescriptionText } from "./widgets.js";
 
 const AuthorCollection = {
@@ -9,48 +9,54 @@ const AuthorCollection = {
     "Autoren können einem Blogartikel zugewiesen werden. Wir unterscheiden in aktive und inaktive sowie vereinfachte Autoren, welche nur mit dem Namen angezeigt werden, und erweiterte Autoren, für die eine Übersichtsseite angelegt wird.",
   icon: "user",
   folder: "content/author",
-  create: true,
-  editor: {
-    preview: true,
-    frame: true,
-    size: "half",
-  },
+  ...EditorProps,
   filter: {
     field: "type",
     value: "author",
   },
-  view_filters: [
-    {
-      label: "aktiv",
-      field: "active",
-      pattern: true,
-    },
-    {
-      label: "inaktiv",
-      field: "active",
-      pattern: false,
-    },
-    {
-      label: "einfach",
-      field: "simplified",
-      pattern: true,
-    },
-    {
-      label: "erweitert",
-      field: "simplified",
-      pattern: false,
-    },
-  ],
-  view_groups: [
-    {
-      label: "vereinfacht",
-      field: "simplified",
-    },
-    {
-      label: "aktiv",
-      field: "active",
-    },
-  ],
+  view_filters: {
+    filters: [
+      {
+        name: "active",
+        label: "aktiv",
+        field: "active",
+        pattern: true,
+      },
+      {
+        name: "inactive",
+        label: "inaktiv",
+        field: "active",
+        pattern: false,
+      },
+      {
+        name: "simplified",
+        label: "einfach",
+        field: "simplified",
+        pattern: true,
+      },
+      {
+        name: "extended",
+        label: "erweitert",
+        field: "simplified",
+        pattern: false,
+      },
+    ],
+  },
+  view_groups: {
+    default: "active",
+    groups: [
+      {
+        name: "simplified",
+        label: "vereinfacht",
+        field: "simplified",
+      },
+      {
+        name: "active",
+        label: "aktiv",
+        field: "active",
+      },
+    ],
+  },
   summary_fields: ["title", "active", "simplified", "body"],
   fields: [
     {
@@ -70,9 +76,8 @@ const AuthorCollection = {
     {
       name: "image",
       label: "Bild",
-      widget: "image",
-      required: false,
       default: "/media/people/gcg.webp",
+      ...ImageProps,
     },
     {
       name: "simplified",
@@ -96,7 +101,6 @@ const AuthorCollection = {
     {
       name: "body",
       label: "Beschreibung",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },

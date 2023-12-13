@@ -17,6 +17,7 @@ import {
   SuperhaufenCollection,
   WettbewerbeCollection,
 } from "./collections/index.js";
+import { GCGThemeDark, GCGThemeLight } from "./themes.js";
 
 const config = {
   backend: {
@@ -35,7 +36,7 @@ const config = {
     },
   },
   local_backend: true,
-  media_folder: "/static/media",
+  media_folder: "static/media",
   public_folder: "/media",
   media_library: {
     max_file_size: 10240000,
@@ -47,6 +48,13 @@ const config = {
     encoding: "ascii",
     clean_accents: true,
     sanitize_replacement: "-",
+  },
+  theme: {
+    include_built_in_themes: false,
+    themes: [
+      GCGThemeDark,
+      GCGThemeLight
+    ]    
   },
   collections: [
     SettingsCollection,

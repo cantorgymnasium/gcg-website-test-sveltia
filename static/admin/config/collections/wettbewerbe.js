@@ -1,4 +1,4 @@
-import { MarkdownProps } from "../props.js";
+import { EditorProps, MarkdownProps, ImageProps } from "../props.js";
 import { DescriptionText, DraftBoolean, Title } from "./widgets.js";
 
 const WettbewerbeCollection = {
@@ -8,12 +8,7 @@ const WettbewerbeCollection = {
   description: "Hier kann die Übersicht der Wettbewerbe bearbeitet werden.",
   icon: "trophy",
   folder: "content/wettbewerbe",
-  create: true,
-  editor: {
-    preview: true,
-    frame: true,
-    size: "half",
-  },
+  ...EditorProps,
   filter: {
     field: "type",
     value: "wettbewerbe",
@@ -26,7 +21,7 @@ const WettbewerbeCollection = {
     {
       name: "image",
       label: "Titelbild",
-      widget: "image",
+      ...ImageProps,
       required: true,
       default: "/media/image.webp",
     },
@@ -63,7 +58,6 @@ const WettbewerbeCollection = {
     {
       name: "body",
       label: "Inhalt",
-      widget: "markdown",
       required: true,
       ...MarkdownProps,
     },

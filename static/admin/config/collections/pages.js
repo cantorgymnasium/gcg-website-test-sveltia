@@ -1,4 +1,4 @@
-import { MarkdownProps } from "../props.js";
+import { EditorProps, MarkdownProps } from "../props.js";
 import { DescriptionText, DraftBoolean, Title } from "./widgets.js";
 
 const PagesCollection = {
@@ -9,12 +9,7 @@ const PagesCollection = {
     "Zusatzseiten können direkt aus der grafischen Oberfläche heraus erstellt werden und sind unter https://cantorgymnasium.de/pages/[SEITENTITEL] einsehbar. Sie bestehen immer aus einem Titel, einer Metabeschreibung (kurzer Einstiegstext) und dem eigentlichen Inhalt. Einer Zusatzseite kann auch ein Alias, also eine alternative URL zugewiesen werden.",
   icon: "page-add",
   folder: "content/pages",
-  create: true,
-  editor: {
-    preview: true,
-    frame: true,
-    size: "half",
-  },
+  ...EditorProps,
   filter: {
     field: "type",
     value: "pages",
@@ -48,7 +43,6 @@ const PagesCollection = {
     {
       name: "body",
       label: "Inhalt",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },

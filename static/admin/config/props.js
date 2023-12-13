@@ -1,4 +1,14 @@
+const EditorProps = {
+  create: true,
+  editor: {
+    preview: true,
+    frame: true,
+    size: "half",
+  },
+};
+
 const MarkdownProps = {
+  widget: "markdown",
   toolbar_buttons: {
     main: [
       "bold",
@@ -53,6 +63,9 @@ const MarkdownProps = {
       "shortcode",
     ],
   },
+  media_library: {
+    folder_support: true,
+  }
 };
 
 const DateFormat = {
@@ -74,4 +87,12 @@ const PatternEmail = {
   ],
 };
 
-export { MarkdownProps, DateFormat, DataObject, PatternEmail };
+const ImageProps = {
+  widget: "image",
+  required: false,
+  media_library: {
+    folder_support: true,
+  }
+};
+
+export { EditorProps, MarkdownProps, DateFormat, DataObject, PatternEmail, ImageProps };

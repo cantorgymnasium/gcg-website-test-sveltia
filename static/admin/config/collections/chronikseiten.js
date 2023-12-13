@@ -1,4 +1,4 @@
-import { MarkdownProps } from "../props.js";
+import { EditorProps, MarkdownProps } from "../props.js";
 import { DescriptionText, DraftBoolean, Title } from "./widgets.js";
 
 const ChronikseitenCollection = {
@@ -9,12 +9,7 @@ const ChronikseitenCollection = {
     "Chronikseiten entsprechen von der Funktionalität herkömmlichen Zusatzseiten, sind allerdings der Schulchronik vorbehalten.",
   icon: "page-add",
   folder: "content/chronikseiten",
-  create: true,
-  editor: {
-    preview: true,
-    frame: true,
-    size: "half",
-  },
+  ...EditorProps,
   filter: {
     field: "type",
     value: "pages",
@@ -48,7 +43,6 @@ const ChronikseitenCollection = {
     {
       name: "body",
       label: "Inhalt",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },

@@ -43,7 +43,6 @@ const ChronikjahreCollection = {
       name: "pretext",
       label: "Einleitung",
       hint: "Text für die Jahreszahl",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },
@@ -64,7 +63,6 @@ const ChronikjahreCollection = {
         {
           name: "content",
           label: "Inhalt",
-          widget: "markdown",
           required: false,
           ...MarkdownProps,
         },
@@ -102,7 +100,6 @@ const ChronikjahreCollection = {
       name: "body",
       label: "Text",
       hint: "Erscheint zusätzlich zu den Kreativen Haufen",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },

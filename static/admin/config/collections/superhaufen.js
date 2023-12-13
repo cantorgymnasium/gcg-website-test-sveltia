@@ -1,4 +1,4 @@
-import { MarkdownProps } from "../props.js";
+import { EditorProps, MarkdownProps } from "../props.js";
 import { DraftBoolean, EnableBoolean, Title } from "./widgets.js";
 
 const SuperhaufenCollection = {
@@ -12,12 +12,7 @@ const SuperhaufenCollection = {
     field: "type",
     value: "superhaufen",
   },
-  create: true,
-  editor: {
-    preview: true,
-    frame: true,
-    size: "half",
-  },
+  ...EditorProps,
   summary_fields: ["title", "draft", "tiles"],
   fields: [
     Title(false),
@@ -74,8 +69,7 @@ const SuperhaufenCollection = {
         {
           name: "content",
           label: "Inhalt",
-          widget: "markdown",
-          required: true,
+          required: false,
           ...MarkdownProps,
         },
         {
@@ -89,8 +83,7 @@ const SuperhaufenCollection = {
             {
               name: "content",
               label: "Inhalt",
-              widget: "markdown",
-              required: true,
+              required: false,
               ...MarkdownProps,
             },
           ],

@@ -1,4 +1,4 @@
-import { MarkdownProps } from "../props.js";
+import { EditorProps, MarkdownProps } from "../props.js";
 import { DescriptionText, DraftBoolean, Title } from "./widgets.js";
 
 const FormsCollection = {
@@ -9,12 +9,7 @@ const FormsCollection = {
     "Hier sind Formulare, Vorlagen und andere Dokumente zu hinterlegen.",
   icon: "document",
   folder: "content/forms",
-  create: true,
-  editor: {
-    preview: true,
-    frame: true,
-    size: "half",
-  },
+  ...EditorProps,
   filter: {
     field: "type",
     value: "forms",
@@ -43,6 +38,9 @@ const FormsCollection = {
           label: "Datei",
           widget: "file",
           required: true,
+          media_library: {
+            folder_support: true,
+          }
         },
       ],
     },
@@ -55,7 +53,6 @@ const FormsCollection = {
     {
       name: "body",
       label: "Inhalt",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },

@@ -1,4 +1,4 @@
-import { MarkdownProps } from "../props.js";
+import { EditorProps, MarkdownProps, ImageProps } from "../props.js";
 import { DraftBoolean, Title } from "./widgets.js";
 
 const AbiturientenCollection = {
@@ -13,12 +13,7 @@ const AbiturientenCollection = {
     field: "type",
     value: "abiturienten",
   },
-  create: true,
-  editor: {
-    preview: true,
-    frame: true,
-    size: "half",
-  },
+  ...EditorProps,
   summary_fields: ["title", "draft"],
   sortable_fields: {
     fields: ["title"],
@@ -33,9 +28,8 @@ const AbiturientenCollection = {
     {
       name: "image",
       label: "Bild",
-      widget: "image",
       default: "/media/image.webp",
-      required: false,
+      ...ImageProps,
     },
     {
       name: "type",
@@ -46,7 +40,6 @@ const AbiturientenCollection = {
     {
       name: "body",
       label: "Text",
-      widget: "markdown",
       required: false,
       ...MarkdownProps,
     },
