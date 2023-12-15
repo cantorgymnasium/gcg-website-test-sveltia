@@ -14,6 +14,8 @@ subjects:
   - Deutsch
   - Latein
   - Sport
+tags:
+  - "2023"
 type: post
 ---
 ### Vorlesewettbewerb der 6. Klassen - Schulrunde
