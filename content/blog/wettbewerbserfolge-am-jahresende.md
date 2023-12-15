@@ -16,6 +16,12 @@ subjects:
   - Sport
 type: post
 ---
+### Certamen Franckianum 1. Runde der Oberstufe
+
+### Jugend trainiert für Olympia: Tischtennis
+
+### Vorlesewettbewerb der 6. Klassen - Schulrunde
+
 
 
 
