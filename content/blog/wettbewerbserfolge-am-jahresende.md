@@ -1,7 +1,7 @@
 ---
 title: Wettbewerbserfolge am Jahresende
 date: 2023-12-15T10:36:32.078+01:00
-draft: true
+draft: false
 image: /media/blog/Sj2023_2024/vlw2023.jpg
 author:
   - herr-berger
