@@ -2,7 +2,7 @@
 title: Weihnachtstraditionen 2023
 date: 2023-12-15T12:27:44.451+01:00
 draft: true
-image: /media/image.webp
+image: /media/gcgweihnachten.png
 author:
   - herr-berger
 categories:
@@ -31,9 +31,17 @@ Der Schülerrat organisierte wie in jedem Jahr das Weihnachtswichteln. Dazu habe
 
 ### Weihnachtsbasar
 
+… tbc
+
 ### Weihnachtsaktion
 
+… tbc
+
 ### Weihnachtssingen
+
+… tbc
+
+#### Nun wünschen wir der gesamten Schulgemeinschaft und allen Website-Besuchern frohe Weihnachtstage und einen guten Rutsch ins neue Jahr!
 
 
 
