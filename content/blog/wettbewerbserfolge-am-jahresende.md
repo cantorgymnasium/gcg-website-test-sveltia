@@ -18,9 +18,33 @@ type: post
 ---
 ### Certamen Franckianum 1. Runde der Oberstufe
 
-### Jugend trainiert für Olympia: Tischtennis
+
+
+{{< image src="/media/wettbewerbe/latein-wettbewerb.webp" >}}
+
+
+
+Von 33 Teilnehmenden haben sich 15 für die 2. Runde des Landeswettbewerbs Latein qualifiziert. Dafür haben sie eine vierstündige Klausur bestritten. Weiterhin viel Erfolg.  
+
+### Jugend trainiert für Olympia: Tischtennis#
+
+
+
+{{< image src="/media/wettbewerbe/jugend-trainiert-logo.webp" >}}
+
+
+
+Am 7. Dezember 2023 fand in Sangerhausen das Regionalfinale Tischtennis von Jugend trainiert für Olympia statt. Unsere Schülerinnen und Schüler erreichten in der Wettkampfklasse III männlich den 1. Platz!
 
 ### Vorlesewettbewerb der 6. Klassen - Schulrunde
+
+
+
+{{< image src="/media/wettbewerbe/vlw_logo_blau_rgb.webp" >}}
+
+
+
+Am 13.12.2023 erlebten unsere 6. Klassen in der Lernwerkstatt den alljährlichen Vorlesewettbewerb. 
 
 
 
