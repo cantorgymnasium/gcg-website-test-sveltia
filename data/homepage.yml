@@ -2,8 +2,7 @@ top_banner:
   enable: true
   text: >
     Aktuelle Termine: Am 19.12.2023 findet unser **Weihnachtsbasar** 16-19 Uhr
-    statt. <br> **Weihnachtssingen** am 20.12.2023 11 Uhr,
-    ***Weihnachtskonzert*** _am 15.12.2023._
+    statt.  <br>**Weihnachtssingen** am 20.12.2023 11 Uhr
   color: "#19aa96"
   font_color: "#ffffff"
   icon: mdi mdi-gift-open
