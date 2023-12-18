@@ -21,9 +21,15 @@ type: post
 ---
 ### Weihnachtskonzert
 
-Am 15.12.2023 eröffneten unser Chor, die Schuldband und die Keyboard-AG die Reihe der Weihnachtstraditionen in den letzten Schultagen. Nach intensiven Proben in der Schule und in der Jugendherberge Naumburg, präsentierten die Musiker ihr großartiges Weihnachtskonzert vor der ausverkauften Ulrichskirche. Einen allerersten Auftritt feierte auch der neu gegründete Lehrerchor.
+Am 15.12.2023 eröffneten unser Chor, die Schuldband und die Keyboard-AG die Reihe der Weihnachtstraditionen in den letzten Schultagen. Nach intensiven Proben in der Schule und in der Jugendherberge Naumburg, präsentierten die Musiker ihr großartiges Weihnachtskonzert vor der ausverkauften Ulrichskirche. 
 
-…. tbc
+Die Stimmung war von Beginn locker und fröhlich. Nach einem kurzen Geräusch aus dem Publikum wurde das 1. Lied nochmal neu gestartet. Chor, Band und Keyboard-AG bescherten uns einen wundervoll heimlichen Weihnachtsabend. 
+
+Luise, Leonore und Arik aus der 11. Klassenstufe führten mit viel Charme und Witz als Moderatoren durch den Abend. Alle drei sorgten dafür, dass die gesamte Bühne weihnachtlich wurde. Der Chor setze seine Weihnachtsmützen, Rentiergeweihe und Glitzerhaarreifen auf und Arik wurde in einem Rentierpulli gekleidet und mit einer Lichterkette versehen.
+
+Einen allerersten Auftritt feierte der neu gegründete Lehrerchor. Dieser wurde johlend auf der Bühne empfangen, performte grandios “Zu Betlehem geboren” und wurde danach unter noch größerem Applaus von der Bühne verabschiedet. Auch wurde traditionell mit den Alumni "Happy X-Mas gesungen.
+
+Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabschiedet. Es folgten viele Dankesworte. Dabei stahl Herr Dr. Gorsler allen die Show. Er forderte Weihnachtspulli und -mütze von Arik und präsentierte seine kurze Rede im Weihnachtsoutfit.
 
 ### Weihnachtswichteln
 
