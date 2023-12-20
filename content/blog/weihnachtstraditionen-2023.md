@@ -21,9 +21,9 @@ type: post
 ---
 ### Weihnachtskonzert
 
-Am 15.12.2023 eröffneten unser Chor, die Schuldband und die Keyboard-AG die Reihe der Weihnachtstraditionen in den letzten Schultagen. Nach intensiven Proben in der Schule und in der Jugendherberge Naumburg, präsentierten die Musiker ihr großartiges Weihnachtskonzert vor der ausverkauften Ulrichskirche. 
+Am 15.12.2023 eröffneten unser Chor, die Schuldband und die Keyboard-AG die Reihe der Weihnachtstraditionen in den letzten Schultagen. Nach intensiven Proben in der Schule und in der Jugendherberge Naumburg, präsentierten die Musiker ihr großartiges Weihnachtskonzert vor der ausverkauften Ulrichskirche.
 
-Die Stimmung war von Beginn locker und fröhlich. Nach einem kurzen Geräusch aus dem Publikum wurde das 1. Lied nochmal neu gestartet. Chor, Band und Keyboard-AG bescherten uns einen wundervoll heimlichen Weihnachtsabend. 
+Die Stimmung war von Beginn locker und fröhlich. Nach einem kurzen Geräusch aus dem Publikum wurde das 1. Lied nochmal neu gestartet. Chor, Band und Keyboard-AG bescherten uns einen wundervoll heimlichen Weihnachtsabend.
 
 Luise, Leonore und Arik aus der 11. Klassenstufe führten mit viel Charme und Witz als Moderatoren durch den Abend. Alle drei sorgten dafür, dass die gesamte Bühne weihnachtlich wurde. Der Chor setze seine Weihnachtsmützen, Rentiergeweihe und Glitzerhaarreifen auf und Arik wurde in einem Rentierpulli gekleidet und mit einer Lichterkette versehen.
 
@@ -37,7 +37,15 @@ Der Schülerrat organisierte wie in jedem Jahr das Weihnachtswichteln. Dazu habe
 
 ### Weihnachtsbasar
 
-… tbc
+Am 19. Dezember 2023 veranstalteten unsere Schülerinnen und Schüler in der Aula den alljährlichen Weihnachtsbasar. Alle Klassen werden von ihren Einnahmen mindestens 25 € an die Ukrainehilfe und das Kinderhospiz in Halle spenden. Viele Eltern, Großeltern und Familienmitglieder sowie Mitschüler/-innen und Lehrer waren spendabel unterwegs. Am letzten Schultag vor den Ferien konnten die Schülerinnen und Schüler selbst erneut über den Basar stöbern.
+
+Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüler der oberen Klassenstufen sorgten mit einem Kuchenbasar und einem Grillstand für das leibliche Wohl.
+
+
+
+{{< gallery dir="/media/blog/2023/Weihnachten/Weihnachtsbasar" >}}
+
+
 
 ### Weihnachtsaktion
 
