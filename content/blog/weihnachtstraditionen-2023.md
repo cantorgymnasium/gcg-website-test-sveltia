@@ -1,6 +1,6 @@
 ---
 title: Weihnachtstraditionen 2023
-date: 2023-12-15T12:27:44.451+01:00
+date: 2023-12-20T10:02:18.433+01:00
 draft: true
 image: /media/gcgweihnachten.png
 author:
@@ -37,7 +37,7 @@ Der Schülerrat organisierte wie in jedem Jahr das Weihnachtswichteln. Dazu habe
 
 
 
-{{< image src="/media/blog/2023/Weihnachten/wichteln23.webp" >}}
+{{< image src="/media/blog/Sj2023_2024/Weihnachten/wichteln23.webp" >}}
 
 
 
@@ -47,7 +47,11 @@ Am 19. Dezember 2023 veranstalteten unsere Schülerinnen und Schüler in der Aul
 
 Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüler der oberen Klassenstufen sorgten mit einem Kuchenbasar und einem Grillstand für das leibliche Wohl.
 
-{{< gallery dir="/media/blog/2023/Weihnachten/Weihnachtsbasar" >}}
+
+
+{{< gallery dir="/media/blog/Sj2023_2024/Weihnachten/Weihnachtsbasar" >}}
+
+
 
 ### Weihnachtsaktion
 
