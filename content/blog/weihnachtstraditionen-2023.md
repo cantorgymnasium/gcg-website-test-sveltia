@@ -35,17 +35,19 @@ Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabs
 
 Der Schülerrat organisierte wie in jedem Jahr das Weihnachtswichteln. Dazu haben wieder viele fleißige Hände Plätzchen gebacken und die kleinen Geschenketüten bestückt. In diesem Jahr erhielten alle Bewichtelten zudem einen kleinen Stiftespitzer mit Cantorlogo. Auch freuen sich die 12. Klassen darüber, einen kleinen Gewinn für ihre Abikasse daraus zu ziehen.
 
+
+
+{{< image src="/media/blog/2023/Weihnachten/wichteln23.webp" >}}
+
+
+
 ### Weihnachtsbasar
 
 Am 19. Dezember 2023 veranstalteten unsere Schülerinnen und Schüler in der Aula den alljährlichen Weihnachtsbasar. Alle Klassen werden von ihren Einnahmen mindestens 25 € an die Ukrainehilfe und das Kinderhospiz in Halle spenden. Viele Eltern, Großeltern und Familienmitglieder sowie Mitschüler/-innen und Lehrer waren spendabel unterwegs. Am letzten Schultag vor den Ferien konnten die Schülerinnen und Schüler selbst erneut über den Basar stöbern.
 
 Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüler der oberen Klassenstufen sorgten mit einem Kuchenbasar und einem Grillstand für das leibliche Wohl.
 
-
-
 {{< gallery dir="/media/blog/2023/Weihnachten/Weihnachtsbasar" >}}
-
-
 
 ### Weihnachtsaktion
 
