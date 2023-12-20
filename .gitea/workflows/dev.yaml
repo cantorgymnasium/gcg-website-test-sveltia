@@ -17,7 +17,6 @@ jobs:
     steps:
       - name: pull
         run: |
-          git config --global --add safe.directory /opt/data/actions/gcg-website-dev
           git pull
           git reset --hard origin/dev
       - name: build
