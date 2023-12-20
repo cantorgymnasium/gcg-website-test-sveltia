@@ -35,11 +35,7 @@ Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabs
 
 Der Schülerrat organisierte wie in jedem Jahr das Weihnachtswichteln. Dazu haben wieder viele fleißige Hände Plätzchen gebacken und die kleinen Geschenketüten bestückt. In diesem Jahr erhielten alle Bewichtelten zudem einen kleinen Stiftespitzer mit Cantorlogo. Auch freuen sich die 12. Klassen darüber, einen kleinen Gewinn für ihre Abikasse daraus zu ziehen.
 
-
-
 {{< image src="/media/blog/Sj2023_2024/Weihnachten/wichteln23.webp" >}}
-
-
 
 ### Weihnachtsbasar
 
@@ -47,11 +43,7 @@ Am 19. Dezember 2023 veranstalteten unsere Schülerinnen und Schüler in der Aul
 
 Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüler der oberen Klassenstufen sorgten mit einem Kuchenbasar und einem Grillstand für das leibliche Wohl.
 
-
-
 {{< gallery dir="/media/blog/Sj2023_2024/Weihnachten/Weihnachtsbasar" >}}
-
-
 
 ### Weihnachtsaktion
 
@@ -62,7 +54,3 @@ Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüle
 … tbc
 
 #### Nun wünschen wir der gesamten Schulgemeinschaft und allen Website-Besuchern frohe Weihnachtstage und einen guten Rutsch ins neue Jahr!
-
-
-
-
