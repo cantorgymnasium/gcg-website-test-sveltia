@@ -1,7 +1,7 @@
 ---
 title: Weihnachtstraditionen 2023
 date: 2023-12-20T10:02:18.433+01:00
-draft: true
+draft: false
 image: /media/gcgweihnachten.png
 author:
   - herr-berger
@@ -35,6 +35,8 @@ Einen allerersten Auftritt feierte der neu gegründete Lehrerchor. Dieser wurde 
 
 Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabschiedet. Es folgten viele Dankesworte. Dabei stahl Herr Dr. Gorsler allen die Show. Er forderte Weihnachtspulli und -mütze von Arik und präsentierte seine kurze Rede im Weihnachtsoutfit.
 
+> _Impressionen des Weihnachtskonzertes werden noch aufbereitet und folgen demnächst._
+
 ### Weihnachtswichteln
 
 Der Schülerrat organisierte wie in jedem Jahr das Weihnachtswichteln. Dazu haben wieder viele fleißige Hände Plätzchen gebacken und die kleinen Geschenketüten bestückt. In diesem Jahr erhielten alle Bewichtelten zudem einen kleinen Stiftespitzer mit Cantorlogo. Auch freuen sich die 12. Klassen darüber, einen kleinen Gewinn für ihre Abikasse daraus zu ziehen.
@@ -53,7 +55,7 @@ Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüle
 
 **60 Weihnachtsgeschenke - Das Team der Wärmestube dankt herzlich**
 
-Am 19.12. hat der WoU- Kurs "Lernen durch Engagement" 60 Geschenktüten, einige Sachspenden und zwei Geldspenden Herrn Wünsch, dem Leiter der Wärmestube, überreicht. Er hat dem Kurs einen Einblick gegeben in die Arbeit der Diakonie hier im Stadtteil. Die Geschenke werden zur Weihnachtsfeier an die Besucher ausgegeben. Herzlichen Dank an alle, die das Projekt dieses Jahr erstmals oder weiterhin unterstützen, liebevoll gepackt und nette Karten geschrieben und trotz vieler anderer Verpflichtungen an diejenigen gedacht haben, die man oft nicht sieht.
+Am 19.12. hat der WoU-Kurs "Lernen durch Engagement" 60 Geschenktüten, einige Sachspenden und zwei Geldspenden Herrn Wünsch, dem Leiter der Wärmestube, überreicht. Er hat dem Kurs einen Einblick gegeben in die Arbeit der Diakonie hier im Stadtteil. Die Geschenke werden zur Weihnachtsfeier an die Besucher ausgegeben. Herzlichen Dank an alle, die das Projekt dieses Jahr erstmals oder weiterhin unterstützen, liebevoll gepackt und nette Karten geschrieben und trotz vieler anderer Verpflichtungen an diejenigen gedacht haben, die man oft nicht sieht.
 
 _(Frau Härtig)_
 
@@ -69,17 +71,21 @@ Wir freuen uns auf ein neues Turnier im nächsten Jahr und wünschen allen eine 
 
 _(Frau Schulz)_
 
-
-
 {{< gallery dir="/media/blog/Sj2023_2024/Weihnachten/Fussballturnier" >}}
-
-
 
 ### Weihnachtssingen
 
-… tbc
+Am letzten Schultag vor den Weihnachtsferien fand wieder unser traditionelles Weihnachtssingen statt. Um 11 Uhr versammelten sich die Schülerinnen und Schüler, Lehrkräfte und weitere Angestellte der Schule in der 2. Etage zum Weihnachtssingen. Auch besuchten uns wieder einige ehemalige Schülerinnen und Schüler, um dieses gemeinsame Erlebnis der Weihnachtszeit zu genießen.
 
-#### Nun wünschen wir der gesamten Schulgemeinschaft und allen Website-Besuchern frohe Weihnachtstage und einen guten Rutsch ins neue Jahr!
+Zum Schmunzeln war die diesjährige kleine Kopierpanne: Auf den Liedtexten fehlte die Rückseite. Die Schulgemeinschaft zeigte jedoch auch ohne die Rückseite Textsicherheit und spätere Strophen wurden von Kollegin Krug lauthals ins Publikum gerufen. Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
+
+
+
+{{< image src="/media/blog/Sj2023_2024/Weihnachten/wsingen23.webp" >}}
+
+
+
+### Nun wünschen wir der gesamten Schulgemeinschaft und allen Website-Besuchern frohe Weihnachtstage und einen guten Rutsch ins neue Jahr!
 
 
 
