@@ -55,15 +55,25 @@ Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüle
 
 Am 19.12. hat der WoU- Kurs "Lernen durch Engagement" 60 Geschenktüten, einige Sachspenden und zwei Geldspenden Herrn Wünsch, dem Leiter der Wärmestube, überreicht. Er hat dem Kurs einen Einblick gegeben in die Arbeit der Diakonie hier im Stadtteil. Die Geschenke werden zur Weihnachtsfeier an die Besucher ausgegeben. Herzlichen Dank an alle, die das Projekt dieses Jahr erstmals oder weiterhin unterstützen, liebevoll gepackt und nette Karten geschrieben und trotz vieler anderer Verpflichtungen an diejenigen gedacht haben, die man oft nicht sieht.
 
-
+_(Frau Härtig)_
 
 {{< image src="/media/blog/Sj2023_2024/Weihnachten/weihnachtsaktion23.webp" >}}
 
-
-
 ### Fußballturnier der 5. und 6. Klassen
 
-… tbc
+Auch in diesem Jahr haben die 5. und 6. Klassen in einem spannenden Turnier gezeigt, wie gut sie Fußball spielen können. In den Vorrundenspielen und Halbfinalen wurden die Endspiele ausgespielt. Hier zeigte sich schon, wie eng alle Mannschaften beieinander lagen. Im Finale standen sich die Klasse 6/2 und die Klasse 6/3 gegenüber. Hier wurde bis zur letzten Minute gekämpft und der Sieg musste im Torschießen entschieden werden. Am Ende errang die Mannschaft der Klasse 6/2 mit einem Tor Vorsprung den Sieg. Herzlichen Glückwunsch!
+
+Ein besonderer Dank gilt den Schiedsrichtern aus den Klasse 10 und 12 sowie den Trainerinnen und Trainern der 12. Klasse für die Betreuung und emotionalen Unterstützung.
+
+Wir freuen uns auf ein neues Turnier im nächsten Jahr und wünschen allen eine frohe Weihnacht und ein sportliches neues Jahr!
+
+_(Frau Schulz)_
+
+
+
+{{< gallery dir="/media/blog/Sj2023_2024/Weihnachten/Fussballturnier" >}}
+
+
 
 ### Weihnachtssingen
 
