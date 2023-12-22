@@ -21,6 +21,7 @@ subjects:
 tags:
   - "2023"
   - Weihnachtskonzert
+  - Weihnachten
 type: post
 ---
 ### Weihnachtskonzert
