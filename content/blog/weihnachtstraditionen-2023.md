@@ -5,15 +5,19 @@ draft: true
 image: /media/gcgweihnachten.png
 author:
   - herr-berger
+  - frau-schulz
+  - frau-hartig
 categories:
   - Traditionen
   - Veranstaltungen
   - Musik
   - Gesellschaftswissenschaften
   - Schülerrat
+  - Sport
 subjects:
   - Musik
   - Ethik
+  - Sport
 tags:
   - "2023"
   - Weihnachtskonzert
@@ -47,6 +51,18 @@ Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüle
 
 ### Weihnachtsaktion
 
+**60 Weihnachtsgeschenke - Das Team der Wärmestube dankt herzlich**
+
+Am 19.12. hat der WoU- Kurs "Lernen durch Engagement" 60 Geschenktüten, einige Sachspenden und zwei Geldspenden Herrn Wünsch, dem Leiter der Wärmestube, überreicht. Er hat dem Kurs einen Einblick gegeben in die Arbeit der Diakonie hier im Stadtteil. Die Geschenke werden zur Weihnachtsfeier an die Besucher ausgegeben. Herzlichen Dank an alle, die das Projekt dieses Jahr erstmals oder weiterhin unterstützen, liebevoll gepackt und nette Karten geschrieben und trotz vieler anderer Verpflichtungen an diejenigen gedacht haben, die man oft nicht sieht.
+
+
+
+{{< image src="/media/blog/Sj2023_2024/Weihnachten/weihnachtsaktion23.webp" >}}
+
+
+
+### Fußballturnier der 5. und 6. Klassen
+
 … tbc
 
 ### Weihnachtssingen
@@ -54,3 +70,7 @@ Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüle
 … tbc
 
 #### Nun wünschen wir der gesamten Schulgemeinschaft und allen Website-Besuchern frohe Weihnachtstage und einen guten Rutsch ins neue Jahr!
+
+
+
+
