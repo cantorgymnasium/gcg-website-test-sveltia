@@ -1,6 +1,6 @@
 ---
 title: Weihnachtstraditionen 2023
-date: 2023-12-20T10:02:18.433+01:00
+date: 2023-12-22T23:39:48.861+01:00
 draft: false
 image: /media/gcgweihnachten.png
 author:
@@ -26,7 +26,7 @@ type: post
 ---
 ### Weihnachtskonzert
 
-Am 15.12.2023 eröffneten unser Chor, die Schuldband und die Keyboard-AG die Reihe der Weihnachtstraditionen in den letzten Schultagen. Nach intensiven Proben in der Schule und in der Jugendherberge Naumburg, präsentierten die Musiker ihr großartiges Weihnachtskonzert vor der ausverkauften Ulrichskirche.
+Am 15.12.2023 eröffneten unser Chor, die Schulband und die Keyboard-AG die Reihe der Weihnachtstraditionen in den letzten Schultagen. Nach intensiven Proben in der Schule und in der Jugendherberge Naumburg, präsentierten die Musiker ihr großartiges Weihnachtskonzert vor der ausverkauften Ulrichskirche.
 
 Die Stimmung war von Beginn locker und fröhlich. Nach einem kurzen Geräusch aus dem Publikum wurde das 1. Lied nochmal neu gestartet. Chor, Band und Keyboard-AG bescherten uns einen wundervoll heimlichen Weihnachtsabend.
 
@@ -80,11 +80,7 @@ Am letzten Schultag vor den Weihnachtsferien fand wieder unser traditionelles We
 
 Zum Schmunzeln war die diesjährige kleine Kopierpanne: Auf den Liedtexten fehlte die Rückseite. Die Schulgemeinschaft zeigte jedoch auch ohne die Rückseite Textsicherheit und spätere Strophen wurden von Kollegin Krug lauthals ins Publikum gerufen. Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 
-
-
 {{< image src="/media/blog/Sj2023_2024/Weihnachten/wsingen23.webp" >}}
-
-
 
 ### Nun wünschen wir der gesamten Schulgemeinschaft und allen Website-Besuchern frohe Weihnachtstage und einen guten Rutsch ins neue Jahr!
 
