@@ -63,9 +63,6 @@ const MarkdownProps = {
       "shortcode",
     ],
   },
-  media_library: {
-    folder_support: true,
-  }
 };
 
 const DateFormat = {
@@ -90,9 +87,6 @@ const PatternEmail = {
 const ImageProps = {
   widget: "image",
   required: false,
-  media_library: {
-    folder_support: true,
-  }
 };
 
 export { EditorProps, MarkdownProps, DateFormat, DataObject, PatternEmail, ImageProps };

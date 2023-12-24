@@ -38,9 +38,6 @@ const FormsCollection = {
           label: "Datei",
           widget: "file",
           required: true,
-          media_library: {
-            folder_support: true,
-          }
         },
       ],
     },
