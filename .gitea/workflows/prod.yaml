@@ -9,7 +9,7 @@ on:
 
 defaults:
   run:
-    working-directory: /opt/data/actions/gcg-website-master
+    working-directory: /opt/runner/workdir/gcg-website-master
 
 jobs:
   prod-build:
