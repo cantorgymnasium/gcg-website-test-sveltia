@@ -7,9 +7,9 @@
     </div>
     <div class="col-md-9">
       <div class="card-body h-100 d-flex flex-column justify-content-around">
-        <h4 class="card-title">{{ .title }}</h4>
+        <h4 class="card-title mb-0">{{ .title }}</h4>
         {{ with .location }}
-        <div class="card-text">
+        <div class="card-text d-flex align-items-center">
           <i class="mdi mdi-map-marker-radius-outline icon-s text-primary me-2"></i>{{ . | markdownify }}
         </div>
         {{ end }}
