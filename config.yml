@@ -27,8 +27,7 @@ params:
     - media/zeichnung.webp
   impressumURL: pages/impressum
   dseURL: pages/datenschutz
-  copyright: "Copyright &copy; 2023 Georg-Cantor-Gymnasium Halle (Saale). Made
-    with :heart: and [Hugo](https://gohugo.io)."
+  copyright: 'Georg-Cantor-Gymnasium Halle (Saale). Made with :heart: and [Hugo](https://gohugo.io).'
   plugins:
     css:
       - https://assets.cantorgymnasium.de/bootstrap/v5/css/bootstrap.min.css

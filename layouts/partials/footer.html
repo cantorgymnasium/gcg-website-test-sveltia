@@ -49,7 +49,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-7 text-sm-start text-center">
-          <p class="mb-0 text-white text-opacity-50">{{ .Site.Params.copyright | markdownify | emojify }}</p>
+          <p class="mb-0 text-white text-opacity-50">Copyright &copy; {{ time.Format "2006" now }} {{ .Site.Params.copyright | markdownify | emojify }}</p>
         </div>
         <div class="col-sm-5 text-sm-end text-center">
           <ul class="list-inline">
