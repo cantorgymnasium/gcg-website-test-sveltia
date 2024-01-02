@@ -1,94 +1,65 @@
 {{ define "main" }}
 
+{{ range .Params.topics }}
+  {{ partial "modal" . }}
+{{ end }}
+
+{{ if .Params.pretext.enable }}
+  {{ partial "modal" (dict "title" .Title "content" .Params.pretext.content) }}
+{{ end }}
+
 <section class="section" data-pagefind-body>
-  <!-- TODO: everything -->
   <div class="container">
-    {{ if or .Params.cantorpreisträger (where (where .Site.RegularPages "Title" (print "Abiturienten " .Params.Title ) ) "Type" "=" "abiturienten") }}
+    {{ if or .Params.cantorpreisträger (where .Site.RegularPages "Title" (print "Abiturienten " .Params.Title ) ) }}
     <div class="card-group">
       {{ range where (where .Site.RegularPages "Title" .Params.Title ) "Type" "=" "cantorpreis" }}
       <div class="card d-flex flex-row flex-wrap">
-          <div class="flex-shrink-0">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.Image | relURL }}" class="rounded-circle m-3 object-cover" height="128px" width="128px"></a>
-          </div>
+          <a href="{{ .Permalink }}">
+            <img src="{{ .Params.Image | relURL }}" class="rounded-circle object-cover m-3" width="128px" height="128px">
+          </a>
           <div class="flex-grow card-body min-w-0">
             <a href="/cantorpreis"><h3 class="card-title">Cantorpreisträger</h3></a>
-            <a href="{{ .Permalink }}"><p class="h4 card-text">{{ .Params.name }}</p></a>
+            <a href="{{ .Permalink }}" class="h4 card-text">{{ .Params.name }}</a>
           </div>
       </div>
       {{ end }}
-      {{ range where (where .Site.RegularPages "Title" (print "Abiturienten " .Params.Title ) ) "Type" "=" "abiturienten" }}
+      {{ range where .Site.RegularPages "Title" (print "Abiturienten " .Params.Title ) }}
       <div class="card d-flex flex-row flex-wrap-reverse">
         <div class="flex-grow card-body min-w-0">
-            <a href="{{ .Permalink }}"><h3 class="card-title">{{ .Title }}</h3></a>
-            {{ $abiturdurchschnitte := getJSON "static/data/abiturdurchschnitte.json" }}
-            {{ range $abiturdurchschnitte.abiturdurchschnitte  }}
-              {{ if eq (string (index . "jahr")) $.Title }}<a href="/chronikseiten/abiturdurchschnitte"><p class="h4 card-text">Abiturdurchschnitt: {{ .schnitt }}</p></a>{{ end }}
-            {{ end }}
-          </div>
-          <div class="">
-            <a href="{{ .Permalink }}">
-              <img src="{{ .Params.Image | relURL }}" class="rounded-circle object-cover m-3" width="128px" height="128px">
-            </a>
-          </div>
+          <a href="{{ .Permalink }}"><h3 class="card-title">{{ .Title }}</h3></a>
+          {{ range (getJSON "static/data/abiturdurchschnitte.json").abiturdurchschnitte  }}
+            {{ if eq (string .jahr) $.Title }}<a href="/chronikseiten/abiturdurchschnitte" class="h4 card-text">Abiturdurchschnitt: {{ .schnitt }}</a>{{ end }}
+          {{ end }}
+        </div>
+        <a href="{{ .Permalink }}">
+          <img src="{{ .Params.Image | relURL }}" class="rounded-circle object-cover m-3" width="128px" height="128px">
+        </a>
       </div>
       {{ end }}
-  {{ end }}
-    {{ range .Params.topics }}
-      {{ partial "modal" . }}
+    </div>
     {{ end }}
-    {{ if and .Params.pretext (ne .Params.pretext "\n\n\n") }}
-      {{ partial "modal" (dict "title" .Title "content" .Params.pretext) }}
-    {{ end }}
-    <div id="wc-canvas"></div>
-    {{ $topics := slice }}
-    {{ if .Params.pretext }}
-      {{ $topics = $topics | append (dict "Title" .Params.Title "Size" (int 200) "ID" (md5 .Title)) }}
-    {{ else }}
-      {{ $topics = $topics | append (dict "Title" .Params.Title "Size" (int 200)) }}
-    {{ end }}
-    {{ range .Params.topics }}
-      {{ if .superhaufen.enable }}
-        {{ $topics  = $topics | append (dict "Title" .title "Size" 30 "ID" (.superhaufen.link | urlize)  "Superhaufen" true ) }}
-      {{ else }}
-        {{ $topics  = $topics | append (dict "Title" .title "Size" 30 "ID" (md5 .title)) }}
+    <div class="kh-parent">
+      <div class="kh-jahr h1"
+        {{ if .Params.pretext.enable }}
+          onclick="$('{{ print `#` (md5 .Title) }}').modal('show')"
+        {{ end }}>
+          <span>{{ .Title }}</span>
+      </div>
+      {{ $topics := slice }}
+      {{ range .Params.topics }}
+        {{ $topics = $topics | append (dict "titleLength" (len .title) "topic" .) }}
       {{ end }}
-    {{ end }}
-    <script>
-      WordCloud(
-        document.getElementById('wc-canvas'),
-        {
-          click: function (item) {
-            if (item[2] != null) {
-              if (item[3])  {
-                window.location.href = "{{ `/superhaufen/` | relURL }}" + item[2];
-              } else {
-                $('#' + item[2]).modal('show');
-              }
-            }
-          },
-          color: function (word, weight) {
-            return (weight === 200) ? '#ffbc3b' : '#1a1a37';
-          },
-          /* hover: function(item, dimension, event) {
-            item && item[2] ? event.target.style.textDecorationLine = "underline" : null
-          },*/
-          fontFamily: 'Ubuntu, sans-serif',
-          fontWeight: 700,
-          list: JSON.parse("{{ $topics | jsonify }}").map(obj => {
-            return [obj.Title, obj.Size, obj.ID ? obj.ID : null, obj.Superhaufen ? true : false]
-          }),
-          shrinkToFit: true,
-          gridSize: 50,
-          rotateRatio: 0,
-          shuffle: false,
-          shape: "square",
-          ellipticity: 1,
-          clearCanvas: true
-        } 
-      );
-    </script>
-    {{ .Content }}
-  </div>
+      {{ range $id, $topic := sort $topics "titleLength" "desc" }}
+        <div class="kh h3" data-id="{{ $id }}"
+          {{ if not $topic.topic.superhaufen.enable }}
+            onclick="$('#{{ md5 $topic.topic.title }}').modal('show');"
+          {{ else }}
+            onclick="window.location = '{{ print (`/superhaufen/` | relURL ) ($topic.topic.superhaufen.link | urlize) }}';"
+          {{ end }}>
+          <span>{{ $topic.topic.title | safeHTML }}</span>
+        </div>
+      {{ end }}
+    </div>
   </div>
 </section>
 

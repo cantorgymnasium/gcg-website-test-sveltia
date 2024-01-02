@@ -1,4 +1,4 @@
-import { MarkdownProps } from "../props.js";
+import { MarkdownProps, EditorProps } from "../props.js";
 import { DraftBoolean, EnableBoolean } from "./widgets.js";
 
 const ChronikjahreCollection = {
@@ -13,11 +13,7 @@ const ChronikjahreCollection = {
     field: "type",
     value: "schulchronik",
   },
-  create: true,
-  editor: {
-    preview: false,
-    size: "half",
-  },
+  ...EditorProps,
   summary_fields: ["title", "draft", "cantorpreisträger", "topics"],
   sortable_fields: {
     fields: ["title"],
@@ -44,7 +40,20 @@ const ChronikjahreCollection = {
       label: "Einleitung",
       hint: "Text für die Jahreszahl",
       required: false,
-      ...MarkdownProps,
+      widget: "object",
+      fields: [
+        EnableBoolean,
+        {
+          name: "content",
+          label: "Text",
+          condition: {
+            field: "pretext.enable",
+            value: true,
+          },
+          required: false,
+          ...MarkdownProps,     
+        }
+      ]
     },
     {
       name: "topics",
@@ -53,6 +62,7 @@ const ChronikjahreCollection = {
       widget: "list",
       required: false,
       collapsed: true,
+      max: 4,
       fields: [
         {
           name: "title",
@@ -63,6 +73,10 @@ const ChronikjahreCollection = {
         {
           name: "content",
           label: "Inhalt",
+          condition: {
+            field: "superhaufen.enable",
+            value: false,
+          },
           required: false,
           ...MarkdownProps,
         },
@@ -80,6 +94,10 @@ const ChronikjahreCollection = {
               collection: "superhaufen",
               search_fields: ["title"],
               value_field: "title",
+              condition: {
+                field: "superhaufen.enable",
+                value: true,
+              },
               required: false,
               collapsed: true,
             },
@@ -95,13 +113,6 @@ const ChronikjahreCollection = {
       search_fields: ["jahr", "name"],
       value_field: "name",
       required: false,
-    },
-    {
-      name: "body",
-      label: "Text",
-      hint: "Erscheint zusätzlich zu den Kreativen Haufen",
-      required: false,
-      ...MarkdownProps,
     },
   ],
 };
