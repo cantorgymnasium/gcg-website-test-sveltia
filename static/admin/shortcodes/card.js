@@ -1,4 +1,4 @@
-import { Card, TextField } from "./components/index.js";
+import { Card, TextField, Label } from "./components.js";
 
 const CardShortcode = {
   label: "Link-Karte",
@@ -27,15 +27,15 @@ const CardShortcode = {
   },
   control: ({ title, link, onChange }) => {
     return Card([
+      Label("Titel"),
       TextField({
-        label: "Titel",
         value: title,
         onChange: (event) => {
           onChange({ title: event.target.value.trimStart(), link });
         },
       }),
+      Label("Link"),
       TextField({
-        label: "Link",
         value: link,
         onChange: (event) => {
           onChange({ title, link: event.target.value });

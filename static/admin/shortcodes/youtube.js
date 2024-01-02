@@ -1,4 +1,4 @@
-import { Card, TextField } from "./components/index.js";
+import { Card, TextField, Label } from "./components.js";
 
 const YoutubeShortcode = {
   label: "YouTube-Video",
@@ -18,8 +18,8 @@ const YoutubeShortcode = {
   control: ({ src, onChange }) => {
     return Card(
       [
+        Label("YouTUbe-Video"),
         TextField({
-          label: "YouTube-Video-ID",
           value: src,
           onChange: (event) => {
             onChange({ src: event.target.value });

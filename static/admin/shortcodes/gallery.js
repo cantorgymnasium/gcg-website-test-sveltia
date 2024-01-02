@@ -1,4 +1,4 @@
-import { Card, TextField } from "./components/index.js";
+import { Card, TextField, Label } from "./components.js";
 
 const GalleryShortcode = {
   label: "Bildergallerie",
@@ -34,27 +34,31 @@ const GalleryShortcode = {
     );
 
     return Card([
-      TextField({
-        label: "Gallerie-Ordner",
-        value: dir,
-        onChange: (event) => {
-          onChange({ dir: event.target.value });
-        },
-      }),
+      Label("Galerie-Ordner"),
       h(
         "span",
-        {
-          key: "gallery-button",
-          className: "CMS_WidgetDateTime_NowButton_root",
-        },
-        h(
-          "button",
-          {
-            type: "button",
-            onClick: handleOpenMediaLibrary,
-            className: "CMS_Button_root CMS_Button_outlined-primary",
+        { className: "CMS_WidgetDateTime_inputs" },
+        TextField({
+          value: dir,
+          onChange: (event) => {
+            onChange({ dir: event.target.value });
           },
-          "wählen"
+        }),
+        h(
+          "span",
+          {
+            key: "gallery-button",
+            className: "CMS_WidgetDateTime_NowButton_root",
+          },
+          h(
+            "button",
+            {
+              type: "button",
+              onClick: handleOpenMediaLibrary,
+              className: "CMS_Button_root CMS_Button_outlined-primary",
+            },
+            "wählen"
+          )
         )
       ),
     ]);

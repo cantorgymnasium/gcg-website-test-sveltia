@@ -1,4 +1,4 @@
-import { Card, TextField } from "./components/index.js";
+import { Card, TextField, Label } from "./components.js";
 
 const AudioShortcode = {
   label: "Audiodatei",
@@ -33,24 +33,31 @@ const AudioShortcode = {
     );
 
     return Card([
-      TextField({
-        label: "Audiodatei",
-        value: src,
-        onChange: (event) => {
-          onChange({ src: event.target.value });
-        },
-      }),
+      Label("Audiodatei"),
       h(
         "span",
-        { key: "audio-button", className: "CMS_WidgetDateTime_NowButton_root" },
-        h(
-          "button",
-          {
-            type: "button",
-            onClick: handleOpenMediaLibrary,
-            className: "CMS_Button_root CMS_Button_outlined-primary",
+        { className: "CMS_WidgetDateTime_inputs" },
+        TextField({
+          value: src,
+          onChange: (event) => {
+            onChange({ src: event.target.value });
           },
-          "wählen"
+        }),
+        h(
+          "span",
+          {
+            key: "audio-button",
+            className: "CMS_WidgetDateTime_NowButton_root",
+          },
+          h(
+            "button",
+            {
+              type: "button",
+              onClick: handleOpenMediaLibrary,
+              className: "CMS_Button_root CMS_Button_outlined-primary",
+            },
+            "wählen"
+          )
         )
       ),
     ]);

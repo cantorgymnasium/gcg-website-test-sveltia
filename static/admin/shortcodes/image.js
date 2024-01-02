@@ -1,4 +1,4 @@
-import { Card, Image } from "./components/index.js";
+import { Card, Image, Label } from "./components.js";
 import { md5 } from "../previews/page-previews/components/index.js";
 
 const ImageShortcode = {
@@ -36,13 +36,13 @@ const ImageShortcode = {
     );
     const assetSource = useMediaAsset(src, collection, field, entry);
 
-    return Card(
+    return Card([
+      Label("Bild"),
       Image({
-        label: "Bild",
         assetSource,
         handleOpenMediaLibrary,
-      })
-    );
+      }),
+    ]);
   },
   preview: ({ src }) => {
     return h(

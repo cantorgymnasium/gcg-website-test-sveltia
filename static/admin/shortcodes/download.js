@@ -1,4 +1,4 @@
-import { Card, TextField } from "./components/index.js";
+import { Card, TextField, Label } from "./components.js";
 
 const DownloadShortcode = {
   label: "Download-Karte",
@@ -39,24 +39,20 @@ const DownloadShortcode = {
     );
 
     return Card([
+      Label("Titel"),
       TextField({
-        label: "Titel",
         value: title,
         onChange: (event) => {
           onChange({ title: event.target.value.trimStart(), link });
         },
       }),
+      Label("Download-Link"),
       h(
         "span",
         {
-          style: {
-            display: "flex",
-            "flex-direction": "row",
-            "align-items": "end",
-          },
+          class: "CMS_WidgetDateTime_inputs"
         },
         TextField({
-          label: "Download-Link",
           value: link,
           onChange: (event) => {
             onChange({ title, link: event.target.value });
