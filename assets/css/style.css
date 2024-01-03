@@ -262,7 +262,7 @@ textarea.form-control {
   border-color: var(--gcg-color-primary);
 }
 
-.content *:not(details, details > *) {
+.content *:not(details, details > *, .shortcode *) {
   margin-bottom: 20px;
 }
 
@@ -988,6 +988,12 @@ link:focus,
 
 .min-w-0 {
   min-width: 0;
+}
+
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon {
+  background-color: rgba(0,0,0, 0.2);
+  border-radius: 1rem;
+  box-shadow: rgb(0,0,0) 0px 0px 40px;
 }
 
 /* Kreative Haufen */
