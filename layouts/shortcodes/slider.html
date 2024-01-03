@@ -1,7 +1,7 @@
 {{ $dir := (.Get "dir") }}
 {{ if $dir }}
-<div class="card border-primary rounded-3">
-  <div class="carousel carousel-dark slide mb-0" data-bs-ride="true" id='slider-{{ md5 $dir }}'>
+<div class="shortcode card border-primary rounded-3">
+  <div class="carousel slide mb-0" data-bs-ride="true" id='slider-{{ md5 $dir }}'>
     {{ $images := slice }}
     {{ range readDir (print "/static/" $dir) }}
       {{ if (lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
