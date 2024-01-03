@@ -36,7 +36,7 @@
           }
         });
 
-        $('#search').addEventListener('shown.bs.modal', () => {
+        $('#search').on('shown.bs.modal', () => {
           $('.pagefind-ui__search-input input').focus();
         });
       });
