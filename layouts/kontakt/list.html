@@ -9,15 +9,14 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 mb-4 mb-lg-0">
-        <form action="https://php.cantorgymnasium.de/formtools/process.php" method="post">
-          <input type="hidden" name="form_tools_form_id" value="2" />
+        <form action="https://forms.cantorgymnasium.de/form/gcg-kontakt" method="post">
           <div hidden>
             <input type="text" name="bad_email" value="" />
           </div>
-          <input type="text" class="form-control form-control-lg mb-3" id="name" name="visitor_name" placeholder="Ihr Name" required>
-          <input type="email" class="form-control form-control-lg mb-3" id="mail" name="visitor_email" placeholder="Ihre E-Mail Adresse" required>
-          <input type="text" class="form-control form-control-lg mb-3" id="subject" name="email_title" placeholder="Betreff" required>
-          <textarea name="visitor_message" id="message" class="form-control form-control-lg mb-3" placeholder="Nachricht" required></textarea>
+          <input type="text" class="form-control form-control-lg mb-3" id="name" name="name" placeholder="Ihr Name" required>
+          <input type="email" class="form-control form-control-lg mb-3" id="mail" name="email" placeholder="Ihre E-Mail Adresse" required>
+          <input type="text" class="form-control form-control-lg mb-3" id="subject" name="subject" placeholder="Betreff" required>
+          <textarea id="message" name="message" class="form-control form-control-lg mb-3" placeholder="Nachricht" required></textarea>
           <button type="submit" value="send" class="btn btn-primary">Senden</button>
         </form>
       </div>
