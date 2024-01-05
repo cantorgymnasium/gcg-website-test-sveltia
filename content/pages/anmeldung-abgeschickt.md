@@ -12,4 +12,6 @@ Bitte beachten Sie außerdem, dass wir bis sofort nach dessen Ausgabe von Ihrem 
 
 Mit freundlichen Grüßen
 
-Das Team des Georg-Cantor-Gymnasiums
+Das Team des Georg-Cantor-Gymnasiums{{< card title="Zurück zur Aufnahme-Seite" link="/anmeldung" >}}
+
+
