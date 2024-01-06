@@ -3,7 +3,7 @@
     <details>
       <summary>{{ .title }}</summary>
       <div class="content text-justify">
-        <div>{{ .content }}</div>
+        <div>{{ .content | markdownify | emojify }}</div>
       </div>
     </details>
   </div>
