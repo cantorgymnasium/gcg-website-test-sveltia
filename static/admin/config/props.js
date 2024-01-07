@@ -9,6 +9,7 @@ const EditorProps = {
 
 const MarkdownProps = {
   widget: "markdown",
+  show_raw: true,
   toolbar_buttons: {
     main: [
       "bold",
