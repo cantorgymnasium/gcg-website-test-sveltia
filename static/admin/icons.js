@@ -17,6 +17,7 @@ const IconNames = {
   projektwoche: "mdi mdi-calendar-range-outline",
   superhaufen: "mdi mdi-view-dashboard",
   stats: "mdi mdi-chart-bar",
+  color: "mdi mdi-palette",
 };
 
 let Icons = [];
