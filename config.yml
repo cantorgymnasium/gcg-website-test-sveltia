@@ -27,7 +27,8 @@ params:
     - media/zeichnung.webp
   impressumURL: pages/impressum
   dseURL: pages/datenschutz
-  copyright: "Georg-Cantor-Gymnasium Halle (Saale). Made with :heart: and [Hugo](https://gohugo.io)."
+  copyright: "Georg-Cantor-Gymnasium Halle (Saale). Made with :heart: and
+    [Hugo](https://gohugo.io)."
   plugins:
     css:
       - https://assets.cantorgymnasium.de/bootstrap/v5/css/bootstrap.min.css
@@ -220,7 +221,7 @@ menu:
     - parent: Für Schüler und Eltern
       name: Förderverein
       URL: pages/foerderverein
-      weight: 6
+      weight: 5
       hasChildren: false
       params:
         external: false
@@ -228,13 +229,13 @@ menu:
     - parent: Für Schüler und Eltern
       name: Schülervertretung
       URL: pages/schuelervertretung
-      weight: 7
+      weight: 6
       hasChildren: false
       params:
         external: false
         separator: false
     - name: Elternvertretung
-      weight: 8
+      weight: 7
       URL: pages/elternvertretung
       parent: Für Schüler und Eltern
       hasChildren: false
@@ -248,6 +249,12 @@ menu:
       params:
         external: false
         separator: false
+    - name: Schülerzeitung
+      weight: 9
+      parent: Für Schüler und Eltern
+      URL: https://schuelerzeitung-gcg.de
+      params:
+        external: true
   footer:
     - name: Termine
       URL: termine
