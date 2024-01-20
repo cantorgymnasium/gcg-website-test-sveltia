@@ -13,9 +13,7 @@
   --gcg-color-border: #dee2e6;
   --gcg-font-primary: "Ubuntu", sans-serif;
   --gcg-font-header: "Fira Sans", sans-serif;
-  --gcg-font-icon: "Material Design Icons";
-  --gcg-icon-list: "\f0B2A";
-  --gcg-icon-search: "\f0349";
+  --gcg-icon-list: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-right-circle" class="hi-svg-inline" fill="rgb(255,188,59)" width="1em" height="1em" viewBox="0 0 24 24"><path d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M10,18L16,12L10,6L8.6,7.4L13.2,12L8.6,16.6L10,18Z" /></svg>');
 }
 
 /*  typography */
@@ -298,7 +296,6 @@ textarea.form-control {
 .content ul li::before {
   position: absolute;
   content: var(--gcg-icon-list);
-  font-family: var(--gcg-font-icon);
   font-size: 14px;
   left: 0;
   top: 1px;
@@ -396,6 +393,7 @@ details[open] summary {
 }
 
 .fb-tile-icon {
+  display: flex;
   font-size: 96px;
 }
 
@@ -550,11 +548,9 @@ details[open] summary {
   background: var(--gcg-color-primary);
   color: white;
   font-size: 25px;
-  text-align: center;
-}
-
-.play-btn i {
-  line-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .play-btn::before {
@@ -655,16 +651,6 @@ details[open] summary {
 .nav-item .nav-link {
   text-transform: uppercase;
   font-weight: 600;
-}
-
-.nav-item .nav-link.nav-search::before {
-  position: relative;
-  content: var(--gcg-icon-search);
-  font-family: var(--gcg-font-icon);
-  font-size: 14px;
-  left: 0;
-  top: 1px;
-  transition: 0.3s ease;
 }
 
 .nav-item::before {
@@ -1066,3 +1052,8 @@ link:focus,
     font-size: 1.5em;
   }
 }
+
+.hi-svg-inline {
+  vertical-align: -0.125rem;
+}
+

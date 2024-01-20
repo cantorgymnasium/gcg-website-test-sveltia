@@ -30,12 +30,12 @@
             <li class="list-group-item">
               <p class="card-title mb-0">{{ .name }}</p>
               <p class="text-muted mb-0">{{ .position }}</p>
-              <p class="card-text"><a href="mailto:{{ .email }}"><i class="mdi mdi-email-multiple-outline me-2"></i>{{ with (split .email "@") }}{{ print (index . 0) "(at)" (index . 1) }}{{ end }}</a></p>
+              <p class="card-text"><a href="mailto:{{ .email }}">{{ partial "mdi" "email-multiple-outline" }}<span class="ms-2">{{ with (split .email "@") }}{{ print (index . 0) (partial "mdi" "at") (index . 1) | safeHTML }}{{ end }}</span></a></p>
             </li>
             {{ end }}
             <li class="list-group-item">
-              <p class="card-text"><i class="mdi mdi-phone-outline me-2"></i>Telefon: <a href="tel:+493456903156">+49-0345/6903156</a></p>
-              <p class="card-text"><i class="mdi mdi-fax me-2"></i>Fax: <a href="tel:+493456903157">+49-0345/6903157</a></p>
+              <p class="card-text">{{ partial "mdi" "phone-outline" }}<span class="ms-2">Telefon: <a href="tel:+493456903156">+49-0345/6903156</a></span></p>
+              <p class="card-text">{{ partial "mdi" "fax" }}<span class="ms-2">Fax: <a href="tel:+493456903157">+49-0345/6903157</a></span></p>
             </li>
           </ul>
         </div>

@@ -34,13 +34,6 @@
   // sticky menu
   $(window).scroll(adaptHeight);
 
-  // background image
-  $('[data-background]').each(function () {
-    $(this).css({
-      'background-image': 'url(' + $(this).data('background') + ')'
-    });
-  });
-
   // hero slider
   $('.hero-slider').slick({
     autoplay: true,
@@ -49,8 +42,8 @@
     pauseOnHover: true,
     infinite: true,
     arrows: true,
-    prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'mdi mdi-chevron-left arrowIcon\'></i></button>',
-    nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'mdi mdi-chevron-right arrowIcon\'></i></button>',
+    prevArrow: '<button type=\'button\' class=\'prevArrow\'><svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-left" class="arrowIcon" viewBox="0 0 24 24" height="1em" width="1em" fill="currentColor"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" /></svg></button>',
+    nextArrow: '<button type=\'button\' class=\'nextArrow\'><svg xmlns="http://www.w3.org/2000/svg" id="mdi-chevron-left" class="arrowIcon" viewBox="0 0 24 24" height="1em" width="1em" fill="currentColor"><path xmlns="http://www.w3.org/2000/svg" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg></button>',
     dots: true
   });
 

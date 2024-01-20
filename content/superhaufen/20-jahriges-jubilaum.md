@@ -26,7 +26,7 @@ tiles:
 
 
     title: Programm
-    icon: mdi mdi-text
+    icon: text
     bg_color: "#44bda7"
     font_color: "#ffffff"
 ---

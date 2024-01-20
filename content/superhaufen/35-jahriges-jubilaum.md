@@ -9,7 +9,7 @@ previous:
 tiles:
   - title: Aktionen
     bg_color: "#f85d1f"
-    icon: mdi mdi-file-document-outline
+    icon: file-document-outline
     font_color: "#ffffff"
     content: "\ \n"
     unterhaufen:
@@ -32,12 +32,12 @@ tiles:
 
   - title: Festveranstaltung
     bg_color: "#2a1dc8"
-    icon: mdi mdi-party-popper
+    icon: party-popper
     font_color: "#fff9f9"
     content: "\ \n"
   - title: Flashmob
     bg_color: "#49e649"
-    icon: mdi mdi-crowd
+    icon: crowd
     font_color: "#fff5f5"
     content: "\ \n"
 ---

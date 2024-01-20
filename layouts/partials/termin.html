@@ -10,7 +10,8 @@
         <h4 class="card-title mb-0">{{ .title }}</h4>
         {{ with .location }}
         <div class="card-text d-flex align-items-center">
-          <i class="mdi mdi-map-marker-radius-outline icon-s text-primary me-2"></i>{{ . | markdownify }}
+          <span class="text-primary icon-s d-flex me-2">{{ partial "mdi" "map-marker-radius-outline" }}</span>
+          {{ . | markdownify }}
         </div>
         {{ end }}
       </div>

@@ -54,7 +54,7 @@
         <div class="col-sm-5 text-sm-end text-center">
           <ul class="list-inline">
             {{ range .Site.Params.social }}
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><span class="text-primary">{{ partial "mdi" .icon }}</span></a></li>
             {{ end }}
           </ul>
         </div>

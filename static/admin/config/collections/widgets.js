@@ -41,7 +41,7 @@ const IconList = {
   label: "Symbol",
   widget: "string",
   required: false,
-  hint: "Liste unter https://assets.cantorgymnasium.de/fonts/mdi/v7/preview.html",
+  hint: "Liste unter https://assets.cantorgymnasium.de/fonts/mdi/v7/preview.html. Das `mdi` am Anfang ist wegzulassen.",
 };
 
 const PreviewNumber = {

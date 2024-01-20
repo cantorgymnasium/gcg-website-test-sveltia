@@ -6,7 +6,7 @@
 
 {{ if $data.homepage.slider.enable }}
 {{ with $data.homepage.slider }}
-<section class="hero-section overlay bg-cover hero-default" data-background="{{ .bg_image | absURL }}">
+<section class="hero-section overlay bg-cover hero-default" style="background-image: url('{{ .bg_image | absURL }}');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -117,12 +117,12 @@
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
         <div class="card border-info rounded-0 hover-shadow mb-2">
           <span class="position-absolute top-0 start-0 ms-5 translate-middle p-2 text-bg-info border border-info rounded-pill">
-            <i class="mdi mdi-pin me-2">Angeheftet</i>
+            {{ partial "mdi" "pin" }} Angeheftet
           </span>        
           <img class="card-img-top rounded-0" src="{{ .image | relURL }}" alt="{{ .title }}" onclick="$('#{{ md5 .title }}').modal('show');">
           <div class="card-body d-flex flex-column">
             <span class="text-truncate mb-2">
-              <i class="mdi mdi-fountain-pen-tip me-2"></i>
+              {{ partial "mdi" "fountain-pen-tip" }}
               {{ partial "authors" (dict "Site" $.Site "author" .author )}}
             </span>
             <h4 class="card-title text-truncate" onclick="$('#{{ md5 .title }}').modal('show');">{{ .title }}</h4>
@@ -145,7 +145,7 @@
 
 {{ if $data.homepage.success_banner.enable }}
 {{ with $data.homepage.success_banner }}
-<section class="section bg-cover" data-background="{{ .image | absURL }}" id="success">
+<section class="section bg-cover" style="background-image: url('{{ .image | absURL }}');" id="success">
   <div class="container">
     <div class="row feature-blocks bg-white justify-content-between">
       {{ range .feature_item }}
@@ -154,7 +154,7 @@
           <img src="{{ . }}" class="mb-xl-4 mb-lg-3 mb-4 feature-icon"></img>
         {{ end }}
         {{ with .icon }}
-          <i class="{{ . }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+          <span class="mb-xl-4 mb-lg-3 mb-4 feature-icon d-flex">{{ partial "mdi" . }}</span>
         {{ end }}
         <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
         <div class="content">

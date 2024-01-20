@@ -10,14 +10,14 @@
     {{ if ne $paginator.PageNumber 1 }}
     <li class="page-item">
       <a class="page-link" href="{{ $paginator.First.URL }}">
-        <i class="mdi mdi-step-backward-2"></i>
+        {{ partial "mdi" "step-backward-2" }}
       </a>
     </li>
     {{ end }}
     {{ if $paginator.HasPrev }}
     <li class="page-item">
       <a href="{{ $paginator.Prev.URL }}" class="page-link">
-        <i class="mdi mdi-step-backward"></i>
+        {{ partial "mdi" "step-backward" }}
       </a>
     </li>
     {{ end }}
@@ -51,14 +51,14 @@
     {{ if $paginator.HasNext }}
     <li class="page-item">
       <a href="{{ $paginator.Next.URL }}" class="page-link">
-        <i class="mdi mdi-step-forward"></i>
+        {{ partial "mdi" "step-forward" }}
       </a>
     </li>
     {{ end }}
     {{ if ne $paginator.PageNumber $paginator.TotalPages }}
     <li class="page-item">
       <a class="page-link" href="{{ $paginator.Last.URL }}">
-        <i class="mdi mdi-step-forward-2"></i>
+        {{ partial "mdi" "step-forward-2" }}
       </a>
     </li>
     {{ end }}

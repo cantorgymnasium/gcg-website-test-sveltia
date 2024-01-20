@@ -14,7 +14,7 @@
 		  {{ .Content }}
 		  <hr>
 		  {{ with .Params.email }}
-		      <a href="mailto:{{ . }}"><i class="mdi mdi-at"></i></a>
+		      <a href="mailto:{{ . }}">{{ partial "icons/icon" (dict "vendor" "mdi" "name" "at") }}</a>
 		  {{ end }}
 		</div>
   </div>

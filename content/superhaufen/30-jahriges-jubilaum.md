@@ -10,7 +10,7 @@ tiles:
   - title: Festveranstaltung
     bg_color: "#ffef00"
     font_color: "#ffffff"
-    icon: mdi mdi-crowd
+    icon: crowd
     content: |+
 
 
@@ -135,7 +135,7 @@ tiles:
           {{< gallery dir="/media/schulchronik/2018/festveranstaltung" >}}
   - title: Aktionen
     bg_color: "#0fe008"
-    icon: mdi mdi-theater
+    icon: theater
     content: >
       Den Freitag, den zweiten Tag der Festtage zum 30. Jubiläum, verbrachten
       Schülerinnen und Schüler mit unterschiedlichen Aktionen, wie zum Beispiel
@@ -292,7 +292,7 @@ tiles:
           {{< gallery dir="/media/schulchronik/2018/rallye" >}}
   - title: Flashmob
     bg_color: "#0051e5"
-    icon: mdi mdi-all-inclusive
+    icon: all-inclusive
     content: >
       Unser geliebtes Gymnasium feierte im Jahr 2018 sein 30-jähriges Jubiläum.
 

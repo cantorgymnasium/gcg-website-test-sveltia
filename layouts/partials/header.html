@@ -6,8 +6,9 @@
         <div class="col-lg-4 text-center text-lg-start">
           <ul class="list-inline">
             {{ range .Site.Params.social }}
-            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-body-secondary" href="{{ .link | safeURL }}"><i
-                  class="{{ .icon }}"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-body-secondary" href="{{ .link | safeURL }}">
+              {{ partial "mdi" .icon }}
+            </a></li>
             {{ end }}
           </ul>
         </div>
@@ -20,7 +21,7 @@
             </li>
             <li class="list-inline-item">
               <a class="text-body-secondary" href="mailto:{{ .Site.Params.email }}">
-                <strong class="text-uppercase">E-Mail:</strong> {{ .Site.Params.email_label | safeHTML }}
+                <strong class="text-uppercase">E-Mail:</strong> {{ replace .Site.Params.email_label "(at)" (partial "mdi" "at") | safeHTML }}
               </a>
             </li>
           </ul>
@@ -67,7 +68,7 @@
             {{ end }}
             {{ end }}
             <li class="nav-item">
-              <div class="nav-link nav-search" onclick="$('#pagefind-search').modal('show');">Suche</button>
+              <div class="nav-link nav-search" onclick="$('#pagefind-search').modal('show');">{{ partial "mdi" "magnify" }}Suche</div>
             </li>
           </ul>
         </div>
@@ -90,7 +91,7 @@
   <div id="top-banner" class="p-3" style="background: {{ .color }}" data-pagefind-ignore>
     <div class="container">
       <div class="no-gutters align-items-center">
-        <div style="color: {{ .font_color }}"><b><i class="{{ .icon }}"></i> {{ .text | markdownify }}</b></div>
+        <div style="color: {{ .font_color }}"><b>{{ partial "mdi" .icon }} {{ .text | markdownify }}</b></div>
       </div>
     </div>
   </div>

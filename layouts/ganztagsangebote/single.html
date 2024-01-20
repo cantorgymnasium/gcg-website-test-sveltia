@@ -6,10 +6,10 @@
     <img src="{{ .Params.image | relURL }}" class="img-fluid w-100 mb-4">
     <h2 class="mb-4">{{ .Title }}</h2>
     <div class="row mb-4">
-      {{ partial "icon-element" (dict "size" 3 "icon" "mdi-calendar-today-outline" "title" "Zeit" "content" .Params.schedule) }}
-      {{ partial "icon-element" (dict "size" 3 "icon" "mdi-timer-sand" "title" "Dauer" "content" .Params.duration) }}
-      {{ partial "icon-element" (dict "size" 3 "icon" "mdi-crowd" "title" "Klassen" "content" .Params.class) }}
-      {{ partial "icon-element" (dict "size" 3 "icon" "mdi-map-marker-radius-outline" "title" "Raum" "content" .Params.room) }}
+      {{ partial "icon-element" (dict "size" 3 "icon" "calendar-today-outline" "title" "Zeit" "content" .Params.schedule) }}
+      {{ partial "icon-element" (dict "size" 3 "icon" "timer-sand" "title" "Dauer" "content" .Params.duration) }}
+      {{ partial "icon-element" (dict "size" 3 "icon" "crowd" "title" "Klassen" "content" .Params.class) }}
+      {{ partial "icon-element" (dict "size" 3 "icon" "map-marker-radius-outline" "title" "Raum" "content" .Params.room) }}
     </div>
     <hr class="mb-4">
     <div class="content text-justify">

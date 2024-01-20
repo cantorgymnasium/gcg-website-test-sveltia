@@ -1,10 +1,10 @@
 {{ with .Site.Data.homepage.info }}
-<section class="section bg-cover" data-background="{{ .bg_image | absURL }}">
+<section class="section bg-cover" style="background-image: url('{{ .bg_image | absURL }}');">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-sm-4 position-relative intro-video">
         <a class="play-btn vb-video" href="{{ .video_link | safeURL }}" data-vbtype="video">
-          <i class="mdi mdi-play icon-md"></i>
+          <span class="icon-md d-flex">{{ partial "mdi" "play" }}</span>
         </a>
       </div>
       <div class="col-lg-6 col-sm-8">

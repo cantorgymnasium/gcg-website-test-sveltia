@@ -1,6 +1,6 @@
 <div class="col-lg-{{.size}} col-sm-{{ mul (int .size) 2 }} mb-3 mb-sm-0">
 	<div class="d-flex align-items-center">
-		<i class="mdi {{ .icon }} text-primary icon-md me-2"></i>
+		<span class="text-primary icon-md d-flex me-2">{{ partial "mdi" .icon }}</span>
 		<div class="text-start">
 		  <h6 class="mb-0 text-uppercase">{{ .title }}</h6>
 		  <p class="mb-0">{{ .content }}</p>

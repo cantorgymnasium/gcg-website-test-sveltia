@@ -1,7 +1,7 @@
 <div class="card border-primary rounded-0 hover-shadow mb-2">
   <a href="{{ .Permalink }}"><img class="card-img-top rounded-0" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}"></a>
   <div class="card-body">
-    <div class="mb-2"><i class="mdi mdi-bookmark-outline me-2"></i>{{ .Params.category }}</div>
+    <div class="mb-2">{{ partial "mdi" "bookmark-outline" }}<span class="ms-2">{{ .Params.category }}</span></div>
     <h4 class="card-title text-truncate"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
     <a href="{{ .Permalink }}" class="btn btn-primary btn-sm" data-pagefind-ignore>Mehr anzeigen</a>
   </div>

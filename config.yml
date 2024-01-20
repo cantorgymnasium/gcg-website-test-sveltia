@@ -20,7 +20,7 @@ params:
   address: Georg-Cantor-Gymnasium <br> Torstraße 13 <br> 06110 Halle (Saale)
   top_header: true
   email: schulleitung@cantor-gymnasium.de
-  email_label: schulleitung<i class='mdi mdi-at'></i>cantor-gymnasium.de
+  email_label: schulleitung(at)cantor-gymnasium.de
   description: Das Georg-Cantor-Gymnasium - eine
     mathematisch-naturwissenschaftliche Spezialschule in Halle (Saale).
   images:
@@ -34,7 +34,6 @@ params:
       - https://assets.cantorgymnasium.de/bootstrap/v5/css/bootstrap.min.css
       - https://assets.cantorgymnasium.de/slick/v1.8/slick.css
       - https://assets.cantorgymnasium.de/venobox/v2/dist/venobox.min.css
-      - https://assets.cantorgymnasium.de/fonts/mdi/v7/css/materialdesignicons.min.css
       - https://assets.cantorgymnasium.de/fonts/fira/fira.css
       - https://assets.cantorgymnasium.de/fonts/ubuntu/ubuntu.css
     js:
@@ -47,16 +46,16 @@ params:
       - https://assets.cantorgymnasium.de/filterizr/v2/dist/vanilla.filterizr.min.js
   social:
     - title: YouTube
-      icon: mdi mdi-youtube
+      icon: youtube
       link: https://www.youtube.com/@cantornews
     - title: Twitter
-      icon: mdi mdi-twitter
+      icon: twitter
       link: https://twitter.com/cantor_news
     - title: Instagram
-      icon: mdi mdi-instagram
+      icon: instagram
       link: https://instagram.com/cantor.news
     - title: Facebook
-      icon: mdi mdi-facebook
+      icon: facebook
       link: https://facebook.com/cantor.news
   preloader:
     enable: true
@@ -274,3 +273,6 @@ privacy:
     privacyEnhanced: true
   vimeo:
     enableDNT: true
+module:
+  imports:
+  - path: github.com/hugomods/icons/vendors/mdi
