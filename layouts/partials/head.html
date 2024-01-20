@@ -49,6 +49,11 @@
   {{ partial "opengraph" . }}
   {{ partial "twitter" . }}
 
+  {{ if eq .Page.RelPermalink "/" }}
+    <link rel="preload" fetchpriority="high" as="image" href="/media/home/banner.webp" type="image/webp">
+  {{ else }}
+    <link rel="preload" fetchpriority="high" as="image" href="/media/titelbild.webp" type="image/webp">
+  {{ end }}
 </head>
 
 <div id="pagefind-search" class="modal fade" data-pagefind-ignore>
