@@ -43,7 +43,7 @@ params:
     head_js:
       - https://assets.cantorgymnasium.de/jquery/v3.7/jquery.min.js
       - https://assets.cantorgymnasium.de/venobox/v2/dist/venobox.min.js
-      - https://assets.cantorgymnasium.de/filterizr/v2/dist/vanilla.filterizr.min.js
+      - https://assets.cantorgymnasium.de/shuffle/v6/shuffle.min.js
   social:
     - title: YouTube
       icon: youtube

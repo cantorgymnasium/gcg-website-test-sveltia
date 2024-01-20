@@ -65,20 +65,15 @@
 
   // filter
   $(document).ready(function () {
-    var containerEl = document.querySelector('.filtr-container');
-    if (containerEl) {
-      new Filterizr(
-        '.filtr-container',
-        {
-          layout: 'sameWidth',
-          gutterPixels: 10
-        }
-      );
-    } 
-    // active changer
+    const shuffleInstance = new Shuffle($('.filter-container'), {
+      itemSelector: '.filter-item',
+      sizer: '.filter-sizer', // could also be a selector: '.js-shuffle-sizer'
+      delimiter: ','
+    });
     $('.filter-controls li').on('click', function () {
       $('.filter-controls li').removeClass('active');
       $(this).addClass('active');
+      shuffleInstance.filter($(this).data('filter'))
     });
   });
 

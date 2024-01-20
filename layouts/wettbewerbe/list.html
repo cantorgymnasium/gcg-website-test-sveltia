@@ -3,12 +3,13 @@
 <section class="section">
   <div class="container">
     {{ partial "filter-controls" . }}
-    <div class="row filtr-container">
+    <div class="filter-container row">
       {{ range .Data.Pages }}
-      <div data-category="{{ .Params.category | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
+      <div data-groups="{{ .Params.category | urlize }}" class="col-lg-4 col-sm-6 filter-item">
         {{ partial "card-category" . }}
       </div>
       {{ end }}
+      <div class="filter-sizer col-1"></div>
     </div>
   </div>
 </section>

@@ -31,11 +31,11 @@ const EventPreview = ({ widgetsFor, entry }) => {
         ),
         h(
           "div",
-          { className: "filtr-container row" },
+          { className: "filter-container row" },
           widgetsFor("events").map((event) =>
             h(
               "div",
-              { className: "filtr-item col-12" },
+              { className: "filter-item col-12" },
               h(
                 "div",
                 {

@@ -7,12 +7,13 @@
       <li class="list-inline-item m-3 text-uppercase" data-filter="upcoming">Anstehend</li>
       <li class="list-inline-item m-3 text-uppercase" data-filter="past">Vergangen</li>
     </ul>
-    <div class="filtr-container row mx-auto">
+    <div class="filter-container row mx-auto">
       {{ range .Params.events }}
-      <div class="filtr-item col-12" data-category="{{ if or (ge (.date | time.AsTime).Unix now.Unix) (and .enddate (ge (.enddate | time.AsTime).Unix now.Unix)) }}upcoming{{else}}past{{end}}" data-time="{{.date}}">
+      <div class="filter-item col-12" data-groups="{{ if or (ge (.date | time.AsTime).Unix now.Unix) (and .enddate (ge (.enddate | time.AsTime).Unix now.Unix)) }}upcoming{{else}}past{{end}}" data-time="{{.date}}">
         {{ partial "termin" . }}
       </div>
       {{ end }}
+      <div class="filter-sizer col-1"></div>
     </div>
   </div>
 </section>
