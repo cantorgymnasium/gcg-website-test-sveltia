@@ -10,15 +10,8 @@ type: pages
 aliases:
   - /schulchronik/pages/abiturdurchschnitte
 ---
-<script src="https://assets.cantorgymnasium.de/echarts/v5/echarts.min.js"></script>
-<style>
-#chart-container {
-  position: relative;
-  height: 50vh;
-  overflow: hidden;
-}
-</style>
 
+<script src="https://assets.cantorgymnasium.de/echarts/v5/echarts.min.js"></script>
 <div id="chart-container"></div>
 <script>
   var dom = document.getElementById("chart-container");

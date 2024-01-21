@@ -1,4 +1,4 @@
-(function ($) {
+(($) => {
   'use strict';
 
   // adapt header to height
@@ -18,7 +18,7 @@
   }
 
   // load scripts
-  $(window).on('load', function () {
+  $(window).on('load', () => {
     $('.preloader').fadeOut(100);
     adaptHeight();
     if ($('#top-banner').length) {
@@ -48,12 +48,9 @@
   });
 
   // venobox popup
-  $(document).ready(function () {
-    new VenoBox({
-      selector: '.vb-video',
-      spinner: 'grid'
-    });
-    new VenoBox({
+  $(document).ready(() => {
+    $('.vb-video').venobox({ spinner: 'grid' });
+    $('.vb-gallery').venobox({
       selector: '.vb-gallery',
       numeration: true,
       infinigall: true,
@@ -64,48 +61,73 @@
   });
 
   // filter
-  $(document).ready(function () {
-    const shuffleInstance = new Shuffle($('.filter-container'), {
-      itemSelector: '.filter-item',
-      sizer: '.filter-sizer', // could also be a selector: '.js-shuffle-sizer'
-      delimiter: ','
-    });
-    $('.filter-controls li').on('click', function () {
-      $('.filter-controls li').removeClass('active');
-      $(this).addClass('active');
-      shuffleInstance.filter($(this).data('filter'))
-    });
+  $(document).ready(() => {
+    if ($('.filter-container').length != 0) {
+      const shuffleInstance = new Shuffle($('.filter-container'), {
+        itemSelector: '.filter-item',
+        sizer: '.filter-sizer',
+        delimiter: ','
+      });
+      $('.filter-controls li').on('click',() => {
+        $('.filter-controls li').removeClass('active');
+        $(this).addClass('active');
+        shuffleInstance.filter($(this).data('filter'))
+      });
+    }
   });
 
-  // count up
-  function counter() {
+  // counter
+  $(window).on('scroll', () => {
     var oTop;
     if ($('.count').length !== 0) {
       oTop = $('.count').offset().top - window.innerHeight;
     }
     if ($(window).scrollTop() > oTop) {
-      $('.count').each(function () {
-        var $this = $(this),
-          countTo = $this.attr('data-count');
-        $({
-          countNum: $this.text()
-        }).animate({
-          countNum: countTo
-        }, {
-          duration: 1000,
-          easing: 'swing',
-          step: function () {
-            $this.text(Math.floor(this.countNum));
-          },
-          complete: function () {
-            $this.text(this.countNum);
-          }
-        });
+      $('.count').each(() => {
+        var $this = $(this), countTo = $this.attr('data-count');
+        $({ countNum: $this.text() }).animate(
+          { countNum: countTo },
+          {
+            duration: 1000,
+            easing: 'swing',
+            step: () => $this.text(Math.floor(this.countNum)),
+            complete: () => $this.text(this.countNum)
+          });
       });
     }
-  }
-  $(window).on('scroll', function () {
-    counter();
   });
+
+  $(window).on('DOMContentLoaded', () => {
+    if (window.PagefindUI != undefined) {
+      new window.PagefindUI({
+        element: "#search",
+        translations: {
+          placeholder: "Suchen...",
+          zero_results: "Leider konnten keine Ergebnisse zu [SEARCH_TERM] gefunden werden",
+          clear_search: "Löschen"
+        }
+      });
+  
+      $('#pagefind-search').on('shown.bs.modal', () => {
+        $('.pagefind-ui__search-input').focus();
+      });
+    }
+  });
+
+  // enable matomo analytics
+  var _paq = window._paq = window._paq || [];
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (() => {
+    var u="https://analytics.cantorgymnasium.de/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+  new LazyLoad();
   
 })(jQuery);

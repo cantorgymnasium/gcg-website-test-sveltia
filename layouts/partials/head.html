@@ -17,9 +17,16 @@
   <link rel="shortcut icon" href="{{ `media/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `media/favicon.png` | absURL }}" type="image/x-icon">
 
+  {{ if eq .Page.RelPermalink "/" }}
+    <link rel="preload" fetchpriority="high" as="image" href="/media/home/banner.webp" type="image/webp">
+  {{ else }}
+    <link rel="preload" fetchpriority="high" as="image" href="/media/titelbild.webp" type="image/webp">
+  {{ end }}
+
   {{ range .Site.Params.plugins.head_js }}
     <script src="{{ . | absURL }}" type="text/javascript"></script>
   {{ end }}
+  
   <!-- jquery passive listener fixes -->
   <script>
     jQuery.event.special.touchstart = {
@@ -44,24 +51,6 @@
     };
   </script>
 
-  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-
   {{ partial "opengraph" . }}
   {{ partial "twitter" . }}
-
-  {{ if eq .Page.RelPermalink "/" }}
-    <link rel="preload" fetchpriority="high" as="image" href="/media/home/banner.webp" type="image/webp">
-  {{ else }}
-    <link rel="preload" fetchpriority="high" as="image" href="/media/titelbild.webp" type="image/webp">
-  {{ end }}
 </head>
-
-<div id="pagefind-search" class="modal fade" data-pagefind-ignore>
-  <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <div id="search"></div>
-      </div>
-    </div>
-  </div>
-</div>

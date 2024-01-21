@@ -32,7 +32,7 @@
   {{ end }}
   <div class="navigation w-100">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+      <nav class="navbar navbar-expand-xl navbar-dark p-0">
         
         <a class="navbar-brand" href="{{ .Site.BaseURL | relURL }}"><img height="60"
             src="{{ .Site.Params.logo | absURL }}" class="py-2" alt="{{ .Site.Title }}"></a>
@@ -98,3 +98,13 @@
   {{ end }}
   {{ end }}
 {{ end }}
+
+<div id="pagefind-search" class="modal fade" data-pagefind-ignore>
+  <div class="modal-dialog modal-xl modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div id="search"></div>
+      </div>
+    </div>
+  </div>
+</div>

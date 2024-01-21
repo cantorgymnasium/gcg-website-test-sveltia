@@ -2,7 +2,7 @@
 title: Einladung Weihnachtskonzert 2023
 date: 2023-11-04T23:10:45.890+01:00
 draft: false
-image: /media/gcgweihnachten.png
+image: /media/blog/weihnachten.webp
 author:
   - herr-berger
 categories:

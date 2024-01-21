@@ -6,13 +6,6 @@ aliases:
   - /schulchronik/pages/schülerzahlen
 ---
 <script src="https://assets.cantorgymnasium.de/echarts/v5/echarts.min.js"></script>
-<style>
-#chart-container {
-  position: relative;
-  height: 50vh;
-  overflow: hidden;
-}
-</style>
 
 <div id="chart-container"></div>
 <script>
