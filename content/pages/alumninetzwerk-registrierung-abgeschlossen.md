@@ -12,3 +12,9 @@ Ihre Kontaktdaten wurden erfolgreich in unser System aufgenommen.
 Viele Grüße
 
 Ihr Team des Georg-Cantor-Gymnasiums
+
+
+
+{{< card title="Zurück zur Startseite" link="https://cantorgymnasium.de/" >}}
+
+
