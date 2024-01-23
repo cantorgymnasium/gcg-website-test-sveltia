@@ -1,6 +1,5 @@
 ---
 title: Alumninetzwerk
-draft: true
 aliases:
   - /schulchronik/pages/alumninetzwerk
   - /chronikseiten/alumninetzwerk
