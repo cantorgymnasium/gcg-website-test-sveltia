@@ -18,7 +18,7 @@
   }
 
   // load scripts
-  $(window).on('load', () => {
+  $(window).on('load', function() {
     $('.preloader').fadeOut(100);
     adaptHeight();
     if ($('#top-banner').length) {
@@ -48,7 +48,7 @@
   });
 
   // venobox popup
-  $(document).ready(() => {
+  $(document).ready(function() {
     $('.vb-video').venobox({ spinner: 'grid' });
     $('.vb-gallery').venobox({
       selector: '.vb-gallery',
@@ -61,14 +61,14 @@
   });
 
   // filter
-  $(document).ready(() => {
+  $(document).ready(function() {
     if ($('.filter-container').length != 0) {
       const shuffleInstance = new Shuffle($('.filter-container'), {
         itemSelector: '.filter-item',
         sizer: '.filter-sizer',
         delimiter: ','
       });
-      $('.filter-controls li').on('click',() => {
+      $('.filter-controls li').on('click', function() {
         $('.filter-controls li').removeClass('active');
         $(this).addClass('active');
         shuffleInstance.filter($(this).data('filter'))
@@ -77,27 +77,27 @@
   });
 
   // counter
-  $(window).on('scroll', () => {
+  $(window).on('scroll', function() {
     var oTop;
     if ($('.count').length !== 0) {
       oTop = $('.count').offset().top - window.innerHeight;
     }
     if ($(window).scrollTop() > oTop) {
-      $('.count').each(() => {
+      $('.count').each(function() {
         var $this = $(this), countTo = $this.attr('data-count');
         $({ countNum: $this.text() }).animate(
           { countNum: countTo },
           {
             duration: 1000,
             easing: 'swing',
-            step: () => $this.text(Math.floor(this.countNum)),
-            complete: () => $this.text(this.countNum)
+            step: function() { return $this.text(Math.floor(this.countNum)) },
+            complete: function() { return $this.text(this.countNum) },
           });
       });
     }
   });
 
-  $(window).on('DOMContentLoaded', () => {
+  $(window).on('DOMContentLoaded', function() {
     if (window.PagefindUI != undefined) {
       new window.PagefindUI({
         element: "#search",
@@ -108,7 +108,7 @@
         }
       });
   
-      $('#pagefind-search').on('shown.bs.modal', () => {
+      $('#pagefind-search').on('shown.bs.modal', function() {
         $('.pagefind-ui__search-input').focus();
       });
     }
@@ -120,7 +120,7 @@
   _paq.push(["disableCookies"]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
-  (() => {
+  (function() {
     var u="https://analytics.cantorgymnasium.de/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
     _paq.push(['setSiteId', '1']);
