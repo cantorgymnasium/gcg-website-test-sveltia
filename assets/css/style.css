@@ -242,6 +242,10 @@ textarea.form-control {
   padding: 20px;
 }
 
+.form-control:required:invalid {
+  border: 1px solid #f36;
+}
+
 .post-thumb-sm {
   max-width: 100px;
 }

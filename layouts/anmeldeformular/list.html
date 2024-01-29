@@ -13,6 +13,7 @@
             <input type="text" class="form-control mb-3" id="student_name" name="student_name" placeholder="Vorname" required>
           </div>
           <div class="input-group mb-3">
+            <input type="text" class="form-control" id="student_sex" name="student_sex" placeholder="Geschlecht" required>
             <span class="input-group-text">Geburtsdatum</span>
             <input type="date" class="form-control" id="student_birthday" name="student_birthday" min="2005-01-01" required>
           </div>
@@ -30,7 +31,22 @@
             <input type="tel" class="form-control mb-3" id="tpriv" name="tpriv" placeholder="Telefon privat">
             <input type="tel" class="form-control mb-3" id="tdienstl" name="tdienstl" placeholder="Telefon dienstl.">
           </div>
-          <input type="text" class="form-control mb-3" id="parent_name" name="parent_name" placeholder="Abweichender Elternname">
+          <div class="input-group">
+            <select class="form-control" name="anrede" id="anrede" required>
+              <option value="keine Angabe">keine Angabe</option>
+              <option value="Herr">Herr</option>
+              <option value="Frau">Frau</option>
+            </select>
+            <input type="text" class="form-control" id="parent_name" name="parent_name" placeholder="Nachname (Erziehungsberechtigter 1)" required>
+          </div>
+          <div class="input-group mb-3">
+            <select class="form-control" name="anrede" id="anrede">
+              <option value="keine Angabe">keine Angabe</option>
+              <option value="Herr">Herr</option>
+              <option value="Frau">Frau</option>
+            </select>
+            <input type="text" class="form-control" id="parent_name" name="parent_name" placeholder="Nachname (Erziehungsberechtigter 2)">
+          </div>
           <input type="text" class="form-control mb-3" id="grundschule" name="grundschule" placeholder="Grundschule" required>
           <input type="email" class="form-control mb-3" id="parent_email" name="parent_email" placeholder="Ihre E-Mail-Adresse" required>
           <textarea id="message" name="message" class="form-control mb-3" placeholder="Bemerkungen"></textarea>
