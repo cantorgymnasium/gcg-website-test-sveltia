@@ -1,8 +1,10 @@
 top_banner:
   enable: true
-  text: >
-    Aktuelle Termine: Am 19.12.2023 findet unser **Weihnachtsbasar** 16-19 Uhr
-    statt.  <br>**Weihnachtssingen** am 20.12.2023, 11 Uhr
+  text: Um zur Aufnahmeprüfung zugelassen werden zu können, müssen das
+    Aufnahmeformular, eine Kopie des Halbjahreszeugnisses und die
+    Schullaufbahnempfehlung bis spätestens Mittwoch, den 7. Februar 2024,
+    eingereicht werden. Bitte beachten Sie dazu die Hinweise unter
+    [https://cantorgymnasium.de/anmeldung/](https://cantorgymnasium.de/anmeldung/).
   color: "#19aa96"
   font_color: "#ffffff"
   icon: gift-open
