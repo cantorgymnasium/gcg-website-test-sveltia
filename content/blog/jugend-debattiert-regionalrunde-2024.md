@@ -1,7 +1,7 @@
 ---
 title: Jugend debattiert Regionalrunde 2024
 date: 2024-02-02T08:58:01.100+01:00
-draft: true
+draft: false
 image: /media/wettbewerbe/jugenddebattiert.webp
 author:
   - frau-schulz
