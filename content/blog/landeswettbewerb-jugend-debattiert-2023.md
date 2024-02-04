@@ -15,6 +15,7 @@ subjects:
   - Sozialkunde
 tags:
   - "2023"
+  - jugenddebattiert
 type: post
 ---
 Am 17. April debattierten im Landtag in Magdeburg mal nicht die Politiker, sondern die Nachwuchstalente des Wettbewerbs Jugend debattiert.
