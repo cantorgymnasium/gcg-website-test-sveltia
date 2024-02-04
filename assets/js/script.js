@@ -49,8 +49,11 @@
 
   // venobox popup
   $(document).ready(function() {
-    $('.vb-video').venobox({ spinner: 'grid' });
-    $('.vb-gallery').venobox({
+    new VenoBox({
+      selector: '.vb-video',
+      spinner: 'grid'
+    });
+    new VenoBox({
       selector: '.vb-gallery',
       numeration: true,
       infinigall: true,
