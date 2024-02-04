@@ -4,14 +4,17 @@ date: 2024-02-02T08:58:01.100+01:00
 draft: true
 image: /media/wettbewerbe/jugenddebattiert.webp
 author:
-  - franziska-berner
   - frau-schulz
+  - franziska-berner
 categories:
   - Wettbewerbe
   - Gesellschaftswissenschaften
 subjects:
   - Sozialkunde
   - Deutsch
+tags:
+  - "2024"
+  - jugenddebattiert
 type: post
 ---
 ### Wettbewerb Jugend debattiert - Regionalrunde 2024
@@ -23,3 +26,9 @@ Noch vor der Mittagspause standen die Finalisten fest. Wieland, Jette und Kathar
 Einen recht herzlichen Dank gilt auch den Juroren, ohne sie kann der Wettbewerb nicht durchgeführt werden. Unser Dank gilt Gordon May und Tim Kossel für die Altersklasse I und Dion Ardyli und Florian Roßner für die Altersklasse II.
 
 Für Jette geht es am 26.2. in den Landtag, um im Landesausscheid wieder zu spannenden Themen zu debattieren. Dazu wünschen wir ihr eine gute Vorbereitung und starke Nerven!
+
+
+
+{{< gallery dir="/media/blog/Sj2023_2024/JDRegio2024" >}}
+
+
