@@ -59,7 +59,9 @@
       infinigall: true,
       share: true,
       shareStyle: 'block',
-      spinner: 'grid'
+      spinner: 'grid',
+      fitView: true,
+      navTouch: true,
     });
   });
 
