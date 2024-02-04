@@ -14,6 +14,7 @@ subjects:
   - Sozialkunde
 tags:
   - "2023"
+  - jugenddebattiert
 type: post
 ---
 ## Großartige Talente beim Regionalwettbewerb „Jugend debattiert“
