@@ -4,8 +4,7 @@ description: Hier finden Sie die Informationen zur Aufnahme am Georg-Cantor-Gymn
 elements:
   - title: Anmeldung
     content: >
-      Bis spätestens drei Werktage nach Ausgabe der Halbjahreszeugnisse
-      müssen:
+      Bis spätestens drei Werktage nach Ausgabe der Halbjahreszeugnisse müssen:
 
 
       - eine [schriftliche Anmeldung](/forms/anmeldeformular/) oder eine Anmeldung über das [Online-Anmeldeformular](/anmeldeformular)
@@ -18,12 +17,12 @@ elements:
       am Georg-Cantor-Gymnasium [eingereicht](/kontakt) werden.
 
 
-      Gern können Sie uns die Unterlagen per Mail an [aufnahme(at)cantor-gymnasium.de](mailto:aufnahme@cantor-gymnasium.de) zusenden. Die Einladung zur Aufnahmeprüfung mit allen nötigen Informationen erhalten Sie dann ebenfalls per Mail.
+      Gern können Sie uns die Unterlagen per Mail an [aufnahme(at)cantor-gymnasium.de](mailto:aufnahme@cantor-gymnasium.de) zusenden. Die Einladung zur Aufnahmeprüfung mit allen nötigen Informationen erhalten Sie dann schnellstmöglich.
   - title: Aufnahmeprüfung
     content: >
-      Zur Aufnahme am Georg-Cantor-Gymnasium muss, in der Regel am ersten
-      oder zweiten Samstag nach den Winterferien, eine Aufnahmeprüfung
-      absolviert werden, die aus zwei Teilen besteht:
+      Zur Aufnahme am Georg-Cantor-Gymnasium muss, in der Regel am ersten oder
+      zweiten Samstag nach den Winterferien, eine Aufnahmeprüfung absolviert
+      werden, die aus zwei Teilen besteht:
 
 
       - kognitiver Fähigkeitstest (90 Minuten)
