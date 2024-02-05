@@ -1,16 +1,18 @@
 top_banner:
   enable: true
-  text: >
+  text: >+
     Um zur Aufnahmeprüfung zugelassen werden zu können, müssen das
     Aufnahmeformular und eine Kopie des Halbjahreszeugnisses bis spätestens
     Mittwoch, den 7. Februar 2024, eingereicht werden. Bitte beachten Sie dazu
     die Hinweise unter
     [https://cantorgymnasium.de/anmeldung/](https://cantorgymnasium.de/anmeldung/).
 
+
     <br> Das Sekretariat ist in den Ferien von Montag, den 05.02.2024 bis Mittwoch, den 07.02.2024, von 8 Uhr bis 13 Uhr deswegen für Sie geöffnet.
 
 
-    <br> Alle Einsendungen bekommen in Reihenfolge ihres Eingangs eine Antwort. Bitte vermeiden Sie telefonische Nachfragen bzw. Anfragen per Mail und Doppeleinsendungen. Unsere Sekretärinnen arbeiten  kontinuierlich in den Winterferien an den Einladungen. 
+
+
   color: "#e65b51"
   font_color: "#4b4b4b"
   icon: alert-decagram-outline
