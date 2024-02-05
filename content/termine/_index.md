@@ -256,4 +256,55 @@ events:
     enddate: 2024-08-03T11:00:16.000+02:00
     title: Sommerferien
     location: ""
+  - date: 2024-02-29T18:54:01.774+01:00
+    enddate: ""
+    title: Musikalisch-literarischer Abend
+  - date: 2024-03-05T18:55:07.925+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Mathematik der Klassenstufe 9
+    location: Magdeburg
+  - date: 2024-03-05T18:56:12.060+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Physik der Klassenstufe 10
+    location: Ilmenau
+  - date: 2024-03-19T18:57:01.275+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Biologie der Klassenstufe 9
+    location: Chemnitz
+  - date: 2024-03-20T18:58:18.248+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Biologie der Klassenstufe 10
+    location: Cottbus
+  - date: 2024-03-21T18:59:04.856+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Mathematik der Sekundarstufe II
+    location: Frankfurt an der Oder
+  - date: 2024-05-30T19:00:14.141+02:00
+    enddate: ""
+    title: Mannschaftswettbewerb Chemie der Klassenstufe 10
+    location: Leipzig
+  - date: 2024-05-31T19:01:01.857+02:00
+    enddate: ""
+    title: Mannschaftswettbewerb Physik der Klassenstufe 9
+    location: Jena
+  - date: 2024-06-04T19:01:55.781+02:00
+    enddate: ""
+    title: Mannschaftswettbewerb Mathematik der Klassenstufe 10
+    location: Cottbus
+  - date: 2024-06-10T19:02:49.820+02:00
+    enddate: ""
+    title: Mannschaftswettbewerb Chemie der Klassenstufe 9
+    location: Dresden
+  - date: 2024-06-13T19:03:43.546+02:00
+    enddate: ""
+    title: Mannschaftswettbewerb Physik der Sekundarstufe II
+    location: Riesa
+  - date: 2024-09-25T19:04:32.591+02:00
+    enddate: ""
+    title: Mannschaftswettbewerb Biologie der Sekundarstufe II
+    location: ""
+  - date: 2024-11-28T19:05:35.720+01:00
+    enddate: ""
+    title: Mannschaftswettbewerb Informatik der Klassenstufen 9-12
+    location: Jena
 ---
