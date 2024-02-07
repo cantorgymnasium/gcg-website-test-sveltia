@@ -10,6 +10,8 @@ categories:
   - Sport
 subjects:
   - Sport
+tags:
+  - "2024"
 type: post
 ---
 ### 🏓 Tischtennis-Sieger Landesfinale 🏓
