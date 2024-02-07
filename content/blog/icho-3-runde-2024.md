@@ -10,6 +10,8 @@ categories:
   - Naturwissenschaften
 subjects:
   - Chemie
+tags:
+  - "2024"
 type: post
 ---
 ### Erfolg für die Chemiker
