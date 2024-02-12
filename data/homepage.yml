@@ -5,7 +5,7 @@ top_banner:
     der Aula statt.
   color: "#19aa96"
   font_color: "#ffffff"
-  icon: mdi mdi-drama-masks
+  icon: mdi-drama-masks
   temporarily:
     enable: true
     start_date: 2024-02-12T21:41:33.884+01:00
