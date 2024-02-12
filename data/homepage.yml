@@ -1,26 +1,15 @@
 top_banner:
   enable: true
-  text: >+
-    Um zur Aufnahmeprüfung zugelassen werden zu können, müssen das
-    Aufnahmeformular und eine Kopie des Halbjahreszeugnisses bis spätestens
-    Mittwoch, den 7. Februar 2024, eingereicht werden. Bitte beachten Sie dazu
-    die Hinweise unter
-    [https://cantorgymnasium.de/anmeldung/](https://cantorgymnasium.de/anmeldung/).
-
-    <br><br> Das Sekretariat ist in den Ferien von Montag, den 05.02.2024 bis Mittwoch, den 07.02.2024, von 8 Uhr bis 13 Uhr deswegen für Sie geöffnet.
-
-    <br><br> Alle digitalen Einsendungen werden in Reihenfolge ihres Eingangs bearbeitet. 
-
-
-
-
-  color: "#e65b51"
-  font_color: "#4b4b4b"
-  icon: alert-decagram-outline
+  text: >
+    Am 29. Februar 2024 findet ab 17 Uhr der Musikalisch-Literarische Abend in
+    der Aula statt.
+  color: "#19aa96"
+  font_color: "#ffffff"
+  icon: mdi mdi-drama-masks
   temporarily:
     enable: true
-    start_date: 2024-01-28T14:47:53.000+01:00
-    end_date: 2024-02-07T22:25:30.000+01:00
+    start_date: 2024-02-12T21:41:33.884+01:00
+    end_date: 2024-02-29T22:25:30.000+01:00
 slider:
   enable: true
   bg_image: media/home/banner.webp
@@ -169,7 +158,7 @@ success_banner:
       image: media/home/cds.webp
     - type: icon
       name: Und viel mehr ...
-      icon: trophy-outline
+      icon: mdi mdi-trophy-outline
       content: >
         Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
         vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
