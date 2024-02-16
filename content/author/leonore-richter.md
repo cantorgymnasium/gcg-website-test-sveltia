@@ -6,4 +6,4 @@ simplified: true
 active: true
 type: author
 ---
-Abiturjahrgang 2025
+Schülerin (Abiturjahrgang 2025)
