@@ -1,7 +1,7 @@
 ---
 title: Chemie Modulkurs Kl. 11 2024
 date: 2024-02-16T09:39:58.279+01:00
-draft: true
+draft: false
 image: /media/blog/Sj2023_2024/modulkurs11er-2024/0_modulkurs2024.webp
 author:
   - leonore-richter
