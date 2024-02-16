@@ -1,9 +1,10 @@
 top_banner:
   enable: true
   text: >
-    Die Raumübersicht zur Aufnahmeprüfung findet sich auf der
-    [Moodle-Startseite](https://moodle.bildung-lsa.de/gcg/).  Am 29. Februar
-    2024 findet ab 17 Uhr der Musikalisch-Literarische Abend in der Aula statt.
+    Die Raumübersicht zur Aufnahmeprüfung findet sich auf der <u>
+    [Moodle-Startseite] (https://moodle.bildung-lsa.de/gcg/) <u>.  Am 29.
+    Februar 2024 findet ab 17 Uhr der Musikalisch-Literarische Abend in der Aula
+    statt.
   color: "#19aa96"
   font_color: "#ffffff"
   icon: drama-masks
