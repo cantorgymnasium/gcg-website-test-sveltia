@@ -1,119 +1,124 @@
-{ 
-    "abiturdurchschnitte": [
-        { "jahr": 1992,
-          "schnitt": 1.4
-        },
-        {
-            "jahr": 1993,
-            "schnitt": 1.5
-        },
-        {
-            "jahr": 1994,
-            "schnitt": 1.5
-        },
-        {
-            "jahr": 1995,
-            "schnitt": 1.7
-        },
-        {
-            "jahr": 1996,
-            "schnitt": 1.7
-        },
-        {
-            "jahr": 1997,
-            "schnitt": 1.7
-        },
-        {
-            "jahr": 1998,
-            "schnitt": 2
-        },
-        {
-            "jahr": 2000,
-            "schnitt": 2.1
-        },
-        {
-            "jahr": 2002,
-            "schnitt": 1.9
-        },
-        {
-            "jahr": 2003,
-            "schnitt": 1.8
-        },
-        {
-            "jahr": 2004,
-            "schnitt": 1.9
-        },
-        {
-            "jahr": 2005,
-            "schnitt": 1.8
-        },
-        {
-            "jahr": 2006,
-            "schnitt": 1.7
-        },
-        {
-            "jahr": 2007,
-            "schnitt": 1.8
-        },
-        {
-            "jahr": 2008,
-            "schnitt": 1.9
-        },
-        {
-            "jahr": 2009,
-            "schnitt": 1.7
-        },
-        {
-            "jahr": 2010,
-            "schnitt": 1.9
-        },
-        {
-            "jahr": 2011,
-            "schnitt": 2.25
-        },
-        {
-            "jahr": 2012,
-            "schnitt": 2.09
-        },
-        {
-            "jahr": 2013,
-            "schnitt": 1.96
-        },
-        {
-            "jahr": 2014,
-            "schnitt": 1.9
-        },
-        {
-            "jahr": 2015,
-            "schnitt": 2.02
-        },
-        { 
-            "jahr": 2016,
-            "schnitt": 2
-        },
-        {
-            "jahr": 2017,
-            "schnitt": 1.91
-        },
-        {
-            "jahr": 2018,
-            "schnitt": 1.9
-        },
-        {
-            "jahr": 2019,
-            "schnitt": 1.8
-        },
-        {
-            "jahr": 2020,
-            "schnitt": 1.9
-        },
-        {
-            "jahr": 2021,
-            "schnitt": 1.81
-        },
-        {
-            "jahr": 2022,
-            "schnitt": 1.74
-        }
-    ]
+{
+  "abiturdurchschnitte": [
+    {
+      "jahr": 1992,
+      "schnitt": 1.4
+    },
+    {
+      "jahr": 1993,
+      "schnitt": 1.5
+    },
+    {
+      "jahr": 1994,
+      "schnitt": 1.5
+    },
+    {
+      "jahr": 1995,
+      "schnitt": 1.7
+    },
+    {
+      "jahr": 1996,
+      "schnitt": 1.7
+    },
+    {
+      "jahr": 1997,
+      "schnitt": 1.7
+    },
+    {
+      "jahr": 1998,
+      "schnitt": 2
+    },
+    {
+      "jahr": 2000,
+      "schnitt": 2.1
+    },
+    {
+      "jahr": 2002,
+      "schnitt": 1.9
+    },
+    {
+      "jahr": 2003,
+      "schnitt": 1.8
+    },
+    {
+      "jahr": 2004,
+      "schnitt": 1.9
+    },
+    {
+      "jahr": 2005,
+      "schnitt": 1.8
+    },
+    {
+      "jahr": 2006,
+      "schnitt": 1.7
+    },
+    {
+      "jahr": 2007,
+      "schnitt": 1.8
+    },
+    {
+      "jahr": 2008,
+      "schnitt": 1.9
+    },
+    {
+      "jahr": 2009,
+      "schnitt": 1.7
+    },
+    {
+      "jahr": 2010,
+      "schnitt": 1.9
+    },
+    {
+      "jahr": 2011,
+      "schnitt": 2.25
+    },
+    {
+      "jahr": 2012,
+      "schnitt": 2.09
+    },
+    {
+      "jahr": 2013,
+      "schnitt": 1.96
+    },
+    {
+      "jahr": 2014,
+      "schnitt": 1.9
+    },
+    {
+      "jahr": 2015,
+      "schnitt": 2.02
+    },
+    {
+      "jahr": 2016,
+      "schnitt": 2
+    },
+    {
+      "jahr": 2017,
+      "schnitt": 1.91
+    },
+    {
+      "jahr": 2018,
+      "schnitt": 1.9
+    },
+    {
+      "jahr": 2019,
+      "schnitt": 1.8
+    },
+    {
+      "jahr": 2020,
+      "schnitt": 1.9
+    },
+    {
+      "jahr": 2021,
+      "schnitt": 1.81
+    },
+    {
+      "jahr": 2022,
+      "schnitt": 1.74
+    },
+    {
+      "jahr": 2023,
+      "schnitt": 1.9
+    }
+  ]
 }
