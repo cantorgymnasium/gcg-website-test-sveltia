@@ -1,4 +1,5 @@
-{ "schuelerzahlen": [
+{
+  "schuelerzahlen": [
     {
       "year": 1988,
       "all": 54,
@@ -160,7 +161,7 @@
       "girls": 141
     },
     {
-      "year":2020,
+      "year": 2020,
       "all": 535,
       "girls": 150
     },
@@ -171,8 +172,13 @@
     },
     {
       "year": 2022,
-      "all": 534,
+      "all": 535,
       "girls": 137
+    },
+    {
+      "year": 2023,
+      "all": 534,
+      "girls": 141
     }
   ]
 }
