@@ -1,7 +1,7 @@
 ---
 title: Abiturienten 2023
 draft: false
-image: /media/2023_abiturienten.jpg
+image: /media/abiturienten/2023_abiturienten.webp
 type: abiturienten
 ---
 ## Klasse 12/1
