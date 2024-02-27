@@ -1,10 +1,10 @@
 ---
 title: Abiturienten 2023
 draft: false
-image: /media/image.webp
+image: /media/2023_abiturienten.jpg
 type: abiturienten
 ---
-Klasse 12/1
+## Klasse 12/1
 
 |Name|Vorname|
 |---|---|
@@ -32,7 +32,7 @@ Klasse 12/1
 |Wubet|Kidus Tesfaye|
 |Zharov|Michael|
 
-Klasse 12/2
+## Klasse 12/2
 
 |Name|Vorname|
 |---|---|
@@ -47,7 +47,7 @@ Klasse 12/2
 |Häußler|Hagen Kuno|
 |Herden|Till|
 |Hoppe|Benjamin|
-|Hoppe|Jonathan |
+|Hoppe|Jonathan|
 |Kraus|Lilith Katharina|
 |Nachsel|Nils Ole|
 |Reimann|Max|
@@ -60,7 +60,7 @@ Klasse 12/2
 |Winkler|Emma|
 |Zschoche|Erik Hans|
 
-Klasse 12/3
+## Klasse 12/3
 
 |Name|Vorname|
 |---|---|
@@ -81,7 +81,7 @@ Klasse 12/3
 |Schönwitz|Melina Susann|
 |Schwabe|Thorgis|
 |Steinke|Lennart|
-|Tran|Tuan Long David |
+|Tran|Tuan Long David|
 |Zäh|Ture Marvin|
 
 
