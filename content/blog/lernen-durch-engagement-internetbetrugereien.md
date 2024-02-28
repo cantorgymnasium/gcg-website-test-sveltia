@@ -4,7 +4,7 @@ date: 2024-02-29T20:54:02.000+01:00
 draft: false
 image: /media/image.webp
 author:
-  - frau-selisko
+  - philipp-le
 categories:
   - Gesellschaftswissenschaften
   - Informatik/Technik
