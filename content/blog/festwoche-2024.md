@@ -8,6 +8,21 @@ author:
 categories:
   - Traditionen
   - Veranstaltungen
+  - Deutsch
+  - Kunst
+  - Musik
+  - Gesellschaftswissenschaften
+  - Mathematik
+  - Naturwissenschaften
+  - Informatik/Technik
+  - Fremdsprachen
+  - Sport
+  - Sonstiges
+  - Schülerrat
+subjects:
+  - Deutsch
+  - Kunst
+  - Musik
 tags:
   - "2024"
 type: post
