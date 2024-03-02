@@ -18,37 +18,21 @@ Vom 29.02.2024 bis 08.03.2024 war unser Schulalltag von den Kultur- und Wissensc
 
 ### Eröffnung der Galerie „Cantor-Art“
 
-
-
-
-
-### Musikalisch-Literarischer Abend 
-
-
-
-
+### Musikalisch-Literarischer Abend
 
 ### Tag der Kulturen
 
-
-
-
-
 ### Projektwoche
-
-
-
-
 
 ### Präsentation der Projektergebnisse
 
-
-
-
-
 ### Cantorpreisverleihung
 
+Als Höhepunkt der Festwoche hat die Cantorpreisverleihung einen eigenen Blogbeitrag erhalten:
 
+
+
+{{< card title="Der Cantorpreis 2024 geht an ..." link="https://cantorgymnasium.de/blog/cantorpreis-2024" >}}
 
 
 
