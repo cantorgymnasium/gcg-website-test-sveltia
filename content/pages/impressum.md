@@ -18,7 +18,7 @@ Frau StD Schapitz
 
 #### Sekretariat:
 
-Frau Kretzschmar/ Frau Jaschak
+Frau Kretzschmar / Frau Jaschak
 
 #### Adresse:
 
@@ -30,7 +30,7 @@ Torstraße 13
 
 ### Webmaster:
 
-Herr Berger
+Herr StR Berger
 
 ### E-Mail:
 
