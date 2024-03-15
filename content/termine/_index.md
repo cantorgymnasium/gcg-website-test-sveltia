@@ -234,7 +234,7 @@ events:
   - date: 2024-04-25T11:00:16.000+02:00
     title: Girl's und Boy's Day (Zukunftstag)
     enddate: ""
-  - date: 2024-04-29T11:00:16.000+02:00
+  - date: 2024-04-30T11:00:16.000+02:00
     title: Sportfest
     location: Brandbergehalle
     enddate: ""
@@ -307,4 +307,34 @@ events:
     enddate: ""
     title: Mannschaftswettbewerb Informatik der Klassenstufen 9-12
     location: Jena
+  - date: 2024-04-04T20:37:15.000+02:00
+    enddate: ""
+    title: Abifiz
+  - date: 2024-04-11T20:37:19.000+02:00
+    enddate: ""
+    title: Fachbereichskonferenz FB III
+  - date: 2024-04-18T20:38:48.000+02:00
+    enddate: ""
+    title: Gesamtkonferenz II
+  - date: 2024-05-30T20:39:48.000+02:00
+    enddate: ""
+    title: Weimarexkursion Deutsch Klasse 11
+  - title: Auszeichnungsveranstaltung
+    date: 2024-06-13T20:41:02.000+02:00
+  - date: 2024-06-15T20:41:05.000+02:00
+    enddate: 2024-06-20T00:00:00.000+02:00
+    title: Abschlussfahrten Klasse 10, Klassenfahrt Klasse 7
+    location: Prag, Hamburg, Nordseeküste, ...
+  - title: Verteidungungen wpA/Facharbeiten Kl. 10
+    date: 2024-06-04T20:43:00.000+02:00
+    location: WOU-Stunden
+  - date: 2024-05-31T20:43:04.000+02:00
+    enddate: ""
+    title: vsl. Notenschluss
+  - date: 2024-05-13T20:44:21.000+02:00
+    enddate: 2024-05-17T00:00:00.000+02:00
+    title: mündliche Abiturprüfungen
+  - date: 2024-04-22T20:45:07.000+02:00
+    enddate: 2024-05-08T00:00:00.000+02:00
+    title: schriftliche Abiturprüfungen
 ---
