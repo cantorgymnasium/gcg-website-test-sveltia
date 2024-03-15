@@ -12,7 +12,7 @@ tags:
   - "2024"
 type: post
 ---
-## Der Cantorpreis 2024 geht an …!
+## Der Cantorpreis 2024 geht an Florian Nico Jäniche!
 
 ### Herzlichen Glückwunsch!
 
@@ -20,13 +20,21 @@ Am 07. März 2024 fand einer der Höhepunkte unserer Festwoche statt: die Cantor
 
 In diesem Jahr waren nominiert:
 
-- …
-- …
-- …
+- Florian Nico Jäniche
+- Chiamaka Michelle Okoro
+- Simon Paul Schlurick
 
-Gerahmt von mehreren musikalischen Beiträgen unserer Schülerinnen und Schüler eröffnete unser Schulleiter Herr Dr. Gorsler den Festakt zur Verleihung des Cantorpreises. 
+Die Festveranstaltung wurde musikalisch von Katharina Raßbach mit der Mondscheinsonate, 1. Satz eröffnet. Danach gaben Syrah Lehmann und Robert Müller ihre Gesangsstimmen zum Besten. Anschließend folgten die Begrüßungsworte unseres Schulleiters Herr Dr. Gorsler: 
 
-// Rede Gorsler
+Er berichtete vom ausgezeichneten Erfolg unserer Schule im Komitee des MINT-EC-Netzwerks. Im Regelfall musste das Verfahren für dieses Zertifikat alle vier Jahre neu durchlaufen werden. Dies wurde nun auf fünf Jahre erweitert, aber weil das Georg-Cantor-Gymnasium sich so sehr hervorhebt, wurden wir direkt für die nächsten sechs Jahre zertifiziert. Anschließend folgten Dankesworte an den 12. Jahrgang sowie alle Teilnehmenden des Festaktes. Besonders hervorzuheben sind hierbei die Saalesparkasse, welche alljährlich den Cantorpreis (Glasstehle und 150 €) stiftet, die Heideklause, welche als unser Essensanbieter immer das Buffet zum Empfang der Nominierten sowie aller Ehrengäste stellt, und unser Schulförderverein. 
+
+
+
+{{< gallery dir="/media/blog/Logos_Unterstuetzer_Canterpreis" >}}
+
+
+
+Danach gab es einen kleinen Rückblick und Ausblick auf die Kultur- und Wissenschaftstage 2024.
 
 Nach der Eröffnung folgten die Laudationes für unsere drei Nominierten:
 
