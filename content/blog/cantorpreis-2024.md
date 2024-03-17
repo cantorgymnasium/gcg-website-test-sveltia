@@ -1,7 +1,7 @@
 ---
 title: Cantorpreis 2024
 date: 2024-03-07T23:02:08.000+01:00
-draft: true
+draft: false
 image: /media/blog/Sj2023_2024/cantorpreis2024.webp
 author:
   - herr-berger
@@ -14,11 +14,7 @@ type: post
 ---
 ## Der Cantorpreis 2024 geht an Florian Nico Jäniche!
 
-
-
 {{< image src="/media/blog/Sj2023_2024/cantorpreis_florian.webp" >}}
-
-
 
 ### Herzlichen Glückwunsch!
 
@@ -38,7 +34,7 @@ Er berichtete vom ausgezeichneten Erfolg unserer Schule im Komitee des MINT-EC-N
 
 Danach gab es einen kleinen Rückblick und Ausblick auf die Kultur- und Wissenschaftstage 2024. Die Projekttage standen unter den Elementen Wasser, Erde und Luft. In der griechischen Philosophie gibt es ein fünftes Element: den Ether als Element des Himmels. Der Himmel sei auch das Element unseres diesjährigen Festredners: Dirk Schlesier, Leiter des Planetariums Halle. Bevor dieser seinen Festvortrag präsentieren konnte, standen noch weitere Programmpunkte des Festaktes an.
 
-Es übernahmen Mattheo, Dongwoo, Tobechi und Louis als Band und präsentierten ihren Rap-Song Menschenfehler und präsentierten eingehend, dass wir Menschen den Klimawandel verursachen. Danach muszizierten Kiril und Linus den Boogie-Woogie-Hit an Keyboard und Gitarre.
+Es übernahmen Mattheo, Dongwoo, Tobechi und Louis als Band und präsentierten ihren Rap-Song Menschenfehler und präsentierten eingehend, dass wir Menschen den Klimawandel verursachen. Danach musizierten Kiril und Linus den Boogie-Woogie-Hit an Keyboard und Gitarre.
 
 Nach dieser Eröffnung folgten die Laudationes für unsere drei Nominierten:
 
@@ -75,8 +71,4 @@ Nun konnte Herr Dirk Schlesier (Leiter des Planetariums Halle) in seinen Festvor
 
 Danach stand der Höhepunkt der Veranstaltung an: Der Cantorpreis wurde an Florian verliehen. Bescheiden wie immer, nahm er den Preis an, wartete kurz den Applaus ab und ging dann zurück an seinen Platz. Erst dort wurde er darauf hingewiesen, dass alle noch eine kurze Rede von ihm erwarten. Diese fiel fast schon mathematisch aus: nüchtern, präzise und die wohl kürzeste aller Cantorpreis-Dankesreden bisher.
 
-
-
 {{< gallery dir="/media/blog/Sj2023_2024/cantorpreis" >}}
-
-
