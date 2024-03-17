@@ -2,7 +2,7 @@
 title: Cantorpreis 2024
 date: 2024-03-07T23:02:08.000+01:00
 draft: true
-image: /media/image.webp
+image: /media/blog/Sj2023_2024/cantorpreis2024.webp
 author:
   - herr-berger
 categories:
@@ -13,6 +13,12 @@ tags:
 type: post
 ---
 ## Der Cantorpreis 2024 geht an Florian Nico Jäniche!
+
+
+
+{{< image src="/media/blog/Sj2023_2024/cantorpreis_florian.webp" >}}
+
+
 
 ### Herzlichen Glückwunsch!
 
@@ -39,7 +45,7 @@ Nach dieser Eröffnung folgten die Laudationes für unsere drei Nominierten:
 - Herr Dr. Koch berichtete ausgehend eines persönlichen Erlebnisses über Florian. Es trug sich in der 5. Klasse zu, dass sie Schülerinnen und Schüler in einer Mathematikstunde das Alphabet durchnummerieren sollten und dann mithilfe dieser Nummern und weiterer Tricks ihren Vornamen verschlüsseln sollten. Herr Dr. Koch wollte dann höchstpersönlich nur anhand der Ziffern erraten, wer ihm welchen verschlüsselten Zettel übergeben hat. Seine Erwartungen der Cäsar-Verschlüsselung übertraf Florian bei Weiten: Auf dem Zettel standen komplexe Zahlen, Rechnungen mit der eulerschen Zahl und Pi, Logarithmen und Fakultäten. Verdutzt fragte Herr Dr. Koch, woher Florian das alles schon wüsste. Seine damalige Antwort lautete: „Ich lese abends im Tafelwerk.“ Man kann also unschwer erkennen, dass Florians Lieblingsfach schon immer Mathematik war. Dies lebte er auch in seiner ganzen Schulkarriere mit jährlichen Erfolgen bei der Matheolympiade aus. In den letzten vier Jahren war es immer ein 1. Preis bei der Matheolympiade, bei der Physikolympiade in gleicher Zeit dreimal der 1. Preis. Aktuell kämpft er unter den 40 besten Mathematikern. Trotz dieser Erfolge war er nie ein abgehobenes Genie, sondern überzeugte stets mit Freundlichkeit und Hilfsbereitschaft
 - Frau Schmidt umriss Chiamakas Schullaufbahn. Sie begann mit einem Gedicht, welches Chiamaka mit nur 10 Jahren in der 5. Klasse verfasst hatte: Zeitzer Teich. Es trug sich in der Kindheit wohl öfter zu, dass Chiamakas Vater am Abend das Poesiealbum einziehen musste, sonst hätte Chiamaka wohl die ganze Nacht  hindurch gedichtet. Aber ein solches Sprachtalent am GCG? Natürlich! Chiamakas Interessen sind sehr breit gefächert: das Klavierspiel, Rhönrad fahren, sportliche Erfolge (z.B. als Siegerin beim Wettbewerb Strongest Student, wo sie tags zuvor ihren 1. Platz verteidigt hatte), aber auch Forschung bei Schüler experimentieren und Jugend forscht. Eines ihrer Vorbilder ist dabei Leonardo da Vinci, welcher Wissenschaft und Kunst verband. Bei Jugend forscht stand seit jungen Jahren immer die Nachhaltigkeit ihrer Forschungen mit Emilia und Aurelia im Fokus, teils sogar mit mehreren Arbeiten im selben Wettbewerbsjahr. Weitere Erfolge verzeichnete sie bei IJSO, dem Cybermentorprogramm, der Big Challenge und dem Certamen Franckianum. Zudem engagierte sie sich immer für unser Schulleben in der Chronik-AG, dem Schülerrat und -beirat, der Aktionen zum Red Hand Day und einem Flohmarkt im Rahmen von „Dein Tag für Afrika“. Nach dem Abitur strebt Chiamaka ein Pharmaziestudium an. Zuvor fassen aber die Einschätzungen ihrer Brüder Chiamakas Schulzeit sehr gut zusammen: Sie ist fokussiert, sie gibt nie auf, sie ist immer hilfsbereit und ermutigend.
 
-> **Chiamaka Okoro: Zeitzer Teich**  
+> Chiamaka Okoro: Zeitzer Teich  
 > An einem verlass’nen Ort in Zeitz  
 > Gibt es einen alten Teich  
 > Trostlos schwärzt das Wasser sich  
@@ -68,3 +74,9 @@ Nun konnte Herr Dirk Schlesier (Leiter des Planetariums Halle) in seinen Festvor
 1. Exoplaneten: In den 1970ern kannten wir noch keinen einzigen Exoplaneten, mittlerweile sind über 5000 bekannt und über 10000 weitere werden untersucht.
 
 Danach stand der Höhepunkt der Veranstaltung an: Der Cantorpreis wurde an Florian verliehen. Bescheiden wie immer, nahm er den Preis an, wartete kurz den Applaus ab und ging dann zurück an seinen Platz. Erst dort wurde er darauf hingewiesen, dass alle noch eine kurze Rede von ihm erwarten. Diese fiel fast schon mathematisch aus: nüchtern, präzise und die wohl kürzeste aller Cantorpreis-Dankesreden bisher.
+
+
+
+{{< gallery dir="/media/blog/Sj2023_2024/cantorpreis" >}}
+
+
