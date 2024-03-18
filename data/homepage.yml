@@ -1,16 +1,17 @@
 top_banner:
   enable: true
   text: >
-    Am 29. Februar 2024 findet ab 17 Uhr der Musikalisch-Literarische Abend in
-    der Aula statt. Für das leibliche Wohl sorgen unsere 12er. Die Eröffnung der
-    Galerie auf dem Flur zur Aula bereits ab ca. 16:30 Uhr.
+    Am 04.04.2024 findet das traditionelle Abifiz statt. (Uhrzeit folgt) <br>
+
+
+    Die Anmeldung für die Sommerakademien des Landes sind ab sofort möglich. Alle Infos  [hier](https://test.cantorgymnasium.de/blog/sommer-und-herbstakademien-des-landes-sachsen-anhalt-2024/).
   color: "#19aa96"
   font_color: "#ffffff"
   icon: drama-masks
   temporarily:
     enable: true
-    start_date: 2024-02-12T21:41:33.884+01:00
-    end_date: 2024-02-29T22:25:30.000+01:00
+    start_date: 2024-03-19T21:03:09.000+01:00
+    end_date: 2024-04-04T22:25:30.000+02:00
 slider:
   enable: true
   bg_image: media/home/banner.webp
