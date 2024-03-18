@@ -2,7 +2,7 @@
 title: Sommer- und Herbstakademien des Landes Sachsen-Anhalt 2024
 date: 2024-03-19T21:03:35.000+01:00
 draft: false
-image: /media/begabte/bilsa.webp
+image: /media/begabte/bildung-lsa.webp
 author:
   - herr-berger
 categories:
