@@ -11,7 +11,7 @@ categories:
 subjects:
   - Ethik
   - Informatik
-  - Lernen durch Engagement
+  - Wahlobligatorischer Unterricht (WoU)
 tags:
   - LdE
 type: post
