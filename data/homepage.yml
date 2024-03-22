@@ -158,7 +158,7 @@ success_banner:
       image: media/home/cds.webp
     - type: icon
       name: Und viel mehr ...
-      icon: mdi mdi-trophy-outline
+      icon: trophy-outline
       content: >
         Durch umfassende Begabtenförderungsangebote sind unsere Schüler bei
         vielen Wettbewerben erfolgreich. Diese umfassen erweiterte Stoffgebiete,
