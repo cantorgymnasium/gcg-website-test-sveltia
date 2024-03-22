@@ -11,6 +11,7 @@ categories:
 subjects:
   - Ethik
   - Informatik
+  - Lernen durch Engagement
 tags:
   - LdE
 type: post
