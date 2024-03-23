@@ -1,6 +1,6 @@
 ---
 title: Cantor-Luft schnuppern!
-date: 2022-10-24T14:40:47.927Z
+date: 2022-10-24
 draft: false
 description: ""
 image: /media/image.webp

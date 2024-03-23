@@ -1,6 +1,6 @@
 ---
 title: Austauschschüler vom Lycée "Aristide Briand" am GCG
-date: 2024-02-18T12:24:10.910+01:00
+date: 2024-02-18
 draft: false
 image: /media/blog/Sj2023_2024/erasmus2024_01.webp
 author:

@@ -1,6 +1,6 @@
 ---
 title: Tag der Kulturen 2023
-date: 2023-05-16T21:40:40.773+02:00
+date: 2023-05-16
 draft: false
 description: ""
 image: /media/blog/2023/tdk.webp

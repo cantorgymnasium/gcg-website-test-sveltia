@@ -1,6 +1,6 @@
 ---
 title: Festwoche 2024
-date: 2024-03-08T22:53:03.000+01:00
+date: 2024-03-08
 draft: true
 image: /media/gcgfestwoche.png
 author:

@@ -1,6 +1,6 @@
 ---
 title: Leben in der DDR - Ein Puppentheaterstück für unsere 10er
-date: 2023-07-02T20:44:28.330+02:00
+date: 2023-07-02
 draft: false
 image: /media/blog/2023/theaterddr10erbildcollage.webp
 author:

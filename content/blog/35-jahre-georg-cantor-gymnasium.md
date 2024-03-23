@@ -1,6 +1,6 @@
 ---
 title: 35 Jahre Georg-Cantor-Gymnasium
-date: 2023-09-20T09:31:49.198+02:00
+date: 2023-09-20
 draft: false
 image: /media/blog/Sj2023_2024/35-jahre-gcg/titelbild.webp
 author:

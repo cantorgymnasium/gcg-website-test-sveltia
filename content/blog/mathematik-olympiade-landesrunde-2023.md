@@ -1,6 +1,6 @@
 ---
 title: Mathematik-Olympiade Landesrunde 2023
-date: 2023-02-28T22:44:44+01:00
+date: 2023-02-28
 draft: false
 description: ""
 image: /media/wettbewerbe/mo.webp

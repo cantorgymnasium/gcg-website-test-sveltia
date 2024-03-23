@@ -1,6 +1,6 @@
 ---
 title: Der Schulshop ist wieder da!
-date: 2023-10-02T18:33:44.861+02:00
+date: 2023-10-02
 draft: false
 image: /media/blog/Sj2023_2024/schulshop.webp
 author:

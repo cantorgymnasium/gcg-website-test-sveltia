@@ -1,6 +1,6 @@
 ---
 title: Känguru der Mathematik 2023
-date: 2023-04-12T22:40:16.690+02:00
+date: 2023-04-12
 draft: false
 description: ""
 image: /media/wettbewerbe/kanguru.webp

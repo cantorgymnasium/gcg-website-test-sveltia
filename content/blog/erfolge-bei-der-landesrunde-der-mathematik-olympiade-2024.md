@@ -1,6 +1,6 @@
 ---
 title: Erfolge bei der Landesrunde der Mathematik-Olympiade 2024
-date: 2024-03-04T13:50:15.000+01:00
+date: 2024-03-04
 draft: false
 image: /media/wettbewerbe/mo.webp
 author:

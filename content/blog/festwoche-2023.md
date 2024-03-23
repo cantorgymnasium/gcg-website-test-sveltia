@@ -1,6 +1,6 @@
 ---
 title: Festwoche 2023
-date: 2023-03-05T18:47:59+01:00
+date: 2023-03-05
 draft: false
 description: ""
 image: /media/blog/festwoche.webp

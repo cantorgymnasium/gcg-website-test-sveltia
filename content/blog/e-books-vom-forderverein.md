@@ -1,6 +1,6 @@
 ---
 title: E-Books vom Förderverein
-date: 2023-09-18T21:33:42.110+02:00
+date: 2023-09-18
 draft: false
 image: /media/blog/Sj2023_2024/fv_ebooks.webp
 author:

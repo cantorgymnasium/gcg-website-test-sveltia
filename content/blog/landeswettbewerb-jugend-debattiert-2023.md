@@ -1,6 +1,6 @@
 ---
 title: Landeswettbewerb Jugend debattiert 2023
-date: 2023-05-03T07:53:14.221+02:00
+date: 2023-05-03
 draft: false
 description: ""
 image: /media/wettbewerbe/jugenddebattiert.webp

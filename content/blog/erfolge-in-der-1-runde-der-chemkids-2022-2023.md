@@ -1,6 +1,6 @@
 ---
 title: Erfolge in der 1. Runde der Chemkids 2022/2023
-date: 2023-02-03T07:48:30+01:00
+date: 2023-02-03
 draft: false
 description: ""
 image: /media/wettbewerbe/chemkids.webp

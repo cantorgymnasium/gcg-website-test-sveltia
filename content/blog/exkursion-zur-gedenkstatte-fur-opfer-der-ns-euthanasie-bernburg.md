@@ -1,6 +1,6 @@
 ---
 title: Exkursion zur Gedenkstätte für Opfer der „NS-Euthanasie“ Bernburg
-date: 2023-10-19T13:25:06.360+02:00
+date: 2023-10-19
 draft: false
 image: /media/blog/Sj2023_2024/exkursion_bernburg.webp
 author:

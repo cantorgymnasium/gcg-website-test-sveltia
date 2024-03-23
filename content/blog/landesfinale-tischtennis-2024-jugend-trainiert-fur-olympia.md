@@ -1,6 +1,6 @@
 ---
 title: Landesfinale Tischtennis 2024 (Jugend trainiert für Olympia)
-date: 2024-02-07T20:56:19.346+01:00
+date: 2024-02-07
 draft: false
 image: /media/blog/Sj2023_2024/landesfinalejtfotischtennis.webp
 author:

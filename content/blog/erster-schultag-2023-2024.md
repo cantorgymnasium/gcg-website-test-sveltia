@@ -1,6 +1,6 @@
 ---
 title: Erster Schultag 2023/2024
-date: 2023-08-20T19:23:02.007+02:00
+date: 2023-08-20
 draft: false
 image: /media/blog/Sj2023_2024/ErsterSchultag/titelbildersterschultag.jpg
 author:

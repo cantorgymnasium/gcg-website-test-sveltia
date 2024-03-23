@@ -1,6 +1,6 @@
 ---
 title: Impressionen von der Arbeit am Projekt "Smart Home mit regenerativen Energien"
-date: 2023-10-06T07:55:06.601+02:00
+date: 2023-10-06
 draft: false
 image: /media/blog/Sj2023_2024/jia2023.webp
 author:

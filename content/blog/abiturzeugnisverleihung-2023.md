@@ -1,6 +1,6 @@
 ---
 title: Abiturzeugnisverleihung 2023
-date: 2023-07-09T22:47:43.700+02:00
+date: 2023-07-09
 draft: false
 image: /media/blog/2023/Abizeugnisse/abi23_00.webp
 author:

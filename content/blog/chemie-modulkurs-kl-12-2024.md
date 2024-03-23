@@ -1,6 +1,6 @@
 ---
 title: Chemie Modulkurs Kl. 12 2024
-date: 2024-03-02T22:20:48.998+01:00
+date: 2024-03-02
 draft: false
 image: /media/blog/Sj2023_2024/titel_chemodul24_12er.webp
 author:

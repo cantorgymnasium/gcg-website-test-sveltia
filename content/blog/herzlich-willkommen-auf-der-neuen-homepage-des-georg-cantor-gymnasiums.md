@@ -1,6 +1,6 @@
 ---
 title: Herzlich willkommen auf der neuen Homepage des Georg-Cantor-Gymnasiums!
-date: 2022-10-19T16:04:15.580Z
+date: 2022-10-19
 draft: false
 description: ""
 image: /media/image.webp

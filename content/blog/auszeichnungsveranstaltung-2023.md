@@ -1,6 +1,6 @@
 ---
 title: Auszeichnungsveranstaltung 2023
-date: 2023-07-09T21:57:37.480+02:00
+date: 2023-07-09
 draft: false
 image: /media/blog/2023/Auszeichnung/auszeichnung23_0.webp
 author:

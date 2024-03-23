@@ -1,6 +1,6 @@
 ---
 title: Vorlesewettbewerb der 6. Klassen 2022 - Schulrunde
-date: 2022-12-12T12:00:43.329Z
+date: 2022-12-12
 draft: false
 description: ""
 image: /media/blog/vlw.webp

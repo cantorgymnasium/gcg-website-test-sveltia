@@ -1,6 +1,6 @@
 ---
 title: Bundeswettbewerb Fremdsprachen - Preisverleihung auf Landesebene
-date: 2023-04-19T12:55:48.540+02:00
+date: 2023-04-19
 draft: false
 description: ""
 image: /media/wettbewerbe/bwfs.webp

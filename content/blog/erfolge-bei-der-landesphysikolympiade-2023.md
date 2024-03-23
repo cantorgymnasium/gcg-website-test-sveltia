@@ -1,6 +1,6 @@
 ---
 title: Erfolge bei der Landesphysikolympiade 2023
-date: 2023-03-13T22:02:51+01:00
+date: 2023-03-13
 draft: false
 description: ""
 image: /media/wettbewerbe/pho.webp

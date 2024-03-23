@@ -1,6 +1,6 @@
 ---
 title: "Transparenzbericht: Weihnachtsbasar-Spenden"
-date: 2023-05-03T16:11:27.148+02:00
+date: 2023-05-03
 draft: false
 description: ""
 image: /media/image.webp

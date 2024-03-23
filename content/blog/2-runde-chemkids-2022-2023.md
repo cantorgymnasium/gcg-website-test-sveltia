@@ -1,6 +1,6 @@
 ---
 title: 2. Runde Chemkids 2022/2023
-date: 2023-06-30T10:08:39.756+02:00
+date: 2023-06-30
 draft: false
 image: /media/wettbewerbe/chemkids.webp
 author:

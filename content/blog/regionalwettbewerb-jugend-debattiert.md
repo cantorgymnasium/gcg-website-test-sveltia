@@ -1,6 +1,6 @@
 ---
 title: Regionalwettbewerb "Jugend debattiert"
-date: 2023-03-15T09:05:16+01:00
+date: 2023-03-15
 draft: false
 description: ""
 image: /media/wettbewerbe/jugenddebattiert.webp

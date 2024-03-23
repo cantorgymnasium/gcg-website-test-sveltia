@@ -1,6 +1,6 @@
 ---
 title: Schulfest 2023
-date: 2023-07-04T22:06:09.675+02:00
+date: 2023-07-04
 draft: false
 image: /media/blog/2023/Schulfest/schulfest23_00.webp
 author:

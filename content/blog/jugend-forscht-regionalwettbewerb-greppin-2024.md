@@ -1,6 +1,6 @@
 ---
 title: Jugend forscht - Regionalwettbewerb Greppin 2024
-date: 2024-02-16T10:09:23.009+01:00
+date: 2024-02-16
 draft: false
 image: /media/wettbewerbe/jufo.webp
 author:

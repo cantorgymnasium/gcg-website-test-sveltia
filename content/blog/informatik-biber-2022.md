@@ -1,6 +1,6 @@
 ---
 title: Informatik-Biber 2022
-date: 2023-01-27T21:42:51+01:00
+date: 2023-01-27
 draft: false
 description: ""
 image: /media/wettbewerbe/biber.webp

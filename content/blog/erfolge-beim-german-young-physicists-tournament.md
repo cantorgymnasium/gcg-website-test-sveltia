@@ -1,6 +1,6 @@
 ---
 title: Erfolge beim "German Young Physicists' Tournament"
-date: 2023-01-22T16:14:48+01:00
+date: 2023-01-22
 draft: false
 description: ""
 image: /media/blog/gypt.webp

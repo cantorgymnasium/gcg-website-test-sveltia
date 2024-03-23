@@ -1,6 +1,6 @@
 ---
 title: Klimaschutz kann Schule machen
-date: 2023-07-08T21:31:59.325+02:00
+date: 2023-07-08
 draft: false
 image: /media/blog/2023/Energieprojekt6_3/bild1.webp
 author:

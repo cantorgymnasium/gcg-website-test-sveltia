@@ -1,6 +1,6 @@
 ---
 title: Erfolge bei der Bundesrunde der Chemieolympiade
-date: 2023-09-24T19:55:59.947+02:00
+date: 2023-09-24
 draft: false
 image: /media/blog/Sj2023_2024/chds_b_2023.webp
 author:

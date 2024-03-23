@@ -1,6 +1,6 @@
 ---
 title: Erfolge beim Mannschaftswettbewerb Biologie
-date: 2023-10-13T20:24:43.791+02:00
+date: 2023-10-13
 draft: false
 image: /media/blog/Sj2023_2024/mwbio.webp
 author:

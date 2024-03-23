@@ -69,7 +69,7 @@ const MarkdownProps = {
 const DateFormat = {
   date_format: "dd.MM.yyyy",
   time_format: false,
-  format: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+  format: "yyyy-MM-dd",
 };
 
 const DataObject = {

@@ -1,6 +1,6 @@
 ---
 title: Weihnachten 2022
-date: 2022-12-20T20:40:32.790Z
+date: 2022-12-20
 draft: false
 description: ""
 image: /media/blog/weihnachten.webp

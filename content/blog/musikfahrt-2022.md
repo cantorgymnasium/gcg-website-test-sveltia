@@ -1,6 +1,6 @@
 ---
 title: Musikfahrt 2022
-date: 2022-12-10T12:30:33+01:00
+date: 2022-12-10
 draft: false
 description: ""
 image: /media/image.webp

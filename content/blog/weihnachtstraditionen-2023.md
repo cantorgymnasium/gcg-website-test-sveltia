@@ -1,6 +1,6 @@
 ---
 title: Weihnachtstraditionen 2023
-date: 2023-12-22T23:39:48.861+01:00
+date: 2023-12-22
 draft: false
 image: /media/blog/weihnachten.webp
 author:

@@ -1,7 +1,7 @@
 ---
 title: "Dr. Karamba Diaby übergibt unsere Red Hand Mappe an die Präsidentin des
   Deutschen Bundestages "
-date: 2023-11-09T22:33:13.384+01:00
+date: 2023-11-09
 draft: false
 image: /media/blog/Sj2023_2024/redhands.webp
 author:

@@ -1,6 +1,6 @@
 ---
 title: Erfolge beim "German Young Physicists' Tournament"
-date: 2024-02-20T12:42:03.264+01:00
+date: 2024-02-20
 draft: false
 image: /media/blog/gypt.webp
 author:

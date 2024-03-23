@@ -1,6 +1,6 @@
 ---
 title: Mitteldeutsche Chemieolympiade 2023
-date: 2023-06-17T18:03:00.247+02:00
+date: 2023-06-17
 draft: false
 image: /media/blog/2023/ChemieOlympiadeMDt23/mitteldtchemieolympiade23.webp
 author:

@@ -1,6 +1,6 @@
 ---
 title: Mord mit Nachsicht - In der Schokoladenfabrik
-date: 2023-06-25T22:20:57.076+02:00
+date: 2023-06-25
 draft: false
 image: /media/blog/2023/TheaterSchoko/theaterschoko0.webp
 author:

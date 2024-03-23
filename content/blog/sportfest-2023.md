@@ -1,6 +1,6 @@
 ---
 title: Sportfest 2023
-date: 2023-06-05T10:01:35.134+02:00
+date: 2023-06-05
 draft: false
 image: /media/blog/2023/Sportfest23/sportfest23_00.webp
 author:

@@ -1,6 +1,6 @@
 ---
 title: Einladung zum Vorleseabend 2023
-date: 2023-11-19T20:29:57.827+01:00
+date: 2023-11-19
 draft: false
 image: /media/blog/Sj2023_2024/einladvorleseabend23.webp
 author:

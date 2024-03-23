@@ -1,6 +1,6 @@
 ---
 title: Impressionen vom Tag der offenen Tür 2022
-date: 2022-11-24T09:41:02.882Z
+date: 2022-11-24
 draft: false
 description: ""
 image: /media/image.webp

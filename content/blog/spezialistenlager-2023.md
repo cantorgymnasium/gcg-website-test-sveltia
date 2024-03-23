@@ -1,6 +1,6 @@
 ---
 title: Spezialistenlager 2023
-date: 2023-01-19T19:13:48+01:00
+date: 2023-01-19
 draft: false
 description: ""
 image: /media/blog/2023/spezilager/01.webp

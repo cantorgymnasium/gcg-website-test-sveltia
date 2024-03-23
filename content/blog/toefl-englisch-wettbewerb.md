@@ -1,6 +1,6 @@
 ---
 title: TOEFL-Englisch-Wettbewerb
-date: 2023-01-24T15:13:45+01:00
+date: 2023-01-24
 draft: false
 description: ""
 image: /media/wettbewerbe/toefl.webp

@@ -1,6 +1,6 @@
 ---
 title: Einladung Weihnachtskonzert 2023
-date: 2023-11-04T23:10:45.890+01:00
+date: 2023-11-04
 draft: false
 image: /media/blog/weihnachten.webp
 author:

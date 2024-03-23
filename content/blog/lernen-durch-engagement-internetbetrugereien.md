@@ -1,6 +1,6 @@
 ---
 title: "Lernen durch Engagement: Internetbetrügereien "
-date: 2024-02-29T20:54:02.000+01:00
+date: 2024-02-29
 draft: false
 image: /media/image.webp
 author:

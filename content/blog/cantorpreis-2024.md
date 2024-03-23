@@ -1,6 +1,6 @@
 ---
 title: Cantorpreis 2024
-date: 2024-03-17T13:48:50.914+01:00
+date: 2024-03-17
 draft: false
 image: /media/blog/Sj2023_2024/cantorpreis2024.webp
 author:

@@ -1,6 +1,6 @@
 ---
 title: Schülerratsseminar in der Villa Jühling
-date: 2023-10-05T12:29:49.711+02:00
+date: 2023-10-05
 draft: false
 image: /media/image.webp
 author:

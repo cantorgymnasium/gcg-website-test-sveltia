@@ -1,6 +1,6 @@
 ---
 title: Buchlesung mit Lea-Lina Oppermann für die 10. Klassen
-date: 2023-07-03T20:30:19.526+02:00
+date: 2023-07-03
 draft: false
 image: /media/image.webp
 author:

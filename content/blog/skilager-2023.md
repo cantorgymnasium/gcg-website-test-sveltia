@@ -1,6 +1,6 @@
 ---
 title: Skilager 2023
-date: 2023-02-21T20:09:03+01:00
+date: 2023-02-21
 draft: false
 description: ""
 image: /media/blog/2023/skilager.webp

@@ -1,6 +1,6 @@
 ---
 title: Mathe im Advent 2022
-date: 2022-12-02T12:44:09.256Z
+date: 2022-12-02
 draft: false
 description: Der Schülerwettbewerb unter der Schirmherrschaft des
   Bildungsministeriums geht in die nächste Runde.

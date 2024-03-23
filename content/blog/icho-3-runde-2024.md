@@ -1,6 +1,6 @@
 ---
 title: IChO 3. Runde 2024
-date: 2024-01-31T22:04:01.488+01:00
+date: 2024-01-31
 draft: false
 image: /media/wettbewerbe/icho.webp
 author:

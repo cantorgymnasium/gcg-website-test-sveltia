@@ -1,6 +1,6 @@
 ---
 title: Erfolge bei der Bundesrunde Mathematikolympiade 2023
-date: 2023-06-20T14:51:04.535+02:00
+date: 2023-06-20
 draft: false
 image: /media/wettbewerbe/mo.webp
 author:

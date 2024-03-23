@@ -1,6 +1,6 @@
 ---
 title: Lernfahrt Geschichte nach Heldrungen
-date: 2023-03-19T14:08:31+01:00
+date: 2023-03-19
 draft: false
 description: ""
 image: /media/blog/2023/lernfahrt_geschichte.webp

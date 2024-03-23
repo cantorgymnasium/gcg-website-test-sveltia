@@ -1,6 +1,6 @@
 ---
 title: Jugend forscht - Regionalwettbewerb Halle 2024
-date: 2024-02-24T18:28:14.454+01:00
+date: 2024-02-24
 draft: false
 image: /media/wettbewerbe/jufo.webp
 author:

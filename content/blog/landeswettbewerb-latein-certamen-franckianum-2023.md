@@ -1,6 +1,6 @@
 ---
 title: Landeswettbewerb Latein - Certamen Franckianum - 2023
-date: 2023-06-07T21:21:15.630+02:00
+date: 2023-06-07
 draft: false
 image: /media/wettbewerbe/latein-wettbewerb.webp
 author:

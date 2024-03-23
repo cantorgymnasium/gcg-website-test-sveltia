@@ -1,6 +1,6 @@
 ---
 title: Erfolge bei den Biologie-Wettbewerben
-date: 2023-04-11T21:26:25.198+02:00
+date: 2023-04-11
 draft: false
 description: ""
 image: /media/image.webp

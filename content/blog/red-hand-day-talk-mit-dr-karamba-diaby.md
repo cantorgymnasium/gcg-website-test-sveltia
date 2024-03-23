@@ -1,6 +1,6 @@
 ---
 title: Red Hand Day - Talk mit Dr. Karamba Diaby
-date: 2023-09-13T20:07:40.366+02:00
+date: 2023-09-13
 draft: false
 image: /media/blog/Sj2023_2024/35-jahre-gcg/diaby.webp
 author:

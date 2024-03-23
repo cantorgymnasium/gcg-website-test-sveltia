@@ -1,6 +1,6 @@
 ---
 title: Ergebnisse 3. Runde der IPhO (Bundesrunde)
-date: 2023-02-14T21:49:04+01:00
+date: 2023-02-14
 draft: false
 description: ""
 image: /media/wettbewerbe/ipho.webp

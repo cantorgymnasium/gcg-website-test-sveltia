@@ -1,6 +1,6 @@
 ---
 title: Mottowoche und letzter Schultag des Abiturjahrgangs 2023
-date: 2023-04-23T14:18:13.497+02:00
+date: 2023-04-23
 draft: false
 description: ""
 image: /media/blog/2023/abitag/04.webp
