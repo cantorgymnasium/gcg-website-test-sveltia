@@ -11,6 +11,7 @@ categories:
 subjects:
   - Ethik
   - Informatik
+  - Wahlobligatorischer Unterricht (WoU)
 tags:
   - LdE
 type: post
