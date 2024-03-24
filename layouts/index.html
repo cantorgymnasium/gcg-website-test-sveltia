@@ -224,8 +224,8 @@
       {{ with .Site.GetPage "/termine/_index.md" }}
 
       {{ $events := slice }}
-      {{ range .Params.events }}
-        {{ if or (ge (.date | time.AsTime).Unix now.Unix) (and .enddate (ge (.enddate | time.AsTime).Unix now.Unix)) }}
+      {{ range sort .Params.events ".date" }}
+        {{ if partial "data/termin-upcoming" . }}
           {{ $events = $events | append . }}
         {{ end }}
       {{ end }}

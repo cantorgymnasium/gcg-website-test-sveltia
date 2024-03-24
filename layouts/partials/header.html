@@ -86,7 +86,7 @@
 
 {{ $top_banner := .Site.Data.homepage.top_banner }}
   {{ if and $top_banner.enable }}
-  {{ if or (not $top_banner.temporarily.enable) (and $top_banner.temporarily.enable (and (le ($top_banner.temporarily.start_date | time.AsTime).Unix now.Unix ) (ge ($top_banner.temporarily.end_date | time.AsTime).Unix now.Unix))) }}
+  {{ if or (not $top_banner.temporarily.enable) (and $top_banner.temporarily.enable (and (le ($top_banner.temporarily.start_date | time.AsTime) now) (ge ($top_banner.temporarily.end_date | time.AsTime) now))) }}
   {{ with $top_banner }}
   <div id="top-banner" class="p-3" style="background: {{ .color }}" data-pagefind-ignore>
     <div class="container">
