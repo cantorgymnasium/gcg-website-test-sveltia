@@ -116,7 +116,11 @@ Die 7., 8. und 9. Klassen gaben zum Tagesbeginn im Blitzlichtformat kurze Einbli
 
 Die Ergebnisse aller Projekte werden in den nächsten Wochen unter dem Website-Reiter „Projektwoche“ genauer vorgestellt. Die Zusammenstellung der Ergebnisse wird aber noch einige Zeit in Anspruch nehmen. Zuvor können hier einige Impressionen der Projektpräsentationen betrachtet werden.
 
-{{< download title="Projekltwoche 2024" link="https://cantorgymnasium.de/projektwoche/2024/" >}}
+
+
+{{< card title="Projektwoche 2024" link="https://cantorgymnasium.de/projektwoche/2024/" >}}
+
+
 
 {{< gallery dir="/media/blog/Sj2023_2024/Festwoche/Projektpraesi24" >}}
 
@@ -139,11 +143,7 @@ Am Freitag, dem „Cantor-Tag“ haben alle Jahrgänge eigene Aktivitäten. Alle
 - Klasse 11: Modulkurse bzw. Betreuung und Durchführung der Body&Grips-Mobil-Stationen
 - Klasse 12: Vorabi Englisch
 
-
-
 {{< gallery dir="/media/blog/Sj2023_2024/Festwoche/Cantortag" >}}
-
-
 
 ###### **Vielen Dank für die zahlreichen Bilder an Herrn Urbainczyk!**
 
