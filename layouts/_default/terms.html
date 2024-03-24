@@ -8,7 +8,7 @@
         {{ if eq $.Data.Plural "tags" }}
           <a href="{{ `tags/` | relURL }}{{ $name | urlize | lower }}">{{ $name }}</a>
         {{ else if eq $.Data.Plural "categories" }}
-          <a href="{{ `categories/` | relURL }}{{ $name | urlize | lower }}">{{ if (index $transliterations $name) }}{{ index $transliterations $name }}{{ else }}{{ $name | title }}{{end}}</a>
+          <a href="{{ `categories/` | relURL }}{{ $name | urlize | lower }}">{{ with (index $transliterations $name) }}{{ . }}{{ else }}{{ $name | title }}{{end}}</a>
         {{ end }}
 		  {{ end }}
 	  </div>
