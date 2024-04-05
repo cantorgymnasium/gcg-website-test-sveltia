@@ -2,7 +2,7 @@
 title: "Ein Exkursionsbericht: Die Kirche - ein wichtiger Ort für die Christen"
 date: 2024-04-05
 draft: false
-image: /media/image.webp
+image: /media/blog/Sj2023_2024/moritzkirche_halle.webp
 author:
   - mattheo-friedemann
 categories:
@@ -17,7 +17,7 @@ type: post
 Mattheo aus der 6/3 berichtet von einer Exkursion:
 
 > Am 06.02.2024 gingen meine Ethikklasse und ich in der 3. und 4. Stunde, das war von 09:25-11:00 Uhr, zur Moritzkirche. Wir taten das, weil wir im Fach Ethik das Christentum behandeln und uns jetzt gerade mit Kirchen beschäftigen. Also gingen wir im Ethikunterricht zur Kirche, damit wir alles in einer richtigen Kirche sehen und lernen konnten.  
-> Wir hatten eine Führung mit Kathrin. Zuerst schauten wir uns die Kirche von außen an. Dabei erzählte Kathrin spannende Fakten.   
+> Wir hatten eine Führung mit Kathrin. Zuerst schauten wir uns die Kirche von außen an. Dabei erzählte Kathrin spannende Fakten.  
 > Die Kirche wurde 1388 von Conrad von Einbeck erbaut. Sie war für Halloren gedacht. Als die Reformation 1541 von Justus Jonas Fuß gefasst hatte, wurde die Kirche evangelisch. Darauf deutet die Kanzel, die im Inneren der Kirche steht, hin.  
 > Was ich nicht wusste war, dass die Kirche katholische Besitzer hat, aber evangelisch ist, dies nennt man ökumenisch.  
 > Der Name der Kirche gab Moritz, auch Schellenmoritz genannt, der sich für seinen Glauben opferte.  
@@ -31,8 +31,7 @@ Mattheo aus der 6/3 berichtet von einer Exkursion:
 > Aber denkt dran: schön leise sein!  
 > Shhhhhhh!!
 >
-> **Mattheo Friedemann**
+> Mattheo Friedemann
 
-
-
+Bildquelle: Markus Händel [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) [https://de.wikipedia.org/wiki/Moritzkirche_(Halle)#/media/Datei:Moritzkirche_1800.jpg](https://de.wikipedia.org/wiki/Moritzkirche_(Halle)#/media/Datei:Moritzkirche_1800.jpg)
 
