@@ -1,5 +1,5 @@
 ---
-title: Die Kirche - ein wichtiger Ort für die Christen
+title: "Ein Exkursionsbericht: Die Kirche - ein wichtiger Ort für die Christen"
 date: 2024-04-05
 draft: false
 image: /media/image.webp
