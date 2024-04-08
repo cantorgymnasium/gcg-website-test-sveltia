@@ -4,8 +4,8 @@ draft: false
 description: ""
 type: forms
 ---
-1. Die Schülerinnen und Schüler verhalten sich so, dass eine andere Person durch sie weder gefährdet oder belästigt wird, noch zu Schaden kommt und sind zur Abwendung von Gefahren verpflichtet. Das Eigentum anderer wird geachtet.                
-1. Der Vormittagsunterricht beginnt 7:30 Uhr und endet 13:05 Uhr. Der Nachmittagsunterricht beginnt 13:30 Uhr. Das Betreten des Schulgebäudes ist ab 7:15 Uhr gestattet. Die Schule ist bis 16:30 Uhr geöffnet. Schüler, die aufgrund der Benutzung öffentlicher Verkehrsmittel vor 7:00 Uhr bereits auf dem Schulgelände ankommen, können eine Einlasskarte erhalten. Ab 6:30 Uhr besteht dann die Möglichkeit des Aufenthaltes für Schüler der Klassen 5-9 im Raum 205 (Lernwerkstatt) und für Schüler der gymnasialen Oberstufe im Schulclub (Kellergeschoss).
+1. Die Schülerinnen und Schüler verhalten sich so, dass eine andere Person durch sie weder gefährdet oder belästigt wird, noch zu Schaden kommt und sind zur Abwendung von Gefahren verpflichtet. Das Eigentum anderer wird geachtet.  
+Der Vormittagsunterricht beginnt 7:30 Uhr und endet 13:05 Uhr. Der Nachmittagsunterricht beginnt 13:30 Uhr. Das Betreten des Schulgebäudes ist ab 7:15 Uhr gestattet. Die Schule ist bis 16:30 Uhr geöffnet. Schüler, die aufgrund der Benutzung öffentlicher Verkehrsmittel vor 7:00 Uhr bereits auf dem Schulgelände ankommen, können eine Einlasskarte erhalten. Ab 6:30 Uhr besteht dann die Möglichkeit des Aufenthaltes für Schüler der Klassen 5-9 im Raum 205 (Lernwerkstatt) und für Schüler der gymnasialen Oberstufe im Schulclub (Kellergeschoss).
 1. Nach Eintreffen in der Schule verlassen die Schülerinnen und Schüler (bis einschließlich Klasse 9) vor Unterrichtsende nicht eigenmächtig das Schulgelände.
 1. Ist fünf Minuten nach Stundenbeginn kein Lehrer in der Klasse, meldet der Schülersprecher oder sein Vertreter dies im Sekretariat.
 1. In den kleinen Pausen sorgen die Lehrer dafür, dass die Unterrichtsräume rechtzeitig geöffnet werden. Die  Schülerinnen und Schüler erscheinen pünktlich zum Unterricht.
