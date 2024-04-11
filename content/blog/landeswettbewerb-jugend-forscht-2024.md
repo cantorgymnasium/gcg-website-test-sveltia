@@ -2,7 +2,7 @@
 title: Landeswettbewerb Jugend forscht 2024
 date: 2024-04-09
 draft: false
-image: /media/wettbewerbe/jufo.webp
+image: /media/blog/Sj2023_2024/jufoland24_titel.webp
 author:
   - frau-felke
 categories:
@@ -22,6 +22,12 @@ type: post
 ---
 ### Landeswettbewerb „Jugend forscht“ 2024
 
+
+
+{{< gallery dir="/media/blog/Sj2023_2024/jufo_land_24" >}}
+
+
+
 Am 04./05.04.2024 fand in Halle der Landeswettbewerb „Jugend forscht“ statt.
 
 **Jette Pohl aus der 11. Klasse errang im Fach Biologie einen ersten Preis sowie zwei Sonderpreise und wird uns auf dem Bundeswettbewerb in Heilbronn vertreten. Herzlichen Glückwunsch und viel Erfolg!**
@@ -37,7 +43,3 @@ Linus Trautmann (Kl. 9/2) errang den 1. Preis und einen Sonderpreis im Bereich T
 Kelechi, Johann, Frederick und Samuel erhielten zusätzlich Sonderpreise.
 
 **Wir gratulieren allen Jungforscherinnen und Jungforschern herzlich zu diesen Erfolgen!**
-
-
-
-
