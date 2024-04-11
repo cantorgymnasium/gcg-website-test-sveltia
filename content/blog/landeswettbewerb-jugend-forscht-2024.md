@@ -22,11 +22,7 @@ type: post
 ---
 ### Landeswettbewerb „Jugend forscht“ 2024
 
-
-
 {{< gallery dir="/media/blog/Sj2023_2024/jufo_land_24" >}}
-
-
 
 Am 04./05.04.2024 fand in Halle der Landeswettbewerb „Jugend forscht“ statt.
 
@@ -43,3 +39,6 @@ Linus Trautmann (Kl. 9/2) errang den 1. Preis und einen Sonderpreis im Bereich T
 Kelechi, Johann, Frederick und Samuel erhielten zusätzlich Sonderpreise.
 
 **Wir gratulieren allen Jungforscherinnen und Jungforschern herzlich zu diesen Erfolgen!**
+
+Bildquelle: [https://www.jugend-forscht.weinberg-campus.de/landeswettbewerb/ausstellung-2024](https://www.jugend-forscht.weinberg-campus.de/landeswettbewerb/ausstellung-2024)
+
