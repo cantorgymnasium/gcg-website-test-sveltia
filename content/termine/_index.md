@@ -321,13 +321,15 @@ events:
     title: Weimarexkursion Deutsch Klasse 11
   - title: Auszeichnungsveranstaltung
     date: 2024-06-13
+    enddate: ""
   - date: 2024-06-15
     enddate: 2024-06-20
     title: Abschlussfahrten Klasse 10, Klassenfahrt Klasse 7
     location: Prag, Hamburg, Nordseeküste, ...
   - title: Verteidungungen wpA/Facharbeiten Kl. 10
-    date: 2024-06-04
+    date: 2024-05-28
     location: WOU-Stunden
+    enddate: ""
   - date: 2024-05-31
     enddate: ""
     title: vsl. Notenschluss
