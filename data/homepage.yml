@@ -83,7 +83,7 @@ header_logos:
 about:
   enable: true
   title: Herzlich willkommen auf der Homepage des Georg-Cantor-Gymnasiums!
-  image: media/home/pinguin.webp
+  image: media/home/pinguin-bg.webp
   content: >
     Wir sind eine Schule mit mathematisch-naturwissenschaftlich-technischem
     Schwerpunkt und möchten interessierte und begabte Schülerinnen und Schüler
