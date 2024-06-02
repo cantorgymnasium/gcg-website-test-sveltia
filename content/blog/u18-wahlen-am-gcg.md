@@ -20,9 +20,7 @@ Demokratie live zum Mitmachen: Im Rahmen der Projekte [U18](https://u18.org) und
 
 Wir danken dem Wahlvorstand aus den Reihen des Schülerrats sowie den zahlreichen spontanen Wahlhelferinnen und Wahlhelfern für ihr Engagement!
 
-Die Wahlkabinen sind entsiegelt, die Stimmen sind gezählt, unsere schulinternen Wahlergebnisse sind unten zu sehen. Das offizielle Endergebnis der U18-Wahl wird ab dem 03.06.2024, 12.30 Uhr auf der [U18-Homepage](https://u18.org) sowie am 09.06.2024 auf der [Juniorwahl-Homepage](https://www.juniorwahl.de/) einzusehen sein. 
-
-
+Die Wahlurnen sind entsiegelt, die Stimmen sind gezählt, unsere schulinternen Wahlergebnisse sind unten zu sehen. Das offizielle Endergebnis der U18-Wahl wird ab dem 03.06.2024, 12.30 Uhr auf der [U18-Homepage](https://u18.org) sowie am 09.06.2024 auf der [Juniorwahl-Homepage](https://www.juniorwahl.de/) einzusehen sein.
 
 {{< image src="/media/blog/Sj2023_2024/photo_2024-06-02_15-25-24.jpg" >}}Als Schülerrat des Georg-Cantor-Gymnasiums sind wir erfreut und erleichtert, dass die wirklich überwiegende Mehrheit für Parteien des demokratischen Spektrums stimmte. Auch die vergleichsweise hohe Wahlbeteiligung von rund 57 % zeigt, dass Cantorianerinnen und Cantorianer gerne die Chance nutzen, ihrer Stimme Gehör zu verschaffen, und stärkt unsere Hoffnung für die Wahlen am 09.06.2024.
 
