@@ -14,4 +14,10 @@ tags:
   - "2024"
 type: post
 ---
-ghvjkl
+Unsere Tischtennismannschaften haben sich auf dem Bundesfinale von Jugend trainiert für Olympia vom 23. bis 27.04.2024 gut geschlagen. Jetzt wird weiter trainiert und nächstes Schuljahr wieder angegriffen.
+
+Die Ergebnisse: 
+
+
+
+
