@@ -2,7 +2,7 @@
 title: Weimarfahrt der Deutschkurse Klasse 11 2024
 date: 2024-06-04
 draft: false
-image: /media/blog/Sj2023_2024/weimar_gruppe.jpg
+image: /media/blog/Sj2023_2024/weimar_gruppe.webp
 author:
   - herr-berger
 categories:
@@ -34,9 +34,9 @@ Dazwischen gab es natürlich auch etwas Freizeit zur eigenen Erkundung der Innen
 
 Die Stadtführungen aller Gruppen hatten gemeinsam, dass mindestens die 1. Hälfte im Wolkenbruch stattfand. Trotzdem wurden uns zahlreiche Einblicke in die historischen Versetzungen gegeben. Stationen waren z.B. das Goethe-Schiller-Denkmal, das Wittumspalais, Schillers Wohnhaus, der Markplatz und das Weimarer Schloss.
 
-Zum Abschluss des Tages folgte eine relativ chaotische Heimreise mit dem Zug, aber alle sind wieder heil nach Halle zurückgekommen. 
+Zum Abschluss des Tages folgte eine relativ chaotische Heimreise mit dem Zug, aber alle sind wieder heil nach Halle zurückgekommen.
 
-###### Der Tag war zwar sehr regnerisch und nass, aber bleibt trotzdem positiv in Erinnerung. 
+###### Der Tag war zwar sehr regnerisch und nass, aber bleibt trotzdem positiv in Erinnerung.
 
 
 
