@@ -1,8 +1,8 @@
 ---
 title: Weimarfahrt der Deutschkurse Klasse 11 2024
 date: 2024-06-04
-draft: true
-image: /media/image.webp
+draft: false
+image: /media/blog/Sj2023_2024/weimar_gruppe.jpg
 author:
   - herr-berger
 categories:
@@ -24,8 +24,20 @@ Nach ca. 20 Minuten Fußmarsch in die Innenstadt und einem gemeinsamen Gruppenfo
 - Besichtigung des Goethe Nationalmuseums
 - Stadtführung „Inszenierte Geschichte“ mit Einblick in Weimars Stadtgeschichte von den kulturellen Beginnen bis hin zur Nazi-Zeit und der DDR
 
-Dazwischen gab es natürlich auch etwas Freizeit zur eigenen Erkundung der Innenstadt. 
 
-Die Stadtführungen aller Gruppen hatten gemeinsam, dass mindestens die 1. Hälfte im Wolkenbruch stattfand. Trotzdem wurden uns zahlreiche Einblicke in die historischen Versetzungen gegeben. Stationen waren z.B. das Goethe-Schiller-Denkmal, das Wittumspalais, Schillers Wohnhaus, der Markplatz und das Weimarer Schloss. 
+
+{{< gallery dir="/media/blog/Sj2023_2024/Weimar11er" >}}
+
+
+
+Dazwischen gab es natürlich auch etwas Freizeit zur eigenen Erkundung der Innenstadt.
+
+Die Stadtführungen aller Gruppen hatten gemeinsam, dass mindestens die 1. Hälfte im Wolkenbruch stattfand. Trotzdem wurden uns zahlreiche Einblicke in die historischen Versetzungen gegeben. Stationen waren z.B. das Goethe-Schiller-Denkmal, das Wittumspalais, Schillers Wohnhaus, der Markplatz und das Weimarer Schloss.
 
 Zum Abschluss des Tages folgte eine relativ chaotische Heimreise mit dem Zug, aber alle sind wieder heil nach Halle zurückgekommen. 
+
+###### Der Tag war zwar sehr regnerisch und nass, aber bleibt trotzdem positiv in Erinnerung. 
+
+
+
+
