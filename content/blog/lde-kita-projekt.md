@@ -14,12 +14,12 @@ subjects:
   - Wahlobligatorischer Unterricht (WoU)
 tags:
   - "2024"
+  - LdE
 type: post
 ---
 ### Erfolgreiches Projekt des WOU-Kurses "Lernen durch Engagement" für Hortkinder der Kita-Weingärten{{< image src="/media/blog/Sj2023_2024/lde_kita_artikel.webp" >}} 
 
-Am 30. Mai 2024 haben die Schüler des WOU-Kurses "Lernen durch Engagement" ein spannendes und lehrreiches Projekt für die Hortkinder der Kita-Weingärten durchgeführt. Die fünf engagierten Schüler –
-Eric, Lucian, Paul, Max und Linus – hatten das Ziel, die Kinder spielerisch in die faszinierende Welt der Naturwissenschaften einzuführen.
+Am 30. Mai 2024 haben die Schüler des WOU-Kurses "Lernen durch Engagement" ein spannendes und lehrreiches Projekt für die Hortkinder der Kita-Weingärten durchgeführt. Die fünf engagierten Schüler – Eric, Lucian, Paul, Max und Linus – hatten das Ziel, die Kinder spielerisch in die faszinierende Welt der Naturwissenschaften einzuführen.
 
 Während des Projektes hatten die Hortkinder die Gelegenheit, an verschiedenen Experimenten teilzunehmen und selbst zu kleinen Forschern zu werden. Die Schüler des WOU-Kurses hatten folgende Aktivitäten vorbereitet:
 
