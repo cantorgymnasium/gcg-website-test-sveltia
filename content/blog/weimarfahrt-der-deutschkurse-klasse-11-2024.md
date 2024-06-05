@@ -16,7 +16,7 @@ type: post
 ---
 ### Ein nasser Tag in Weimar …
 
-Am 30.05.2024 fuhren unsere 11er auf die traditionelle Weimarfahrt: Einmal auf Goethes und Schillers Spuren wandeln. Um kurz nach 9 Uhr startete die Zugfahrt vom halleschen Hauptbahnhof mit nur leichter Verspätung. Auf der Zugfahrt begleitete uns zunächst ein recht mürrischer Zugbegleiter, ab Naumburg dafür eine umso humorvollere Dame. Sie fragte alle Schülerinnen und Schüler nach ihrer Vorfreude auf Weimar und gab vereinzelt kleine Geheimtipps. Fredrike aus den 11ern wurde sogar persönlich per Zugdurchsage begrüßt.
+Am 30.05.2024 fuhren unsere 11er auf die traditionelle Weimarfahrt: Einmal auf Goethes und Schillers Spuren wandeln. Um kurz nach 9 Uhr startete die Zugfahrt vom halleschen Hauptbahnhof mit nur leichter Verspätung. Auf der Zugfahrt begleitete uns zunächst ein recht mürrischer Zugbegleiter, ab Naumburg dafür eine umso humorvollere Dame. Sie fragte alle Schülerinnen und Schüler nach ihrer Vorfreude auf Weimar und gab vereinzelt kleine Geheimtipps. Friederike wurde sogar persönlich per Zugdurchsage begrüßt.
 
 Nach ca. 20 Minuten Fußmarsch in die Innenstadt und einem gemeinsamen Gruppenfoto, trennten sich die Wege unserer 11er in drei Gruppen. Alle besuchten in unterschiedlicher Reihenfolge folgende Schwerpunkte:
 
@@ -24,11 +24,7 @@ Nach ca. 20 Minuten Fußmarsch in die Innenstadt und einem gemeinsamen Gruppenfo
 - Besichtigung des Goethe Nationalmuseums
 - Stadtführung „Inszenierte Geschichte“ mit Einblick in Weimars Stadtgeschichte von den kulturellen Beginnen bis hin zur Nazi-Zeit und der DDR
 
-
-
 {{< gallery dir="/media/blog/Sj2023_2024/Weimar11er" >}}
-
-
 
 Dazwischen gab es natürlich auch etwas Freizeit zur eigenen Erkundung der Innenstadt.
 
