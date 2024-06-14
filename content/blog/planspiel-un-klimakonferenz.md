@@ -8,9 +8,13 @@ author:
   - denys-konovalov
 categories:
   - Veranstaltungen
+  - Gesellschaftswissenschaften
 subjects:
   - Sozialkunde
   - Geografie
+tags:
+  - "2024"
+  - klimakonferenz
 type: post
 ---
 Am vergangenen Dienstag fand, im Rahmen des Sozialkunde- und Geografieunterrichts der zehnten Klassen, eine fiktive Klimakonferenz statt. Die Schüler wurden in kleine Gruppen eingeteilt, welche Länder, Organisationen, die UN und die Presse repräsentierten. Ziel war, wie auch bei realen Klimakonferenzen, eine Abschlussresolution zu verabschieden. Was zu Beginn recht einfach erschien, entwickelte sich später allerdings zu hitzigen Diskussionen. Die teilnehmenden Länder wollten ihre Interessen bezüglich des Ausstoßes von CO<sup>2</sup>.
