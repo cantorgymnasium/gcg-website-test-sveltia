@@ -1,7 +1,7 @@
 ---
 title: Planspiel UN-Klimakonferenz
 date: 2024-04-03
-draft: true
+draft: false
 image: /media/blog/Sj2023_2024/kk.webp
 author:
   - franziska-berner
