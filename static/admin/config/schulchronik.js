@@ -40,11 +40,12 @@ const config = {
     sanitize_replacement: "-",
   },
   theme: {
+    default_theme: "GCG.Dark",
     include_built_in_themes: false,
     themes: [
       GCGThemeDark,
       GCGThemeLight
-    ]    
+    ],
   },
   collections: [
     ChronikjahreCollection,
