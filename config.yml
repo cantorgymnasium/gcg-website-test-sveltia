@@ -209,7 +209,7 @@ menu:
       hasChildren: false
       params:
         external: true
-        separator: false
+        separator: true
     - parent: Für Schüler und Eltern
       name: Essensbestellung
       URL: https://heideklause-halle.de/bestellung/
@@ -218,6 +218,22 @@ menu:
       params:
         external: true
         separator: false
+    - name: Schülerzeitung
+      weight: 5
+      parent: Für Schüler und Eltern
+      URL: https://schuelerzeitung-gcg.de
+      params:
+        external: true
+        separator: false
+      hasChildren: false
+    - hasChildren: false
+      params:
+        external: true
+        separator: true
+      name: Schulshop
+      weight: 6
+      parent: Für Schüler und Eltern
+      URL: https://cantor-shop.migoma.de
     - parent: Für Schüler und Eltern
       name: Förderverein
       URL: pages/foerderverein
@@ -241,7 +257,7 @@ menu:
       hasChildren: false
       params:
         external: false
-        separator: true
+        separator: false
     - name: Kontakt
       URL: kontakt
       weight: 5
@@ -249,22 +265,6 @@ menu:
       params:
         external: false
         separator: false
-    - name: Schülerzeitung
-      weight: 9
-      parent: Für Schüler und Eltern
-      URL: https://schuelerzeitung-gcg.de
-      params:
-        external: true
-        separator: false
-      hasChildren: false
-    - hasChildren: false
-      params:
-        external: true
-        separator: false
-      name: Schulshop
-      weight: 10
-      parent: Für Schüler und Eltern
-      URL: https://cantor-shop.migoma.de
   footer:
     - name: Termine
       URL: termine
