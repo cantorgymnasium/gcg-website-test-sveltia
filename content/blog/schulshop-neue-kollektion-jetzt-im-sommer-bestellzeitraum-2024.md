@@ -21,11 +21,7 @@ Neue Designs, neue Farben: Pünktlich zum Start der Sommerferien präsentiert eu
 
 Nachdem bei unserem letzten Bestellzeitraum, welcher die Rückkehr des Cantor-Shops markierte, überwiegend positive Erfahrungen gesammelt wurden, haben wir nun entschieden, die Arbeit mit Migoma fortzusetzen und nun einen permanenten Web-Shop aufzubauen, in dem die Artikel bequem und schnell online angesehen, bestellt und bezahlt (Kreditkarte/PayPal) werden können. Die Bestellungen werden jedoch weiterhin über einen Zeitraum hinweg gesammelt und dann in einem Zug an die Schule geliefert und verteilt.
 
-
-
 {{< card title="Neue Web-Präsenz des Schulshops" link="https://cantor-shop.migoma.de" >}}
-
-
 
 Das Highlight der neuen Kollektion ist selbstverständlich das neue Logo-Design, welches auf dem vor kurzem vorgestellten neuen Bild unseres Maskottchens, Georg πinguin, basiert. Für dieses danken wir an dieser Stelle Adele aus dem Abiturjahrgang 2024 :) Für diejenigen, die das provisorische πinguin-Design dennoch präferieren, sind viele Artikel weiterhin auch mit diesem verfügbar.
 
@@ -33,4 +29,14 @@ Die Farbpalette wurde ebenfalls aktualisiert und beinhaltet jetzt ein breiteres 
 
 Im diesjährigen Sommer-Bestellzeitraum ist der Shop bis zum **14.07.2024** offen. Die Ausgabe der Artikel erfolgt im Laufe der ersten Schultage.
 
-Für weitere Fragen könnt ihr euch an das Schulshop-Team per Mail via [schulshop@cantor-gymnasium.de](mailto:schulshop@cantor-gymnasium.de) melden oder im Schulhaus persönlich …
+Für weitere Fragen könnt ihr euch an das Schulshop-Team per Mail via [schulshop@cantor-gymnasium.de](mailto:schulshop@cantor-gymnasium.de) melden oder im Schulhaus Denys Konovalov (Kl. 10/11) bzw. Syrah Lehmann (Kl. 8/9) ansprechen.
+
+Wir wünschen viel Spaß beim Entdecken und hoffen im nächsten Schuljahr zahlreiche neue Cantor-Kleidungsstücke in den Schulfluren zu sehen!
+
+> P. S.: Für schulische Events, Wettbewerbe, AGs und ähnliches lassen sich auch personalisierte Designs mit z. B. anderen Rückendrucken organisieren. Wendet euch dazu einfach an das Schulshop-Team!
+
+> P. P. S.: Wir danken Syrah, Lilli, Lilly und Jette und Gero für ihre Mithilfe bei den Fotos :)
+
+
+
+
