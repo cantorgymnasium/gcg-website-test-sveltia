@@ -237,7 +237,7 @@ menu:
     - parent: Für Schüler und Eltern
       name: Förderverein
       URL: pages/foerderverein
-      weight: 5
+      weight: 7
       hasChildren: false
       params:
         external: false
@@ -245,13 +245,13 @@ menu:
     - parent: Für Schüler und Eltern
       name: Schülervertretung
       URL: pages/schuelervertretung
-      weight: 6
+      weight: 8
       hasChildren: false
       params:
         external: false
         separator: false
     - name: Elternvertretung
-      weight: 7
+      weight: 9
       URL: pages/elternvertretung
       parent: Für Schüler und Eltern
       hasChildren: false
