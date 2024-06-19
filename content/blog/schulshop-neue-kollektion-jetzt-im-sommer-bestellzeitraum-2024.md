@@ -1,7 +1,7 @@
 ---
 title: "Schulshop: Neue Kollektion jetzt im Sommer-Bestellzeitraum 2024"
-date: 2024-06-18
-draft: true
+date: 2024-06-19
+draft: false
 description: ""
 image: /media/blog/Sj2023_2024/schulshop_24.webp
 author:
@@ -35,7 +35,7 @@ Wir wünschen viel Spaß beim Entdecken und hoffen im nächsten Schuljahr zahlre
 
 > P. S.: Für schulische Events, Wettbewerbe, AGs und ähnliches lassen sich auch personalisierte Designs mit z. B. anderen Rückendrucken organisieren. Wendet euch dazu einfach an das Schulshop-Team!
 
-> P. P. S.: Wir danken Syrah, Lilli, Lilly und Jette und Gero für ihre Mithilfe bei den Fotos :)
+> P. P. S.: Wir danken Syrah, Lilli, Lilly, Jette und Gero für ihre Mithilfe bei den Fotos :)
 
 
 
