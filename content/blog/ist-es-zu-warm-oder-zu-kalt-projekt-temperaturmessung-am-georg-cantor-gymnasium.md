@@ -5,7 +5,7 @@ date: 2024-06-22
 draft: true
 image: /media/image.webp
 author:
-  - herr-berger
+  - enya-kolata
 categories:
   - Naturwissenschaften
 subjects:
