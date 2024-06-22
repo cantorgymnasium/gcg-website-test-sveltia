@@ -2,7 +2,7 @@
 title: Ist es zu warm oder zu kalt? - Projekt Temperaturmessung am
   Georg-Cantor-Gymnasium
 date: 2024-06-22
-draft: true
+draft: false
 image: /media/image.webp
 author:
   - enya-kolata
