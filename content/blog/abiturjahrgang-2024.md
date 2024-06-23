@@ -24,11 +24,7 @@ Das Ende ihrer Schullaufbahn begann mit der Mottowoche ab 12. April 2024, in der
 - Kindheitshelden und Dreamteams
 - Pyjama und Party
 
-
-
 {{< gallery dir="/media/blog/Sj2023_2024/Abi24/Mottowoche24" >}}
-
-
 
 Der letzte Schultag - der Tag des Abistreich - am 19.04.2024 stand dann unter dem Motto: „ABItendo - 12 Jahre gespielt und nichts gespeichert“. Das Schulhaus wurde traditionell schon am Vorabend „verwüstet“: Hefter und Tests der Oberstufe lose im Schulhaus verteilt, Memes über die Lehrer erstellt und Luftballons verteilt. Aber auch der kreativen Ader wurde freien Lauf gelassen: Einige Abiturientinnen und Abiturienten malten auf Pappe Mario, Peach, Bowser und Co aus dem Nintendo-Universum. Zudem wurde der gesamte Schulhof mit Kronkorken übersät, welche schon viele Jahre gesammelt wurden. Währenddessen gab es zudem an diesem Donnerstagabend das Lehrergrillen, bei dem die Schülerinnen und Schüler einen geselligen Abend mit ihren Lehrkräften verbrachten und diesen mehr oder weniger erfolgreich neue Kartenspiele beigebracht wurden.
 
