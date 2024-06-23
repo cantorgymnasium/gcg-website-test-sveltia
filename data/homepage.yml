@@ -1,16 +1,20 @@
 top_banner:
   enable: true
-  text: >
+  text: >+
     Der Schulshop startet in den Sommer-Bestellzeitraum mit einer neuen
     Kollektion. Bestellungen sind bis zum **14.07.2024** möglich. Details im
-    [Artikel](/).
+    [Blog-Artikel](https://cantorgymnasium.de/blog/schulshop-neue-kollektion-jetzt-im-sommer-bestellzeitraum-2024/).
+    Der Schulbuchverkauf wird an den letzten beiden Sommerferientagen
+    stattfinden. Mehr dazu auf der
+    [Website-Startseite.](https://cantorgymnasium.de/)
+
   color: "#19aa96"
   font_color: "#ffffff"
   icon: shopping-outline
   temporarily:
     enable: true
     start_date: 2024-06-19
-    end_date: 2024-07-14
+    end_date: 2024-08-02
 slider:
   enable: true
   bg_image: media/home/banner.webp
