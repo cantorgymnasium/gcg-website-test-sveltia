@@ -1,0 +1,21 @@
+name: Website Pull Request
+
+on:
+  pull_request:
+
+jobs:
+  test-build:
+    if: gitea.repository == 'gcg/gcg-website'
+    runs-on: act-runner-user
+    steps:
+      - name: Checkout
+        uses: https://github.com/actions/checkout@v4    
+      - name: Build
+        run: |
+          hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture -d test
+      - name: Notification
+        uses: actions/telegram-action@main
+        if: always()
+        with:
+          chat_id: ${{ secrets.TG_CHAT_ID }}
+          token: ${{ secrets.TG_TOKEN }}
