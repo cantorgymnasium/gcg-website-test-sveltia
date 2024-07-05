@@ -1,7 +1,8 @@
 name: Website Prod/Test
 
 on:
-  push: [master]
+  push:
+    branches: [master]
   schedule:
     - cron: '@daily'
 
