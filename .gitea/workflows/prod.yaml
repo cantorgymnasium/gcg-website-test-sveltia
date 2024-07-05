@@ -1,11 +1,9 @@
-name: website-main
+name: Website Prod/Test
 
 on:
-  push:
-    branches:
-      - master
+  push: [master]
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '@daily'
 
 defaults:
   run:
@@ -15,13 +13,12 @@ jobs:
   prod-build:
     if: gitea.repository == 'gcg/gcg-website'
     runs-on: act-runner-user
-    timeout-minutes: 5
     steps:
-      - name: pull
+      - name: Pull
         run: |
           git fetch --all
           git reset --hard origin/master
-      - name: build
+      - name: Build
         run: |
           rm -rf public
           hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
@@ -30,7 +27,7 @@ jobs:
           cd public
           pagefind_extended --site=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website/
-      - name: notification
+      - name: Notification
         uses: actions/telegram-action@main
         if: always()
         with:
@@ -39,17 +36,16 @@ jobs:
   test-build:
     if: gitea.repository == 'gcg/gcg-website'
     runs-on: act-runner-user
-    timeout-minutes: 5
     steps:
-      - name: pull
+      - name: Pull
         run: |
           git fetch --all
           git reset --hard origin/master
-      - name: build
+      - name: Build
         run: |
           rm -rf test
           hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture -d test
-      - name: deploy
+      - name: Deploy
         run: |
           cd test
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-test/
