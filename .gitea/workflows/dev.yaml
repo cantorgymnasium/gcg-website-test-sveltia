@@ -1,9 +1,8 @@
-name: website-dev
+name: Website Dev
 
 on:
   push:
-    branches:
-      - dev
+    branches: [dev]
 
 defaults:
   run:
@@ -13,22 +12,21 @@ jobs:
   dev-build:
     if: gitea.repository == 'gcg/gcg-website'
     runs-on: act-runner-user
-    timeout-minutes: 5
     steps:
-      - name: pull
+      - name: Pull
         run: |
           git pull
           git reset --hard origin/dev
-      - name: build
+      - name: Build
         run: |
           rm -rf dev
           hugo --minify --gc --baseURL "https://dev.cantorgymnasium.de/" --buildDrafts --buildFuture -d dev
-      - name: deploy
+      - name: Deploy
         run: |
           cd dev
           pagefind_extended --site=. 
           rsync -azr --delete ./ /opt/data/webdata/gcg-website-dev/          
-      - name: notification
+      - name: Notification
         uses: actions/telegram-action@main
         if: always()
         with:
