@@ -23,7 +23,7 @@ jobs:
         run: |
           rm -rf public
           hugo --minify --gc --baseURL "https://cantorgymnasium.de/"
-      - name: deploy
+      - name: Deploy
         run: |
           cd public
           pagefind_extended --site=. 
