@@ -4,7 +4,8 @@ on:
   pull_request:
 
 jobs:
-  test-build:
+  test-build-pr:
+    name: Pull-Request-Testbuild
     if: gitea.repository == 'gcg/gcg-website'
     runs-on: act-runner-user
     steps:
