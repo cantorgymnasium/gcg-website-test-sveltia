@@ -10,6 +10,7 @@ defaults:
 
 jobs:
   dev-build:
+    name: Entwicklungsumgebung
     if: gitea.repository == 'gcg/gcg-website'
     runs-on: act-runner-user
     steps:
