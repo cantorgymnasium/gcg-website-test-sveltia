@@ -6,7 +6,7 @@ on:
 
 defaults:
   run:
-    working-directory: /opt/data/actions/gcg-website-dev
+    working-directory: /opt/runner/workdir/gcg-website-dev
 
 jobs:
   dev-build:
