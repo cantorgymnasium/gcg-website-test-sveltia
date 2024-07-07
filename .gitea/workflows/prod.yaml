@@ -2,13 +2,13 @@ name: Website Prod/Test
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   schedule:
     - cron: '@daily'
 
 defaults:
   run:
-    working-directory: /opt/runner/workdir/gcg-website-master
+    working-directory: /opt/runner/workdir/gcg-website-main
 
 jobs:
   prod-build:
@@ -19,7 +19,7 @@ jobs:
       - name: Pull
         run: |
           git fetch --all
-          git reset --hard origin/master
+          git reset --hard origin/main
       - name: Build
         run: |
           rm -rf public
@@ -43,7 +43,7 @@ jobs:
       - name: Pull
         run: |
           git fetch --all
-          git reset --hard origin/master
+          git reset --hard origin/main
       - name: Build
         run: |
           rm -rf test
