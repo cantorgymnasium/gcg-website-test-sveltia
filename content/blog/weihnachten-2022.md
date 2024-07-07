@@ -32,7 +32,7 @@ Ein großer Dank geht an den Schülerrat für die Organisation. Insbesondere an 
 
 #### Weihnachtsbasar
 
-U﻿nter Anleitung des Schülerrats wurde wieder ein öffentlicher Weihnachtsbasar in unserer Schule organisiert. Am Montagabend verkauften die Klassen in der Aula kleine Basteleien und Leckereien. Auch für eine musikalische Umrahmung sorgten unsere Schülerinnen und Schüler. Die Einnahmen werden an das Kinderhospiz Halle gespendet. Unsere 10., 11. und 12. Klassen sorgten für das leibliche Wohl mit Buffetverkauf und Grillen auf dem Hof. Am letzten Schultag vor den Ferien konnten die Schülerinnen und Schüler selbst erneut über den Basar stöbern.
+Unter Anleitung des Schülerrats wurde wieder ein öffentlicher Weihnachtsbasar in unserer Schule organisiert. Am Montagabend verkauften die Klassen in der Aula kleine Basteleien und Leckereien. Auch für eine musikalische Umrahmung sorgten unsere Schülerinnen und Schüler. Die Einnahmen werden an das Kinderhospiz Halle gespendet. Unsere 10., 11. und 12. Klassen sorgten für das leibliche Wohl mit Buffetverkauf und Grillen auf dem Hof. Am letzten Schultag vor den Ferien konnten die Schülerinnen und Schüler selbst erneut über den Basar stöbern.
 
 Ein großer Dank geht an den Schülerrat für die Organisation. Aber auch alle Bastler, Bäcker und Musiker sollen hervorgehoben werden.
 
