@@ -1,6 +1,6 @@
 ---
 title: Jahrmarktspiele - Schulfest 2024
-date: 2024-07-22
+date: 2024-07-19
 draft: false
 image: /media/blog/Sj2023_2024/schulfest24_titel.webp
 author:
