@@ -54,3 +54,11 @@ Alle genannten Schülerinnen und Schüler erhalten eine Teilnahmeurkunde mit Zer
 {{< image src="/media/blog/Sj2023_2024/bundesfinalejtfo_symbolbild.webp" >}}
 
 Unsere Tischtennismannschaften haben sich auf dem Bundesfinale von Jugend trainiert für Olympia vom 23. bis 27.04.2024 gut geschlagen. Sie errangen einen 8. und einen 13. Platz im Duell mit den anderen Bundesländern. Jetzt wird weiter trainiert und nächstes Schuljahr wieder angegriffen.
+
+#### The Big Challenge
+
+//Datei von Berthelmann abwarten
+
+
+
+
