@@ -1,7 +1,7 @@
 ---
 title: Wettbewerbserfolge am Schuljahresende 2024
 date: 2024-07-22
-draft: true
+draft: false
 image: /media/blog/Sj2023_2024/31ceoi_simon.webp
 author:
   - herr-berger
@@ -10,10 +10,14 @@ categories:
   - Sport
   - Informatik/Technik
   - Naturwissenschaften
+  - Fremdsprachen
 subjects:
   - Sport
   - Chemie
   - Informatik
+  - Englisch
+tags:
+  - "2024"
 type: post
 ---
 ### Ein Überblick über die letzten Wettbewerbe am Schuljahresende
@@ -57,7 +61,30 @@ Unsere Tischtennismannschaften haben sich auf dem Bundesfinale von Jugend traini
 
 #### The Big Challenge
 
-//Datei von Berthelmann abwarten
+
+
+{{< image src="/media/wettbewerbe/big-challenge.webp" >}}
+
+
+
+Unsere Schülerinnen und Schüler feierten großartige Erfolge beim bundesweiten Englischwettbewerb The Big Challenge. In allen Jahrgängen ab der 5. Klasse erreichten sie höhere Durchschnittspunktzahlen als der Landes- und Bundesschnitt. 
+
+Unsere Podiumsplatzierungen mit Landespreisen:
+
+|Platzierung Land|Platzierung Bund|Gewinner/-in|Klasse|
+|---|---|---|---|
+|1|49 von 13954|Abdelrahman|5|
+|1|39 von 12065|Richard|6|
+|2|93 von 12065|Dana|6|
+|4|197 von 12065|Friedrich|6|
+|2|101 von 8597|Ruben Gabriel|7|
+|3|120 von 8597|Eleanor|7|
+|4|153 von 8597|Samuel|7|
+|2|69 von 4695|Mattis|8|
+|3|139 von 4695|Nora|8|
+|3|139 von 4695|Karoline|8|
+|2|27 von 3483|Johannes|9|
+|4|45 von 3483|Konstantin|9|
 
 
 
