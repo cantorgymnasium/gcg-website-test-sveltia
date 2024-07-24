@@ -1,20 +1,11 @@
 enable: true
-title: Cantor-Collection und Schulbuchverkauf
+title: Schulbuchverkauf
 author:
   - herr-berger
 image: /media/gcg_sommer.png
 content: >
   ## Wir wünschen allen Schülerinnen und Schülern sowie dem gesamten Kollegium
   erholsame Sommerferien! Wir sehen uns wieder am 05. August 2024.
-
-
-  **Bestellung der Cantor-Kollektion:**
-
-
-  Bis 14.07.2024 ist der Schulshop für Ihre Bestellung geöffnet. Alle Informationen im Blogartikel: [https://cantorgymnasium.de/blog/schulshop-neue-kollektion-jetzt-im-sommer-bestellzeitraum-2024/](https://cantorgymnasium.de/blog/schulshop-neue-kollektion-jetzt-im-sommer-bestellzeitraum-2024/)
-
-  {{< card title="Schulshop" link="https://cantor-shop.migoma.de/" >}}
-
 
 
   **Schulbuchverkauf:**
