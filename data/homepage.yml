@@ -1,17 +1,17 @@
 top_banner:
   enable: true
-  text: >+
-    Der Schulbuchverkauf wird an den letzten beiden Sommerferientagen
-    stattfinden. Mehr dazu auf der
-    [Website-Startseite.](https://cantorgymnasium.de/)
-
+  text: >
+    Alle Infos zum Schulbuchverkauf und Schuljahresstart der 5. Klassen befinden
+    sich auf der  [Website-Startseite](https://cantorgymnasium.de/), wie die 6.
+    bis 12. Klassen in das Schuljahr starten, wird ab Freitag im
+    Moodle-Schulgemeinschaftsraum bekanntgegeben. 
   color: "#19aa96"
   font_color: "#ffffff"
-  icon: shopping-outline
+  icon: account-school-outline
   temporarily:
     enable: true
     start_date: 2024-06-19
-    end_date: 2024-08-02
+    end_date: 2024-08-05
 slider:
   enable: true
   bg_image: media/home/banner.webp
