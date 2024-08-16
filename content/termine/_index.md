@@ -322,4 +322,27 @@ events:
     enddate: 2025-08-08
     hidden: false
     title: "Sommerferien "
+  - date: 2025-08-25
+    enddate: 2025-08-29
+    hidden: true
+    title: Klassenfahrt Klasse 5, 7, 10
+  - date: 2025-09-15
+    enddate: 2025-09-26
+    hidden: true
+    title: "Schülerratstraining "
+    location: "Villa Jühling "
+  - date: 2025-09-16
+    enddate: ""
+    hidden: true
+    title: "Bundesrunde Chemieolympiade "
+  - date: 2025-12-12
+    enddate: ""
+    hidden: true
+    title: "Generalprobe für Weihnachtskonzert "
+    location: "Ulrichskirche "
+  - date: 2025-12-12
+    enddate: ""
+    hidden: true
+    title: "Weihnachtskonzert "
+    location: Ulrichskirche
 ---
