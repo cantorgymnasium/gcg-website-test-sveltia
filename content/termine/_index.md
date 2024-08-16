@@ -70,4 +70,42 @@ events:
     enddate: 2024-09-21
     hidden: false
     title: Bundesrunde Chemieolympiade Klasse 9/10
+  - date: 2024-09-21
+    enddate: ""
+    hidden: false
+    title: Stadtschulmesse
+  - date: 2024-09-23
+    enddate: 2024-09-27
+    hidden: false
+    title: Modulkurs Physik Klasse 12
+  - date: 2024-09-30
+    enddate: 2024-10-12
+    hidden: false
+    title: "Herbstferien "
+  - date: 2024-10-17
+    enddate: ""
+    hidden: false
+    title: Gesamtkonferenz
+  - date: 2024-10-17
+    enddate: ""
+    hidden: false
+    title: "Sozialkundekurs Klasse 11: Fahrt in den Bundestag "
+    location: Berlin
+  - date: 2024-10-22
+    enddate: ""
+    hidden: false
+    title: "Pädagogische Konferenzen "
+  - date: 2024-10-24
+    enddate: ""
+    hidden: false
+    title: "Pädagogische Konferenzen "
+  - date: 2024-11-08
+    enddate: 2024-11-09
+    hidden: false
+    title: Spezialschultreffen
+    location: Cottbus
+  - date: 2024-11-12
+    enddate: ""
+    hidden: false
+    title: 2. Runde der IPhO
 ---
