@@ -108,4 +108,100 @@ events:
     enddate: ""
     hidden: false
     title: 2. Runde der IPhO
+  - date: 2024-11-13
+    enddate: ""
+    hidden: false
+    title: "2. Runde der Mathematikolympiade "
+  - date: 2024-08-16
+    enddate: ""
+    hidden: true
+    title: "Lehrersprechtag "
+  - date: 2024-11-18
+    enddate: 2024-11-30
+    hidden: false
+    title: "Betriebspraktikum Klasse 9 "
+  - date: 2024-11-23
+    enddate: ""
+    hidden: false
+    title: "Tag der offenen Tür "
+  - date: 2024-11-22
+    enddate: 2024-11-29
+    hidden: false
+    title: "NaWi-Praktikum Klasse 10 "
+    location: Hochschule Merseburg
+  - date: 2024-12-02
+    enddate: ""
+    hidden: false
+    title: "Testat Physik Klasse 10 "
+  - date: 2024-11-28
+    enddate: ""
+    hidden: false
+    title: "Mannschaftswettbewerb Informatik Klasse 9-12 "
+    location: Jena
+  - date: 2024-12-02
+    enddate: ""
+    hidden: false
+    title: Wechsel der Kurshalbjahre im Abiturjahrgang
+  - date: 2024-12-03
+    enddate: 2024-12-05
+    hidden: false
+    title: Musikfahrt
+    location: "Naumburg "
+  - date: 2024-12-06
+    enddate: ""
+    hidden: true
+    title: "IChO "
+  - date: 2024-12-13
+    enddate: ""
+    hidden: false
+    title: "Generalprobe für Weihnachtskonzert "
+  - date: 2024-12-13
+    enddate: ""
+    hidden: false
+    title: Weihnachtskonzert
+    location: Ulrichskirche
+  - date: 2024-12-20
+    enddate: ""
+    hidden: false
+    title: "Fußballturnier Klasse 5-7 "
+  - date: 2024-12-20
+    enddate: ""
+    hidden: false
+    title: "Weihnachtssingen "
+  - date: 2024-12-23
+    enddate: 2025-01-03
+    hidden: false
+    title: "Ferien zum Jahreswechsel "
+  - date: 2025-01-09
+    enddate: ""
+    hidden: false
+    title: Halbjahreskonferenzen
+  - date: 2025-01-11
+    enddate: 2025-01-17
+    hidden: false
+    title: Ski-Kompaktkurs Klasse 11
+    location: "Ötztal "
+  - date: 2025-01-24
+    enddate: ""
+    hidden: false
+    title: Zeugnisausgabe zum Schulhalbjahr
+  - date: 2025-01-27
+    enddate: 2025-01-31
+    hidden: false
+    title: Winterferien
+  - date: 2025-02-03
+    enddate: 2025-02-07
+    hidden: false
+    title: "Modulkurs Chemie Klasse 11 "
+    location: Hochschule Merseburg
+  - date: 2025-02-03
+    enddate: 2025-02-07
+    hidden: false
+    title: "Spezialistenlager Klasse 5-7 "
+    location: Wittenberg
+  - date: 2025-02-10
+    enddate: 2025-02-14
+    hidden: false
+    title: "Modulkurs Chemie Klasse 12 "
+    location: Hochschule Merseburg
 ---
