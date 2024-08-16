@@ -204,4 +204,52 @@ events:
     hidden: false
     title: "Modulkurs Chemie Klasse 12 "
     location: Hochschule Merseburg
+  - date: 2025-02-10
+    enddate: 2025-02-14
+    hidden: false
+    title: Spezialistenlager Klasse 8-11
+    location: "Wittenberg "
+  - date: 2025-02-11
+    enddate: 2025-03-28
+    hidden: false
+    title: "Vergleichsarbeit Deutsch Klasse 8 "
+  - date: 2025-02-11
+    enddate: 2025-03-28
+    hidden: false
+    title: "Vergleichsarbeit Englisch Klasse 8 "
+  - date: 2025-02-21
+    enddate: 2025-02-22
+    hidden: false
+    title: "Landesrunde Mathematikolympiade "
+    location: "Magdeburg "
+  - date: 2025-03-03
+    enddate: 2025-03-07
+    hidden: false
+    title: "Kultur- und Wissenschaftstage "
+  - date: 2025-03-05
+    enddate: ""
+    hidden: false
+    title: "Strongest Student "
+  - date: 2025-03-06
+    enddate: ""
+    hidden: false
+    title: "Cantorpreisverleihung "
+  - date: 2025-03-13
+    enddate: ""
+    hidden: false
+    title: Landesphysikolympiade
+    location: Magdeburg
+  - date: 2025-03-20
+    enddate: ""
+    hidden: false
+    title: Känguru-Wettbewerb Klasse 5-10
+  - date: 2025-08-16
+    enddate: ""
+    hidden: true
+    title: "Schach Südharz-Cup "
+  - date: 2025-03-26
+    enddate: ""
+    hidden: false
+    title: Landesrunde Chemieolmpiade Klasse 8-10
+    location: "Schulpforta "
 ---
