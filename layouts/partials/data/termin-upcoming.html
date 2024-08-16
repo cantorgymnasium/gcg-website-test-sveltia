@@ -1,1 +1,1 @@
-{{ return or (ge (.date | time.AsTime) now) (and .enddate (ge (.enddate | time.AsTime) now)) }}
+{{ return and (not .hidden) (or (ge (.date | time.AsTime) now) (and .enddate (ge (.enddate | time.AsTime) now))) }}

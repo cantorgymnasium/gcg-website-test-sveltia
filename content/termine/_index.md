@@ -307,6 +307,7 @@ events:
     enddate: ""
     title: Mannschaftswettbewerb Informatik der Klassenstufen 9-12
     location: Jena
+    hidden: false
   - date: 2024-04-04
     enddate: ""
     title: Abifiz
