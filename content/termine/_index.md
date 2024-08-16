@@ -286,4 +286,32 @@ events:
     hidden: false
     title: "Regionalrunde Chemieolympiade Klasse 9-10 "
     location: "Hochschule Merseburg "
+  - date: 2025-06-13
+    enddate: ""
+    hidden: false
+    title: "Abiball "
+  - date: 2025-06-20
+    enddate: ""
+    hidden: false
+    title: "Ausgabe der Reifezeugnisse "
+  - date: 2025-06-23
+    enddate: ""
+    hidden: false
+    title: "Schulfest "
+  - date: 2025-06-24
+    enddate: ""
+    hidden: false
+    title: "Erste-Hilfe-Ausbildung Klasse 10 "
+  - date: 2025-06-23
+    enddate: 2025-06-27
+    hidden: false
+    title: "Klassenfahrt Klasse 7 "
+  - date: 2025-06-24
+    enddate: ""
+    hidden: false
+    title: Exkursionstag Klasse 5/6 Drachenbootrennen
+  - date: 2025-06-25
+    enddate: ""
+    hidden: false
+    title: Exkursionstag Klasse 8/9 Drachenbootrennen
 ---
