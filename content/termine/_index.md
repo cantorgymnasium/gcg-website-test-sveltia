@@ -314,4 +314,12 @@ events:
     enddate: ""
     hidden: false
     title: Exkursionstag Klasse 8/9 Drachenbootrennen
+  - date: 2025-06-27
+    enddate: ""
+    hidden: false
+    title: "Ausgabe der Zeugnisse zum Schuljahresende "
+  - date: 2025-06-28
+    enddate: 2025-08-08
+    hidden: false
+    title: "Sommerferien "
 ---
