@@ -252,4 +252,38 @@ events:
     hidden: false
     title: Landesrunde Chemieolmpiade Klasse 8-10
     location: "Schulpforta "
+  - date: 2025-03-28
+    enddate: ""
+    hidden: false
+    title: "letzter Schultag des Abiturjahrganges "
+  - date: 2025-04-07
+    enddate: 2025-04-19
+    hidden: false
+    title: "Osterferien "
+  - date: 2025-04-22
+    enddate: ""
+    hidden: true
+    title: "Sportfest "
+  - date: 2025-05-02
+    enddate: ""
+    hidden: true
+    title: "flexibler Ferientag "
+  - date: 2025-05-15
+    enddate: ""
+    hidden: false
+    title: zentrale Klassenarbeit Englisch Klasse 6
+  - date: 2025-05-19
+    enddate: ""
+    hidden: true
+    title: "zentrale Klassenarbeit Deutsch Klasse 6 "
+  - date: 2025-05-23
+    enddate: 2025-05-26
+    hidden: false
+    title: Bundesrunde Mathematikolympiade
+    location: "Göttingen "
+  - date: 2025-06-02
+    enddate: 2025-06-05
+    hidden: false
+    title: "Regionalrunde Chemieolympiade Klasse 9-10 "
+    location: "Hochschule Merseburg "
 ---
