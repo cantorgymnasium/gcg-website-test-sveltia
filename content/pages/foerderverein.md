@@ -23,10 +23,10 @@ Und genau für solche Projekte benötigen wir Ihre Unterstützung.  Ob durch ein
 
 Wenn Sie Fragen zu unserer Arbeit haben und uns unterstützen möchten, dann suchen Sie den Kontakt zum Vorstand oder stellen Sie einen Mitgliedsantrag
 
-{{< download title="Mitgliedschaftsantrag" link="/media/forms/mitgliedschaftsantrag_foev.pdf" >}}
+
+
+{{< download title="Beitrittserklärung" link="/media/forms/beitrittserklaerung.pdf" >}}
 
 
 
 {{< card title="Website des Fördervereins" link="https://cantor-foerderverein.de" >}}
-
-
