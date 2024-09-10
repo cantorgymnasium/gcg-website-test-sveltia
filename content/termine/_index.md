@@ -120,24 +120,32 @@ events:
     enddate: 2024-11-30
     hidden: false
     title: "Betriebspraktikum Klasse 9 "
-  - date: 2024-11-23
+  - date: 2024-11-20
     enddate: ""
     hidden: false
-    title: "Tag der offenen Tür "
+    title: Landeswettbewerb Latein (1. Runde)
   - date: 2024-11-22
     enddate: 2024-11-29
     hidden: false
     title: "NaWi-Praktikum Klasse 10 "
     location: Hochschule Merseburg
-  - date: 2024-12-02
+  - date: 2024-11-23
     enddate: ""
     hidden: false
-    title: "Testat Physik Klasse 10 "
+    title: "Tag der offenen Tür "
+  - date: 2024-11-28
+    enddate: ""
+    hidden: false
+    title: Vorleseabend
   - date: 2024-11-28
     enddate: ""
     hidden: false
     title: "Mannschaftswettbewerb Informatik Klasse 9-12 "
     location: Jena
+  - date: 2024-12-02
+    enddate: ""
+    hidden: false
+    title: "Testat Physik Klasse 10 "
   - date: 2024-12-02
     enddate: ""
     hidden: false
