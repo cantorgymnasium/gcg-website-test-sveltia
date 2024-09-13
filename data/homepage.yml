@@ -1,17 +1,16 @@
 top_banner:
   enable: true
   text: >
-    Alle Infos zum Schulbuchverkauf und Schuljahresstart der 5. Klassen befinden
-    sich auf der  [Website-Startseite](https://cantorgymnasium.de/), wie die 6.
-    bis 12. Klassen in das Schuljahr starten, wird ab Freitag im Vertretungsplan
-    bekannt gegeben.
+    Am Samstag, dem 21.09.2024 könne Sie uns auf der Stadtschulmesse in der
+    "Carpe Diem Schule Halle (Saale) Förderschule für Körperbehinderte" in der
+    Murmansker Straße 16 06130 Halle besuchen.
   color: "#19aa96"
   font_color: "#ffffff"
-  icon: account-school-outline
+  icon: school-outline
   temporarily:
     enable: true
-    start_date: 2024-06-19
-    end_date: 2024-08-05
+    start_date: 2024-09-13
+    end_date: 2024-09-21
 slider:
   enable: true
   bg_image: media/home/banner.webp
