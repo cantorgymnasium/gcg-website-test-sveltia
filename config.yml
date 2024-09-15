@@ -1,6 +1,5 @@
 baseURL: https://cantorgymnasium.de/
 title: Georg-Cantor-Gymnasium
-paginate: 8
 summaryLength: "10"
 defaultContentLanguage: de
 enableEmoji: true

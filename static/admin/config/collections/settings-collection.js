@@ -377,15 +377,6 @@ const SettingsCollection = {
         },
         Title(false),
         {
-          name: "paginate",
-          label: "Anzahl der Seitenelemente",
-          widget: "number",
-          value_type: "int",
-          min: 1,
-          step: 1,
-          required: true,
-        },
-        {
           name: "summaryLength",
           label: "Länge von Zusammenfassungen (Zeichenanzahl)",
           widget: "number",

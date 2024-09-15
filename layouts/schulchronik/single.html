@@ -27,7 +27,7 @@
       <div class="card d-flex flex-row flex-wrap-reverse">
         <div class="flex-grow card-body min-w-0">
           <a href="{{ .Permalink }}"><h3 class="card-title">{{ .Title }}</h3></a>
-          {{ range (getJSON "static/data/abiturdurchschnitte.json").abiturdurchschnitte  }}
+          {{ range (resources.Get "data/abiturdurchschnitte.json" | transform.Unmarshal).abiturdurchschnitte  }}
             {{ if eq (string .jahr) $.Title }}<a href="/chronikseiten/abiturdurchschnitte" class="h4 card-text">Abiturdurchschnitt: {{ .schnitt }}</a>{{ end }}
           {{ end }}
         </div>

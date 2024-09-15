@@ -183,30 +183,20 @@ aliases:
             precision: 1,
             pieces: [
               {
-                gt: 0.9,
-                lte: 1.0,
-                color: "#005da9",
-              },
-              {
                 gt: 1.0,
                 lte: 1.5,
-                color: "#0b9834"
+                color: "#06511c",
               },
               {
                 gt: 1.5,
                 lte: 2.0,
-                color: "#93CE07"
+                color: "#0b9834"
               },
               {
                 gt: 2.0,
                 lte: 2.5,
-                color: "#FBDB0F"
-              },
-              /*{
-                gt: 2.0,
-                lte: 2.5,
-                color: "#FC7D02"
-              },*/
+                color: "#10df4c"
+              }
             ],
             outOfRange: {
               color: "#999"
@@ -225,16 +215,19 @@ aliases:
               },
               data: [
                 {
-                  yAxis: 1.4
+                  yAxis: 1.25
                 },
                 {
-                  yAxis: 1.7
+                  yAxis: 1.5
+                },
+                {
+                  yAxis: 1.75
                 },
                 {
                   yAxis: 2.0
                 },
                 {
-                  yAxis: 2.3
+                  yAxis: 2.25
                 }
               ]
             }
