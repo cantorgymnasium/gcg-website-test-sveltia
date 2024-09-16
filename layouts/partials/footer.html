@@ -29,8 +29,10 @@
         <div class="col-lg-3 col-sm-6 mb-4 mb-md-0 text-sm-start text-center">
           <h4 class="text-white mb-4 text-uppercase">Ganztagsangebote</h4>
           <ul class="list-unstyled">
-            {{ range first 5 (where .Site.RegularPages "Type" "ganztagsangebote" | shuffle)}}
-            <li class="mb-3"><a class="text-white text-opacity-50" href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ with .Site.GetPage "/ganztagsangebote/_index.md" }}
+              {{ range first 5 (.Params.tiles | shuffle) }}
+                <li class="mb-3"><a class="text-white text-opacity-50" href="/ganztagsangebote">{{ .title }}</a></li>
+              {{ end }}
             {{ end }}
           </ul>
         </div>

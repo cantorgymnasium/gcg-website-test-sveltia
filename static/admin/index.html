@@ -22,7 +22,6 @@
         AboutPreview,
         BlogPreview,
         ContestPreview,
-        GanztagPreview,
         PagePreview,
         EventPreview,
         AnmeldungPreview,
@@ -64,7 +63,6 @@
       CMS.registerPreviewTemplate("about-index", AboutPreview);
       CMS.registerPreviewTemplate("blog", BlogPreview);
       CMS.registerPreviewTemplate("wettbewerbe", ContestPreview);
-      CMS.registerPreviewTemplate("ganztagsangebote", GanztagPreview);
       CMS.registerPreviewTemplate("kontakt", KontaktPreview);
       CMS.registerPreviewTemplate("termine", EventPreview);
       CMS.registerPreviewTemplate("anmeldung-index", AnmeldungPreview);
@@ -75,7 +73,7 @@
       CMS.registerPreviewTemplate("forms", FormsPreview);
       CMS.registerPreviewTemplate("cantorpreis", CantorpreisPreview);
       CMS.registerPreviewTemplate("begabte", ContestPreview);
-      ["projektwoche", "superhaufen"].forEach((page) =>
+      ["projektwoche", "superhaufen", "ganztagsangebote-index"].forEach((page) =>
         CMS.registerPreviewTemplate(page, ProjektwochePreview)
       );
       ["abiturienten", "cantorfora"].forEach((page) =>
@@ -85,7 +83,6 @@
         "blog-index",
         "cantorpreis-index",
         "forms-index",
-        "ganztagsangebote-index",
         "wettbewerbe-index",
         "begabte-index",
         "abiturienten-index",
@@ -134,7 +131,6 @@
         "blog",
         "cantorpreis",
         "pages",
-        "ganztagsangebote",
         "wettbewerbe",
         "begabte",
         "projektwoche",

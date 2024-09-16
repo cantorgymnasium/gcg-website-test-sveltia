@@ -5,14 +5,19 @@
     </div>
   </div>
   <div class="container">
-    <div class="row">
+    {{ partial "filter-controls" . }}
+    <div class="filter-container row">
       {{ range .Params.tiles }}
         {{ partial "modal" . }}
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 filter-item" data-groups="{{ .category | urlize }}">
           <div class="card border-primary rounded-0 hover-shadow mb-4">
-            <div class="container fb-tile-color" style="background-color:{{ .bg_color }};">
-              <span class="fb-tile-icon" style="color: {{ .font_color }}">{{ partial "mdi" .icon }}</span>
-            </div>
+            {{ if and .image (ne .image "/media/image.webp") }}
+              <img class="card-img-top rounded-0" src="{{ .image | relURL }}">
+            {{ else }}
+              <div class="container fb-tile-color" style="background-color:{{ .bg_color }};">
+                <span class="fb-tile-icon" style="color: {{ .font_color }}">{{ partial "mdi" .icon }}</span>
+              </div>
+            {{ end }}
             <div class="card-body">
               <h4 class="card-title text-truncate">{{ .title }}</h4>
               <button type="button" class="btn btn-primary btn-sm" onclick="$('#{{ md5 .title }}').modal('show');" data-pagefind-ignore>Mehr anzeigen</button>
@@ -21,5 +26,6 @@
         </div>
       {{ end }}
     </div>
+    <div class="filter-sizer col-1"></div>
   </div>
 </section>

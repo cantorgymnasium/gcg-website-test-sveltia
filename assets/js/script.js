@@ -71,7 +71,8 @@
       const shuffleInstance = new Shuffle($('.filter-container'), {
         itemSelector: '.filter-item',
         sizer: '.filter-sizer',
-        delimiter: ','
+        delimiter: ',',
+        isCentered: true
       });
       $('.filter-controls li').on('click', function() {
         $('.filter-controls li').removeClass('active');

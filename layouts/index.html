@@ -179,10 +179,17 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      {{ range first (int $data.homepage.ganztagsangebote.number) (where .Site.RegularPages "Type" "ganztagsangebote" | shuffle)}}
-      <div class="col-lg-4 col-sm-6">
-        {{ partial "ganztag" . }}
-      </div>
+      {{ with .Site.GetPage "/ganztagsangebote/_index.md" }}
+        {{ range first (int $data.homepage.ganztagsangebote.number) (.Params.tiles | shuffle) }}
+          <div class="col-lg-4 col-sm-6">
+            <div class="card border-primary rounded-0 hover-shadow mb-4">
+              <img class="card-img-top rounded-0" src="{{ .image | relURL }}">
+              <div class="card-body">
+                <h4 class="card-title text-truncate">{{ .title }}</h4>
+              </div>
+            </div>
+          </div>
+        {{ end }}
       {{ end }}
     </div>
   </div>

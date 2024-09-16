@@ -4,7 +4,6 @@ import PagesCollection from "./pages.js";
 import AuthorCollection from "./author.js";
 import BlogCollection from "./blog.js";
 import FormsCollection from "./forms.js";
-import GanztagCollection from "./ganztag.js";
 import WettbewerbeCollection from "./wettbewerbe.js";
 import BegabteCollection from "./begabte.js";
 import ProjektwocheCollection from "./projektwoche.js";
@@ -23,7 +22,6 @@ export {
   AuthorCollection,
   BlogCollection,
   FormsCollection,
-  GanztagCollection,
   WettbewerbeCollection,
   BegabteCollection,
   ProjektwocheCollection,

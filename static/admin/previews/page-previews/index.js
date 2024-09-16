@@ -1,7 +1,6 @@
 import AboutPreview from "./about-preview.js";
 import BlogPreview from "./blog-preview.js";
 import ContestPreview from "./contest-preview.js";
-import GanztagPreview from "./ganztag-preview.js";
 import PagePreview from "./page-preview.js";
 import EventPreview from "./event-preview.js";
 import AnmeldungPreview from "./anmeldung-preview.js";
@@ -22,7 +21,6 @@ export {
   AboutPreview,
   BlogPreview,
   ContestPreview,
-  GanztagPreview,
   PagePreview,
   EventPreview,
   AnmeldungPreview,
