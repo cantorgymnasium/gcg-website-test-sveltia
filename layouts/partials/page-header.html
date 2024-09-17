@@ -7,7 +7,9 @@
           <li class="list-inline-item h2">{{ partial "icons/icon" (dict "vendor" "mdi" "name" "chevron-double-right" "className" "align-bottom text-white") }}</li>
           <li class="list-inline-item text-white h2 font-header" data-pagefind-weight="10">{{ .Title }}</li>
         </ul>
-        <p class="text-white text-opacity-75">{{ .Params.description | markdownify }}</p>
+        <div class="text-white text-opacity-75">
+          {{ .Params.description | markdownify }}
+        </div>
       </div>
     </div>
   </div>
