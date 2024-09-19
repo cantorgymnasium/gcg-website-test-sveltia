@@ -1,0 +1,14 @@
+{{ with .Get "id" }}
+  {{ $chartId := . }}
+  <script src="https://assets.cantorgymnasium.de/echarts/v5/echarts.min.js"></script>
+
+  {{ with resources.Get "js/echarts-locale.js" | resources.Minify }}
+    <script src="{{ .Permalink }}"></script>
+  {{ end }}
+
+  <div id="chart-container"></div>
+
+  {{ with resources.Get (print "charts/" $chartId ".js") | js.Build | resources.Minify }}
+    <script src="{{ .Permalink }}"></script>
+  {{ end }}
+{{ end }}

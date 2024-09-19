@@ -12,7 +12,7 @@ const StatsCollection = {
     {
       name: "abiturdurchschnitte",
       label: "Abiturdurchschnitte",
-      file: "assets/data/abiturdurchschnitte.json",
+      file: "assets/charts/abiturdurchschnitte.json",
       fields: [
         {
           name: "abiturdurchschnitte",
@@ -43,7 +43,7 @@ const StatsCollection = {
     {
       name: "schuelerzahlen",
       label: "Schülerzahlen",
-      file: "assets/data/schuelerzahlen.json",
+      file: "assets/charts/schuelerzahlen.json",
       fields: [
         {
           name: "schuelerzahlen",
