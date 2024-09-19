@@ -50,7 +50,7 @@ type: abiturienten
 
 |Name|Vorname|
 |---|---|
-|Boege|Lea Sophie|
+|Boege|Jack|
 |Brode|Valentin|
 |Fischer|Florian|
 |Franke|Johann Theo|
