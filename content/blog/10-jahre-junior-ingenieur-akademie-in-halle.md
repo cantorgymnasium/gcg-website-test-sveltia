@@ -1,7 +1,7 @@
 ---
 title: 10 Jahre Junior-Ingenieur-Akademie in Halle
 date: 2024-09-17
-draft: true
+draft: false
 image: /media/blog/Sj2024_2025/10-jahre-jia.webp
 author:
   - frau-felke
@@ -26,8 +26,4 @@ Ehemalige Schülerinnen und Schüler führten durch das Programm und stellten ih
 
 Besonders bedanken möchten wir uns bei Clara Joachimi und Denys Konovalov für die sehr professionelle Moderation, bei Kelechi Okoro und Nora Klitsche für den Vortrag über den Ungarn-Austausch und die Präsentation der Projekte beim Speed-Dating. Herr Urbainczyk hat fleißig fotografiert und uns somit eine lebendige Erinnerung an die Veranstaltung bewahrt. Frau Professor Hartmann und Frau Schlesier vom Salinetechnikum haben mit ihrem Team die Veranstaltung hervorragend geplant und organisiert. Vielen Dank!
 
-
-
 {{< gallery dir="/media/blog/Sj2024_2025/10-jahre-jia" >}}
-
-
