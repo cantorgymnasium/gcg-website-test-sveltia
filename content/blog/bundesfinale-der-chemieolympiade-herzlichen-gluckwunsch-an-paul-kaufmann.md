@@ -14,21 +14,16 @@ tags:
   - "2024"
 type: post
 ---
-### Bundesfinale der Chemieolympiade 
+### Bundesfinale der Chemieolympiade
 
 ### Herzlichen Glückwunsch an Paul Kaufmann
 
 ###### Vom 17. bis 20. September haben sich die 36 Finalisten der Wettbewerbssaison 2023/24 zum großen **Bundesfinale der Chemieolympiade** in Leipzig getroffen.
 
-###### Paul Kaufmann hat in der Jahrgangsstufe 10/11einen hervorragenden **3. Platz** belegt.
+###### Paul Kaufmann hat in der Jahrgangsstufe 10/11 einen hervorragenden 3. Platz belegt.
 
-‎ 
+‎
 
-_Bild:_ Bundesfinale 2023/24: alle Prämierten; Foto: Jan Bandemer 
+_Bild:_ Bundesfinale 2023/24: alle Prämierten; Foto: Jan Bandemer
 
 Weitere Fotos unter [www.chemie-die-stimmt.de](http://www.chemie-die-stimmt.de/)
-
-
-
-
-
