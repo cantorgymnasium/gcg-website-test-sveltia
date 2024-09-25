@@ -51,11 +51,7 @@ const KontaktPreview = ({ widgetsFor, entry }) => {
                     "li",
                     { className: "list-group-item" },
                     h("p", { className: "card-title mb-0" }, person.data.name),
-                    h(
-                      "p",
-                      { className: "text-muted mb-0" },
-                      person.data.position
-                    ),
+                    h("p", { className: "text-muted mb-0" }, person.data.position),
                     h(
                       "p",
                       { className: "card-text" },
@@ -74,12 +70,6 @@ const KontaktPreview = ({ widgetsFor, entry }) => {
                     { className: "card-text" },
                     h("i", { className: "mdi mdi-phone-outline me-2" }),
                     "Telefon: +49-0345/6903156"
-                  ),
-                  h(
-                    "p",
-                    { className: "card-text" },
-                    h("i", { className: "mdi mdi-fax me-2" }),
-                    "Fax: +49-0345/6903157"
                   )
                 )
               )
