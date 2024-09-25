@@ -5,6 +5,7 @@ on:
     branches: [main]
   schedule:
     - cron: '@daily'
+  workflow_dispatch:
 
 defaults:
   run:
