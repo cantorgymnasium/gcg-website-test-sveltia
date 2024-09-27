@@ -17,7 +17,7 @@ kontaktdaten:
     - name: Frau Gabriele Felke
       position: Koordinatorin für den inhaltlichen Schwerpunkt
       email: felke@cantor-gymnasium.de
-    - name: Frau S. Kretzschmar / Frau J.-M. Jaschak
+    - name: Frau S. Kretzschmar
       position: Sekretariat
       email: schulleitung@cantor-gymnasium.de
 ---
