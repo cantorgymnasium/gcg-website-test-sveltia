@@ -48,7 +48,7 @@ const EventPreview = ({ widgetsFor, entry }) => {
                     "div",
                     {
                       className:
-                        "col-md-3 text-center p-4 bg-primary text-white rounded",
+                        "col-md-3 text-center p-4 bg-primary text-secondary",
                     },
                     h(
                       "div",

@@ -108,7 +108,7 @@
       <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.blog.title }}</h2>
       <div class="border-top w-100 border-primary d-none d-sm-block"></div>
       <div>
-        <a href="{{ `blog` | relURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block">Alle anzeigen</a>
+        <a href="{{ `blog` | relURL }}" class="btn btn-sm btn-primary ms-sm-3 d-none d-sm-block">Alle anzeigen</a>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -175,7 +175,7 @@
       <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.ganztagsangebote.title }}</h2>
       <div class="border-top w-100 border-primary d-none d-sm-block"></div>
       <div>
-        <a href="{{ `ganztagsangebote` | relURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block">Alle anzeigen</a>
+        <a href="{{ `ganztagsangebote` | relURL }}" class="btn btn-sm btn-primary ms-sm-3 d-none d-sm-block">Alle anzeigen</a>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -185,7 +185,7 @@
             <div class="card border-primary rounded-0 hover-shadow mb-4">
               <img class="card-img-top rounded-0" src="{{ .image | relURL }}">
               <div class="card-body">
-                <h4 class="card-title text-truncate">{{ .title }}</h4>
+                <h4 class="card-title text-truncate mb-0">{{ .title }}</h4>
               </div>
             </div>
           </div>
@@ -200,8 +200,8 @@
 {{ with $data.homepage.cta }}
 <section class="section bg-primary">
   <div class="container text-center">
-    <h2 class="text-white mb-0">{{ .title | markdownify }}</h2>
-    <h5 class="mb-4 text-white">{{ .subtitle | markdownify }}</h5>
+    <h2 class="text-secondary mb-0">{{ .title | markdownify }}</h2>
+    <h5 class="text-secondary mb-4">{{ .subtitle | markdownify }}</h5>
     {{ if .button.enable }}
     {{ with .button }}
     <a href="{{ .link | absURL }}" class="btn btn-secondary text-uppercase">{{ .label }}</a>
@@ -223,7 +223,7 @@
       <h2 class="mb-0 text-nowrap me-3">{{ $data.homepage.termine.title }}</h2>
       <div class="border-top w-100 border-primary d-none d-sm-block"></div>
       <div>
-        <a href="{{`termine` | relURL }}" class="btn btn-sm btn-primary-outline ms-sm-3 d-none d-sm-block text-nowrap">Alle anzeigen</a>
+        <a href="{{`termine` | relURL }}" class="btn btn-sm btn-primary ms-sm-3 d-none d-sm-block text-nowrap">Alle anzeigen</a>
       </div>
     </div>
     <div class="row justify-content-center px-2">
@@ -246,7 +246,7 @@
     </div>
     <div class="row">
       <div class="col-12 text-center">
-        <a href="{{`termine` | relURL }}" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">Alle anzeigen</a>
+        <a href="{{`termine` | relURL }}" class="btn btn-sm btn-primary d-sm-none d-inline-block">Alle anzeigen</a>
       </div>
     </div>
   </div>

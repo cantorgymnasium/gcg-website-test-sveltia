@@ -39,8 +39,8 @@ const AboutPreview = ({ widgetFor, widgetsFor, entry, fields, collection }) => {
                   h(
                     "div",
                     { className: "text-center" },
-                    h("h2", { className: "count text-white" }, element.count),
-                    h("h5", { className: "text-white" }, element.name)
+                    h("h2", { className: "count text-secondary" }, element.count),
+                    h("h5", { className: "text-secondary" }, element.name)
                   )
                 );
               })

@@ -197,6 +197,10 @@ a h4:hover {
   color: var(--gcg-color-primary) !important;
 }
 
+.text-secondary {
+  color: var(--gcg-color-secondary) !important;
+}
+
 .text-muted {
   color: var(--gcg-color-grey) !important;
 }
@@ -260,7 +264,7 @@ textarea.form-control {
 
 .pagination .page-item.active .page-link {
   background: var(--gcg-color-primary);
-  color: white;
+  color: var(--gcg-color-secondary);
   border-color: var(--gcg-color-primary);
 }
 
@@ -432,7 +436,7 @@ details[open] summary {
 
 .tag-list a:hover {
   background: var(--gcg-color-primary);
-  color: white;
+  color: var(--gcg-color-secondary);
 }
 
 .hover-shadow {
@@ -550,7 +554,7 @@ details[open] summary {
   width: 80px;
   border-radius: 50%;
   background: var(--gcg-color-primary);
-  color: white;
+  color: var(--gcg-color-secondary);
   font-size: 25px;
   display: flex;
   align-items: center;
@@ -563,7 +567,7 @@ details[open] summary {
   height: 0;
   width: 0;
   transform: translate(-50%, -50%);
-  background: white;
+  background: var(--gcg-color-secondary);
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -664,7 +668,7 @@ details[open] summary {
   height: 6px;
   width: 100%;
   content: "";
-  background: white;
+  background: var(--gcg-color-secondary);
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.3s ease;
@@ -677,19 +681,19 @@ details[open] summary {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
+  color: var(--gcg-color-secondary);
 }
 
 link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: white;
+  color: var(--gcg-color-secondary);
 }
 
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: white;
+  color: var(--gcg-color-secondary);
 }
 
 .navbar-expand-xl .navbar-nav .nav-link {
@@ -733,8 +737,8 @@ link:focus,
 }
 
 .navbar .dropdown-item:hover {
-  color: var(--gcg-color-primary);
-  background: transparent;
+  color: var(--gcg-color-secondary);
+  background: var(--gcg-color-primary);
 }
 
 /* button styles */
@@ -787,7 +791,8 @@ link:focus,
 
 .btn-primary {
   background: var(--gcg-color-primary);
-  color: white;
+  color: var(--gcg-color-secondary);
+  border: 1px solid var(--gcg-color-primary)
 }
 
 .btn-primary::before {
@@ -797,6 +802,7 @@ link:focus,
 .btn-primary:active {
   background: var(--gcg-color-primary) !important;
   color: var(--gcg-color-primary);
+  border: 1px solid var(--gcg-color-primary);
 }
 
 .btn-primary:active::before {
@@ -805,21 +811,22 @@ link:focus,
 
 .btn-primary:hover {
   background: var(--gcg-color-primary);
-  color: var(--gcg-color-primary);
+  color: var(--gcg-color-secondary);
+  border: 1px solid var(--gcg-color-primary);
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
-  color: white;
+  color: var(--gcg-color-secondary);
   background-color: var(--gcg-color-primary);
   border-color: var(--gcg-color-primary);
 }
 
 .btn-secondary {
-  background: white;
+  background: var(--gcg-color-secondary);
   color: var(--gcg-color-primary);
-  border: 1px solid white;
+  border: 1px solid var(--gcg-color-secondary);
 }
 
 .btn-secondary::before {
@@ -828,34 +835,14 @@ link:focus,
 
 .btn-secondary:active {
   background: var(--gcg-color-primary);
-  color: white;
-  border: 1px solid white;
+  color: var(--gcg-color-secondary);
+  border: 1px solid var(--gcg-color-secondary);
 }
 
 .btn-secondary:hover {
-  background: white;
-  color: white;
-  border: 1px solid white;
-}
-
-.btn-primary-outline {
-  border: 1px solid var(--gcg-color-primary);
-  color: var(--gcg-color-primary);
-  background: transparent;
-}
-
-.btn-primary-outline::before {
-  background: white;
-}
-
-.btn-primary-outline:hover {
-  background: var(--gcg-color-primary);
-  color: var(--gcg-color-primary);
-}
-
-.btn-primary-outline:active {
-  background: var(--gcg-color-primary);
-  color: white;
+  background: var(--gcg-color-secondary);
+  color: var(--gcg-color-secondary);
+  border: 1px solid var(--gcg-color-secondary);
 }
 
 /* media queries */
@@ -932,6 +919,15 @@ link:focus,
 
   .navbar-expand-xl .navbar-nav .nav-link {
     padding: 20px;
+    color: white !important;
+  }
+
+  .link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: white !important;
+  }
+
+  .nav-item:hover::before {
+    background-color: white;
   }
 
   .navbar .dropdown-menu {

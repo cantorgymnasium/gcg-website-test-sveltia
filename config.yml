@@ -60,7 +60,7 @@ params:
       link: https://facebook.com/cantor.news
   preloader:
     enable: true
-    preloader: media/logo_lg_white.webp
+    preloader: media/logo_lg_blue.webp
     loader: media/load.svg
 menu:
   main:
