@@ -1,7 +1,7 @@
 ---
 title: Abiturienten 2024
 draft: false
-image: /media/image.webp
+image: /media/abiturienten/abi-foto-2024.webp
 type: abiturienten
 ---
 ## Klasse 12/1
