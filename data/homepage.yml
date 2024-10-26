@@ -1,16 +1,18 @@
 top_banner:
   enable: true
   text: >
-    Am Samstag, dem 21.09.2024 könne Sie uns auf der Stadtschulmesse in der
-    "Carpe Diem Schule Halle (Saale) Förderschule für Körperbehinderte" in der
-    Murmansker Straße 16 06130 Halle besuchen.
+    Am Samstag, dem 23.11.2024 laden wir Sie von 9 bis 12 Uhr zu unserem Tag der
+    offenen Tür ein. <br> Wir brauchen Unterstützung beim Wettbewerb: Schublade
+    auf - Stifte raus! Bringen Sie zum Tag der offenen Tür gerne alte
+    Plastikstifte (z.B. Textmarker, Filzstifte) mit zu uns. Wir sammeln diese
+    und führen sie dem Recycling zu. 
   color: "#19aa96"
   font_color: "#ffffff"
-  icon: school-outline
+  icon: door-open
   temporarily:
     enable: true
-    start_date: 2024-09-13
-    end_date: 2024-09-21
+    start_date: 2024-10-26
+    end_date: 2024-11-23
 slider:
   enable: true
   bg_image: media/home/banner.webp
