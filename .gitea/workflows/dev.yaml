@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Pull
         run: |
-          git pull
+          git fetch --all
           git reset --hard origin/dev
       - name: Build
         run: |
