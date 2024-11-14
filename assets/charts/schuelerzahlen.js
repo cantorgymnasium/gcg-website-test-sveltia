@@ -22,7 +22,8 @@ import * as json from "./schuelerzahlen.json";
         var lines = params.map(
           (p) => `<b>${p.seriesName}:</b> ${p.value}${p.seriesName == "Anteil Mädchen" ? "%" : ""}`
         );
-        return lines.join("<br>");
+        console.log(params);
+        return `${params[0].name}<br>${lines.join("<br>")}`;
       },
     },
     xAxis: {
