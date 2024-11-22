@@ -18,17 +18,18 @@ type: post
 
 Liebe Schulgemeinschaft,
 
-auch in diesem Jahr führen wir wieder eine Weihnachtsaktion für  Wohnungs- und Obdachlose durch. Im Steinweg befindet sich die  Wärmestube der Diakonie. Die Weihnachtstüten und die Geschenke vom Wunschzettel bringen wir am 17.12. dorthin.
-Wunschzettel: Nagelpflegesets, USB-Sticks, Powerbanks, Deodorants, Papiertaschentücher, Socken und Unterwäsche für Männer und Frauen (M-XL), Shampoo/ Duschbad 2in1 (Unisex), stabile Gürtel (verschiedene Längen), Schals, Mützen, Handschuhe, Einwegrasierer, Rasierschaum Lebensmittel (mit langer Haltbarkeit, wie Nudeln, kleine Dosen mit Suppe, "heiße Tasse", Snacks/ Riegel usw.)
+auch in diesem Jahr führen wir wieder eine Weihnachtsaktion für  Wohnungs- und Obdachlose durch. Im Steinweg befindet sich die  Wärmestube der Diakonie. Die Weihnachtstüten und die Geschenke vom Wunschzettel bringen wir am 17.12. dorthin. 
 
-Alle anderen Spenden wie Schlafsäcke, Winterjacken, Rucksäcke und Schuhe bitte selbst im Steinweg bei der Wärmestube abgeben. Verderbliche Lebensmittel, Alkohol und Selbstgebackenes dürfen keine 
-Spenden sein. 
+###### Wunschzettel: 
 
-Über Briefe freuen sich die Besucher der Wärmestube sehr. Ein Begleitschreiben oder ein Zettel mit ein paar netten Zeilen sollte in jeder Tüte sein. Aber auch einzelne Spenden vom Wunschzettel sind 
-möglich. 
+Nagelpflegesets, USB-Sticks, Powerbanks, Deodorants, Papiertaschentücher, Socken und Unterwäsche für Männer und Frauen (M-XL), Shampoo/ Duschbad 2in1 (Unisex), stabile Gürtel (verschiedene Längen), Schals, Mützen, Handschuhe, Einwegrasierer, Rasierschaum Lebensmittel (mit langer Haltbarkeit, wie Nudeln, kleine Dosen mit Suppe, "heiße Tasse", Snacks/ Riegel usw.)
 
-Bei Interesse oder Rückfragen wenden Sie sich bitte an mich (haertig(at)cantor-gymnasium.de). 
-Die Spenden/ Tüten können am 12., 16. und 17. Dezember in der zweiten großen Pause im Raum 405 abgegeben werden. 
+Alle anderen Spenden wie Schlafsäcke, Winterjacken, Rucksäcke und Schuhe bitte selbst im Steinweg bei der Wärmestube abgeben. Verderbliche Lebensmittel, Alkohol und Selbstgebackenes dürfen keine Spenden sein.
 
-Viele Grüße und vielen Dank für Eure/ Ihre Unterstützung - 
-Julia Härtig (Lehrerin für ev. Religion, Ethik und Geschichte)
+Über Briefe freuen sich die Besucher der Wärmestube sehr. Ein Begleitschreiben oder ein Zettel mit ein paar netten Zeilen sollte in jeder Tüte sein. Aber auch einzelne Spenden vom Wunschzettel sind möglich.
+
+Bei Interesse oder Rückfragen wenden Sie sich bitte an mich (haertig(at)[cantor-gymnasium.de](cantor-gymnasium.de)). 
+
+###### Die Spenden/ Tüten können am 12., 16. und 17. Dezember in der zweiten großen Pause im Raum 405 abgegeben werden.
+
+Viele Grüße und vielen Dank für Eure/ Ihre Unterstützung - Julia Härtig (Lehrerin für ev. Religion, Ethik und Geschichte)
