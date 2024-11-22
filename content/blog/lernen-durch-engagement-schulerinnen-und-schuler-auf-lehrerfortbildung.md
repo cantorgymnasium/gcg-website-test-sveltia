@@ -10,7 +10,7 @@ categories:
   - Naturwissenschaften
   - Sonstiges
 subjects:
-  - Ethik
+  - Ethik/Religion
   - Wahlobligatorischer Unterricht (WoU)
 tags:
   - "2024"

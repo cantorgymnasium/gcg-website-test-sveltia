@@ -1,0 +1,23 @@
+{{ $emojis := dict
+  "danger" "alert-octagram"
+  "info" "information-outline"
+  "warning" "alert-outline"
+}}
+
+{{ if eq .Type "alert" }}
+<div class="alert alert-{{ .AlertType }}" role="alert">
+  <h4 class="alert-heading">
+    {{ partial "mdi" (index $emojis .AlertType) }}
+    {{ with .AlertTitle }}
+    {{ . }}
+    {{ else }}
+    {{ or (i18n .AlertType) (title .AlertType) }}
+    {{ end }}
+  </h4>
+  {{ .Text }}
+</div>
+{{ else }}
+<blockquote>
+  {{ .Text }}
+</blockquote>
+{{ end }}

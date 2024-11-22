@@ -268,7 +268,7 @@ textarea.form-control {
   border-color: var(--gcg-color-primary);
 }
 
-.content *:not(details, details > *, .shortcode *) {
+.content *:not(details, details > *, .shortcode *, .alert *) {
   margin-bottom: 20px;
 }
 
@@ -388,9 +388,6 @@ details[open] summary {
 .text-justify {
   text-align: justify;
   hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
 }
 
 .fb-tile-color {
@@ -945,6 +942,8 @@ link:focus,
 
   .navbar .dropdown-item {
     text-align: center;
+    text-wrap: auto;
+    hyphens: auto;
   }
 
   .feature-blocks {

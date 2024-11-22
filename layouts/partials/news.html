@@ -1,0 +1,24 @@
+<section class="section pt-0">
+  <div class="container">
+    <div class="d-flex align-items-center mb-4 justify-content-between">
+      <h2 class="section-title">Aktuelles aus {{ .title }}</h3>
+      {{ with .link }}
+      <div>
+        <a href="{{ . | absURL }}" class="btn btn-sm btn-primary ms-sm-3 d-none d-sm-block">Alle anzeigen</a>
+      </div>
+      {{ end }}
+    </div>
+    <div class="row">
+      {{ $news := (where .Site.RegularPages "Type" "post") | intersect (where .Site.RegularPages .param
+      "intersect" .cond) }}
+      {{ range first 3 $news }}
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 d-flex align-items-stretch">
+        {{ partial "card-article" .}}
+      </div>
+      {{ end }}
+      {{ if eq (len $news) 0 }}
+      <p>Leider wurden noch keine Artikel zu {{ .title }} veröffentlicht. Folgen Sie dem Georg-Cantor-Gymnasium über eines der Informationskanäle, um stets auf dem neusten Stand zu bleiben!</p>
+      {{ end }}
+    </div>
+  </div>
+</section>

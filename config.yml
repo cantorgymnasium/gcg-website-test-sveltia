@@ -148,6 +148,28 @@ menu:
         external: false
         separator: false
     - parent: Unterricht
+      name: Sprachlich-literarisch-künstlerisch
+      URL: fb-slk
+      weight: 1
+      hasChildren: false
+      params:
+        external: false
+    - parent: Unterricht
+      name: Gesellschaftswissenschaftlich
+      URL: fb-gwf
+      weight: 2
+      hasChildren: false
+      params:
+        external: false
+    - parent: Unterricht
+      name: MINT
+      URL: fb-mint
+      weight: 3
+      hasChildren: false
+      params:
+        external: false
+        separator: true
+    - parent: Unterricht
       name: Wettbewerbe
       URL: wettbewerbe
       weight: 4
@@ -164,9 +186,17 @@ menu:
         external: false
         separator: false
     - parent: Unterricht
-      name: Junior-Ingenieur-Akademie
-      URL: pages/jia
+      name: Wahlobligatorischer Unterricht
+      URL: wou
       weight: 6
+      hasChildren: false
+      params:
+        external: false
+        separator: false
+    - parent: Unterricht
+      name: Junior-Ingenieur-Akademie
+      URL: wou/jia
+      weight: 7
       hasChildren: false
       params:
         external: false
@@ -174,7 +204,7 @@ menu:
     - parent: Unterricht
       name: Projektwoche
       URL: projektwoche
-      weight: 7
+      weight: 8
       hasChildren: false
       params:
         external: false

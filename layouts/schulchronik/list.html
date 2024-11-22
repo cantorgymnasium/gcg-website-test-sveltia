@@ -2,7 +2,9 @@
 
 <section class="section">
   <div class="container">
-    {{ .Content }}
+    <div class="content">
+      {{ .Content }}
+    </div>
   </div>
   {{ if .Params.infocard.enable }}
     {{ with .Params.infocard }}

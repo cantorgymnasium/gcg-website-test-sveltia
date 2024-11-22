@@ -9,7 +9,7 @@ categories:
   - Veranstaltungen
   - Gesellschaftswissenschaften
 subjects:
-  - Ethik
+  - Ethik/Religion
 tags:
   - "2024"
 type: post

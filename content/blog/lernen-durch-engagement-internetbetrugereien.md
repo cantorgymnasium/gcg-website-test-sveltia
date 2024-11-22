@@ -9,7 +9,7 @@ categories:
   - Gesellschaftswissenschaften
   - Informatik/Technik
 subjects:
-  - Ethik
+  - Ethik/Religion
   - Informatik
   - Wahlobligatorischer Unterricht (WoU)
 tags:

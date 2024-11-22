@@ -16,12 +16,13 @@ categories:
   - Sport
 subjects:
   - Musik
-  - Ethik
+  - Ethik/Religion
   - Sport
 tags:
   - "2023"
   - Weihnachtskonzert
   - Weihnachten
+  - LdE
 type: post
 ---
 ### Weihnachtskonzert

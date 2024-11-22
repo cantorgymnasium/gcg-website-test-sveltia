@@ -9,7 +9,7 @@ categories:
   - Gesellschaftswissenschaften
 subjects:
   - Sport
-  - Ethik
+  - Ethik/Religion
   - Religion
 type: post
 ---

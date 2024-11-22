@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<section class="section" data-pagefind-body>
+  <div class="container">
+    <div class="content text-justify">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+
+{{ with .Params.news }}
+  {{ partial "news" (merge . (dict "Site" $.Site)) }}
+{{ end }}
+
+{{ end }}

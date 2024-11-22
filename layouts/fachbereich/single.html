@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+{{ partial "tile-modals" . }}
+
+{{ if not (eq .Params.news false) }}
+  {{ partial "news" (dict "param" ".Params.subjects" "cond" (slice .Title) "title" (print "dem Fach " .Title) "Site" .Site) }}
+{{ end }}
+
+{{ end }}
