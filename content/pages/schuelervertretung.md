@@ -10,9 +10,9 @@ aliases:
 ---
 ## Wer sind wir?
 
-Die Schülervertretung besteht aus dem Schülerrat, dem Beirat und dem Vorstand. Der Schülerrat ist ein Gremium, das sich aus den Klassensprechern, den Schulsprechern und den Vertretern des Beirates zusammensetzt. Die Klassensprecher werden zu Beginn jedes Schuljahres von ihren Klassen gewählt. Die Schulsprecher hingegen werden basisdemokratisch von der gesamten Schülerschaft gewählt. 
+Die Schülervertretung besteht aus dem Schülerrat, dem Beirat und dem Vorstand. Der Schülerrat ist ein Gremium, das sich aus den Klassensprechern, den Schulsprechern und den Vertretern des Beirates zusammensetzt. Die Klassensprecher werden zu Beginn jedes Schuljahres von ihren Klassen gewählt. Die Schulsprecher hingegen werden basisdemokratisch von der gesamten Schülerschaft gewählt.
 
-Die Vertreter des Beirates werden von diesem eigenständig gewählt. 
+Die Vertreter des Beirates werden von diesem eigenständig gewählt.
 
 In der Schülervertretung werden Projekte umgesetzt, die den Schulalltag und damit die Schüler betreffen. Die aktuellen Projekte sind hierbei der Tag der Kulturen (TdK), das Wichteln, der Weihnachtsbasar, unsere Öffentlichkeitsarbeit und die Verschönerung unseres Schulgeländes.
 
@@ -44,13 +44,7 @@ Der Schulshop ist ein 2018 initiiertes Projekt, bei welchem Kleidung mit dem Sch
 
 ## Ansprechpartner
 
-### Schülerrat
-
-- **Johann Franke** und **Erik Lieberknecht** (Klasse 12): Schülersprecher
-
-### Beirat
-
-- **Lilli Berthold** und **Denys Konovalov** (Klasse 10): Beiratsvorstand
+- **Lilli Berthold** (Klasse 11) und **Gero Schneider** (Klasse 12): Schülersprecher
 
 ## Kontaktmöglichkeiten
 
