@@ -1,12 +1,11 @@
 top_banner:
   enable: true
-  text: >
-    Am Donnerstag, 28.11.2024 ab 16:30 (Wechsel alle 30 Minuten), findet in
+  text: "Am Donnerstag, 28.11.2024 ab 16:30 (Wechsel alle 30 Minuten), findet in
     unserer Schule der Vorleseabend statt. Lassen Sie sich in kuscheliger
-    Atmosphäre in verschiedenste Romanwelten entführen.
-
-
-    🖊 Wir brauchen Ihre Unterstützung beim Wettbewerb: Schublade auf - Stifte raus! Bringen Sie zum Vorleseabend alte Plastikstifte (z.B. Textmarker, Filzstifte) mit zu uns. Wir sammeln diese und führen sie dem Recycling zu.
+    Atmosphäre in verschiedenste Romanwelten entführen. <br> 🖊 Wir brauchen
+    Ihre Unterstützung beim Wettbewerb: Schublade auf - Stifte raus! Bringen Sie
+    zum Vorleseabend alte Plastikstifte (z.B. Textmarker, Filzstifte) mit zu
+    uns. Wir sammeln diese und führen sie dem Recycling zu."
   color: "#19aa96"
   font_color: "#ffffff"
   icon: book-open-variant
