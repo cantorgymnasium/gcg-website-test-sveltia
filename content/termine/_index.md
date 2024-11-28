@@ -353,4 +353,14 @@ events:
     hidden: true
     title: "Weihnachtskonzert "
     location: Ulrichskirche
+  - date: 2024-12-19
+    enddate: ""
+    hidden: false
+    title: Weihnachtsbasar für Schüler, Eltern und Gäste
+    location: Aula
+  - date: 2024-12-20
+    enddate: ""
+    hidden: false
+    title: Weihnachtsbasar für Schüler
+    location: Aula
 ---
