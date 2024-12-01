@@ -363,4 +363,8 @@ events:
     hidden: false
     title: Weihnachtsbasar für Schüler
     location: Aula
+  - date: 2025-01-24
+    enddate: ""
+    hidden: false
+    title: Tag der Kulturen
 ---
