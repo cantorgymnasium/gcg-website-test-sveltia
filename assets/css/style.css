@@ -221,6 +221,10 @@ a h4:hover {
   padding: 200px 0 80px;
 }
 
+.page-title-section .page-title {
+  hyphens: auto;
+}
+
 .list-styled {
   padding-left: 25px;
 }
