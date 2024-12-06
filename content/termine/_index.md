@@ -367,4 +367,12 @@ events:
     enddate: ""
     hidden: false
     title: Tag der Kulturen
+  - date: 2024-12-16
+    enddate: ""
+    hidden: false
+    title: Volleyballturnier 9., 11. und 12. Klasse
+  - date: 2024-12-09
+    enddate: ""
+    hidden: false
+    title: "Vorlesewettbewerb der 6. Klassen:  Schulausscheid"
 ---
