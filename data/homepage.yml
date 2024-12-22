@@ -10,7 +10,7 @@ top_banner:
 
   color: "#19aa96"
   font_color: "#ffffff"
-  icon: pine-tree
+  icon: plus-box
   temporarily:
     enable: false
     start_date: 2024-11-29
