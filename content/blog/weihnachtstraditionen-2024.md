@@ -27,15 +27,15 @@ type: post
 ---
 ### Bilder noch:                                        Weihnachtskonzert
 
-Am 13.12.2024 eröffneten unser Chor, die Schulband und die Keyboard-AG die Reihe der Weihnachtstraditionen in den letzten Schultagen. Nach intensiven Proben in der Schule und auf Musikfahrt in der Jugendherberge Naumburg (wir danken dem Förderverein für die Finanzierung des Busses für die Reise.), präsentierten die Musiker ihr großartiges Weihnachtskonzert vor der ausverkauften Ulrichskirche. 
+Am 13.12.2024 eröffneten unser Chor, die Schulband und die Keyboard-AG die Reihe der Weihnachtstraditionen in den letzten Schultagen. Nach intensiven Proben in der Schule und auf Musikfahrt in der Jugendherberge Naumburg (wir danken dem Förderverein für die Finanzierung des Busses für die Reise.), präsentierten die Musiker ihr großartiges Weihnachtskonzert vor der ausverkauften Ulrichskirche.
 
 Dieses Mal eröffneten die "Kleinen" das Konzert mit der Schmückung des Weihnachtsbaumes auf der Bühne. Chor, Band und Keyboard-AG bescherten uns einen wundervoll heimlichen Weihnachtsabend.
 
-Lilly, Lilli und Jonas aus der Oberstufe führten mit viel Charme und Witz als Moderatoren durch den Abend und präsentierten uns eine kleine Weltreise, denn Weihnachtsmann Jonas strebte nach Urlaub. 
+Lilly, Lilli und Jonas aus der Oberstufe führten mit viel Charme und Witz als Moderatoren durch den Abend und präsentierten uns eine kleine Weltreise, denn Weihnachtsmann Jonas strebte nach Urlaub.
 
 Seinen zweiten Auftritt feierte der Lehrerchor. Dieser wurde johlend auf der Bühne empfangen, performte grandios „Go tell it on the mountain“ und wurde danach unter noch größerem Applaus von der Bühne verabschiedet. Auch wurde traditionell mit den Alumni „Happy X-Mas“ gesungen.
 
-Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabschiedet. Es folgten viele Dankesworte. Dabei stahl das zweite Jahr in Folge Herr Dr. Gorsler allen die Show. Dieses Jahr musste er sich nicht von Arik einen Weihnachtspulli leihen. Er hatte ihn bereits unter seinem Hemd versteckt an und legte es während seiner Rede frei. 
+Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabschiedet. Es folgten viele Dankesworte. Dabei stahl das zweite Jahr in Folge Herr Dr. Gorsler allen die Show. Dieses Jahr musste er sich nicht von Arik einen Weihnachtspulli leihen. Er hatte ihn bereits unter seinem Hemd versteckt an und legte es während seiner Rede frei.
 
 > _Impressionen des Weihnachtskonzertes werden noch aufbereitet und folgen demnächst._
 
@@ -63,19 +63,26 @@ _(Frau Härtig)_
 
 {{< image src="/media/blog/Sj2023_2024/Weihnachten/weihnachtsaktion23.webp" >}}
 
-### noch bearbeiten:                           Fußballturnier der 5. und 6. Klassen
+### Fußballturnier der 5. und 6. Klassen
 
-Auch in diesem Jahr haben die 5. und 6. Klassen in einem spannenden Turnier gezeigt, wie gut sie Fußball spielen können. In den Vorrundenspielen und Halbfinalen wurden die Endspiele ausgespielt. Hier zeigte sich schon, wie eng alle Mannschaften beieinander lagen. Im Finale standen sich die Klasse 6/2 und die Klasse 6/3 gegenüber. Hier wurde bis zur letzten Minute gekämpft und der Sieg musste im Torschießen entschieden werden. Am Ende errang die Mannschaft der Klasse 6/2 mit einem Tor Vorsprung den Sieg. Herzlichen Glückwunsch!
+Auch in diesem Jahr haben die 5. und 6. Klassen in einem spannenden Turnier
+gezeigt, wie gut sie Fußball spielen können. In den spannenden Spielen
+zeigte sich, wie eng alle Mannschaften beieinander lagen. Im Finale
+standen sich die Klasse 6/3 und die Klasse 5/1 gegenüber. Die Klasse 6/3 zeigte ihr ganzes Können und setzte sich am Ende durch. 
 
-Ein besonderer Dank gilt den Schiedsrichtern aus den Klasse 10 und 12 sowie den Trainerinnen und Trainern der 12. Klasse für die Betreuung und emotionalen Unterstützung.
+**Herzlichen Glückwunsch!** 
 
-Wir freuen uns auf ein neues Turnier im nächsten Jahr und wünschen allen eine frohe Weihnacht und ein sportliches neues Jahr!
+Ein besonderer Dank gilt den Schiedsrichtern aus den Klasse 10 und 11.
 
-_(Frau Schulz)_
+Wir freuen uns auf ein neues Turnier im nächsten Jahr mit 
+hoffentlich genauso guter Stimmung. Wir wünschen allen eine frohe 
+Weihnacht und ein sportliches neues Jahr!
+
+_Frau Schulz_
 
 
 
-{{< image src="/media/blog/Sj2024_2025/Weihnachten/Weihnachtsaktion/waermestube2024.webp" >}}
+{{< image src="/media/blog/Sj2024_2025/fussballturnier_2024.webp" >}}
 
 
 
