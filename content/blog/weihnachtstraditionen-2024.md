@@ -75,7 +75,7 @@ _(Frau Schulz)_
 
 
 
-{{< gallery dir="/media/blog/Sj2024_2025/Weihnachten/Weihnachtsaktion/waermestube2024.webp" >}}
+{{< image src="/media/blog/Sj2024_2025/Weihnachten/Weihnachtsaktion/waermestube2024.webp" >}}
 
 
 
