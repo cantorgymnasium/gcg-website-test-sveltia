@@ -37,11 +37,7 @@ Seinen zweiten Auftritt feierte der Lehrerchor. Dieser wurde johlend auf der Bü
 
 Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabschiedet. Es folgten viele Dankesworte. Dabei stahl das zweite Jahr in Folge Herr Dr. Gorsler allen die Show. Dieses Jahr musste er sich nicht von Arik einen Weihnachtspulli leihen. Er hatte ihn bereits unter seinem Hemd versteckt an und legte es während seiner Rede frei.
 
-
-
 {{< gallery dir="/media/blog/Sj2024_2025/Weihnachten/Weihnachtskonzert" >}}
-
-
 
 ### Bilder noch:                                      Weihnachtswichteln
 
@@ -49,9 +45,13 @@ Der Schülerrat und die 12. Klassen organisierten wie in jedem Jahr das Weihnach
 
 {{< image src="/media/blog/Sj2023_2024/Weihnachten/wichteln23.webp" >}}
 
-### Bilder noch:                                  Weihnachtsbasar
+### Weihnachtsbasar
 
-Am 19. Dezember 2024 veranstalteten unsere Schülerinnen und Schüler in der Aula den alljährlichen Weihnachtsbasar. Alle Klassen werden von ihren Einnahmen mindestens 30 € an die Kinderhospize in Halle und an unseren früheren Schüler Dominic Wagner spenden. Viele Eltern, Großeltern und Familienmitglieder sowie Mitschüler/-innen und Lehrer waren spendabel unterwegs. Hinzu kam eine vom Schülerrat organisierte Spendentombola, deren komplette Einnahmen an die sozialen Zwecke fließen. Die Preise dafür wurden u.a. von den Saalebulls und der Saalesparkasse gestellt. Am letzten Schultag vor den Ferien konnten die Schülerinnen und Schüler selbst erneut über den Basar stöbern.
+Am 19. Dezember 2024 veranstalteten unsere Schülerinnen und Schüler in der Aula den alljährlichen Weihnachtsbasar. Als neue Tradition wurden zusätzlich zum Verkauf dieses Jahr auch Workshops angeboten, bei denen weihnachtlicher Schmuck u. ä. selbst gebastelt werden konnte.
+
+Alle Klassen werden von ihren Einnahmen mindestens 30 € an die Kinderhospize in Halle und an unseren früheren Schüler Dominic Wagner spenden. Viele Eltern, Großeltern und Familienmitglieder sowie Mitschüler/-innen und Lehrer waren spendabel unterwegs. Hinzu kam eine vom Schülerrat organisierte Spendentombola, deren komplette Einnahmen an die sozialen Zwecke fließen. Die Preise dafür wurden u.a. von den Saalebulls und der Saalesparkasse gestellt. 
+
+Am letzten Schultag vor den Ferien konnten die Schülerinnen und Schüler selbst erneut über den Basar stöbern.
 
 Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüler der oberen Klassenstufen sorgten mit einem Kuchenbasar und einem Grillstand für das leibliche Wohl.
 
