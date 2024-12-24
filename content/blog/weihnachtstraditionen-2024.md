@@ -39,11 +39,15 @@ Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabs
 
 {{< gallery dir="/media/blog/Sj2024_2025/Weihnachten/Weihnachtskonzert" >}}
 
-### Bilder noch:                                      Weihnachtswichteln
+### Weihnachtswichteln
 
 Der Schülerrat und die 12. Klassen organisierten wie in jedem Jahr das Weihnachtswichteln. Dazu haben wieder viele fleißige Hände Plätzchen gebacken und die kleinen Geschenketüten bestückt. In diesem Jahr erhielten alle Bewichtelten zudem ein Holzlineal mit Cantorlogo. Auch freuen sich die 12. Klassen darüber, einen kleinen Gewinn für ihre Abikasse daraus zu ziehen.
 
-{{< image src="/media/blog/Sj2023_2024/Weihnachten/wichteln23.webp" >}}
+
+
+{{< image src="/media/blog/Sj2024_2025/Weihnachten/wichteln24.webp" >}}
+
+
 
 ### Weihnachtsbasar
 
@@ -55,11 +59,7 @@ Am letzten Schultag vor den Ferien konnten die Schülerinnen und Schüler selbst
 
 Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüler der oberen Klassenstufen sorgten mit einem Kuchenbasar und einem Grillstand für das leibliche Wohl.
 
-
-
 {{< gallery dir="/media/blog/Sj2024_2025/Weihnachten/Weihnachtsbasar" >}}
-
-
 
 ### Weihnachtsaktion
 
@@ -69,7 +69,11 @@ Vielen Dank an alle Mitglieder der Schulgemeinschaft, die sich (wieder) an der W
 
 _(Frau Härtig)_
 
-{{< image src="/media/blog/Sj2023_2024/Weihnachten/weihnachtsaktion23.webp" >}}
+
+
+{{< image src="/media/blog/Sj2024_2025/Weihnachten/Weihnachtsaktion/waermestube2024.webp" >}}
+
+
 
 ### Fußballturnier der 5. und 6. Klassen
 
