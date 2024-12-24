@@ -25,9 +25,9 @@ tags:
   - Weihnachten
 type: post
 ---
-### Bilder noch:                                        Weihnachtskonzert
+### Weihnachtskonzert
 
-Am 13.12.2024 eröffneten unser Chor, die Schulband und die Keyboard-AG die Reihe der Weihnachtstraditionen in den letzten Schultagen. Nach intensiven Proben in der Schule und auf Musikfahrt in der Jugendherberge Naumburg (wir danken dem Förderverein für die Finanzierung des Busses für die Reise.), präsentierten die Musiker ihr großartiges Weihnachtskonzert vor der ausverkauften Ulrichskirche.
+Am 13.12.2024 eröffneten unser Chor, die Schulband und die Keyboard-AG die Reihe der Weihnachtstraditionen in den letzten Schultagen. Nach intensiven Proben in der Schule und auf Musikfahrt in der Jugendherberge Naumburg (wir danken dem Förderverein für die Finanzierung des Busses für die Reise), präsentierten die Musiker ihr großartiges Weihnachtskonzert vor der ausverkauften Ulrichskirche.
 
 Dieses Mal eröffneten die "Kleinen" das Konzert mit der Schmückung des Weihnachtsbaumes auf der Bühne. Chor, Band und Keyboard-AG bescherten uns einen wundervoll heimlichen Weihnachtsabend.
 
@@ -37,7 +37,11 @@ Seinen zweiten Auftritt feierte der Lehrerchor. Dieser wurde johlend auf der Bü
 
 Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabschiedet. Es folgten viele Dankesworte. Dabei stahl das zweite Jahr in Folge Herr Dr. Gorsler allen die Show. Dieses Jahr musste er sich nicht von Arik einen Weihnachtspulli leihen. Er hatte ihn bereits unter seinem Hemd versteckt an und legte es während seiner Rede frei.
 
-> _Impressionen des Weihnachtskonzertes werden noch aufbereitet und folgen demnächst._
+
+
+{{< gallery dir="/media/blog/Sj2024_2025/Weihnachten/Weihnachtskonzert" >}}
+
+
 
 ### Bilder noch:                                      Weihnachtswichteln
 
@@ -65,26 +69,17 @@ _(Frau Härtig)_
 
 ### Fußballturnier der 5. und 6. Klassen
 
-Auch in diesem Jahr haben die 5. und 6. Klassen in einem spannenden Turnier
-gezeigt, wie gut sie Fußball spielen können. In den spannenden Spielen
-zeigte sich, wie eng alle Mannschaften beieinander lagen. Im Finale
-standen sich die Klasse 6/3 und die Klasse 5/1 gegenüber. Die Klasse 6/3 zeigte ihr ganzes Können und setzte sich am Ende durch. 
+Auch in diesem Jahr haben die 5. und 6. Klassen in einem spannenden Turnier gezeigt, wie gut sie Fußball spielen können. In den spannenden Spielen zeigte sich, wie eng alle Mannschaften beieinander lagen. Im Finale standen sich die Klasse 6/3 und die Klasse 5/1 gegenüber. Die Klasse 6/3 zeigte ihr ganzes Können und setzte sich am Ende durch.
 
 **Herzlichen Glückwunsch!** 
 
 Ein besonderer Dank gilt den Schiedsrichtern aus den Klasse 10 und 11.
 
-Wir freuen uns auf ein neues Turnier im nächsten Jahr mit 
-hoffentlich genauso guter Stimmung. Wir wünschen allen eine frohe 
-Weihnacht und ein sportliches neues Jahr!
+Wir freuen uns auf ein neues Turnier im nächsten Jahr mit hoffentlich genauso guter Stimmung. Wir wünschen allen eine frohe Weihnacht und ein sportliches neues Jahr!
 
 _Frau Schulz_
 
-
-
 {{< image src="/media/blog/Sj2024_2025/fussballturnier_2024.webp" >}}
-
-
 
 ### Bilder noch:                      Weihnachtssingen
 
