@@ -37,8 +37,6 @@ Einen allerersten Auftritt feierte der neu gegründete Lehrerchor. Dieser wurde 
 
 Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabschiedet. Es folgten viele Dankesworte. Dabei stahl Herr Dr. Gorsler allen die Show. Er forderte Weihnachtspulli und -mütze von Arik und präsentierte seine kurze Rede im Weihnachtsoutfit.
 
-> _Impressionen des Weihnachtskonzertes werden noch aufbereitet und folgen demnächst._
-
 ### Weihnachtswichteln
 
 Der Schülerrat organisierte wie in jedem Jahr das Weihnachtswichteln. Dazu haben wieder viele fleißige Hände Plätzchen gebacken und die kleinen Geschenketüten bestückt. In diesem Jahr erhielten alle Bewichtelten zudem einen kleinen Stiftespitzer mit Cantorlogo. Auch freuen sich die 12. Klassen darüber, einen kleinen Gewinn für ihre Abikasse daraus zu ziehen.
