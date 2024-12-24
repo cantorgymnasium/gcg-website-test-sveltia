@@ -49,13 +49,17 @@ Der Schülerrat und die 12. Klassen organisierten wie in jedem Jahr das Weihnach
 
 Am 19. Dezember 2024 veranstalteten unsere Schülerinnen und Schüler in der Aula den alljährlichen Weihnachtsbasar. Als neue Tradition wurden zusätzlich zum Verkauf dieses Jahr auch Workshops angeboten, bei denen weihnachtlicher Schmuck u. ä. selbst gebastelt werden konnte.
 
-Alle Klassen werden von ihren Einnahmen mindestens 30 € an die Kinderhospize in Halle und an unseren früheren Schüler Dominic Wagner spenden. Viele Eltern, Großeltern und Familienmitglieder sowie Mitschüler/-innen und Lehrer waren spendabel unterwegs. Hinzu kam eine vom Schülerrat organisierte Spendentombola, deren komplette Einnahmen an die sozialen Zwecke fließen. Die Preise dafür wurden u.a. von den Saalebulls und der Saalesparkasse gestellt. 
+Alle Klassen werden von ihren Einnahmen mindestens 30 € an die Kinderhospize in Halle und an unseren früheren Schüler Dominic Wagner spenden. Viele Eltern, Großeltern und Familienmitglieder sowie Mitschüler/-innen und Lehrer waren spendabel unterwegs. Hinzu kam eine vom Schülerrat organisierte Spendentombola, deren komplette Einnahmen an die sozialen Zwecke fließen. Die Preise dafür wurden u.a. von den Saalebulls und der Saalesparkasse gestellt.
 
 Am letzten Schultag vor den Ferien konnten die Schülerinnen und Schüler selbst erneut über den Basar stöbern.
 
 Es wurden wieder zahlreiche Leckereien, Basteleien und Co. verkauft. Die Schüler der oberen Klassenstufen sorgten mit einem Kuchenbasar und einem Grillstand für das leibliche Wohl.
 
-{{< gallery dir="/media/blog/Sj2023_2024/Weihnachten/Weihnachtsbasar" >}}
+
+
+{{< gallery dir="/media/blog/Sj2024_2025/Weihnachten/Weihnachtsbasar" >}}
+
+
 
 ### Weihnachtsaktion
 
