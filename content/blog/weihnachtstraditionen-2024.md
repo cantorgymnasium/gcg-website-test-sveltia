@@ -1,7 +1,7 @@
 ---
 title: Weihnachtstraditionen 2024
 date: 2024-12-22
-draft: true
+draft: false
 image: /media/blog/weihnachten.webp
 author:
   - herr-berger
