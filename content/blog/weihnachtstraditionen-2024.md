@@ -81,14 +81,16 @@ _Frau Schulz_
 
 {{< image src="/media/blog/Sj2024_2025/fussballturnier_2024.webp" >}}
 
+### Volleyballturnier der 9., 11. und 12. Klassen
+
+Die Großen hatten sich selbst auch bei der Schulleitung für ein sportliches Turnier stark gemacht. So durften sie am Montag vor den Ferien im Volleyball gegeneinander antreten. Im Finale setzte sich ein Team der 12er gegen ein Team der 9er durch.
+
 ### Bilder noch:                      Weihnachtssingen
 
 Am letzten Schultag vor den Weihnachtsferien fand wieder unser traditionelles Weihnachtssingen statt. Um 11 Uhr versammelten sich die Schülerinnen und Schüler, Lehrkräfte und weitere Angestellte der Schule in der 2. Etage zum Weihnachtssingen. Auch besuchten uns wieder einige Alumni, um dieses gemeinsame Erlebnis der Weihnachtszeit zu genießen. Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 
 ### \
-{{< image src="/media/blog/Sj2023_2024/Weihnachten/wsingen23.webp" >}}\
+
+{{< image src="/media/blog/Sj2023_2024/Weihnachten/wsingen23.webp" >}}
+
 {{< video src="https://cloud.cantorgymnasium.de/s/eao8PzbbsgYwq3y/download/Weihnachtssingen%202024.mp4" >}}Nun wünschen wir der gesamten Schulgemeinschaft und allen Website-Besuchern frohe Weihnachtstage und einen guten Rutsch ins neue Jahr!
-
-
-
-
