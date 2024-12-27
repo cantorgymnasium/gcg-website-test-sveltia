@@ -1,7 +1,7 @@
 {{ $dir := (.Get "dir") }}
 {{ if $dir }}
 <div class="shortcode card border-primary rounded-3">
-  <div class="carousel slide mb-0" data-bs-ride="true" id='slider-{{ md5 $dir }}'>
+  <div class="carousel slide mb-0" data-bs-ride="true" id="slider-{{ md5 $dir }}">
     {{ $images := slice }}
     {{ range readDir (print "/static/" $dir) }}
       {{ if (lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)") }}
@@ -16,7 +16,7 @@
     <div class="carousel-inner mb-0">
       {{ range $index, $image := $images }}
         <div class="carousel-item mb-0 {{ if eq $index 0 }}active{{end}}">
-          <img src='{{ print $.Site.BaseURL $dir "/" $image.Name | absURL }}' class="d-block w-100 mb-0 rounded-3">
+          <img src="{{ print $.Site.BaseURL $dir `/` $image.Name | absURL }}" class="d-block w-100 mb-0 rounded-3">
         </div>
     {{ end }}
     </div>

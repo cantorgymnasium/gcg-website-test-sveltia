@@ -52,6 +52,7 @@
         YoutubeShortcode,
         AudioShortcode,
         SliderShortcode,
+        VideoShortcode,
       } from "./shortcodes/index.js";
       import { StatusPage, WikiLink } from "./links/index.js";
       import Icons from "./icons.js";
@@ -110,6 +111,7 @@
       CMS.registerShortcode("youtube", YoutubeShortcode);
       CMS.registerShortcode("audio", AudioShortcode);
       CMS.registerShortcode("slider", SliderShortcode);
+      CMS.registerShortcode("video", VideoShortcode);
 
       // links
       CMS.registerAdditionalLink(StatusPage);

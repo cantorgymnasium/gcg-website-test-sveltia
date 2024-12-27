@@ -272,7 +272,7 @@ textarea.form-control {
   border-color: var(--gcg-color-primary);
 }
 
-.content *:not(details, details > *, .shortcode *, .alert *) {
+.content *:not(details, details > *, .shortcode *, .alert *, .video-js *) {
   margin-bottom: 20px;
 }
 

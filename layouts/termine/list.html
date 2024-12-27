@@ -10,7 +10,7 @@
     <div class="filter-container row mx-auto">
       {{ range sort .Params.events ".date" }}
       {{ if not .hidden }}
-      <div class="filter-item col-12" data-groups='{{if partial "data/termin-upcoming" .}}upcoming{{else}}past{{end}}'>
+      <div class="filter-item col-12" data-groups="{{ if partial `data/termin-upcoming` . }}upcoming{{else}}past{{end}}">
         {{ partial "termin" . }}
       </div>
       {{ end }}

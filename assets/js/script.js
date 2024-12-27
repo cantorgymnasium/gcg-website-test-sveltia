@@ -69,6 +69,14 @@
     });
   });
 
+  // video-js
+  $(document).ready(function () {
+    document.querySelectorAll("video.video-js").forEach((video) => {
+      // @ts-ignore
+      videojs(video, {});
+    });
+  });
+
   // filter
   $(document).ready(function () {
     if ($(".filter-container").length != 0) {

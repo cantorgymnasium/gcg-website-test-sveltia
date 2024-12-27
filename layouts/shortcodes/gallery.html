@@ -6,12 +6,12 @@
 	  {{ $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp|webp|avif|jxl)" }}
 	  {{ if $isimg }}
 	    {{ $linkURL := print (trim $.Site.BaseURL "/") "/" $dir "/" .Name | absURL }}
-	    <div class="col-lg-3 col-md-4 col-sm-6">
-		  <a class="vb-gallery" data-gall="{{ md5 $dir }}" href="{{ $linkURL }}">
-		  	<div class="ratio ratio-4x3">
-				<img class="lazy img-thumbnail w-100 object-cover" data-src="{{ $linkURL }}">
-			</div>
-		  </a>	
+	    <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+        <a class="vb-gallery" data-gall="{{ md5 $dir }}" href="{{ $linkURL }}">
+          <div class="ratio ratio-4x3">
+            <img class="lazy img-thumbnail w-100 object-cover" data-src="{{ $linkURL }}">
+          </div>
+        </a>	
 	    </div>
 	  {{ end }}
     {{ end }}

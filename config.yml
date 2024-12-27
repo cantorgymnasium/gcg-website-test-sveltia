@@ -35,11 +35,13 @@ params:
       - https://assets.cantorgymnasium.de/venobox/v2/dist/venobox.min.css
       - https://assets.cantorgymnasium.de/fonts/fira/fira.min.css
       - https://assets.cantorgymnasium.de/fonts/ubuntu/ubuntu.min.css
+      - https://assets.cantorgymnasium.de/videojs/v8/video-js.min.css
       - /pagefind/pagefind-ui.css
     js:
       - https://assets.cantorgymnasium.de/bootstrap/v5/js/bootstrap.bundle.min.js
       - https://assets.cantorgymnasium.de/slick/v1.8/slick.min.js
       - https://assets.cantorgymnasium.de/lazyload/v17/dist/lazyload.min.js
+      - https://assets.cantorgymnasium.de/videojs/v8/video.min.js
       - /pagefind/pagefind-ui.js
     head_js:
       - https://assets.cantorgymnasium.de/jquery/v3.7/jquery.min.js
