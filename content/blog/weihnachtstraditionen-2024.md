@@ -7,6 +7,7 @@ author:
   - herr-berger
   - frau-schulz
   - frau-hartig
+  - denys-konovalov
 categories:
   - Traditionen
   - Veranstaltungen
