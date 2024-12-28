@@ -1,7 +1,7 @@
 ---
 title: Weihnachtstraditionen 2024
 date: 2024-12-22
-draft: true
+draft: false
 image: /media/blog/weihnachten.webp
 author:
   - herr-berger
@@ -43,11 +43,7 @@ Kurz vor Ende wurden alle Musiker der 12. Klasse aus dem Konzertgeschehen verabs
 
 Der Schülerrat und die 12. Klassen organisierten wie in jedem Jahr das Weihnachtswichteln. Dazu haben wieder viele fleißige Hände Plätzchen gebacken und die kleinen Geschenketüten bestückt. In diesem Jahr erhielten alle Bewichtelten zudem ein Holzlineal mit Cantorlogo. Auch freuen sich die 12. Klassen darüber, einen kleinen Gewinn für ihre Abikasse daraus zu ziehen.
 
-
-
 {{< image src="/media/blog/Sj2024_2025/Weihnachten/wichteln24.webp" >}}
-
-
 
 ### Weihnachtsbasar
 
@@ -69,11 +65,7 @@ Vielen Dank an alle Mitglieder der Schulgemeinschaft, die sich (wieder) an der W
 
 _(Frau Härtig)_
 
-
-
 {{< image src="/media/blog/Sj2024_2025/Weihnachten/Weihnachtsaktion/waermestube2024.webp" >}}
-
-
 
 ### Fußballturnier der 5. und 6. Klassen
 
@@ -89,11 +81,17 @@ _Frau Schulz_
 
 {{< image src="/media/blog/Sj2024_2025/fussballturnier_2024.webp" >}}
 
-### Bilder noch:                      Weihnachtssingen
+### Volleyballturnier der 9., 11. und 12. Klassen
+
+Die Großen hatten sich selbst auch bei der Schulleitung für ein sportliches Turnier stark gemacht. So durften sie am Montag vor den Ferien im Volleyball gegeneinander antreten. Im Finale setzte sich ein Team der 12er gegen ein Team der 9er durch.
+
+### Weihnachtssingen
 
 Am letzten Schultag vor den Weihnachtsferien fand wieder unser traditionelles Weihnachtssingen statt. Um 11 Uhr versammelten sich die Schülerinnen und Schüler, Lehrkräfte und weitere Angestellte der Schule in der 2. Etage zum Weihnachtssingen. Auch besuchten uns wieder einige Alumni, um dieses gemeinsame Erlebnis der Weihnachtszeit zu genießen. Großen Dank an unsere Musik-Lehrerinnen und -Lehrer für die Organisation.
 
-{{< image src="/media/blog/Sj2023_2024/Weihnachten/wsingen23.webp" >}}
+{{< gallery dir="/media/blog/Sj2024_2025/Weihnachten/Weihnachtssingen" >}}
+
+{{< video src="https://cloud.cantorgymnasium.de/s/eao8PzbbsgYwq3y/download/Weihnachtssingen%202024.mp4" >}}
 
 ### Nun wünschen wir der gesamten Schulgemeinschaft und allen Website-Besuchern frohe Weihnachtstage und einen guten Rutsch ins neue Jahr!
 
