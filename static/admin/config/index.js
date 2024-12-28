@@ -20,7 +20,7 @@ import { GCGThemeDark, GCGThemeLight } from "./themes.js";
 
 const config = {
   backend: {
-    name: "gitea",
+    name: "gitea-large",
     repo: "gcg/gcg-website",
     branch: "main",
     api_root: "https://git.cantorgymnasium.de/api/v1",
