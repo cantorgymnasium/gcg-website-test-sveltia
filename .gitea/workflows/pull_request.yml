@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: https://github.com/actions/checkout@v4    
+        with:
+          lfs: true
+          depth: 1
       - name: Build
         run: |
           hugo --minify --gc --baseURL "https://test.cantorgymnasium.de/" --buildDrafts --buildFuture -d test

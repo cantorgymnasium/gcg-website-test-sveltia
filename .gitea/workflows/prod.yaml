@@ -21,6 +21,7 @@ jobs:
         run: |
           git fetch --all
           git reset --hard origin/main
+          git lfs pull
       - name: Build
         run: |
           rm -rf public
@@ -45,6 +46,7 @@ jobs:
         run: |
           git fetch --all
           git reset --hard origin/main
+          git lfs pull
       - name: Build
         run: |
           rm -rf test
