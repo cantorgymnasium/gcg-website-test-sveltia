@@ -78,7 +78,7 @@ Ein besonderer Dank gilt den Schiedsrichtern aus den Klasse 10 und 11.
 
 Wir freuen uns auf ein neues Turnier im nächsten Jahr mit hoffentlich genauso guter Stimmung. Wir wünschen allen eine frohe Weihnacht und ein sportliches neues Jahr!
 
-_Frau Schulz_
+_(Frau Schulz)_
 
 {{< image src="/media/blog/Sj2024_2025/fussballturnier_2024.webp" >}}
 
