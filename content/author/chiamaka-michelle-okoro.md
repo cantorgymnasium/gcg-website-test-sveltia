@@ -2,8 +2,8 @@
 title: Chiamaka Michelle Okoro
 description: ""
 image: /media/people/gcg.webp
-type: author
 simplified: true
-active: true
+active: false
+type: author
 ---
 Schülerin (Abiturjahrgang 2024)
