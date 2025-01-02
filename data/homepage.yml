@@ -89,6 +89,7 @@ about:
   enable: true
   title: Herzlich willkommen auf der Homepage des Georg-Cantor-Gymnasiums!
   image: media/home/pinguin-bg.webp
+  dashboard: https://grafana.cantorgymnasium.de/d-solo/ce8eeq1ebqhvkb/solaranlage?orgId=2&timezone=browser&panelId=1&theme=light&__feature.dashboardSceneSolo
   content: >
     Wir sind eine Schule mit mathematisch-naturwissenschaftlich-technischem
     Schwerpunkt und möchten interessierte und begabte Schülerinnen und Schüler
@@ -97,6 +98,9 @@ about:
 
 
     Informieren Sie sich über unser vielfältiges wissenschaftliches, kulturelles und soziales Angebot. Georg Πinguin, unser Schulmaskottchen, begleitet Sie dabei!
+
+
+    **_Wussten Sie schon? Unsere Schülerinnen und Schüler haben für das GCG eine Mini-Solaranlage gewonnen!_**
   button:
     enable: false
     label: Digitale Führung durch das Schulhaus
