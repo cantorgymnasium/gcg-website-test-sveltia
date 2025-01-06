@@ -91,7 +91,7 @@
       {{ end }}
       {{ with .dashboard }}
       <div class="col-lg-4 col-sm-6 order-3 m-auto">
-        <iframe class="grafana-dashboard" src="{{ . }}"></iframe>
+        <iframe class="grafana-dashboard" src="{{ . }}" loading="lazy"></iframe>
       </div>
       {{ end }}
     </div>
