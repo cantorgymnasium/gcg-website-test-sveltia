@@ -53,4 +53,10 @@
 
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
+
+  {{- with partial "_funcs/get-page-images" . }}
+  {{- range . | first 6 }}
+    <meta data-pagefind-default-meta="image[content]" content="{{ .Permalink }}" property="og:image">
+  {{- end }}
+{{- end }}
 </head>
