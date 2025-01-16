@@ -58,6 +58,12 @@ const SettingsCollection = {
             },
             IconList,
             {
+              name: "large",
+              label: "Popup-Fenster (Vollbild)",
+              widget: "boolean",
+              required: false,
+            },
+            {
               name: "temporarily",
               label: "Zeitschaltung",
               widget: "object",

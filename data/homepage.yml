@@ -1,16 +1,14 @@
 top_banner:
   enable: true
-  text: >+
+  text: |
     Unser früherer Schüler Dominic Wagner verunglückte mit 17 Jahren schwer.
     Seitdem braucht er 1:1 Pflege. Bitte unterstützen Sie die Finanzierung
     dafür:
     [https://www.gofundme.com/f/eigenanteil-der-pflegekosten](https://www.gofundme.com/f/eigenanteil-der-pflegekosten)
-
-
-
   color: "#19aa96"
   font_color: "#ffffff"
   icon: plus-box
+  large: true
   temporarily:
     enable: false
     start_date: 2024-11-29

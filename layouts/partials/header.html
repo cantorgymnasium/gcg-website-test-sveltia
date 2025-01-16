@@ -85,9 +85,14 @@
 </header>
 
 {{ $top_banner := .Site.Data.homepage.top_banner }}
-  {{ if and $top_banner.enable }}
-  {{ if or (not $top_banner.temporarily.enable) (and $top_banner.temporarily.enable (and (le ($top_banner.temporarily.start_date | time.AsTime) now) (ge ($top_banner.temporarily.end_date | time.AsTime) now))) }}
-  {{ with $top_banner }}
+{{ if and $top_banner.enable }}
+{{ if or (not $top_banner.temporarily.enable) (and $top_banner.temporarily.enable (and (le ($top_banner.temporarily.start_date | time.AsTime) now) (ge ($top_banner.temporarily.end_date | time.AsTime) now))) }}
+{{ with $top_banner }}
+{{ if .large }}
+  {{ $title := "Willkommen auf der Website des Georg-Cantor-Gymnasiums!" }}
+  {{ partial "modal" (dict "title" $title "content" (.text | markdownify)) }}
+  <script>$(window).on("DOMContentLoaded", () => $('#{{ md5 $title }}').modal('show'));</script>
+{{ else }}
   <div id="top-banner" class="p-3" style="background: {{ .color }}" data-pagefind-ignore>
     <div class="container">
       <div class="no-gutters align-items-center">
@@ -95,8 +100,9 @@
       </div>
     </div>
   </div>
-  {{ end }}
-  {{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
 {{ end }}
 
 <div id="pagefind-search" class="modal fade" data-pagefind-ignore>
