@@ -88,7 +88,7 @@
 {{ if and $top_banner.enable }}
 {{ if or (not $top_banner.temporarily.enable) (and $top_banner.temporarily.enable (and (le ($top_banner.temporarily.start_date | time.AsTime) now) (ge ($top_banner.temporarily.end_date | time.AsTime) now))) }}
 {{ with $top_banner }}
-{{ if .large }}
+{{ if and .large (eq $.Page.RelPermalink "/") }}
   {{ $title := "Willkommen auf der Website des Georg-Cantor-Gymnasiums!" }}
   {{ partial "modal" (dict "title" $title "content" (.text | markdownify)) }}
   <script>$(window).on("DOMContentLoaded", () => $('#{{ md5 $title }}').modal('show'));</script>
