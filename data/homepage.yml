@@ -1,10 +1,11 @@
 top_banner:
   enable: true
-  text: >+
+  text: >
     #### Aktuelle Informationen zum Aufnahmeverfahren <br>
 
 
-    Stichtag für die Anmeldung zur Aufnahmeprüfung: 29.01.2025 <br>
+
+    **Stichtag für die Anmeldung zur Aufnahmeprüfung: 29.01.2025** <br>
 
 
     Alle ausführlichen Informationen zum Aufnahmeverfahren und Probeaufgaben finden Sie [hier](https://cantorgymnasium.de/anmeldung/). <br>
@@ -13,19 +14,18 @@ top_banner:
     Bitte nutzen Sie zur Anmeldung bevorzugt unser Onlineformular: [hier](https://cantorgymnasium.de/anmeldeformular/). <br>
 
 
-    Falls das Anmeldeformular (online oder Papier) bereits ausgefüllt vorliegt: Die Einreichung der Zeugniskopie und der Schullaufbahnempfehlung können Sie per Mail an aufnahme@cantor-gymnasium.de bzw. persönlich im Sekretariat werktäglich von 8 bis 13 Uhr bis 29.01.2025 vornehmen. <br>
+    Falls das Anmeldeformular (online oder Papier) bereits ausgefüllt vorliegt: Die Einreichung der Zeugniskopie und der Schullaufbahnempfehlung können Sie per Mail an [aufnahme@cantor-gymnasium.de](aufnahme@cantor-gymnasium.de) bzw. persönlich im Sekretariat werktäglich von 8 bis 13 Uhr bis 29.01.2025 vornehmen. <br>
 
 
     #### Spendenaufruf <br>
 
 
-    Unser früherer Schüler Dominic Wagner verunglückte mit 17 Jahren schwer. Seitdem braucht er 1:1 Pflege. Bitte unterstützen Sie die Finanzierung dafür: 
+    Unser früherer Schüler Dominic Wagner verunglückte mit 17 Jahren schwer. Seitdem braucht er 1:1 Pflege. Bitte unterstützen Sie die Finanzierung dafür:
 
     [https://www.gofundme.com/f/eigenanteil-der-pflegekosten](https://www.gofundme.com/f/eigenanteil-der-pflegekosten)
-
   color: "#19aa96"
   font_color: "#ffffff"
-  icon: plus-box
+  icon: chat-question-outline
   large: true
   temporarily:
     enable: false
