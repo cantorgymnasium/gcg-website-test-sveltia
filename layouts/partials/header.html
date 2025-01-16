@@ -96,7 +96,12 @@
   <div id="top-banner" class="p-3" style="background: {{ .color }}" data-pagefind-ignore>
     <div class="container">
       <div class="no-gutters align-items-center">
-        <div style="color: {{ .font_color }}"><b>{{ partial "mdi" .icon }} {{ .text | markdownify }}</b></div>
+        <style>
+          .top-banner * {
+            color: {{ .font_color }};
+          }
+        </style>
+        <div class="top-banner"><b>{{ partial "mdi" .icon }} {{ .text | markdownify }}</b></div>
       </div>
     </div>
   </div>
