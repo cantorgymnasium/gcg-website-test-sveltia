@@ -250,7 +250,7 @@ events:
   - date: 2025-03-20
     enddate: ""
     hidden: false
-    title: Känguru-Wettbewerb Klasse 5-10
+    title: Känguru-Wettbewerb und Rezitorenwettstreit
   - date: 2025-08-16
     enddate: ""
     hidden: true
