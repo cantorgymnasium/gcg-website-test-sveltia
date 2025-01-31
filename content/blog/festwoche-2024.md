@@ -60,6 +60,8 @@ Danach übernahmen die Moderatoren des Abends: Clara und Pascal aus der 12. Klas
 
 Gero, Arthur, Ole, Charlotte, Lucina, Johannes, Nelly, Chiamaka, die ‘Back to the street Boys’, die GCG Band, Pascal, Adele, Emelie und Marleen präsentierten uns Musik am Klavier, als Gesang, an der Gitarre und sogar am Akkordeon. Der Deutsch-Leistungskurs 11 führte uns zusammen mit ihrem Lehrer Herr Richter-Rodiek durch die Literaturgeschichte, Sariana und Katharina aus der 9/3 dichteten lyrische Hommagen an die Stadt Halle und stellten Magdeburg humorvoll in den Schatten, was zu herzlicher Stimmung im Publikum führte. Till, Theresa und Robert präsentierten die „Das Gedicht und sein Double“-Werke
 
+Es ist schön zu sehen, dass unsere ehemaligen Cantorianer doch irgendwie immer mit uns verbunden bleiben. Dies zeigte sich auch an zahlreichen Ehemaligen im Publikum des MuLi-Abends.
+
 {{< gallery dir="/media/blog/Sj2023_2024/Festwoche/MuLi24" >}}
 
 ### Tag der Kulturen
@@ -87,7 +89,6 @@ Auch waren die Angebote unserer externen Partner zahlreich besucht. Dies waren:
 - Bildungssystem in Neuseeland (Sophia Jäger, Abi 2022)
 - Kultureller Erfahrungsbericht: Auslandsjahr in Brasilien (Alexandra Schrader, Abi 2019)
 
-Es ist schön zu sehen, dass unsere ehemaligen Cantorianer doch irgendwie immer mit uns verbunden bleiben. Dies zeigte sich auch an zahlreichen Ehemaligen im Publikum des MuLi-Abends.
 
 Neben den ganzen Vorträgen und Workshops begrüßte einen im Erdgeschoss direkt der Duft der internationalen Köstlichkeiten auf dem Buffet. Hier soll allen Köchen und Bäckern (auch in der Elternschaft) gedankt sein. Das von allen Klassen gestaltete Buffet ist immer eines der größten Highlights des Tages der Kulturen. Im gemeinsamen „Speiseraum“ - die 106 - konnten zahlreiche neue Bekanntschaften und Freundschaften über die Jahrgänge hinweg beobachtet werden. _Die Buffet-Flatrate erzeugte in diesem Jahr sagenhafte 1652,10 €, welche vom Schülerrat für gemeinnützige Zwecke gespendet werden._
 
