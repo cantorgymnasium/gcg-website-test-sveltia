@@ -377,6 +377,8 @@ events:
     title: "Vorlesewettbewerb der 6. Klassen:  Schulausscheid"
   - title: 2. Gesamtkonferenz
     date: 2025-04-24
+    enddate: ""
+    hidden: false
   - date: 2025-04-03
     enddate: 2025-04-04
     hidden: false
@@ -410,11 +412,12 @@ events:
     title: Musikalisch-Literarischer Abend
     date: 2025-02-27
     location: Aula
+    enddate: ""
   - date: 2025-02-27
     enddate: ""
     hidden: false
     title: Galerieeröffnung Cantor-Art
-    location: "2"
+    location: 2te Etage
   - date: 2025-02-25
     enddate: ""
     hidden: false
