@@ -216,7 +216,7 @@ events:
     enddate: 2025-02-14
     hidden: false
     title: Spezialistenlager Klasse 8-11
-    location: "Wittenberg "
+    location: Wittenberg, MLU
   - date: 2025-02-11
     enddate: 2025-03-28
     hidden: false
@@ -251,9 +251,9 @@ events:
     enddate: ""
     hidden: false
     title: Känguru-Wettbewerb und Rezitorenwettstreit
-  - date: 2025-08-16
+  - date: 2025-03-08
     enddate: ""
-    hidden: true
+    hidden: false
     title: "Schach Südharz-Cup "
   - date: 2025-03-26
     enddate: ""
@@ -268,7 +268,7 @@ events:
     enddate: 2025-04-19
     hidden: false
     title: "Osterferien "
-  - date: 2025-04-22
+  - date: 2025-06-05
     enddate: ""
     hidden: true
     title: "Sportfest "
@@ -375,4 +375,53 @@ events:
     enddate: ""
     hidden: false
     title: "Vorlesewettbewerb der 6. Klassen:  Schulausscheid"
+  - title: 2. Gesamtkonferenz
+    date: 2025-04-24
+  - date: 2025-04-03
+    enddate: 2025-04-04
+    hidden: false
+    title: Landeswettbewerb Jugend forscht
+    location: Halle
+  - date: 2025-03-28
+    enddate: ""
+    hidden: false
+    title: "Mannschaftswettbewerb Physik 10 "
+    location: Ilmenau
+  - date: 2025-03-27
+    enddate: ""
+    hidden: false
+    title: "Mannschaftswettbewerb Biologie 9 "
+    location: Chemnitz
+  - date: 2025-03-26
+    enddate: ""
+    hidden: false
+    title: Klimakonferenz Jahrgang 10 (Geo-/Sozikurse)
+  - date: 2025-03-25
+    enddate: ""
+    hidden: false
+    title: Mannschaftswettbewerb Mathematik 10
+    location: Cottbus
+  - date: 2025-03-11
+    enddate: ""
+    hidden: false
+    title: Mannschaftswettbewerb Mathematik 9
+    location: Magdeburg
+  - hidden: false
+    title: Musikalisch-Literarischer Abend
+    date: 2025-02-27
+    location: Aula
+  - date: 2025-02-27
+    enddate: ""
+    hidden: false
+    title: Galerieeröffnung Cantor-Art
+    location: "2"
+  - date: 2025-02-25
+    enddate: ""
+    hidden: false
+    title: Regionalwettbewerb Jugend forscht
+    location: Halle
+  - date: 2025-02-14
+    enddate: ""
+    hidden: false
+    title: Faschingsfeier 5.-7. Klasse
 ---
