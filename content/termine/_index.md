@@ -417,7 +417,7 @@ events:
     enddate: ""
     hidden: false
     title: Galerieeröffnung Cantor-Art
-    location: 2te Etage
+    location: 2\. Etage
   - date: 2025-02-25
     enddate: ""
     hidden: false
