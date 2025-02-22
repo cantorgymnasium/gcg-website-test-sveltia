@@ -27,7 +27,7 @@ Für die Finaldebatte der Sekundarstufe I zum Thema „Sollen Städte und Gemein
 
 In der Sekundarstufe II wurde die äußerst aktuelle Fragestellung „Sollen extreme Parteien von Diskussionsrunden ausgeschlossen werden?“ debattiert. Hier traf **Katharina Starzmann**, die sich für das Finale qualifizierte, auf eine altbekannte Debattanten-Konstellation, und belegte den **3. Platz**!
 
-Karolina Benecke und Katharina Starzmann werden unsere Schule nun beim Landesfinale in Magdeburg vertreten.
+**Karolina Benecke** und **Katharina Starzmann** werden unsere Schule nun beim **Landesfinale in Magdeburg** vertreten.
 
 #### Herzlichen Glückwunsch zu deren tollem Erfolg und viel Glück für das Landesfinale!
 
