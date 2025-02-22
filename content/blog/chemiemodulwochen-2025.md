@@ -28,6 +28,10 @@ Leider fehlte krankheitsbedingt teils die Hälfte des Kurses, allerdings hatten 
 
 _Finn Wehrhan_
 
+
+
+
+
 {{< gallery dir="/media/blog/Sj2024_2025/Chemie-Modul/12er" >}}
 
 ### Jahrgang 11
@@ -44,10 +48,10 @@ weitere spannende Experimente durch. So konnten wir am Ende der Woche die Hochsc
 
 Wir freuen uns schon darauf, im nächsten Jahr ein weiteres Praktikum an der Hochschule Merseburg durchführen zu können.
 
-_Oskar Völker_{{< gallery dir="/media/blog/Sj2024_2025/Chemie-Modul/11er" >}}
+_Oskar Völker_
 
 
 
-
+{{< gallery dir="/media/blog/Sj2024_2025/Chemie-Modul/11er" >}}
 
 
