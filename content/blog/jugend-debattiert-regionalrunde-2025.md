@@ -33,4 +33,6 @@ In der Sekundarstufe II wurde die äußerst aktuelle Fragestellung „Sollen ext
 
 
 
+{{< gallery dir="/media/blog/Sj2024_2025/jugend-debattiert/regio" >}}
+
 
