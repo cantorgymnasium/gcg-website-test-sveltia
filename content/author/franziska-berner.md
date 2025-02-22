@@ -2,8 +2,8 @@
 title: Franziska Berner
 description: ""
 image: /media/people/gcg.webp
-type: author
-simplified: true
+simplified: false
 active: true
+type: author
 ---
-Schülerin
+Schülerin (Abiturjahrgang 2026)
