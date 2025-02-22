@@ -2,8 +2,8 @@
 title: Erik Zschoche
 description: ""
 image: /media/people/gcg.webp
-type: author
 simplified: true
-active: true
+active: false
+type: author
 ---
 Schüler (Abiturjahrgang 2023)
