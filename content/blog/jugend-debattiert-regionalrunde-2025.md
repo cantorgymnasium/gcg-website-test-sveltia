@@ -1,7 +1,7 @@
 ---
 title: Jugend debattiert Regionalrunde 2025
 date: 2025-02-20
-draft: true
+draft: false
 image: /media/wettbewerbe/jugenddebattiert.webp
 author:
   - denys-konovalov
