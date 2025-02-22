@@ -1,7 +1,7 @@
 ---
 title: Spezialistenlager 2025
 date: 2025-02-21
-draft: true
+draft: false
 image: /media/blog/Sj2024_2025/spezilager2025.webp
 author:
   - frau-gross
