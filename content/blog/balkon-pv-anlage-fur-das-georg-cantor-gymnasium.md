@@ -1,6 +1,6 @@
 ---
 title: Balkon-PV-Anlage für das Georg-Cantor-Gymnasium
-date: 2025-02-23
+date: 2025-01-21
 draft: false
 image: /media/blog/Sj2024_2025/pv-anlage.webp
 author:
