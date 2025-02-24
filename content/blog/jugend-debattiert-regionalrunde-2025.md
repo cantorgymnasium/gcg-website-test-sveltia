@@ -23,7 +23,7 @@ Nachdem in diesem Schuljahr erstmalig der Schulausscheid der Sekundarstufe I im 
 
 In zwei Vorrunden wurden den gesamten Vormittag lang in beiden Altersklassen aufregende Themen debattiert, in der Altersgruppe I „Soll eine Kennzeichenpflicht für Fahrräder eingeführt werden?“ und „Soll das Rauchen in der Öffentlichkeit verboten werden?“ sowie in der Altersgruppe II „Soll ehrenamtlich Engagierten ein staatlicher Zuschuss zum Führerschein gewährt werden?“ und „Soll Pyrotechnik in Fußballstadien erlaubt werden?“.
 
-Für die Finaldebatte der Sekundarstufe I zum Thema „Sollen Städte und Gemeinden verpflichtet werden, Maßnahmen gegen Einsamkeit zu ergreifen?“ hatten sich am Ende der Vorrunden Karolina Benecke und Selma Teichmann qualifiziert. **Karolina** erlangte dabei den **1. Platz**!
+Für die Finaldebatte der Sekundarstufe I zum Thema „Sollen Städte und Gemeinden verpflichtet werden, Maßnahmen gegen Einsamkeit zu ergreifen?“ hatten sich am Ende der Vorrunden Karolina Benecke und Selma Teichmann, welche eigentlich nur als Nachrückerin eingesprungen war, qualifiziert. **Selma** erlangte dabei den **4. Platz** und **Karolina** einen besonders beeindruckenden **1. Platz**!
 
 In der Sekundarstufe II wurde die äußerst aktuelle Fragestellung „Sollen extreme Parteien von Diskussionsrunden ausgeschlossen werden?“ debattiert. Hier traf **Katharina Starzmann**, die sich für das Finale qualifizierte, auf eine altbekannte Debattanten-Konstellation, und belegte den **3. Platz**!
 
@@ -31,8 +31,4 @@ In der Sekundarstufe II wurde die äußerst aktuelle Fragestellung „Sollen ext
 
 #### Herzlichen Glückwunsch zu deren tollem Erfolg und viel Glück für das Landesfinale!
 
-
-
 {{< gallery dir="/media/blog/Sj2024_2025/jugend-debattiert/regio" >}}
-
-
