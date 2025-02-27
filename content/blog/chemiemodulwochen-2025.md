@@ -6,6 +6,7 @@ image: /media/blog/Sj2024_2025/Chemie-Modul/gruppe11er2025.webp
 author:
   - finn-wehrhan
   - oskar-volker
+  - uta-gartner
 categories:
   - Naturwissenschaften
 subjects:
@@ -26,11 +27,7 @@ Zuletzt beschäftigten wir uns mit Tensiden und der Grenzflächenchemie. Dabei e
 
 Leider fehlte krankheitsbedingt teils die Hälfte des Kurses, allerdings hatten trotzdem fast alle an mindestens einem Tag die Möglichkeit, teilzunehmen.
 
-_Finn Wehrhan_
-
-
-
-
+_Uta Gärtner_
 
 {{< gallery dir="/media/blog/Sj2024_2025/Chemie-Modul/12er" >}}
 
@@ -50,8 +47,4 @@ Wir freuen uns schon darauf, im nächsten Jahr ein weiteres Praktikum an der Hoc
 
 _Oskar Völker_
 
-
-
 {{< gallery dir="/media/blog/Sj2024_2025/Chemie-Modul/11er" >}}
-
-
