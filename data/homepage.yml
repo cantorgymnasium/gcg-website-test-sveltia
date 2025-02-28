@@ -1,5 +1,5 @@
 top_banner:
-  enable: false
+  enable: true
   text: >
     #### Kultur- und Wissenschaftstage
 
