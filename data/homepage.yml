@@ -1,13 +1,13 @@
 top_banner:
-  enable: true
-  text: >-
-    #### Musikalisch-Literarischer Abend  
+  enable: false
+  text: >
+    #### Kultur- und Wissenschaftstage
 
 
-    Am 27.02.2025 laden wir ab 17:00 Uhr zum traditionellen Musikalisch-Literarischen Abend. Lassen Sie sich von Gesang, Musik, Schauspiel und Literatur verzaubern. Vorher: Eröffnung der Galerie.  
+    In der Woche vom 3. März feiern wir unsere Festwoche. Verfolgen Sie im Nachgang ihre Ereignisse hier auf der Website. 
 
 
-    #### Spendenaufruf  
+    #### Spendenaufruf
 
 
     Unser früherer Schüler Dominic Wagner verunglückte mit 17 Jahren schwer. Seitdem braucht er 1:1 Pflege. Bitte unterstützen Sie die Finanzierung dafür:
@@ -16,7 +16,7 @@ top_banner:
   color: "#19aa96"
   font_color: "#ffffff"
   icon: chat-question-outline
-  large: true
+  large: false
   temporarily:
     enable: false
     start_date: 2024-11-29
