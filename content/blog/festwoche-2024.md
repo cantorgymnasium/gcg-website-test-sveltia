@@ -102,7 +102,7 @@ Von Montag bis Mittwoch schloss sich die Projektwoche im Schuljahr 2023/2024 an.
 
 - 5./6. Klasse: Wasser
 - 7./8. Klasse: Erde
-- 9. Klasse: Luft
+- 9\. Klasse: Luft
 
 Die 10. Klassen absolvierten im Rahmen ihrer wissenschaftlich-praktischen Arbeiten sowie Facharbeiten einen Workshop zum Präsentieren und die 11er waren entweder in einem der Modulkurse Physik und Biologie beschäftigt oder unterstützten die Lehrkräfte in den Projekten der Kleinen. Die 12er hatten eine harte Woche und mussten am Montag, Mittwoch und Freitag ihre Vorabis in Deutsch, Mathematik und Englisch absolvieren.
 
