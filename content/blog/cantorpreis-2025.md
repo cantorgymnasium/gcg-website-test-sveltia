@@ -1,10 +1,11 @@
 ---
 title: Cantorpreis 2025
-date: 2024-03-17
+date: 2025-03-10
 draft: true
-image: /media/image.webp
+image: /media/blog/Sj2024_2025/cantorpreis-2025-jette-pohl.webp
 author:
   - herr-berger
+  - denys-konovalov
 categories:
   - Traditionen
 tags:
@@ -12,19 +13,17 @@ tags:
   - "2025"
 type: post
 ---
-## Der Cantorpreis 2025 geht an …!
+## Der Cantorpreis 2025 geht an Jette Pohl!
 
-{{< image src="/media/blog/Sj2023_2024/cantorpreis_florian.webp" >}}
+## Herzlichen Glückwunsch!
 
-### Herzlichen Glückwunsch!
-
-Am 06. März 2024 fand einer der Höhepunkte unserer Festwoche statt: die Cantorpreisverleihung.
+Am 06. März 2025 fand einer der Höhepunkte unserer Festwoche statt: die Cantorpreisverleihung.
 
 In diesem Jahr waren nominiert:
 
-- Florian Nico Jäniche
-- Chiamaka Michelle Okoro
-- Simon Paul Schlurick
+- Arthur Franz Ahrens
+- Elias Pescheck
+- Jette Pohl
 
 Die Festveranstaltung wurde musikalisch von Katharina Raßbach mit der Mondscheinsonate, 1. Satz eröffnet. Danach gaben Syrah Lehmann und Robert Müller ihre Gesangsstimmen zum Besten. Anschließend folgten die Begrüßungsworte unseres Schulleiters Herr Dr. Gorsler:
 
@@ -71,8 +70,4 @@ Nun konnte Herr Dirk Schlesier (Leiter des Planetariums Halle) in seinen Festvor
 
 Danach stand der Höhepunkt der Veranstaltung an: Der Cantorpreis wurde an Florian verliehen. Bescheiden wie immer, nahm er den Preis an, wartete kurz den Applaus ab und ging dann zurück an seinen Platz. Erst dort wurde er darauf hingewiesen, dass alle noch eine kurze Rede von ihm erwarten. Diese fiel fast schon mathematisch aus: nüchtern, präzise und die wohl kürzeste aller Cantorpreis-Dankesreden bisher.
 
-
-
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/Cantorpreis" >}}
-
-
