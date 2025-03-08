@@ -1,4 +1,4 @@
-name: Website Prod/Test
+name: Website
 
 on:
   push:
