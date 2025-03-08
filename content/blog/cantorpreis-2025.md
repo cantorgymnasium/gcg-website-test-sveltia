@@ -15,6 +15,12 @@ type: post
 ---
 ## Der Cantorpreis 2025 geht an Jette Pohl!
 
+
+
+{{< gallery dir="/media/blog/Sj2024_2025/Festwoche/Cantorpreis/Jette" >}}
+
+
+
 ## Herzlichen Glückwunsch!
 
 Am 06. März 2025 fand einer der Höhepunkte unserer Festwoche statt: die Cantorpreisverleihung.
