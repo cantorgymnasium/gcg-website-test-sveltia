@@ -27,10 +27,4 @@ jobs:
         run: |
           cd dev
           pagefind_extended --site=. 
-          rsync -azr --delete ./ /opt/data/webdata/gcg-website-dev/          
-      - name: Notification
-        uses: actions/telegram-action@main
-        if: always()
-        with:
-          chat_id: ${{ secrets.TG_CHAT_ID }}
-          token: ${{ secrets.TG_TOKEN }}
+          rsync -azr --delete ./ /opt/data/webdata/gcg-website-dev/
