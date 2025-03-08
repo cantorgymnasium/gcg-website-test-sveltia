@@ -13,9 +13,9 @@ tags:
   - "2025"
 type: post
 ---
-### **H E R Z L I C H E N  ‎ ‎ ‎ ‎ ‎ ‎  G L Ü C K W U N S C H !!**
+### **HERZLICHEN GLÜCKWUNSCH !!**
 
-Paul Kaufmann hat sich für die 3. Runde der  57. ICHO qualifiziert.                                   
+Paul Kaufmann hat sich für die 3. Runde der  57. ICHO qualifiziert.
 
 Er gehört damit zu den bundesweit 60 besten Chemikern, die sich um einen Platz in der deutschen Mannschaft bewerben.
 
