@@ -56,21 +56,17 @@ Wir danken den Kunstlehrkräften Frau Hoffmann, Frau Felke, Herrn Urbainczyk und
 
 ### Musikalisch-Literarischer Abend
 
-Traditionell begeisterten unsere Schülerinnen und Schüler der 7. bis 12. Klassen auf dem MuLi-Abend auf musikalischer, lyrischer und schauspielerischer Weise. Es ergab sich wieder ein nahezu zweistündiges Unterhaltungsprogramm. Das zweite Jahr in Folge wurde Thadeus die Ehre zu Teil, den MuLi am Klavier zu eröffnen.
+Traditionell begeisterten unsere Schülerinnen und Schüler der 7. bis 12. Klassen auf dem MuLi-Abend auf musikalischer, lyrischer und schauspielerischer Weise. Es ergab sich wieder ein nahezu zweistündiges Unterhaltungsprogramm. Das zweite Jahr in Folge wurde Thadeus die Ehre zuteil, den MuLi am Klavier zu eröffnen.
 
 Danach übernahmen die Moderatoren des Abends: Leo und Gero aus der 12. Klasse. Sie führten uns auf humorvolle, aber trotzdem professionelle Weise durch den prall gefüllten Abend. Einen großen Anteil daran nahm die große Theater-AG ein. Sie begeisterten mit verschiedenen Sketchen von Loriot.
 
-Die komplett neu augestellte Theater-AG der Älteren überzeugte direkt am Beginn des Abends mit mehreren Sketch-History Darbietungen. Theresa und Clara anschließend Wolrds Colide und dann folgten die oben erwähnten Gedichte ihre und Double. Johannes begeisterte an der Querflöte, Laurens am Klavier mit Drei Haselnüsse für Aschenbrödel. 
+Die komplett neu aufgestellte Theater-AG der Älteren überzeugte direkt am Beginn des Abends mit mehreren Sketch-History Darbietungen. Theresa und Clara anschließend Wolrds Colide und dann folgten die oben erwähnten Gedichte und ihre Double. Johannes begeisterte an der Querflöte, Laurens am Klavier mit Drei Haselnüsse für Aschenbrödel.
 
-Die Ban eröffnete den dritten Block des Abends mit Creep von Radiohead, es folgte ein Pistolenduell von Sketch Hitory Till Jarosch trug eine eigens verfasste Kurzgeschichte vor. Natürlich beinhaltete dieser MuLi auch Sketche von Loriot. Aber auch Faust kam nicht zu kurz. 
+Die Ban eröffnete den dritten Block des Abends mit Creep von Radiohead, es folgte ein Pistolenduell von Sketch Hitory Till Jarosch trug eine eigens verfasste Kurzgeschichte vor. Natürlich beinhaltete dieser MuLi auch Sketche von Loriot. Aber auch Faust kam nicht zu kurz.
 
-Nach der Pause zeigte der 12er Deutsch-LK eine verfremdete Reise durch den Literaturkanon. Charlotte und Isabell spielten Klavier und es folgten weitere lyrische Beiträge. Auch unsere Reinigungkräfte besuchten in ihrer Pause den MuLi. Sie und das gesamte Publikum waren beeindruckt von der Vielfalt der Beiträge und den Schaffensenergien unserer Schülerinnen und Schüler. Wie in jedem Jahr waren auch viele ehemaligen Cantorianer im Publikum des MuLi-Abends.
+Nach der Pause zeigte der 12er Deutsch-LK eine verfremdete Reise durch den Literaturkanon. Charlotte und Isabell spielten Klavier und es folgten weitere lyrische Beiträge. Auch unsere Reinigungskräfte besuchten in ihrer Pause den MuLi. Sie und das gesamte Publikum waren beeindruckt von der Vielfalt der Beiträge und den Schaffensenergien unserer Schülerinnen und Schüler. Wie in jedem Jahr waren auch viele ehemaligen Cantorianer im Publikum des MuLi-Abends.
 
-Der 11er Deutsch-LK wollte natürlich den 12ern nicht allein die Bühne überlassen und erzählten die Ringparabel auf moderne Weise. Der Abend endete mit einer wilden Mathestunde der Theater-AG und einem Jazz-Klavierstück von Charlotte und Thadeus. 
-
-
-
-
+Der 11er Deutsch-LK wollte natürlich den 12ern nicht allein die Bühne überlassen und erzählten die Ringparabel auf moderne Weise. Der Abend endete mit einer wilden Mathestunde der Theater-AG und einem Jazz-Klavierstück von Charlotte und Thadeus.
 
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/MuLi" >}}
 
@@ -88,7 +84,7 @@ Die Projekte:
 
 |5/6 WASSER|7/8 ERDE|9 LUFT|
 |---|---|---|
-|Das Thema “Wasser” in der Musik, "Wasserinstrumente, Klangexperimente|Tierschutz uns unsere Erde: Wir tragen alle Verantwortung|Dicke Luft (Lateinprojekt)|
+|Das Thema „Wasser“ in der Musik, „Wasserinstrumente“, Klangexperimente|Tierschutz uns unsere Erde: Wir tragen alle Verantwortung|Dicke Luft (Lateinprojekt)|
 |Sportarten auf und im Wasser|Unsere Erde - Schöpfungsmythen und Zukunftsszenarien|Let's harness the wind - Wir bauen ein Windarad aus Müll|
 |Wie viel Wasser fließt in der Projektwoche durch die Stadt Halle/die Saale?|Erzählungen der Erde - kreatives Schreiben|Dem WIderstand der Luft entgegen. Stromlinienkörper mit dem 3D-Druckker erstellen und experimentieren|
 |Sagenumwoben: Wasser in der Welt hallescher Überlieferungen|Aus Erde geformt - Kunst aus Ton|PIntendo Wolkenedition - Entwicklung einer Spielkonsole und dazugehöriger Spiele|
@@ -104,7 +100,7 @@ Die Projekte:
 
 Am Donnerstag präsentierten dann alle Projektgruppen ihre Arbeitsergebnisse der Woche.
 
-Die 5. und 6. Klassen gingen dafür in den Hörsaal XXII der Universität im Audimax. Hier sollten die Kleinen erstmals Uni-Luft schnuppern. Die stellten sich gegenseitig ihre Erlebnisse und Ergebnisse der letzten Tage vor. Natür war es für die Redner sehr aufregend ihre zahlreichen PowerPoints und Videos vor rund 140 Mitschülerinnen und Mitschülern vorzustellen.
+Die 5. und 6. Klassen gingen dafür in den Hörsaal XXII der Universität im Audimax. Hier sollten die Kleinen erstmals Uni-Luft schnuppern. Die stellten sich gegenseitig ihre Erlebnisse und Ergebnisse der letzten Tage vor. Natürlich war es für die Redner sehr aufregend, ihre zahlreichen PowerPoints und Videos vor rund 140 Mitschülerinnen und Mitschülern vorzustellen.
 
 Die 7. und 8. Klassen präsentierten hingegen in kurzen Blitzlichtern in der Aula ihre Ergebnisse, die 9er in ihren Projekträumen.
 
@@ -120,9 +116,21 @@ Als Höhepunkt der Festwoche hat die Cantorpreisverleihung einen eigenen Blogbei
 
 Am Freitag, dem „Cantor-Tag“, haben alle Jahrgänge eigene Aktivitäten. Alle erweitern die Unterrichtsinhalte, sind Team-bildend und/oder dienen der Berufsorientierung.
 
-- Klasse 5: Fabelstück “Der Ochse auf der Löwenhochzeit” und anschließend Exkursionen: Besichtigung des HAVAG-Betriebshofs Rosengarten, der Feuerwache Halle-Neustadt, Besuch des Geiseltalmuseums und der zoologichen Sammlungen
+- Klasse 5: Fabelstück „Der Ochse auf der Löwenhochzeit“ und anschließend Exkursionen: Besichtigung des HAVAG-Betriebshofs Rosengarten, der Feuerwache Halle-Neustadt, Besuch des Geiseltalmuseums und der zoologischen Sammlungen
 
-Wir danken allen Exkursionsanbietern (Stadtwerke Halle, Feuerwehr Halle, Martin-Luther-universität) für all ihre kostenlosen Angebote, welche so viel Interesse weckten, dass die alle Angebote länger als geplant gingen. Hier einige Erfahrungsberichte:
+Wir danken allen Exkursionsanbietern (Stadtwerke Halle, Feuerwehr Halle, Martin-Luther-Universität) für all ihre kostenlosen Angebote, welche so viel Interesse weckten, dass die alle Angebote länger als geplant gingen. Hier einige Erfahrungsberichte:
+
+> Den Darstellern ist es gelungen, einige Fabeln und deren Bedeutung den Schülern näherzubringen. - Ole (über das Fabel-Theaterstück)
+
+> Es war eine „Mitmach-Show“. D.h. es wurden die Fabeln vorgelesen und wir konnten Fragen beantworten und raten, wie einige weitergehen könnten. Sie hatten sogar ganz coole Instrumente wie Zauberflöte, Blockflöte und Gitarre dabei. - Tom (über das Fabel-Theaterstück)
+
+> Wir hatten dort einen Vortrag über mehrere Skelette. Danach durften wir uns selber ein Skelett aussuchen und darüber Informationen sammeln. Meine Meinung zum Tag: Es war sehr schön und es hat viel Spaß gemacht. - Louis (Geiseltalmuseum)
+
+> Nachdem alle mal die Jacke und den Helm anprobiert hatten, wurden wir ein wenig durch die Feuerwache geführt und uns wurden die Spinde mit der Arbeitskleidung der Feuerwehrmänner und -frauen gezeigt. Nach der Besichtigung der Umkleidekabinen wurden uns in der Fahrzeughalle die Einsatzfahrzeuge gezeigt und die Funktionen der einzelnen Fahrzeuge erklärt. […] Es war ein sehr informativer und interessanter Ausflug. Mir hat die Exkursion zur Feuerwache Halle sehr gut gefallen. - Jakob (Feuerwehr)
+
+> Dort konnten wir die Hauptzentrale, die Straßenbahnwerkstatt und eine Straßenbahn besichtigen. - Moritz (HAVAG)
+
+> Ich fand es besonders toll, wo wir die Straßenbahn gesteuert haben und die Knöpfe für Türaufgehen, Klingeln und Scheibenwischer gedrückt haben. - Mujib (HAVAG)
 
 - Klasse 6: Nach dem Fabelstück bot der Würfelpech e.V. einen Brett- und Kartenspiele-Tag im GCG.
 - Klasse 7: Das Body&Grips-Mobil kam in die Schule (Angebot des Jugendrotkreuzes Sachsen-Anhalt)
@@ -130,7 +138,7 @@ Wir danken allen Exkursionsanbietern (Stadtwerke Halle, Feuerwehr Halle, Martin-
 - Klasse 9: Zuhörer der wpA-Zwischenpräsentationen, danach: Vorstellungen verschiedener Institute der MLU
 - Klasse 10: wpA-Zwischenpräsentationen, danach: ein Theaterstück zu Heinrich Heine
 - Klasse 11: Modulkurse bzw. Betreuung und Durchführung der Body&Grips-Mobil-Stationen
-- Klasse 12: Vorabis in Chemie und Informatik 
+- Klasse 12: Vorabis in Chemie und Informatik
 
 {{< gallery dir="/media/blog/Sj2023_2024/Festwoche/Cantortag" >}}
 
