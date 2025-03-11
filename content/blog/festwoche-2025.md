@@ -46,17 +46,13 @@ Vom 27.02.2025 bis 07.03.2025 war unser Schulalltag von den Kultur- und Wissensc
 
 ### Eröffnung der Galerie „Cantor-Art“
 
-Am 27. Februar ab 17:00 Uhr war die Eröffnung unserer Galerie das erste Highlight der Festwoche. Alle Besucher des MuLi konnten auf dem Weg zur Aula wieder die Kunstwerke unserer Schülerinnen und Schüler betrachten.
+Am 27. Februar ab 17:00 Uhr war die Eröffnung unserer Galerie das erste Highlight der Festwoche. Alle Besucher des MuLi konnten auf dem Weg zur Aula wieder die Kunstwerke unserer Schülerinnen und Schüler betrachten. Zuvor eröffnete Herr Dr. Gorsler mit einer kurzen Rede die Festwoche und gab einen kurzen Überblick über die Galerie. Dabei brachte er das Publikum einige Male zum Schmunzeln.
 
 ~~Die Galerie zeigte dieses Jahr beispielsweise unter dem Slogan „Lasst uns auf Bäumen leben“ verschiedene Wohnkonzepte in Baumhäusern. Es rührte ein Fisch in einem „Menschen“-Glas wie wir selbst mit dem Finger in Aquarien, es wurden traditionelle Tapetenmuster erstellt, unser Schulmaskottchen Georg~~ ~~**π~~~~nguin wurde in Comics verewigt, Porträts wurden gezeichnet und Masken gebastelt. Unsere 6er holten ägyptische Hieroglyphen in unsere moderne Zeit und übermalten Selfies mit neuen Emotionen. Auch Filmplakate und zahlreiche Stühle für Picasso waren zu entdecken. Selbst Instagramposts waren nicht sicher vor einer neuen künstlerischen Umsetzung.**~~
 
-Wir danken den Kunstlehrkräften Frau Hoffmann, Frau Felke, Herrn Urbainczyk und Herrn Sprawe für die arbeitsintensive Zusammenstellung der Galerie. Herr Berger steuerte von den Schülerinnen und Schülern verfasste Gedichte aus dem Deutschunterricht bei. Die 6/1 erstellte Bildgedichte zur Nacht und die 10/1 musste sich unter dem Motto „Das Gedicht und sein Double“ mit dem Begriff ICH dichterisch auseinandersetzen und ihre Gedichte auch in Form von Porträt-Fotos widerspiegeln. Die Gedichte der 10/1 spielten auch eine Rolle im Musikalisch-Literarischem Abend.
-
-
+Wir danken den Kunstlehrkräften Frau Hoffmann, Frau Felke, Herrn Urbainczyk und Herrn Sprawe für die arbeitsintensive Zusammenstellung der Galerie. Auch in diesem Jahr spielte das Deutsch-Projekt „Das Gedicht und sein Double“ eine Rolle. Der Leistungskurs 11 und die 10/1 setzten sich mit dem Begriff ICH dichterisch auseinander und stellten ihre Gedichte auch in Form von Porträt-Fotos dar. Eine Auswahl der Gedichte wurde am Musikalisch-Literarischem Abend vorgestellt.
 
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/Galerie" >}}
-
-
 
 ### Musikalisch-Literarischer Abend
 
@@ -68,11 +64,7 @@ Danach übernahmen die Moderatoren des Abends: Leo und Gero aus der 12. Klasse. 
 
 Es ist schön zu sehen, dass unsere ehemaligen Cantorianer doch irgendwie immer mit uns verbunden bleiben. Dies zeigte sich auch an zahlreichen Ehemaligen im Publikum des MuLi-Abends.
 
-
-
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/MuLi" >}}
-
-
 
 ### Projektwoche
 
@@ -80,7 +72,7 @@ Von Montag bis Mittwoch schloss sich die Projektwoche im Schuljahr 2023/2024 an.
 
 - 5./6. Klasse: Wasser
 - 7./8. Klasse: Erde
-- 9\. Klasse: Luft
+- 9. Klasse: Luft
 
 Die 10. Klassen absolvierten im Rahmen ihrer wissenschaftlich-praktischen Arbeiten sowie Facharbeiten einen Workshop zum Präsentieren und die 11er waren entweder in einem der Modulkurse Physik und Biologie beschäftigt oder unterstützten die Lehrkräfte in den Projekten der Kleinen. Die 12er hatten eine harte Woche und mussten ihre letzten Vorabis absolvieren.
 
@@ -116,11 +108,7 @@ Die Ergebnisse aller Projekte werden in den nächsten Wochen unter dem Website-R
 
 Als Höhepunkt der Festwoche hat die Cantorpreisverleihung einen eigenen Blogbeitrag erhalten:
 
-
-
 {{< card title="Der Cantorpreis 2025 geht an ..." link="https://cantorgymnasium.de/blog/cantorpreis-2025" >}}
-
-
 
 ### Cantor-Tag
 
