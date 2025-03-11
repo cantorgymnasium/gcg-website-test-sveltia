@@ -52,11 +52,7 @@ Am 27. Februar ab 17:00 Uhr war die Eröffnung unserer Galerie das erste Highlig
 
 Wir danken den Kunstlehrkräften Frau Hoffmann, Frau Felke, Herrn Urbainczyk und Herrn Sprawe für die arbeitsintensive Zusammenstellung der Galerie. Auch in diesem Jahr spielte das Deutsch-Projekt „Das Gedicht und sein Double“ eine Rolle. Der Leistungskurs 11 und die 10/1 setzten sich mit dem Begriff ICH dichterisch auseinander und stellten ihre Gedichte auch in Form von Porträt-Fotos dar. Eine Auswahl der Gedichte wurde am Musikalisch-Literarischem Abend vorgestellt.
 
-
-
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/Galerie" >}}
-
-
 
 ### Musikalisch-Literarischer Abend
 
@@ -64,15 +60,19 @@ Traditionell begeisterten unsere Schülerinnen und Schüler der 7. bis 12. Klass
 
 Danach übernahmen die Moderatoren des Abends: Leo und Gero aus der 12. Klasse. Sie führten uns auf humorvolle, aber trotzdem professionelle Weise durch den prall gefüllten Abend. Einen großen Anteil daran nahm die große Theater-AG ein. Sie begeisterten mit verschiedenen Sketchen von Loriot.
 
-~~Gero, Arthur, Ole, Charlotte, Lucina, Johannes, Nelly, Chiamaka, die ‘Back to the street Boys’, die GCG Band, Pascal, Adele, Emelie und Marleen präsentierten uns Musik am Klavier, als Gesang, an der Gitarre und sogar am Akkordeon. Der Deutsch-Leistungskurs 11 führte uns zusammen mit ihrem Lehrer Herr Richter-Rodiek durch die Literaturgeschichte, Sariana und Katharina aus der 9/3 dichteten lyrische Hommagen an die Stadt Halle und stellten Magdeburg humorvoll in den Schatten, was zu herzlicher Stimmung im Publikum führte. Till, Theresa und Robert präsentierten die „Das Gedicht und sein Double“-Werke~~
+Die komplett neu augestellte Theater-AG der Älteren überzeugte direkt am Beginn des Abends mit mehreren Sketch-History Darbietungen. Theresa und Clara anschließend Wolrds Colide und dann folgten die oben erwähnten Gedichte ihre und Double. Johannes begeisterte an der Querflöte, Laurens am Klavier mit Drei Haselnüsse für Aschenbrödel. 
 
-Es ist schön zu sehen, dass unsere ehemaligen Cantorianer doch irgendwie immer mit uns verbunden bleiben. Dies zeigte sich auch an zahlreichen Ehemaligen im Publikum des MuLi-Abends.
+Die Ban eröffnete den dritten Block des Abends mit Creep von Radiohead, es folgte ein Pistolenduell von Sketch Hitory Till Jarosch trug eine eigens verfasste Kurzgeschichte vor. Natürlich beinhaltete dieser MuLi auch Sketche von Loriot. Aber auch Faust kam nicht zu kurz. 
+
+Nach der Pause zeigte der 12er Deutsch-LK eine verfremdete Reise durch den Literaturkanon. Charlotte und Isabell spielten Klavier und es folgten weitere lyrische Beiträge. Auch unsere Reinigungkräfte besuchten in ihrer Pause den MuLi. Sie und das gesamte Publikum waren beeindruckt von der Vielfalt der Beiträge und den Schaffensenergien unserer Schülerinnen und Schüler. Wie in jedem Jahr waren auch viele ehemaligen Cantorianer im Publikum des MuLi-Abends.
+
+Der 11er Deutsch-LK wollte natürlich den 12ern nicht allein die Bühne überlassen und erzählten die Ringparabel auf moderne Weise. Der Abend endete mit einer wilden Mathestunde der Theater-AG und einem Jazz-Klavierstück von Charlotte und Thadeus. 
+
+
 
 
 
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/MuLi" >}}
-
-
 
 ### Projektwoche
 
@@ -80,7 +80,7 @@ Von Montag bis Mittwoch schloss sich die Projektwoche im Schuljahr 2024/2025 an.
 
 - 5./6. Klasse: Wasser
 - 7./8. Klasse: Erde
-- 9&#46; Klasse: Luft
+- 9. Klasse: Luft
 
 Die 10. Klassen absolvierten im Rahmen ihrer wissenschaftlich-praktischen Arbeiten sowie Facharbeiten einen Workshop zum Präsentieren und die 11er waren entweder in einem der Modulkurse Physik und Biologie beschäftigt oder unterstützten die Lehrkräfte in den Projekten der Kleinen. Die 12er hatten eine harte Woche und mussten ihre letzten Vorabis absolvieren.
 
@@ -106,31 +106,15 @@ Am Donnerstag präsentierten dann alle Projektgruppen ihre Arbeitsergebnisse der
 
 Die 5. und 6. Klassen gingen dafür in den Hörsaal XXII der Universität im Audimax. Hier sollten die Kleinen erstmals Uni-Luft schnuppern. Die stellten sich gegenseitig ihre Erlebnisse und Ergebnisse der letzten Tage vor. Natür war es für die Redner sehr aufregend ihre zahlreichen PowerPoints und Videos vor rund 140 Mitschülerinnen und Mitschülern vorzustellen.
 
-~~Die 7., 8. und 9. Klassen gaben zum Tagesbeginn im Blitzlichtformat kurze Einblicke in ihre Projekte in der Aula. Hier konnten sich alle orientieren, bevor die Präsentationen in den Projekträumen starteten.~~
-
-~~Die Ergebnisse aller Projekte werden in den nächsten Wochen unter dem Website-Reiter „Projektwoche“ genauer vorgestellt. Die Zusammenstellung der Ergebnisse wird aber noch einige Zeit in Anspruch nehmen. Zuvor können hier einige Impressionen der Projektpräsentationen betrachtet werden.~~
-
-
-
-{{< card title="Projektwoche 2024" link="https://cantorgymnasium.de/projektwoche/2024/" >}}
-
-
-
-
+Die 7. und 8. Klassen präsentierten hingegen in kurzen Blitzlichtern in der Aula ihre Ergebnisse, die 9er in ihren Projekträumen.
 
 {{< gallery dir="/media/blog/Sj2023_2024/Festwoche/Projektpraesi24" >}}
-
-
 
 ### Cantorpreisverleihung
 
 Als Höhepunkt der Festwoche hat die Cantorpreisverleihung einen eigenen Blogbeitrag erhalten:
 
-
-
 {{< card title="Der Cantorpreis 2025 geht an ..." link="https://cantorgymnasium.de/blog/cantorpreis-2025" >}}
-
-
 
 ### Cantor-Tag
 
@@ -140,23 +124,15 @@ Am Freitag, dem „Cantor-Tag“, haben alle Jahrgänge eigene Aktivitäten. All
 
 Wir danken allen Exkursionsanbietern (Stadtwerke Halle, Feuerwehr Halle, Martin-Luther-universität) für all ihre kostenlosen Angebote, welche so viel Interesse weckten, dass die alle Angebote länger als geplant gingen. Hier einige Erfahrungsberichte:
 
-
-
-
-
-- Klasse 6: Exkursionen in Halle
-- Klasse 7: Das Body&Grips-Mobil kommt in die Schule (Angebot des Jugendrotkreuzes Sachsen-Anhalt)
+- Klasse 6: Nach dem Fabelstück bot der Würfelpech e.V. einen Brett- und Kartenspiele-Tag im GCG.
+- Klasse 7: Das Body&Grips-Mobil kam in die Schule (Angebot des Jugendrotkreuzes Sachsen-Anhalt)
 - Klasse 8: Technik-Tag (Besuch verschiedener (Industrie- und Betriebs-)Standorte in der Region)
 - Klasse 9: Zuhörer der wpA-Zwischenpräsentationen, danach: Vorstellungen verschiedener Institute der MLU
-- Klasse 10: wpA-Zwischenpräsentationen, danach: Zeitzeugengespräch zum Thema „Deutsche Teilung“
+- Klasse 10: wpA-Zwischenpräsentationen, danach: ein Theaterstück zu Heinrich Heine
 - Klasse 11: Modulkurse bzw. Betreuung und Durchführung der Body&Grips-Mobil-Stationen
-- Klasse 12: Vorabi Englisch
-
-
+- Klasse 12: Vorabis in Chemie und Informatik 
 
 {{< gallery dir="/media/blog/Sj2023_2024/Festwoche/Cantortag" >}}
-
-
 
 ###### **Vielen Dank für die zahlreichen Bilder an Herrn Urbainczyk!**
 
