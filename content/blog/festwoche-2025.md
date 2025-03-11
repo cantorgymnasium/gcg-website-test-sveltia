@@ -52,7 +52,11 @@ Am 27. Februar ab 17:00 Uhr war die Eröffnung unserer Galerie das erste Highlig
 
 Wir danken den Kunstlehrkräften Frau Hoffmann, Frau Felke, Herrn Urbainczyk und Herrn Sprawe für die arbeitsintensive Zusammenstellung der Galerie. Auch in diesem Jahr spielte das Deutsch-Projekt „Das Gedicht und sein Double“ eine Rolle. Der Leistungskurs 11 und die 10/1 setzten sich mit dem Begriff ICH dichterisch auseinander und stellten ihre Gedichte auch in Form von Porträt-Fotos dar. Eine Auswahl der Gedichte wurde am Musikalisch-Literarischem Abend vorgestellt.
 
+
+
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/Galerie" >}}
+
+
 
 ### Musikalisch-Literarischer Abend
 
@@ -64,57 +68,82 @@ Danach übernahmen die Moderatoren des Abends: Leo und Gero aus der 12. Klasse. 
 
 Es ist schön zu sehen, dass unsere ehemaligen Cantorianer doch irgendwie immer mit uns verbunden bleiben. Dies zeigte sich auch an zahlreichen Ehemaligen im Publikum des MuLi-Abends.
 
+
+
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/MuLi" >}}
+
+
 
 ### Projektwoche
 
-Von Montag bis Mittwoch schloss sich die Projektwoche im Schuljahr 2023/2024 an. Diese stand in diesem Jahr unter folgenden Mottos:
+Von Montag bis Mittwoch schloss sich die Projektwoche im Schuljahr 2024/2025 an. Diese stand in diesem Jahr unter folgenden Mottos:
 
 - 5./6. Klasse: Wasser
 - 7./8. Klasse: Erde
-- 9\. Klasse: Luft
+- 9. Klasse: Luft
 
 Die 10. Klassen absolvierten im Rahmen ihrer wissenschaftlich-praktischen Arbeiten sowie Facharbeiten einen Workshop zum Präsentieren und die 11er waren entweder in einem der Modulkurse Physik und Biologie beschäftigt oder unterstützten die Lehrkräfte in den Projekten der Kleinen. Die 12er hatten eine harte Woche und mussten ihre letzten Vorabis absolvieren.
 
 Die Projekte:
 
-|~~5/6~~|~~7/8~~|~~9~~|
+|5/6 WASSER|7/8 ERDE|9 LUFT|
 |---|---|---|
-|~~Wasser-Musik~~|~~Upcycling und Alltagsaktionen für eine grünere Erde~~|~~Luft - eine Lebensgrundlage für alle Lebewesen?~~|
-|~~Sportarten auf und im Wasser~~|~~Unsere Erde - Schöpfungsmythen und Zukunftsszenarien~~|~~Modell United Nation~~|
-|~~Wie viel Wasser fließt in der Projektwoche durch die Stadt Halle/die Saale?~~|~~Das Brodeln unter der Erde - Vulkanausbrüche~~|~~Ästhetische Forschung: Sichtbarmachen des Nicht-Sichtbaren (Wasser, Erde und Luft als Material in der Kunst)~~|
-|~~Sagenumwoben: Wasser in der Welt hallescher Überlieferungen~~|~~Das Sonnensystem im Schulhaus: Ein informativer Wanderweg~~|~~Kühlung durch Luftströmung - Bau eines Handventilators~~|
-|~~Ursprung des Lebens - Die faszinierende Welt der Einzeller im Wasser~~|~~Leben in der Erde - der RegenwurmHumus~~|~~Wir vermessen die Luft. Wie sauber? Wie schwer? Wie feucht? Wie warm? - Arduino hilft.~~|
-|~~Schwimmen für Anfänger~~|~~Der Regenwald~~| |
-|~~Wasser in der Kunst - Malen mit und von Wasser (Aquarellmalerei)~~|~~Ursprungsmythen der Erde~~| |
-|~~Virtuelles Wasser~~|~~Ästhetische Forschung: Sichtbarmachen des Nicht-Sichtbaren (Wasser, Erde und Luft als Material in der Kunst)~~| |
-|~~Der Weg des Wassers - Ein Pen and Paper Spiel zur Bedeutung des Wassers für Lebewesen und Umwelt~~| | |
+|Das Thema “Wasser” in der Musik, "Wasserinstrumente, Klangexperimente|Tierschutz uns unsere Erde: Wir tragen alle Verantwortung|Dicke Luft (Lateinprojekt)|
+|Sportarten auf und im Wasser|Unsere Erde - Schöpfungsmythen und Zukunftsszenarien|Let's harness the wind - Wir bauen ein Windarad aus Müll|
+|Wie viel Wasser fließt in der Projektwoche durch die Stadt Halle/die Saale?|Erzählungen der Erde - kreatives Schreiben|Dem WIderstand der Luft entgegen. Stromlinienkörper mit dem 3D-Druckker erstellen und experimentieren|
+|Sagenumwoben: Wasser in der Welt hallescher Überlieferungen|Aus Erde geformt - Kunst aus Ton|PIntendo Wolkenedition - Entwicklung einer Spielkonsole und dazugehöriger Spiele|
+|Ursprung des Lebens - Die faszinierende Welt der Einzeller im Wasser|Gravitation mal anders genutzt - eine Musikmurmelbahn|Sound of Air: Beats mit digitalen Programmen kreieren und die Luft zum Klingen bringen|
+|Schwimmen für Anfänger|Der Regenwald| |
+|Sprudelndes Wasser - ein Erfolgsgeheimnis der Stadt Halle|Humus - eine Überlebenschance für den Planeten| |
+|Die Physik des Wassers nutzen - Experimente|Die Erde unter unseren Füßen: erstellung einer Exkursion| |
+|Acht Arme für das Korallenriff - Meeresgefährdung in Form eines Pen and Paper Spiels erforschen| | |
+|Panta Rhei - Alles fließtKünstlerische Kreationen und Experimente| | |
+|Wir entwickeln unser eigenes Brettspiel zum Thema Wasser| | |
 
 ### Präsentation der Projektergebnisse
 
 Am Donnerstag präsentierten dann alle Projektgruppen ihre Arbeitsergebnisse der Woche.
 
-Die 5. und 6. Klassen gingen dafür in den Hörsaal XXII der Universität im Audimax. Hier sollten die Kleinen erstmals Uni-Luft schnuppern. Die stellten sich gegenseitig ihre Erlebnisse und Ergebnisse der letzten Tage vor. Wir erlebten einen Stationsrundgang zum virtuellen Wasser inkl. Kleidungsflohmarkt, zahlreiche PowerPoints und Videos.
+Die 5. und 6. Klassen gingen dafür in den Hörsaal XXII der Universität im Audimax. Hier sollten die Kleinen erstmals Uni-Luft schnuppern. Die stellten sich gegenseitig ihre Erlebnisse und Ergebnisse der letzten Tage vor. Natür war es für die Redner sehr aufregend ihre zahlreichen PowerPoints und Videos vor rund 140 Mitschülerinnen und Mitschülern vorzustellen.
 
-Die 7., 8. und 9. Klassen gaben zum Tagesbeginn im Blitzlichtformat kurze Einblicke in ihre Projekte in der Aula. Hier konnten sich alle orientieren, bevor die Präsentationen in den Projekträumen starteten.
+~~Die 7., 8. und 9. Klassen gaben zum Tagesbeginn im Blitzlichtformat kurze Einblicke in ihre Projekte in der Aula. Hier konnten sich alle orientieren, bevor die Präsentationen in den Projekträumen starteten.~~
 
-Die Ergebnisse aller Projekte werden in den nächsten Wochen unter dem Website-Reiter „Projektwoche“ genauer vorgestellt. Die Zusammenstellung der Ergebnisse wird aber noch einige Zeit in Anspruch nehmen. Zuvor können hier einige Impressionen der Projektpräsentationen betrachtet werden.
+~~Die Ergebnisse aller Projekte werden in den nächsten Wochen unter dem Website-Reiter „Projektwoche“ genauer vorgestellt. Die Zusammenstellung der Ergebnisse wird aber noch einige Zeit in Anspruch nehmen. Zuvor können hier einige Impressionen der Projektpräsentationen betrachtet werden.~~
+
+
 
 {{< card title="Projektwoche 2024" link="https://cantorgymnasium.de/projektwoche/2024/" >}}
 
+
+
+
+
 {{< gallery dir="/media/blog/Sj2023_2024/Festwoche/Projektpraesi24" >}}
+
+
 
 ### Cantorpreisverleihung
 
 Als Höhepunkt der Festwoche hat die Cantorpreisverleihung einen eigenen Blogbeitrag erhalten:
 
+
+
 {{< card title="Der Cantorpreis 2025 geht an ..." link="https://cantorgymnasium.de/blog/cantorpreis-2025" >}}
+
+
 
 ### Cantor-Tag
 
 Am Freitag, dem „Cantor-Tag“, haben alle Jahrgänge eigene Aktivitäten. Alle erweitern die Unterrichtsinhalte, sind Team-bildend und/oder dienen der Berufsorientierung.
 
-- Klasse 5: Besuch der Mathewelten
+- Klasse 5: Fabelstück “Der Ochse auf der Löwenhochzeit” und anschließend Exkursionen: Besichtigung des HAVAG-Betriebshofs Rosengarten, der Feuerwache Halle-Neustadt, Besuch des Geiseltalmuseums und der zoologichen Sammlungen
+
+Wir danken allen Exkursionsanbietern (Stadtwerke Halle, Feuerwehr Halle, Martin-Luther-universität) für all ihre kostenlosen Angebote, welche so viel Interesse weckten, dass die alle Angebote länger als geplant gingen. Hier einige Erfahrungsberichte:
+
+
+
+
+
 - Klasse 6: Exkursionen in Halle
 - Klasse 7: Das Body&Grips-Mobil kommt in die Schule (Angebot des Jugendrotkreuzes Sachsen-Anhalt)
 - Klasse 8: Technik-Tag (Besuch verschiedener (Industrie- und Betriebs-)Standorte in der Region)
@@ -123,7 +152,11 @@ Am Freitag, dem „Cantor-Tag“, haben alle Jahrgänge eigene Aktivitäten. All
 - Klasse 11: Modulkurse bzw. Betreuung und Durchführung der Body&Grips-Mobil-Stationen
 - Klasse 12: Vorabi Englisch
 
+
+
 {{< gallery dir="/media/blog/Sj2023_2024/Festwoche/Cantortag" >}}
+
+
 
 ###### **Vielen Dank für die zahlreichen Bilder an Herrn Urbainczyk!**
 
