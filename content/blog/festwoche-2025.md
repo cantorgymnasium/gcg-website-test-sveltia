@@ -76,7 +76,7 @@ Von Montag bis Mittwoch schloss sich die Projektwoche im Schuljahr 2024/2025 an.
 
 - 5./6. Klasse: Wasser
 - 7./8. Klasse: Erde
-- 9&#46; Klasse: Luft
+- 9. Klasse: Luft
 
 Die 10. Klassen absolvierten im Rahmen ihrer wissenschaftlich-praktischen Arbeiten sowie Facharbeiten einen Workshop zum Präsentieren und die 11er waren entweder in einem der Modulkurse Physik und Biologie beschäftigt oder unterstützten die Lehrkräfte in den Projekten der Kleinen. Die 12er hatten eine harte Woche und mussten ihre letzten Vorabis absolvieren.
 
@@ -127,6 +127,12 @@ Wir danken allen Exkursionsanbietern (Stadtwerke Halle, Feuerwehr Halle, Martin-
 > Wir hatten dort einen Vortrag über mehrere Skelette. Danach durften wir uns selber ein Skelett aussuchen und darüber Informationen sammeln. Meine Meinung zum Tag: Es war sehr schön und es hat viel Spaß gemacht. - Louis (Geiseltalmuseum)
 
 > Nachdem alle mal die Jacke und den Helm anprobiert hatten, wurden wir ein wenig durch die Feuerwache geführt und uns wurden die Spinde mit der Arbeitskleidung der Feuerwehrmänner und -frauen gezeigt. Nach der Besichtigung der Umkleidekabinen wurden uns in der Fahrzeughalle die Einsatzfahrzeuge gezeigt und die Funktionen der einzelnen Fahrzeuge erklärt. […] Es war ein sehr informativer und interessanter Ausflug. Mir hat die Exkursion zur Feuerwache Halle sehr gut gefallen. - Jakob (Feuerwehr)
+
+
+
+{{< image src="/media/blog/Sj2024_2025/Festwoche/feuerwehrexkursion.webp" >}}
+
+
 
 > Dort konnten wir die Hauptzentrale, die Straßenbahnwerkstatt und eine Straßenbahn besichtigen. - Moritz (HAVAG)
 
