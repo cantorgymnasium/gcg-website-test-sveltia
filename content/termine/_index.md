@@ -218,7 +218,7 @@ events:
     title: Spezialistenlager Klasse 8-11
     location: Wittenberg, MLU
   - date: 2025-02-11
-    enddate: 2025-03-28
+    enddate: 2025-02-28
     hidden: false
     title: "Vergleichsarbeit Deutsch Klasse 8 "
   - date: 2025-02-11
