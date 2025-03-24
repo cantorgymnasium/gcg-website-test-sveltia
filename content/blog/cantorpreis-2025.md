@@ -50,7 +50,7 @@ Nach dieser Eröffnung folgte die Laudatio für unsere drei Nominierten. Erfrisc
 
 Anschließend wurden alle Nominierten von Herrn Dr. Gorsler vor das Publikum gerufen und ihnen wurde mit einem Blumenstrauß zur Nominierung gratuliert. Bevor dann der angekündigte Festvortrag „Astronomisches Wissen aus dem Meer - Der Mechanismus von Antikythera“ begann, begeisterten Isabell Bethin am Klavier und Eleanor Wagenknecht an der Gitarre.
 
-Im Festvortrag stellten uns Herr Achim Jaroschinsky und Herr Jan Kotschwar einen antiken Kunstschatz vor, welcher 1900 in einem versunkenem Schiff gefunden wurde. Zunächst berichteten sie detailliert über die historischen Vorgänge und Untersuchungen, bevor sie uns die Funktionsweise näher brachten. Der Mechanismus von Antikythera ist mit einer astronomischen Uhr vergleichbar. Mit Zahnrädern und Zifferblättern wurden Zusammenhänge zwischen astronomischen Ereignissen und dem Kalender berechnet. Die genauen Berechnungsmechanismen zeigten und die Festredner in einer Excel-Simulation.
+Im Festvortrag stellten uns Herr Achim Jaroschinsky und Herr Jan Kotschwar einen antiken Kunstschatz vor, welcher 1900 in einem versunkenem Schiff gefunden wurde. Zunächst berichteten sie detailliert über die historischen Vorgänge und Untersuchungen, bevor sie uns die Funktionsweise näher brachten. Der Mechanismus von Antikythera ist mit einer astronomischen Uhr vergleichbar. Mit Zahnrädern und Zifferblättern wurden Zusammenhänge zwischen astronomischen Ereignissen und dem Kalender berechnet. Die genauen Berechnungsmechanismen zeigten uns die Festredner in einer Excel-Simulation.
 
 Nach dem Vortrag präsentiere die GCG Band als letztes Musikstück Creep von Radiohead.
 
