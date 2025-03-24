@@ -1,6 +1,6 @@
 ---
 title: Cantorpreis 2025
-date: 2025-03-10
+date: 2025-03-24
 draft: true
 image: /media/blog/Sj2024_2025/cantorpreis-2025-jette-pohl.webp
 author:
@@ -15,15 +15,11 @@ type: post
 ---
 ## Der Cantorpreis 2025 geht an Jette Pohl!
 
-
-
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/Cantorpreis/Jette" >}}
-
-
 
 ## Herzlichen Glückwunsch!
 
-Am 06. März 2025 fand einer der Höhepunkte unserer Festwoche statt: die Cantorpreisverleihung.
+Anfang März näherte sich der 180. Geburtstag Georg Cantors. Anlässlich diesem fand die jährliche Festwoche unserer Schule statt. Am 06. März 2025 fand nun der Höhepunkt ebendieser statt: die Cantorpreisverleihung.
 
 In diesem Jahr waren nominiert:
 
@@ -31,49 +27,35 @@ In diesem Jahr waren nominiert:
 - Elias Pescheck
 - Jette Pohl
 
-Die Festveranstaltung wurde musikalisch von Katharina Raßbach mit der Mondscheinsonate, 1. Satz eröffnet. Danach gaben Syrah Lehmann und Robert Müller ihre Gesangsstimmen zum Besten. Anschließend folgten die Begrüßungsworte unseres Schulleiters Herr Dr. Gorsler:
+Die Festveranstaltung wurde musikalisch von Arthur Burse (7. Kl.) am Horn und seinem Vater am Klavier mit dem Stück Romance von Camille Saint-Saëns eröffnet. Anschließend spielte Bela Berger (6. Kl.) „Der Vogelfänger bin ich ja“ von Mozart auf der Sopranblockflöte. Danach folgten die Begrüßungsworte unseres Schulleiters Herr Dr. Gorsler:
 
-Er berichtete vom ausgezeichneten Erfolg unserer Schule im Komitee des MINT-EC-Netzwerks. Im Regelfall musste das Verfahren für dieses Zertifikat alle vier Jahre neu durchlaufen werden. Dies wurde nun auf fünf Jahre erweitert, aber weil das Georg-Cantor-Gymnasium sich so sehr hervorhebt, wurden wir direkt für die nächsten sechs Jahre zertifiziert. Anschließend folgten Dankesworte an den 12. Jahrgang sowie alle Teilnehmenden des Festaktes. Besonders hervorzuheben sind hierbei die Saalesparkasse, welche alljährlich den Cantorpreis (Glasstehle und 150 €) stiftet, die Heideklause, welche als unser Essensanbieter immer das Buffet zum Empfang der Nominierten sowie aller Ehrengäste stellt, und unser Schulförderverein.
+Im Sinne Cantors berichtete er von einer unendlichen Reise der Schulzeit, welche sich für die 12er nun langsam gen Ende neigt und nun würden doch gern einige die Zeit bis zu den Prüfungen doch noch einmal ins Unendliche dehnen wollen. Der Cantorpreis soll die Leistungen ehren, die während dieser Zeit geschaffen wurden: Kraft des menschlichen Geistes, soziale Leistungen und Wettbewerbe. Anschließend folgten Dankesworte an die Saalesparkasse, welche alljährlich den Cantorpreis (150 €) stiftet, die Heideklause GmbH, welche als unser Essensanbieter das Buffet zum Empfang der Nominierten sowie aller Ehrengäste stellt, und unser Schulförderverein.
 
 {{< gallery dir="/media/blog/Logos_Unterstuetzer_Canterpreis" >}}
 
-Danach gab es einen kleinen Rückblick und Ausblick auf die Kultur- und Wissenschaftstage 2024. Die Projekttage standen unter den Elementen Wasser, Erde und Luft. In der griechischen Philosophie gibt es ein fünftes Element: den Ether als Element des Himmels. Der Himmel sei auch das Element unseres diesjährigen Festredners: Dirk Schlesier, Leiter des Planetariums Halle. Bevor dieser seinen Festvortrag präsentieren konnte, standen noch weitere Programmpunkte des Festaktes an.
+Am Ende seiner Begrüßungsworte leitete Herr Dr. Gorsler zum späteren Festvortrag über, welcher sich mit einer antiken wissenschaftlichen Sensation beschäftigte: Der Mechanismus von Antikythera. 
 
-Es übernahmen Mattheo, Dongwoo, Tobechi und Louis als Band und präsentierten ihren Rap-Song Menschenfehler und präsentierten eingehend, dass wir Menschen den Klimawandel verursachen. Danach musizierten Kiril und Linus den Boogie-Woogie-Hit an Keyboard und Gitarre.
+Nach der Rede unseres Schulleiters übernahm Juliane Jäger (7. Kl.) an der Altblockflöte und spielte die Sätze I und IV der Sonate g-Moll von Händel. Dann begeisterte die Band „Die Schwarzfahrer“ aus unseren 7. Klassen mit dem Song „Liken“.  Bereits im vergangenen Jahr hatten sie mit einem sozialkritischen Song auf der Cantorpreisverleihung begeistert. In diesem Jahr ging es um falsche Weltbilder auf Social Media. 
 
-Nach dieser Eröffnung folgten die Laudationes für unsere drei Nominierten:
+Nach dieser Eröffnung folgte die Laudatio für unsere drei Nominierten. Erfrischend neu gab es dieses Jahr keine drei einzelnen Laudationes, sondern Frau von Seggern, Frau Henke und Frau Härtig hatten es sich zur Aufgabe gemacht, in einem spielerischem Wechsel gemeinsam Worte an den gesamten Jahrgang und alle Nominierten zu formulieren. 
 
-- Herr Dr. Koch berichtete ausgehend eines persönlichen Erlebnisses über Florian. Es trug sich in der 5. Klasse zu, dass sie Schülerinnen und Schüler in einer Mathematikstunde das Alphabet durchnummerieren sollten und dann mithilfe dieser Nummern und weiterer Tricks ihren Vornamen verschlüsseln sollten. Herr Dr. Koch wollte dann höchstpersönlich nur anhand der Ziffern erraten, wer ihm welchen verschlüsselten Zettel übergeben hat. Seine Erwartungen der Cäsar-Verschlüsselung übertraf Florian bei Weiten: Auf dem Zettel standen komplexe Zahlen, Rechnungen mit der eulerschen Zahl und Pi, Logarithmen und Fakultäten. Verdutzt fragte Herr Dr. Koch, woher Florian das alles schon wüsste. Seine damalige Antwort lautete: „Ich lese abends im Tafelwerk.“ Man kann also unschwer erkennen, dass Florians Lieblingsfach schon immer Mathematik war. Dies lebte er auch in seiner ganzen Schulkarriere mit jährlichen Erfolgen bei der Matheolympiade aus. In den letzten vier Jahren war es immer ein 1. Preis bei der Matheolympiade, bei der Physikolympiade in gleicher Zeit dreimal der 1. Preis. Aktuell kämpft er unter den 40 besten Mathematikern. Trotz dieser Erfolge war er nie ein abgehobenes Genie, sondern überzeugte stets mit Freundlichkeit und Hilfsbereitschaft
-- Frau Schmidt umriss Chiamakas Schullaufbahn. Sie begann mit einem Gedicht, welches Chiamaka mit nur 10 Jahren in der 5. Klasse verfasst hatte: Zeitzer Teich. Es trug sich in der Kindheit wohl öfter zu, dass Chiamakas Vater am Abend das Poesiealbum einziehen musste, sonst hätte Chiamaka wohl die ganze Nacht  hindurch gedichtet. Aber ein solches Sprachtalent am GCG? Natürlich! Chiamakas Interessen sind sehr breit gefächert: das Klavierspiel, Rhönrad fahren, sportliche Erfolge (z.B. als Siegerin beim Wettbewerb Strongest Student, wo sie tags zuvor ihren 1. Platz verteidigt hatte), aber auch Forschung bei Schüler experimentieren und Jugend forscht, wo sie sich regelmäßig Bestplätze sicherte und auch den Sprung bis in die Bundesebene schaffte. Eines ihrer Vorbilder ist dabei Leonardo da Vinci, welcher Wissenschaft und Kunst verband. Bei Jugend forscht stand seit jungen Jahren immer die Nachhaltigkeit ihrer Forschungen mit Emilia und Aurelia im Fokus, teils sogar mit mehreren Arbeiten im selben Wettbewerbsjahr. Weitere Erfolge verzeichnete sie bei IJSO, dem Cybermentorprogramm, der Big Challenge und dem Landeswettbewerb Latein (Certamen Franckianum). Zudem engagierte sie sich immer für unser Schulleben in der Chronik-AG, dem Schülerrat und -beirat, einem Flohmarkt im Rahmen von „Dein Tag für Afrika“ und der Aktionen zum Red Hand Day, wo sie auch zusammen mit Timm den Talk mit Karamba Diaby leitete, als unsere Händesammlung in Richtung Bundestag übergeben wurde. Nach dem Abitur strebt Chiamaka ein Pharmaziestudium an. Zuvor fassen aber die Einschätzungen ihrer Brüder Chiamakas Schulzeit sehr gut zusammen: Sie ist fokussiert, sie gibt nie auf, sie ist immer hilfsbereit und ermutigend.
+> Frau Härtig startete dabei mit den Worten an alle Abiturienten 2025. Sie hob hervor, welch ein vielfältiger Jahrgang unsere aktuellen 12er sind: EIn Jahrgang aus klugen und aktiven Menschen. Sie engagieren sich bei demos, in Vereinen, als Trainer, in Wettbewerben oder auch bei den Bühnen Halle.   
+> Dann berichtete Frau Henke von der Erforschung der DNA und wie die Nukleinsäuren entschlüsselt wurden. Erst nach vielen Jahrzehnten Forschung gelang es zwei jungen Forschern, die Bausteine des Lebens nachzuweisen. Diese ragten aus den zahlreichen anderen Forschern hervor. So sieht sie auch den Abiturjahrgang: Zahlreiche Engagierte, aus denen aber die drei Nominierten noch etwas mehr hervorstechen.   
+> Arthur Ahrens kam erst in der 9. Klasse aus Finnland zu uns an die Schule. In seiner Freizeit widmet er sich mit großer Hingabe dem Karate. Mit einem Schmunzeln berichtete Frau von Seggern, dass er zu keiner der Ethikklausuren mit genügend oder überhaupt Papier erschien. Trotz seiner schulischen Erfolge wollte er nie so richtig im Mittelpunkt stehen. Eine erfragte Liste über Erfolge der Schulzeit kam nur sehr spät und unvollständig. Beispielsweise seine Erfolge bei Jugend forscht und beim Bundeswettbewerb Fremdsprch unterschlug er glatt. Auch von den zahlreichen Erfolgen in der chemie und seine Nachhilfe für Mitschüler freitags in der 9. Stunde waren für ihn eher Nebensächlichkeiten.   
+> Dann stellte uns Frau Härtig Jette Pohl als Nominierte vor. Auch sie betätigt sich im Kampfsport: Thaiboxen. Diese Durchsetzungskraft zeigte sie auch in verschiedenen Wettebwerben, wie beispielsweise dem Landeswettbewerb Latein. Ihre mitreißende und charmante Ader zeigte sie erfolgreich bei Jugend debattiert auf Landesebene und engagierte sich vom Ethikunterricht ausgehend bei der Wärmestube im Steinweg. Auch die Naturwissenschaften deckte sie in zahlreichen Wettbewerben ab: Chemkis, Cybermentor, Internationale Biologie Olympiade und Jugend forscht.   
+> Bei letzterem Wettbewerb war auch immer der dritte Nominierte, Elias Peschek, vertreten. In allen drei Naturwissenschaften konnte Frau Henke Erfolge auf Bundes- und internationaler Ebene aufzählen. Schon seit der 9. Klasse wurde er zu Mannschaftswettbewerben der MINT-Spezialschulen nominiert, obwohl diese eigentlich der Oberstufe vorbehalten sind. Um alle diese Erfolge einfahren, zeigte Elias schon immer ein top Zeitmanagement. Frau Henke erinnerte sich, dass Elias in der 10. Klasse einmal vier Wochen am Stück auf Wettbewerben bzw. in Vorbereitungsworkshops war. Trotzdem gab es bei ihm nie die Ausrede “Das war ich nicht da”. Wenn er im Unterricht war, dann bereichterte er diesen auf beachtliche Weise und hat schon oft Forschungslücken aufgedeckt, aber Frau Henke ist sich sicher, dass er das Potential hat, diese in seinem Leben zu schließen.
+> Anschließend kehrte Frau von Seggern wieder zu Arthur zurück. Sie sagte, dass ein Tag ohen Unternehmung für ihn ein schlechter sei. Er war bereits bei der Karateweltmeisterschaft in Südafrika, errang dort Silber- und Bronzemedialle. Dazu Erfolge bei Jugend musiziert. In seiner Freizeit spielt er Basket- und Volleyball, fährt Fahrrad, ist politisch interessiert. Zum Unterricht erschien er meist erst zwei Minuten vorher, die freie Zeit musste ja ausgeschöpft werden. Zum Einschlafen hört er am Abend gern Wikipediaartikel.
+>
+> Frau Härtig kam zurück zur Herscherin des Raumes, was eine Übersetung der Namensbedeutung von Jette ist. Damit kam sie zum extremen sozialen Engagement von Jette: Kurssprecherin, Mitglied im Abikomitee des Jahrgangs, Klausurzusammenfassungen für Mitschüler schreiben, Jurorin für Jugend debattiert der 8. Klassen. Im Schülerrat organisierte sie vor zwei Jahren den Spendenlauf auf dem Sportfest, packte mit Mitschülern hunderte Weihnachtswichtel im vergangenen Jahr, organisierte zuletzt kurz vor den Vorabis mit Denys den Tag der Kulturen. Bei allen diesen Aktivitäten geben ihre Geschwister großen Rückhalt.   
+> Auch Elias war viele Jahre im Schülerrat aktiv. Über zwei Jahre hinweg war er sogar Schülersprecher und organisierte u.A. die U18 Wahl. Neben der Schule stehen für ihn zehn Trainings pro WOche im Speedskating an. Seit vier Jahren ist er bereits im Bundeskader und errang dort zahlreiche Podiumsplatzierungen. Außerdem pflegt er zwei Bienenvölker. In seiner Schulzeit scheute er es niemals Missstände anzusprechen. Zuletzt bei der Weihnachtsaktion für die Wärmestube, bei der der Ethikkurs zwei Beutel für Obdachtlose zusammenstellen sollte. Dies fand Elias viel zu wenig und motivierte seine Mitschüler zu einem wesentlich größerem Engagement. 
+> Den Abschluss der Laudation übernahm Frau von Seggern. Sie meinte, dass sich hier nun Einzelbilder von großartigen Persönlichkeiten zeigten, aber eigentlich sollte man alle Erfolge zu einem großen Bild zusammensetzen. Deswegen sind alle Nominierten würdige Preisträger für die Verleihung des Cantorpreises
 
-> Chiamaka Okoro: Zeitzer Teich  
-> An einem verlass’nen Ort in Zeitz  
-> Gibt es einen alten Teich  
-> Trostlos schwärzt das Wasser sich  
-> Von der blaugrünen Farbe ist fast nichts mehr übrig  
-> Und wenn die wilden Winde ihr Unwesen treiben  
-> Sich die pechschwarzen Wellen aufbäumen  
-> Doch wenn die Nacht den Tag besiegt  
-> Und der Vollmond sich im Himmel wiegt  
-> Wird es ganz lebendig im Zeitzer Teich  
-> Das Wasser wird wieder an blauer Farbe reich  
-> Der ganze Teich erwacht zum Leben  
-> Aber kein Mensch wird das jemals sehen  
-> Und wenn es doch jemand sehen will  
-> Wird es im Teich für immer still
+Anschließend wurden alle Nominierten von Herrn Dr. Gorsler vor das Publikum gerufen und ihnen wurde mit einem Blumenstrauß zur Nominierung gratuliert. Bevor dann der angekündigte Festvortrag „Astronomisches Wissen aus dem Meer - Der Mechanismus von Antikythera“ begann, begeisterten Isabell Bethin am Klavier und Eleanor Wagenknecht an der Gitarre. 
 
-- „Entschuldigung, ich hätte da nochmal eine Frage“, mit diesen Worten eröffnete Herr Franz die Laudatio für Simon. Diesen Satz äußert Simon regelmäßig im Unterrichtsgeschehen, da er ein noch tieferes und intensiveres Verständnis der Unterrichtsinhalte erlangen will. Dies ist so sehr seine  Komfortzone, dass er nach dem Abitur Lehrer für Chemie und Informatik werden will. Einzig vielleicht im Basketballkurs konnte ihn Herr Franz einmal weit außerhalb der Komfortzone beobachten. Trotzdem hat auch Simon sportliche Talente: In seiner Freizeit ist er ein Meister an Pfeil und Bogen. Schulisch gehörte Simon immer zur Leistungsspitze und blieb dabei immer fröhlich und freundlich. Besonderes Interesse wurde dabei der Chemie gewidmet: Hier errang er regelmäßig große Wettbewerbserfolge und kämpfte rund um die Festveranstaltung in der 3. Runde der IChO in Göttingen. Bis Mittag um 12 Uhr noch dort, 14 Uhr wieder im GCG zur Cantorpreisverleihung und am Nachmittag wieder zurück, da die Wettbewerbsrunde am Freitag nach weiterlief. Schon mit seiner dortigen Teilnahme gehört er zu den 60 besten Nachwuchschemikern Deutschlands. Der chemische Kontext ist auch ein Beispiel für sein soziales Engagement, denn regelmäßig bereitete er Mitschüler auf die IChO vor: Freitags in der 9. Stunde. Weiterhin gestaltete er regelmäßig Projekte im Rahmen des Tages der Kulturen, zuletzt im Rahmen des Red Hand Days. „Entschuldigung, ich hätte da nochmal eine Frage“: auf den ersten Blick manchmal nervig, aber immer ein Anreiz Outside the Box zu denken!
+Im Festvortrag stellten uns Herr Achim Jaroschinsky und Herr Jan Kotschwar einen antiken Kunstschatz vor, welcher 1900 in einem versunkenem Schiff gefunden wurde. Zunächst berichteten sie detailliert über die historischen Vorgänge und Untersuchungen, bevor sie uns die Funktionsweise näher brachten. Der Mechanismus von Antikythera ist mit einer astronomischen Uhr vergleichbar. Mit Zahnrädern und Zifferblättern wurden Zusammenhänge zwischen astronomischen Ereignissen und dem Kalender berechnet. Die genauen Berechnungsmechanismen zeigten und die Festredner in einer Excel-Simulation. 
 
-Anschließend wurden alle Nominierten von Herrn Dr. Gorsler vor das Publikum gerufen und ihnen wurde mit einem Blumenstrauß zur Nominierung gratuliert. Zwischen den Laudationes wurden wir musikalisch von Isabelle, Karolina und der Band des GCG unterhalten.
+Nach dem Vortrag präsentiere die GCG Band als letztes Musikstück Creep von Radiohead. 
 
-Nun konnte Herr Dirk Schlesier (Leiter des Planetariums Halle) in seinen Festvortrag starten. Er zeugte jedoch zuerst Respekt, welch tolle Schülerinnen und Schüler wir haben und wie beeindruckend dieser Festakt der Cantorpreisverleihung ist. Er freut sich, dass das Georg-Cantor-Gymnasium und das Planetarium zukünftig eine Kooperation anstreben. Das Thema seines Vortrags lautete: „Die aktuelle astronomische Forschung und deren Bedeutung für die Menschen“. Dabei hat er über folgende fünf Schwerpunkte berichtet:
-
-1. Sonnenforschung: Wie beeinflusst uns das Weltraumwetter und die aktuell hohe Sonnenaktivität?
-1. Satelliten und Weltraumteleskope: Wie helfen uns diese Mittel, unsere Erde weiter kennenzulernen und das All zu erkunden? Wie gehen wir aber auch mit Weltraumschrott um? Denn langsam wird es an unserem Himmel ziemlich voll …
-1. Raumfahrt: Wie weit stehen die Planungen für eine erste menschliche Mondbasis?
-1. Asteroidenabwehr: Im DART-Projekt wurde zuletzt der Mond eines Asteroiden bezüglich seiner Umlaufbahn beeinflusst. Diese Forschung steckt noch in einem frühen Stadium, aber es zeigt sich, dass sie nötig wird. Erst wenige Tage vor der Preisverleihung stürzte ein kleiner Asteroid auf ein Feld in Deutschland und wurde erst 30 Minuten vor seinem Eintreffen erkannt.
-1. Exoplaneten: In den 1970ern kannten wir noch keinen einzigen Exoplaneten, mittlerweile sind über 5000 bekannt und über 10000 weitere werden untersucht.
-
-Danach stand der Höhepunkt der Veranstaltung an: Der Cantorpreis wurde an Florian verliehen. Bescheiden wie immer, nahm er den Preis an, wartete kurz den Applaus ab und ging dann zurück an seinen Platz. Erst dort wurde er darauf hingewiesen, dass alle noch eine kurze Rede von ihm erwarten. Diese fiel fast schon mathematisch aus: nüchtern, präzise und die wohl kürzeste aller Cantorpreis-Dankesreden bisher.
+Danach stand der Höhepunkt der Veranstaltung an: Der Cantorpreis wurde an Jette verliehen. In ihren Dankesworten hob sie mehrere Personen hervor. Noch viel mehr fielen ihr ein. Jette begann mit Frau Schmidt, welche schon vor einigen Monaten auf Jette zuging und ihr berichtete, dass sie sie für den Cantorpreis nominieren möchte. Zuvor hatte Jette nie darüber nachgedacht, ob sie für diesen Preis infrage käme. Danach dankte sie allen Lehrkräften und ihrem Jahrgang für die breite Unterstützung. Zuletzt dankte sie ihrer Familie, welche in der Vorabi-Zeit viel Kaffee kochte und Lernzettel, Klamotten und Handtaschen in der ganzen Wohnung akzeptierte. Ihr jüngerer Bruder sagte zuletzt: „Jette, du bist ganz schön gemein geworden.“ Ihre Antwort: „Keine Sorge, in zwei Tagen ist das Mathevorabi vorbei. Danach ist alles wieder gut.“
 
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/Cantorpreis" >}}
