@@ -27,11 +27,7 @@ In diesem Jahr waren nominiert:
 - Elias Pescheck
 - Jette Pohl
 
-
-
 {{< gallery dir="/media/blog/Sj2024_2025/Festwoche/Cantorpreis/Nominierte" >}}
-
-
 
 Die Festveranstaltung wurde musikalisch von Arthur Burse (7. Kl.) am Horn und seinem Vater am Klavier mit dem Stück Romance von Camille Saint-Saëns eröffnet. Anschließend spielte Bela Berger (6. Kl.) „Der Vogelfänger bin ich ja“ von Mozart auf der Sopranblockflöte. Danach folgten die Begrüßungsworte unseres Schulleiters Herr Dr. Gorsler:
 
