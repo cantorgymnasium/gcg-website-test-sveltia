@@ -27,6 +27,12 @@ In diesem Jahr waren nominiert:
 - Elias Pescheck
 - Jette Pohl
 
+
+
+{{< gallery dir="/media/blog/Sj2024_2025/Festwoche/Cantorpreis/Nominierte" >}}
+
+
+
 Die Festveranstaltung wurde musikalisch von Arthur Burse (7. Kl.) am Horn und seinem Vater am Klavier mit dem Stück Romance von Camille Saint-Saëns eröffnet. Anschließend spielte Bela Berger (6. Kl.) „Der Vogelfänger bin ich ja“ von Mozart auf der Sopranblockflöte. Danach folgten die Begrüßungsworte unseres Schulleiters Herr Dr. Gorsler:
 
 Im Sinne Cantors berichtete er von einer unendlichen Reise der Schulzeit, welche sich für die 12er nun langsam gen Ende neigt und nun würden doch gern einige die Zeit bis zu den Prüfungen doch noch einmal ins Unendliche dehnen wollen. Der Cantorpreis soll die Leistungen ehren, die während dieser Zeit geschaffen wurden: Kraft des menschlichen Geistes, soziale Leistungen und Wettbewerbe. Anschließend folgten Dankesworte an die Saalesparkasse, welche alljährlich den Cantorpreis (150 €) stiftet, die Heideklause GmbH, welche als unser Essensanbieter das Buffet zum Empfang der Nominierten sowie aller Ehrengäste stellt, und unser Schulförderverein.
