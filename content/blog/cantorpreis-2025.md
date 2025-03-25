@@ -1,7 +1,7 @@
 ---
 title: Cantorpreis 2025
 date: 2025-03-24
-draft: true
+draft: false
 image: /media/blog/Sj2024_2025/cantorpreis-2025-jette-pohl.webp
 author:
   - herr-berger
