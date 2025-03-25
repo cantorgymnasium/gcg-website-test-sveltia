@@ -2,7 +2,7 @@
 title: Erfolge bei der Endrunde der Landesphysikolympiade 2025
 date: 2025-03-13
 draft: false
-image: /media/image.webp
+image: /media/wettbewerbe/pho.webp
 author:
   - herr-plinke
 categories:
