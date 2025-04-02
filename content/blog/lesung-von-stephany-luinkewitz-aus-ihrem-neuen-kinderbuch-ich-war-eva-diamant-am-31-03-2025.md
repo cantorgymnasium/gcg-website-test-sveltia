@@ -1,5 +1,5 @@
 ---
-title: Lesung von Stephany Luinkewitz aus ihrem neuen Kinderbuch "Ich war Eva
+title: Lesung von Stephany Lunkewitz aus ihrem neuen Kinderbuch "Ich war Eva
   Diamant" am 31.03.2025
 date: 2025-04-07
 draft: false
