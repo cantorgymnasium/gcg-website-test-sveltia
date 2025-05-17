@@ -16,6 +16,8 @@ type: post
 ---
 **Die Mannschaft des Georg-Cantor-Gymnasiums erreichte beim Mannschaftswettbewerb Biologie Klasse 9 des Johannes-Kepler-Gymnasiums in Chemnitz am 27. März 2025 mit 131 von 175 Punkten einen 2. Platz.**
 
-- 9. Klasse
+- 9. Klasse: Test
+- 10. Klasse: Test2
+- 
 
 #### Herzlichen Glückwunsch!
